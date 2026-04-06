@@ -21,7 +21,7 @@
 ## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
 1. [Overview / Обзор](#overview--обзор)
-2. [Team / Команда](#team--команда)
+2. [Team / Команда](#research-team--исследовательская-команда)
 3. [Structure / Структура](#structure--структура)
 4. [Security / Безопасность](#security--безопасность)
 5. [Contact / Контакты](#contact-information--контактная-информация)
@@ -48,16 +48,28 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 ---
 
-## TEAM / КОМАНДА
+## RESEARCH TEAM / ИССЛЕДОВАТЕЛЬСКАЯ КОМАНДА
 
-| Observer / Наблюдатель | Role / Роль | Affiliation / Принадлежность |
-|----------------------|------------|----------------------------|
-| **Saveliev Ivan** | Science Director / Директор Науки | ASRP |
-| **User** | Program Director / Директор Программы | ASRP |
-| **Zmeenko Kirill** | AI Specialist / ИИ Специалист | ASRP |
-| **Burilova Tatiana** | Observer / Наблюдатель | ASRP |
-| **Simiretov Vladislav** | Observer / Наблюдатель | ASRP |
-| **Belousova Ekaterina** | Observer / Наблюдатель | ASRP |
+| Name / ФИО | Role / Роль | Responsibilities / Обязанности |
+|-----------|------------|-------------------------------|
+| **Ovsyannikova Valeria / Овсянникова Валерия** | CBE / Biomedical Research Director / Директор департамента биомедицинских исследований | Subject control, media direction / Контроль испытуемых, медийное направление |
+| **Banchenko Denis / Банченко Денис** | CEO / Program Director / Директор Программы | Project coordination / Координация проекта |
+| **Savelyev Ivan / Савельев Иван** | Science Director / Директор Науки | Scientific methodology / Научная методология |
+| **Kapustin Mykhailo / Капустин Михайло** | CTO / IT Director / Директор ИТ | IT infrastructure / ИТ-инфраструктура |
+| **Zmiienko Kyryl / Змиенко Кирилл** | Chief AI Engineer / Главный ИИ-инженер | AI analysis / ИИ-анализ |
+| **Ovsyannikov Alexandr / Овсянников Александр** | IT Specialist / ИТ-специалист | IT support / ИТ-поддержка |
+
+## HSP GROUP / ГРУППА ВСКЧ
+
+**EN:** HSP group (high-sensitivity cognitive participants) involved in object-based psychometric information acquisition protocols.
+
+**RU:** Группа ВСКЧ (участники с высокой когнитивной и сенсорной чувствительностью), задействованные в протоколах психометрического считывания информации с объектов.
+
+| Name / ФИО | Role / Роль |
+|-----------|------------|
+| **Belousova Ekaterina / Белоусова Екатерина** | HSP Observer / Наблюдатель ВСКЧ |
+| **Simiretov Vladislav / Семилетов Владислав** | HSP Observer / Наблюдатель ВСКЧ |
+| **Burilova Tatiana / Бурилова Татьяна** | HSP Observer / Наблюдатель ВСКЧ |
 
 ---
 
@@ -219,4 +231,4 @@ This research operates at the boundary of known science, experimental methodolog
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Team / Команда](#team--команда) · [Structure / Структура](#structure--структура) · [Research Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
+[Overview / Обзор](#overview--обзор) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Research Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
