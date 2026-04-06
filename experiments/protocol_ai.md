@@ -1,4 +1,4 @@
-# 🔬 AI PROTOCOL / ПРОТОКОЛ ИИ
+# AI PROTOCOL / ПРОТОКОЛ ИИ
 # AI Visual & Material Analysis Protocol
 # Протокол ИИ Визуального и Материального Анализа
 
@@ -8,7 +8,7 @@
 
 | Document Type / Тип Документа | Version / Версия | Status / Статус |
 |------------------------------|-----------------|----------------|
-| Experimental Protocol / Экспериментальный Протокол | 1.0.0 | ✅ ACTIVE / АКТИВЕН |
+| Experimental Protocol / Экспериментальный Протокол | 2.0 | ACTIVE / АКТИВЕН |
 
 **Related Repository:** UAP_Reverse_Engineering_Study  
 **Security Level:** RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ
@@ -19,18 +19,18 @@
 
 ---
 
-## 📋 TABLE OF CONTENTS / СОДЕРЖАНИЕ
+## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
-1. [Overview / Обзор](#-overview--обзор)
-2. [AI Models / Модели ИИ](#-ai-models--модели-ии)
-3. [Material Classification / Классификация Материалов](#-material-classification--классификация-материалов)
-4. [3D Reconstruction / 3D Реконструкция](#-3d-reconstruction--3d-реконструкция)
+1. [Overview / Обзор](#overview--обзор)
+2. [AI Models / Модели ИИ](#ai-models--модели-ии)
+3. [Material Classification / Классификация Материалов](#material-classification--классификация-материалов)
+4. [3D Reconstruction / 3D Реконструкция](#3d-reconstruction--3d-реконструкция)
 
 ---
 
-## 🎯 OVERVIEW / ОБЗОР
+## OVERVIEW / ОБЗОР
 
-### 🇬🇧 ENGLISH
+### ENGLISH
 
 The AI Visual & Material Analysis Protocol defines standardized procedures for automated analysis of UAP fragment imagery using advanced computer vision and machine learning techniques.
 
@@ -38,9 +38,9 @@ The AI Visual & Material Analysis Protocol defines standardized procedures for a
 - Extract material properties from photographic evidence
 - Identify structural patterns and anomalies
 - Generate 3D reconstruction from multiple views
-- Produce hypothesis data for convergence analysis
+- Produce hypothesis data for cross-modal comparison
 
-### 🇷🇺 РУССКИЙ
+### РУССКИЙ
 
 Протокол ИИ Визуального и Материального Анализа определяет стандартизированные процедуры для автоматизированного анализа изображений фрагмента НЛО с использованием продвинутых методов компьютерного зрения и машинного обучения.
 
@@ -48,20 +48,20 @@ The AI Visual & Material Analysis Protocol defines standardized procedures for a
 - Извлечение свойств материала из фотографических доказательств
 - Идентификация структурных паттернов и аномалий
 - Генерация 3D реконструкции из множественных видов
-- Производство данных гипотез для анализа конвергенции
+- Формирование гипотез для межмодального сравнения
 
 ---
 
-## 🖼️ AI MODELS / МОДЕЛИ ИИ
+## AI MODELS / МОДЕЛИ ИИ
 
 ### Computer Vision Models / Модели Компьютерного Зрения
 
 | Model / Модель | Type / Тип | Purpose / Назначение | Status / Статус |
 |---------------|-----------|---------------------|----------------|
-| **CNN Feature Extractor** | ResNet50 | Pattern detection / Обнаружение паттернов | 🔵 Active |
-| **Vision Transformer** | ViT-B/16 | Global context / Глобальный контекст | 🔵 Active |
-| **Material Classifier** | EfficientNet-B4 | Material prediction / Предсказание материала | 🟡 Development |
-| **Anomaly Detector** | Autoencoder | Unusual features / Необычные признаки | 🔵 Active |
+| **CNN Feature Extractor** | ResNet50 | Pattern detection / Обнаружение паттернов | Active / Активен |
+| **Vision Transformer** | ViT-B/16 | Global context analysis / Анализ глобального контекста | Active / Активен |
+| **Material Classifier** | EfficientNet-B4 | Presumptive material classification / Предположительная классификация материала | Development / Разработка |
+| **Anomaly Detector** | Autoencoder | Unusual feature detection / Обнаружение необычных признаков | Active / Активен |
 
 ### Model Specifications / Спецификации Моделей
 
@@ -74,7 +74,7 @@ The AI Visual & Material Analysis Protocol defines standardized procedures for a
 
 ---
 
-## 📊 MATERIAL CLASSIFICATION / КЛАССИФИКАЦИЯ МАТЕРИАЛОВ
+## MATERIAL CLASSIFICATION / КЛАССИФИКАЦИЯ МАТЕРИАЛОВ
 
 ### Material Taxonomy / Таксономия Материалов
 
@@ -109,7 +109,7 @@ Unknown Material / Неизвестный Материал
 
 ---
 
-## 🏗️ 3D RECONSTRUCTION / 3D РЕКОНСТРУКЦИЯ
+## 3D RECONSTRUCTION / 3D РЕКОНСТРУКЦИЯ
 
 ### Reconstruction Pipeline / Конвейер Реконструкции
 
@@ -142,7 +142,7 @@ Multi-View Images ──► Feature Matching ──► Point Cloud ──► Mes
 
 ---
 
-## 📈 QUALITY METRICS / МЕТРИКИ КАЧЕСТВА
+## QUALITY METRICS / МЕТРИКИ КАЧЕСТВА
 
 | Metric / Метрика | Target / Цель | Current / Текущий |
 |-----------------|--------------|------------------|
@@ -153,7 +153,7 @@ Multi-View Images ──► Feature Matching ──► Point Cloud ──► Mes
 
 ---
 
-## 📁 OUTPUT FORMAT / ФОРМАТ ВЫВОДА
+## OUTPUT FORMAT / ФОРМАТ ВЫВОДА
 
 ### Standard AI Analysis Report / Стандартный Отчёт Анализа ИИ
 
@@ -166,7 +166,7 @@ Multi-View Images ──► Feature Matching ──► Point Cloud ──► Mes
 |-------------|------------------|
 | **Analysis ID** | AI-YYYY-MM-DD-XXX |
 | **Date** | YYYY-MM-DD |
-| **Model Version** | v1.0.0 |
+| **Analysis Pipeline Version** | 2.0 |
 
 ## Material Analysis / Анализ Материала
 
@@ -192,11 +192,11 @@ Multi-View Images ──► Feature Matching ──► Point Cloud ──► Mes
 
 ---
 
-## 📁 DOCUMENT CONTROL / УПРАВЛЕНИЕ ДОКУМЕНТАМИ
+## DOCUMENT CONTROL / УПРАВЛЕНИЕ ДОКУМЕНТАМИ
 
 | Version / Версия | Date / Дата | Changes / Изменения | Author / Автор |
 |-----------------|------------|--------------------|---------------|
-| 1.0.0 | 2026-03-31 | Initial release / Первоначальный выпуск | ASRP AI Team |
+| 2.0 | 2026-04-06 | Terminology, formatting, and version synchronization / Синхронизация терминологии, форматирования и версии | ASRP AI Team |
 
 ---
 

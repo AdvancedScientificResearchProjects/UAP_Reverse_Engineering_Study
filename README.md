@@ -52,12 +52,12 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 | Name / ФИО | Role / Роль | Responsibilities / Обязанности |
 |-----------|------------|-------------------------------|
-| **Ovsyannikova Valeria / Овсянникова Валерия** | CBE / Biomedical Research Director / Директор департамента биомедицинских исследований | Subject control, media direction / Контроль испытуемых, медийное направление |
-| **Banchenko Denis / Банченко Денис** | CEO / Program Director / Директор Программы | Project coordination / Координация проекта |
-| **Savelyev Ivan / Савельев Иван** | Science Director / Директор Науки | Scientific methodology / Научная методология |
-| **Kapustin Mykhailo / Капустин Михайло** | CTO / IT Director / Директор ИТ | IT infrastructure / ИТ-инфраструктура |
-| **Zmiienko Kyryl / Змиенко Кирилл** | Chief AI Engineer / Главный ИИ-инженер | AI analysis / ИИ-анализ |
+| **Ovsyannikova Valeria / Овсянникова Валерия** | Director of Biomedical Research Department / Директор департамента биомедицинских исследований | Reverse engineering, partial reproduction of individual device functions, subject control / Обратная инженерия, воспроизведение отдельных функций устройства, контроль испытуемых |
+| **Savelyev Ivan / Савельев Иван** | Science Director & Editor-in-Chief of ASRP.science / Директор по науке и главный редактор научного журнала ASRP.science | Scientific methodology, peer review / Научная методология, рецензирование |
+| **Kapustin Mykhailo / Капустин Михайло** | CTO & Director of AI and IT Department / Технический директор и директор департамента искусственного интеллекта и информационных технологий | AI infrastructure, IT systems / Инфраструктура ИИ, ИТ-системы |
+| **Zmiienko Kyryl / Змиенко Кирилл** | Chief AI Engineer / Главный ИИ-инженер | AI analysis, data validation, ECP protocol design / ИИ-анализ, валидация данных, дизайн протокола КП |
 | **Ovsyannikov Alexandr / Овсянников Александр** | IT Specialist / ИТ-специалист | IT support / ИТ-поддержка |
+| **Banchenko Denis / Банченко Денис** | Program Director, Author of Research Methodology & Technology / Директор программы, автор методологии и технологии исследования | Project coordination, methodology design / Координация проекта, дизайн методологии |
 
 ## HSP GROUP / ГРУППА ВСКЧ
 
@@ -67,9 +67,9 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 | Name / ФИО | Role / Роль |
 |-----------|------------|
-| **Belousova Ekaterina / Белоусова Екатерина** | HSP Observer / Наблюдатель ВСКЧ |
-| **Simiretov Vladislav / Семилетов Владислав** | HSP Observer / Наблюдатель ВСКЧ |
-| **Burilova Tatiana / Бурилова Татьяна** | HSP Observer / Наблюдатель ВСКЧ |
+| **Belousova Ekaterina / Белоусова Екатерина** | HSP Percipient / Перципиент ВСКЧ |
+| **Simiretov Vladislav / Семилетов Владислав** | HSP Percipient / Перципиент ВСКЧ |
+| **Burilova Tatyana / Бурилова Татьяна** | HSP Percipient / Перципиент ВСКЧ |
 
 ---
 
@@ -79,32 +79,19 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 UAP_Reverse_Engineering_Study/
 │
 ├── README.md                          # Main documentation / Главная документация
-├── LICENSE                            # Research license / Лицензия исследования
-├── SECURITY.md                        # Security protocol / Протокол безопасности
-│
 ├── experiments/                       # Experimental protocols / Экспериментальные протоколы
 │   ├── protocol_ecp.md                # ECP protocol / Протокол КП
 │   └── protocol_ai.md                 # AI protocol / Протокол ИИ
 │
-├── docs/                              # Documentation / Документация
-│   ├── theory.md                      # Theoretical framework / Теоретическая основа
-│   └── references.md                  # References / Ссылки
-│
-├── data/                              # Research data / Исследовательские данные
-│   ├── raw/                           # Raw data / Необработанные данные
-│   └── processed/                     # Processed data / Обработанные данные
-│
 ├── analysis/                          # Analysis reports / Отчёты анализа
 │   ├── cross_comparison.md            # Cross-pipeline comparison / Сравнение конвейеров
-│   └── hypothesis_models.md           # Hypothesis models / Модели гипотез
+│   └── ecp_validation_report.md       # ECP validation report / Отчёт валидации КП
 │
 ├── reports/                           # Research reports / Исследовательские отчёты
-│   ├── observer_reports/              # Observer reports / Отчёты наблюдателей
-│   └── ai_reports/                    # AI reports / Отчёты ИИ
-│
-└── hardware/                          # Hardware documentation / Документация оборудования
-    ├── imaging_systems.md             # Imaging systems / Системы визуализации
-    └── calibration.md                 # Calibration records / Записи калибровки
+│   └── percipient_reports/            # Percipient reports / Отчёты перципиентов
+│       ├── ECP-2026-04-04-001-vladislav.md
+│       ├── ECP-2026-04-04-002-ekaterina.md
+│       └── ECP-2026-04-04-003-tatyana.md
 ```
 
 ---
@@ -156,7 +143,6 @@ UAP_Reverse_Engineering_Study/
 | **Hyperbolic Field DAAT Crystal Study** | Crystal-human interaction / Взаимодействие кристалл-человек | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) |
 | **Hyperbolic Field Saccharomyces Study** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
 | **ASRP.art** | Art & consciousness / Искусство и сознание | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Axionetic_Sensing_Reactions_Platform_in_Art) |
-| **PLFM RADAR** | Phased array radar / Фазированная антенная решётка | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/PLFM_RADAR) |
 
 <div align="center">
 
@@ -209,12 +195,12 @@ This research operates at the boundary of known science, experimental methodolog
 
 ### РУССКИЙ
 
-Это исследование работает на границе известного науки, экспериментальных методологий и нестандартных исследований восприятия. Все выводы являются предварительными и подлежат валидации.
+Это исследование работает на границе известной науки, экспериментальных методологий и нестандартных исследований восприятия. Все выводы являются предварительными и подлежат валидации.
 
 ---
 
-**Last Updated / Последнее Обновление:** 2026-03-31
-**Version / Версия:** 1.0.0
+**Last Updated / Последнее Обновление:** 2026-04-06
+**Version / Версия:** 2.0
 **Status / Статус:** ACTIVE / АКТИВЕН
 
 ---
