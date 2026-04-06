@@ -1,5 +1,5 @@
 # UAP REVERSE ENGINEERING STUDY
-# ИССЛЕДОВАНИЕ ПО РЕВЕРС-ИНЖИНИРИНГУ НЛО
+# ИССЛЕДОВАНИЕ ПО РЕВЕРС-ИНЖИНИРИНГУ НАЯ
 
 ---
 
@@ -47,7 +47,7 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 ### РУССКИЙ
 
-Многослойное научное исследование фрагмента НЛО с 3 аналитическими конвейерами:
+Многослойное научное исследование фрагмента НАЯ (неопознанного аномального явления) с 3 аналитическими конвейерами:
 
 1. **ИИ-анализ визуальных и материальных характеристик**
 2. **Архивный и сравнительный анализ**
@@ -91,15 +91,15 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 ```mermaid
 flowchart TB
-    A[UAP-FRAG-001<br/>artifact imagery] --> B[AI visual and material analysis]
-    A --> C[Archival and comparative analysis]
-    A --> D[ECP percipient sessions]
-    D --> E[Three recorded percipient reports]
-    E --> F[Cross-response comparison]
-    B --> G[Material and structure hypotheses]
-    C --> H[Context and provenance hypotheses]
-    F --> I[Reference validation]
-    G --> J[Cross-pipeline synthesis]
+    A[UAP-FRAG-001<br/>artifact imagery<br/>изображение артефакта] --> B[AI visual and material analysis<br/>ИИ-анализ визуальных и материальных характеристик]
+    A --> C[Archival and comparative analysis<br/>Архивный и сравнительный анализ]
+    A --> D[ECP percipient sessions<br/>КП-сеансы перципиентов]
+    D --> E[Three recorded percipient reports<br/>Три зафиксированных отчёта перципиентов]
+    E --> F[Cross-response comparison<br/>Сравнение ответов]
+    B --> G[Material and structure hypotheses<br/>Гипотезы о материале и структуре]
+    C --> H[Context and provenance hypotheses<br/>Гипотезы о контексте и происхождении]
+    F --> I[Reference validation<br/>Валидация по референсу]
+    G --> J[Cross-pipeline synthesis<br/>Межконвейерный синтез]
     H --> J
     I --> J
 ```
@@ -115,11 +115,11 @@ flowchart TB
 | Metric / Метрика | Value / Значение | Interpretation / Интерпретация |
 |------------------|------------------|--------------------------------|
 | **Percipient count / Число перципиентов** | 3 | Small exploratory session / Малый поисковый сеанс |
-| **All-response repeated themes / Темы, повторяющиеся во всех ответах** | 4 | Beacon-like function, larger system, no consciousness, non-terrestrial origin |
-| **Exact-or-partial coverage / Покрытие точными и частичными совпадениями** | 9/10 | Broad descriptive overlap with disclosed reference |
-| **Direct contradiction count / Число прямых противоречий** | 1 | Flight vs stationary placement |
-| **Undetected reference property / Необнаруженное свойство референса** | 1 | Variable radioactivity |
-| **Later participants with compromised blinding / Более поздние участники с нарушенным ослеплением** | 2/3 | Limits independent interpretation |
+| **All-response repeated themes / Темы, повторяющиеся во всех ответах** | 4 | Beacon-like function, larger system, no consciousness, non-terrestrial origin / Маяковая функция, часть большей системы, отсутствие сознания, внеземное происхождение |
+| **Exact-or-partial coverage / Покрытие точными и частичными совпадениями** | 9/10 | Broad descriptive overlap with disclosed reference / Широкое описательное пересечение с раскрытым референсом |
+| **Direct contradiction count / Число прямых противоречий** | 1 | Flight vs stationary placement / Полёт vs стационарное размещение |
+| **Undetected reference property / Необнаруженное свойство референса** | 1 | Variable radioactivity / Переменная радиоактивность |
+| **Later participants with compromised blinding / Более поздние участники с нарушенным ослеплением** | 2/3 | Limits independent interpretation / Ограничивает независимую интерпретацию |
 
 ---
 
@@ -155,30 +155,30 @@ flowchart TB
 
 ```mermaid
 sequenceDiagram
-    participant M as Moderator
-    participant V as Vladislav
-    participant E as Ekaterina
-    participant T as Tatyana
+    participant M as Moderator / Модератор
+    participant V as Vladislav / Владислав
+    participant E as Ekaterina / Екатерина
+    participant T as Tatyana / Татьяна
 
-    M->>V: Prompt first
-    V-->>M: Raw response
-    M->>E: Prompt after Vladislav
-    Note right of E: Heard Vladislav
-    E-->>M: Response
-    M->>T: Prompt after Vladislav and Ekaterina
-    Note right of T: Heard both earlier responses
-    T-->>M: Response
+    M->>V: Prompt first / Запрос первым
+    V-->>M: Raw response / Ответ
+    M->>E: Prompt after Vladislav / Запрос после Владислава
+    Note right of E: Heard Vladislav / Слышала Владислава
+    E-->>M: Response / Ответ
+    M->>T: Prompt after both / Запрос после обоих
+    Note right of T: Heard both / Слышала оба ответа
+    T-->>M: Response / Ответ
 ```
 
 ### Evidence Synthesis Flow / Схема синтеза доказательств
 
 ```mermaid
 flowchart LR
-    A[Raw percipient statements] --> B[Normalized themes]
-    B --> C[Cross-response agreement]
-    C --> D[Reference validation]
-    D --> E[Repository-level hypotheses]
-    A --> F[Primary reports]
+    A[Raw percipient statements<br/>Необработанные утверждения перципиентов] --> B[Normalized themes<br/>Нормализованные темы]
+    B --> C[Cross-response agreement<br/>Согласованность ответов]
+    C --> D[Reference validation<br/>Валидация по референсу]
+    D --> E[Repository-level hypotheses<br/>Гипотезы на уровне репозитория]
+    A --> F[Primary reports<br/>Первичные отчёты]
     F --> C
 ```
 
@@ -188,15 +188,15 @@ flowchart LR
 
 ```mermaid
 timeline
-    title UAP ECP Session and Analysis Timeline
-    section Data collection
-        2026-04-04 : ECP-001 Vladislav
-        2026-04-04 : ECP-002 Ekaterina
-        2026-04-04 : ECP-003 Tatyana
-    section Analysis
-        2026-04-06 : Cross-comparison assembled
-        2026-04-06 : Validation report assembled
-        2026-04-06 : Visual evidence package added to README
+    title UAP ECP Session and Analysis Timeline / Хронология сеанса и анализа КП
+    section Data collection / Сбор данных
+        2026-04-04 : ECP-001 Vladislav / Владислав
+        2026-04-04 : ECP-002 Ekaterina / Екатерина
+        2026-04-04 : ECP-003 Tatyana / Татьяна
+    section Analysis / Анализ
+        2026-04-06 : Cross-comparison assembled / Сравнение собрано
+        2026-04-06 : Validation report assembled / Отчёт валидации собран
+        2026-04-06 : Visual evidence added / Визуализация добавлена
 ```
 
 ---
@@ -259,10 +259,10 @@ UAP_Reverse_Engineering_Study/
 
 | Level / Уровень | Access / Доступ | Marking / Маркировка | Description / Описание |
 |----------------|-----------------|---------------------|----------------------|
-| **PUBLIC** | Open / Открытый | GREEN | General information / Общая информация |
-| **RESEARCH** | Team Only / Только команда | YELLOW | Research data / Исследовательские данные |
-| **RESTRICTED** | Core Team / Основная команда | RED | Sensitive analysis / Конфиденциальный анализ |
-| **CLASSIFIED** | Director Only / Только директор | BLACK | Classified data / Секретные данные |
+| **PUBLIC / ПУБЛИЧНЫЙ** | Open / Открытый | GREEN / ЗЕЛЁНЫЙ | General information / Общая информация |
+| **RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ** | Team Only / Только команда | YELLOW / ЖЁЛТЫЙ | Research data / Исследовательские данные |
+| **RESTRICTED / ОГРАНИЧЕННЫЙ** | Core Team / Основная команда | RED / КРАСНЫЙ | Sensitive analysis / Конфиденциальный анализ |
+| **CLASSIFIED / СЕКРЕТНЫЙ** | Director Only / Только директор | BLACK / ЧЁРНЫЙ | Classified data / Секретные данные |
 
 ---
 
@@ -270,9 +270,9 @@ UAP_Reverse_Engineering_Study/
 
 | Pipeline / Конвейер | Description / Описание | Status / Статус |
 |---------------------|----------------------|----------------|
-| **AI Analysis** | Computer vision, material estimation | Active |
-| **Archival** | Database comparison, pattern matching | Active |
-| **ECP** | Human perception protocols | Active |
+| **AI Analysis / ИИ-анализ** | Computer vision, material estimation / Компьютерное зрение, оценка материала | Active / Активен |
+| **Archival / Архивный** | Database comparison, pattern matching / Сравнение по базам данных, поиск паттернов | Active / Активен |
+| **ECP / КП** | Human perception protocols / Протоколы восприятия человека | Active / Активен |
 
 ---
 
@@ -335,8 +335,8 @@ UAP_Reverse_Engineering_Study/
 | Purpose / Цель | Contact / Контакт |
 |---------------|------------------|
 | **General Inquiries / Общие вопросы** | info@asrp.tech |
-| **Research Collaboration / Научное сотрудничество** | research@asrp.tech |
-| **Security Issues / Безопасность** | security@asrp.tech |
+| **Research Collaboration / Научное сотрудничество** | info@asrp.tech |
+| **Security Issues / Безопасность** | info@asrp.tech |
 
 ---
 
