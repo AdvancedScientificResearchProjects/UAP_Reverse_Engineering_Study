@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">ECP Response Agreement Matrix</title>
+  <desc id="desc">A descriptive matrix of repeated themes across the three recorded ECP responses.</desc>
+  <rect width="1280" height="760" fill="#fbfbf8"/>
+  <text x="40" y="52" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2937">ECP Response Agreement Matrix</text>
+  <text x="40" y="82" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4b5563">Descriptive overlap across recorded responses. Not a claim of independent convergence.</text>
+
+  <rect x="40" y="108" width="18" height="18" fill="#9ad17b" stroke="#64748b"/>
+  <text x="66" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#334155">present / clear</text>
+  <rect x="200" y="108" width="18" height="18" fill="#f6c85f" stroke="#64748b"/>
+  <text x="226" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#334155">partial / broad match</text>
+  <rect x="420" y="108" width="18" height="18" fill="#d9d9d9" stroke="#64748b"/>
+  <text x="446" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#334155">absent / no signal</text>
+  <rect x="600" y="108" width="18" height="18" fill="#f29c99" stroke="#64748b"/>
+  <text x="626" y="122" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#334155">contradictory / low confidence</text>
+
+  <rect x="40" y="160" width="420" height="42" fill="#1f2937"/>
+  <rect x="460" y="160" width="170" height="42" fill="#1f2937"/>
+  <rect x="630" y="160" width="170" height="42" fill="#1f2937"/>
+  <rect x="800" y="160" width="170" height="42" fill="#1f2937"/>
+  <rect x="970" y="160" width="270" height="42" fill="#1f2937"/>
+  <text x="58" y="187" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Theme</text>
+  <text x="496" y="187" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Vladislav</text>
+  <text x="661" y="187" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Ekaterina</text>
+  <text x="836" y="187" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Tatyana</text>
+  <text x="1012" y="187" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Agreement level</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#111827">
+    <rect x="40" y="202" width="420" height="56" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="460" y="202" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="630" y="202" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="800" y="202" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="202" width="270" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <text x="58" y="236">Signal / beacon-like function</text>
+    <text x="1060" y="236" font-weight="700">MEDIUM</text>
+
+    <rect x="40" y="258" width="420" height="56" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="460" y="258" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="630" y="258" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="800" y="258" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="258" width="270" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <text x="58" y="292">Part of a larger system</text>
+    <text x="1084" y="292" font-weight="700">HIGH</text>
+
+    <rect x="40" y="314" width="420" height="56" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="460" y="314" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="630" y="314" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="800" y="314" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="314" width="270" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <text x="58" y="348">No autonomous consciousness</text>
+    <text x="1084" y="348" font-weight="700">HIGH</text>
+
+    <rect x="40" y="370" width="420" height="56" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="460" y="370" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="630" y="370" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="800" y="370" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="370" width="270" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <text x="58" y="404">Non-terrestrial origin</text>
+    <text x="1060" y="404" font-weight="700">MEDIUM</text>
+
+    <rect x="40" y="426" width="420" height="56" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="460" y="426" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="630" y="426" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="800" y="426" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="970" y="426" width="270" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <text x="58" y="460">Non-standard mineral / material</text>
+    <text x="1060" y="460" font-weight="700">MEDIUM</text>
+
+    <rect x="40" y="482" width="420" height="56" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="460" y="482" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="630" y="482" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="800" y="482" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="482" width="270" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <text x="58" y="516">Upward channel / above ajna-sahasrara</text>
+    <text x="1084" y="516" font-weight="700">HIGH</text>
+
+    <rect x="40" y="538" width="420" height="56" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="460" y="538" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="630" y="538" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="800" y="538" width="170" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <rect x="970" y="538" width="270" height="56" fill="#9ad17b" stroke="#cbd5e1"/>
+    <text x="58" y="572">No direct danger perceived</text>
+    <text x="1084" y="572" font-weight="700">HIGH</text>
+
+    <rect x="40" y="594" width="420" height="56" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect x="460" y="594" width="170" height="56" fill="#f29c99" stroke="#cbd5e1"/>
+    <rect x="630" y="594" width="170" height="56" fill="#f6c85f" stroke="#cbd5e1"/>
+    <rect x="800" y="594" width="170" height="56" fill="#d9d9d9" stroke="#cbd5e1"/>
+    <rect x="970" y="594" width="270" height="56" fill="#d9d9d9" stroke="#cbd5e1"/>
+    <text x="58" y="628">Dynamic movement / flight</text>
+    <text x="1088" y="628" font-weight="700">LOW</text>
+  </g>
+
+  <text x="40" y="696" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">Source basis: analysis/cross_comparison.md, session ECP-2026-04-04.</text>
+  <text x="40" y="720" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#475569">Interpretive caution: Ekaterina and Tatyana heard earlier responses during the same group call.</text>
+</svg>
