@@ -1,4 +1,4 @@
-# 🔬 ECP PROTOCOL / ПРОТОКОЛ КП
+# ECP PROTOCOL / ПРОТОКОЛ КП
 # Extended Cognitive Perception Protocol
 # Протокол Расширенного Когнитивного Восприятия
 
@@ -8,7 +8,7 @@
 
 | Document Type / Тип Документа | Version / Версия | Status / Статус |
 |------------------------------|-----------------|----------------|
-| Experimental Protocol / Экспериментальный Протокол | 1.0.0 | ✅ ACTIVE / АКТИВЕН |
+| Experimental Protocol / Экспериментальный Протокол | 2.0 | ACTIVE / АКТИВЕН |
 
 **Related Repository:** UAP_Reverse_Engineering_Study  
 **Security Level:** RESTRICTED / ОГРАНИЧЕННЫЙ ДОСТУП
@@ -19,64 +19,64 @@
 
 ---
 
-## 📋 TABLE OF CONTENTS / СОДЕРЖАНИЕ
+## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
-1. [Purpose / Назначение](#-purpose--назначение)
-2. [Observer Levels / Уровни Наблюдателей](#-observer-levels--уровни-наблюдателей)
-3. [Reporting Format / Формат Отчётности](#-reporting-format--формат-отчётности)
-4. [Convergence Analysis / Анализ Конвергенции](#-convergence-analysis--анализ-конвергенции)
+1. [Purpose / Назначение](#purpose--назначение)
+2. [Percipient Levels / Уровни Перципиентов](#percipient-levels--уровни-перципиентов)
+3. [Reporting Format / Формат Отчётности](#reporting-format--формат-отчётности)
+4. [Convergence Analysis / Анализ Конвергенции](#convergence-analysis--анализ-конвергенции)
 
 ---
 
-## 🎯 PURPOSE / НАЗНАЧЕНИЕ
+## PURPOSE / НАЗНАЧЕНИЕ
 
-### 🇬🇧 ENGLISH
+### ENGLISH
 
-The Extended Cognitive Perception (ECP) Protocol establishes standardized procedures for collecting, documenting, and analyzing perceptual data from qualified observers under controlled conditions.
+The Extended Cognitive Perception (ECP) Protocol establishes standardized procedures for collecting, documenting, and analyzing perceptual data from qualified percipients under controlled conditions.
 
 **Key Objectives:**
 - Collect structured perceptual impressions of the UAP fragment
 - Normalize subjective reports into comparable datasets
-- Identify cross-observer convergence patterns
+- Identify cross-percipient convergence patterns
 - Generate hypothesis data for multi-modal analysis
 
-### 🇷🇺 РУССКИЙ
+### РУССКИЙ
 
-Протокол Расширенного Когнитивного Восприятия (КП) устанавливает стандартизированные процедуры для сбора, документирования и анализа данных восприятия от квалифицированных наблюдателей в контролируемых условиях.
+Протокол Расширенного Когнитивного Восприятия (КП) устанавливает стандартизированные процедуры для сбора, документирования и анализа данных восприятия от квалифицированных перципиентов в контролируемых условиях.
 
 **Ключевые Задачи:**
 - Сбор структурированных впечатлений восприятия фрагмента НЛО
 - Нормализация субъективных отчётов в сопоставимые наборы данных
-- Идентификация паттернов конвергенции между наблюдателями
+- Идентификация паттернов конвергенции между перципиентами
 - Генерация данных гипотез для мультимодального анализа
 
 ---
 
-## 👥 OBSERVER LEVELS / УРОВНИ НАБЛЮДАТЕЛЕЙ
+## PERCIPIENT LEVELS / УРОВНИ ПЕРЦИПИЕНТОВ
 
 ### Classification / Классификация
 
 | Level / Уровень | Designation / Обозначение | Criteria / Критерии |
 |----------------|-------------------------|--------------------|
-| **L1** | Lead Observer / Ведущий Наблюдатель | Science Director, primary interpretation authority |
-| **L2** | Primary Observer / Основной Наблюдатель | Program Director, full session participation |
-| **L3** | Technical Observer / Технический Наблюдатель | AI Specialist, technical analysis focus |
-| **L4** | Secondary Observer / Вторичный Наблюдатель | Invited observers, controlled sessions |
+| **L1** | Lead Percipient / Ведущий Перципиент | Science Director, primary interpretation authority |
+| **L2** | Primary Percipient / Основной Перципиент | Program Director, full session participation |
+| **L3** | Technical Percipient / Технический Перципиент | AI Specialist, technical analysis focus |
+| **L4** | Secondary Percipient / Вторичный Перципиент | Invited percipients, controlled sessions |
 
-### Current Observer Team / Текущая Команда Наблюдателей
+### Current Percipient Team / Текущая Команда Перципиентов
 
 | Name / ФИО | Level / Уровень | Role / Роль |
 |-----------|----------------|------------|
-| **Saveliev Ivan** | L1 | Lead Observer / Ведущий Наблюдатель |
-| **User** | L2 | Primary Observer / Основной Наблюдатель |
-| **Zmeenko Kirill** | L3 | Technical Observer / Технический Наблюдатель |
-| **Burilova Tatiana** | L4 | Secondary Observer / Вторичный Наблюдатель |
-| **Simiretov Vladislav** | L4 | Secondary Observer / Вторичный Наблюдатель |
-| **Belousova Ekaterina** | L4 | Secondary Observer / Вторичный Наблюдатель |
+| **Saveliev Ivan / Савельев Иван** | L1 | Lead Percipient / Ведущий Перципиент |
+| **Banchenko Denis / Банченко Денис** | L2 | Primary Percipient / Основной Перципиент |
+| **Zmiienko Kyryl / Змиенко Кирилл** | L3 | Technical Percipient / Технический Перципиент |
+| **Burilova Tatyana / Бурилова Татьяна** | L4 | Secondary Percipient / Вторичный Перципиент |
+| **Simiretov Vladislav / Семилетов Владислав** | L4 | Secondary Percipient / Вторичный Перципиент |
+| **Belousova Ekaterina / Белоусова Екатерина** | L4 | Secondary Percipient / Вторичный Перципиент |
 
 ---
 
-## 📝 REPORTING FORMAT / ФОРМАТ ОТЧЁТНОСТИ
+## REPORTING FORMAT / ФОРМАТ ОТЧЁТНОСТИ
 
 ### Standardized Reporting Fields / Стандартизированные Поля Отчёта
 
@@ -92,13 +92,13 @@ The Extended Cognitive Perception (ECP) Protocol establishes standardized proced
 ### Report Template / Шаблон Отчёта
 
 ```markdown
-# ECP OBSERVER REPORT / ОТЧЁТ НАБЛЮДАТЕЛЯ КП
+# ECP PERCIPIENT REPORT / ОТЧЁТ ПЕРЦИПИЕНТА КП
 
 ## Session Information / Информация Сессии
 
 | Field / Поле | Value / Значение |
 |-------------|------------------|
-| **Observer / Наблюдатель** | [Name / ФИО] |
+| **Percipient / Перципиент** | [Name / ФИО] |
 | **Session ID / ID Сессии** | ECP-YYYY-MM-DD-XXX |
 | **Date / Дата** | YYYY-MM-DD |
 | **Duration / Длительность** | XX minutes |
@@ -124,13 +124,13 @@ The Extended Cognitive Perception (ECP) Protocol establishes standardized proced
 
 ---
 
-**Observer Signature / Подпись:** ___________________
+**Percipient Signature / Подпись:** ___________________
 **Date / Дата:** YYYY-MM-DD
 ```
 
 ---
 
-## 🎯 CONVERGENCE ANALYSIS / АНАЛИЗ КОНВЕРГЕНЦИИ
+## CONVERGENCE ANALYSIS / АНАЛИЗ КОНВЕРГЕНЦИИ
 
 ### Convergence Thresholds / Пороги Конвергенции
 
@@ -140,14 +140,14 @@ The Extended Cognitive Perception (ECP) Protocol establishes standardized proced
 | **MEDIUM / СРЕДНИЙ** | 0.4-0.7 (40-70%) | Secondary consideration / Вторичное рассмотрение |
 | **LOW / НИЗКИЙ** | <0.4 (<40%) | Requires additional data / Требуются дополнительные данные |
 
-### Cross-Observer Validation / Валидация Между Наблюдателями
+### Cross-Percipient Validation / Валидация Между Перципиентами
 
 ```
-                    Observer 2
+                    Percipient 2
                   │  Yes  │  No   │
         ──────────┼───────┼───────┤
         Yes       │  TP   │  FP   │
-Observer 1        ├───────┼───────┤
+Percipient 1        ├───────┼───────┤
         No        │  FN   │  TN   │
                   └───────┴───────┘
 
@@ -159,7 +159,7 @@ TN = True Negative (True Divergence)
 
 ---
 
-## 📊 DATA NORMALIZATION / НОРМАЛИЗАЦИЯ ДАННЫХ
+## DATA NORMALIZATION / НОРМАЛИЗАЦИЯ ДАННЫХ
 
 ### Conversion Matrix / Матрица Конверсии
 
@@ -172,11 +172,11 @@ TN = True Negative (True Divergence)
 
 ---
 
-## 📁 DOCUMENT CONTROL / УПРАВЛЕНИЕ ДОКУМЕНТАМИ
+## DOCUMENT CONTROL / УПРАВЛЕНИЕ ДОКУМЕНТАМИ
 
 | Version / Версия | Date / Дата | Changes / Изменения | Author / Автор |
 |-----------------|------------|--------------------|---------------|
-| 1.0.0 | 2026-03-31 | Initial release / Первоначальный выпуск | ASRP Research Team |
+| 2.0 | 2026-04-06 | Terminology, structure, and version synchronization / Синхронизация терминологии, структуры и версии | ASRP Research Team |
 
 ---
 
