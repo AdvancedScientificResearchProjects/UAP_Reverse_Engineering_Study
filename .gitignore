@@ -1,0 +1,6 @@
+data/processed/*.npy
+data/processed/*.png
+data/raw/
+__pycache__/
+*.pyc
+pipeline/.venv/
