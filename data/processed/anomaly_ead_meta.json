@@ -1,0 +1,9 @@
+{
+  "method": "placeholder \u2014 gradient-based heuristic",
+  "status": "LIMITED \u2014 EfficientAD requires training set, unavailable for single-image analysis",
+  "note": "Gradient magnitude map only shows texture edges, not true anomalies. No anomaly threshold is calibrated. Use for visualization only.",
+  "gradient_mean": 0.1794,
+  "gradient_std": 0.1152,
+  "gradient_p95": 0.3987,
+  "gradient_cv": 0.6418
+}

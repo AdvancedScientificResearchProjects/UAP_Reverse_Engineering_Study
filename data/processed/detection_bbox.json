@@ -1,0 +1,42 @@
+{
+  "bbox": [
+    246,
+    288,
+    418,
+    458
+  ],
+  "score": 0.42411381006240845,
+  "label": "unusual stone artifact metallic fragment mineral specimen",
+  "all_detections": [
+    {
+      "bbox": [
+        246,
+        288,
+        418,
+        458
+      ],
+      "score": 0.42411381006240845,
+      "label": "unusual stone artifact metallic fragment mineral specimen"
+    },
+    {
+      "bbox": [
+        248,
+        290,
+        416,
+        457
+      ],
+      "score": 0.3642120361328125,
+      "label": "metallic fragment mineral specimen"
+    },
+    {
+      "bbox": [
+        224,
+        270,
+        441,
+        481
+      ],
+      "score": 0.2989005148410797,
+      "label": "unusual stone artifact metallic fragment mineral specimen"
+    }
+  ]
+}

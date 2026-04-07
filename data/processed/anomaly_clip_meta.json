@@ -1,0 +1,57 @@
+{
+  "model": "openai/clip-vit-large-patch14",
+  "method": "CLIP zero-shot (AnomalyCLIP proxy)",
+  "scoring": "softmax \u2014 scores are relative probabilities among all prompts, not absolute confidence",
+  "normal_prompts_count": 3,
+  "abnormal_prompts_count": 6,
+  "normal_score": 0.7553,
+  "abnormal_score": 0.2447,
+  "is_anomalous": false,
+  "prompt_scores": [
+    {
+      "prompt": "a smooth uniform surface",
+      "score": 0.0259,
+      "type": "normal"
+    },
+    {
+      "prompt": "a natural stone surface",
+      "score": 0.2916,
+      "type": "normal"
+    },
+    {
+      "prompt": "a regular material texture",
+      "score": 0.4378,
+      "type": "normal"
+    },
+    {
+      "prompt": "unusual surface pattern with non-biological regularity",
+      "score": 0.2201,
+      "type": "abnormal"
+    },
+    {
+      "prompt": "non-natural geometric structure",
+      "score": 0.0143,
+      "type": "abnormal"
+    },
+    {
+      "prompt": "engineered micro-texture with mechanical precision",
+      "score": 0.0002,
+      "type": "abnormal"
+    },
+    {
+      "prompt": "anomalous material boundary between different substances",
+      "score": 0.0015,
+      "type": "abnormal"
+    },
+    {
+      "prompt": "artificial grooves with perfectly uniform spacing",
+      "score": 0.0022,
+      "type": "abnormal"
+    },
+    {
+      "prompt": "synthetic surface markings or inscriptions",
+      "score": 0.0063,
+      "type": "abnormal"
+    }
+  ]
+}

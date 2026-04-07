@@ -1,0 +1,10 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "depth_range": [
+    1.3955078125,
+    5.6171875
+  ],
+  "artifact_center_depth": 0.5608,
+  "artifact_edge_depth": 0.2536,
+  "surface_appears_convex": true
+}
