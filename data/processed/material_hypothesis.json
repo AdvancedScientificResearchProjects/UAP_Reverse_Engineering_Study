@@ -1,0 +1,52 @@
+{
+  "model": "google/siglip2-so400m-patch14-384",
+  "method": "SigLIP2 zero-shot",
+  "primary_hypothesis": {
+    "family": "Biological / Organic",
+    "score": 0.98,
+    "confidence": "HIGH",
+    "best_prompt": "a coral or sea urchin fossil"
+  },
+  "all_families": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.98,
+      "best_prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.008,
+      "best_prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.0067,
+      "best_prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.0062,
+      "best_prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Ceramic / Oxide",
+      "score": 0.0042,
+      "best_prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Metallic / Non-ferrous-like",
+      "score": 0.0022,
+      "best_prompt": "a tarnished silver object"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.0004,
+      "best_prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Ferrous-like",
+      "score": 0.0001,
+      "best_prompt": "a corroded ferrous metal fragment"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "original_size": [
+    720,
+    1280
+  ],
+  "processed_size": [
+    576,
+    1024
+  ],
+  "source": "UAP-FRAG-001.jpg",
+  "output": "/home/liker/asrp-audit/UAP_Reverse_Engineering_Study/data/processed/preprocessed.png"
+}

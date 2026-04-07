@@ -1,0 +1,13 @@
+{
+  "model": "facebook/dinov2-large",
+  "cls_shape": [
+    1,
+    1024
+  ],
+  "patch_shape": [
+    1,
+    256,
+    1024
+  ],
+  "cls_norm": 45.855960845947266
+}

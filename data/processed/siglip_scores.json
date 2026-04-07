@@ -1,0 +1,55 @@
+{
+  "model": "google/siglip2-so400m-patch14-384",
+  "scores": [
+    {
+      "prompt": "a fossilized biological specimen",
+      "score": 0.4805
+    },
+    {
+      "prompt": "an unknown material with regular surface ridges",
+      "score": 0.0554
+    },
+    {
+      "prompt": "a volcanic rock with surface patterns",
+      "score": 0.0266
+    },
+    {
+      "prompt": "a meteorite fragment",
+      "score": 0.0114
+    },
+    {
+      "prompt": "a slag or industrial byproduct",
+      "score": 0.0101
+    },
+    {
+      "prompt": "a mineral specimen with crystalline structure",
+      "score": 0.0084
+    },
+    {
+      "prompt": "a natural stone with erosion patterns",
+      "score": 0.0024
+    },
+    {
+      "prompt": "an oxidized metal artifact",
+      "score": 0.0015
+    },
+    {
+      "prompt": "a corroded copper or bronze artifact",
+      "score": 0.0014
+    },
+    {
+      "prompt": "a ceramic fragment with geometric patterns",
+      "score": 0.001
+    },
+    {
+      "prompt": "a metallic fragment with unusual surface texture",
+      "score": 0.0007
+    },
+    {
+      "prompt": "an engineered metamaterial sample",
+      "score": 0.0
+    }
+  ],
+  "top1_prompt": "a fossilized biological specimen",
+  "top1_score": 0.4805
+}
