@@ -5,7 +5,7 @@
 | Field / Поле | Value / Значение |
 |-------------|------------------|
 | **Document Type / Тип Документа** | Experimental Protocol / Экспериментальный Протокол |
-| **Version / Версия** | 3.0 |
+| **Version / Версия** | 3.1 |
 | **Status / Статус** | ACTIVE / АКТИВЕН |
 | **Repository / Репозиторий** | UAP_Reverse_Engineering_Study |
 | **Security Level / Уровень доступа** | RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ |

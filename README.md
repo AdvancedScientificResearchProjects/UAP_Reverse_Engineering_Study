@@ -67,7 +67,7 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | **Partial or indirect matches / Частичные или косвенные совпадения** | 2/10 | Descriptive / Описательно |
 | **Complete misses / Полные промахи** | 1/10 | Descriptive / Описательно |
 | **Repeated themes across all 3 responses / Повторяющиеся темы во всех 3 ответах** | 4 | Descriptive / Описательно |
-| **Known methodological limitation / Известное методологическое ограничение** | Compromised blinding for 2 later participants / Нарушенное ослепление для 2 более поздних участников | Critical / Критично |
+| **Known methodological limitation / Известное методологическое ограничение** | Compromised blinding for 2 later percipients / Нарушенное ослепление для 2 более поздних перципиентов | Critical / Критично |
 | **Protocol version / Версия протокола** | 2.0 | Synchronized / Синхронизировано |
 
 ---
@@ -84,6 +84,11 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | [Cross Comparison / Сравнение Ответов](analysis/cross_comparison.md) | Detailed descriptive overlap analysis / Детальный анализ пересечения ответов | Available / Доступно |
 | [Validation Report / Отчёт Валидации](analysis/ecp_validation_report.md) | Parameter-level check against disclosed reference / Проверка по параметрам против раскрытого референса | Available / Доступно |
 | [Percipient Reports / Отчёты Перципиентов](reports/percipient_reports/) | Primary session records / Первичные записи сеанса | Available / Доступно |
+| [AI Analysis Reports / Отчёты ИИ-анализа](reports/ai_reports/) | AI visual and material analysis results / Результаты ИИ-анализа | Available / Доступно |
+| [AI Report: CV Pipeline / Отчёт ИИ: CV конвейер](reports/ai_reports/AI-2026-04-07-001.md) | Segmentation, SigLIP2, anomaly detection, depth / Сегментация, SigLIP2, аномалии, глубина | Available / Доступно |
+| [AI Report: LLM Visual / Отчёт ИИ: LLM визуальный](reports/ai_reports/AI-2026-04-07-001-llm-visual.md) | LLM-based visual identification / LLM-визуальная идентификация | Available / Доступно |
+| [ECP Protocol / Протокол КП](experiments/protocol_ecp.md) | Percipient session protocol / Протокол сеансов перципиентов | v2.0 |
+| [AI Protocol / Протокол ИИ](experiments/protocol_ai.md) | AI analysis pipeline protocol / Протокол конвейера ИИ-анализа | v3.0 |
 
 ---
 
@@ -119,7 +124,7 @@ flowchart TB
 | **Exact-or-partial coverage / Покрытие точными и частичными совпадениями** | 9/10 | Broad descriptive overlap with disclosed reference / Широкое описательное пересечение с раскрытым референсом |
 | **Direct contradiction count / Число прямых противоречий** | 1 | Flight vs stationary placement / Полёт vs стационарное размещение |
 | **Undetected reference property / Необнаруженное свойство референса** | 1 | Variable radioactivity / Переменная радиоактивность |
-| **Later participants with compromised blinding / Более поздние участники с нарушенным ослеплением** | 2/3 | Limits independent interpretation / Ограничивает независимую интерпретацию |
+| **Later percipients with compromised blinding / Более поздние перципиенты с нарушенным ослеплением** | 2/3 | Limits independent interpretation / Ограничивает независимую интерпретацию |
 
 ---
 
@@ -127,13 +132,13 @@ flowchart TB
 
 | Hypothesis / Гипотеза | Current Status / Текущий статус | Basis / Основание |
 |-----------------------|---------------------------------|-------------------|
-| **Artifact functions as a signal or navigation component / Артефакт выполняет сигнальную или навигационную функцию** | Supported / Поддержано | Repeated in all 3 responses; exact or partial match to reference |
-| **Artifact is part of a larger system / Артефакт является частью более крупной системы** | Strongly supported / Сильно поддержано | Exact match in all 3 responses |
-| **Artifact is a non-autonomous tool / Артефакт является неавтономным инструментом** | Strongly supported / Сильно поддержано | Exact match in all 3 responses |
-| **Artifact origin is non-terrestrial / Происхождение артефакта внеземное** | Repeated theme / Повторяющаяся тема | Present in all 3 responses, but with divergent details |
-| **Material is non-standard and mineral-like / Материал нестандартный и минеральноподобный** | Partial support / Частичная поддержка | Broad overlap only; precise "biometal" identification absent |
-| **Artifact relates to temporal navigation / Артефакт связан с темпоральной навигацией** | Weak indirect support / Слабая косвенная поддержка | Present only in Tatyana's wording |
-| **Artifact has detectable radioactivity via ECP / Артефакт имеет обнаруживаемую через КП радиоактивность** | Not supported / Не поддержано | No percipient detected it |
+| **Artifact functions as a signal or navigation component / Артефакт выполняет сигнальную или навигационную функцию** | Supported / Поддержано | Repeated in all 3 responses; exact or partial match to reference / Повторяется во всех 3 ответах; точное или частичное совпадение с референсом |
+| **Artifact is part of a larger system / Артефакт является частью более крупной системы** | Repeated in all responses / Повторяется во всех ответах | Exact match in all 3 responses / Точное совпадение во всех 3 ответах |
+| **Artifact is a non-autonomous tool / Артефакт является неавтономным инструментом** | Repeated in all responses / Повторяется во всех ответах | Exact match in all 3 responses / Точное совпадение во всех 3 ответах |
+| **Artifact origin is non-terrestrial / Происхождение артефакта внеземное** | Repeated theme / Повторяющаяся тема | Present in all 3 responses, but with divergent details / Присутствует во всех 3 ответах, но с расходящимися деталями |
+| **Material is non-standard and mineral-like / Материал нестандартный и минеральноподобный** | Partial support / Частичная поддержка | Broad overlap only; precise "biometal" identification absent / Только широкое пересечение; точная идентификация "биометалла" отсутствует |
+| **Artifact relates to temporal navigation / Артефакт связан с темпоральной навигацией** | Weak indirect support / Слабая косвенная поддержка | Present only in Tatyana's wording / Присутствует только в формулировке Татьяны |
+| **Artifact has detectable radioactivity via ECP / Артефакт имеет обнаруживаемую через КП радиоактивность** | Not supported / Не поддержано | No percipient detected it / Ни один перципиент не обнаружил |
 
 ---
 
@@ -184,19 +189,49 @@ flowchart LR
 
 ---
 
+## AI / CV ANALYSIS RESULTS / РЕЗУЛЬТАТЫ ИИ / CV АНАЛИЗА
+
+### AI Pipeline Summary / Сводка конвейера ИИ
+
+```mermaid
+flowchart LR
+    A[UAP-FRAG-001<br/>Input photo<br/>Входное фото] --> B[Segmentation<br/>Сегментация<br/>IoU 0.977]
+    B --> C[SigLIP2<br/>coral/sea urchin fossil<br/>коралл/окаменелость<br/>0.98 sigmoid]
+    B --> D[EfficientAD<br/>No surface anomalies<br/>Аномалий не обнаружено]
+    B --> E[Depth Anything<br/>Relative depth map<br/>Карта глубины]
+    C --> F[LLM Visual<br/>Cidaridae match<br/>Совпадение Cidaridae]
+    F --> G[Cross-method convergence<br/>Межметодная конвергенция<br/>AI + ECP: coral-like]
+```
+
+### Key AI Findings / Ключевые результаты ИИ
+
+| Finding / Находка | Confidence / Уверенность | Method / Метод | Report / Отчёт |
+|-------------------|-------------------------|---------------|----------------|
+| Biological/coral material family / Биологический/коралловый тип | 0.98 sigmoid | SigLIP2 | [AI-2026-04-07-001](reports/ai_reports/AI-2026-04-07-001.md) |
+| Sea urchin fossil (Cidaridae) visual match / Визуальное совпадение Cidaridae | High / Высокая | LLM visual | [AI-2026-04-07-001-llm](reports/ai_reports/AI-2026-04-07-001-llm-visual.md) |
+| No surface anomalies detected / Поверхностные аномалии не обнаружены | Expected / Ожидаемо | EfficientAD + CLIP | [AI-2026-04-07-001](reports/ai_reports/AI-2026-04-07-001.md) |
+| Converges with ECP data ("coral-like") / Совпадает с КП ("коралловое") | Cross-method / Межметодное | AI + ECP | [Cross-comparison](analysis/cross_comparison.md) |
+
+> **Limitation / Ограничение:** RGB analysis cannot determine chemical composition, alloy type, or radioactivity. See [AI Protocol v3.0](experiments/protocol_ai.md#limitations--ограничения). / RGB-анализ не может определить химсостав, тип сплава или радиоактивность. См. [Протокол ИИ v3.0](experiments/protocol_ai.md#limitations--ограничения).
+
+---
+
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
 ```mermaid
 timeline
-    title UAP ECP Session and Analysis Timeline / Хронология сеанса и анализа КП
-    section Data collection / Сбор данных
+    title UAP Research Timeline
+    section ECP Data collection
         2026-04-04 : ECP-001 Vladislav / Владислав
         2026-04-04 : ECP-002 Ekaterina / Екатерина
         2026-04-04 : ECP-003 Tatyana / Татьяна
-    section Analysis / Анализ
-        2026-04-06 : Cross-comparison assembled / Сравнение собрано
-        2026-04-06 : Validation report assembled / Отчёт валидации собран
-        2026-04-06 : Visual evidence added / Визуализация добавлена
+    section ECP Analysis
+        2026-04-06 : Cross-comparison / Сравнение
+        2026-04-06 : Validation report / Отчёт валидации
+    section AI Analysis
+        2026-04-07 : AI CV pipeline run / Запуск ИИ-конвейера
+        2026-04-07 : LLM visual analysis / LLM визуальный анализ
+        2026-04-07 : AI report published / Отчёт ИИ опубликован
 ```
 
 ---
@@ -214,9 +249,9 @@ timeline
 
 ## HSP GROUP / ГРУППА ВСКЧ
 
-**EN:** HSP group (high-sensitivity cognitive participants) involved in object-based psychometric information acquisition protocols.
+**EN:** HSP group (high-sensitivity cognitive percipients) involved in object-based psychometric information acquisition protocols.
 
-**RU:** Группа ВСКЧ (участники с высокой когнитивной и сенсорной чувствительностью), задействованные в протоколах психометрического считывания информации с объектов.
+**RU:** Группа ВСКЧ (перципиенты с высокой когнитивной и сенсорной чувствительностью), задействованные в протоколах психометрического считывания информации с объектов.
 
 | Name / ФИО | Role / Роль |
 |-----------|------------|
@@ -245,10 +280,23 @@ UAP_Reverse_Engineering_Study/
 │   └── ecp_validation_report.md       # ECP validation report / Отчёт валидации КП
 │
 ├── reports/                           # Research reports / Исследовательские отчёты
-│   └── percipient_reports/            # Percipient reports / Отчёты перципиентов
-│       ├── ECP-2026-04-04-001-vladislav.md
-│       ├── ECP-2026-04-04-002-ekaterina.md
-│       └── ECP-2026-04-04-003-tatyana.md
+│   ├── percipient_reports/            # Percipient reports / Отчёты перципиентов
+│   │   ├── ECP-2026-04-04-001-vladislav.md
+│   │   ├── ECP-2026-04-04-002-ekaterina.md
+│   │   └── ECP-2026-04-04-003-tatyana.md
+│   └── ai_reports/                    # AI analysis reports / Отчёты ИИ-анализа
+│       ├── AI-2026-04-07-001.md
+│       └── AI-2026-04-07-001-llm-visual.md
+│
+├── data/                              # Research data / Исследовательские данные
+│   ├── raw/                           # Raw input data / Необработанные данные
+│   └── processed/                     # Pipeline output / Результаты конвейера
+│
+├── docs/                              # Documentation / Документация
+│
+├── hardware/                          # Hardware documentation / Документация оборудования
+│
+└── pipeline/                          # Analysis pipeline code / Код конвейера анализа
 ```
 
 ---
@@ -356,15 +404,13 @@ This research operates at the boundary of known science, experimental methodolog
 
 ---
 
-**Last Updated / Последнее Обновление:** 2026-04-06
+**Last Updated / Последнее Обновление:** 2026-04-08
 **Version / Версия:** 2.0
 **Status / Статус:** ACTIVE / АКТИВЕН
 
 ---
 
 **ASRP RESEARCH STANDARD v2.1**
-*Maximum structure, clarity, and analytical rigor*
-*Максимальная структура, ясность и аналитическая строгость*
 
 ---
 

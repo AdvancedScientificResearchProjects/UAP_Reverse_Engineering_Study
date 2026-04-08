@@ -19,7 +19,7 @@ After all percipient assessments were collected, the Program Director disclosed 
 
 ---
 
-## 2. PARTICIPANTS / УЧАСТНИКИ
+## 2. PERCIPIENTS / УЧАСТНИКИ
 
 | Name / ФИО | Role / Роль | Blind Status / Статус ослепления |
 |-----------|------------|--------------------------------|
@@ -80,8 +80,8 @@ Disclosed by Program Director after completion of all percipient assessments:
 | **Shared themes across all 3 responses / Общие темы во всех 3 ответах** | 4 parameters: beacon function, part of system, no consciousness, non-terrestrial |
 | **Incorrect assertions / Некорректные утверждения** | 1 — Vladislav: dynamic flight (object is stationary) |
 
-These counts are descriptive only and do not establish independent convergence because blinding was compromised for two participants.  
-Эти показатели носят описательный характер и не доказывают независимую конвергенцию, поскольку ослепление было нарушено для двух участников.
+These counts are descriptive only and do not establish independent convergence because blinding was compromised for two percipients.  
+Эти показатели носят описательный характер и не доказывают независимую конвергенцию, поскольку ослепление было нарушено для двух перципиентов.
 
 ### 4.3. Percipient Accuracy Ranking / Рейтинг точности перципиентов
 
@@ -157,7 +157,7 @@ These counts are descriptive only and do not establish independent convergence b
 1. **Individual sessions only** — no group calls, no exposure to other percipient data
 2. **Include control objects** — ordinary stones/artifacts mixed in to calibrate
 3. **Record session timing** — exact start/end for all percipients
-4. **Formalize pre-session state** for all percipients (Ekaterina's was not recorded)
+4. **Formalize pre-session state for all percipients / Формализовать фиксацию состояния перед сеансом для всех перципиентов**
 
 ---
 
@@ -173,7 +173,7 @@ The primary methodological limitation was compromised blinding due to sequential
 
 Сеанс КП ECP-2026-04-04 показал заметную согласованность ответов по нескольким ключевым характеристикам объекта. Основная функция (навигационный маяк), принадлежность к системе, отсутствие сознания и внеземное происхождение повторились во всех трёх зафиксированных ответах. Описательный итог по точности составил 70% точных совпадений и 90% точных или частичных совпадений относительно раскрытых референсных данных.
 
-Основным методологическим ограничением было нарушение ослепления из-за последовательного группового опроса. С учётом этого ограничения и крайне малого числа участников результаты следует трактовать как предварительные описательные наблюдения. В этих пределах сеанс поддерживает использование подхода КП как структурированного инструмента генерации гипотез в рамках исследовательской программы ASRP, а не как самостоятельной валидации.
+Основным методологическим ограничением было нарушение ослепления из-за последовательного группового опроса. С учётом этого ограничения и крайне малого числа перципиентов результаты следует трактовать как предварительные описательные наблюдения. В этих пределах сеанс поддерживает использование подхода КП как структурированного инструмента генерации гипотез в рамках исследовательской программы ASRP, а не как самостоятельной валидации.
 
 ---
 
