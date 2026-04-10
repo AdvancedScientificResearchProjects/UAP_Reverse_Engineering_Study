@@ -255,12 +255,37 @@ However, three observations warrant further investigation:
 
 ## 9. RAW DATA / СЫРЫЕ ДАННЫЕ
 
+### Control Images / Контрольные изображения
 
-- Control images: `data/raw/control-images/`
-- HQ fossil images: `data/raw/control-images/`
-- JSON results: `data/processed/control-test-results.json`, `data/processed/control-hq-results.json`
-- Color analysis: OpenCV HSV center-crop analysis
-- Statistical calculations: numpy (mean, median, std, z-score)
+All images stored in [`data/raw/control-images/`](../../data/raw/control-images/):
+Все изображения хранятся в [`data/raw/control-images/`](../../data/raw/control-images/):
+
+| ID | File / Файл | Group / Группа |
+|----|------------|---------------|
+| Test | [`artifact-uap-frag-001.jpg`](../../data/raw/control-images/artifact-uap-frag-001.jpg) | Test subject / Объект исследования |
+| A1 | [`dark-urchin-hq-1.jpg`](../../data/raw/control-images/dark-urchin-hq-1.jpg) | Similar fossil / Похожая окаменелость |
+| A2 | [`fossil-cidaroida-carboniferous.jpg`](../../data/raw/control-images/fossil-cidaroida-carboniferous.jpg) | Similar fossil / Похожая окаменелость |
+| A3 | [`fossil-sea-urchin-field.jpg`](../../data/raw/control-images/fossil-sea-urchin-field.jpg) | Similar fossil / Похожая окаменелость |
+| A4 | [`fossil-cidaroida-triassic.jpg`](../../data/raw/control-images/fossil-cidaroida-triassic.jpg) | Similar fossil / Похожая окаменелость |
+| A5 | [`fossil-echinoid-cretaceous.jpg`](../../data/raw/control-images/fossil-echinoid-cretaceous.jpg) | Similar fossil / Похожая окаменелость |
+| A6 | [`control-fossil-2.jpg`](../../data/raw/control-images/control-fossil-2.jpg) | Similar fossil (thumbnail) / Похожая (миниатюра) |
+| B1 | [`control-1-cidaridae.jpg`](../../data/raw/control-images/control-1-cidaridae.jpg) | Dissimilar bio / Непохожий биологический |
+| B2 | [`control-fossil-0.jpg`](../../data/raw/control-images/control-fossil-0.jpg) | Dissimilar bio / Непохожий биологический |
+| B3 | [`dark-urchin-hq-0.jpg`](../../data/raw/control-images/dark-urchin-hq-0.jpg) | Dissimilar bio / Непохожий биологический |
+| B4 | [`urchin-test-clean.jpg`](../../data/raw/control-images/urchin-test-clean.jpg) | Dissimilar bio / Непохожий биологический |
+| B5 | [`cidaridae-test-no-spines.jpg`](../../data/raw/control-images/cidaridae-test-no-spines.jpg) | Dissimilar bio / Непохожий биологический |
+| C1 | [`control-metal-0.jpg`](../../data/raw/control-images/control-metal-0.jpg) | Negative / Негативный |
+| C2 | [`control-stone-0.jpg`](../../data/raw/control-images/control-stone-0.jpg) | Negative / Негативный |
+
+### JSON Results / Результаты JSON
+
+- [`data/processed/control-test-results.json`](../../data/processed/control-test-results.json)
+- [`data/processed/control-hq-results.json`](../../data/processed/control-hq-results.json)
+
+### Methods / Методы
+
+- Color analysis / Анализ цвета: OpenCV HSV center-crop
+- Statistical calculations / Статистика: numpy (mean, median, std, z-score)
 
 ---
 
