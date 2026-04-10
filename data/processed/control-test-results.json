@@ -1,0 +1,254 @@
+{
+  "UAP-FRAG-001 (full photograph)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.8911974430084229,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.012851618230342865,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.0010609951568767428,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.0003771756018977612,
+      "prompt": "a tarnished silver object"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.00014727945381309837,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Ceramic",
+      "score": 9.645873797126114e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Polymeric",
+      "score": 2.5929175535566173e-05,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 4.938293386658188e-06,
+      "prompt": "a corroded ferrous metal fragment"
+    }
+  ],
+  "Control: Fossil echinoid #2 (round, most similar)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.9962210059165955,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.00208561890758574,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.001005731988698244,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.0005786570836789906,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 8.589828212279826e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 5.721852357964963e-05,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 2.5606970666558482e-05,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 1.3498621456164983e-06,
+      "prompt": "a corroded ferrous metal fragment"
+    }
+  ],
+  "Control: Fossil echinoid #0 (scientific plate)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.14069928228855133,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.0007615652866661549,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.0007453929865732789,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.0005705772200599313,
+      "prompt": "a corroded copper or bronze artifact"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 0.0001277243427466601,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.00011349144187988713,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 4.413229544297792e-05,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Ceramic",
+      "score": 3.353399006300606e-05,
+      "prompt": "a ceramic fragment with glaze"
+    }
+  ],
+  "Control: Cidaridae living specimen": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.2092500925064087,
+      "prompt": "a calcified biological specimen"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.007748670410364866,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.0008677014848217368,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.00044715916737914085,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 3.846758772851899e-05,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 3.246880442020483e-05,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 1.0480882338015363e-05,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 4.316644890423049e-07,
+      "prompt": "a piece of fired clay pottery"
+    }
+  ],
+  "Control: Rusty metal in ground": [
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.022223537787795067,
+      "prompt": "a corroded copper or bronze artifact"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 0.003671622835099697,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.00021191647101659328,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Biological / Organic",
+      "score": 8.109644841169938e-05,
+      "prompt": "a calcified biological specimen"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 3.543604907463305e-05,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 2.6902873287326656e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 2.043711174337659e-05,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 2.37946119341359e-06,
+      "prompt": "a synthetic material with unusual microstructure"
+    }
+  ],
+  "Control: Mineral deposits on stone": [
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.09834656864404678,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 0.06714260578155518,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.023562580347061157,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Biological / Organic",
+      "score": 0.022552529349923134,
+      "prompt": "a calcified biological specimen"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.01200343668460846,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.006578543689101934,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Ceramic",
+      "score": 0.0009061123710125685,
+      "prompt": "a ceramic fragment with glaze"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.00010868548997677863,
+      "prompt": "a synthetic material with unusual microstructure"
+    }
+  ]
+}
