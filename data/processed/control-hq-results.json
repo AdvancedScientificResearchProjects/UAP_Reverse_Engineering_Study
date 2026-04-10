@@ -1,0 +1,296 @@
+{
+  "UAP-FRAG-001 (163KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.8911974430084229,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.012851618230342865,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.0010609951568767428,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.0003771756018977612,
+      "prompt": "a tarnished silver object"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.00014727945381309837,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Ceramic",
+      "score": 9.645873797126114e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Polymeric",
+      "score": 2.5929175535566173e-05,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 4.938293386658188e-06,
+      "prompt": "a corroded ferrous metal fragment"
+    }
+  ],
+  "HQ: Cidaridae test no spines (176KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.03540538623929024,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 9.518654405837879e-05,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 8.515432273270562e-05,
+      "prompt": "a tarnished silver object"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 7.647363963769749e-05,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Polymeric",
+      "score": 3.8633977965218946e-05,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Ceramic",
+      "score": 2.042927735601552e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 3.9076185203157365e-06,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 4.6735615910620254e-07,
+      "prompt": "a corroded ferrous metal fragment"
+    }
+  ],
+  "HQ: Fossil Cidaroida Carboniferous (504KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.7800789475440979,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.0047398158349096775,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.0008385421242564917,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.0003082572657149285,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 9.131192200584337e-05,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 8.201006858143955e-05,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 6.518126610899344e-05,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 9.239211067324504e-06,
+      "prompt": "a ceramic fragment with glaze"
+    }
+  ],
+  "HQ: Fossil Cidaroida Triassic (417KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.7068023085594177,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.01834973506629467,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.003695460967719555,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.0010824059136211872,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 0.0010186489671468735,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.0009185050730593503,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.00031360986758954823,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 2.842204412445426e-05,
+      "prompt": "a ceramic fragment with glaze"
+    }
+  ],
+  "HQ: Fossil Echinoid Cretaceous (15KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.4440990388393402,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Ceramic",
+      "score": 0.40055540204048157,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Polymeric",
+      "score": 0.08739315718412399,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 0.03962000086903572,
+      "prompt": "an oxidized aluminum fragment"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.030534813180565834,
+      "prompt": "a quartz or feldspar crystal"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 0.006013637408614159,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 0.0006489546503871679,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 3.380285852472298e-05,
+      "prompt": "a corroded ferrous metal fragment"
+    }
+  ],
+  "HQ: Fossil sea urchin field (172KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.7419888973236084,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.00039092107908800244,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 8.852271275827661e-05,
+      "prompt": "a corroded copper or bronze artifact"
+    },
+    {
+      "family": "Polymeric",
+      "score": 5.7687950175022706e-05,
+      "prompt": "a piece of resin or plastic"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 4.560667366604321e-05,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 2.4339782612514682e-05,
+      "prompt": "a piece of fired clay pottery"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 1.0925872629741207e-05,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 6.6058050833817106e-06,
+      "prompt": "a synthetic material with unusual microstructure"
+    }
+  ],
+  "HQ: Urchin test clean (178KB)": [
+    {
+      "family": "Biological / Organic",
+      "score": 0.06484030932188034,
+      "prompt": "a coral or sea urchin fossil"
+    },
+    {
+      "family": "Mineral / Crystalline",
+      "score": 0.00016777700511738658,
+      "prompt": "a crystalline mineral specimen"
+    },
+    {
+      "family": "Exotic / Metamaterial",
+      "score": 8.494491339661181e-05,
+      "prompt": "a synthetic material with unusual microstructure"
+    },
+    {
+      "family": "Metallic / Non-ferrous",
+      "score": 5.6201632105512545e-05,
+      "prompt": "a corroded copper or bronze artifact"
+    },
+    {
+      "family": "Polymeric",
+      "score": 1.9771330698858947e-05,
+      "prompt": "a synthetic polymer fragment"
+    },
+    {
+      "family": "Metallic / Ferrous",
+      "score": 1.2097850230929907e-05,
+      "prompt": "a corroded ferrous metal fragment"
+    },
+    {
+      "family": "Mineral / Amorphous",
+      "score": 9.815078556130175e-06,
+      "prompt": "a volcanic glass fragment"
+    },
+    {
+      "family": "Ceramic",
+      "score": 1.1472970982140396e-06,
+      "prompt": "a piece of fired clay pottery"
+    }
+  ]
+}
