@@ -8,5 +8,5 @@
     1024
   ],
   "source": "UAP-FRAG-001.jpg",
-  "output": "/home/liker/asrp-audit/UAP_Reverse_Engineering_Study/data/processed/preprocessed.png"
+  "output": "data/processed/preprocessed.png"
 }
