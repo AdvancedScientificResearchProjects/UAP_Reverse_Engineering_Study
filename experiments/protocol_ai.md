@@ -374,4 +374,4 @@ This protocol describes the target model stack. The current pipeline implementat
 ---
 
 **ASRP RESEARCH STANDARD v2.1**
-*AI Visual & Material Analysis Protocol v3.0 / Протокол визуального и материалового анализа ИИ v3.0*
+*AI Visual & Material Analysis Protocol v3.1 / Протокол визуального и материалового анализа ИИ v3.1*
