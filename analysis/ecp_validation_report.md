@@ -3,6 +3,16 @@
 
 ---
 
+## Related Documents / Связанные Документы
+
+- [Cross Comparison / Сравнение Конвейеров](cross_comparison.md)
+- Percipient reports / Отчёты перципиентов:
+  [Vladislav](../reports/percipient_reports/ECP-2026-04-04-001-vladislav.md),
+  [Ekaterina](../reports/percipient_reports/ECP-2026-04-04-002-ekaterina.md),
+  [Tatyana](../reports/percipient_reports/ECP-2026-04-04-003-tatyana.md)
+
+---
+
 ## 1. OVERVIEW / ОБЗОР
 
 ### EN
