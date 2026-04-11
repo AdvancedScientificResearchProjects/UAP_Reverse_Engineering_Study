@@ -87,8 +87,9 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | [AI Analysis Reports / Отчёты ИИ-анализа](reports/ai_reports/) | AI visual and material analysis results / Результаты ИИ-анализа | Available / Доступно |
 | [AI Report: CV Pipeline / Отчёт ИИ: CV конвейер](reports/ai_reports/AI-2026-04-07-001.md) | Segmentation, SigLIP2, anomaly detection, depth / Сегментация, SigLIP2, аномалии, глубина | Available / Доступно |
 | [AI Report: LLM Visual / Отчёт ИИ: LLM визуальный](reports/ai_reports/AI-2026-04-07-001-llm-visual.md) | LLM-based visual identification / LLM-визуальная идентификация | Available / Доступно |
+| [AI Report: Control Test / Отчёт ИИ: Контрольный Тест](reports/ai_reports/AI-2026-04-09-control-test.md) | SigLIP2 control validation with 14 reference images / Валидация SigLIP2 на 14 контрольных изображениях | Available / Доступно |
 | [ECP Protocol / Протокол КП](experiments/protocol_ecp.md) | Percipient session protocol / Протокол сеансов перципиентов | v2.0 |
-| [AI Protocol / Протокол ИИ](experiments/protocol_ai.md) | AI analysis pipeline protocol / Протокол конвейера ИИ-анализа | v3.0 |
+| [AI Protocol / Протокол ИИ](experiments/protocol_ai.md) | AI analysis pipeline protocol / Протокол конвейера ИИ-анализа | v3.1 |
 
 ---
 
