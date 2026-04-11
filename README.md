@@ -213,7 +213,7 @@ flowchart LR
 | No surface anomalies detected / Поверхностные аномалии не обнаружены | Expected / Ожидаемо | EfficientAD + CLIP | [AI-2026-04-07-001](reports/ai_reports/AI-2026-04-07-001.md) |
 | Converges with ECP data ("coral-like") / Совпадает с КП ("коралловое") | Cross-method / Межметодное | AI + ECP | [Cross-comparison](analysis/cross_comparison.md) |
 
-> **Limitation / Ограничение:** RGB analysis cannot determine chemical composition, alloy type, or radioactivity. See [AI Protocol v3.0](experiments/protocol_ai.md#limitations--ограничения). / RGB-анализ не может определить химсостав, тип сплава или радиоактивность. См. [Протокол ИИ v3.0](experiments/protocol_ai.md#limitations--ограничения).
+> **Limitation / Ограничение:** RGB analysis cannot determine chemical composition, alloy type, or radioactivity. See [AI Protocol v3.1](experiments/protocol_ai.md#limitations--ограничения). / RGB-анализ не может определить химсостав, тип сплава или радиоактивность. См. [Протокол ИИ v3.1](experiments/protocol_ai.md#limitations--ограничения).
 
 ---
 
@@ -287,7 +287,8 @@ UAP_Reverse_Engineering_Study/
 │   │   └── ECP-2026-04-04-003-tatyana.md
 │   └── ai_reports/                    # AI analysis reports / Отчёты ИИ-анализа
 │       ├── AI-2026-04-07-001.md
-│       └── AI-2026-04-07-001-llm-visual.md
+│       ├── AI-2026-04-07-001-llm-visual.md
+│       └── AI-2026-04-09-control-test.md
 │
 ├── data/                              # Research data / Исследовательские данные
 │   ├── raw/                           # Raw input data / Необработанные данные
