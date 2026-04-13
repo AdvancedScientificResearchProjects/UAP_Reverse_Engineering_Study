@@ -71,7 +71,7 @@ The Extended Cognitive Perception (ECP) Protocol establishes standardized proced
 | **Banchenko Denis / Банченко Денис** | L2 | Primary Percipient / Основной Перципиент |
 | **Zmiienko Kyryl / Змиенко Кирилл** | L3 | Technical Percipient / Технический Перципиент |
 | **Burilova Tatyana / Бурилова Татьяна** | L4 | Secondary Percipient / Вторичный Перципиент |
-| **Simiretov Vladislav / Семилетов Владислав** | L4 | Secondary Percipient / Вторичный Перципиент |
+| **Semiletov Vladislav / Семилетов Владислав** | L4 | Secondary Percipient / Вторичный Перципиент |
 | **Belousova Ekaterina / Белоусова Екатерина** | L4 | Secondary Percipient / Вторичный Перципиент |
 
 ---

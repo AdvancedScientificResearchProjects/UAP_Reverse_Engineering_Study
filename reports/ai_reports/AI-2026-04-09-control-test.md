@@ -17,11 +17,11 @@
 
 ### EN
 
-This control test determines whether the SigLIP2 material classifier can distinguish artifact UAP-FRAG-001 from genuine echinoid (sea urchin) fossils. The original AI report scored the artifact at 0.98 for "coral or sea urchin fossil" (using a cropped artifact image). This test uses the full artifact photograph and compares it against 12 control images spanning three categories: morphologically similar fossils, dissimilar biological specimens, and non-biological objects.
+This control test determines whether the SigLIP2 material classifier can distinguish artifact UAP-FRAG-001 from genuine echinoid (sea urchin) fossils. The original AI report scored the artifact at 0.98 for "coral or sea urchin fossil" (using a cropped artifact image). This test uses the full artifact photograph and compares it against 13 control images spanning three categories: morphologically similar fossils, dissimilar biological specimens, and non-biological objects.
 
 ### RU
 
-Контрольный тест определяет, может ли классификатор материалов SigLIP2 отличить артефакт UAP-FRAG-001 от настоящих окаменелостей морских ежей (эхиноидов). Оригинальный ИИ-отчёт оценил артефакт в 0.98 для "coral or sea urchin fossil" (на обрезанном изображении). Данный тест использует полную фотографию артефакта и сравнивает её с 12 контрольными изображениями в трёх категориях: морфологически похожие окаменелости, непохожие биологические образцы и небиологические объекты.
+Контрольный тест определяет, может ли классификатор материалов SigLIP2 отличить артефакт UAP-FRAG-001 от настоящих окаменелостей морских ежей (эхиноидов). Оригинальный ИИ-отчёт оценил артефакт в 0.98 для "coral or sea urchin fossil" (на обрезанном изображении). Данный тест использует полную фотографию артефакта и сравнивает её с 13 контрольными изображениями в трёх категориях: морфологически похожие окаменелости, непохожие биологические образцы и небиологические объекты.
 
 ---
 

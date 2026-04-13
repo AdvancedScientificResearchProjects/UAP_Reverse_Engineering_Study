@@ -33,7 +33,7 @@ After all percipient assessments were collected, the Program Director disclosed 
 
 | Name / ФИО | Role / Роль | Blind Status / Статус ослепления |
 |-----------|------------|--------------------------------|
-| Vladislav Simiretov / Семилетов Владислав | ECP Percipient / Перципиент КП | Partial (saw object previously without explanation) / Частичное (видел объект ранее без пояснений) |
+| Vladislav Semiletov / Семилетов Владислав | ECP Percipient / Перципиент КП | Partial (saw object previously without explanation) / Частичное (видел объект ранее без пояснений) |
 | Ekaterina Belousova / Белоусова Екатерина | ECP Percipient / Перципиент КП | Compromised (heard Vladislav before responding) / Нарушено (слышала Владислава перед ответом) |
 | Tatyana Burilova / Бурилова Татьяна | ECP Percipient / Перципиент КП | Compromised (heard both Vladislav and Ekaterina) / Нарушено (слышала обоих) |
 
