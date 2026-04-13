@@ -220,19 +220,14 @@ flowchart LR
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
 ```mermaid
-timeline
-    title UAP Research Timeline
-    section ECP Data collection
-        2026-04-04 : ECP-001 Vladislav / Владислав
-        2026-04-04 : ECP-002 Ekaterina / Екатерина
-        2026-04-04 : ECP-003 Tatyana / Татьяна
-    section ECP Analysis
-        2026-04-06 : Cross-comparison / Сравнение
-        2026-04-06 : Validation report / Отчёт валидации
-    section AI Analysis
-        2026-04-07 : AI CV pipeline run / Запуск ИИ-конвейера
-        2026-04-07 : LLM visual analysis / LLM визуальный анализ
-        2026-04-07 : AI report published / Отчёт ИИ опубликован
+flowchart LR
+    A["2026-04-04<br/>ECP Session<br/>Сеанс КП"] --> B["2026-04-06<br/>Cross-comparison<br/>Сравнение"]
+    B --> C["2026-04-06<br/>Validation<br/>Валидация"]
+    C --> D["2026-04-07<br/>AI Pipeline<br/>ИИ Конвейер"]
+    D --> E["2026-04-07<br/>LLM Analysis<br/>LLM Анализ"]
+    E --> F["2026-04-07<br/>Report Published<br/>Отчёт Опубликован"]
+    style A fill:#e8f5e9
+    style F fill:#e8f5e9
 ```
 
 ---
