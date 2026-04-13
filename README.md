@@ -252,7 +252,7 @@ flowchart LR
 | Name / ФИО | Role / Роль |
 |-----------|------------|
 | **Belousova Ekaterina / Белоусова Екатерина** | HSP Percipient / Перципиент ВСКЧ |
-| **Simiretov Vladislav / Семилетов Владислав** | HSP Percipient / Перципиент ВСКЧ |
+| **Semiletov Vladislav / Семилетов Владислав** | HSP Percipient / Перципиент ВСКЧ |
 | **Burilova Tatyana / Бурилова Татьяна** | HSP Percipient / Перципиент ВСКЧ |
 
 ---
