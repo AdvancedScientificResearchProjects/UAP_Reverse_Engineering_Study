@@ -1,0 +1,2380 @@
+# JRE #1315
+# Source: https://www.youtube.com/watch?v=BEWz4SXfyCQ
+# Transcribed: 2026-04-14 01:09
+
+[00:00:00] Two, one, boom, and we're live.
+[00:00:02] First of all, cheers, gentlemen.
+[00:00:04] Let's have a little toast, relax.
+[00:00:07] Bob, thank you very much for doing this.
+[00:00:08] I really appreciate it.
+[00:00:09] I understand that you've told this story many, many times.
+[00:00:13] You've been grilled many, many times,
+[00:00:15] and it's very stressful for you,
+[00:00:17] so I really, really appreciate your time.
+[00:00:19] For people who don't know the story,
+[00:00:22] there is a documentary.
+[00:00:24] Jeremy Corbell has a documentary out right now.
+[00:00:27] It's called Bob Lazar, Area 51, and UFOs.
+[00:00:31] And Flying Saucers.
+[00:00:32] And Flying Saucers.
+[00:00:33] Bob Lazar, Area 51, and Flying Saucers, yeah.
+[00:00:36] I first heard your story decades ago.
+[00:00:39] I told you last night when we went out to dinner.
+[00:00:41] I've seen pretty much every interview you've ever given.
+[00:00:44] I've followed the story incredibly closely,
+[00:00:46] but for people who don't know the story,
+[00:00:48] let's give them the bullet points.
+[00:00:51] You used to work at Area 51,
+[00:00:56] and Area 51, go ahead, you went like, huh?
+[00:01:00] Well, you know, we wanna be accurate.
+[00:01:01] Area S4.
+[00:01:02] S4, okay.
+[00:01:03] It's about 15 miles south of Area 51.
+[00:01:06] Okay.
+[00:01:08] You worked in, what would you,
+[00:01:12] how would you describe it?
+[00:01:13] I guess within the Area 51 compound.
+[00:01:17] You can call that a subset of Area 51.
+[00:01:20] And you got that job.
+[00:01:21] Before that, you were working.
+[00:01:23] Before that, I had worked at Los Alamos.
+[00:01:26] National Labs in New Mexico.
+[00:01:27] And you were involved in what kind of work?
+[00:01:30] Nuclear weapon development, physics.
+[00:01:32] I mean, they do everything there.
+[00:01:35] So how do they approach you to say,
+[00:01:37] hey, Bob, why don't you come on out to the Nevada desert?
+[00:01:42] Well, the way this went down was,
+[00:01:47] at that time, it was 1982,
+[00:01:50] I had put a jet engine in my Honda.
+[00:01:56] And Los Alamos put it on the front page of the paper.
+[00:02:01] Said, you know, Los Alamos man, physicist at the lab,
+[00:02:05] you know, built this 200 mile an hour, you know,
+[00:02:08] Honda jet car that I drove to work every day.
+[00:02:12] So I was known in Los Alamos, the guy with the weird car.
+[00:02:16] And you know, you could hear it from a mile away.
+[00:02:19] Anyway, the day that came out on the front page of the paper
+[00:02:24] was the day Edward Teller, the father of the hydrogen bomb,
+[00:02:27] was giving a lecture down there at the lab.
+[00:02:32] And we didn't have much going on that day in our group.
+[00:02:35] And I asked if I could go down there.
+[00:02:38] And I went down there early.
+[00:02:41] And Ed Teller was outside, leaning on a brick wall there.
+[00:02:46] And reading the front page of the paper.
+[00:02:48] Now, this is a guy out of history.
+[00:02:49] So I introduced myself,
+[00:02:51] hey, I'm the guy you're reading about there.
+[00:02:53] And we talked for a little while and it was cool.
+[00:02:56] You know, fast forward to years later,
+[00:02:57] I had moved out to Las Vegas.
+[00:02:59] And had, you know, left Los Alamos
+[00:03:02] and, you know, went on to other things.
+[00:03:04] And I wanted to get back into the scientific community.
+[00:03:07] You know, I left to start other businesses
+[00:03:08] and that sort of thing.
+[00:03:10] So I sent resumes out and one of them went out to Ed Teller
+[00:03:14] and referenced our meeting.
+[00:03:17] You know, back in the day.
+[00:03:19] And anyway, he remembered me.
+[00:03:22] And gave me a reference, somebody to contact at EG&G.
+[00:03:26] And that's pretty much how it started.
+[00:03:30] So, you get a phone call or a letter?
+[00:03:33] Like, what do you get?
+[00:03:36] Well, I got a, what did I get?
+[00:03:39] I got a letter initially.
+[00:03:41] And went down for an interview, probably a couple times.
+[00:03:44] And it was down at EG&G Special Projects,
+[00:03:47] which was at McCarran Airport at that time in Las Vegas.
+[00:03:51] And did they give you any sort of job description?
+[00:03:54] What you were applying for?
+[00:03:56] They said it was for,
+[00:03:59] I can't remember exactly what they did.
+[00:04:01] This was a long time ago.
+[00:04:02] But I think it was Advanced Propulsion
+[00:04:06] or something like that.
+[00:04:07] Something relatively generic.
+[00:04:08] And they said, it's in a remote area.
+[00:04:12] You know, it's gonna be some days on, some days off.
+[00:04:15] And, you know, it was kind of a,
+[00:04:19] it was kind of, not exactly a full-time job.
+[00:04:22] But you might have to be out there for two weeks at a time.
+[00:04:24] And take two weeks off.
+[00:04:26] So it was kind of a,
+[00:04:27] the work schedule would be kind of broken up.
+[00:04:30] And did this seem attractive to you?
+[00:04:32] Or did it seem weird?
+[00:04:34] How was it?
+[00:04:35] No, it really wasn't weird.
+[00:04:35] Because people that work at the test site,
+[00:04:37] anybody that's familiar with the area up there.
+[00:04:40] Working at the nuclear test site
+[00:04:43] or at the Tonopah test range north of there.
+[00:04:46] That's typically how things go.
+[00:04:48] So you had known about it from the scientific community?
+[00:04:51] Because Area 51 at that time was still classified.
+[00:04:53] No, they didn't say anything about Area 51.
+[00:04:55] Okay, so they just-
+[00:04:56] They just said it was in a remote location
+[00:04:59] and you just know it was up at the test site.
+[00:05:01] Right.
+[00:05:02] But there was no mention of Area 51 at that time.
+[00:05:04] So they've done hundreds of nuclear tests in Nevada.
+[00:05:08] In Nevada, that whole area was,
+[00:05:10] there's giant chunks of Nevada that people-
+[00:05:12] Yeah, there's a big piece of Nevada
+[00:05:14] and it's split up into different areas.
+[00:05:16] There's a nuclear test site.
+[00:05:17] There's Area 51.
+[00:05:19] There's the Tonopah test range north of that.
+[00:05:21] There's little sub areas.
+[00:05:22] There's areas where they test chemical weapons
+[00:05:24] and things like that.
+[00:05:25] So it's all broken up as a gigantic test area.
+[00:05:28] So take me back to first day on the job.
+[00:05:32] You accept the job.
+[00:05:33] They take you out there.
+[00:05:35] Yeah.
+[00:05:36] It's, the first day really,
+[00:05:40] I didn't really get to see a whole lot.
+[00:05:42] The first day was essentially just paperwork.
+[00:05:44] That's when I flew into Area 51 proper.
+[00:05:47] And I left McCarran Airport
+[00:05:50] and flew what they call the Janet flights.
+[00:05:52] Just a passenger plane from Las Vegas to Area 51.
+[00:05:59] And it was really just going through
+[00:06:02] mounting the paperwork that day.
+[00:06:05] From security clearances to,
+[00:06:08] God, it was like two or three hours
+[00:06:11] of just solid paperwork.
+[00:06:12] And that was really an uneventful first day.
+[00:06:16] When did things get weird?
+[00:06:21] When did you realize,
+[00:06:22] like at what point in time did you say,
+[00:06:24] hey, this is not normal work?
+[00:06:28] Like this doesn't even seem like it's from this planet.
+[00:06:32] That, I can't tell you what day that occurred on,
+[00:06:36] because so much time has gone by,
+[00:06:37] the days have kind of fused into one
+[00:06:39] and I can't separate the days.
+[00:06:41] Was it a slow burn or was there a moment of recognition?
+[00:06:45] Well, the first inkling I had was when I came in,
+[00:06:51] there's this facility that is at S4.
+[00:06:54] It's in the side of a mountain.
+[00:06:56] And normally we had pulled in with the bus
+[00:07:00] and gone around the front through a normal double door.
+[00:07:04] This time that I went in, there were hangar doors open.
+[00:07:08] I went in through the hangar door
+[00:07:09] and in the hangar door was the disk,
+[00:07:12] the flying saucer that I worked on.
+[00:07:14] I saw it sitting there and we walked by it.
+[00:07:17] It had a little American flag stuck on the side.
+[00:07:19] And I thought, oh my God,
+[00:07:21] this finally explains all the flying saucer stories.
+[00:07:23] This is just an advanced fighter
+[00:07:25] and this is fucking hilarious.
+[00:07:28] So I went by, I slid my hand alongside it.
+[00:07:31] I got reprimanded immediately for touching the thing.
+[00:07:34] And there was a guy, an armed guard that followed us in
+[00:07:36] and just said, keep your eyes forward
+[00:07:39] and your hands at your side and just walk in the door.
+[00:07:41] So that was the first time I had seen anything
+[00:07:44] that was weird.
+[00:07:47] It was sometime later that I was introduced
+[00:07:50] to my lab partner, Barry.
+[00:07:54] And we had some of the subcomponents of the craft
+[00:07:57] in the lab and Barry was very anxious
+[00:08:00] to get a new lab partner.
+[00:08:02] So he was very talkative
+[00:08:03] and couldn't wait to show me different things.
+[00:08:05] And it was in the demonstration of the reactor working
+[00:08:09] where it caught my attention
+[00:08:11] to where this is technology that doesn't even exist.
+[00:08:17] So, I mean, that was the first time I knew
+[00:08:19] that this is really something different.
+[00:08:21] What was it?
+[00:08:23] What was it about this reactor
+[00:08:28] that made you think that it didn't exist technologically?
+[00:08:33] Well, it was the, I actually have to back up
+[00:08:35] because there were some briefings that I read before that,
+[00:08:38] that certainly gave me the impression
+[00:08:43] that this was gonna be a weird job,
+[00:08:44] but this was the first hands-on thing.
+[00:08:47] This was a small reactor about the size of a,
+[00:08:49] hemisphere about the size of a basketball
+[00:08:52] on a metal plate.
+[00:08:53] And when it was running, it produced a gravitational field,
+[00:08:57] a gravitational field of its own.
+[00:08:59] Now this is something that we can't do.
+[00:09:01] We can't produce any gravity.
+[00:09:03] The only way we get gravity is from large quantities of mass
+[00:09:07] but there's no machine we can have that turns on
+[00:09:09] that makes gravity like, you know,
+[00:09:12] you can turn on an electromagnet
+[00:09:13] and it makes a magnetic field.
+[00:09:15] We can't make a gravitational field.
+[00:09:17] Anyway, this device was producing that.
+[00:09:19] And Barry said, almost like he was bragging,
+[00:09:23] go ahead, try and touch the sphere.
+[00:09:25] And I couldn't, it pushed my hands away,
+[00:09:28] just like two light poles of a magnet.
+[00:09:30] So that was-
+[00:09:31] So like when you take two magnets
+[00:09:32] and you're trying to press them together
+[00:09:33] and they push against each other?
+[00:09:34] Yeah, kind of cushioned feeling,
+[00:09:36] but you can't get them together.
+[00:09:38] The closer you put them, the more they push.
+[00:09:39] But you felt that physically with your hand?
+[00:09:40] With my hand, yeah.
+[00:09:42] Now there's nothing that does that.
+[00:09:44] And that immediately caught my attention going,
+[00:09:47] wow, this is something else.
+[00:09:49] What was your thought?
+[00:09:50] Like when you felt that and you knew
+[00:09:52] that there was nothing that you were aware of
+[00:09:54] that could produce this?
+[00:09:55] Then that connected me to the briefings that I read
+[00:09:59] on the first day at S4 was that, you know,
+[00:10:03] everything that I had read was apparently accurate.
+[00:10:06] And what were you reading?
+[00:10:08] I read, it was kind of an overview.
+[00:10:11] This project was to back engineer the alien craft.
+[00:10:16] And specifically it was to try and back engineer
+[00:10:20] and see if we can duplicate the technology
+[00:10:23] with available materials.
+[00:10:26] Now to do this, they split the project
+[00:10:28] into many different pieces for several reasons.
+[00:10:32] They do this on all classified projects.
+[00:10:34] So nobody has the complete story,
+[00:10:38] but they compartmentalize everything.
+[00:10:40] Now we had the power and propulsion system.
+[00:10:42] So what briefings they gave me were like
+[00:10:44] a one or two page overview of some of the other projects
+[00:10:48] that were going on, you know, in the craft.
+[00:10:50] The only reason they do that is just in case
+[00:10:53] what you're working on is connected intimately
+[00:10:55] in some way that we don't know of
+[00:10:57] to one of the other projects,
+[00:10:58] you have to know their, excuse me, their existence.
+[00:11:00] So, you know, again, everything from metallurgy
+[00:11:07] to, you know, weapon potential, the craft,
+[00:11:11] and these were all, you know,
+[00:11:13] essentially very short briefings,
+[00:11:15] but mine was just power and propulsion.
+[00:11:17] And it made it very clear that what I read was accurate.
+[00:11:23] So when you're reading that,
+[00:11:24] before you actually saw the reactor,
+[00:11:28] what were your thoughts on what they were describing?
+[00:11:32] If you knew that something like that didn't exist
+[00:11:35] and they're describing it in the briefings,
+[00:11:38] what did you think you were gonna see?
+[00:11:40] I really, I didn't know at the time.
+[00:11:42] I mean, I was reading, I thought,
+[00:11:43] is this is some kind of test?
+[00:11:46] See if you're crazy?
+[00:11:48] Well, not to see if I'm crazy to, you know,
+[00:11:50] a lot of times they'll take in real high security jobs.
+[00:11:55] I mean, they'll intentionally insert nonsense into them,
+[00:11:59] whether it's to confuse the fact
+[00:12:01] or if for someone was to leak it out,
+[00:12:03] they would carry that information along
+[00:12:05] and know where it came from.
+[00:12:06] So I read through the documents,
+[00:12:10] but, you know, I didn't know if this was, you know,
+[00:12:12] part of some kind of test or, you know, or what,
+[00:12:17] or was it potentially realistic?
+[00:12:19] I mean, I really didn't consider it being all that possible
+[00:12:23] as far as being the actual thing
+[00:12:26] that I was gonna work on at the time.
+[00:12:28] How did they turn it on?
+[00:12:30] The reactor?
+[00:12:31] Yeah.
+[00:12:32] The reactor can be turned on or turned off
+[00:12:34] in a lot of different ways.
+[00:12:36] The way Barry showed me, the hemisphere is removed.
+[00:12:40] There's a small tower in the middle.
+[00:12:42] When you put the hemisphere on, the reactor activates.
+[00:12:45] The reactor shuts down, it's load sensing.
+[00:12:49] So if there's no load on the reactor at all,
+[00:12:52] it shuts down.
+[00:12:53] When there's a load present on it, it starts up again.
+[00:12:57] Load meaning?
+[00:12:58] You can consider it an electrical load.
+[00:13:01] So although it doesn't necessarily operate electrically,
+[00:13:07] there's no wiring that connects
+[00:13:08] any of the subcomponents together whatsoever.
+[00:13:11] They just have to be in the immediate vicinity.
+[00:13:15] The stuff is borderline magic.
+[00:13:18] And that's essentially where we left it, you know,
+[00:13:21] when I left the project.
+[00:13:23] So there was no progress made?
+[00:13:25] There was some progress.
+[00:13:26] I mean, we did identify, at least we think,
+[00:13:29] some processes and had a rough idea,
+[00:13:32] we think, of what was going on.
+[00:13:33] But I think this is a problem
+[00:13:37] that they've had for a long time.
+[00:13:39] And, you know, I was replacing somebody
+[00:13:43] that Barry worked with prior to me.
+[00:13:45] And I think there was some horrific accident
+[00:13:47] that I didn't have a whole lot of information on,
+[00:13:50] but, you know, Barry alluded to that.
+[00:13:53] Horrific accident, like where someone died or?
+[00:13:55] Yeah, where somebody died.
+[00:13:57] Because they were trying to tamper with things
+[00:13:59] or figure out how something worked?
+[00:14:01] Yeah, the reactor in particular.
+[00:14:04] But yet he let you touch it.
+[00:14:06] Yeah, I think what they were trying to do
+[00:14:07] was cut into one.
+[00:14:09] Oh, Jesus.
+[00:14:10] Now, they had more than one there.
+[00:14:11] And that was, supposedly,
+[00:14:13] there was an unannounced nuclear test.
+[00:14:15] And that's what it was.
+[00:14:17] At the time, remember, they were still doing
+[00:14:19] underground nuclear tests at the test site.
+[00:14:22] But from what I understand, according to Barry,
+[00:14:25] there was an attempt made.
+[00:14:26] Now, this must have been a pretty desperate attempt
+[00:14:28] because it's not a very scientific process
+[00:14:31] to cut, you know, analyze something that way.
+[00:14:34] But it looked like they used a plasma cutter
+[00:14:35] or something like that to cut into an operating reactor.
+[00:14:39] How many of these things did they have?
+[00:14:41] They had nine craft altogether.
+[00:14:43] I only got hands-on with one of them.
+[00:14:46] So I can't really say how the others operated.
+[00:14:50] Did you see the other ones?
+[00:14:51] Yeah, at one time, and only one time,
+[00:14:53] the bay doors between the hangars were all open.
+[00:14:56] And I could see all the way through.
+[00:14:59] And were they all exactly the same?
+[00:15:02] No, they were all different.
+[00:15:03] Different shapes?
+[00:15:04] Yeah.
+[00:15:05] But they were all from somewhere else?
+[00:15:07] Yeah, absolutely.
+[00:15:09] Now, did anyone make any attempt to explain
+[00:15:13] or to tell you where they came from?
+[00:15:17] No, no one is the least bit interested
+[00:15:19] in letting everybody know all the facts.
+[00:15:22] They want to give you the minimum information
+[00:15:24] that's necessary to complete your task.
+[00:15:26] So you're not getting the story of where they came from.
+[00:15:29] You're not getting the story of how much progress
+[00:15:32] other people are making.
+[00:15:33] You just focus on the small component.
+[00:15:36] But they gave you some indication
+[00:15:38] that they've been working on these for a while?
+[00:15:40] Yeah.
+[00:15:41] When do you think they acquired these?
+[00:15:45] I really couldn't say.
+[00:15:47] I think they've been around for a while.
+[00:15:50] So they bring you into this room.
+[00:15:53] You see this reactor working.
+[00:15:56] You realize this is nothing that,
+[00:15:58] as far as the scientific community at current time,
+[00:16:02] has the ability to create.
+[00:16:05] We still don't.
+[00:16:06] What is your life like from that moment on?
+[00:16:08] Is that where everything changes?
+[00:16:11] I would imagine the moment you actually
+[00:16:13] make contact with something that's extraterrestrial,
+[00:16:16] whether it's an object or a being,
+[00:16:18] something where you can absolutely be certain
+[00:16:21] it's not from here, your whole paradigm,
+[00:16:25] the whole world you live in, is now a different place.
+[00:16:28] Well, this is the only time it became exciting.
+[00:16:31] The rest of the time, it was really an ominous feeling
+[00:16:36] being at work.
+[00:16:36] But at that time, it was exciting.
+[00:16:41] Now I knew we were actually beyond the cutting
+[00:16:44] edge of science.
+[00:16:45] And I was so absolutely excited to be there
+[00:16:49] every single time I was.
+[00:16:53] This was a fantastic opportunity.
+[00:16:55] And however, in short order, it began to concern me.
+[00:17:04] We really have no idea what we're talking about.
+[00:17:07] And the excitement kind of turned to dread at some point.
+[00:17:14] Because the amount of power we're dealing with
+[00:17:17] is astronomical.
+[00:17:19] I mean, to affect gravity, to produce the effects
+[00:17:22] like this equipment does, takes huge amounts of power.
+[00:17:26] And I've given the example before
+[00:17:30] of taking a small portable nuclear reactor
+[00:17:33] and putting it back into Victorian times
+[00:17:36] with the scientists of the time and just dropping it
+[00:17:39] in a room.
+[00:17:40] And they come and look at it and see that it's producing power
+[00:17:44] and wonder how it works.
+[00:17:45] So they start taking it apart.
+[00:17:47] And as soon as they get some of the shielding off,
+[00:17:50] people are going to drop dead because of the radiation
+[00:17:52] inside.
+[00:17:53] Now, people have no idea that radiation even
+[00:17:57] exists back then.
+[00:17:58] But anybody that comes in to check on them
+[00:18:00] will also drop dead.
+[00:18:02] And there is no reason that that exact scenario couldn't happen
+[00:18:08] with what we're dealing with.
+[00:18:09] We have no idea how the physics operate within this thing.
+[00:18:14] The power levels are, like I said, astronomical.
+[00:18:17] It's incredibly dangerous to tinker
+[00:18:19] with something like that.
+[00:18:21] And in some respects, we were guinea pigs just trying
+[00:18:24] to find out how to make this thing.
+[00:18:26] So they'd had a series, as far as you surmised,
+[00:18:30] they had a series of different scientists
+[00:18:32] try to back engineer this thing, try to figure out
+[00:18:34] what this thing was.
+[00:18:35] And they would bring in new people
+[00:18:37] and like, let's throw Bob at it.
+[00:18:38] Yeah, yeah.
+[00:18:39] And I don't know how many, but I knew there was certainly
+[00:18:42] one before me.
+[00:18:43] And I knew he died during the analysis of the reactor
+[00:18:48] itself.
+[00:18:49] And you don't know how many have worked on it.
+[00:18:53] And no one gave any indication.
+[00:18:55] This could have been there for 50 years.
+[00:18:57] It could have been there for five years.
+[00:18:59] When they're giving you instructions,
+[00:19:00] what are they saying?
+[00:19:01] Like, when they're giving you direction,
+[00:19:03] they're showing you all this stuff.
+[00:19:04] Like, what are they saying?
+[00:19:05] Specifically, what are they asking of you?
+[00:19:08] Well, essentially, what they ask is what I said.
+[00:19:11] We are just to gather as much information as possible,
+[00:19:14] find out how it operates, and see if we can duplicate it.
+[00:19:17] But they never told you where it was from.
+[00:19:19] They never let you ask questions about where it's from.
+[00:19:22] Well, if the information I read in the briefings was accurate,
+[00:19:27] now, what I do have to say is the information that
+[00:19:30] pertained directly to the reactor was accurate.
+[00:19:34] What I read did jive with reality.
+[00:19:41] In terms of how?
+[00:19:43] In terms of how it was made, what we saw,
+[00:19:45] how it operated, the materials, how it turned on,
+[00:19:49] and what was discovered about it.
+[00:19:54] I'm sorry.
+[00:19:54] The migraine is really making it hard for me to think here.
+[00:19:57] Sorry.
+[00:19:58] We talked that before the podcast.
+[00:20:00] You tell everybody, Bob was getting a migraine.
+[00:20:01] I know you're very stressed out by this,
+[00:20:03] which is one of the reasons why I appreciate you doing this.
+[00:20:07] Where was I already?
+[00:20:08] We were talking about it.
+[00:20:09] We explained it.
+[00:20:10] And so there was some paperwork that
+[00:20:15] indicated that this was from the Zeta Reticuli star system.
+[00:20:19] Now, yeah.
+[00:20:21] Now, how they obtained that, I haven't the slightest idea.
+[00:20:26] But it wasn't just from the Zeta Reticuli star system.
+[00:20:28] It was what they called ZR3.
+[00:20:31] So it was a third planet in that star system.
+[00:20:34] So there was no other information about it
+[00:20:37] other than that's supposedly where the craft came from.
+[00:20:40] Now, is that true?
+[00:20:41] I don't know.
+[00:20:42] I have no way of verifying that.
+[00:20:43] But that was printed in the same materials
+[00:20:45] that referenced the reactor.
+[00:20:47] Now, I looked that stuff up when I went home.
+[00:20:50] And Zeta Reticuli is a binary star,
+[00:20:54] two stars that orbit one another.
+[00:20:56] And it's only visible in the southern hemisphere.
+[00:20:58] And it's about 30 some odd light years away.
+[00:21:01] So that's literally all the information I have about that.
+[00:21:04] I don't know how they found out it came from there.
+[00:21:07] And you also probably have some suspicions
+[00:21:09] that they give you some disinformation,
+[00:21:11] like you were talking about before.
+[00:21:13] Yeah.
+[00:21:14] Yeah.
+[00:21:15] I mean, if you ever decided to talk about this,
+[00:21:17] they added a bunch of nonsense to make whatever
+[00:21:19] is factual look ridiculous.
+[00:21:21] Right.
+[00:21:22] Or be able to trace it down.
+[00:21:23] Like, hey, this fax came out.
+[00:21:25] And this Lazar guy said it came from Zeta Reticuli.
+[00:21:29] So they knew it was.
+[00:21:30] When you read Zeta Reticuli, were you like,
+[00:21:33] what in the fuck is this?
+[00:21:35] Well, reading all of this stuff,
+[00:21:37] it was, what in the fuck is this?
+[00:21:38] You're like, why did I sign up for this?
+[00:21:40] No, no.
+[00:21:41] To me, this was cool.
+[00:21:42] This was interesting.
+[00:21:43] I said, I was just excited to be out in a secure area
+[00:21:46] in the middle of the desert.
+[00:21:48] I said, this is awesome.
+[00:21:49] How old were you at the time?
+[00:21:50] I guess I was in my 20s.
+[00:21:53] Yeah, so you're probably totally geeked out.
+[00:21:55] Oh, yeah.
+[00:21:56] This was great.
+[00:21:58] I mean, I was excited.
+[00:22:00] So I didn't care.
+[00:22:00] I'm reading through everything.
+[00:22:02] So you read through all the Zeta Reticuli thing.
+[00:22:04] But then when you see the actual starship
+[00:22:06] with the little American flag sticker on it.
+[00:22:08] Well, that was.
+[00:22:10] Was that later or before?
+[00:22:12] That was before.
+[00:22:16] So before.
+[00:22:16] So you see the thing before.
+[00:22:18] And you say, oh, this is America.
+[00:22:19] Wait, was that before?
+[00:22:20] Hard, so many years.
+[00:22:21] Yeah, I can't.
+[00:22:23] Either way, it doesn't matter.
+[00:22:24] The days have fused together.
+[00:22:25] It's so hard to separate what happened in each visit
+[00:22:28] to the place.
+[00:22:29] Do you remember the thought process
+[00:22:30] when you read that it's from Zeta Reticuli?
+[00:22:32] Yeah, it didn't hit me like a ton of bricks or anything.
+[00:22:36] It was just like, yeah, OK.
+[00:22:38] You think it was bullshit?
+[00:22:39] I don't know.
+[00:22:41] Now I don't.
+[00:22:42] I mean, because when I read it, I hadn't verified anything.
+[00:22:45] And this was just a bunch of stuff I was reading.
+[00:22:47] And I thought, maybe after this, they're
+[00:22:49] just going to give me a test and see
+[00:22:50] what I can remember in crazy information.
+[00:22:54] But like I said, when I finally went in with Barry
+[00:23:01] and had hands-on experience with what they were talking about,
+[00:23:05] it took on a completely different meaning.
+[00:23:08] So there's a plate.
+[00:23:09] There's this thing that looks like half a basketball.
+[00:23:11] And when it's on, you can't come anywhere near it.
+[00:23:13] You can't touch it.
+[00:23:14] Right.
+[00:23:15] How is it?
+[00:23:16] What is gravity about that?
+[00:23:19] Like, the concept of gravity to most people
+[00:23:21] is gravity is bringing something towards it.
+[00:23:22] Right, well, I guess you would say it's anti-gravity.
+[00:23:25] It's gravity shifted 180 degrees.
+[00:23:27] It's anti-gravity.
+[00:23:31] And did they have any understanding
+[00:23:34] about what could possibly create this effect?
+[00:23:38] Did they have any areas where they'd like you to look into?
+[00:23:42] No, they, well, they knew there was a fuel source in it.
+[00:23:50] And they were proficient at making it work.
+[00:23:54] And again, my analogy to something like this
+[00:23:56] is you can drop a motorcycle off in the wagon train days
+[00:23:59] and just leave it with the keys parked outside somebody's
+[00:24:02] place.
+[00:24:03] Everybody will come around it, and they'll poke and prod.
+[00:24:05] And eventually, they'll turn the key, get it to start,
+[00:24:08] and become proficient at riding it.
+[00:24:11] But they won't be able to understand
+[00:24:14] what the hell's going on.
+[00:24:15] They won't be able to make the plastic fender, much less
+[00:24:18] anything else.
+[00:24:19] And I think that's exactly the state we were at.
+[00:24:21] We played around with the parts long enough before I got there
+[00:24:24] where they could make the reactor operate,
+[00:24:28] take the fuel out, and know that it makes it work.
+[00:24:32] How exactly what was going on in the reactor
+[00:24:37] remained a mystery at the time.
+[00:24:40] I think we made some progress on what was going on inside.
+[00:24:44] But I don't think anybody really knew anything.
+[00:24:47] They could just watch what was going on and make note of it.
+[00:24:50] How long were you there?
+[00:24:52] I'd say about six months or so.
+[00:24:54] And what progress was made while you were there?
+[00:24:58] Well, we came up with a bunch of reasonably good ideas
+[00:25:03] about how the reactor worked.
+[00:25:05] And one of them was the square base of it
+[00:25:08] was essentially like a cyclotron,
+[00:25:10] which is a small particle accelerator, a circular one.
+[00:25:14] Particle accelerators, linear particle accelerators,
+[00:25:16] are just a long tube, essentially.
+[00:25:19] And they accelerate particles with high voltage
+[00:25:21] and radio frequencies till they reach high speeds.
+[00:25:25] But a cyclotron does that in a small circular area.
+[00:25:28] And there is this very heavy element fuel, element 115,
+[00:25:34] something that wasn't on our periodic charts at the time.
+[00:25:37] But it is now.
+[00:25:38] It is now, yeah.
+[00:25:39] When did it become on the periodic table now,
+[00:25:42] the way the charts now?
+[00:25:43] You know, I don't remember.
+[00:25:45] Do you remember when they?
+[00:25:46] 2004, Darmstadt, Germany, I think,
+[00:25:49] is where they first fabricated four atoms that
+[00:25:51] lasted 220 milliseconds.
+[00:25:53] It's nothing, right?
+[00:25:55] And then it later was discovered a couple more times
+[00:25:57] they could fabricate it.
+[00:25:59] Then they gave it a place, then, on the periodic chart.
+[00:26:02] After that, called it Moscovium.
+[00:26:04] So they told you about this stuff in 1982?
+[00:26:10] Yeah, well, we kind of.
+[00:26:11] Not 1982.
+[00:26:12] What year was this?
+[00:26:13] It was 88 and 89 when I was there.
+[00:26:16] 82 is when I was at Los Alamos.
+[00:26:18] I'm sorry.
+[00:26:19] Yeah.
+[00:26:20] So 88, 89, they told you about this stuff.
+[00:26:22] So this was not like.
+[00:26:23] They didn't tell me about it.
+[00:26:25] That's one of the things that this group came up with.
+[00:26:31] I keep losing my train of thought with this thing.
+[00:26:34] So this one area, this element 115, was the fuel.
+[00:26:40] Yeah, it was the fuel.
+[00:26:42] The world will forgive you for having a migraine.
+[00:26:45] It's really hard to think through this.
+[00:26:56] Give you more. I just want to say what yeah, definitely as I say one thing, you know, but for the last 30 years
+[00:27:02] People have just been on the attack on Bob, you know getting to know him the personal effects on his life
+[00:27:07] It's really hard to understand unless you meet his family and his wife
+[00:27:10] I mean, this is the last thing he wanted to fucking do was have to talk
+[00:27:15] Yeah, we should explain that Jeremy that you and I had this conversation. I watched your documentary
+[00:27:20] We had this conversation and I said I have to talk to him
+[00:27:23] Yeah, the document there was there's been detractors
+[00:27:27] There's been a bunch of people that called bullshit on many of the things that you've said
+[00:27:31] But over time many of the things that you talked about even in the 80s have proven to be true
+[00:27:38] Things that people said were not true were proven to be true element 115 was one of them
+[00:27:44] Right, right, right
+[00:27:46] Element 115 the fuel they had was stable. In other words, it didn't decay. It wasn't emitting radioactivity
+[00:27:53] When they synthesized the two or three atoms of the 115
+[00:27:58] It did decay and it was not a stable element. So they're they're kind of two different things
+[00:28:04] But this is kind of typical elements
+[00:28:07] Always have or pretty much always have
+[00:28:10] Stable isotopes and unstable isotopes like I think cesium has like 30 unstable isotopes to it
+[00:28:17] So, all right. Well hydrogen for example, you're familiar with hydrogen gas
+[00:28:21] It's stable it's not radioactive, but there's also two other types of hydrogen
+[00:28:28] Deuterium and tritium and
+[00:28:30] Deuterium isn't radioactive. It's another
+[00:28:33] Stable isotope of hydrogen but tritium is radioactive now, they're all hydrogen, but they just have a different amounts of neutrons
+[00:28:40] So it's the same thing with other elements and element 115 depending on the amount of neutrons it has
+[00:28:46] Designates the isotope, but it's 115 they will continue to take
+[00:28:53] or experiment and try and make
+[00:28:56] 115 at different isotopes and I'm sure eventually they'll come up with a stable version
+[00:29:00] But it's the taste stable version that has the properties that we're talking about
+[00:29:04] So they somehow or another had acquired a stable version
+[00:29:08] Did they say that the stable version had come with this craft? It absolutely came with the craft
+[00:29:12] Absolutely came with the craft
+[00:29:14] Yeah
+[00:29:14] So at the time you having a firm knowledge of the periodic chart and knowing what was real and what wasn't real?
+[00:29:21] What was your reaction to having this stable element 115 that wasn't even supposed to exist?
+[00:29:27] Well, everything was impossible, right? I mean down down to the metal. I I did get a chance
+[00:29:33] to look inside the craft on only one occasion and this was important because
+[00:29:39] Where the reactor sat might have been critical to how it operated since everything operates without any interconnections
+[00:29:47] So the placement of components might be critical. So they allowed me to go inside and and
+[00:29:53] Look at it
+[00:29:56] Again I forgot where the hell so you're going into this craft and what are you thinking when you're inside of it?
+[00:30:02] Like what are you seeing? It's
+[00:30:05] It's a very ominous feeling because it's
+[00:30:09] There are no at first of all, everything is one color. It's like a dark pewter color and
+[00:30:14] There are no right angles
+[00:30:16] Anywhere, it's as if somebody took I've said this before
+[00:30:21] Somebody took a model out of and fashioned it out of wax and then heated it just for a short time
+[00:30:27] So everything melted everything looks like it's fused together. Everything is a radius of curvature or two
+[00:30:34] Items meet it's it's a really weird looking thing, but
+[00:30:42] There was almost nothing other than a small foldable hatch way that
+[00:30:48] that looked recognizable everything was
+[00:30:52] Was really unworldly to pick on it a way to describe it
+[00:30:56] So you you get inside this thing and it's designed for something that's much smaller than a human being
+[00:31:02] Yeah, you can't really stand up till you get to the very center of and how tall you I'm 5 10
+[00:31:07] And what do you think this was designed for? I'd say something close to half my height Wow
+[00:31:13] So these little three foot tall ish creatures. Yeah, and the the seats were small, too
+[00:31:19] I mean, obviously it was made, you know for something something small, but there is no
+[00:31:25] Like there's there's nothing else in there. There's just seats the reactor and some of the subcomponents
+[00:31:31] There's no there's no control panels. There's no
+[00:31:33] Bathroom, there's no no decorative
+[00:31:37] Components or artwork or anything that you would recognize or trim? I mean, it's just a very bare-bones thing
+[00:31:43] You're not seeing any screens
+[00:31:46] Well, there are archways around it at that a part of the superstructure and
+[00:31:52] That one of the archways can become transparent
+[00:31:56] When I was in there, there was another group working on one of the archways
+[00:32:01] And you could call that a screen more or less
+[00:32:04] So through that archway, it would be it would maintain the solidity the the solid
+[00:32:11] Whatever metal it was. Yeah, but you could yeah, it just became transparent. Yeah, I saw that happen once or twice before I left
+[00:32:19] Did you ask any questions about what the fuck? No, there's no asking questions. No
+[00:32:23] But when you watch something become transparent and you realize it's still there, but you can now see through it
+[00:32:29] Yeah, I mean now that's not that impressive. We do have some liquid crystal materials that are like that, you know
+[00:32:36] Smart glass. Yeah, they call it smart glass
+[00:32:39] So this is just and I don't know if the craft is made of you know, an advanced metal or a ceramic
+[00:32:45] It was cold to the touch. So, um, you know, I would lean more towards a metal
+[00:32:50] You're not allowed to ask questions. No, the only they work on the buddy system
+[00:32:55] So I can only exchange ideas and talk to Barry
+[00:32:59] now this really interferes with science because science is based on free discussion and
+[00:33:04] Ideally you get a bunch of guys together exchange ideas work on problems and that's how things move forward
+[00:33:10] But they're so over-the-top
+[00:33:12] concerned about security they split everything off and
+[00:33:17] Everybody becomes stagnant it it it it just destroys any of the progress you can make or at least makes it go
+[00:33:25] slow
+[00:33:26] They I think they wind up shooting themselves in the foot, which is probably why they
+[00:33:31] Arrived at this bottleneck that they needed to get this madman with a jet-powered Honda. Come in and see what he could do
+[00:33:38] I think that was an act of desperation
+[00:33:39] I think they wanted someone that stinks out of the box and let's just give this guy a try here because they weren't and
+[00:33:46] They might have done this four more times since you know up to the point in time today assuming they're still working on this thing
+[00:33:53] And
+[00:33:54] When you see this craft and you're inside was there any?
+[00:33:59] Indication that there was an area that they would use to control it to pilot. It was there a pilot seat
+[00:34:06] Was there there were three seats they sat around
+[00:34:09] The reactor was in the dead center of it and then equidistant around there were three seats
+[00:34:16] So that's all the there was a large you would they're not consoles. There are large rectangular
+[00:34:23] Objects also spaced
+[00:34:25] equidistant around the center
+[00:34:27] There's nothing on them. There's no buttons. There's no lights and they look troll same color. This everything is the same color different shape, right and
+[00:34:36] Directly underneath them there's three levels in the craft
+[00:34:40] The main level is what we're talking about directly under that
+[00:34:44] Those are the gravity amplifiers the big rectangular objects underneath them are the gravity emitters that look like
+[00:34:51] For lack of a better word a trash can hanging on a pipe three of those and then the top layer
+[00:34:57] I this is just my personal belief. I think that has to do with a
+[00:35:02] Navigation or their version of a computer
+[00:35:05] With some planar panels sensor panels around the craft that we would call portholes, but they're not port holes
+[00:35:12] they're just black areas and I think that just determines its
+[00:35:16] You know position in space
+[00:35:18] But I was I physically was in the center section and I stuck my torso in the bottom section and hung upside down
+[00:35:26] So I could see how the gravity amplifiers were positioned. What is the the roughly the size of this thing?
+[00:35:32] it's I think it I don't remember from being there, but
+[00:35:37] After all this stuff was over. I had
+[00:35:40] John Andrews a guy from the testers model corporation and you know
+[00:35:43] We sat down and tried to figure out from what I saw
+[00:35:48] And known sizes of things and we came up with 52 feet in diameter
+[00:35:54] And I think that's a really small. Yeah, so I think that's a fair
+[00:35:58] Reasonable guess now you said there's nine of them and you got a brief glimpse at the other ones
+[00:36:03] Were they how are they different? Oh
+[00:36:06] They looked completely different one looked like I called a jello mold and it
+[00:36:10] It looked like a classic jello mold with the rippled sides to it. One was a very flat disc
+[00:36:18] You know like I don't like a straw hat or something like that
+[00:36:22] That was sitting up on its edge and the thin part of it had it looked like a projectile had been fired through
+[00:36:30] The edge of it
+[00:36:31] so I don't know if they were attempting to see if the metal could be penetrated or if something or if that's
+[00:36:38] Where the thing came from maybe it was shot down
+[00:36:41] But that was the only one where I saw there was, you know actual physical damage to it
+[00:36:46] And that one was roughly the same size. They're all they were kind of too far away to tell. Hmm and
+[00:36:53] did
+[00:36:54] There was several teams that were working on the propulsion system
+[00:36:57] So there's different teams that were working on these different aircrafts. I I don't don't know I could only assume
+[00:37:05] now when you're sitting in this thing and you're looking at this
+[00:37:11] otherworldly craft
+[00:37:12] Your your goal is to try to figure out how this thing functions your goal is to try to figure out how this reactor
+[00:37:18] I mean, but it would imagine they would give you more time than just one day to check that out
+[00:37:23] Oh, yeah, it wasn't one day, right?
+[00:37:26] Yeah, I mean this is Barry was there. I think Barry was sleeping there. I'm sure they had now that that isn't weird
+[00:37:34] I mean up at the Tonopah test range where they work on stealth fighters, you know, you go I think
+[00:37:40] Three weeks on one week off and you stay up there too. So it's not weird to stay up at the test site, right?
+[00:37:45] So, yeah, I think he pretty much didn't he acted like he's been up there for a long time. Yeah
+[00:37:51] But still there yeah, who knows do you do you have contact with this guy? No. Oh, no, I wish I did
+[00:37:58] I kind of thought he was gonna come out after I did right and I think I took so much flack and
+[00:38:06] It's so much shit for what went on
+[00:38:08] I think I actually I wound up helping security there and everybody became afraid of you know
+[00:38:14] Doing or saying anything after that?
+[00:38:16] So what kind of reports did you have to give like so you're not making much progress, right?
+[00:38:22] You're just trying to figure out what this thing is and it seems impossible
+[00:38:25] So well, we didn't personally make them. I mean we were always there was never a lot of information
+[00:38:32] that we gained
+[00:38:34] the guy you would call him our supervisor whose name was Dennis Mariani and
+[00:38:39] kind of a military looking guy and he would routinely pop in, you know during the day and
+[00:38:46] You know a what's going on guys, and he would essentially relay entering information anything new we came up with
+[00:38:53] I mean he was our go-between, you know where we presented him the information then he took it to wherever they were, you know
+[00:39:00] Assembling all the data from everybody. No, I'm assuming you're working normal days like an eight-hour day. No, no
+[00:39:06] No, it was really weird that I would be only called in on certain times in certain days and they would be weird hours, too
+[00:39:15] Most of the time was later in the evening
+[00:39:17] I mean I can get a call at 11 o'clock at night and they'll say, you know, it's now 11 o'clock
+[00:39:23] By 1145 you need to be at McCarran terminal and
+[00:39:28] You know, we'll let you know when
+[00:39:31] We have more information. But what did you do while you were there if you're looking at this object this
+[00:39:38] Reactor and you can't figure out what it is or how it works other than the fact that it works on this
+[00:39:44] Element that we don't even know about sure. I mean the thing was to that what you do in it, you know
+[00:39:50] with anything if you're trying to analyze it all you can do is perform tests and
+[00:39:55] All we did is try and come up with every kind of test we possibly could I mean we tested, you know, you know
+[00:40:02] It violated a lot of what we thought was impossible to violate
+[00:40:07] I mean one of the first laws of thermodynamics
+[00:40:10] I mean essentially any machine any device that operates always makes extra heat
+[00:40:16] Nothing works at a hundred percent efficient even the headphones you're wearing anything that takes power
+[00:40:22] Some of that power is going to be converted to heat and it's just wasted
+[00:40:27] This didn't I mean we looked at back then we had infrared cameras. They're different today
+[00:40:31] but back then you had a poor liquid nitrogen into the camera to cool the sensor down and
+[00:40:38] And get these infrared images you've seen but it never got no matter what the load was on the reactor
+[00:40:44] It never got above the ambient temperature, which is impossible. I mean you're you know
+[00:40:52] Pulling out huge amounts of power and nothing ever gets warm
+[00:40:57] We tried measuring magnetic fields and there was was nothing there. So we started playing around with the
+[00:41:04] Emission from the emitters the gravity wave itself and saw what we could do with it and how it was focused
+[00:41:11] So we really spent all our time
+[00:41:14] Just trying to see
+[00:41:16] What the stuff can do and what we can control so you were seeing what it could do
+[00:41:21] But you couldn't ever figure out how it was doing it
+[00:41:24] No, not really. I mean we really we really could only use a come up with a best guess and
+[00:41:31] Now I can't say we really
+[00:41:34] That I could absolutely state for certainly every certainty how anything actually worked now
+[00:41:41] How did you know at all how they were piloting it?
+[00:41:45] Because some they were doing some tests where they're having these things
+[00:41:50] Fly around in the sky and this is what gets us deeper into your story, right?
+[00:42:00] I was out there for one test
+[00:42:05] Right. In fact, I was in with Barry in the lab and Dennis came in and said
+[00:42:11] We're about to run a test. Why don't you guys come out or I think he said Barry?
+[00:42:15] Why don't you come out here and bring Bob with you?
+[00:42:19] we went out there and
+[00:42:20] The craft was already outside the hangar and was just preparing to lift off now
+[00:42:27] They were in communication with somebody in the craft, so there's a person in the rest
+[00:42:32] Yeah, there was certainly a person in there now
+[00:42:35] It's not a comfortable place to be in because it's small
+[00:42:38] So the guy has to be sitting on the floor in the middle
+[00:42:41] My best guess and this is the same specific craft that you know
+[00:42:44] That was because you were the that was the only craft that you were in the only one that I touched and worked on
+[00:42:49] and
+[00:42:50] It it quietly lifted off the ground which was incredibly impressive to see
+[00:42:56] Quietly or silently
+[00:42:58] What's well quietly because it did it produce it produced?
+[00:43:04] a
+[00:43:05] Little corona discharge from the bottom a corona discharge is kind of a high voltage brush
+[00:43:10] Little bluish glow discharge as it was lifting off the ground
+[00:43:14] You can hear a slight hiss sound now as soon as it cleared the ground by about five or ten feet
+[00:43:19] Maybe even less than that the hissing stopped and the blue goat disappeared
+[00:43:23] So it lifted off quietly and then it hovered silently if you want to be specific Wow
+[00:43:30] So then what kind of maneuvers was it doing it took out for that particular time?
+[00:43:35] it took off moved a little round around to the left and right and then sat back down the
+[00:43:42] The craft itself
+[00:43:46] They communicated with it with a rake because I saw the guy talking
+[00:43:51] In a regular VHF radio
+[00:43:54] to the person in the craft and I even saw the frequency that was on the the frequency counter of the
+[00:44:02] communication the transceiver there
+[00:44:05] But what's weird is he shouldn't be able to communicate with the craft with a radio the radio
+[00:44:13] The radio wave should bend around the craft. I mean it shouldn't be possible at every single thing about these
+[00:44:19] The craft and the way they operated
+[00:44:22] Didn't make any sense to us. I mean that's something we talked about for a while after
+[00:44:27] Why should the frequency bend around the craft? Well
+[00:44:31] You really have to look at the way the gravity wave comes out of the craft
+[00:44:35] There's a the reactors in the center and there's a waveguide that goes up to the top
+[00:44:39] There's actually a small appendage that sticks out of the top of the craft and it produces a heart-shaped
+[00:44:45] Gravitational distortion around the craft now if the craft is sitting in the air and you walk underneath it and look up
+[00:44:52] You actually cannot see the craft the light bends around it. You're bending gravity who bends light
+[00:44:59] It bends radio waves. It's
+[00:45:03] It it shouldn't be possible to communicate with a craft that has an envelope around it
+[00:45:09] that's distorting all forms of energy, but
+[00:45:12] They were apparently in contact with it somehow or another through some
+[00:45:17] Unexplained way that they didn't bother explaining to you
+[00:45:20] So this thing gets up. It just does some very simple maneuvers left right left, right goes down
+[00:45:26] And did they discuss this with you? I mean they said they wanted you to see it. No, they just want it
+[00:45:31] No, they didn't discuss anything with me. It's that it sat down
+[00:45:35] We looked around for a bit and Barry said let's go back. We went back in the lab
+[00:45:39] All we got to do is see it
+[00:45:41] You know fast forward
+[00:45:45] To some months later
+[00:45:47] I did have the test flight schedule of the craft now they had times they had designated high-performance tests
+[00:45:54] This obviously wasn't one that was a high-performance test
+[00:45:58] The high-performance test went goes above the mountain range and they do much more radical moves with the thing
+[00:46:05] look, this is a prized item and
+[00:46:08] They're not doing anything like taking it out of the atmosphere of flying around to other countries or anything like that this they just play
+[00:46:14] With this thing right over the test site
+[00:46:16] but they were doing some radical moves with it and
+[00:46:20] Since I had the test flight schedule statistically
+[00:46:24] The
+[00:46:26] Amount of traffic in the surrounding areas on the highway was lowest on Wednesdays
+[00:46:31] And that's why Denny Dennis told us that all the test flights occurred only on Wednesdays
+[00:46:37] because it'd be the least chance that anyone would see what's going on and this was before the the government had
+[00:46:44] Expanded the forbidden territory around area 51 and Papoose Lake and all that stuff, right?
+[00:46:51] Yeah, I think that occurred
+[00:46:53] After my story came out then people started going up on the mountaintops and trying to look down into there
+[00:46:59] And they kind of freaked out and then did the land grab and pushed everybody back
+[00:47:04] But yeah that I think all that occurred long after
+[00:47:08] I'm sorry that I came out. So you're working there and while you're working there you're under this crazy schedule
+[00:47:16] Forgive me for explaining your story, but you
+[00:47:20] Would get these phone calls you would have to go to the to the airport at 11 p.m
+[00:47:26] And your wife started thinking that you were having an affair
+[00:47:31] Yeah, apparently so
+[00:47:33] Now I did give my permission to have you know as part of the you know security clearance process
+[00:47:40] I gave written permission to have the phones monitored and things of that sort. So they weren't doing any covert stuff. They
+[00:47:49] You know with any Q clearance or which is civilian top-secret clearance or military top-secret clearance
+[00:47:55] They go talk to friends and you know
+[00:47:58] Place places you've been make sure you're not connected to foreign countries, but you know monitoring your phone is nothing unusual
+[00:48:04] however
+[00:48:06] they
+[00:48:07] Insisted that you know, you don't even talk to your loved one to your partner to your wife
+[00:48:12] Whatever about what's going on. So she was essentially in the dark and
+[00:48:17] Didn't know the phone was being monitored. Well
+[00:48:21] part of the security clearance is
+[00:48:23] That not only do you not have any connections to foreign countries and aren't a maniac but you have to have a stable home life
+[00:48:30] too
+[00:48:31] Well, she started having an affair with a flight instructor
+[00:48:34] Now they were monitoring this on the phone and they knew it and I didn't so they stopped me
+[00:48:41] coming in and their attitude at the time was
+[00:48:45] We need to see how this is going to play out and if Lazar is going to get a little weird or anything
+[00:48:50] so let's just you know, hold him off from coming in and
+[00:48:56] You know see what happens and they explain this to you. What was happening? Well after the fact, yeah, cuz time kind of went on and
+[00:49:05] There were guys that were following me around and I started getting a little concerned going. Well chitter they
+[00:49:12] Booting me out of the project and if so
+[00:49:15] They're not just gonna let me hang out at home and go get a new job knowing what I know
+[00:49:20] so as
+[00:49:22] Time went on. I started getting a little concerned and I took my closest friends and just kind of got together. I said, hey
+[00:49:30] Remember that job. I told you about
+[00:49:33] this is what's going on and
+[00:49:36] Like you don't need to take my word for it
+[00:49:38] Wednesday night we need to all go out here. I want to show you what's going on
+[00:49:42] so I took everybody and we went out to
+[00:49:46] Remember since I had the test flight schedule and went outside the base
+[00:49:51] out into the desert and so everybody could see, you know, one of the high-performance tests and
+[00:49:57] You know, it left quite an imprint on everybody. So they knew I wasn't and there's videos of these tests, right?
+[00:50:02] Yeah
+[00:50:03] I remember this is in there
+[00:50:04] It's in in the dark in the 80s of the big monster-sized camcorder and you got you know, a bright light jumping around
+[00:50:11] But yeah, I mean we did video of it, but there's no
+[00:50:15] By today's standards. It's but it's your video specifically available the video that you took it
+[00:50:21] Well, George Knapp has it. It's is it all right now. Do you I have no idea Jeremy?
+[00:50:25] Yeah, I show clips of it in my film. It's it's online and someone did a deep analysis of it. It was interesting
+[00:50:32] Just take a look at how this microphone up to face about a fist from your face, right?
+[00:50:36] You know to see how his video looks now, but as far as video evidence
+[00:50:41] I mean what we are talking 80s camcorders. The most important thing is the human story here
+[00:50:45] Everybody that he took up there on three separate occasions. They don't all like each other. They don't all talk
+[00:50:51] They all agree on one thing
+[00:50:53] They saw something that night at the exact point in time and space that Bob Lazar said and remember this is
+[00:50:59] 17 15 17 miles south of Area 51. No one even knew really about Area 51
+[00:51:03] We're talking Papoose Lake and they all agree. They saw something that night
+[00:51:07] They had never seen before and they've never seen since right when he said it
+[00:51:11] So that's one of like the six things where I'm like, how did he know you can dismiss him?
+[00:51:15] I tried to dismiss it but some things we can't get around and and there's about five or six of them
+[00:51:21] How did he know about if Jamie wants to find that video right now? What would he look under Bob Lazar UFO?
+[00:51:28] s for
+[00:51:30] Area 51 just kind of like that
+[00:51:32] So it's like this s for UFO video Bob Lazar and a guy does an analysis
+[00:51:36] But you're not analyzing these 80s videos, right?
+[00:51:40] He from the very beginning Bob never said I have proof of my story and I'm going to tell the world
+[00:51:46] He said at the very beginning. I cannot prove my story. That's not why I'm telling this George
+[00:51:52] Knapp convinced him to tell people and he lived through it and I didn't believe it either until I talked with George
+[00:51:58] Okay, so you you filmed these?
+[00:52:02] This test flight one test flight and then you get caught
+[00:52:06] Actually, it was I think of a third time because it we went out there the first time
+[00:52:13] everybody saw it everybody was amazed because it did some radical maneuvers and
+[00:52:18] You know, everybody had a lot of maneuvers that I've seen. I've seen the video
+[00:52:22] It doesn't I don't think there's something we have now that does that no in terms of like a human piloted craft
+[00:52:29] I mean, I don't know obviously with the government. No, it's it's impossible
+[00:52:32] Nothing can move like that. And remember we didn't start filming from the very beginning, you know
+[00:52:38] It's the we were waiting for something, you know to happen the craft took off and I came flying at a stop
+[00:52:44] You know turned it a right angle flew back and then you know after it did some, you know
+[00:52:48] Amazing stuff to get the camera and then you we started filming so it doesn't have all of it on there
+[00:52:53] It just has some the way I describe it to my friends and they said what does it look like?
+[00:52:57] I said take a laser pointer and then have a wall and then move it around the wall
+[00:53:01] Like, you know how it moves around the wall
+[00:53:03] It doesn't seem like it has anything to do with inertia or physics or it's not in impeded in any way by the atmosphere
+[00:53:09] Yeah, that's what it looks like. You're essentially separated from reality as crazy as that sounds with
+[00:53:16] Being in in case its own gravitational envelope
+[00:53:20] Inertia is not going to affect it. And you know, this is
+[00:53:25] This is how some of those recent sightings of commander David Fravor, I'm sure you've heard of the tech tech UFO
+[00:53:30] I mean he describes exactly that the thing operates exactly the way I was describing
+[00:53:36] That's why he was interested to talk to me
+[00:53:40] but we saw this and
+[00:53:43] You know on the way home it's like it way we got away with it
+[00:53:46] We should try it again the next test flight date. So this became a thing to do and I think
+[00:53:52] it was on the third time that we got caught. I mean, we started becoming a little careless.
+[00:53:58] I think we took a motor home out there. You know, I mean, it was like the stupidest thing
+[00:54:03] you could possibly imagine.
+[00:54:04] Took a grill, started tailgating.
+[00:54:05] Yeah, it was ridiculous. And...
+[00:54:07] Again, you're in your 20s.
+[00:54:09] Yeah. And, you know, what was funny was we went out there and my friend Gene Hough and
+[00:54:16] I were leaning on the front of a vehicle. And just for some reason, we just started
+[00:54:23] talking shit. Like, well, I hope they realize that... I don't remember what we're saying,
+[00:54:30] but, you know, that something about attacking the base or something along those lines and
+[00:54:36] stealing the craft or something like that.
+[00:54:39] We were crazy.
+[00:54:40] And then about 20 feet in front of us, we see a little green light fall on the ground
+[00:54:46] and roll to us. And unbeknownst to us, now it's pitch black. You can't see your hand
+[00:54:51] in front of your face. There were a bunch of guards standing right out there. And they
+[00:54:55] had a night vision scope where they were like from here to the wall, looking at us, listening
+[00:54:59] to us. And the guy dropped it and the scope rolled over to us and you could see the green
+[00:55:03] screen. We turned the lights on and all these guys are there. So it was...
+[00:55:08] Whoa.
+[00:55:09] Yeah, yeah. So we did incredibly stupid stuff and got caught as we should have because...
+[00:55:13] So when they catch you and they bring you in, then what happens?
+[00:55:16] Well, I went in for debriefing. The following day, I went to Indian Springs Air Force Base,
+[00:55:22] which is kind of a defunct base that they used to use at the nuclear test site. And
+[00:55:28] this is when they brought out the transcript of the phone call with my wife. And, you know,
+[00:55:37] they sat me down and we said, you know, when we meant to keep the secret, we meant you
+[00:55:42] can't tell your friends, right? And it just being sarcastic and trying to... And then
+[00:55:48] they got real serious. But this is where they took the transcript out and were reading me
+[00:55:55] what my wife and our friend were talking about. And it was a hard time.
+[00:56:04] So what happens from there?
+[00:56:08] What do they do with you? Why don't they arrest you?
+[00:56:11] I don't know why. I'm not sure exactly they knew what to do, but they did let me go that
+[00:56:18] night and I went home. And this is kind of when the most stressful part started.
+[00:56:24] Because you're realizing you're being monitored 24-7.
+[00:56:26] Yeah, now I know not only am I being monitored, but now I know I'm in trouble.
+[00:56:31] And it wasn't a short time after that, that I contacted, you know, at that time,
+[00:56:36] the only investigative reporter I had heard of in Las Vegas was George Knapp. And, you know,
+[00:56:43] told him some of the story because I had no idea what the hell was going to happen at that point.
+[00:56:47] So George Knapp tries to dissect your story, tries to find holes in it,
+[00:56:54] tells it, puts it online and makes everybody aware of it. And that's how I found out about it.
+[00:56:58] Yeah, to make a long story short.
+[00:57:01] What happens, yeah, to really make a long story short, what happens from there on? I mean,
+[00:57:05] do they contact you and say, hey, Bob, it's probably a good idea if you shut up?
+[00:57:13] They try to label you as crazy? Was there?
+[00:57:18] Boy, there were a lot of things that happened at, you know, between that point. I'm leaving
+[00:57:24] out a lot of stuff to fill in the story. We'd have to go back to Los Alamos and,
+[00:57:33] well, I really don't want to talk about that.
+[00:57:35] The top secret weapons stuff that you were working on?
+[00:57:41] No, I'm talking about the 115.
+[00:57:46] Well, I don't know, I have to think about how I'd.
+[00:57:49] What is the problem?
+[00:57:50] I don't want to get myself into more trouble by admitting something. So I just have to dance
+[00:57:56] around a couple.
+[00:57:57] He was rated just during the filming of the movie.
+[00:57:59] Yeah, the movie's great, by the way.
+[00:58:01] Thanks, Joe.
+[00:58:02] And it's on Netflix right now, if anybody wants to check it out. And if you're one of those people
+[00:58:06] like me, who, you know, I've always loved the idea of UFOs. I became extremely weary talking to
+[00:58:14] people who are UFO believers and UFO fanatics, because there's so many of them that are full
+[00:58:18] of shit. And not just full of shit, they're childishly delirious. Like the way they talk
+[00:58:24] about things. I mean, there's so many people that I'm in contact, they reach me in the night and
+[00:58:30] they explain to me what we're doing to the ocean is wrong. And like, you know, like, okay.
+[00:58:35] This is one of the reasons I didn't want to do the show.
+[00:58:37] I'm sure.
+[00:58:38] I mean, it's no joke. We've had people literally camp out on our front lawn. And, you know,
+[00:58:46] in some ways, I can relate to some of these people, you know, maybe some of them did really
+[00:58:50] have some kind of experience or saw something and all their friends think they're crazy. But hey,
+[00:58:55] now there's this guy I heard on the radio. And at least he knows I'm not full of shit. So I gotta
+[00:59:02] talk to him. And so most of the correspondence I get are people trying to get ahold of me going,
+[00:59:07] Bob, you gotta listen to me. I'm coming to talk to you. I'm driving from Oklahoma or whatever.
+[00:59:13] And, but some of them are just fucking batshit crazy. And they're frightening.
+[00:59:18] There's a lot of schizophrenics that are involved in the conspiracy world.
+[00:59:23] So there's a lot of people that have real issues.
+[00:59:24] Joe, it's a good question. I mean, I think, you know,
+[00:59:28] there's a lot of people that have real issues.
+[00:59:30] Joe, it would be a disservice to your audience to not say that
+[00:59:36] we have to look at what's going on now and understand I've heard
+[00:59:39] on your show a bunch of stuff about what's going on now. And to not really understand
+[00:59:44] what's going on now. You can't see Bob's story in the correct light after 30 years.
+[00:59:49] And at some point, we should just touch upon that. The biggest being that things like the
+[00:59:55] Tic Tac UFO case that came out. I've heard people even on the show say,
+[00:59:59] oh, there's a glitch in the radar. That's a data poor perspective.
+[01:00:04] You just don't know yet what's really going on. Commander Fravor,
+[01:00:07] I was able to get the interview with him to talk with him way before it became public.
+[01:00:11] I got that from him. He saw it. Other pilots saw it.
+[01:00:15] This is a big thing that's going on right now. They had more sightings on the East Coast recently,
+[01:00:21] cubes with spherical orbs. These are not aerodynamic. And these are the people we
+[01:00:25] trust to defend us on 9-11. Commander Fravor protected Los Angeles on 9-11.
+[01:00:30] So we trust them, but they're not trained observers. Radar, individuals see these
+[01:00:35] things. And the big one, just to throw down so we can consider a story a little differently,
+[01:00:39] there's more depth to it. The big one is the United States government has admitted
+[01:00:44] that they have been continuously studying the UFO phenomenon.
+[01:00:47] That program was called AATIP, Advanced Aerospace, or sorry,
+[01:00:52] was called AUSAP. That's the mother program. George Knapp got that out. They announced
+[01:00:58] through the New York Times about AATIP, but AUSAP, these acronyms, AUSAP, Advanced Aerospace
+[01:01:03] Weapon Systems Applications Program. Who cares? That was the mother program. So they've admitted
+[01:01:08] we didn't stop studying UFOs in 1969 with Project Blue Book. We don't think it's crazy.
+[01:01:12] We actually want to reverse engineer the technology. That's why on your other show,
+[01:01:16] you said, what's this AAV thing? It's like they're making up another UFO name. Well,
+[01:01:20] hold on. There's a reason. Because in the documents, the DIA documents that George Knapp
+[01:01:25] released that everybody said was fake till now they know is real, they call them AAVs,
+[01:01:30] which is Advanced Aerospace Vehicles. People are getting the acronyms wrong.
+[01:01:35] So the reason for the terminology change is so that we can mimic what we're reading in
+[01:01:39] the DIA documents. People can look for that now. So they change the names to get people
+[01:01:44] away from UFO or UAP, even like Hillary Clinton said on air, right?
+[01:01:48] Trevor Burrus So what are you talking about?
+[01:01:50] Aaron Powell Hillary Clinton informed
+[01:01:53] the public on Jimmy Kimmel. Oh, Jimmy, we don't call them UFOs anymore. We call them UAPs,
+[01:01:59] Unidentified Aerial Phenomenon, right? So she kind of was giving – the Clintons are very into the UFO
+[01:02:05] topic. Senator Reid, he's done a lot for the subject, the study of it, right? So she informed
+[01:02:12] the public so they could look for the right term. So these terms are important because the DIA
+[01:02:17] in those documents, they've been calling them AAVs for quite some time now.
+[01:02:21] Trevor Burrus And they changed the name to anomalous.
+[01:02:24] Aaron Powell No, that's kind of a misnomer.
+[01:02:26] Trevor Burrus No?
+[01:02:26] Aaron Powell So they always mess around with things,
+[01:02:29] but it's actually advanced.
+[01:02:31] Trevor Burrus Right, but when they're describing it in the news,
+[01:02:33] they were calling it anomalous aerospace vehicles.
+[01:02:35] Aaron Powell Totally. And that's cool. They were also
+[01:02:37] saying anomalous aerospace threats, AAT, right? Because they want the sense of a threat.
+[01:02:43] So my point is, if people don't know this now and they think this stuff is fantasy,
+[01:02:48] this part of it, that we're studying it, that we take it seriously, we're spending money on it,
+[01:02:52] and that we're getting great data from visual pilots to radar, that's why we know it's aerospace.
+[01:02:58] They dropped from 80,000 feet. But guess what? That's the top scope of the SPY-1 radar is 80,000
+[01:03:04] feet. So the radar system they were using, it was coming from above that. So my point is this,
+[01:03:10] if you don't understand that this is happening, you're just behind the curve, because you don't
+[01:03:15] have the information because of the stigma that you're talking about. I saw you get totally upset
+[01:03:20] with the UFO topic. I met you first when you got totally upset with the UFO topic. It's the people.
+[01:03:25] Trevor Burrus When?
+[01:03:25] Aaron Powell When you're doing your…
+[01:03:27] Trevor Burrus I'm sorry, man. When you're doing your show,
+[01:03:30] the Joe Rogan questions everything, I could see how frustrating it is. Trust me, I have been
+[01:03:37] frustrated to hell. Luckily, my mentor is George Knapp, and he's taught me the pitfalls as I went
+[01:03:42] through it. My whole point in this rant right here is just that we have to now look at Bob's story,
+[01:03:48] but knowing the facts, not someone saying it's a bird, it's a plane, it's a glitch. They're not.
+[01:03:54] And so if you don't know that, you just don't have the information yet.
+[01:03:57] Not just that, knowing the facts as we know them in 2019, not in 1988.
+[01:04:02] Absolutely. And so what has he said that has come true? He's totally unimpressed with it,
+[01:04:08] right? What has he said that's come true? So I was like, Bob, they've announced gravity as a wave.
+[01:04:13] You were right, man. You're vindicated. And he looks at me and he's like,
+[01:04:16] well, if you think about it, Jeremy, I had like a 50-50 chance. He was not very impressed, right?
+[01:04:22] When did they announce gravity as a wave?
+[01:04:25] So they detected, in a sense, they detected gravity waves.
+[01:04:28] And who is they?
+[01:04:30] You might know more. There's two black holes that were colliding, and that's how they were able to
+[01:04:34] detect.
+[01:04:34] Yeah. Somebody built, I don't know which group it was or what part of the government.
+[01:04:38] That's what Google's for.
+[01:04:40] Yeah.
+[01:04:41] But they built a gigantic gravity wave detector and pretty much detected.
+[01:04:48] There are such things as gravity waves.
+[01:04:50] First observation of gravitational waves. It says it was in 2016. Okay. The first observation
+[01:04:57] of gravitational waves was made on 14th of September, 2015, as announced by the LIGO
+[01:05:03] and Virgo collaborators on 11th of February, 2016. Previously, gravitational waves had only
+[01:05:10] been inferred indirectly via their effect on the timing of pulsars in binary star systems.
+[01:05:16] Dun, dun, dun. The waveform connected by both LIGO observatories matched the predictions
+[01:05:25] of general relativity for a gravitational wave emanating from the inward, I'm trying to get this,
+[01:05:35] from the inward spiral and merger of a pair of black holes around 36 and 29 solar masses
+[01:05:42] and the subsequent ring down of the single resulting black hole.
+[01:05:47] Well, I mean, in the 80s, the predominant theory was gravity is produced by gravitons,
+[01:05:55] you know, theoretical particles, but they're not, they're waves, they're not particles.
+[01:06:01] And so the thought is that the way we experience gravity, it's based on mass, which is why
+[01:06:07] the moon, which is roughly one quarter the size of the earth has one sixth of the earth's gravity.
+[01:06:13] So there's some sort of a computation you can make based on mass.
+[01:06:16] Right. And remember, we can observe the effects of gravity, but we have no idea what it is.
+[01:06:24] All we can do is observe it and we can't make it. The only way you can make gravity
+[01:06:28] is just put more mass together. And it's just a product of gravity. But if you can make a,
+[01:06:33] if you have a machine that makes gravity, you can pretty much do anything. You can affect time,
+[01:06:40] you can have force fields, all that stuff that's in science fiction becomes reality.
+[01:06:45] If you have a machine that can make gravity. And what we worked on in the desert
+[01:06:50] was a machine that makes gravity.
+[01:06:53] I love your analogy of dropping off a small nuclear reactor to the Victorian era.
+[01:06:58] I love that analogy, because back then, that was impossible. That was magic.
+[01:07:05] What you're talking about here, the fact that they just discovered this four years ago,
+[01:07:10] that this is a wave. We're, as much as we know, and as impressed as we are, as we should be,
+[01:07:15] with how much more technologically advanced we are than every other creature on this planet,
+[01:07:21] we're still in many ways in the adolescence of technological innovation.
+[01:07:25] Absolutely. Absolutely. If even adolescence.
+[01:07:29] And when you're talking about this binary star system, Zeta Reticuli, and who knows
+[01:07:36] how much longer these things have been around than us? Who knows what their evolutionary cycle's been?
+[01:07:41] Who knows what, I mean, we might be talking about something that's a million years more advanced than us.
+[01:07:46] Yeah, yeah, it could easily be. Now, I'm not in, believe it or not, I'm not into UFOs.
+[01:07:52] I don't follow stories or, you know.
+[01:07:55] Even after your experiences?
+[01:07:56] No, I'm fascinated with the technology, and it really, it irks me like every night I go to sleep
+[01:08:02] that, you know, I don't, that it was my own doing, essentially, that prevented me from continuing on
+[01:08:11] in the project. I mean, to be on that cutting edge of technology is so alluring to me.
+[01:08:18] Right.
+[01:08:18] But, you know, by the same token, I don't really care that there's aliens or where they come from.
+[01:08:25] I mean, the prize is the technology, and that's what I'm fascinated by.
+[01:08:28] But, so I don't listen to UFO stories and that sort of thing.
+[01:08:31] But George Knapp is, I mean, he's the guy that has the context and tries to thread everything together.
+[01:08:38] And what he recently told me is he found, I don't know, it was either documentation or people that
+[01:08:44] he spoke to, it's that this, the existence of this project, the project that I was on,
+[01:08:49] it's something that they seem to take out every eight or ten years.
+[01:08:54] So that's a very specific memo.
+[01:08:56] And this is actually, this is the first time I'll be very clear with people about it.
+[01:09:00] It's a big topic of conversation right now.
+[01:09:03] It's called the Wilson Memo.
+[01:09:05] You can look it up.
+[01:09:06] Admiral Wilson met with a scientist who's actually was featured in one of my films.
+[01:09:11] Everybody has been debating whether or not this document of a conversation with a sitting
+[01:09:18] admiral at the time is a real document.
+[01:09:21] It's an actual conversation that happened.
+[01:09:23] And this document is where everybody wants to know the world is going crazy right now
+[01:09:25] in the UFO world.
+[01:09:27] I'll tell you straight up right now, I'm in the position to know, and it is a real document,
+[01:09:33] that it is real.
+[01:09:34] So the conversation you read in that, that conversation was had.
+[01:09:39] I can't attest to every-
+[01:09:40] You're not being very clear.
+[01:09:41] Sure.
+[01:09:41] Please.
+[01:09:42] No problem.
+[01:09:43] So there was a document that is circulating right now that is really big.
+[01:09:47] It's going around everywhere.
+[01:09:48] People are asking and wondering.
+[01:09:49] What is this document?
+[01:09:50] It's called the Wilson Memo, is how you can find it online.
+[01:09:55] Or the Wilson Leak.
+[01:09:56] There it is.
+[01:09:56] Jimmy's got it.
+[01:09:57] The Wilson Memorandum.
+[01:09:59] Use of human volunteers.
+[01:10:00] No, no, no, no, no, no.
+[01:10:03] So Admiral Wilson meets with this scientist and they have this discussion, oddly enough,
+[01:10:09] at special projects at EG&G.
+[01:10:11] And if I remember, the document is from 2001.
+[01:10:14] I'm telling everybody right now, it's real.
+[01:10:16] And we'll see, my history is pretty good with like saying if something's real or not, right?
+[01:10:20] So here we go.
+[01:10:21] The document comes out.
+[01:10:22] They meet at EG&G special projects.
+[01:10:24] In 1989, they stumble into a problem.
+[01:10:28] This happens.
+[01:10:29] They put the technology away and then they bring it back out and see if material science
+[01:10:34] has caught up and if they can make any progress.
+[01:10:37] So this document kind of talks about this process.
+[01:10:40] The big thing I get from it, and a lot of it's vindicating to Bob.
+[01:10:43] And one of the things it's vindicating besides the EG&G thing is that private industry.
+[01:10:49] So this guy's an admiral.
+[01:10:50] And he says, I found out about your SAP, your special access program.
+[01:10:55] I need to know about it.
+[01:10:56] And he's going to a private part of industry.
+[01:11:00] And he is denied access.
+[01:11:02] And he says, you know, I should be running this program.
+[01:11:06] And they were able to deny him access.
+[01:11:09] So I think the takeaway here is, check it out.
+[01:11:11] I'm telling you that that is an actual, correct, that is a leak.
+[01:11:15] Now, everything said in that document, I don't know.
+[01:11:17] Darrell Bock What are you talking about?
+[01:11:18] What is said in that document specifically?
+[01:11:19] Ben Stuart It's between a scientist and an admiral
+[01:11:22] that are sitting and they're having a meeting.
+[01:11:25] And they're talking about the search for the UFO subject, the search to get special access
+[01:11:31] program access to all of these different things like reverse engineering programs.
+[01:11:37] So in this document, they talk about it.
+[01:11:40] I believe that this document, the person that went was employed by Robert Bigelow.
+[01:11:45] You know, one of the guys has a couple orbiting satellites and all that stuff.
+[01:11:48] Darrell Bock He's the guy who owns Skinwalker Ranch.
+[01:11:50] Ben Stuart No, he's not.
+[01:11:51] He was the guy that owns Skinwalker.
+[01:11:54] Yeah, he used to own it.
+[01:11:55] There's a new owner.
+[01:11:56] And I interviewed him for my other film.
+[01:11:59] But there's a new owner.
+[01:12:00] And you'll be hearing a lot more about that soon.
+[01:12:02] But like, it'll just there's stuff that you'll be hearing about Skinwalker Ranch soon
+[01:12:06] because there's a new owner.
+[01:12:08] Anyway, the whole point of this, you know, insertion here is just that
+[01:12:12] that document kind of validates a lot of this idea.
+[01:12:16] Bob just said that they make a little progress, then they can't go anywhere.
+[01:12:20] They tuck it away, and then they bring it back out, you know, 10 years later and start
+[01:12:24] working on it.
+[01:12:26] What is the limiting factor?
+[01:12:27] I think Bob should speak on this, but it's the material science.
+[01:12:30] Ben Stuart Yeah, it's really where physics is.
+[01:12:32] So I can see them doing that.
+[01:12:34] I mean, I didn't have any information on that.
+[01:12:38] But I think what, you know, George uncovered is probably accurate that, you know, we try
+[01:12:43] and do what we can.
+[01:12:45] And once we reach a roadblock on, we really can't figure it out.
+[01:12:49] It's just friggin wait, put the thing away, wait for science to catch up.
+[01:12:53] And, you know, a decade later, let's take the project out again and say, all right,
+[01:12:57] now where can we go?
+[01:12:58] Darrell Bock But there's got to be someone who remains
+[01:13:00] informed, right?
+[01:13:01] So you've got your scientists like you and Barry, you got your people that you compartmentalize,
+[01:13:07] you got these people working on this project.
+[01:13:08] Ben Stuart Yeah, there has to be some people that know
+[01:13:10] everything.
+[01:13:11] Darrell Bock You've got security.
+[01:13:12] And then someone's going to be on the outside saying, hey, we need people to guard this
+[01:13:17] building.
+[01:13:17] Don't let anybody in for 10 years.
+[01:13:18] Ben Stuart I think a lot of that is private industry.
+[01:13:21] And I think that's how they keep it.
+[01:13:23] Yeah, I think that's how they litter because the government is just so leaky.
+[01:13:27] I think that's kind of what they're doing.
+[01:13:29] Darrell Bock That's what the document kind of proves.
+[01:13:30] You just articulated that, that it is in control of private industry.
+[01:13:34] Ben Stuart What private industry?
+[01:13:36] Some aerospace company, something?
+[01:13:37] Darrell Bock I don't know.
+[01:13:38] Darrell Bock Yeah, the guy, the Admiral wouldn't name
+[01:13:40] it in the car in the conversation.
+[01:13:42] Ben Stuart Right.
+[01:13:43] So they still have these things, supposedly.
+[01:13:47] Darrell Bock I would guess.
+[01:13:49] I mean, I don't have any information.
+[01:13:51] Ben Stuart Have you ever asked anyone that has any
+[01:13:55] inkling of any idea of where they got them or how they got them?
+[01:13:59] Darrell Bock No, but something must have been said to me
+[01:14:05] from Barry.
+[01:14:07] But it was just too long ago, and I can't quite remember what was said.
+[01:14:11] But it just left a seed in my mind.
+[01:14:13] I think at least one of them was part of an archaeological dig.
+[01:14:18] So it's old.
+[01:14:21] At least one of them is old.
+[01:14:22] I don't know if it was the one I worked on, but I remember something to do with an archaeological
+[01:14:27] dig.
+[01:14:27] Ben Stuart Whoa.
+[01:14:28] Darrell Bock So that means it's not just old, it's ancient.
+[01:14:32] Ben Stuart That'd be a great Steven Spielberg movie.
+[01:14:34] Darrell Bock Yeah.
+[01:14:34] Ben Stuart Right?
+[01:14:35] Darrell Bock As all of it would.
+[01:14:38] Yeah.
+[01:14:38] Ben Stuart That tricked me out when he said that for
+[01:14:39] the first time.
+[01:14:40] Darrell Bock Yeah.
+[01:14:41] That's a freak out right there.
+[01:14:42] Just a couple of dudes with some brushes looking for a Tyrannosaurus Rex bone that hit metal.
+[01:14:47] Ben Stuart And when did they find it?
+[01:14:48] You know, that they have nine of them.
+[01:14:50] Darrell Bock Well, and how could we have not heard about
+[01:14:53] that?
+[01:14:53] What about the guys with the brushes?
+[01:14:55] How could you uncover something like that?
+[01:14:57] Ben Stuart Well, Joe's newspaper at home does.
+[01:14:59] I mean, they said it on that first day.
+[01:15:01] Darrell Bock Oh, you mean the Roswell Daily Record?
+[01:15:02] Ben Stuart Yeah, the one you told me.
+[01:15:03] Darrell Bock Yeah, I have a cover.
+[01:15:04] What is this here, Jamie?
+[01:15:06] This is the document, but I had to do some digging to find it.
+[01:15:08] Ben Stuart Yes, it's just kind of – yeah,
+[01:15:10] so this is where they meet at EG&G, and this is Admiral Wilson.
+[01:15:13] And there's a lot more coming out.
+[01:15:14] Now, I want to be clear.
+[01:15:15] George didn't put this out.
+[01:15:17] He didn't leak this out to anybody.
+[01:15:19] This is – I can tell you how I –
+[01:15:21] Darrell Bock Who recorded this conversation?
+[01:15:22] Ben Stuart So this was an employee of, at the time,
+[01:15:25] Robert Bigelow.
+[01:15:26] Darrell Bock And this is in 2002?
+[01:15:27] Ben Stuart Right.
+[01:15:27] Do you remember when he had that government contract called OSAP,
+[01:15:30] The World All Knows About Now?
+[01:15:31] And he had nids that studied the ranch.
+[01:15:33] That $22 million everybody is saying it was for AATIP,
+[01:15:37] Advanced Aerospace Threat Identification Program.
+[01:15:40] The $22 million was for OSAP that was pushed through Congress,
+[01:15:45] three congressmen, right, an astronaut.
+[01:15:48] It was pushed through, and that's what that $22 million – by the way,
+[01:15:52] they spend more money on Viagra every year than they do studying UFOs,
+[01:15:55] if it was just this program, which I think is funny.
+[01:15:56] Darrell Bock They probably make a lot more
+[01:15:58] money from Viagra than they do from UFOs, too.
+[01:16:00] Ben Stuart Well, you never know how it
+[01:16:01] seeds into population.
+[01:16:02] But anyway, this program, this is what was the mother program.
+[01:16:07] So it got the $22 million.
+[01:16:09] And really, it was to study Skinwalker Ranch, oddly enough,
+[01:16:12] that $22 million all was inspired by the phenomenon
+[01:16:15] they were seeing at Skinwalker Ranch.
+[01:16:16] Because the scientists, they're seeing vehicles come through,
+[01:16:20] like, a space in the sky.
+[01:16:22] Darrell Bock Yeah, we went there.
+[01:16:23] I went there with Duncan.
+[01:16:25] We interviewed a bunch of people that seemed full of shit,
+[01:16:28] but a couple that didn't.
+[01:16:29] It was very, very interesting.
+[01:16:31] Ben Stuart Totally.
+[01:16:32] But if you look, I spent a lot of time in the area.
+[01:16:34] I'm not talking about those stories.
+[01:16:36] I'm saying there were scientists hired by the government,
+[01:16:38] right, through Bigelow to study the ranch,
+[01:16:40] because they thought it was important.
+[01:16:42] And, you know, whatever, whatever.
+[01:16:44] The point is that $22 million was to study that.
+[01:16:46] Then we have AATIP, which is like an auxiliary
+[01:16:49] kind of program of military sightings,
+[01:16:51] like Commander Fravers and that sort of thing.
+[01:16:53] This document is just one of those things
+[01:16:56] that has now come forward through the Bigelow studies.
+[01:16:59] It was government funded, and then it was personally funded,
+[01:17:02] and then government funded.
+[01:17:04] It's just one of those things that kind of shakes you,
+[01:17:07] because you got this military guy who can't get access
+[01:17:11] because of the private industry that's holding
+[01:17:13] these non-terrestrial materials.
+[01:17:16] They can't study it.
+[01:17:17] So that's the claim right now.
+[01:17:19] Give it some time.
+[01:17:20] Let people dig more into this.
+[01:17:22] It's fascinating, man.
+[01:17:24] So you are, essentially, you're kicked out, right?
+[01:17:32] You're out of this program.
+[01:17:33] You can't work with these crafts anymore.
+[01:17:36] And do they give you any threats?
+[01:17:40] Do they tell you what you have to do from here on out?
+[01:17:43] Yeah, well, I mean, the way it ended was
+[01:17:47] I told George Knapp all this stuff.
+[01:17:50] And, you know, he said, well, let's just get it on tape.
+[01:17:53] Should something happen, at least we have a record of it.
+[01:17:56] And I don't remember what the impetus was,
+[01:18:00] but at some point, George wanted to air it.
+[01:18:03] And he said, you know, you make the call on it.
+[01:18:07] And look, if at any point you change your mind,
+[01:18:10] we won't air it.
+[01:18:12] And it came down to the day where George wants
+[01:18:14] to put it on the 5 o'clock news.
+[01:18:16] He said, this is important stuff.
+[01:18:17] People have to know about it.
+[01:18:19] And I thought it was, too.
+[01:18:20] I thought it's kind of a crime.
+[01:18:22] I know you got to keep the technology secret,
+[01:18:24] but you can't not tell everybody that this stuff is going on.
+[01:18:28] That we have, you know, actual hardware
+[01:18:30] from another civilization.
+[01:18:32] It's a big fucking deal.
+[01:18:34] You know, probably the biggest one there ever was.
+[01:18:36] And George said, you know, today's the day.
+[01:18:41] We got to put it on the news or something to that effect.
+[01:18:44] And when it came right down to the time to air it,
+[01:18:47] I changed my mind and I said, we're not doing it.
+[01:18:51] And that's what turned into the famous wrestling match
+[01:18:54] between me and George trying to get the tape.
+[01:18:57] But he won because he was a bigger guy.
+[01:18:59] Pete So you actually physically wrestled?
+[01:19:01] Joe Well, I think it was more of a pulling match.
+[01:19:03] I don't think we ever hit the ground.
+[01:19:05] But he got the tape and put it in the player.
+[01:19:08] And boom, 5 o'clock news was on.
+[01:19:10] And then I got a call after that.
+[01:19:13] And they said, it was from Dennis.
+[01:19:14] He said, do you have any idea what we're going to do to you
+[01:19:17] now?
+[01:19:17] And he hung up the phone.
+[01:19:18] That was the last communication I had with him.
+[01:19:21] Pete And what has happened to you since then?
+[01:19:24] Joe After that, a lot of people I've known
+[01:19:32] either were audited by the IRS.
+[01:19:35] People had anybody I know that had clearances
+[01:19:38] that worked in secure programs had the clearances pulled.
+[01:19:42] One of them, a friend, one of mine that Jeremy knows.
+[01:19:47] Jared He's going on camera with me soon.
+[01:19:48] He'll tell the story now that he's out of work up there.
+[01:19:51] Pete He was working up at the Tonopah Test Range
+[01:19:53] waiting for his clearance to come through.
+[01:19:55] And they pulled that.
+[01:19:59] It's like if they can't get the person that's involved,
+[01:20:02] they just create a problem for everybody that surrounds them.
+[01:20:06] And so the way it turns out, it hurt a lot of people's lives
+[01:20:10] that I was connected to.
+[01:20:12] And that's an effective way of shutting someone up.
+[01:20:15] Jared Did you feel that by coming forward
+[01:20:18] and going public, they couldn't just snuff you out?
+[01:20:20] Pete That was, I mean, that's what I was told
+[01:20:22] in Georgia.
+[01:20:22] And everybody, you know, said that you got,
+[01:20:24] oh, it's public.
+[01:20:26] There's, you know, no one will touch you.
+[01:20:27] And I, you know, I fell for it.
+[01:20:32] And I-
+[01:20:33] Jared Do you wish you didn't?
+[01:20:34] Pete Yeah, sometimes.
+[01:20:36] Jared Sometimes when it's just over stress
+[01:20:37] and people are camping on your lawn.
+[01:20:39] Pete Yeah, but this is going to make things worse
+[01:20:42] doing this.
+[01:20:42] Jared No, this is going to make things better.
+[01:20:45] Pete I was trying to tell him.
+[01:20:46] Jared How is this going to make?
+[01:20:48] things better because you're getting a real chance to explain yourself in a way that's going to
+[01:20:53] make people who not only work in the government people that are police officers and firefighters
+[01:21:00] and first responders and doctors and scientists they're going to empathize emphasize empathize
+[01:21:06] and and empathize with what it must be like to be a person like you in your 20s who gets thrust
+[01:21:15] into this world unknowingly and confronted with one of the most if not the most important
+[01:21:23] discovery in the history of human beings the big question are we alone it's the number one question
+[01:21:31] there's two questions right what happens when we die and are we alone those are the two big
+[01:21:35] questions right and if we're not alone and someone knows we're not alone and these some people who
+[01:21:43] know we're not alone are these bungling sort of even if they weren't it's a crime that they're
+[01:21:51] not telling the rest of us but i mean i don't mean bungling in terms they're incompetent i
+[01:21:55] mean they can't be competent it seems to me to what you're describing that no one can be
+[01:22:00] competent with this technology like the victorian era scholars analyzing some sort of a nuclear
+[01:22:07] reactor there's there's no way why do you think why do you think they're not telling us let's
+[01:22:12] just make an assumption that this is true right now why do you think that they're not telling us
+[01:22:17] that our government doesn't tell us what's your best well let me put it into what would you do
+[01:22:22] if if i'm the president okay and i get this information what do i do with this what do i
+[01:22:27] do this there's something that we don't know there's something we don't understand there's
+[01:22:31] something that came from another world we got it tucked away in the mountains and i just wanted
+[01:22:35] you guys to know about it hey sleep tight hey american auto's on tonight who do you think is
+[01:22:39] going to win yeah who's going to win america so one is uncertainty and the other one is what bob
+[01:22:46] and i've talked about a lot absolutely not knowing what to tell people because you don't really
+[01:22:51] understand it yourself even though you've got what do you say you if you want to run a government you
+[01:22:55] want to get people to pay their taxes but there's something else yeah what do you say so you have
+[01:22:59] these objects fine with impunity right and you but you have something else well not only that
+[01:23:03] what can you say like how much do you really know i think it's mainly the technology they just want
+[01:23:08] to keep the technology secret because if there's yeah whoever gets this wins dude yeah you you
+[01:23:14] control the where you become you literally become invincible once you master the technology you
+[01:23:20] can't you cannot penetrate a field like that so imagine that's i know it's all science fiction
+[01:23:25] but science fiction turns into science fact if you have real force fields around aircraft and
+[01:23:31] battleships you you win you win you can force your will upon anybody and uh like i said there's
+[01:23:39] so much more to the story when i was first there um there were russian scientists at s4 that was
+[01:23:46] this was early on in the project so this was before operation paperclip became public as well
+[01:23:51] right so i would imagine that was i don't know what the dates were when was that when did that
+[01:23:55] was that 98 i think 98 yeah yeah i don't know the dates on it so it's roughly 10 years later
+[01:24:01] operation paperclip becomes freedom of information act we said about russia not germany he's not a
+[01:24:06] russian scientist yeah but i mean russian scientists a lot of them came from germany
+[01:24:10] a lot of those those rocket scientists that work with nasa they all came from nazi scientists got
+[01:24:16] it so some russians got some of them i just know and at some point there was intense cooperation
+[01:24:21] with i mean even exchanging some ideas on nuclear weapons and you know emp tests and stuff like
+[01:24:27] things we would never have discussed with them but at the same time it was in the late 80s uh
+[01:24:32] they were involved and actually in the area at s4 with us so you got to communicate with these
+[01:24:38] guys or you saw them no i knew they were there barry barry would talk about the commies that
+[01:24:43] were there the commies yeah the commies and um that was back when they were the commies yeah
+[01:24:47] yeah they were real commies um and um at some point it wasn't our group but at some point
+[01:24:56] there was a big discovery made and this did not happen when i was there it happened in between
+[01:25:02] my trips to there and after that apparently they decided it was just too cool to share
+[01:25:07] with anybody and the russians were never allowed back on the base after that but you don't know
+[01:25:11] what that discovery was no no i guess that it wasn't my group so one of the other groups really
+[01:25:16] found out something but the you know in typical american fashion is all right this is ours you
+[01:25:23] guys get the hell out of here was there any inkling that any other government had something
+[01:25:28] similar no nothing that i had heard see that was the thing that always freaked me out was why if
+[01:25:34] if something was so superior to human beings it's almost like visiting an ant colony like why would
+[01:25:40] you go to the queen i don't give a fuck who the queen is i'm a human i'm so superior to you ants
+[01:25:45] i don't care who you have running your hive i'm just going to study it i think it's who got it
+[01:25:49] who got it look at the you know rocket technology in germany but they got nine of them yeah that
+[01:25:56] doesn't make sense to me either so they were either in the same area or you know one had
+[01:26:02] clues to where others were i mean i don't know you you have to fill that in there but you're
+[01:26:07] right i mean nine of them that's a that's a big dig if it was archaeological well one of the more
+[01:26:13] recent the recent sightings and these discussions that have been coming out recently from air force
+[01:26:20] pilots and navy pilots they've been talking about things happening in the ocean and that that
+[01:26:24] something go literally goes into the water or something maybe below the surface of the water
+[01:26:30] 2004 tic-tac nimitz case so that's when george knapp and i broke on the radio twice before the
+[01:26:35] new york times so i know this one really well commander fravor and those pilots there was
+[01:26:40] a disturbance on the surface of the water commander fravor visually saw what looked like
+[01:26:46] similar to a cross some object so it's like as if you have some like coral under the water and
+[01:26:51] you've got it's breaking over right the tic-tac is doing this crazy maneuver that defies it's a
+[01:26:57] gravity propelled system they saw it in the sky before they saw in the water right yeah so there
+[01:27:01] was um there were radar that was picking this these things coming down from 80 000 feet drop
+[01:27:05] into 50 feet in less than a second this is it jamie what is this is actually on the news today
+[01:27:10] there was a briefing so a lot of people get this confused not this one then either no so that is
+[01:27:16] called the gimbal so there's three videos released by the pentagon that are all actually keep the
+[01:27:21] volume off okay i would i would really just pay attention to the source videos so you've got the
+[01:27:26] tic-tac which is this object that commander fravor saw another pilot filmed it with a flear pod
+[01:27:32] and it goes but this one you see is really important to bob's story the gimbal craft it's
+[01:27:38] been recently analyzed it's flear not only does it it's definitive that it's not a conventional
+[01:27:45] anything by the by its movements but there's a pocket of cold air around a propulsion source
+[01:27:52] so this object by the way sat stationary uh for days if not weeks it sat stationary yeah they
+[01:27:58] found it 11 hours later and they were saying there's no way this thing using that kind of
+[01:28:03] energy to go that fast could just hover the amount of time and by the way you're seeing a very small
+[01:28:08] part of what happened that day this object was not alone and so hopefully that information comes out
+[01:28:15] and we can i mean i wish we had video of it i'm sure we'd all want to see it but that's called
+[01:28:20] the gimbal that was east coast right 2015 west coast 2004 was the tic-tac the disturbance on
+[01:28:28] the water commander fravor believes there was something under that water that was causing that
+[01:28:33] disturbance when the tic-tac was coming around to doing it with inside the the people that are
+[01:28:37] studying this they're thinking maybe the tic-tac system was causing the disturbance but the uso
+[01:28:44] unidentified submerged object that he visually saw uh the whole interesting thing about that is
+[01:28:50] i would love bob to describe it is why it doesn't matter if these craft are in space air or water
+[01:28:58] why doesn't it matter i love when he talks about this shit well first of all commander fravor was
+[01:29:02] the f18 pilot off the nimitz that was sent out to find out what this stuff is but uh and it wasn't
+[01:29:09] just i got a chance to talk to him recently and it wasn't just a radar image i mean commander
+[01:29:15] fravor had eyes on it for over five minutes watching this thing as four other pilots did
+[01:29:21] so this wasn't a radar blip or anything i mean these guys were watching this thing but um you
+[01:29:27] know one of the things i think in the gimbal video the way the craft that we worked on flies
+[01:29:36] is it doesn't fly like a conventional aircraft does and it doesn't fly like a flying saucer
+[01:29:43] winner in a 1950s movie it flies belly first i mean it may set down conventionally but it always
+[01:29:51] rotates it does a roll maneuver puts its belly towards the target and then moves away at high
+[01:29:57] speed car flying with the wheels forward right right i mean it may lift it land on the wheels
+[01:30:03] but at some point when it wants to leave it flips up points the wheels where it wants to go and
+[01:30:08] takes off and the gimbal video you can see the craft do the roll maneuver and uh it's really
+[01:30:15] interesting it behaves exactly like the crafts that i worked on so much like we have different
+[01:30:20] shaped aircrafts and fighter jets and cars they probably have different shapes of these objects
+[01:30:28] that operate under similar principles right but they all have the same power source they all have
+[01:30:33] the same power source and we're also dealing with if you think about the laws of technological
+[01:30:41] progression you know you think of moore's law and you think of how things accelerate you've got to
+[01:30:46] think that if this civilization is who knows how many years more advanced than we are if not even
+[01:30:53] years i mean i mean we're thinking about in terms of conventional terms right the way the way we
+[01:30:57] look at the world i mean they meet they might be just superior in terms of their intellect they've
+[01:31:04] got to be maybe maybe we don't know right well the only reason i i say that is because look everyone
+[01:31:12] doesn't necessarily start at a steam engine right and go to an internal combustion engine and then
+[01:31:18] you know electric power nuclear power and go up the ladder that we right can we on um you know
+[01:31:23] the binary if the stuff is true about the origin and the binary star system and they have heavier
+[01:31:28] elements that we don't have and this element stable element 115 is a naturally occurring material
+[01:31:34] maybe that's the first thing they started experimenting with and the version of their
+[01:31:38] steam engine their first product was something that operated like this and actually when they
+[01:31:44] came to earth to look around or you know whatever they were amazed at the stuff we were doing these
+[01:31:49] guys burn stuff and squirt it out the back to go forward so right um right you know who says they
+[01:31:55] follow any kind of normal progression like that my my thought was if you went back to the 1400s
+[01:32:01] and then you went from 1400 to 1500 you're not going to see that much of a difference
+[01:32:05] technologically right if you go from 2000 to 3000 i assume there's going to be a radical change right
+[01:32:12] well the yeah the delta the rate of change yeah is is magnificently higher than it used to be
+[01:32:19] right so if you think about what they had in 1988 and you think about what they probably have in 2019
+[01:32:29] just logically seems like they would advance i would think so the only question is like are they
+[01:32:37] living is that a living thing in terms of like a biological thing or are they some sort of an
+[01:32:45] artificially created creation like we are working on right now i mean we're in the middle of working
+[01:32:49] on artificial reality artificial beings sentient beings artificial intelligence there's constantly
+[01:32:55] silicon-based life forms that they're essentially trying to create boston dinette or was it boston
+[01:33:00] dynamics at the company robots yeah you can make machines out of flesh right so a cyborg or
+[01:33:06] cybernetic organism is just that you know that's what a lot of people think those like
+[01:33:09] gray things are you know that people call the grays yeah is like they were like they're machines
+[01:33:15] right printed from flesh so what you're saying is like not so far off no synthetic life they
+[01:33:20] don't even need to be right you know machines well they seem to have no sex organs the way
+[01:33:25] they're described by people that have had interactions with them assume these people
+[01:33:28] aren't liars or crazy or whatever right that they have no sex organs and that they don't seem to
+[01:33:35] have any muscle that is almost like a frame right and they have enormous heads i mean if you look at
+[01:33:43] australia pithecus or depictions of you know ancient hominids and then you go to human beings
+[01:33:48] one of the things you see is bigger heads and weaker bodies well you see a clear progression
+[01:33:52] of evolution yes where or something like that i would lean towards a synthetic organism because
+[01:33:58] it looks like it was made for a specific task there's no reproductive organs so i mean that
+[01:34:03] almost kind of leaves out any kind of you know physical evolution right well that's also our
+[01:34:09] bottleneck right our bottleneck is our biological imperative the the need to breed emotions fear
+[01:34:15] anxiety all these different things that exist in order to force us into making sure we reproduce
+[01:34:22] i mean that's essentially there's a human reward systems that aren't necessary once they can figure
+[01:34:28] out a way to make some sort of sentient artificial life some sort of thing that doesn't have these
+[01:34:33] biological limitations that we have by the way these craft all these different kinds have been
+[01:34:37] reported because it was confusing i always thought of flying saucers what i heard bob lazar talk
+[01:34:41] about flying saucer right but if you look back in history people have always reported the weirdest
+[01:34:46] shapes like none of them are alike you know there are the saucers but you got cigar shaped you got
+[01:34:52] you know the top hat shaped you have orbs why maybe they're serving different purposes they're
+[01:34:57] doing different things like we'd use different tools and i want to be clear the reason i know
+[01:35:02] that memo is is real is because i spent a lot of time with dr egger mitchell six man to walk on
+[01:35:06] the moon last guy to film him before he died right that's how i know i don't want any journalists
+[01:35:12] thinking i got it from anywhere else i know because of dr mitchell and he said the same thing
+[01:35:16] maybe these things are performing different tasks you know and that's what they seem if you if you
+[01:35:22] think about what an alien is in terms of our our the sort of iconic image of an alien like the
+[01:35:28] steven spielberg closing cows are the third time the third kind alien they seem like what we'd
+[01:35:36] assume a human being would eventually become right and if these things are tiny human beings are
+[01:35:42] smaller than they've ever been before they're weaker than they've ever been before and there
+[01:35:45] seems to be a trend in that direction and this trend seems to be amplified by our technological
+[01:35:51] progression there are a lack of need for muscle strength and our lack of need for violence and
+[01:35:57] we're moving in a society to try to get away from all the things that we think are boring about
+[01:36:03] human beings and the terrible behaviors that we have if we one day do give birth to some sort of
+[01:36:10] an artificial being like marshall mclean's uh quote we are the sex organs of the machine world
+[01:36:18] you know that one day we okay i'll buy this yeah mclean was brilliant and that that quote has
+[01:36:23] always been one of my favorites because okay what are we doing when we're constantly
+[01:36:27] technologically innovating we're constantly looking for faster cars better computers bigger
+[01:36:32] screens faster more resolution more pixels more this more that higher bandwidth 5g 10g right what
+[01:36:38] are we doing we're moving into this in this if you just follow it objectively stay stand back
+[01:36:44] don't attach yourself or your civilization your culture to it and look at what it is
+[01:36:48] we're moving a hundred percent towards technological innovation if you looked at
+[01:36:53] this species from afar and if you weren't a part of it you would say what does this species do
+[01:36:58] oh they make things they make things better every year beehives the same fucking thing that you see
+[01:37:03] 10 years ago you go by you see a beehive it's amazing it's cool but they're the same fucking
+[01:37:07] thing they figured out how to do it they make a beehive right we don't do that we make better
+[01:37:11] things what would you do constantly and at some point i think that technology is going to fuse
+[01:37:16] with us yes and we're going to become it's already happening yeah elon musk talked about it on my
+[01:37:20] podcast that we are cyborgs you just carry it in your pocket it's a phone it answers any question
+[01:37:24] you want you can talk to it it'll give you the answers the answers instantaneously it navigates
+[01:37:29] you it has all your phone numbers in it has all your contacts you can get a hold of people people
+[01:37:33] listening to you through it it's connecting us in ways even involuntarily haptics that kind of thing
+[01:37:39] it's also getting on your wrist how many people have i watches apple watches well right right
+[01:37:43] and that's only because we can't integrate them yet but you know that point is coming 100 yeah i
+[01:37:48] didn't joke about it last night but i have a bit about it that i do about the integration between
+[01:37:53] humans and technology that's what would you do if you were a hyper intelligence right would you do
+[01:37:58] the work yourself or would you create some cool things called like humans to do it for you would
+[01:38:03] you create things that are cybernetic organisms to come in with machines and do it for you if
+[01:38:08] you're a hyper intelligence that has kind of changed like you've described you'd probably
+[01:38:12] create workers right well that's a vast conspiracy theory i'm not talking about conspiracy but it is
+[01:38:17] a kind of a conspiracy i'm asking you well i mean i don't think it's necessarily that i mean you
+[01:38:22] could look at it that way but that is the way a conspiracy theorist would look at it the way i
+[01:38:26] would look at it is like there's obviously a progression going on a biological progression
+[01:38:31] there's some sort of an integration with technology there's some sort of imperative this
+[01:38:35] need for technological innovation it's inescapable everyone has it we and i think it's attached to
+[01:38:40] materialism in some sort of a strange way because so many people work so hard to get new things and
+[01:38:46] like god that seems so illogical and preposterous and it makes people unhappy and depression's on
+[01:38:50] the rise but nobody seems to be able to stop it like why is that well maybe it's because we are
+[01:38:56] the electronic caterpillars that give birth to the butterfly maybe that's what we're doing
+[01:39:01] that could very well be what our job is to do is to make some sort of a cocoon and we don't even
+[01:39:07] know we're doing it while we're doing it do you think a caterpillar is well hey caterpillar what
+[01:39:11] are you doing man just i'm doing my thing it's my job i have to make a cocoon then i'm gonna become
+[01:39:15] like a butterfly this could be a natural part of evolution it could be that we're just supposed to
+[01:39:19] do this exactly and make the jump to some sort of mechanized right yeah non-biological an orangutan
+[01:39:26] that is uh fishing with a spear no they've figured out how to fish with spears there's
+[01:39:34] there's um primatologists wait without somebody showing them how to fish no they've imitated human
+[01:39:41] beings doing it and now they do it but they do it independently they're not trained orangutans
+[01:39:46] they're wild right look at that there's a wild right yeah that's impressive that's very impressive
+[01:39:52] well there's these primatologists i guess you would call them primatologists that's a term
+[01:39:56] that's a great biologist biologists that believe that monkeys and chimps and some of the great apes
+[01:40:04] are moving into the stone age that they've currently entered the stone age like they're
+[01:40:08] not staying what they were a hundred thousand years ago or five hundred thousand years ago
+[01:40:13] but they're actively using tools and they're experimenting with different different ways to
+[01:40:18] use those tools and then they're making tools out of stone they're making tools out of sticks and
+[01:40:22] they're they're using them well this might just be what happens this might just be what happens
+[01:40:30] i mean why else why are we why the fuck we work so hard i mean i i was i was driving to la this
+[01:40:35] morning um i had a doctor's appointment so i was on the 405 at uh eight in the morning but jesus
+[01:40:41] christ like this is so crazy when you're in the 405 in la at eight o'clock in the morning you see
+[01:40:45] literally a million cars and it's just everywhere you go it's people but and also i'm in a tesla so
+[01:40:51] i have it on autopilot so i'm there sitting i'm listening to a podcast i barely have my hand on
+[01:40:56] the wheel i'm not touching shit this car is driving me along i'm not even doing anything
+[01:41:01] i'm just i'm just hanging out it's so much less stress by the way to do it that way right so it
+[01:41:06] encourages you to innovate it encourages you to embrace this new technology i got this giant
+[01:41:12] screen it's showing me the navigation in front of me i'll be there five minutes early excellent
+[01:41:16] and i'm listening to a podcast wirelessly it's bluetooth screen streaming from my phone and i
+[01:41:22] pulled that podcast which came out today out of the fucking sky and i'm listening to it and i'm
+[01:41:27] all comfortable in my nice little car just driving on my way to the doctor's office this is irresistible
+[01:41:32] stuff yeah yeah it's different than your walkman yeah you know back in the day irresistible it is
+[01:41:37] irresistible it's frighteningly irresistible but is it frightening i mean if you were a monkey right
+[01:41:41] if you were an australiapithecus would you go man i don't want to fucking be a person and live
+[01:41:47] in a house that's bullshit i like just swinging around on trees i like uh running from jaguars
+[01:41:52] this is life guys life is running from crocodiles it's not living in a fucking suburban now there's
+[01:41:57] probably some that are like that yeah i don't think so i think i think when it comes we're
+[01:42:01] going to embrace it we're going to embrace it the same way you embrace cell phones the same way you
+[01:42:05] embrace television there's going to be a few holdouts i don't even have an email address man
+[01:42:09] those are those there's a few and far between the good luck with that fuck face go move to the
+[01:42:13] woods ted kaczynski yeah i was just gonna throw ted kaczynski was right this is something that i
+[01:42:19] think about sometimes when i get really high that ted kaczynski was a part of the harvard lsd
+[01:42:25] studies this has been proven ted kaczynski they cooked his fucking brain when he was at harvard
+[01:42:30] and then when he went over to berkeley and became a professor his goal was to make enough money so
+[01:42:34] that he could implement this program and live in the woods and then write his manifesto and start
+[01:42:39] killing people that were involved in propagating technology he was expunged from the harvard
+[01:42:46] logs by the way this is something my friend just called me about so there's like this private
+[01:42:50] library and they used to print people's names whenever they were part of a university and he
+[01:42:55] was one of a handful of people that were expunged from it i want to jump back to the one thing joe
+[01:43:01] i want to be very careful with that word conspiracy theorist what i was what i was saying to you was
+[01:43:06] we we terraform our earth right we we terraform we change the environment we do all this innovation
+[01:43:12] what is stopping us from thinking that that's not being done i'm not saying it is i'm saying
+[01:43:17] what's stopping us from thinking that that's being done on a much bigger level on a cosmic level you
+[01:43:22] mean like aliens coming down doing that to humans i'm telling you that there is something here that's
+[01:43:27] there's a fact you know there's something they're a craft they're here they're not ours they're here
+[01:43:32] so the question is what is that about and i'm just looking at what we do with what you're
+[01:43:37] describing with technology well i think it's much more likely that the same way we observe chimps
+[01:43:43] and we observe that they are now in the stone age that they're observing us and that they're
+[01:43:48] recognizing that there is a pattern that there is a there's steps that happen i mean carl sagan
+[01:43:53] talked about the different levels of civilization and that you know that if we don't get past
+[01:43:57] certain levels we're never going to reach this type one civilization we're going to stay at type
+[01:44:02] zero well we're in this warring polluting yeah pillaging we're awesome civilization humans are
+[01:44:09] it's well we're awesome in a lot of ways you know but in that way we're not well yeah we're we're
+[01:44:14] children that have immense power that we didn't really the other thing is you're using the immense
+[01:44:19] power that other people have created right i mean even when you're driving a car you're stomping
+[01:44:23] on the gas like whoa you didn't invent the fucking engine you didn't invent tires there's
+[01:44:28] all these things that were in involved in the creation of this thing that is really outside of
+[01:44:34] your grasp of understanding but yet you have the ability to use it like a person with a gun i'm
+[01:44:40] just gonna bang bang bang people you don't you didn't invent a gun so like you've you've without
+[01:44:45] the intellect to craft and engineer and and and manifest these creations you just have access to
+[01:44:53] them because you have paper or you have bitcoin or you have whatever the fuck you're using using a
+[01:44:56] credit card now you have almost no responsibility you just you could just flippantly use these
+[01:45:02] things which is why we you know we were very childlike in our actions because we haven't had
+[01:45:09] to earn the responsibility we haven't had to earn these things that we've been able to have and
+[01:45:15] you've only been able to have them because other people have innovated and spent ungodly amounts
+[01:45:21] of time and effort and focus in the lab to create these things and then they've all put them
+[01:45:25] together and then what is the what's the reason to put them together to profit well what's the
+[01:45:29] reason of profit well why are you doing this so you can buy more things well what are we doing
+[01:45:33] what are we doing we're making better things that's what we do that's all that's all we do
+[01:45:38] is make better things yeah why the fuck do we need oil why do we need oil why can't we just burn
+[01:45:42] wood and stay home why can't we grow chickens and food in the backyard why can't we do well
+[01:45:47] we fucking can we certainly can people do do it but we decide to make that almost impossible our
+[01:45:53] preferred way of living is to stuff everyone into a very small area where no one grows anything other
+[01:45:58] than weed this is what la is la is 20 million people with hard surfaces as many hard surfaces
+[01:46:05] as you can boy if you got an acre backyard in la holy shit look at all that grain this is amazing
+[01:46:10] well no that's the fucking earth coming through this weird sort of creation that we've put on top
+[01:46:16] of the earth but the goal is that like new york city that's there's none of it right you just got
+[01:46:21] you've got central park and they just got human shit he's stacked up no one's growing anything
+[01:46:26] and then constant work everyone's up early go go go innovate progress make that money so you
+[01:46:33] can buy more things and every year hey apple where's this fucking new phone as if your phone
+[01:46:39] isn't good enough like your phone's taking pictures and videos and people are calling you and you got
+[01:46:45] applications to tell you which way the wind's blowing that's not good enough a blink of an eye
+[01:46:49] blink of an eye it's all gone though that you know like 10 000 years and the hoover dam goes or
+[01:46:53] whatever you know mount rushmore disintegrates so it's amazing because we have created that and
+[01:46:58] everything's trying to spring up through that we keep it maintenance down but we're we're a blink
+[01:47:02] man something hits but we don't think that way well you know you think in terms of your own life
+[01:47:07] right you think in terms of what you want and what you need right now you know it's we are in many
+[01:47:13] ways this combination of this weird primitive ape-like thing with the ability to calculate and
+[01:47:22] manipulate our world and our environment that makes us wholly unique on top of that with existential
+[01:47:26] angst and and fear so what do you do with that we fucking water it down with anti-depressants
+[01:47:32] give these fucking people some shit that keeps them moving they're worried about the future
+[01:47:35] they're trying to figure out what reality is it's just you're on a goddamn convertible spaceship
+[01:47:40] spinning a thousand miles an hour hurling through infinity there's no me
+[01:47:44] meaning to this thing.
+[01:47:45] Just keep making shit.
+[01:47:46] Keep making stuff.
+[01:47:47] And then one day, they're going to be able to hit that switch and this life will be born
+[01:47:52] out of innovation and thinking and progress and technology.
+[01:47:57] And more than likely, it's probably going to be what we're seeing that these things
+[01:48:02] are that you're observing.
+[01:48:04] I'm not observing them, but yeah.
+[01:48:07] Are you implying that they're us?
+[01:48:09] I don't think they are us, but I think they are what happens when things keep going.
+[01:48:15] It's not us, just like we're not monkeys, right?
+[01:48:17] I'm not a chimp.
+[01:48:18] Oh, that'd be cool.
+[01:48:20] They're from here, is your idea?
+[01:48:22] No, no, no.
+[01:48:23] That this is what happens all over the universe, right?
+[01:48:26] Yeah, totally.
+[01:48:27] This is what happens.
+[01:48:28] Look, here's the thing.
+[01:48:29] I went to see Brian Cox's, he has this amazing live show with Robin Ince where they have
+[01:48:36] these LED screens, these huge screens with high-resolution depictions of the cosmos.
+[01:48:43] And one of the most mind-blowing things was he has this large-scale image of the universe
+[01:48:49] and it shows all the individual galaxies of the universe and it just keeps moving through
+[01:48:54] all these galaxies in three dimensions.
+[01:48:56] And it's fucking incredible.
+[01:48:58] But what's stunning is the relative uniformity of it, even at, you know, I mean, you're obviously
+[01:49:03] looking at an incredibly small depiction of something that's immensely large, like
+[01:49:09] a galaxy of hundreds of billions of stars, you're seeing it as this little dot, but this
+[01:49:13] little dot that's flying through space surrounded by other little darts with very similarly
+[01:49:20] spaced distances between them.
+[01:49:24] So Mike, if we see uniformity in that form, in terms of like the distance between galaxies,
+[01:49:29] so many galaxies, it's so similar.
+[01:49:31] They might vary slightly and that slightly might be hundreds of millions of light-years,
+[01:49:35] right?
+[01:49:36] But there's so much uniformity.
+[01:49:38] Why would we not assume that that uniformity exists pretty much everywhere and that all
+[01:49:43] these things that you're seeing that are so similar, you do see binary star systems, you
+[01:49:48] do see single star systems, but there's also some speculation that Earth, that our solar
+[01:49:52] system one time was a binary star system, right?
+[01:49:55] I mean, that's one of the speculations about that object that they find outside the Kuiper
+[01:50:00] Belt that the thing is 10 times larger than Earth.
+[01:50:02] They think it might have been at one point in time a star.
+[01:50:05] But this uniformity that you see, why wouldn't we think that that has its same implications
+[01:50:11] biologically?
+[01:50:12] That there's some sort of a biological uniformity and that this happens given the right sets
+[01:50:17] of circumstances?
+[01:50:18] You should tell him some of the stuff that you've read that you don't know is true.
+[01:50:23] I mean, if the stuff was true about the propulsion stuff, I mean, anyway, he –
+[01:50:28] Well, what have you read?
+[01:50:29] What you saw too.
+[01:50:30] I mean, what are you talking about?
+[01:50:34] Spill the beans, Bob.
+[01:50:35] I got to poke the bear here a little bit.
+[01:50:37] Get some more liquor in you.
+[01:50:39] Well, I mean, again, the only thing I could verify was what I had my hands on.
+[01:50:50] There were – there was talk of weapon systems that there were different projects.
+[01:50:55] Project Galileo, Project Sidekick was supposed to be weapon applications of the craft.
+[01:51:01] Project Looking Glass had to do with time, any effects of time in the craft.
+[01:51:05] Now I don't think – we're not talking about making a time machine like in science
+[01:51:10] fiction, but we're talking about small distortions, intentional distortions of time and how that
+[01:51:16] can be used as a – not as a – well, it was part of a weapon program.
+[01:51:22] How are you informed in this?
+[01:51:24] These again were just the small briefings that I read.
+[01:51:27] But again, I don't really like to talk about those because I don't have any information
+[01:51:31] on them and it was just small briefings.
+[01:51:34] But you told Commander Fravor that what he saw might have been a time dilation and not
+[01:51:39] gravity propulsion.
+[01:51:40] Well, it could be because gravity affects time, space time.
+[01:51:43] I'm sure you've heard of that.
+[01:51:45] And what Commander Fravor saw as he was in the F-18 approaching it, he said – he described
+[01:51:53] it as a ping pong ball in a cup and shaking it back and forth.
+[01:51:57] It was moving that fast.
+[01:51:59] Now obviously, if there's anything inside there, it's going to be battered to hell.
+[01:52:04] But my point was, was that – well, one of two things.
+[01:52:09] Either there's a gravitational envelope in there which negates any inertia effects
+[01:52:14] or you are seeing through a gravity distortion field.
+[01:52:19] So just like you're looking at a hot highway and you see an optical distortion going through
+[01:52:27] there.
+[01:52:28] Well, the same thing happens in gravity and the craft may not actually be moving like
+[01:52:31] that.
+[01:52:32] It may just look like it because you're seeing – you can only see it through the
+[01:52:36] field.
+[01:52:37] So it may be making much more gentle moves.
+[01:52:40] I'm not saying that's it, but it has to be one of the two.
+[01:52:44] And the thing shows up 60 miles away.
+[01:52:47] They noticed it on radar 60 seconds after it left Commander Fravor, but it was at his
+[01:52:52] cap point, which is the next point he was destined to go to, 60 miles away.
+[01:52:58] And in 60 seconds on radar, the same object ends up there.
+[01:53:03] Trevor Burrus So it's going a mile a second?
+[01:53:05] Aaron Ross No.
+[01:53:06] I think the radar just picked it up in 60 seconds.
+[01:53:09] Trevor Burrus Yeah.
+[01:53:10] It could have been there instantly, but –
+[01:53:11] Aaron Ross Yeah.
+[01:53:12] We don't know.
+[01:53:13] Trevor Burrus The cycle time –
+[01:53:14] Aaron Ross Nobody knows.
+[01:53:15] That's the whole thing.
+[01:53:16] Trevor Burrus It's like radar cycles?
+[01:53:17] Aaron Ross Yeah.
+[01:53:18] It doesn't sweep, but it scans.
+[01:53:19] It's a planar array.
+[01:53:20] So it just scans around it at random places.
+[01:53:21] Trevor Burrus That's the spy one does the really cool –
+[01:53:22] it doesn't do the whole loop anymore.
+[01:53:23] Aaron Ross Right.
+[01:53:24] The point is, though, that the craft moved to his next location before he knew where
+[01:53:25] his next location was going to be.
+[01:53:26] Trevor Burrus Jesus.
+[01:53:27] Aaron Ross And that's – I mean, that's well documented.
+[01:53:28] Trevor Burrus Documented.
+[01:53:29] Aaron Ross What's fascinating to me, too, is that you were discussing this – the way
+[01:53:52] this reactor worked and that these things were not really connected.
+[01:53:57] Trevor Burrus No, nothing is connected.
+[01:54:00] There's no wiring at all.
+[01:54:03] Aaron Ross That freaks me the fuck out.
+[01:54:06] Charge your iPhone, you know.
+[01:54:07] Trevor Burrus Well, wireless.
+[01:54:08] Aaron Ross Yeah.
+[01:54:09] Trevor Burrus Yeah.
+[01:54:10] I mean, that's the simple electromagnetic –
+[01:54:11] Aaron Ross Well, I mean, Tesla –
+[01:54:12] Trevor Burrus Yeah.
+[01:54:13] I know, again, but that's just simple electromagnetic induction.
+[01:54:17] Aaron Ross Right, but I mean, Tesla, the scientist,
+[01:54:19] had this concept of –
+[01:54:20] Trevor Burrus Right.
+[01:54:21] That's what he –
+[01:54:22] Aaron Ross Yeah.
+[01:54:23] Trevor Burrus That's what I'm talking about.
+[01:54:24] Aaron Ross I mean, for other people that don't know
+[01:54:25] wireless electricity through the sky, and Westinghouse was like, get the fuck out of
+[01:54:29] here with that.
+[01:54:30] Like, when anybody could just pull electricity out of the sky –
+[01:54:32] Trevor Burrus Can't meter it.
+[01:54:33] Aaron Ross Yeah, they couldn't –
+[01:54:34] Trevor Burrus Yeah.
+[01:54:35] Aaron Ross They couldn't meter it.
+[01:54:36] Trevor Burrus We had this talk in the car right over.
+[01:54:37] I'm trying to chill him out, you know.
+[01:54:38] We're talking about Tesla and how he – you know, he couldn't be metered and how it all
+[01:54:40] went down.
+[01:54:41] So it's funny you bring it up.
+[01:54:42] Aaron Ross Yeah.
+[01:54:43] Trevor Burrus Yeah.
+[01:54:44] Aaron Ross I mean, that – I mean, who knows what would
+[01:54:45] have happened in terms of innovation had he been allowed to go forward with that.
+[01:54:49] Trevor Burrus Well, we probably wouldn't have computers.
+[01:54:51] Aaron Ross You think?
+[01:54:53] Trevor Burrus Yeah, I'm pretty positive.
+[01:54:54] Aaron Ross Why is that?
+[01:54:55] Trevor Burrus I mean, forget about microelectronics.
+[01:54:56] Well, this is dumping huge amounts of electromagnetic energy in the air.
+[01:55:01] And yeah, we'd be able to wirelessly turn on our lights, but there'd be no radio communication.
+[01:55:08] The interference would be something we could – would be overwhelming.
+[01:55:11] It would induce electric currents in anything with a small wire on it.
+[01:55:15] So integrated circuits, transistors would be disintegrated before they were even, you
+[01:55:19] know, tested for operation.
+[01:55:21] So it would destroy –
+[01:55:22] Aaron Ross Maybe it would have fucked us up.
+[01:55:24] Trevor Burrus Yeah.
+[01:55:25] It would have stopped us dead.
+[01:55:26] We'd have – it'd be great.
+[01:55:27] You could turn lighters on and heaters from all over the place with no wires.
+[01:55:31] But it would stop modern electronics.
+[01:55:32] Aaron Ross And if we became dependent on it, it would
+[01:55:34] almost be like our dependence on fossil fuels.
+[01:55:37] Although it's destructive.
+[01:55:38] It's very difficult for us to get off the nipple.
+[01:55:41] Michael Svigel It would have changed the course of how we
+[01:55:43] developed, which is so interesting when you talk about it.
+[01:55:45] A civilization, another star system didn't even start with fossil fuels.
+[01:55:49] They had 115 naturally on their planet and they're like, cool, anti-gravity is pretty
+[01:55:53] awesome.
+[01:55:54] Trevor Burrus Well, the fact that they didn't have –
+[01:55:55] Aaron Ross I think it's important that that actually
+[01:55:56] happened.
+[01:55:57] Trevor Burrus Yeah.
+[01:55:58] Aaron Ross It might have been stopped in its tracks for
+[01:55:59] a reason.
+[01:56:00] Trevor Burrus Whoa.
+[01:56:02] And it's just – I think it's incredibly difficult for us to imagine technological
+[01:56:09] progression under another timeline other than the one that we've experienced.
+[01:56:12] Aaron Ross Yeah.
+[01:56:13] That's difficult.
+[01:56:14] Trevor Burrus If we imagine what this alien race must
+[01:56:18] have been like.
+[01:56:19] I mean, God, just to be able to see something – I mean, obviously we've seen it in different
+[01:56:25] life forms, right?
+[01:56:26] Like we see the life of certain beetles in comparison to the life of certain fish.
+[01:56:31] Very, very different existence, very different life cycles.
+[01:56:34] Aaron Ross Octopus.
+[01:56:35] Trevor Burrus Yeah, octopus.
+[01:56:36] Yeah, I mean, we see all these different variables in terms of biological entities on Earth,
+[01:56:41] but we don't see it in terms of technological innovation as we're the only one that's
+[01:56:45] intelligent that can innovate.
+[01:56:47] We have intelligent creatures, but they're in the ocean.
+[01:56:49] The only other thing that are like us are dolphins and orcas and whales, and they don't
+[01:56:53] have the ability to manipulate their environment.
+[01:56:55] And subsequently, because they don't have the ability to manipulate their environment,
+[01:56:59] we put them in fish tanks and we're like, get in the tank, do some tricks.
+[01:57:02] Aaron Ross You're right.
+[01:57:03] You know, the only thing he saw in the craft, if we're considering Bob's story, the only
+[01:57:08] thing that he saw in the craft that he related to that looked like a human could make was
+[01:57:13] this honeycomb hatch, and I always love that because you're like obsessed with this thing
+[01:57:17] that you could recognize.
+[01:57:18] Trevor Burrus Yeah, I only focus on that because it was
+[01:57:22] the one thing that I understood how it worked.
+[01:57:25] Aaron Ross What was it?
+[01:57:26] Trevor Burrus And it was the access to the level below.
+[01:57:29] And it was, well, you know, if you take, you have a six pack of beer and you take out the
+[01:57:36] cardboard dividers, set it on the table, you can put a lot of pressure on the top.
+[01:57:42] But if you push it from the sides, it collapses flat.
+[01:57:46] So it was something like that in a honeycomb shape that was essentially some sort of sheet
+[01:57:50] metal and you could walk on that in the upper layer.
+[01:57:54] But if you took the corner, stuck your finger in and pushed, it collapsed and made an entryway.
+[01:58:01] So I thought that was a really unique, I'd never seen that before, and it was the only
+[01:58:05] thing in the craft that made absolute sense to me.
+[01:58:07] I was like, ah, we can make that.
+[01:58:09] And all that is is a hatchway.
+[01:58:11] Was there any discussion about the materials that were used to make the craft?
+[01:58:15] Trevor Burrus I'm sure there was, but that was the metallurgy
+[01:58:18] division.
+[01:58:19] It had nothing to do with us.
+[01:58:20] Aaron Ross So you never got a…
+[01:58:21] Trevor Burrus Not even the slightest briefing.
+[01:58:23] I don't even know if it was metal or it was ceramic.
+[01:58:26] I think there's a fine line between the two.
+[01:58:29] Aaron Ross Now, one of the things that's happened to
+[01:58:32] you that has allowed people to discredit you was there's obviously been some sort of an
+[01:58:38] effort to erase your past.
+[01:58:41] Some sort of an effort to erase your education history, your employment history at Los Alamos.
+[01:58:48] In fact, the only way your employment history was proven at Los Alamos was someone got a
+[01:58:52] list of directory of the employees from the past and read into it, and you were on that
+[01:58:57] list.
+[01:58:58] So it proved that you worked there even though people were trying to deny it and they were
+[01:59:00] trying to use that as a way to discredit you, that you never did work at Los Alamos.
+[01:59:03] You weren't really a scientist.
+[01:59:07] What was that like to experience?
+[01:59:09] Of course, we're talking about the 1980s, the 1990s, when you could get away with something
+[01:59:13] like that.
+[01:59:14] Trevor Burrus Yeah.
+[01:59:15] Obviously, there were a lot less records on computers at that time.
+[01:59:21] It was still file cabinets and folders.
+[01:59:24] But yeah, that was frightening.
+[01:59:26] That was one of the first things that I started…
+[01:59:27] Aaron Ross What happened?
+[01:59:28] Trevor Burrus I think George Knapp was the first one that
+[01:59:31] uncovered that.
+[01:59:32] I mean, he saw my birth certificate disappear.
+[01:59:36] Aaron Ross It disappeared?
+[01:59:37] Trevor Burrus Yeah.
+[01:59:38] Aaron Ross There was no record of you being born?
+[01:59:39] Trevor Burrus Yeah.
+[01:59:40] There was no record of that.
+[01:59:41] There was no record…
+[01:59:42] Darrell Bock His mom tells me about that.
+[01:59:44] It was frightening for her.
+[01:59:46] He's got a real family.
+[01:59:47] He's a real person.
+[01:59:48] It was frightening for her.
+[01:59:49] Trevor Burrus But the Los Alamos thing really surprised
+[01:59:52] me and that they were so adamant that, no, this guy never worked here.
+[01:59:56] Don't be ridiculous.
+[01:59:57] And George went back and forth for…
+[01:59:58] Darrell Bock I got the letters on the wall, yeah.
+[02:00:01] Trevor Burrus …months.
+[02:00:02] I mean, it was ridiculous.
+[02:00:03] But fortunately, somebody came up with a 1982 phone book directory.
+[02:00:08] And also, originally, I told you, when I worked there, I was on the front page of the paper.
+[02:00:16] So they were still able to archive, bring that back from the archives.
+[02:00:21] Bob Lazar, a physicist working here at Los Alamos, so there was at least something there.
+[02:00:26] But somehow, George came up with the phone directory.
+[02:00:29] Trevor Burrus And then Bob took George with cameras into
+[02:00:32] Los Alamos.
+[02:00:33] Bob Lazar Oh, yeah.
+[02:00:34] Yeah.
+[02:00:35] So we flew out there and I said, look, come on in.
+[02:00:37] I'll show you where I worked.
+[02:00:38] We'll go in.
+[02:00:39] We'll meet people.
+[02:00:40] And George went with me and, you know, filmed inside there.
+[02:00:43] Trevor Burrus And you knew how to navigate the place.
+[02:00:44] So you'd obviously been there before.
+[02:00:45] Bob Lazar Oh, yeah.
+[02:00:46] And, you know, met people, you know.
+[02:00:47] And so there was no problem.
+[02:00:48] Trevor Burrus Los Alamos was also the place where they
+[02:00:49] had the machine that was able to read the size of your digits.
+[02:00:54] Bob Lazar No, no.
+[02:00:55] That wasn't Los Alamos.
+[02:00:56] That was S4.
+[02:00:57] Trevor Burrus That was S4.
+[02:00:58] How do you explain that?
+[02:00:59] Bob Lazar So now this was back in the 80s.
+[02:01:01] Trevor Burrus And this is back in the 80s where when you
+[02:01:04] discuss this, people are like, this doesn't even exist.
+[02:01:06] Bob Lazar Yeah.
+[02:01:07] Yeah.
+[02:01:08] Trevor Burrus Okay.
+[02:01:09] What was it?
+[02:01:10] Bob Lazar It was a way, you know, this is before fingerprint
+[02:01:11] scanners and, you know, and anything of any high resolution scanner at that time.
+[02:01:18] So what it was was a device that had a little picture of a hand on a glass plate with pins
+[02:01:24] in it.
+[02:01:25] So you could jam your hand in there.
+[02:01:27] And there was a bright light above it and a sensor underneath.
+[02:01:30] And when you put your hand in there, the light would turn on and it would measure the bones
+[02:01:34] in your finger because the light shone through your bones.
+[02:01:39] And apparently the length of the bones in your fingers are extremely unique and easy
+[02:01:45] to measure.
+[02:01:46] And they use that.
+[02:01:48] When you put your hands on there, the light would turn on and your badge would pop out.
+[02:01:51] Trevor Burrus Is it right there?
+[02:01:52] Bob Lazar Oh, there it is.
+[02:01:53] That's it.
+[02:01:54] So I tried to describe this to people and they said, that is the most ridiculous thing
+[02:01:58] we've ever heard.
+[02:02:00] And I said, hey, that my badge came out of that thing.
+[02:02:03] I put my hand on it, badge popped out, and that's how I could open the doors and get
+[02:02:07] into S-4.
+[02:02:08] And, you know,
+[02:02:09] Trevor Burrus And everybody discredited that.
+[02:02:11] They said it was bullshit.
+[02:02:12] It was science fiction.
+[02:02:13] And Jeremy, you found this.
+[02:02:15] Jeremy McDonough I found it through a good friend of mine named
+[02:02:18] Tyler Rogoway.
+[02:02:19] And he had some good sources inside of Area 52 where they also used these for the stealth
+[02:02:24] program right around that time.
+[02:02:26] So now I've got all these people that worked within who, you know, said only if you're
+[02:02:30] in certain programs would we use this technology.
+[02:02:32] It was kind of shit, actually.
+[02:02:33] They didn't keep it for very long, the beginning of biometrics.
+[02:02:36] So I was able to reveal it in my film.
+[02:02:38] I kept my mouth shut until I showed it to Bob, you know, in the movie is the first time
+[02:02:42] he saw it was how you see it in the documentary.
+[02:02:45] That's his genuine reaction.
+[02:02:46] I'm getting goosebumps.
+[02:02:47] Trevor Burrus That's a great idea.
+[02:02:48] The way you did it.
+[02:02:49] Jeremy McDonough Thank you, man.
+[02:02:50] Because you know what?
+[02:02:51] Guess what?
+[02:02:52] I'm actually trying to see if he's telling the truth.
+[02:02:53] That's how I started.
+[02:02:54] You know, that's how I started.
+[02:02:55] So it was really cool to see that and that you get to see it his actual reaction.
+[02:02:58] Trevor Burrus Has that been verified by other people?
+[02:03:00] Jeremy McDonough Yeah.
+[02:03:01] So yeah.
+[02:03:02] So to me, it has.
+[02:03:03] Personally, I get emails every day and people are telling me where these are used and how
+[02:03:08] they're used.
+[02:03:09] And send me photos.
+[02:03:10] I got a lot of photos of identity mats now.
+[02:03:11] Trevor Burrus Well, how they were used, right?
+[02:03:12] They're not
+[02:03:13] Jeremy McDonough How they were used.
+[02:03:14] I don't know.
+[02:03:15] I don't.
+[02:03:16] The most recent one was way more recent than I thought in another country.
+[02:03:19] But yeah, that technology was used.
+[02:03:21] So what's so funny is that this technology, even in the area of 52, where they'd use them
+[02:03:28] for Tonopah, one of the guys who will go on camera when he will do an interview with me,
+[02:03:33] he was a technician for one of these.
+[02:03:35] And he hated them because they were really bad.
+[02:03:37] They always broke down and never and he was a technician for him.
+[02:03:41] Now, he won't tell me where if he worked at area 52.
+[02:03:44] So it's probably Tonopah.
+[02:03:46] It's very separated even on base.
+[02:03:48] But yeah.
+[02:03:49] Trevor Burrus So there was that.
+[02:03:51] There is your education record.
+[02:03:54] That was also like, what happened with that?
+[02:03:56] Jeremy McDonough Well, that disappeared also.
+[02:03:59] You know that I've never gone.
+[02:04:03] I've never gone anywhere for education.
+[02:04:05] I've never gone.
+[02:04:07] I never attended any classes at Caltech.
+[02:04:09] I never attended anything at MIT.
+[02:04:11] Trevor Burrus You did attend classes in those places.
+[02:04:13] Jeremy McDonough I did attend classes in those places.
+[02:04:15] Trevor Burrus Do you know anybody that you went to school
+[02:04:17] with?
+[02:04:18] Jeremy McDonough Yes, I do.
+[02:04:19] Trevor Burrus And have they verified that they went to
+[02:04:20] school with you?
+[02:04:21] Jeremy McDonough Well, I gave Jeremy some names.
+[02:04:23] But yeah, the reason I don't say these names publicly is because every single time I mention
+[02:04:30] a name, somebody gets in trouble.
+[02:04:32] Trevor Burrus They don't want to be.
+[02:04:33] Jeremy McDonough Of course.
+[02:04:34] Yeah.
+[02:04:35] Yeah, of course.
+[02:04:36] But what is that experience like, seeing your birth certificate erased, seeing your
+[02:04:42] employment history?
+[02:04:43] Trevor Burrus Well, it's frightening.
+[02:04:44] It's absolutely frightening.
+[02:04:45] Jeremy McDonough It's also the fuel that the debunkers use,
+[02:04:48] the so-called, air quote, skeptics.
+[02:04:50] I don't like the term skeptics.
+[02:04:52] I'm going to say this publicly because I really have only said this privately.
+[02:04:54] I think it's a sloppy, lazy way to look at things, to just be a skeptic.
+[02:05:00] I want people to be objective.
+[02:05:02] And I think there's a lot of things you should be skeptical of.
+[02:05:06] I think you should look at things and look at things from a hard-line science perspective.
+[02:05:13] You should be objective.
+[02:05:15] But the idea of skeptics, the problem with that is you're always looking for things to
+[02:05:18] be bullshit.
+[02:05:19] And I think that's dangerous, because I think some things aren't bullshit.
+[02:05:22] Trevor Burrus It's confirmation bias on the other end.
+[02:05:24] You're just deciding to take a square thing and put it in a round hole no matter what.
+[02:05:27] Jeremy McDonough And I find a lot of them to be lazy, a lot
+[02:05:30] of them to be lazy thinkers.
+[02:05:32] Because they're always putting it into that box instead of going, hmm, instead of just
+[02:05:37] separating their ego, they're playing a game.
+[02:05:40] And the game is calling bullshit.
+[02:05:42] I want to call bullshit.
+[02:05:43] And I'm going to line up all these reasons why it's bullshit, and I'm going to ignore
+[02:05:46] anything that might be contrary to that definition.
+[02:05:49] Trevor Burrus Every time I'm thinking I'm going to catch
+[02:05:51] him in something all along this process, I found Dr. Krangel.
+[02:05:55] He came forward and said, I was in security briefings with Bob Lazar, the physicist at
+[02:05:59] Los Alamos.
+[02:06:00] He went on the record with me.
+[02:06:01] Now, the other people I talked with, why won't they go on the record with me?
+[02:06:04] Because they're still working there.
+[02:06:07] So that's the difference, right?
+[02:06:09] What can the public have?
+[02:06:10] Right?
+[02:06:11] Jared Polin Or even if they're not working there, you
+[02:06:12] know, they want to live their lives.
+[02:06:13] Trevor Burrus Okay.
+[02:06:14] Jared Polin I mean, obviously people have seen what's
+[02:06:15] happened to you.
+[02:06:16] Trevor Burrus Mike Thigpen, after 30 years, I found him.
+[02:06:19] Mike Thigpen Yeah, really.
+[02:06:20] If you look at all the information on, you know, concerning my accounts, that's verifiable.
+[02:06:27] It can't possibly be a bullshit story anymore.
+[02:06:31] It's really way past that point.
+[02:06:33] I mean, Mike Thigpen is, I mean, how could I possibly know?
+[02:06:38] Jared Polin So Mike Thigpen was the guy that did the security
+[02:06:42] clearances to go to the, one of the guys that was used.
+[02:06:45] Trevor Burrus And this is the guy that you work with.
+[02:06:46] Jared Polin He said he did.
+[02:06:49] And George Knapp, you know, George didn't believe him.
+[02:06:51] George put him through four polygraph tests, right?
+[02:06:54] He tried to see, man, this is a big risk.
+[02:06:57] It sounds interesting, but let's see if he's telling the truth.
+[02:07:00] One of the things was, Bob said, there's a guy named Mike Thigpen, he did security clearances
+[02:07:04] for the base.
+[02:07:05] And that's a weird name.
+[02:07:06] It's a very specific.
+[02:07:08] For 30 years, George found this guy in this weird department that he didn't even know
+[02:07:12] it was Mike Thigpen.
+[02:07:14] The guy wouldn't talk to me, ghosted him, totally ghosted him for 30 years, used Facebook
+[02:07:18] and Google image match through his children.
+[02:07:20] I was able to find him after 30 years, and I talked to him three times on the phone.
+[02:07:25] He lives on the East Coast.
+[02:07:26] He almost went on camera with me, confirmed that he did security clearances for the base
+[02:07:30] in 1989, confirmed he remembers Bob Lazar.
+[02:07:34] And what you don't know is there's a handwritten note that a friend of yours has from Mike.
+[02:07:39] I'm going to give it to you later.
+[02:07:41] But that is real.
+[02:07:42] That is actual.
+[02:07:43] So a handwritten note that says what?
+[02:07:44] You know, like, this is new to me.
+[02:07:45] So when the, I, when you're...
+[02:07:50] When they do security clearances, they go through all your friends and family.
+[02:07:54] Yeah.
+[02:07:55] Yeah.
+[02:07:56] So this is to Bob.
+[02:07:57] And I had people come to me for a friend of mine that's serving and they're doing a security
+[02:08:01] clearance for him.
+[02:08:02] And even though I'm like the UFO guy, they did, you know, the FBI come and visit my house
+[02:08:06] and make sure that they talk about my friend and they lift a little card.
+[02:08:11] And when my wife told him to get away, because he didn't know who they were, they left a
+[02:08:14] little card.
+[02:08:15] It's super cute now.
+[02:08:16] Back then it was a handwritten note and his friend has it for him that you haven't seen
+[02:08:19] in two decades.
+[02:08:23] So if you're listening...
+[02:08:24] How come you're telling me this now?
+[02:08:25] I don't know why I'm telling you this now.
+[02:08:26] What is this card?
+[02:08:27] It's just a little handwritten note with Mike Thigpen's signature.
+[02:08:30] Oh, like a card, like a, like a, like a postcard.
+[02:08:32] Like a piece of paper that he left on the door saying when Bob gets back or whatever
+[02:08:37] it says on it.
+[02:08:38] So it's just another little funny thing.
+[02:08:40] I found the guy, he does the security clearances.
+[02:08:42] He admitted to me he did it and he admitted to me he was dodging George Knapp because when
+[02:08:45] George said his name on the news, he dropped his fork into his steak or into his potatoes
+[02:08:51] or whatever.
+[02:08:52] And now he's looking at his wife.
+[02:08:53] He was in trouble.
+[02:08:54] His name's never supposed to be out there.
+[02:08:55] Like it's just a security clearance guy, but you don't want national attention associated
+[02:09:00] with anything Bob has to say.
+[02:09:02] But anyway, this unique name Bob said for 30 years and the guy ghosted George Knapp.
+[02:09:06] George could prove he existed.
+[02:09:08] He actually talked to me, man.
+[02:09:09] He talked to me three times.
+[02:09:10] He almost went on camera with me.
+[02:09:13] It's just crazy.
+[02:09:14] What, what do you, what happens after 30 years?
+[02:09:15] You just get more info.
+[02:09:16] Well, that's one of the reasons why when you and me and Jeremy and George Knapp had
+[02:09:23] that conversation on the phone, I said, I think what we can do with this podcast is
+[02:09:30] important.
+[02:09:31] I really do.
+[02:09:32] I think it's important for people to hear this from you in a very clear, just very concise
+[02:09:41] way.
+[02:09:43] And if you examine all the information that you've said today, if you look at all the
+[02:09:48] things that detractors have said, if you look at all of the new recent evidence that's coming
+[02:09:54] out and all these really high level people in the military and the government that are
+[02:09:59] discussing this, it gives you far more credibility than you would have had in the 1980s when
+[02:10:09] this came out.
+[02:10:10] Fuck yes.
+[02:10:11] You can't ignore his story just because you don't like it anymore.
+[02:10:14] That's why I thought it was important that you come out and refresh the world's memory
+[02:10:17] and let people know.
+[02:10:19] And like I said, I've been, I don't want to say I'm a fan of yours, but I guess I'm a
+[02:10:22] fan of yours as a human being, I'm a fan of yours, but I've been following you for decades.
+[02:10:27] I've been following the story for decades.
+[02:10:29] I mean, I'm kidding.
+[02:10:30] I have VHS tapes.
+[02:10:31] Bob, like a lot of the world has?
+[02:10:33] Yeah.
+[02:10:34] It's crazy.
+[02:10:35] I don't think it has any sort of a vested interest or just a, even a, just a fascination
+[02:10:43] with UFOs has followed your story because there's no one else.
+[02:10:48] There's no one else that comes forward.
+[02:10:49] There's some guy who said, I worked underground with the aliens.
+[02:10:51] They shot my hand off.
+[02:10:52] Like there's a bunch of like wacky dudes that are underground, there's bases, they're shooting
+[02:10:56] lasers through the earth's crust and they move them at light speed.
+[02:10:59] There's a lot of those guys.
+[02:11:00] They seem schizophrenic.
+[02:11:02] They seem crazy.
+[02:11:03] They might even be disinformation agents.
+[02:11:05] They might be people that are designed to muddy the waters, which for sure has happened.
+[02:11:10] People are coming forward though now.
+[02:11:11] It's amazing.
+[02:11:12] And by doing this, what you're doing, you're providing an opportunity just for Bob to tell
+[02:11:15] his story.
+[02:11:16] You know, believe it or not, he can tell his story.
+[02:11:19] It's amazing because more people will come forward now that are involved with these projects.
+[02:11:25] They'll come forward to you, to me.
+[02:11:26] They're coming forward.
+[02:11:27] And so what you've done here is provide that opportunity if they need it.
+[02:11:31] And it's amazing.
+[02:11:32] I just want to say, Bob.
+[02:11:33] Just don't come forward to me.
+[02:11:34] Don't come forward to Bob.
+[02:11:37] Why were you freaking nauseous at the beginning of this, like so upset?
+[02:11:42] Why was your, why did you have a migraine?
+[02:11:43] Because that started off so hard.
+[02:11:45] My God, I was sitting here like, did this?
+[02:11:46] Why are you asking him why?
+[02:11:47] It's obvious.
+[02:11:48] Anxiety.
+[02:11:49] The guy's gone through 30 fucking years of being persecuted.
+[02:11:51] They've erased his birth certificate.
+[02:11:53] I just want to hear from him.
+[02:11:54] What do you want to hear from him?
+[02:11:55] I want to hear him say, I want them to hear him.
+[02:11:56] Why do I have to say that?
+[02:11:57] You don't.
+[02:11:58] Joe just said it.
+[02:11:59] You get it.
+[02:12:00] I step out.
+[02:12:01] Settle down.
+[02:12:02] Yeah.
+[02:12:04] Yeah.
+[02:12:05] Well, I get it.
+[02:12:06] It was hard for you to get him here.
+[02:12:07] It was hard for us.
+[02:12:08] Yeah.
+[02:12:09] Well, you did a lot more than me.
+[02:12:10] What really annoys me are the people that think, you know, you guys just came up with
+[02:12:13] the story to make a bunch of money or get a bunch of, you know, attention.
+[02:12:17] That's a good point.
+[02:12:18] So please explain that.
+[02:12:19] You never made any money out of this.
+[02:12:20] First of all, I don't get any money out of this at all.
+[02:12:22] And I didn't even let you guys buy plane tickets for me to come out here or anything.
+[02:12:26] I mean, any time, like when Jeremy previewed, I guess, the movie up in Michigan, I mean,
+[02:12:35] it brought in like a couple thousand dollars.
+[02:12:37] I made sure that $2,000 went to science programs at the local high schools there.
+[02:12:42] It's like dirty money.
+[02:12:43] He doesn't want to touch it.
+[02:12:44] I don't take any money from this stuff.
+[02:12:46] And as far as attention, I hate fucking attention.
+[02:12:51] I don't like being on shows.
+[02:12:53] I just want to kind of hide in the corner and do my own thing.
+[02:12:56] So I got enough hugs when I was a kid, okay?
+[02:12:58] I don't need any attention.
+[02:13:00] So no, if you think somehow we came up with this thing, then you got to tell me why we
+[02:13:07] did it.
+[02:13:08] Well, you've done a great job of making sure you have your bases covered in that regard,
+[02:13:12] that you haven't profited off of this, and like you said, that you have donated whatever
+[02:13:15] money that came your way to science programs.
+[02:13:18] I mean, it doesn't make any sense any other way.
+[02:13:23] I mean, what I've gotten out of here is what I thought I was going to get out of here when
+[02:13:28] I watched the documentary, that what you're saying makes sense.
+[02:13:32] It doesn't make sense that it's bullshit.
+[02:13:34] That happened exactly like I said it did, Joe.
+[02:13:36] I believe you.
+[02:13:38] In closing, is there anything else you'd like to say?
+[02:13:41] No, I can't think of anything other than really don't come and try to visit me.
+[02:13:49] Well, I know that you have paid a huge personal cost to get this information out, and I mean,
+[02:13:56] maybe you didn't understand what that cost would have been when you first initially came
+[02:13:59] forward with the story, but over the past 30 years, it's been immense.
+[02:14:04] It's been great, and I just want to thank you for that, and thank you for all these
+[02:14:08] people that would not have gotten this information and would not have really had this story any
+[02:14:12] other way.
+[02:14:13] Oh, thanks, Joe.
+[02:14:14] Thank you.
+[02:14:15] And thank you, Jeremy.
+[02:14:16] One more time, the documentary's available on Netflix right now.
+[02:14:19] Yeah, it's called Bob Lazar, Area 51, and Flying Saucers.
+[02:14:23] All right, that's it, folks.
+[02:14:25] Good night.
+[02:14:40] You
