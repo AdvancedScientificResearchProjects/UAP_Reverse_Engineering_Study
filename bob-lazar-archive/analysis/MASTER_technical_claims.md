@@ -34,6 +34,7 @@ Cross-era synthesis organized by topic. Each topic shows how claims evolve from 
 - **JRE1315** — 2019-06-20 JRE #1315
 - **KLAS5** / **KLAS6** — KLAS 30th anniversary Pts 5 & 6
 - **JRE2479** — 2026-04-03 JRE #2479
+- **S4DOC-26** — 2026-04 *S4: The Bob Lazar Story* (Vendittelli/Matteau feature doc; File 52). ~90% Blender CGI reconstruction; extensive voice-over narration lifted from LT-91 vintage scripts; genuinely new content is in Luigi's on-camera evidence segments and new Knapp / Huff / Santa Cruz / Joy Lazar interviews. Same April 2026 promotion cycle as JRE2479.
 
 Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
@@ -79,16 +80,18 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 ## 1.3 Quantities
 
 - **Total stockpile: 500 lb.** (KLAS-89b [00:29:00], BG-89 [00:42:54], Rachel-93 [00:11:57], C2C-09 [01:25:20]). Huff qualifies 2009: *"500 pounds isn't a roomful. This is an element heavier than lead."*
-- **Per-craft charge / reactor load: 223 g.** (LT-91 [00:23:30], BG-89 [00:42:54], C2C-97 [02:17:20], LK19 [00:10:33], JRE2479 [01:31:37, 02:58:04]).
-- **Reactor lifetime on one charge: 20–30 years.** (LT-91 [00:23:30]).
-- **Melting point: 1740 °C.** (LT-91 [00:23:46]).
+- **Per-craft charge / reactor load: 223 g.** (LT-91 [00:23:30], BG-89 [00:42:54], C2C-97 [02:17:20], LK19 [00:10:33], JRE2479 [01:31:37, 02:58:04], S4DOC-26 [00:27:40]).
+- **Reactor lifetime on one charge: 20–30 years.** (LT-91 [00:23:30]; S4DOC-26 [00:27:47] narration).
+- **Melting point: 1740 °C.** (LT-91 [00:23:46]; S4DOC-26 [00:27:55] narration).
+- **Atomic radius: 1.87 Å; standard oxidation state +3.** (S4DOC-26 [00:28:00–03] narration — both restated on-record in 2026, consistent with LT-91 numerics).
 
 ## 1.4 Machining
 
 - **Form:** thin disks roughly the size of a half dollar; machined into **triangles / wedges** for reactor insertion. (BG-89 [01:12:28], LT-91 [00:25:37], LK19 [00:10:33], JRE1315, JRE2479 [01:31:37]).
 - **Process (1993):** *"The material… has to be machined into disks. These disks have to be stacked up and then cut into a cone shape and then sliced along the long axis of it. That work is done at Los Alamos."* (Rachel-93 [00:12:03]). LANL machinists allegedly told the disks were experimental *"armor coins."* (Rachel-93 [00:12:26]).
 - **Process (2018 expanded):** Fullest on-camera recipe: *"a cylinder of this material is taken. This is machined into a cone… Once you have the cone, it's sliced like this. And these slices become that. Now, even this starting piece, a solid cylinder, is not even a solid cylinder. It consists of many disks stacked up. And these are fused together to produce that. And all of these steps are necessary to produce a successful triangle that brings fuel."* (BL18 [01:26:14–27:50]). Copper color confirmed: *"somewhat copper in color, you know, that reddish-brownish."*
-- **Offsite code name (NEW, BL18):** *"Its code name was LA-1000. That's what it was referred to offsite."* Cover story was *"an advanced armor."* (BL18 [01:25:46–25:58]).
+- **Offsite code name (NEW, BL18):** *"Its code name was LA-1000. That's what it was referred to offsite."* Cover story was *"an advanced armor."* (BL18 [01:25:46–25:58]). Restated on camera S4DOC-26 [01:12:53]: *"they had a code name for it. It was LA-1000, and it was classified as a new armor material."*
+- **Aerogel transport packaging (NEW 2026, S4DOC-26).** *"It was packed in aerogel. At the time, I had never seen aerogel. I had never heard of aerogel. It's essentially silicon dioxide… 98% air… This had a cutout for the 115 in it, and then that was inside of a lead case."* (S4DOC-26 [01:13:18–14:50]). First detailed on-record description of the transport medium; not present in JRE2479 or earlier corpus.
 - **Assumed toxic** like other heavy elements. (BG-89 [01:08:55]).
 - Nicknamed *"unobtainium"* by a friend; periodic-table placeholder *"ununpentium, Uup."* (BG-89 [01:07:34]).
 
@@ -106,6 +109,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **1997:** Declines to say whether he removed any. (C2C-97 [02:17:46]).
 - **2018 (BL18 [01:14:19, 01:20:37]):** Corbell asks on camera, *"Did you ever get a piece of element 115 out of Los Alamos?"* Lazar *actively declines* to answer, turns off phones, leaves the record ("No, do not feel comfortable addressing that"). First *explicit non-denial* on camera; posture shift from earlier "no comment."
 - **2018 (BL18 [01:14:19–21:03]):** Knapp reveals he found the long-lost cloud-chamber tape in Lazar's personal home archive — *"less than a minute of that cloud chamber test on tape."* First on-camera confirmation that the tape exists.
+- **2026 (S4DOC-26 [01:14:51–16:00]):** Knapp articulates the sample's setup as a **dead-man switch** on camera: *"He had that piece of 115 in this pewter round disc thing in front of his particle accelerator with an X in the middle, and if he was going to go, they were going with him."* Huff corroborates: *"Bob made sure to have the gel stuff in a beaker and back. It was like pointing the particle accelerator at the 115 in the puck."* First direct on-camera Knapp framing of the 115 sample as a retaliatory dead-man device.
 - **2009 (Huff/Lear):** *"Somebody gave it to him from Los Alamos… we put out the story that he stole it. So we wouldn't implicate the guy that gave it to us."* (C2C-09 [01:21:14]). Cloud-chamber experiment at Lazar's house with bell jar, dry ice, thorium Coleman-mantle alpha source; alpha particles deflected; videotape misplaced. (C2C-09 [01:21:04]). **Three pieces** originally; two stolen, one at undisclosed secure location. Bob Bigelow involved in recovery. (C2C-09 [01:30:32]).
 
 **Evolution flag — possession:** 1989 "no comment" → 1993 "obtained it, stolen back" → 1997 declines again → 2009 Huff/Lear openly narrate cloud-chamber experiments. Lazar himself never confirms this latter narrative on air in 97 or 03.
@@ -156,7 +160,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **1997 detail:** Three fatalities. *"They attempted to get into the reactor while it was in operation under load… the reactor did explode."* (C2C-97 [02:10:43]).
 - **2003 detail:** Recorded as low-yield nuclear test at NTS in March; remote underground test of a spare reactor. (C2C-03 [01:45:52]).
 - **2019:** *"Plasma cutter or something like that to cut into an operating reactor."* (JRE1315 [00:14:20]).
-- **2026 expanded:** *"Exploded… while it was under load."* Killed/hurt Barry Castillo's prior lab partner — whom Lazar was hired to replace. (JRE2479 [01:27:48–01:28:38]).
+- **2026 expanded:** *"Exploded… while it was under load."* Killed/hurt Barry Castillo's prior lab partner — whom Lazar was hired to replace. (JRE2479 [01:27:48–01:28:38]; S4DOC-26 [00:32:31–33:32]: *"they cut into an operating reactor, and it detonated… It was exactly like disarming a bomb every single day."*).
 - **Hiring connection:** Lazar says he was brought in as replacement for one of the killed scientists. (LT-91 [00:35:44]; KLAS-89b [00:06:44]).
 
 ## 2.6 Reactor demos (bench)
@@ -165,6 +169,9 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - Hand pushed back from operating reactor sphere like opposing magnet poles; golf ball ricocheted off (omnidirectional anti-gravitational field). (C2C-97 [01:42:02]).
 - Emitter focused → *"produced a little black dot in the air, hovering in the air."* (C2C-97 [01:45:58]).
 - Candle-in-distortion (1997): candle continued to emit visible light but flame *"was flickering as if it was frozen in time."* Lazar says this *"drives me crazy"* — can't reconcile localized time dilation with continued photon emission. (C2C-97 [02:57:02]).
+- **2026 (S4DOC-26 [00:43:07–44:52]):** Restated; adds that a second demo without the candle produced *"a little black ball in the air and no light was escaping, looking like a little black hole."* L: *"there it's affecting light, but it wasn't in the candle test before that."*
+- **Golf-ball reactor-ricochet anecdote (S4DOC-26 [00:44:53–45:28]):** Barry threw a golf ball at the operating reactor; it rebounded off the field and dislodged a ceiling tile; panicked cleanup before Dennis returned. On-camera restatement of C2C-97 "gold balls bounced off the field."
+- **Shield-test materials enumerated (NEW, S4DOC-26 [00:32:02–30]):** *"We tried cardboard, plastic, metal, everything, and the field interacts with everything, and there's nothing really that shields it."* First explicit enumeration of tested shielding substances in the corpus.
 
 ## 2.7 1989 mock-up dimensions (unique to BG-89)
 
@@ -205,13 +212,15 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **Wireless Tesla-like coupling:** *"It almost appeared to be something similar to a Tesla coil… electrical power transmission without wires."* (C2C-92 [02:05:46]; Rachel-93 [00:03:08]).
 - **Pulsed operation / emergent EMP:** *"The amplifiers are pulsed 10 microseconds apart… they're each turned on sequentially… that's just a side effect of the way the craft works."* (UFOL2-95 / UFOL3-95 [00:54:58]).
 - **2026 NEW — compression-resistant waveguides.** *"If you had a big pipe and you push it together, it has to get thicker because the material has to go somewhere. This doesn't. It stays in exactly the same dimensions. It just becomes smaller."* Bends without buckling, no wires. (JRE2479 [00:27:12–00:28:49]).
-- **2026 — emitter rotation activates reactor.** Barry rotated emitter ~20° in lab. Emitter = *"hollow pipe with little copper colored plates all inside."* (JRE2479 [01:37:15]).
+- **2026 — emitter rotation activates reactor.** Barry rotated emitter ~20° in lab. Emitter = *"hollow pipe with little copper colored plates all inside."* (JRE2479 [01:37:15]; S4DOC-26 [00:30:23–52] restates verbatim: *"If you take one of the emitters and you rotate it past 20 degrees, the reactor will turn on… Conversely, to turn it off, rotate the emitter, the reactor shuts down."*).
+- **2026 — "Gravity A wave" label preserved in narration.** S4DOC-26 [00:28:08] explicitly uses the LT-91 term *"element 115's gravity A wave"* at 7.46 Hz / 1 μm bandwidth. JRE2479 dropped the A/B labels; S4DOC-26 restores them via scripted narration. Terminology is therefore **preserved in the 2026 documentary** even though absent from podcast appearances.
 
 ## 3.5 2026 repulsive-force reframe
 
 - **JRE2479 [01:37:44]:** *"It's a repulsive gravitational field. As far as we know, gravity only has an attractive force to it. We've never, even with antimatter, we've analyzed it and it still has an attractive force to it. It's a new repulsive force that we've discovered."*
 - **2026 [01:31:14]:** Craft does NOT translate weight to the ground; it cancels its own weight. Explicit distinction vs earlier descriptions.
 - **2026 [01:30:01]:** Repulsive field impenetrable beyond ~9 inches.
+- **S4DOC-26 [00:31:24–32:02]:** L's qualitative hedge: *"This could, of course, be something other than gravity. This could be a completely other force that we're just not familiar with, and we're just labeling it as gravity propulsion."* Same substantive reframe as JRE2479 but without the explicit "new repulsive force we've discovered" phrasing.
 
 ## 3.6 Gravity-wave detection / vindication
 
@@ -247,7 +256,8 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **Belly-first travel voiced on camera (BL18 [01:09:49]):** *"they actually fly belly first. The craft flies along, leaves the atmosphere of the planet, it turns its belly to the destination. The three amplifiers focus in on the destination and that's how it proceeds."*
 - **Field-propulsion mattress/bowling-ball analogy (BL18 [00:51:09]):** *"put a bowling ball in the middle of your bed, and then a foot in front of it, take your fist and push down on the mattress. The bowling ball will roll towards it. And that's exactly how the craft works."* First on-camera filmed statement of this specific analogy.
 
-**Note:** The "omicron/delta" labels are **not used by name in the C2C18 / LK19 / JRE1315 / KLAS5-6 / JRE2479 transcripts.** However, **BL18 [01:09:32] preserves them on camera:** *"That's how their low power mode Omicron configuration operate. The Delta configuration uses all three."* BL18 is the last on-camera Lazar use of these terms found. Concept preserved in all later material; terminology dropped in podcast-format appearances.
+**Note:** The "omicron/delta" labels are **not used by name in the C2C18 / LK19 / JRE1315 / KLAS5-6 / JRE2479 transcripts.** However, **BL18 [01:09:32] preserves them on camera:** *"That's how their low power mode Omicron configuration operate. The Delta configuration uses all three."* Concept preserved in all later material; terminology dropped in podcast-format appearances.
+**S4DOC-26 [00:58:23–01:00:40] restores both labels by name in documentary narration:** *"when all three of the amplifiers are being used for travel, they're in the delta configuration and when only one is being used for travel, it's in the omicron configuration."* Full dual-mode description with explicit label-to-count mapping ("Omicron meaning one and delta meaning three"), 10 ms recycle time, belly-roll for delta, swing-out emitters causing fall-into-distortion for omicron. S4DOC-26 is the clearest filmed omicron/delta exposition in the entire 2018–2026 era.
 
 ## 4.3 Spacetime bending
 
@@ -319,6 +329,9 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **2026 NEW — compression-resistant.** (JRE2479 [00:27:29–00:28:49]).
 - **2018 (BL18 [01:06:08–10:09]) — clean on-camera architectural walk-through.** Confirms: 3 floor-below cylindrical swiveling devices (emitters), 3 rectangular amplifiers on the floor above, central small reactor, top level with porthole-like *"planar sensor array"* for navigation, center antenna = waveguide producing heart-shaped distortion. Matches JRE1315 [00:34:09]; BL18 predates JRE1315.
 - **2026 NEW — interior absorbs light.** Luigi's CGI team built interior with calibrated halogen lights Bob described; scene stayed dark; had to amplify 20×. *"He mentioned things that were absolutely impossible to know."* (JRE2479 [02:26:47–02:31:35]).
+- **S4DOC-26 [00:51:59–53:02] corroborates the "very dark interior" qualitative claim on camera:** *"Even though there were 2 tripod lights set up inside the craft, it was still very dark. I've often described the interior of the craft as being very ominous."* Matches Luigi's CGI-team finding.
+- **S4DOC-26 [00:56:18] "wing-clipping" interpretation (NEW):** On why one amplifier had been cut out of the sport model with a plasma cutter: *"kind of the equivalent of clipping a bird's wings, so it can't fly away anywhere."* First on-record articulation of the intentional-disablement theory.
+- **S4DOC-26 [00:53:43–54:21] "reactor-watch seat" speculation (NEW):** The seat placed directly facing the waveguide and the transparent archway is hypothesized as a dedicated reactor-watch position. First time a specific occupant-role is ascribed to a specific seat.
 
 ## 5.4 Interior
 
@@ -342,6 +355,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 - Flag present on craft (all eras).
 - **JRE2479 [02:32:33–02:37:01]:** Flag was **reversed**. Per US flag/military vehicle convention, reversed flag appears on right side of vehicles because of the wind-blowing convention. Therefore hatch-side = starboard. Corbell's 3D reconstruction confirmed flag is visible from a 5'10" person at Lazar's observation position — resolving a detractor point.
+- **S4DOC-26 [00:42:45–43:01] divergence:** Same reversed-flag observation but WITHOUT the convention-explanation. L: *"Why they put the backwards American flag on there, I'll never know."* So the 2026 promotion cycle is internally split: podcast has the explanation, documentary does not. Most likely the doc was shot before Lazar worked out the convention, and JRE2479 captured his subsequent realization.
 
 ---
 
@@ -382,7 +396,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 ## 6.7 22 total personnel
 
-- 22 people had MAJ clearance / on entire project. (KLAS-89b [00:10:57]; C2C-97 [00:33:54]; JRE2479 [00:26:50]).
+- 22 people had MAJ clearance / on entire project. (KLAS-89b [00:10:57]; C2C-97 [00:33:54]; JRE2479 [00:26:50]; S4DOC-26 [00:01:22]: *"Myself and 21 other people were responsible for back-engineering a technology that originated from another civilization."*).
 - **2026 emphasis:** Metallurgy team visible in lunchroom but communication forbidden. Written requests via Dennis Mariani; 2–3 line replies. *"We were killing ourselves with security."* (JRE2479 [00:20:02–00:26:50]).
 
 ## 6.8 Compartmentalization
@@ -394,14 +408,17 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 ## 6.9 1941 map evidence (NEW 2026)
 
 - **JRE2479 [02:40:35–02:43:17]:** Oldest publicly-available US Department of the Interior map of Papoose Lake, from 1941, shows a road going into the mountain exactly where Lazar located S-4. Subsequent maps (1950, 1952) removed the road. Hypothesis: pre-existing silver mine was taken over and expanded by CIA. Credit: Veronica (Luigi's sister).
+- **S4DOC-26 [01:49:25–51:30] — different map evidence:** 1983 and 1989 provisional-edition US Dept of Interior maps of Groom/Ticaboo/Papoose; Papoose Lake map compiled from 1968 aerial photography, provisional stamp May 1989 — **same month Lazar's Dennis interview aired.** Maps ordered from the US government by Gene Huff. This is a **distinct piece of evidence** from the JRE2479 1941 map — both reinforce S-4 reality but by different mechanisms (JRE2479 = pre-CIA road; S4DOC-26 = timing coincidence of Dennis-month map edit).
 
 ## 6.10 December 2020 aerial photo (NEW 2026)
 
 - **JRE2479 [02:43:43–02:50:50]:** Researcher Scott Mitchell supplied photos from Dec 25, 2020 by a private Cessna pilot with telephoto Nikon. Photo #0501 processed in DaVinci Resolve reveals rectangular shapes consistent with camouflaged hangar bay doors at exact location Lazar described. First hangar larger than subsequent ones — matching his description. Adjacent frames (0500, 0502) confirm feature is not pixel artifact.
+- **S4DOC-26 [00:37:37–40:32] — documentary walkthrough of the same photo set:** Luigi walks through 800–900 private-Cessna images taken ~17 miles from Papoose Lake, publicly available 5+ years, initially cited by debunkers as evidence of nothing. Contrast-processed image reveals slanted rectangular doors; first hangar wider than subsequent ones. Lazar on camera confirms: *"Yeah, you can actually see it. Look at the difference between the first one and the second and the third."*
 
 ## 6.11 June 2024 Google Earth anomaly (NEW 2026)
 
 - **JRE2479 [02:50:44–02:53:45]:** ~June 22, 2024 Google Earth added rectangular patch of different coloration directly over Papoose Lake. Inside-box image dated June 22, 2024; outside older. Filter blurs terrain but inadvertently accentuates Papoose tracks. Interpreted as deliberate DOD obfuscation — but visible rectangular boundary gives location away.
+- **S4DOC-26 [00:34:44–37:53] — same anomaly, documentary walkthrough:** Luigi demonstrates the Google Earth timeline slider: 2022 imagery shows terrain + Joshua trees; post-June-2024 imagery is beige-yellow washed out. *"their new filter that they put in there allows us to see the tracks, which you couldn't see earlier."* Lazar on camera: *"Yeah, we drove right along the dry lake. That's unquestionably where we were."* Corroborates JRE2479 discovery with visual evidence.
 
 ## 6.12 1987 reactor accident cover (NTS)
 
@@ -428,6 +445,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **2018 (BL18 [01:05:37]):** Mandate stated verbatim on camera: *"We were to reverse engineer the power and propulsion system of this craft and see if it can be duplicated with available materials."*
 - **2019 — JRE1315 [01:50:55]:** Galileo as umbrella / propulsion study.
 - **2026 clarification — JRE2479 [02:58:37]:** Trailer narration: *"project Galileo project sidekick and project looking-glass. The file on top was project Galileo and as it turned out, that's the project that I was part of and that clearly referred to reverse engineering a recovered alien spacecraft."* Galileo = reverse-engineering project.
+- **S4DOC-26 [00:23:54]:** In-film narration identical: *"The file on top was Project Galileo, and as it turned out, that's the project that I was part of. And that clearly referred to reverse engineering a recovered alien spacecraft."* Plus epistemic hedge at [01:02:06–28]: *"I read the overview and later witnessed evidence which proved it to be accurate. So it is possible that scientists involved with other projects could have seen evidence that these other overviews were accurate. But I can't make that assertion."*
 
 ## 7.2 Sidekick — weapon
 
@@ -440,6 +458,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **2003:** Concept described without the name. (C2C-03 [00:17:57]).
 - **2009 (Huff):** Named. *"Sidekick — beam weapon using a gravity lens."* (C2C-09 [02:01:19]).
 - **2019 — JRE1315 [01:50:55]:** *"Weapon applications of the craft."*
+- **S4DOC-26 [01:00:46–01:02:06]:** Restated as particle-beam-with-gravity-collimator: *"the gravity amplifiers were used as a collimating device to narrow the beam of something that appeared to be like a particle weapon… an accelerated particle of some kind that was focused or held in place and prevented from dispersing by the gravity amplifiers, by the emitters."* Returns to the 1989 "particle beam" formulation rather than the 1991 "neutron source."
 
 ## 7.3 Looking Glass — gravity lensing (millisecond-scale)
 
@@ -450,6 +469,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **1997/2003:** Not described by Lazar in these transcripts.
 - **2009 (Huff):** Named. *"Device to see backwards in time only — not forward."* (C2C-09 [02:01:19]).
 - **2019 — JRE1315 [01:50:55]:** *"Had to do with time, any effects of time in the craft… small distortions, intentional distortions of time… part of a weapon program."*
+- **S4DOC-26 [01:01:29–02:06]:** *"Project Lookingglass had to do with using the gravity amplifiers to distort time. This isn't implying that they were trying to make a time machine, but they were trying to create a time differential, whether it was in milliseconds or fractions of a second."* Consistent with the UFOL4-96 millisecond framing.
 
 ## 7.4 First-public-record note
 
@@ -558,6 +578,24 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 - 22,000-hp Navy F-3D Skyknight engine; 350+ mph. (KLAS-89b [00:02:28]; BG-89 [01:22:49]).
 
+## 8.13 Eugene Gluharff mentorship (biographical — EXPANDED 2026)
+
+- **S4DOC-26 [00:04:38–07:00]:** First detailed narration of Lazar's teen/early-adult mentorship under **Eugene Gluharff** at his shop in Gardena, CA (*"kind of disintegrating building"*). Source of L's early exposure to supersonic aerodynamics, shockwaves inside jets, and high-power-propulsion engineering. Attributed by L as *"the basis, the spark, anyway, of what got me interested in, you know, that kind of propulsion."* Not previously expanded to this degree in any transcript reviewed.
+
+## 8.14 Records-search paper trail — on-camera by Knapp (S4DOC-26)
+
+- **S4DOC-26 [00:12:18–15:48]:** Knapp delivers the fullest on-camera narrative of his records investigation: Los Alamos denials, the 1982 LANL phone-book lookup, the 1982 *Los Alamos Monitor* front-page jet-car story, and the **Kirk Meyer headhunter firm** correspondence trail (*"yes we have him / no we never did"* back-and-forth). K: *"I knew they were lying to me… And it pissed me off."* Consolidates into one clear on-camera account what was scattered across prior interviews.
+- **Knapp's "deniability-hire" theory (S4DOC-26 [00:11:55–12:17]):** *"if you wanted to hire a guy who could think clearly, out of the box, and help solve problems, but who could be discredited if you needed to do that, Bob was probably the best person in the country at the time."* First explicit on-camera Knapp articulation of this hiring-rationale theory.
+
+## 8.15 Post-public harassment corroboration
+
+- **Mario Santa Cruz on camera (S4DOC-26 [01:36:42]) — NEW witness:** *"Mario was with me frequently because we go to the gym every day and that's when, you know, sometimes we park the car, come back out, all the doors, hoods and back would be open, even though we locked it and checked it before we left. But nothing would be taken."* First direct third-party corroborating witness to the gym-parking-lot intimidation pattern L described in C2C18 [00:11:00].
+- **Union Plaza Casino encounter (S4DOC-26 [01:37:12–40:04]) — EXPANDED causal framing:** L now articulates that the Dennis-rendezvous was a deliberate diversion to enable the simultaneous home break-in (*"was this entire thing set up just to get us out of the house? So they'd have access."*). Prior corpus mentioned the two events separately.
+
+## 8.16 Joy Lazar — NEW on-camera appearance
+
+- **S4DOC-26 [01:44:57–46:00]:** First on-camera interview with Joy Lazar in the analyzed corpus. Context only (met August 2000 Las Vegas; 23-year marriage; moves Vegas → NM → MI → Oregon). No technical content.
+
 ---
 
 # 9. Briefing Documents / Alien Context
@@ -574,8 +612,9 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **1991:** **Reticulum 4** = 4th planet from **Zeta Reticuli 2**; ~30 light years. Day length on Reticulum 4 = 90 Earth hours. Star-naming convention: star + numeric planet index; Earth = *"Sol 3."* (LT-91 [00:32:47–00:33:28]).
 - **1995:** Craft *"apparently came from the Zeta Reticuli star system"* — per briefings only. (UFOL2-95 [00:27:34]).
 - **2019:** Briefings stated origin **ZR3** (3rd planet of Zeta Reticuli binary). Southern hemisphere, ~30 ly. Cannot verify. (JRE1315 [00:20:15–00:21:05]).
+- **2026 S4DOC-26 [01:08:38–10:10] narration:** Reverts to LT-91 **ZR2 / Reticulum 4** formulation but updates the distance to **38 light years** (modern astronomical value ~39 ly). Doc-writer update likely. Preserves the 1991 vs 2019 inconsistency and adds a new distance figure.
 
-**Evolution:** 1989 binary → 1991 ZR2-planet-4 → 2019 ZR3. Note the 1991 vs 2019 planet-number inconsistency (Reticulum 4 vs ZR3).
+**Evolution:** 1989 binary → 1991 ZR2-planet-4 / ~30 ly → 2019 ZR3 / ~30 ly → 2026 doc ZR2-planet-4 / 38 ly. The ZR2/ZR3 planet-number inconsistency remains unresolved; distance drifted upward.
 
 ## 9.3 1623 six-digit date format
 
@@ -600,6 +639,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 ## 9.6.1 Alien nickname "The Kids" — NEW (BL18)
 
 - **BL18 [00:48:35]:** *"they did have a nickname for the aliens. The Kids."* First on-camera disclosure of this internal nickname; not found in the 1989–2009 or other 2018–2026 transcripts.
+- **S4DOC-26 [01:10:30–38] corroborates on camera:** *"There were references to beings or pilots or whatever, and some entities that were related to the craft, but they were always referred to as the kids."* Second independent restatement; confirms BL18 disclosure.
 
 ## 9.7 Beings physical description
 
@@ -699,7 +739,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 ## 10.13 Omicron / Delta terminology
 
-- Used in 1989–2009. Preserved on camera in BL18 [01:09:32]. Absent by name in C2C18 / LK19 / JRE1315 / KLAS5-6 / JRE2479 (concept retained).
+- Used in 1989–2009. Preserved on camera in BL18 [01:09:32]. Absent by name in C2C18 / LK19 / JRE1315 / KLAS5-6 / JRE2479 (concept retained). **Restored by name in S4DOC-26 [00:58:23–01:00:40] documentary narration with the clearest dual-mode exposition of the entire 2018–2026 era.**
 
 ## 10.14 Galileo / Sidekick names absent 1992–1996
 
@@ -728,6 +768,29 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 - 1989–2019: "anti-gravity" / "gravitational field."
 - **2026:** *"A new repulsive force that we've discovered."* Explicit distinction: not attractive gravity canceled, but a distinct repulsive force. Craft cancels its own weight rather than transferring it to ground. (JRE2479 [01:37:44, 01:31:14]).
+
+## 10.17 Reversed American flag — internally split 2026 cycle
+
+- **JRE2479 [02:32:33]:** Flag reversed per US military-vehicle convention (right-side / wind-direction) — implies hatch = starboard.
+- **S4DOC-26 [00:42:45]:** Flag reversed but *"Why they put the backwards American flag on there, I'll never know."* — Convention-explanation ABSENT.
+- Within the same April 2026 promotion cycle the explanation is in the podcast but not the documentary. Most likely the doc was shot before Lazar worked out the convention.
+
+## 10.18 Zeta Reticuli distance — 38 ly (S4DOC-26)
+
+- LT-91: ~30 ly.
+- S4DOC-26 narration: 38 ly (near modern astronomical value ~39 ly). Probable doc-writer update rather than Lazar recollection.
+
+## 10.19 Philosophical stance within 2026 cycle
+
+- JRE2479: near-full reversal (*"maybe I'm the asshole… maybe this is supposed to be just kept quiet."*).
+- **S4DOC-26 [01:46:44–47:18]:** softer partial-disclosure — release *"the basic fact"* (aliens visited, craft exist) but keep hardware/weapon details secret. *"Personally, no"* on whether disclosure will ever happen. Intermediate position. The 2026 cycle therefore has both a hard reversal (podcast) and a softer hedged position (doc).
+
+## 10.20 1941 vs 1989 Dept of Interior map evidence
+
+- **Distinct pieces of evidence**, not contradictory:
+  - JRE2479 uses a **1941** map showing a road going into the mountain where S-4 is located; subsequent maps removed it.
+  - S4DOC-26 uses **1983 + 1989 provisional-edition** Papoose Lake maps (compiled from 1968 aerial photography). Significance is the **May 1989 stamp coinciding with Lazar's Dennis-interview month**.
+- Both are valid; no reconciliation needed.
 
 ---
 
@@ -778,7 +841,14 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 - Huff recollection in C2C-97; Lazar does not confirm the exact figure.
 
-## 11.10 Corbell 2018 feature (BL18) — now included
+## 11.10 S4DOC-26 narration is LT-91 script, not fresh 2026 Lazar
+
+- Large portions of S4DOC-26 that *sound like* Lazar describing things on camera in 2026 are **voice-over narration reading essentially verbatim from LT-91 (1991 Lazar Tape) scripts**. Treat these as re-affirming canonical material, not as independent 2026 restatements.
+- NARRATION-CANONICAL blocks include: 115 numerics (223 g / 1740 °C / +3 / 1.87 Å / 7.46 Hz / 1 μm), Zeta Reticuli narration (Reticulum 4 / 38 ly), being-physical-description (3–4 ft / 25–50 lb / almond eyes), 1979 conflict, 65 genetic alterations / "containers," 1623-date. Sport-model dimensions (16 ft × 52'9") delivered as narration.
+- Genuine on-camera fresh 2026 Lazar material in S4DOC-26 is concentrated in the lab-demo anecdotes (golf ball / candle / bop-bop / reactor-watch seat / wing-clipping interpretation), the LA-1000 aerogel expansion, and the philosophical closing.
+- Uniquely on-camera NEW-witness material: Gene Huff's "second-trip disappearance" disclosure [01:24:32], Mario Santa Cruz's gym-intimidation corroboration [01:36:42], Joy Lazar's first on-camera appearance [01:44:57], Knapp's "dead-man switch" 115 framing [01:14:51], Knapp's deniability-hire theory [00:11:55].
+
+## 11.11 Corbell 2018 feature (BL18) — now included
 
 - The 2018-12-04 Corbell feature documentary "Bob Lazar: Area 51 & Flying Saucers" (File 40) was previously absent from this reference. It is now incorporated. BL18 is Lazar's most polished long-form on-camera account between 1991 and 2019 and frequently *predates by ~6 months* claims later attributed to JRE #1315 (June 2019) — notably the bench-repulsion demo phrasing, the three-level architectural walk-through, the bowling-ball/mattress analogy, the plutonium-substitute-reactor attempt, the 121-briefings/majestic-clearance recap, and the Thigpen-located disclosure. When multiple 2018–2019 sources carry the same claim, BL18 is usually the earliest filmed instance.
 - The 2016 Corbell short (CW16, File 38) is also now included. Its only technical contribution is the "47 megaton per kg of antimatter" energy-density phrasing and the on-record polygraph audio.
