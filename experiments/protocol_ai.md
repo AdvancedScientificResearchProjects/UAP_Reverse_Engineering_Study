@@ -55,21 +55,7 @@ The AI Visual & Material Analysis Protocol defines standardized procedures for a
 
 ## ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА
 
-```mermaid
-flowchart TB
-    A[Input imagery<br/>Входные изображения] --> B[Grounding DINO v1<br/>Детекция объекта в открытом словаре]
-    B --> C[SAM 3 target · SAM 2 fallback<br/>Сегментация по концептам]
-    C --> D[DINOv3 target · DINOv2 fallback<br/>Извлечение визуальных признаков]
-    C --> E[SigLIP2 SO400M<br/>Text-image retrieval<br/>Текстово-визуальный поиск]
-    D --> F[Material hypothesis<br/>Гипотеза о материале]
-    D --> G[Anomaly detection<br/>Обнаружение аномалий]
-    E --> H[Open-vocab comparison<br/>Сравнение в открытом словаре]
-    C --> I[3D reconstruction<br/>3D-реконструкция]
-    F --> J[Cross-pipeline synthesis<br/>Межконвейерный синтез]
-    G --> J
-    H --> J
-    I --> J
-```
+![Diagram 1](../charts/mermaid/protocol_ai_1.png)
 
 > **Note / Примечание:** Target models shown; see [Implementation Note](#implementation-note--замечание-о-реализации) for fallback mapping. / Показаны целевые модели; см. раздел «Замечание о реализации» для маппинга fallback-моделей.
 
@@ -203,14 +189,7 @@ RU prompts (via SigLIP2 multilingual):
 
 ### Decision Logic / Логика Выбора
 
-```mermaid
-flowchart TB
-    A[Input imagery count<br/>Количество входных изображений] --> B{Single image?<br/>Одно изображение?}
-    B -->|Yes / Да| C[Depth Anything 3<br/>Относительная глубина]
-    B -->|No / Нет| D{Overlapping views?<br/>Перекрывающиеся виды?}
-    D -->|Yes / Да| E[VGGT or MUSt3R<br/>Плотная 3D-реконструкция]
-    D -->|No / Нет| F[Depth Anything 3 per image<br/>DA3 для каждого изображения]
-```
+![Diagram 1](../charts/mermaid/protocol_ai_retry_1.png)
 
 ### Output Specifications / Спецификации Вывода
 
