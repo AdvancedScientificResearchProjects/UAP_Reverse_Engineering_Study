@@ -95,20 +95,7 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 ## RESEARCH OVERVIEW / ОБЗОР ИССЛЕДОВАНИЯ
 
-```mermaid
-flowchart TB
-    A[UAP-FRAG-001<br/>artifact imagery<br/>изображение артефакта] --> B[AI visual and material analysis<br/>ИИ-анализ визуальных и материальных характеристик]
-    A --> C[Archival and comparative analysis<br/>Архивный и сравнительный анализ]
-    A --> D[ECP percipient sessions<br/>КП-сеансы перципиентов]
-    D --> E[Three recorded percipient reports<br/>Три зафиксированных отчёта перципиентов]
-    E --> F[Cross-response comparison<br/>Сравнение ответов]
-    B --> G[Material and structure hypotheses<br/>Гипотезы о материале и структуре]
-    C --> H[Context and provenance hypotheses<br/>Гипотезы о контексте и происхождении]
-    F --> I[Reference validation<br/>Валидация по референсу]
-    G --> J[Cross-pipeline synthesis<br/>Межконвейерный синтез]
-    H --> J
-    I --> J
-```
+![Diagram 1](charts/mermaid/root_1.png)
 
 **EN:** The current repository is strongest where it separates raw percipient records, descriptive overlap analysis, and later validation against disclosed reference data.
 
@@ -159,34 +146,11 @@ flowchart TB
 
 ### Session Blinding Sequence / Схема ослепления сеанса
 
-```mermaid
-sequenceDiagram
-    participant M as Moderator / Модератор
-    participant V as Vladislav / Владислав
-    participant E as Ekaterina / Екатерина
-    participant T as Tatyana / Татьяна
-
-    M->>V: Prompt first / Запрос первым
-    V-->>M: Raw response / Ответ
-    M->>E: Prompt after Vladislav / Запрос после Владислава
-    Note right of E: Heard Vladislav / Слышала Владислава
-    E-->>M: Response / Ответ
-    M->>T: Prompt after both / Запрос после обоих
-    Note right of T: Heard both / Слышала оба ответа
-    T-->>M: Response / Ответ
-```
+![Diagram 1](charts/mermaid/retry_1.png)
 
 ### Evidence Synthesis Flow / Схема синтеза доказательств
 
-```mermaid
-flowchart LR
-    A[Raw percipient statements<br/>Необработанные утверждения перципиентов] --> B[Normalized themes<br/>Нормализованные темы]
-    B --> C[Cross-response agreement<br/>Согласованность ответов]
-    C --> D[Reference validation<br/>Валидация по референсу]
-    D --> E[Repository-level hypotheses<br/>Гипотезы на уровне репозитория]
-    A --> F[Primary reports<br/>Первичные отчёты]
-    F --> C
-```
+![Diagram 3](charts/mermaid/root_3.png)
 
 ---
 
@@ -194,15 +158,7 @@ flowchart LR
 
 ### AI Pipeline Summary / Сводка конвейера ИИ
 
-```mermaid
-flowchart LR
-    A[UAP-FRAG-001<br/>Input photo<br/>Входное фото] --> B[Segmentation<br/>Сегментация<br/>IoU 0.977]
-    B --> C[SigLIP2<br/>coral/sea urchin fossil<br/>коралл/окаменелость<br/>0.98 sigmoid]
-    B --> D[EfficientAD<br/>No surface anomalies<br/>Аномалий не обнаружено]
-    B --> E[Depth Anything<br/>Relative depth map<br/>Карта глубины]
-    C --> F[LLM Visual<br/>Cidaridae match<br/>Совпадение Cidaridae]
-    F --> G[Cross-method convergence<br/>Межметодная конвергенция<br/>AI + ECP: coral-like]
-```
+![Diagram 4](charts/mermaid/root_4.png)
 
 ### Key AI Findings / Ключевые результаты ИИ
 
@@ -219,16 +175,7 @@ flowchart LR
 
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
-```mermaid
-flowchart LR
-    A["2026-04-04<br/>ECP Session<br/>Сеанс КП"] --> B["2026-04-06<br/>Cross-comparison<br/>Сравнение"]
-    B --> C["2026-04-06<br/>Validation<br/>Валидация"]
-    C --> D["2026-04-07<br/>AI Pipeline<br/>ИИ Конвейер"]
-    D --> E["2026-04-07<br/>LLM Analysis<br/>LLM Анализ"]
-    E --> F["2026-04-07<br/>Report Published<br/>Отчёт Опубликован"]
-    style A fill:#e8f5e9
-    style F fill:#e8f5e9
-```
+![Diagram 5](charts/mermaid/root_5.png)
 
 ---
 
@@ -340,10 +287,10 @@ UAP_Reverse_Engineering_Study/
 
 | Repository / Репозиторий | Direction / Направление | Link / Ссылка |
 |-------------------------|------------------------|---------------|
-| **Hyperbolic Field Blood Plasma Study** | Blood plasma coagulation / Свёртываемость плазмы | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) |
-| **Hyperbolic Field Agricultural Study** | Plant & seed growth / Рост растений и семян | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) |
-| **Hyperbolic Field DAAT Crystal Study** | Crystal-human interaction / Взаимодействие кристалл-человек | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) |
-| **Hyperbolic Field Saccharomyces Study** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
+| **Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови** | Blood plasma coagulation / Свёртываемость плазмы | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) |
+| **Hyperbolic Field Agricultural Study / Сельскохозяйственное Исследование** | Plant & seed growth / Рост растений и семян | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) |
+| **Hyperbolic Field DAAT Crystal Study / Исследование Кристаллов DAAT** | Crystal-human interaction / Взаимодействие кристалл-человек | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) |
+| **Hyperbolic Field Saccharomyces Study / Исследование Дрожжей Saccharomyces** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
 | **ASRP.art** | Art & consciousness / Искусство и сознание | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Axionetic_Sensing_Reactions_Platform_in_Art) |
 
 <div align="center">
