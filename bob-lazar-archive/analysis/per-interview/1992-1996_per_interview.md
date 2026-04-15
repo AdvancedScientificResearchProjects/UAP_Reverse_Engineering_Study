@@ -1,5 +1,7 @@
 # Bob Lazar — Per-Interview Technical Analysis, 1992–1996 / Постинтервью Технический Анализ, 1992–1996
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Scope: Six transcripts covering Lazar's middle-era radio and conference appearances (post-1991 Lazar Tape, pre-1997 C2C Comprehensive). Only Lazar's technical, biographical, and programmatic statements are extracted; ordinary chitchat, callers' personal anecdotes, politics, religion, and John Lear's independent claims are excluded unless Lazar responds to them.
 
 Охват: Шесть транскриптов радиопередач и конференций среднего периода Лазара (после Lazar Tape 1991 и до комплексного C2C 1997). Извлечены только технические, биографические и программные заявления Лазара; бытовые разговоры, личные истории звонящих, политика, религия и независимые заявления John Lear исключены, кроме случаев, когда Лазар на них реагирует.

@@ -1,5 +1,7 @@
 # S4: The Bob Lazar Story (2026) — Topical Consolidation / Тематическая консолидация
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 **Source code / Код источника:** **S4DOC-26**
 **File / Файл:** `transcripts/52_2026_S4_Bob_Lazar_Story.txt` (108 KB, 1h 54m)
 **Same promotion cycle as JRE2479 (2026-04-03). / Тот же промо-цикл, что и JRE2479 (2026-04-03).**

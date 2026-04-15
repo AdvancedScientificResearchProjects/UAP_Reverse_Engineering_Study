@@ -3,6 +3,24 @@
 Cross-era synthesis organized by topic. Each topic shows how claims evolve from 1989 through 2026. Every claim is cited to a source interview code and timestamp. Direct quotes are in italics.
 Междуэпохальный синтез, организованный по темам. Каждая тема показывает, как заявления эволюционируют с 1989 по 2026 год. Каждое утверждение сопровождается ссылкой на код источника и таймстамп. Прямые цитаты даны курсивом на языке оригинала.
 
+## Table of Contents / Содержание
+
+| § | Section / Раздел | Jump / Перейти |
+|---|------------------|----------------|
+| 0.0 | Key Numerical Parameters / Ключевые числовые параметры | [↓](#00-key-numerical-parameters-quick-reference--ключевые-числовые-параметры-быстрый-справочник) |
+| 1 | Element 115 / Moscovium / Элемент 115 / Московий | [↓](#1-element-115--moscovium--элемент-115--московий) |
+| 2 | Antimatter Reactor / Антиматериальный реактор | [↓](#2-antimatter-reactor--2-антиматериальный-реактор) |
+| 3 | Gravity Physics / Гравитационная физика | [↓](#3-gravity-physics--3-гравитационная-физика) |
+| 4 | Propulsion / Craft Dynamics / Двигательная установка / динамика корабля | [↓](#4-propulsion--craft-dynamics--двигательная-установка--динамика-корабля) |
+| 5 | Sport Model Craft / Корабль Sport Model | [↓](#5-sport-model-craft--5-корабль-sport-model) |
+| 6 | S-4 Facility / Объект S-4 | [↓](#6-s-4-facility--6-объект-s-4) |
+| 7 | Named Projects / Названные проекты | [↓](#7-named-projects--7-названные-проекты) |
+| 8 | Biographical / Credentials / Биография / квалификация | [↓](#8-biographical--credentials--биография--квалификация) |
+| 9 | Briefing Documents / Alien Context / Инструктажные документы / контекст пришельцев | [↓](#9-briefing-documents--alien-context--инструктажные-документы--контекст-пришельцев) |
+| 10 | Known Contradictions / Evolution Flags / Известные противоречия / эволюция заявлений | [↓](#10-known-contradictions--evolution-flags--известные-противоречия--эволюция-заявлений) |
+| 11 | Misattributions to Watch For / Распространённые ошибочные атрибуции | [↓](#11-misattributions-to-watch-for--11-распространённые-ошибочные-атрибуции) |
+| 12 | Conclusions / Выводы | [↓](#12-conclusions--выводы) |
+
 ## Source codes / Коды источников
 
 **1989–1991:**
@@ -119,33 +137,6 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 
 ---
 
-# Table of Contents / Содержание
-
-1. Element 115 / Moscovium
-1. Элемент 115 / Московий
-2. Antimatter Reactor
-2. Антиматериальный реактор
-3. Gravity Physics
-3. Гравитационная физика
-4. Propulsion / Craft Dynamics
-4. Двигательная установка / динамика корабля
-5. Sport Model Craft
-5. Корабль Sport Model
-6. S-4 Facility
-6. Объект S-4
-7. Named Projects (Galileo / Sidekick / Looking Glass)
-7. Названные проекты (Galileo / Sidekick / Looking Glass)
-8. Biographical / Credentials
-8. Биография / квалификация
-9. Briefing Documents / Alien Context
-9. Инструктажные документы / контекст пришельцев
-10. Known Contradictions / Evolution Flags
-10. Известные противоречия / эволюция заявлений
-11. Misattributions to Watch For
-11. Распространённые ошибочные атрибуции
-
----
-
 # 1. Element 115 / Moscovium — Элемент 115 / Московий
 
 ## 1.1 Physical properties — stability / 1.1 Физические свойства — стабильность
@@ -242,7 +233,7 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 **Evolution flag — possession:** 1989 "no comment" → 1993 "obtained it, stolen back" → 1997 declines again → 2009 Huff/Lear openly narrate cloud-chamber experiments. Lazar himself never confirms this latter narrative on air in 97 or 03.
 **Метка эволюции — владение:** 1989 "no comment" → 1993 "obtained it, stolen back" → 1997 снова отказ → 2009 Huff/Lear открыто рассказывают об экспериментах с камерой Вильсона. Сам Лазар никогда не подтверждает этот последний нарратив в эфире в 97 или 03.
 
-## 1.11 ASRP Media synthesis / Dubna stable-isotope search / 1.11 Синтез в материалах ASRP Media / поиск стабильного изотопа в Дубне
+## 1.7 ASRP Media synthesis / Dubna stable-isotope search / 1.7 Синтез в материалах ASRP Media / поиск стабильного изотопа в Дубне
 
 - **First institutional Dubna voice in the archive.** ASRP-MEDIA (interview recorded 2021-09-28, published 2025-12-09) adds an anonymised high-ranking JINR representative to the previously Lazar-only §1.5 record. Per the interviewee, elements 114–118 were discovered at Dubna at the turn of the 2000s; the new **Superheavy Elements Factory** produced *~70 atoms of moscovium in 40 days* in its first experiment (Nov 2020), and *~100 atoms of flerovium* on the follow-up. All known isotopes of these elements *"exist for about a second, even a bit less."*
 - **Первый институциональный голос Дубны в архиве.** ASRP-MEDIA (интервью записано 2021-09-28, опубликовано 2025-12-09) добавляет к ранее только-лазаровскому §1.5 анонимизированного высокопоставленного представителя ОИЯИ. По словам собеседника, элементы 114–118 были открыты в Дубне на рубеже 2000-х; новая **«Фабрика сверхтяжёлых элементов»** дала в первом эксперименте *~70 атомов московия за 40 дней* (ноябрь 2020), ~100 атомов флеровия на повторе. Все известные изотопы этих элементов *«существуют около секунды, даже немного меньше»*.

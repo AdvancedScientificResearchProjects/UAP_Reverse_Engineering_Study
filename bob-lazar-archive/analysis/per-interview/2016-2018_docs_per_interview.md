@@ -1,5 +1,7 @@
 # Lazar 2016 & 2018 Corbell Documentaries — Per Interview / Документальные фильмы Корбелла 2016 и 2018 — Постинтервью
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Two Corbell-produced film transcripts: the 2016 short "Lazar: Cosmic Whistleblower" (File 38, 18 min) and the 2018 Netflix/Tubi feature "Bob Lazar: Area 51 & Flying Saucers" (File 40, 1h37m). Both mix narrator/voiceover, KLAS archival footage, and sit-down Lazar interviews. This document extracts only Lazar's own on-camera statements (and, where relevant, direct quotes from George Knapp and Joy Lazar that supply technical anchor-points the narrative otherwise lacks). Narrator voiceover, Corbell's poetic interstitials, and stock footage are excluded.
 
 Два транскрипта фильмов производства Corbell: короткометражка 2016 "Lazar: Cosmic Whistleblower" (File 38, 18 мин) и полнометражный Netflix/Tubi 2018 "Bob Lazar: Area 51 & Flying Saucers" (File 40, 1ч37м). Оба смешивают закадровый голос, архивные кадры KLAS и интервью с Лазаром. Этот документ извлекает только собственные заявления Лазара на камеру (и, где уместно, прямые цитаты George Knapp и Joy Lazar, дающие технические опорные точки, которых иначе не хватает). Закадровый текст, поэтические вставки Corbell и стоковое видео исключены.

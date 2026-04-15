@@ -1,5 +1,7 @@
 # Lazar 2016 & 2018 Corbell Docs — Topical Consolidation / Документальные фильмы Корбелла 2016 и 2018 — Тематическая консолидация
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Claims from the two Corbell films, grouped by topic. Each item flagged **CONSISTENT** (matches pre-2016 canon), **EXPANDED** (new detail on an old claim), or **NEW** (first-time claim on camera). The 2018 feature is Lazar's most polished on-camera account between 1991 and 2019, so details often differ from radio-format improv; flagged items are potential anchors/contradictions for the MASTER.
 
 Заявления из двух фильмов Corbell, сгруппированные по темам. Каждый пункт помечен как **CONSISTENT** (соответствует канону до 2016), **EXPANDED** (новая деталь старого заявления) или **NEW** (первое заявление на камеру). Полнометражный фильм 2018 — самый отшлифованный экранный рассказ Лазара между 1991 и 2019, поэтому детали часто расходятся с радио-импровизацией; помеченные пункты — потенциальные опорные точки/противоречия для MASTER.
