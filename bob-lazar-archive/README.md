@@ -8,6 +8,10 @@ A comprehensive research archive of Bob Lazar's public interviews, podcast appea
 
 **RU:** 23 транскрибированных выступления, охватывающих 37 лет, перекрёстно-ссылочный технический анализ и проверенный QA синтез каждого технического утверждения, сделанного Лазаром в записи.
 
+![Timeline of Bob Lazar appearances 1989–2026 / Хронология публичных выступлений Боба Лазара 1989–2026](diagrams/rendered/timeline_of_appearances.png)
+
+*Chronological overview of all 23 transcribed appearances across 37 years. / Хронологический обзор всех 23 транскрибированных выступлений за 37 лет.*
+
 ---
 
 ## What's in this repo / Что внутри репозитория

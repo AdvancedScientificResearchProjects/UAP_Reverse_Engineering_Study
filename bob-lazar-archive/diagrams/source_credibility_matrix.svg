@@ -1,0 +1,412 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1160" viewBox="0 0 1180 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Bob Lazar — Source Credibility Matrix</title>
+  <desc id="desc">24 transcribed appearances scored across 5 credibility criteria.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:24px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:14px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .colhdr { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .colhdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .row-code { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#0f172a; }
+    .row-date { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#6b7280; }
+    .cell-text { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+    .yes { fill:#9ad17b; }
+    .no { fill:#f29c99; }
+    .mid { fill:#f6c85f; }
+    .low { fill:#e9a896; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#cbd5e1; stroke-width:1; }
+  </style>
+  <rect class="bg" width="1180" height="1160"/>
+  <text class="title" x="40" y="48">Source Credibility Matrix / Матрица достоверности источников</text>
+  <text class="subtitle" x="40" y="72">24 transcribed Lazar-adjacent appearances scored across five evidentiary criteria.</text>
+  <text class="subtitle-ru" x="40" y="90">24 транскрибированных появления, связанных с Лазаром, оценены по пяти критериям свидетельств.</text>
+
+  <!-- legend -->
+  <rect x="40" y="108" width="16" height="16" class="yes stroke"/>
+  <text class="legend" x="62" y="121">yes / да (✓)</text>
+  <rect x="160" y="108" width="16" height="16" class="no stroke"/>
+  <text class="legend" x="182" y="121">no / нет (✗)</text>
+  <rect x="260" y="108" width="16" height="16" class="mid stroke"/>
+  <text class="legend" x="282" y="121">medium / средний</text>
+  <rect x="400" y="108" width="16" height="16" class="low stroke"/>
+  <text class="legend" x="422" y="121">low / низкий</text>
+
+  <!-- header row -->
+  <rect x="40" y="140" width="200" height="48" fill="#1f2937"/>
+  <rect x="240" y="140" width="160" height="48" fill="#1f2937"/>
+  <rect x="400" y="140" width="160" height="48" fill="#1f2937"/>
+  <rect x="560" y="140" width="200" height="48" fill="#1f2937"/>
+  <rect x="760" y="140" width="160" height="48" fill="#1f2937"/>
+  <rect x="920" y="140" width="220" height="48" fill="#1f2937"/>
+  <text class="colhdr" x="140" y="162">Source / Источник</text>
+  <text class="colhdr-ru" x="140" y="178">code + year</text>
+  <text class="colhdr" x="320" y="162">Lazar direct</text>
+  <text class="colhdr-ru" x="320" y="178">Лазар лично</text>
+  <text class="colhdr" x="480" y="162">First-hand</text>
+  <text class="colhdr-ru" x="480" y="178">Первоисточник</text>
+  <text class="colhdr" x="660" y="162">Technical density</text>
+  <text class="colhdr-ru" x="660" y="178">Техн. плотность</text>
+  <text class="colhdr" x="840" y="162">On-camera</text>
+  <text class="colhdr-ru" x="840" y="178">На камеру</text>
+  <text class="colhdr" x="1030" y="162">Archival-verified</text>
+  <text class="colhdr-ru" x="1030" y="178">Архивная проверка</text>
+
+<!-- Rows generated procedurally below. Each row: 36 px tall, alternating bg. -->
+  <g class="stroke">
+<!-- ROW 1: KLAS-89a  -->
+<rect x="40"  y="188" width="200" height="36" class="rowA"/>
+<rect x="240" y="188" width="160" height="36" class="yes"/>
+<rect x="400" y="188" width="160" height="36" class="yes"/>
+<rect x="560" y="188" width="200" height="36" class="mid"/>
+<rect x="760" y="188" width="160" height="36" class="yes"/>
+<rect x="920" y="188" width="220" height="36" class="no"/>
+<!-- ROW 2: KLAS-89b -->
+<rect x="40"  y="224" width="200" height="36" class="rowB"/>
+<rect x="240" y="224" width="160" height="36" class="yes"/>
+<rect x="400" y="224" width="160" height="36" class="yes"/>
+<rect x="560" y="224" width="200" height="36" class="yes"/>
+<rect x="760" y="224" width="160" height="36" class="yes"/>
+<rect x="920" y="224" width="220" height="36" class="mid"/>
+<!-- ROW 3: KLAS-89c -->
+<rect x="40"  y="260" width="200" height="36" class="rowA"/>
+<rect x="240" y="260" width="160" height="36" class="yes"/>
+<rect x="400" y="260" width="160" height="36" class="yes"/>
+<rect x="560" y="260" width="200" height="36" class="mid"/>
+<rect x="760" y="260" width="160" height="36" class="yes"/>
+<rect x="920" y="260" width="220" height="36" class="no"/>
+<!-- ROW 4: BG-89 -->
+<rect x="40"  y="296" width="200" height="36" class="rowB"/>
+<rect x="240" y="296" width="160" height="36" class="yes"/>
+<rect x="400" y="296" width="160" height="36" class="yes"/>
+<rect x="560" y="296" width="200" height="36" class="yes"/>
+<rect x="760" y="296" width="160" height="36" class="no"/>
+<rect x="920" y="296" width="220" height="36" class="no"/>
+<!-- ROW 5: LT-91 -->
+<rect x="40"  y="332" width="200" height="36" class="rowA"/>
+<rect x="240" y="332" width="160" height="36" class="yes"/>
+<rect x="400" y="332" width="160" height="36" class="yes"/>
+<rect x="560" y="332" width="200" height="36" class="yes"/>
+<rect x="760" y="332" width="160" height="36" class="yes"/>
+<rect x="920" y="332" width="220" height="36" class="mid"/>
+<!-- ROW 6: C2C-92 -->
+<rect x="40"  y="368" width="200" height="36" class="rowB"/>
+<rect x="240" y="368" width="160" height="36" class="yes"/>
+<rect x="400" y="368" width="160" height="36" class="yes"/>
+<rect x="560" y="368" width="200" height="36" class="mid"/>
+<rect x="760" y="368" width="160" height="36" class="no"/>
+<rect x="920" y="368" width="220" height="36" class="no"/>
+<!-- ROW 7: Rachel-93 -->
+<rect x="40"  y="404" width="200" height="36" class="rowA"/>
+<rect x="240" y="404" width="160" height="36" class="yes"/>
+<rect x="400" y="404" width="160" height="36" class="yes"/>
+<rect x="560" y="404" width="200" height="36" class="yes"/>
+<rect x="760" y="404" width="160" height="36" class="yes"/>
+<rect x="920" y="404" width="220" height="36" class="no"/>
+<!-- ROW 8: Rachel-93b -->
+<rect x="40"  y="440" width="200" height="36" class="rowB"/>
+<rect x="240" y="440" width="160" height="36" class="yes"/>
+<rect x="400" y="440" width="160" height="36" class="yes"/>
+<rect x="560" y="440" width="200" height="36" class="mid"/>
+<rect x="760" y="440" width="160" height="36" class="yes"/>
+<rect x="920" y="440" width="220" height="36" class="no"/>
+<!-- ROW 9: UFOL2-95 -->
+<rect x="40"  y="476" width="200" height="36" class="rowA"/>
+<rect x="240" y="476" width="160" height="36" class="yes"/>
+<rect x="400" y="476" width="160" height="36" class="yes"/>
+<rect x="560" y="476" width="200" height="36" class="mid"/>
+<rect x="760" y="476" width="160" height="36" class="yes"/>
+<rect x="920" y="476" width="220" height="36" class="no"/>
+<!-- ROW 10: UFOL3-95 -->
+<rect x="40"  y="512" width="200" height="36" class="rowB"/>
+<rect x="240" y="512" width="160" height="36" class="yes"/>
+<rect x="400" y="512" width="160" height="36" class="yes"/>
+<rect x="560" y="512" width="200" height="36" class="yes"/>
+<rect x="760" y="512" width="160" height="36" class="yes"/>
+<rect x="920" y="512" width="220" height="36" class="no"/>
+<!-- ROW 11: UFOL4-96 -->
+<rect x="40"  y="548" width="200" height="36" class="rowA"/>
+<rect x="240" y="548" width="160" height="36" class="yes"/>
+<rect x="400" y="548" width="160" height="36" class="yes"/>
+<rect x="560" y="548" width="200" height="36" class="mid"/>
+<rect x="760" y="548" width="160" height="36" class="yes"/>
+<rect x="920" y="548" width="220" height="36" class="no"/>
+<!-- ROW 12: C2C-97 -->
+<rect x="40"  y="584" width="200" height="36" class="rowB"/>
+<rect x="240" y="584" width="160" height="36" class="yes"/>
+<rect x="400" y="584" width="160" height="36" class="yes"/>
+<rect x="560" y="584" width="200" height="36" class="yes"/>
+<rect x="760" y="584" width="160" height="36" class="no"/>
+<rect x="920" y="584" width="220" height="36" class="no"/>
+<!-- ROW 13: C2C-98 (Lazar absent) -->
+<rect x="40"  y="620" width="200" height="36" class="rowA"/>
+<rect x="240" y="620" width="160" height="36" class="no"/>
+<rect x="400" y="620" width="160" height="36" class="yes"/>
+<rect x="560" y="620" width="200" height="36" class="mid"/>
+<rect x="760" y="620" width="160" height="36" class="no"/>
+<rect x="920" y="620" width="220" height="36" class="no"/>
+<!-- ROW 14: C2C-03 -->
+<rect x="40"  y="656" width="200" height="36" class="rowB"/>
+<rect x="240" y="656" width="160" height="36" class="yes"/>
+<rect x="400" y="656" width="160" height="36" class="yes"/>
+<rect x="560" y="656" width="200" height="36" class="yes"/>
+<rect x="760" y="656" width="160" height="36" class="no"/>
+<rect x="920" y="656" width="220" height="36" class="no"/>
+<!-- ROW 15: C2C-09 (Lazar absent) -->
+<rect x="40"  y="692" width="200" height="36" class="rowA"/>
+<rect x="240" y="692" width="160" height="36" class="no"/>
+<rect x="400" y="692" width="160" height="36" class="yes"/>
+<rect x="560" y="692" width="200" height="36" class="mid"/>
+<rect x="760" y="692" width="160" height="36" class="no"/>
+<rect x="920" y="692" width="220" height="36" class="no"/>
+<!-- ROW 16: CW16 -->
+<rect x="40"  y="728" width="200" height="36" class="rowB"/>
+<rect x="240" y="728" width="160" height="36" class="yes"/>
+<rect x="400" y="728" width="160" height="36" class="yes"/>
+<rect x="560" y="728" width="200" height="36" class="mid"/>
+<rect x="760" y="728" width="160" height="36" class="yes"/>
+<rect x="920" y="728" width="220" height="36" class="no"/>
+<!-- ROW 17: C2C-18 -->
+<rect x="40"  y="764" width="200" height="36" class="rowA"/>
+<rect x="240" y="764" width="160" height="36" class="yes"/>
+<rect x="400" y="764" width="160" height="36" class="yes"/>
+<rect x="560" y="764" width="200" height="36" class="mid"/>
+<rect x="760" y="764" width="160" height="36" class="no"/>
+<rect x="920" y="764" width="220" height="36" class="mid"/>
+<!-- ROW 18: BL18 -->
+<rect x="40"  y="800" width="200" height="36" class="rowB"/>
+<rect x="240" y="800" width="160" height="36" class="yes"/>
+<rect x="400" y="800" width="160" height="36" class="yes"/>
+<rect x="560" y="800" width="200" height="36" class="yes"/>
+<rect x="760" y="800" width="160" height="36" class="yes"/>
+<rect x="920" y="800" width="220" height="36" class="mid"/>
+<!-- ROW 19: LK-19 -->
+<rect x="40"  y="836" width="200" height="36" class="rowA"/>
+<rect x="240" y="836" width="160" height="36" class="yes"/>
+<rect x="400" y="836" width="160" height="36" class="yes"/>
+<rect x="560" y="836" width="200" height="36" class="mid"/>
+<rect x="760" y="836" width="160" height="36" class="yes"/>
+<rect x="920" y="836" width="220" height="36" class="mid"/>
+<!-- ROW 20: JRE1315 -->
+<rect x="40"  y="872" width="200" height="36" class="rowB"/>
+<rect x="240" y="872" width="160" height="36" class="yes"/>
+<rect x="400" y="872" width="160" height="36" class="yes"/>
+<rect x="560" y="872" width="200" height="36" class="yes"/>
+<rect x="760" y="872" width="160" height="36" class="yes"/>
+<rect x="920" y="872" width="220" height="36" class="mid"/>
+<!-- ROW 21: KLAS30-P5 -->
+<rect x="40"  y="908" width="200" height="36" class="rowA"/>
+<rect x="240" y="908" width="160" height="36" class="yes"/>
+<rect x="400" y="908" width="160" height="36" class="yes"/>
+<rect x="560" y="908" width="200" height="36" class="mid"/>
+<rect x="760" y="908" width="160" height="36" class="yes"/>
+<rect x="920" y="908" width="220" height="36" class="mid"/>
+<!-- ROW 22: KLAS30-P6 -->
+<rect x="40"  y="944" width="200" height="36" class="rowB"/>
+<rect x="240" y="944" width="160" height="36" class="yes"/>
+<rect x="400" y="944" width="160" height="36" class="yes"/>
+<rect x="560" y="944" width="200" height="36" class="mid"/>
+<rect x="760" y="944" width="160" height="36" class="yes"/>
+<rect x="920" y="944" width="220" height="36" class="mid"/>
+<!-- ROW 23: JRE2479 -->
+<rect x="40"  y="980" width="200" height="36" class="rowA"/>
+<rect x="240" y="980" width="160" height="36" class="yes"/>
+<rect x="400" y="980" width="160" height="36" class="yes"/>
+<rect x="560" y="980" width="200" height="36" class="yes"/>
+<rect x="760" y="980" width="160" height="36" class="yes"/>
+<rect x="920" y="980" width="220" height="36" class="yes"/>
+<!-- ROW 24: S4DOC-26 -->
+<rect x="40"  y="1016" width="200" height="36" class="rowB"/>
+<rect x="240" y="1016" width="160" height="36" class="mid"/>
+<rect x="400" y="1016" width="160" height="36" class="mid"/>
+<rect x="560" y="1016" width="200" height="36" class="yes"/>
+<rect x="760" y="1016" width="160" height="36" class="yes"/>
+<rect x="920" y="1016" width="220" height="36" class="yes"/>
+  </g>
+
+  <!-- Row labels (codes + dates) -->
+  <g>
+    <text class="row-code" x="52" y="206">KLAS-89a</text><text class="row-date" x="52" y="220">1989-05 silhouette</text>
+    <text class="row-code" x="52" y="242">KLAS-89b</text><text class="row-date" x="52" y="256">1989-11 Best Evidence Pt1</text>
+    <text class="row-code" x="52" y="278">KLAS-89c</text><text class="row-date" x="52" y="292">1989-11 Best Evidence Pt6</text>
+    <text class="row-code" x="52" y="314">BG-89</text><text class="row-date" x="52" y="328">1989-12 Billy Goodman (audio)</text>
+    <text class="row-code" x="52" y="350">LT-91</text><text class="row-date" x="52" y="364">1991 The Lazar Tape</text>
+    <text class="row-code" x="52" y="386">C2C-92</text><text class="row-date" x="52" y="400">1992-12 Coast-to-Coast (audio)</text>
+    <text class="row-code" x="52" y="422">Rachel-93</text><text class="row-date" x="52" y="436">1993-05 Ultimate UFO seminar</text>
+    <text class="row-code" x="52" y="458">Rachel-93b</text><text class="row-date" x="52" y="472">1993-05 seminar pt.2 / Q&amp;A</text>
+    <text class="row-code" x="52" y="494">UFOL2-95</text><text class="row-date" x="52" y="508">1995-12 UFO Line Ep 2</text>
+    <text class="row-code" x="52" y="530">UFOL3-95</text><text class="row-date" x="52" y="544">1995-12 UFO Line Ep 3</text>
+    <text class="row-code" x="52" y="566">UFOL4-96</text><text class="row-date" x="52" y="580">1996-01 UFO Line Ep 4</text>
+    <text class="row-code" x="52" y="602">C2C-97</text><text class="row-date" x="52" y="616">1997-09 C2C (Lazar, audio)</text>
+    <text class="row-code" x="52" y="638">C2C-98</text><text class="row-date" x="52" y="652">1998-01 C2C (Lear solo)</text>
+    <text class="row-code" x="52" y="674">C2C-03</text><text class="row-date" x="52" y="688">2003-12 C2C (Lazar, audio)</text>
+    <text class="row-code" x="52" y="710">C2C-09</text><text class="row-date" x="52" y="724">2009-11 C2C (Lazar absent)</text>
+    <text class="row-code" x="52" y="746">CW16</text><text class="row-date" x="52" y="760">2016-02 Corbell short doc</text>
+    <text class="row-code" x="52" y="782">C2C-18</text><text class="row-date" x="52" y="796">2018-11 C2C (audio)</text>
+    <text class="row-code" x="52" y="818">BL18</text><text class="row-date" x="52" y="832">2018-12 Corbell feature doc</text>
+    <text class="row-code" x="52" y="854">LK-19</text><text class="row-date" x="52" y="868">2019-01 Larry King</text>
+    <text class="row-code" x="52" y="890">JRE1315</text><text class="row-date" x="52" y="904">2019-06 Joe Rogan #1315</text>
+    <text class="row-code" x="52" y="926">KLAS30-P5</text><text class="row-date" x="52" y="940">2019 KLAS 30th-anniv Pt5</text>
+    <text class="row-code" x="52" y="962">KLAS30-P6</text><text class="row-date" x="52" y="976">2019 KLAS 30th-anniv Pt6</text>
+    <text class="row-code" x="52" y="998">JRE2479</text><text class="row-date" x="52" y="1012">2026-04 Joe Rogan #2479</text>
+    <text class="row-code" x="52" y="1034">S4DOC-26</text><text class="row-date" x="52" y="1048">2026-04 S4 (Vendittelli doc)</text>
+  </g>
+
+  <!-- Cell marks -->
+  <g>
+    <!-- row 1: KLAS-89a -->
+    <text class="cell-text" x="320" y="212">✓</text>
+    <text class="cell-text" x="480" y="212">✓</text>
+    <text class="cell-text" x="660" y="212">MED</text>
+    <text class="cell-text" x="840" y="212">✓</text>
+    <text class="cell-text" x="1030" y="212">✗</text>
+    <!-- row 2: KLAS-89b -->
+    <text class="cell-text" x="320" y="248">✓</text>
+    <text class="cell-text" x="480" y="248">✓</text>
+    <text class="cell-text" x="660" y="248">HIGH</text>
+    <text class="cell-text" x="840" y="248">✓</text>
+    <text class="cell-text" x="1030" y="248">~ (CIA ’13)</text>
+    <!-- row 3 KLAS-89c -->
+    <text class="cell-text" x="320" y="284">✓</text>
+    <text class="cell-text" x="480" y="284">✓</text>
+    <text class="cell-text" x="660" y="284">MED</text>
+    <text class="cell-text" x="840" y="284">✓</text>
+    <text class="cell-text" x="1030" y="284">✗</text>
+    <!-- row 4 BG-89 -->
+    <text class="cell-text" x="320" y="320">✓</text>
+    <text class="cell-text" x="480" y="320">✓</text>
+    <text class="cell-text" x="660" y="320">HIGH</text>
+    <text class="cell-text" x="840" y="320">✗</text>
+    <text class="cell-text" x="1030" y="320">✗</text>
+    <!-- row 5 LT-91 -->
+    <text class="cell-text" x="320" y="356">✓</text>
+    <text class="cell-text" x="480" y="356">✓</text>
+    <text class="cell-text" x="660" y="356">HIGH</text>
+    <text class="cell-text" x="840" y="356">✓</text>
+    <text class="cell-text" x="1030" y="356">~ (1941 map)</text>
+    <!-- row 6 C2C-92 -->
+    <text class="cell-text" x="320" y="392">✓</text>
+    <text class="cell-text" x="480" y="392">✓</text>
+    <text class="cell-text" x="660" y="392">MED</text>
+    <text class="cell-text" x="840" y="392">✗</text>
+    <text class="cell-text" x="1030" y="392">✗</text>
+    <!-- row 7 Rachel-93 -->
+    <text class="cell-text" x="320" y="428">✓</text>
+    <text class="cell-text" x="480" y="428">✓</text>
+    <text class="cell-text" x="660" y="428">HIGH</text>
+    <text class="cell-text" x="840" y="428">✓</text>
+    <text class="cell-text" x="1030" y="428">✗</text>
+    <!-- row 8 Rachel-93b -->
+    <text class="cell-text" x="320" y="464">✓</text>
+    <text class="cell-text" x="480" y="464">✓</text>
+    <text class="cell-text" x="660" y="464">MED</text>
+    <text class="cell-text" x="840" y="464">✓</text>
+    <text class="cell-text" x="1030" y="464">✗</text>
+    <!-- row 9 UFOL2-95 -->
+    <text class="cell-text" x="320" y="500">✓</text>
+    <text class="cell-text" x="480" y="500">✓</text>
+    <text class="cell-text" x="660" y="500">MED</text>
+    <text class="cell-text" x="840" y="500">✓</text>
+    <text class="cell-text" x="1030" y="500">✗</text>
+    <!-- row 10 UFOL3-95 -->
+    <text class="cell-text" x="320" y="536">✓</text>
+    <text class="cell-text" x="480" y="536">✓</text>
+    <text class="cell-text" x="660" y="536">HIGH</text>
+    <text class="cell-text" x="840" y="536">✓</text>
+    <text class="cell-text" x="1030" y="536">✗</text>
+    <!-- row 11 UFOL4-96 -->
+    <text class="cell-text" x="320" y="572">✓</text>
+    <text class="cell-text" x="480" y="572">✓</text>
+    <text class="cell-text" x="660" y="572">MED</text>
+    <text class="cell-text" x="840" y="572">✓</text>
+    <text class="cell-text" x="1030" y="572">✗</text>
+    <!-- row 12 C2C-97 -->
+    <text class="cell-text" x="320" y="608">✓</text>
+    <text class="cell-text" x="480" y="608">✓</text>
+    <text class="cell-text" x="660" y="608">HIGH</text>
+    <text class="cell-text" x="840" y="608">✗</text>
+    <text class="cell-text" x="1030" y="608">✗</text>
+    <!-- row 13 C2C-98 (Lazar absent; Lear solo) -->
+    <text class="cell-text" x="320" y="644">✗</text>
+    <text class="cell-text" x="480" y="644">✓</text>
+    <text class="cell-text" x="660" y="644">MED</text>
+    <text class="cell-text" x="840" y="644">✗</text>
+    <text class="cell-text" x="1030" y="644">✗</text>
+    <!-- row 14 C2C-03 -->
+    <text class="cell-text" x="320" y="680">✓</text>
+    <text class="cell-text" x="480" y="680">✓</text>
+    <text class="cell-text" x="660" y="680">HIGH</text>
+    <text class="cell-text" x="840" y="680">✗</text>
+    <text class="cell-text" x="1030" y="680">✗</text>
+    <!-- row 15 C2C-09 (Lazar absent; Huff/Lear/Knapp) -->
+    <text class="cell-text" x="320" y="716">✗</text>
+    <text class="cell-text" x="480" y="716">✓</text>
+    <text class="cell-text" x="660" y="716">MED</text>
+    <text class="cell-text" x="840" y="716">✗</text>
+    <text class="cell-text" x="1030" y="716">✗</text>
+    <!-- row 16 CW16 -->
+    <text class="cell-text" x="320" y="752">✓</text>
+    <text class="cell-text" x="480" y="752">✓</text>
+    <text class="cell-text" x="660" y="752">MED</text>
+    <text class="cell-text" x="840" y="752">✓</text>
+    <text class="cell-text" x="1030" y="752">✗</text>
+    <!-- row 17 C2C-18 -->
+    <text class="cell-text" x="320" y="788">✓</text>
+    <text class="cell-text" x="480" y="788">✓</text>
+    <text class="cell-text" x="660" y="788">MED</text>
+    <text class="cell-text" x="840" y="788">✗</text>
+    <text class="cell-text" x="1030" y="788">~ (FBI raid)</text>
+    <!-- row 18 BL18 -->
+    <text class="cell-text" x="320" y="824">✓</text>
+    <text class="cell-text" x="480" y="824">✓</text>
+    <text class="cell-text" x="660" y="824">HIGH</text>
+    <text class="cell-text" x="840" y="824">✓</text>
+    <text class="cell-text" x="1030" y="824">~ (FBI raid)</text>
+    <!-- row 19 LK-19 -->
+    <text class="cell-text" x="320" y="860">✓</text>
+    <text class="cell-text" x="480" y="860">✓</text>
+    <text class="cell-text" x="660" y="860">MED</text>
+    <text class="cell-text" x="840" y="860">✓</text>
+    <text class="cell-text" x="1030" y="860">~ (Dubna ’04)</text>
+    <!-- row 20 JRE1315 -->
+    <text class="cell-text" x="320" y="896">✓</text>
+    <text class="cell-text" x="480" y="896">✓</text>
+    <text class="cell-text" x="660" y="896">HIGH</text>
+    <text class="cell-text" x="840" y="896">✓</text>
+    <text class="cell-text" x="1030" y="896">~ (Dubna ’04)</text>
+    <!-- row 21 KLAS30-P5 -->
+    <text class="cell-text" x="320" y="932">✓</text>
+    <text class="cell-text" x="480" y="932">✓</text>
+    <text class="cell-text" x="660" y="932">MED</text>
+    <text class="cell-text" x="840" y="932">✓</text>
+    <text class="cell-text" x="1030" y="932">~ (CIA ’13)</text>
+    <!-- row 22 KLAS30-P6 -->
+    <text class="cell-text" x="320" y="968">✓</text>
+    <text class="cell-text" x="480" y="968">✓</text>
+    <text class="cell-text" x="660" y="968">MED</text>
+    <text class="cell-text" x="840" y="968">✓</text>
+    <text class="cell-text" x="1030" y="968">~ (CIA ’13)</text>
+    <!-- row 23 JRE2479 -->
+    <text class="cell-text" x="320" y="1004">✓</text>
+    <text class="cell-text" x="480" y="1004">✓</text>
+    <text class="cell-text" x="660" y="1004">HIGH</text>
+    <text class="cell-text" x="840" y="1004">✓</text>
+    <text class="cell-text" x="1030" y="1004">✓ (Pentagon)</text>
+    <!-- row 24 S4DOC-26 (partial — 90% CGI, narration is LT-91 script) -->
+    <text class="cell-text" x="320" y="1040">partial</text>
+    <text class="cell-text" x="480" y="1040">partial</text>
+    <text class="cell-text" x="660" y="1040">HIGH</text>
+    <text class="cell-text" x="840" y="1040">✓</text>
+    <text class="cell-text" x="1030" y="1040">✓ (1941+2020)</text>
+  </g>
+
+  <text class="footer" x="40" y="1092">Scoring basis: §0.0 source codes + §10/§11 attribution flags. C2C-98 &amp; C2C-09 flagged "Lazar direct = ✗" (see §11.1, §11.2).</text>
+  <text class="footer-ru" x="40" y="1110">Основание оценки: §0.0 коды источников + флаги атрибуции §10/§11. C2C-98 и C2C-09 помечены «без Лазара» (см. §11.1, §11.2).</text>
+  <text class="footer" x="40" y="1134">S4DOC-26 narration lifts LT-91 scripts; Lazar direct marked "partial" per §11.10. Archival refs: Dubna 115 synth 2004, CIA 2013, FBI 2017, DoD UAP 2020, 1941 Papoose map, Dec 2020 aerial.</text>
+  <text class="footer-ru" x="40" y="1152">Bob Lazar Archive v1.0 — ASRP UAP Reverse-Engineering Study</text>
+</svg>

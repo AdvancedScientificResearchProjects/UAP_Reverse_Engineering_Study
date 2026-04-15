@@ -59,6 +59,18 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 # 0.0 Key Numerical Parameters (quick-reference) / Ключевые числовые параметры (быстрый справочник)
 
+![Timeline of Bob Lazar appearances 1989–2026 / Хронология публичных выступлений Боба Лазара 1989–2026](../diagrams/rendered/timeline_of_appearances.png)
+
+*Chronological index of the 23 transcribed appearances that feed this synthesis. / Хронологический указатель 23 транскрибированных выступлений, лежащих в основе этого синтеза.*
+
+![Source credibility matrix — 23 sources × 5 criteria / Матрица достоверности источников — 23 источника × 5 критериев](../diagrams/source_credibility_matrix.svg)
+
+*Cross-rating of every source against five credibility criteria. / Кросс-оценка каждого источника по пяти критериям достоверности.*
+
+![Numerical parameters × status / Числовые параметры × статус](../diagrams/numerical_params_table.svg)
+
+*Visual companion to the parameter table below, colored by stability status. / Визуальный компаньон к таблице параметров ниже, раскрашен по статусу устойчивости.*
+
 Consolidated single-view table of every measurable claim Lazar has stated across the 23 transcripts. Intended so that a defense contractor or physicist can scan one table and see all quantitative claims, their first- and last-restated years, and whether the number is stable, drifted, or internally contradicted. Full context and citations live in §§1–11.
 Консолидированная таблица с единым обзором всех измеримых заявлений, озвученных Лазаром в 23 транскриптах. Цель — чтобы оборонный подрядчик или физик мог за один взгляд охватить все количественные заявления, годы первой и последней формулировки и увидеть, устойчива ли цифра, дрейфует или противоречит сама себе. Полный контекст и цитаты — в §§1–11.
 
@@ -181,6 +193,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 
 ## 1.4 Machining / 1.4 Механическая обработка
 
+![Element 115 machining steps: disks → stacked cylinder → cone → triangular wedges / Этапы обработки элемента 115: диски → цилиндр → конус → треугольные клинья](../diagrams/rendered/element_115_machining.png)
+
+*Machining sequence consolidated from Rachel-93, BL18, LK19, JRE2479. / Последовательность обработки по материалам Rachel-93, BL18, LK19, JRE2479.*
+
 - **Form:** thin disks roughly the size of a half dollar; machined into **triangles / wedges** for reactor insertion. (BG-89 [01:12:28], LT-91 [00:25:37], LK19 [00:10:33], JRE1315, JRE2479 [01:31:37]).
 - **Форма:** тонкие диски размером примерно с полдоллара; обрабатываются до **треугольников / клиньев** для установки в реактор. (BG-89 [01:12:28], LT-91 [00:25:37], LK19 [00:10:33], JRE1315, JRE2479 [01:31:37]).
 - **Process (1993):** *"The material… has to be machined into disks. These disks have to be stacked up and then cut into a cone shape and then sliced along the long axis of it. That work is done at Los Alamos."* (Rachel-93 [00:12:03]). LANL machinists allegedly told the disks were experimental *"armor coins."* (Rachel-93 [00:12:26]).
@@ -240,6 +256,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 ---
 
 # 2. Antimatter Reactor / 2. Антиматериальный реактор
+
+![Antimatter reactor flow: proton → 115 → 116 → antimatter → annihilation → heat + gravity wave / Схема работы антиматериального реактора: протон → 115 → 116 → антиматерия → аннигиляция → тепло + гравитационная волна](../diagrams/rendered/reactor_flow.png)
+
+*End-to-end reactor process as described across LT-91, Rachel-93, C2C-97, C2C-03. / Полный процесс работы реактора по описаниям из LT-91, Rachel-93, C2C-97, C2C-03.*
 
 ## 2.1 Mechanism / 2.1 Механизм
 
@@ -369,6 +389,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 
 ## 3.4 Waveguides / amplifiers / emitters / 3.4 Волноводы / усилители / эмиттеры
 
+![Emitter "trumpet" structure with support tube and rotation angle / Структура "раструба" эмиттера с опорной трубой и углом поворота](../diagrams/emitter_structure.svg)
+
+*Emitter geometry: cylindrical body, ~3-inch support tube, 20° rotation activation angle. / Геометрия эмиттера: цилиндрическое тело, опорная труба ~3 дюйма, угол активации поворотом 20°.*
+
 - **Count: three of each, triad arrangement.** (KLAS-89b [00:15:25]; Rachel-93 [00:18:54]; UFOL2-95 [00:42:45]; C2C-97 [02:00:57]; JRE1315 [00:34:09]).
 - **Количество: три каждого типа, триадная компоновка.** (KLAS-89b [00:15:25]; Rachel-93 [00:18:54]; UFOL2-95 [00:42:45]; C2C-97 [02:00:57]; JRE1315 [00:34:09]).
 - **Pipeline:** reactor (center) → waveguide chimney up to top skin; reactor → amplifiers (main level, rectangular consoles) → emitters (lower level, cylindrical, pivoting). (C2C-97 [01:56:50, 02:00:57]; JRE1315 [00:34:09]).
@@ -419,6 +443,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 ---
 
 # 4. Propulsion / Craft Dynamics — Двигательная установка / динамика корабля
+
+![Omicron vs Delta gravity-amplifier configurations / Конфигурации гравитационных усилителей Omicron vs Delta](../diagrams/rendered/gravity_modes.png)
+
+*Omicron (hover / local) and Delta (distance / interstellar) amplifier modes side by side. / Режимы усилителей Omicron (зависание / локальное перемещение) и Delta (дальние / межзвёздные перелёты) рядом.*
 
 ## 4.1 Omicron mode (hover / local) / 4.1 Режим omicron (зависание / локальное перемещение)
 
@@ -511,6 +539,14 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 ---
 
 # 5. Sport Model Craft / 5. Корабль Sport Model
+
+![Sport Model cutaway side view: three levels, reactor, amplifiers / Sport Model в разрезе сбоку: три уровня, реактор, усилители](../diagrams/sport_model_cutaway.svg)
+
+*Side-view cutaway of the Sport Model showing the three interior levels and the reactor–amplifier stack. / Боковой разрез Sport Model с тремя уровнями интерьера и стеком реактор–усилители.*
+
+![Sport Model top view: three gravity amplifiers in triangular arrangement / Sport Model сверху: три гравитационных усилителя в треугольной компоновке](../diagrams/sport_model_top_view.svg)
+
+*Top-down view showing the triangular placement of the three gravity amplifiers. / Вид сверху, показывающий треугольное расположение трёх гравитационных усилителей.*
 
 ## 5.1 Name / variants / 5.1 Название / варианты
 
@@ -614,6 +650,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 ---
 
 # 6. S-4 Facility / 6. Объект S-4
+
+![S-4 facility layout: 9 hangars, mountain embedding, security zones / Схема объекта S-4: 9 ангаров, врезка в гору, зоны безопасности](../diagrams/rendered/s4_facility_layout.png)
+
+*Layout reconstructed from Lazar's descriptions across KLAS-89b, LT-91, Rachel-93, C2C-97, BL18. / Схема реконструирована из описаний Лазара в KLAS-89b, LT-91, Rachel-93, C2C-97, BL18.*
 
 ## 6.1 Location / 6.1 Расположение
 
@@ -1069,6 +1109,10 @@ Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved 
 
 # 10. Known Contradictions / Evolution Flags — Известные противоречия / эволюция заявлений
 
+![Claim evolution / drift over time 1989–2026 / Эволюция и дрейф утверждений во времени 1989–2026](../diagrams/rendered/claim_evolution.png)
+
+*Visual map of how specific numerical and narrative claims drifted, stabilized, or contradicted over 37 years. / Визуальная карта того, как конкретные числовые и нарративные утверждения дрейфовали, устаканивались или противоречили себе за 37 лет.*
+
 ## 10.1 Sport Model diameter: 52 ↔ 40 ft / 10.1 Диаметр Sport Model: 52 ↔ 40 футов
 
 - KLAS-89b (1989) 52 ft → LT-91 (1991) 40 ft × 16 ft → BG-89 (1989) "mid-30 to 40 ft" → C2C-97 onward 52 ft (52.8 ft Testors). LT-91 is the outlier.
@@ -1400,6 +1444,11 @@ Bilingual synthesis of the archive. Three short subsections, each presented side
 - **Школы MIT / Caltech.** Введены через закадровый текст KLAS 1989 (не Лазар); в том же году Лазар отказывается называть школу в BG-89; затем в Rachel-93 утверждает оба вуза с именами профессоров. Разрыв атрибуции «закадр vs собственные слова» (см. §10.5).
 
 ## 12.3 Externally verifiable vs unfalsifiable / Что проверяемо извне vs непроверяемо
+
+![Claims × external corroboration matrix / Матрица утверждений × внешнее подтверждение](../diagrams/claim_corroboration.svg)
+
+*Per-claim mapping against independent external verification events. / Сопоставка утверждений с независимыми внешними верификационными событиями.*
+
 
 **EN. Externally verifiable:**
 

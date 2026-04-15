@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <style>
+    .bg      { fill: #ffffff; }
+    .hull    { fill: #fafafa; stroke: #000; stroke-width: 2; }
+    .part    { fill: none; stroke: #000; stroke-width: 1.5; }
+    .thin    { fill: none; stroke: #000; stroke-width: 1; }
+    .fill-lt { fill: #f2f2f2; stroke: #000; stroke-width: 1.2; }
+    .fill-md { fill: #d9d9d9; stroke: #000; stroke-width: 1.2; }
+    .dim     { fill: none; stroke: #000; stroke-width: 0.8; }
+    .dashed  { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 4 3; }
+    .label   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #000; }
+    .label-sm{ font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #000; }
+    .label-ru{ font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #333; font-style: italic; }
+    .title   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #000; }
+    .src     { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #555; }
+  </style>
+
+  <rect class="bg" width="1000" height="1000"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1000" height="44" fill="#000"/>
+  <text x="500" y="20" text-anchor="middle" class="title" fill="#fff">Sport Model — Top View / Корабль Sport Model — Вид сверху</text>
+  <text x="500" y="36" text-anchor="middle" class="label-sm" fill="#fff">52'9" diameter · 52'9" в диаметре (S4DOC-26)</text>
+
+  <!-- N/S/E/W compass style orientation -->
+  <text x="500" y="95" text-anchor="middle" class="label-sm">FORWARD / ВПЕРЁД</text>
+  <text x="500" y="915" text-anchor="middle" class="label-sm">AFT / КОРМА</text>
+  <text x="78" y="510" text-anchor="middle" class="label-sm">PORT</text>
+  <text x="78" y="522" text-anchor="middle" class="label-ru">лев.борт</text>
+  <text x="922" y="510" text-anchor="middle" class="label-sm">STARBOARD</text>
+  <text x="922" y="522" text-anchor="middle" class="label-ru">правый борт</text>
+
+  <!-- Outer disc 52'9" diameter. radius 380. center (500,510) -->
+  <circle cx="500" cy="510" r="380" class="hull"/>
+
+  <!-- Subtle inner ring suggesting hull edge thickness -->
+  <circle cx="500" cy="510" r="372" class="thin"/>
+
+  <!-- Landing pad "feet" — 3 small pads 120° apart on underside, indicated with dashed circles -->
+  <!-- feet at angles 90° (bottom), 210°, 330° — under hull -->
+  <g>
+    <circle cx="500" cy="830" r="18" class="dashed"/>
+    <circle cx="223" cy="350" r="18" class="dashed"/>
+    <circle cx="777" cy="350" r="18" class="dashed"/>
+  </g>
+  <text x="500" y="864" text-anchor="middle" class="label-sm">Landing pad / Опора</text>
+  <text x="500" y="876" text-anchor="middle" class="label-ru">(стояночное положение)</text>
+
+  <!-- Central waveguide antenna (round, at exact center) -->
+  <circle cx="500" cy="510" r="22" class="fill-md"/>
+  <circle cx="500" cy="510" r="8" fill="#000"/>
+
+  <!-- 3 archway entry-points, 120° apart. Positions at angles 30°, 150°, 270° around center (measured from +x axis going counter-clockwise on SVG is mirrored; pick visually clean placements) -->
+  <!-- Place archways at forward, port-aft, starboard-aft: 270° (top), 150°, 30° -->
+  <!-- Arch 1: top (forward) -->
+  <g>
+    <rect x="472" y="140" width="56" height="28" class="fill-lt" rx="18"/>
+    <text x="500" y="185" text-anchor="middle" class="label-sm">Archway 1</text>
+    <text x="500" y="197" text-anchor="middle" class="label-ru">Арка 1</text>
+  </g>
+  <!-- Arch 2: lower-left (port-aft) -->
+  <g transform="rotate(120 500 510)">
+    <rect x="472" y="140" width="56" height="28" class="fill-lt" rx="18"/>
+  </g>
+  <text x="230" y="720" class="label-sm">Archway 2 / Арка 2</text>
+
+  <!-- Arch 3: lower-right (starboard-aft) -->
+  <g transform="rotate(-120 500 510)">
+    <rect x="472" y="140" width="56" height="28" class="fill-lt" rx="18"/>
+  </g>
+  <text x="680" y="720" class="label-sm">Archway 3 / Арка 3</text>
+
+  <!-- Interior reference circles (where amplifiers and seats sit, for orientation, dashed) -->
+  <circle cx="500" cy="510" r="180" class="dashed"/>
+  <text x="510" y="510" class="label-sm">(amplifier ring / усилители)</text>
+
+  <!-- Reversed US flag on right (starboard) side -->
+  <g>
+    <rect x="805" y="450" width="60" height="36" class="fill-lt"/>
+    <!-- reversed: union on the RIGHT -->
+    <rect x="841" y="450" width="24" height="18" fill="#000"/>
+    <line x1="805" y1="458" x2="865" y2="458" stroke="#000" stroke-width="1"/>
+    <line x1="805" y1="464" x2="865" y2="464" stroke="#000" stroke-width="1"/>
+    <line x1="805" y1="470" x2="865" y2="470" stroke="#000" stroke-width="1"/>
+    <line x1="805" y1="476" x2="865" y2="476" stroke="#000" stroke-width="1"/>
+    <line x1="805" y1="482" x2="865" y2="482" stroke="#000" stroke-width="1"/>
+  </g>
+  <line x1="835" y1="486" x2="835" y2="540" class="thin"/>
+  <text x="720" y="560" class="label">Reversed flag (starboard)</text>
+  <text x="720" y="573" class="label-ru">Перевёрнутый флаг (правый борт)</text>
+
+  <!-- Center label -->
+  <line x1="500" y1="488" x2="500" y2="300" class="thin"/>
+  <text x="510" y="300" class="label">Waveguide antenna (center)</text>
+  <text x="510" y="313" class="label-ru">Волновод (по центру)</text>
+
+  <!-- Diameter dimension -->
+  <line x1="120" y1="930" x2="880" y2="930" class="dim"/>
+  <polygon points="120,930 130,926 130,934" fill="#000"/>
+  <polygon points="880,930 870,926 870,934" fill="#000"/>
+  <text x="500" y="923" text-anchor="middle" class="label">52'9" (16.08 m)</text>
+
+  <!-- 120° angular indicator -->
+  <path d="M 500 510 L 500 160 A 350 350 0 0 1 803 685 Z" fill="none" stroke="#000" stroke-width="0.6" stroke-dasharray="2 3"/>
+  <text x="610" y="400" class="label-sm">120°</text>
+
+  <!-- Source attribution footer -->
+  <line x1="40" y1="960" x2="960" y2="960" class="thin"/>
+  <text x="500" y="976" text-anchor="middle" class="src">Source / Источник: Bob Lazar — S4DOC-26, BL18, JRE2479 · §5, §6</text>
+  <text x="500" y="990" text-anchor="middle" class="src">ASRP v2.1 · bob-lazar-archive/diagrams/sport_model_top_view.svg</text>
+</svg>
