@@ -187,6 +187,16 @@ No confirmed new direct Lazar interviews. COVID + deliberate withdrawal.
 
 ---
 
+## ASRP-adjacent / supporting research (non-Lazar interviews)
+
+Not interviews with Lazar, but materially bridge Lazar claims to institutional science. Curated selectively.
+
+| # | Date | Show / Outlet | Interviewer | Interviewee | Format | Lang | Topics | Link |
+|---|------|--------------|-------------|-------------|--------|------|--------|------|
+| A1 | 2025-12-09 (published) / 2021-09-28 (recorded) | ASRP.media | ASRP.media editorial (Banchenko, Ovseannicova, Kapustin, Golovina, Nadejda M, +1 anonymised) | Anonymised high-ranking representative of JINR, Dubna | Text/print interview (Q&A) | RU | Synthesis of elements 114–118 at Dubna; Superheavy Elements Factory (first run Nov 2020, ~70 atoms moscovium in 40 days; ~100 atoms flerovium follow-up); sub-second lifetimes; no practical application for superheavy elements; explicit on-record institutional response to the Lazar 115-fuel thesis; pop-culture framing (Half-Life 2); editorial psycho-linguistic footnote attached to the Lazar question. Full RU+EN in `catalog/asrp_media_115_interview.md`. Source code: **ASRP-MEDIA**. | [ASRP.media](https://asrp.media/ru/interviews/dubna-protiv-ili-vmeste-s-area-s4-eg-g-i-ee-nasledniki-kak-odin-iz-elementov-globalnogo-proekta-po-revers-inzhiniringu-uap-predskazannyi-bobom-lazarom-element-115-pozzhe-realno-otkrytyi-i-poisk-ego-stabilnogo-izotopa-na-fabrike-sverkhtyazholykh-elementov) |
+
+---
+
 ## Key Source Archives
 
 | Archive | URL | Content |
@@ -222,6 +232,10 @@ Highest technical density (recommended first):
 **Note:** #45 and #53 already have text transcripts available online — may not need audio transcription.
 
 ---
+
+## Pending Identification (Apr 13 chat dump)
+
+- **Date unknown** — "059 Bob Lazar (Ken Wright)" — appears to be episode #59 of a Ken Wright–hosted "Quinta Essentia Part-5" series on Dailymotion. Title names Lazar; participant role (Lazar himself on camera vs Wright discussing Lazar) not confirmed from the Dailymotion page metadata alone. [Dailymotion](https://www.dailymotion.com/video/x8nd5fv) `[NOT TRANSCRIBED — Apr 13 chat dump]`
 
 ## Notable Rebroadcasts (not new interviews)
 
