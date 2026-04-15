@@ -81,6 +81,14 @@ Flags:
 ### 3.4 VHF radio paradox — CONSISTENT
 - [01:04:25–50] 140–150 MHz VHF comms with pilot inside the craft despite the gravitational envelope. Identical puzzle to JRE1315.
 
+### 3.4a VHF radio band refined to 140–150 MHz — **REFINEMENT**
+- [01:04:38–54] L: *"They were using a conventional VHF radio to talk to them. And I believe it was in the 140 or 150 MHz bandwidth because it said right on the radio."*
+- Narrower / lower band than the C2C-97 [02:59:22] recall of *"around 200 MHz."* Anchored to a printed marking Lazar remembers reading on the radio itself, and sits in the standard VHF aviation / land-mobile allocation. Treat as the refined figure.
+
+### 3.5 Amplifier recycle time ≈ 10 ms (direct Lazar estimate) — **REFINEMENT**
+- [01:00:00–12] L: *"Now, the amplifiers don't operate on a continuous fashion. They pulse. They produce a pulse of energy and then require a recycle time. It's somewhere around 10 milliseconds or something like that."*
+- First time Lazar personally voices a millisecond-regime recycle figure. Close to, but independent of, Lear's 12 ms (C2C-09), which was previously the only ms-regime number in the corpus. Distinct from the 1995 *"10 μs apart"* amplifier-sequencing figure (different phenomenon). Closes the long-standing Lear-vs-Lazar attribution gap.
+
 ---
 
 ## 4. Omicron / Delta Modes — EXPLICITLY RESTATED
@@ -97,14 +105,26 @@ Flags:
 ### 5.1 Dimensions — NARRATION
 - [00:46:46–51:00] *"16 feet tall and 52 feet, 9 inches in diameter."* — 52.75 ft. Matches C2C-03 Testors refinement. CONSISTENT.
 
+### 5.1a Dimensions drift explained via CGI reconstruction — **REFINEMENT**
+- [00:47:04–26] L: *"I had estimated the sport model to be about 15 feet high and about 40 feet wide, but since then, I've enlisted some expert help from the field of computer imaging… The sport model is 16 feet tall and 52 feet, 9 inches in diameter."*
+- First time Lazar on camera attributes the long-standing 52↔40 ft / 15↔16 ft drift to Luigi Vendittelli's CGI-reconstruction process rather than simple memory variance. Supersedes the 15 ft / 40 ft eyeball estimate; confirms 16 ft height and pins diameter at 52'9" (between earlier 52 ft round figure and 52.8 ft Testors). Resolves the §11.7 master flag.
+
 ### 5.2 Hull color / material — CONSISTENT
 - Unpolished stainless steel color; pewter gray; metal-or-ceramic uncertain; cold to touch.
+
+### 5.2a Top-antenna / waveguide — pewter gray, metal-like, cold — **REFINEMENT**
+- [00:49:16–33] L: *"It has a small antenna-looking device, which is actually a waveguide that protrudes from the top. It is like a pewter gray in color. It appears to be metal. I felt it. It's cold."*
+- First on-record color attribution for the top antenna/waveguide specifically (as distinct from main hull). Re-affirms on camera the earlier UFOL4-96 [00:16:01] waveguide-cold datum but now localized to the top antenna.
 
 ### 5.3 Insulation ring — CONSISTENT
 - Dark-black ring separating high-voltage body from upper no-HV region. Matches JRE2479 [00:31:09].
 
 ### 5.4 Three-level interior — CONSISTENT
 - Lower = 3 emitters + waveguides. Center = reactor centered + amplifier heads + 3 small seats + archway-walls. Upper = inaccessible.
+
+### 5.4a Emitter suspension-tube diameter ≈ 3 inches — **NEW**
+- [00:57:52–58:24] L: *"The emitters were the only things that were a different color. They were black. The bottoms of them were hollow and you could see some sort of copper-colored plates inside there. They were hung by large diameter tubes, maybe three inches or so."*
+- First on-record quantitative figure for the diameter of the tubes from which the emitters are suspended in the sport model. Prior corpus phrasing (JRE1315 *"trash can hanging on a pipe"*) was purely qualitative. Also re-confirms emitters = black, internals = copper-colored plates.
 
 ### 5.5 Reversed American flag — PARTIAL-DIVERGENCE from JRE2479
 - [00:42:45–43:01] S4DOC-26 says flag is *"backwards"* but L: *"Why they put the backwards American flag on there, I'll never know."*

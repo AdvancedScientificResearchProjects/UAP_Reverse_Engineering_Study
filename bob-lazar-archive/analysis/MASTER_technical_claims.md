@@ -36,7 +36,57 @@ Cross-era synthesis organized by topic. Each topic shows how claims evolve from 
 - **JRE2479** — 2026-04-03 JRE #2479
 - **S4DOC-26** — 2026-04 *S4: The Bob Lazar Story* (Vendittelli/Matteau feature doc; File 52). ~90% Blender CGI reconstruction; extensive voice-over narration lifted from LT-91 vintage scripts; genuinely new content is in Luigi's on-camera evidence segments and new Knapp / Huff / Santa Cruz / Joy Lazar interviews. Same April 2026 promotion cycle as JRE2479.
 
+**Non-Lazar adjacent source:**
+- **ASRP-MEDIA** — 2025-12-09 ASRP.media text/print interview (Russian), *"Дубна против или вместе с Area S4… Элемент-115 … поиск его стабильного изотопа на фабрике сверхтяжёлых элементов"*, recorded 2021-09-28, interviewee identified only as an anonymised high-ranking representative of JINR Dubna; [URL](https://asrp.media/ru/interviews/dubna-protiv-ili-vmeste-s-area-s4-eg-g-i-ee-nasledniki-kak-odin-iz-elementov-globalnogo-proekta-po-revers-inzhiniringu-uap-predskazannyi-bobom-lazarom-element-115-pozzhe-realno-otkrytyi-i-poisk-ego-stabilnogo-izotopa-na-fabrike-sverkhtyazholykh-elementov). Full Russian + English translation and extracted claims in `catalog/asrp_media_115_interview.md`. Institutional Dubna voice on elements 114–118, SHE Factory (Nov 2020), and the Lazar 115-fuel thesis.
+
 Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
+
+---
+
+# 0.0 Key Numerical Parameters (quick-reference) / Ключевые числовые параметры (быстрый справочник)
+
+Consolidated single-view table of every measurable claim Lazar has stated across the 23 transcripts. Intended so that a defense contractor or physicist can scan one table and see all quantitative claims, their first- and last-restated years, and whether the number is stable, drifted, or internally contradicted. Full context and citations live in §§1–11.
+
+Status badges: ✅ STABLE (consistent across corpus) · ⚠️ DRIFTED (evolved / refined, not a direct contradiction) · ❌ CONTRADICTED (internally inconsistent figures).
+
+| # | Parameter / Параметр | Value / Значение | Unit / Ед. | First stated | Last restated | Status | Primary sources |
+|---|----------------------|------------------|-----------|--------------|---------------|--------|------------------|
+| 1 | Sport Model diameter / Диаметр Sport Model | 52 → 40 → 52 → 52.8 → 52'9" | ft / фут | 1989 | 2026 | ⚠️ DRIFTED | KLAS-89b, LT-91, C2C-97, C2C-03, JRE1315, S4DOC-26 (§5.2, §10.1, §10.20b) |
+| 2 | Sport Model height / Высота Sport Model | 15 → 16 | ft / фут | 1991 | 2026 | ⚠️ DRIFTED | LT-91, C2C-97, S4DOC-26 (§5.2, §10.20b) |
+| 3 | Sport Model interior levels / Уровней интерьера | 3 | levels / уровня | 1991 | 2026 | ✅ STABLE | LT-91, BL18, JRE1315, S4DOC-26 (§5.5) |
+| 4 | Craft at S-4 / Кораблей на S-4 | 9 | craft / кораблей | 1989 | 2026 | ✅ STABLE | KLAS-89a, C2C-92, Rachel-93, C2C-97, JRE1315, S4DOC-26 (§6.2) |
+| 5 | Total personnel at S-4 / Всего персонала на S-4 | 22 | people / человек | 1989 | 2026 | ✅ STABLE | KLAS-89b, C2C-97, JRE2479, S4DOC-26 (§6.7) |
+| 6 | Element 115 per reactor charge / 115 на реактор | 223 | g / г | 1989 | 2026 | ✅ STABLE | BG-89, LT-91, C2C-97, LK19, JRE2479, S4DOC-26 (§1.3) |
+| 7 | Element 115 total possessed / Общий запас 115 | ~500 | lb / фунтов | 1989 | 2009 | ✅ STABLE | KLAS-89b, BG-89, Rachel-93, C2C-09 (§1.3) |
+| 8 | 115 machining process / Обработка 115 | cylinder → cone → triangular wedge / цилиндр → конус → треугольный клин | — | 1993 | 2018 | ✅ STABLE | Rachel-93, LK19, BL18, JRE1315, JRE2479 (§1.4) |
+| 9 | Reactor working / melting temp / Рабочая температура реактора | 1740 | °C | 1991 | 2026 | ✅ STABLE | LT-91, S4DOC-26 narration (§1.3) |
+| 10 | Reactor field radius (bench) / Радиус поля реактора (стенд) | ~20 | inches / дюймов | 1989 | 1989 | ✅ STABLE | BG-89 (§2.6, §2.7) |
+| 11 | Bench mock-up plate / Пластина стендового макета | 18-inch square plate + half-sphere / квадрат 18″ + полусфера | inches / дюймов | 1989 | 2026 | ✅ STABLE | BG-89, S4DOC-26 (§2.7) |
+| 12 | Focal zone diameter (bench) / Диаметр фокальной зоны (стенд) | ~9–10 | inches / дюймов | 1989 | 1989 | ✅ STABLE | BG-89 (§2.6) |
+| 13 | Gravity-A carrier frequency / Несущая частота Gravity-A | 7.46 | Hz / Гц | 1993 | 2026 | ✅ STABLE | Rachel-93, C2C-97, S4DOC-26 narration (§2.3) |
+| 14 | Gravity-A bandwidth / Полоса Gravity-A | 1 | µm / мкм | 1997 | 2026 | ✅ STABLE | C2C-97, S4DOC-26 narration (§2.3) |
+| 15 | Emitter rotation activation angle / Угол активации поворотом эмиттера | 20 | ° | 2026 | 2026 | ✅ STABLE | JRE2479, S4DOC-26 (§3.4) |
+| 16 | Amplifier recycle time (Lazar) / Время цикла усилителя (Лазар) | ~10 | ms / мс | 2026 | 2026 | ⚠️ DRIFTED | S4DOC-26 (§3.4, §10.4, §11.8); cf. Lear 12 ms (C2C-09) |
+| 17 | Amplifier emitter support-tube diameter / Диаметр трубы подвеса эмиттера | ~3 | inches / дюймов | 2026 | 2026 | ✅ STABLE (new) | S4DOC-26 (§3.4) |
+| 18 | VHF radio band (ground-to-craft) / VHF-диапазон связи | 140–150 (was "~200" in 1997) | MHz / МГц | 1997 | 2026 | ⚠️ DRIFTED | C2C-97, S4DOC-26 (§4.4, §10.20a) |
+| 19 | Tenure at S-4 / Период работы на S-4 | Dec 1988 – Apr 1989 | — | 1989 | 2026 | ✅ STABLE | KLAS-89b, LT-91, Rachel-93, C2C-97 (§8.6) |
+| 20 | Clearance levels above Q / Уровней допуска выше Q | 38 | levels / уровней | 1989 | 2026 | ✅ STABLE | KLAS-89b, LT-91, BG-89, Rachel-93, C2C-97 (§6.4) |
+| 21 | S-4 location / Локация S-4 | ~15 mi south of Groom Lake / Papoose Lake / ~15 миль южнее Groom Lake / Papoose Lake | miles / миль | 1989 | 2026 | ✅ STABLE | KLAS-89b, LT-91, Rachel-93, C2C-97, BL18 (§6.1) |
+| 22 | Hangar door slope / Угол двери ангара | ~60 (LT-91) vs 30 (BL18) | ° | 1991 | 2018 | ❌ CONTRADICTED | LT-91, BL18 (§6.2, §10.15a) |
+| 23 | Zeta Reticuli planet designation / Планета в системе Zeta Reticuli | ZR2-planet-4 (1991/2026 doc) vs ZR3 (2019) | — | 1991 | 2026 | ❌ CONTRADICTED | LT-91, JRE1315, JRE2479, S4DOC-26 (§9.2, §10.9) |
+| 24 | Zeta Reticuli distance / Расстояние до Zeta Reticuli | 30 (LT-91) vs 38 (S4DOC-26) | ly / св.л. | 1991 | 2026 | ⚠️ DRIFTED | LT-91, S4DOC-26 (§9.2, §10.18) |
+| 25 | Number of briefings reviewed / Число инструктажей | 121–122 (KLAS) / 120 (LT-91) | briefings / брифингов | 1989 | 2018 | ✅ STABLE | KLAS-89b, LT-91, Rachel-93, BL18 (§9.1, §10.8) |
+| 26 | Alleged human contact history / История контакта | ~10,000+ | years / лет | 1991 | 1991 | ✅ STABLE | LT-91 (§9.4) |
+| 27 | Human genetic alterations / Генетических модификаций человечества | 65 | times / раз | 1991 | 2019 | ✅ STABLE | LT-91, Rachel-93, LK19 (§9.5) |
+| 28 | Alien date format / Формат даты пришельцев | 6-digit beginning with 1623 / 6-значный, начинается с 1623 | — | 1991 | 1991 | ✅ STABLE | LT-91 (§9.3) |
+| 29 | Hyperdimensional aliens count / Число гиперпространственных рас | TBD (not explicitly enumerated as a single number in reviewed corpus) | — | — | — | TBD | — |
+| 30 | Reactor lifetime on single charge / Срок работы на одной загрузке | 20–30 | years / лет | 1991 | 2026 | ✅ STABLE | LT-91, S4DOC-26 narration (§1.3) |
+| 31 | Atomic radius of 115 / Атомный радиус 115 | 1.87 | Å | 1991 | 2026 | ✅ STABLE | LT-91, S4DOC-26 narration (§1.3) |
+| 32 | Oxidation state of 115 / Степень окисления 115 | +3 | — | 1991 | 2026 | ✅ STABLE | LT-91, S4DOC-26 narration (§1.3) |
+| 33 | Reactor-accident fatalities / Погибших в аварии реактора | 2 (1989–91) vs 3 (1997) | people / человек | 1989 | 1997 | ❌ CONTRADICTED | LT-91, KLAS-89b, C2C-97 (§2.5, §10.11) |
+| 34 | Amplifier intra-pulse spacing / Межимпульсный интервал усилителей | 10 | µs / мкс | 1995 | 1995 | ✅ STABLE | UFOL2-95 / UFOL3-95 (§3.4, §4.6) |
+
+**Footer note / Примечание:** For full context, stability-argument discussion and direct citations see §1 (Element 115), §2 (Reactor), §3 (Gravity Physics), §5.2 + §10.20b (Sport Model diameter drift), §6 (S-4), §9 (Briefings / Alien context), §10 (Contradictions / Evolution Flags), §11 (Misattributions). The "Hyperdimensional aliens count" row is marked **TBD** because no single enumerated number for a count of hyperdimensional races appears consolidated in the reviewed corpus — claims instead describe the Zeta Reticuli beings as the primary source, with §9.6 / §9.6.1 / JRE2479 opening a broader "post-integration / grey / container" speculation without a countable figure.
 
 ---
 
@@ -113,6 +163,13 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **2009 (Huff/Lear):** *"Somebody gave it to him from Los Alamos… we put out the story that he stole it. So we wouldn't implicate the guy that gave it to us."* (C2C-09 [01:21:14]). Cloud-chamber experiment at Lazar's house with bell jar, dry ice, thorium Coleman-mantle alpha source; alpha particles deflected; videotape misplaced. (C2C-09 [01:21:04]). **Three pieces** originally; two stolen, one at undisclosed secure location. Bob Bigelow involved in recovery. (C2C-09 [01:30:32]).
 
 **Evolution flag — possession:** 1989 "no comment" → 1993 "obtained it, stolen back" → 1997 declines again → 2009 Huff/Lear openly narrate cloud-chamber experiments. Lazar himself never confirms this latter narrative on air in 97 or 03.
+
+## 1.11 ASRP Media synthesis / Dubna stable-isotope search
+
+- **First institutional Dubna voice in the archive.** ASRP-MEDIA (interview recorded 2021-09-28, published 2025-12-09) adds an anonymised high-ranking JINR representative to the previously Lazar-only §1.5 record. Per the interviewee, elements 114–118 were discovered at Dubna at the turn of the 2000s; the new **Superheavy Elements Factory** produced *~70 atoms of moscovium in 40 days* in its first experiment (Nov 2020), and *~100 atoms of flerovium* on the follow-up. All known isotopes of these elements *"exist for about a second, even a bit less."*
+- **Direct rebuttal of the Lazar-fuel thesis.** *"There will not be a practical application for the superheavy elements themselves. We obtain single atoms, living fractions of a second. Even if stable isotopes existed, their quantity would be negligibly small."* This is the most direct on-record institutional contradiction of Lazar's §1.2–1.3 claims. The interviewee does **not** affirmatively endorse, nor explicitly rule out, a stable isotope of 115 — but frames even the hypothetical as quantitatively irrelevant.
+- **Validation / qualification of §1.1 and §1.5.** Weakly consistent with Knapp's 2018 expert canvass (BL18 [01:23:25]) in that institutional Dubna does not categorically deny stable-115 existence; but strongly inconsistent with Lazar's stable-isotope-as-fuel defence since 2019 (JRE1315, JRE2479), because quantity renders the stable-isotope defence moot at the application layer even if it holds at the physics layer.
+- **Current stable-isotope search status (per ASRP-MEDIA):** No ongoing programmatic search for a *stable* isotope of 115 is disclosed by the interviewee; the SHE Factory's stated mission is continuing the periodic table (119, 120) and studying chemistry/nuclear properties of 114–118, not stable-island hunting at 115. ASRP's editorial psycho-linguistic footnote at the Lazar question is adversarial framing (speaker "prosody collapse") and must be read as ASRP interpretation, not a JINR statement. Full Russian text + English translation in `catalog/asrp_media_115_interview.md`.
 
 ---
 
@@ -213,6 +270,8 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **Pulsed operation / emergent EMP:** *"The amplifiers are pulsed 10 microseconds apart… they're each turned on sequentially… that's just a side effect of the way the craft works."* (UFOL2-95 / UFOL3-95 [00:54:58]).
 - **2026 NEW — compression-resistant waveguides.** *"If you had a big pipe and you push it together, it has to get thicker because the material has to go somewhere. This doesn't. It stays in exactly the same dimensions. It just becomes smaller."* Bends without buckling, no wires. (JRE2479 [00:27:12–00:28:49]).
 - **2026 — emitter rotation activates reactor.** Barry rotated emitter ~20° in lab. Emitter = *"hollow pipe with little copper colored plates all inside."* (JRE2479 [01:37:15]; S4DOC-26 [00:30:23–52] restates verbatim: *"If you take one of the emitters and you rotate it past 20 degrees, the reactor will turn on… Conversely, to turn it off, rotate the emitter, the reactor shuts down."*).
+- **2026 NEW — emitter support-tube diameter ≈ 3 inches.** S4DOC-26 [00:57:52–00:58:24]: *"The emitters were the only things that were a different color. They were black. The bottoms of them were hollow and you could see some sort of copper-colored plates inside there. They were hung by large diameter tubes, maybe three inches or so."* First on-record figure for the diameter of the support tubes from which the emitters are suspended.
+- **2026 — amplifier pulsing, 10 ms recycle (Lazar direct estimate).** S4DOC-26 [01:00:00–12]: *"The amplifiers don't operate on a continuous fashion. They pulse. They produce a pulse of energy and then require a recycle time. It's somewhere around 10 milliseconds or something like that."* First direct Lazar estimate of the recycle interval. Differs slightly from Lear's 12 ms (C2C-09) and is in a different regime from the 1995 *"10 μs apart"* sequencing figure. See §10.4 and §11.8.
 - **2026 — "Gravity A wave" label preserved in narration.** S4DOC-26 [00:28:08] explicitly uses the LT-91 term *"element 115's gravity A wave"* at 7.46 Hz / 1 μm bandwidth. JRE2479 dropped the A/B labels; S4DOC-26 restores them via scripted narration. Terminology is therefore **preserved in the 2026 documentary** even though absent from podcast appearances.
 
 ## 3.5 2026 repulsive-force reframe
@@ -272,6 +331,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 - Light bending around craft: from below you see what's above (gravity lensing). (KLAS-89b [00:21:20]; C2C-97 [02:55:00]; C2C18 [00:36:50]).
 - *"The light bends around it. You're bending gravity, who bends light. It bends radio waves."* Puzzle: VHF comms worked despite envelope. (JRE1315 [00:44:52]). Ground-to-craft radio was normal VHF around 200 MHz. (C2C-97 [02:59:22]).
+- **2026 refinement — VHF 140–150 MHz.** S4DOC-26 [01:04:38–54]: *"They were using a conventional VHF radio to talk to them. And I believe it was in the 140 or 150 MHz bandwidth because it said right on the radio."* Narrower band than the 1997 *"around 200 MHz"* recollection; the 2026 figure is anchored to a printed marking Lazar recalls reading on the radio itself. See §10.
 
 ## 4.5 Craft has never left atmosphere
 
@@ -313,8 +373,9 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **C2C-03 [00:33:12]:** 52.8 ft (Testors reconstruction).
 - **LK19 [00:25:47]:** 52 ft.
 - **JRE1315 [00:35:47]:** 52 ft via Testors / John Andrews.
+- **S4DOC-26 [00:47:04–26]:** *"I had estimated the sport model to be about 15 feet high and about 40 feet wide, but since then, I've enlisted some expert help from the field of computer imaging… The sport model is 16 feet tall and 52 feet, 9 inches in diameter."* On-camera Lazar refinement: **52'9" × 16 ft** via Luigi Vendittelli's CGI reconstruction. Supersedes the 15 ft initial estimate; confirms the 16 ft height and fixes diameter to 52'9" (between the earlier 52 ft round figure and the 52.8 ft Testors figure).
 
-**Evolution flag:** 1991 "Lazar Tape" is the only source giving 40 ft. All other sources — before and after — use 52 ft. The 1991 figure appears to be an isolated script artifact; post-1991 the canonical number is 52 ft (later refined to 52.8 ft).
+**Evolution flag:** 1991 "Lazar Tape" is the only source giving 40 ft. All other sources — before and after — use 52 ft. The 1991 figure appears to be an isolated script artifact; post-1991 the canonical number is 52 ft (later refined to 52.8 ft, then 52'9" per S4DOC-26 2026 CGI-assisted measurement).
 
 ## 5.3 Hull
 
@@ -332,6 +393,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - **S4DOC-26 [00:51:59–53:02] corroborates the "very dark interior" qualitative claim on camera:** *"Even though there were 2 tripod lights set up inside the craft, it was still very dark. I've often described the interior of the craft as being very ominous."* Matches Luigi's CGI-team finding.
 - **S4DOC-26 [00:56:18] "wing-clipping" interpretation (NEW):** On why one amplifier had been cut out of the sport model with a plasma cutter: *"kind of the equivalent of clipping a bird's wings, so it can't fly away anywhere."* First on-record articulation of the intentional-disablement theory.
 - **S4DOC-26 [00:53:43–54:21] "reactor-watch seat" speculation (NEW):** The seat placed directly facing the waveguide and the transparent archway is hypothesized as a dedicated reactor-watch position. First time a specific occupant-role is ascribed to a specific seat.
+- **S4DOC-26 [00:49:16–33] — pewter-gray top waveguide / antenna (NEW refinement):** *"It has a small antenna-looking device, which is actually a waveguide that protrudes from the top. It is like a pewter gray in color. It appears to be metal. I felt it. It's cold."* First on-record color for the top antenna/waveguide specifically; distinguishes it from the brushed stainless-steel-colored main hull. Re-affirms the prior UFOL4-96 "waveguide felt cold" datum on camera.
 
 ## 5.4 Interior
 
@@ -347,7 +409,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 
 ## 5.5 Three levels
 
-- **Lower:** three gravity amplifiers / emitters ("like a trash can hanging on a pipe, three of those" — JRE1315 [00:34:09]).
+- **Lower:** three gravity amplifiers / emitters ("like a trash can hanging on a pipe, three of those" — JRE1315 [00:34:09]). **2026 S4DOC-26 [00:57:52–58:24] adds a diameter for the support "pipe":** *"They were hung by large diameter tubes, maybe three inches or so."* See §3.4.
 - **Center / main:** reactor centered between three amplifiers; consoles; seats; archways.
 - **Upper:** Lazar never accessed. *"Only section of the craft that is not within the high-voltage field; a black insulator ring separates it."* Believed to hold navigation/computer. Exterior porthole-like features *"not portholes."* (LT-91 [00:25:54, 00:26:28]; Rachel-93 [00:05:47, 00:07:22]).
 
@@ -698,6 +760,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - UFOL2-95 / UFOL3-95: amplifiers pulsed 10 μs apart (different phenomenon).
 - C2C-09: Lear says 12 ms.
 - Lear-specific elaboration, never clearly voiced by Lazar.
+- **2026 — Lazar's own first direct estimate ≈ 10 ms.** S4DOC-26 [01:00:00–12]: *"The amplifiers don't operate on a continuous fashion. They pulse. They produce a pulse of energy and then require a recycle time. It's somewhat around 10 milliseconds or something like that."* Close to Lear's 12 ms (C2C-09) but independently spoken by Lazar for the first time. Resolves the long-standing attribution gap flagged in §11.8. Distinct regime from the 1995 *"10 μs apart"* amplifier-sequencing figure.
 
 ## 10.5 MIT/Caltech: KLAS narration vs Lazar's own words
 
@@ -785,6 +848,17 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - JRE2479: near-full reversal (*"maybe I'm the asshole… maybe this is supposed to be just kept quiet."*).
 - **S4DOC-26 [01:46:44–47:18]:** softer partial-disclosure — release *"the basic fact"* (aliens visited, craft exist) but keep hardware/weapon details secret. *"Personally, no"* on whether disclosure will ever happen. Intermediate position. The 2026 cycle therefore has both a hard reversal (podcast) and a softer hedged position (doc).
 
+## 10.20a Ground-to-craft VHF radio band
+
+- C2C-97 [02:59:22]: Lazar recalls the VHF radio *"around 200 MHz."*
+- S4DOC-26 [01:04:38–54]: *"They were using a conventional VHF radio to talk to them. And I believe it was in the 140 or 150 MHz bandwidth because it said right on the radio."*
+- The 2026 figure is anchored to a printed marking Lazar recalls reading on the radio itself and sits in the standard VHF aviation/land-mobile band; the 1997 ~200 MHz recall is likely rounded-up memory. Treat 140–150 MHz as the refined figure.
+
+## 10.20b Sport-model diameter refinement — 52'9" (computer-imaging-assisted)
+
+- Layered on top of §10.1 (52↔40 ft): S4DOC-26 [00:47:04–26] now explains the historical drift. Lazar: *"I had estimated the sport model to be about 15 feet high and about 40 feet wide, but since then, I've enlisted some expert help from the field of computer imaging… The sport model is 16 feet tall and 52 feet, 9 inches in diameter."*
+- Meaning: the early 15 ft / 40 ft estimates were eyeball figures; the 52 ft / 52.8 ft Testors number was a reconstruction; the 2026 52'9" × 16 ft figure is Luigi Vendittelli's CGI-reconstruction result re-endorsed by Lazar on camera. This is the first time Lazar publicly attributes the dimension drift to a reconstruction process rather than simple recall.
+
 ## 10.20 1941 vs 1989 Dept of Interior map evidence
 
 - **Distinct pieces of evidence**, not contradictory:
@@ -836,6 +910,7 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 ## 11.8 12 ms recycle time
 
 - Lear-origin figure (C2C-09). Lazar's own recollection is *"microseconds or a millisecond"* (C2C-97).
+- **Update 2026:** Lazar himself now gives *"somewhere around 10 milliseconds or something like that"* on camera (S4DOC-26 [01:00:00–12]). This is the first time Lazar personally voices a millisecond-regime recycle figure; it is close to, but independent of, Lear's 12 ms. Going forward both numbers can be cited but the 10 ms figure is Lazar-direct, whereas the 12 ms figure remains Lear-only.
 
 ## 11.9 Hoover Dam power comparison
 
@@ -853,6 +928,100 @@ Speaker flags where relevant: **L** = Lazar, **H** = Huff, **J** = Lear.
 - The 2018-12-04 Corbell feature documentary "Bob Lazar: Area 51 & Flying Saucers" (File 40) was previously absent from this reference. It is now incorporated. BL18 is Lazar's most polished long-form on-camera account between 1991 and 2019 and frequently *predates by ~6 months* claims later attributed to JRE #1315 (June 2019) — notably the bench-repulsion demo phrasing, the three-level architectural walk-through, the bowling-ball/mattress analogy, the plutonium-substitute-reactor attempt, the 121-briefings/majestic-clearance recap, and the Thigpen-located disclosure. When multiple 2018–2019 sources carry the same claim, BL18 is usually the earliest filmed instance.
 - The 2016 Corbell short (CW16, File 38) is also now included. Its only technical contribution is the "47 megaton per kg of antimatter" energy-density phrasing and the on-record polygraph audio.
 - BL18-unique claims to cite carefully: **LA-1000** (offsite code name for Element 115), **"The Kids"** (alien nickname), **stacked-disk-fused-cylinder** precursor step in 115 machining, **rhythmic-shouting-as-hypnosis** framing, **third independent polygrapher**, **30° hangar-door slope** (conflicts with LT-91 ~60°), **filmed non-denial** of 115 sample extraction, and the **Thigpen-confirmed** background-check disclosure. See §§1.2, 1.4, 1.6, 2.1, 2.2, 5.4, 6.2, 6.5, 8.7, 8.10, 8.11, 9.6.1, 9.9.
+
+---
+
+# 12. Conclusions / Выводы
+
+Bilingual synthesis of the archive. Three short subsections, each presented side by side: English first, Russian second.
+
+## 12.1 What's consistent across 37 years / Что устойчиво за 37 лет
+
+**EN.** Across 1989–2026, a core set of claims does not shift in shape:
+
+- **Element 115 as fuel and gravity-wave source** — the central thesis that a super-heavy element feeds both the antimatter reactor and the amplified Gravity-A wave is present in KLAS-89b, LT-91, Rachel-93, C2C-97, C2C-03, JRE1315, JRE2479 and S4DOC-26 without structural change.
+- **9 craft at S-4, 22 personnel, 3 gravity amplifiers** — these three counting numbers survive intact from 1989 to 2026.
+- **Reactor → gravity-wave mechanism** — proton bombardment of 115, decay, matter/antimatter reaction, thermionic conversion, gravity wave tapped off the reactor sphere and routed via waveguides.
+- **Sport Model 3-level interior with three small seats** — three amplifiers below, reactor and consoles on the main level, inaccessible upper navigation deck. No buttons, no seams, no wiring.
+- **Project names Galileo / Sidekick / Looking Glass** — once introduced on air (LT-91 1991; reintroduced publicly by Huff in C2C-09 2009), the mapping of names to functions stays consistent through 2026.
+- **S-4 at Papoose Lake, ~15 miles south of Groom Lake, carved into a mountain** — consistent location since 1989.
+- **Hand-bone biometric scanner** — stable description 1989→2019; vindicated on camera in BL18 by a declassified Nellis/Tonopah stealth-era photo.
+- **Briefing documents stating Zeta Reticuli involvement** — origin system cited since 1989; details drift (see §12.2) but the Zeta Reticuli framing itself is invariant.
+
+**RU.** На промежутке 1989–2026 устойчивы следующие ключевые заявления:
+
+- **Элемент 115 — топливо и источник гравитационной волны.** Центральный тезис, что сверхтяжёлый элемент питает и антиматериальный реактор, и усиленную волну Gravity-A, присутствует в KLAS-89b, LT-91, Rachel-93, C2C-97, C2C-03, JRE1315, JRE2479 и S4DOC-26 без структурных изменений.
+- **9 кораблей на S-4, 22 человека персонала, 3 гравитационных усилителя.** Эти три счётных числа сохраняются с 1989 по 2026.
+- **Механизм реактор → гравитационная волна.** Бомбардировка 115 протонами, распад, реакция материи/антиматерии, термоионное преобразование, волна снимается с полусферы реактора и идёт по волноводам.
+- **Sport Model — три уровня интерьера с тремя маленькими креслами.** Три усилителя снизу, реактор и консоли на главном уровне, верхний недоступный навигационный отсек. Нет кнопок, швов, проводов.
+- **Имена проектов Galileo / Sidekick / Looking Glass.** После появления в эфире (LT-91 1991; публично возвращены Huff в C2C-09 2009), соответствие «имя — функция» остаётся неизменным до 2026.
+- **S-4 у Papoose Lake, ~15 миль южнее Groom Lake, врезано в гору.** Устойчивая локация с 1989.
+- **Биометрический сканер по костям ладони.** Описание стабильно с 1989 до 2019; подтверждено на камеру в BL18 рассекреченным снимком эпохи stealth-программы Nellis/Tonopah.
+- **Инструктажи об участии Zeta Reticuli.** Система-источник упоминается с 1989; детали дрейфуют (см. §12.2), но сам факт Zeta Reticuli инвариантен.
+
+## 12.2 What drifted or evolved / Что менялось
+
+**EN.**
+
+- **Sport Model dimensions.** 52 → 40 → 52 → 52.8 → 52'9" ft across 37 years; Lazar in 2026 explicitly attributes the drift to CGI-assisted reconstruction by Luigi Vendittelli (S4DOC-26 §10.20b), explaining why the 1991 eyeball figure differed from the 2026 measurement-anchored figure.
+- **Element 115 stability framing.** 1989 "absolutely stable" → 1992 slight hedge → 2009 (Huff) "stable isotope requiring neutron bombardment" → 2019+ Lazar adopts stable-vs-unstable-isotope framing. The patch appears after Dubna's 2004 short-lived 115 synthesis.
+- **Sample possession.** 1989 "no comment" → 1993 "obtained it, stolen back" → 1997 declines again → 2009 Huff/Lear openly describe cloud-chamber experiments at Lazar's house → 2018 filmed active non-denial (BL18) → 2026 Knapp articulates the sample as a "dead-man switch" on camera.
+- **Specific frequencies and dimensions.** The 1989–1991 corpus gives *no* numerical 115 resonant frequency; 7.46 Hz first appears in Rachel-93 (1993). Emitter support-tube diameter (~3 in) first appears in 2026. VHF radio band refined from "~200 MHz" (1997) to 140–150 MHz (2026).
+- **Moral stance shift (2026).** Pre-2026 Lazar consistently framed secrecy as fraud; in JRE2479 he says *"maybe I'm the asshole… maybe this is supposed to be just kept quiet."* S4DOC-26 offers a softer partial-disclosure stance. The 2026 cycle is therefore internally split.
+- **Galileo / Sidekick names absent 1992–1996.** Never spoken in C2C-92, Rachel-93, or UFOL2-4; only Looking Glass named in that era. Names return in Huff's 2009 appearance and become canonical thereafter.
+- **Zeta Reticuli planet / distance numbers.** ZR2-planet-4 (1991, 2026 doc) vs ZR3 (2019); distance ~30 ly (1991) vs 38 ly (2026 doc). The planet-number is a genuine contradiction; the distance is a documented drift (likely doc-writer update).
+
+**RU.**
+
+- **Размеры Sport Model.** 52 → 40 → 52 → 52.8 → 52'9" фут за 37 лет; в 2026 Лазар явно связывает дрейф с CGI-реконструкцией от Luigi Vendittelli (S4DOC-26 §10.20b), объясняя расхождение между оценкой «на глаз» 1991 и измеренной цифрой 2026.
+- **Рамка стабильности элемента 115.** 1989 «абсолютно стабилен» → 1992 лёгкая оговорка → 2009 (Huff) «стабильный изотоп, требующий нейтронной бомбардировки» → 2019+ Лазар принимает рамку «стабильный vs нестабильный изотоп». Патч появляется после короткоживущего синтеза 115 в Дубне (2004).
+- **Владение образцом.** 1989 «без комментариев» → 1993 «получил, украден обратно» → 1997 снова отказывается → 2009 Huff/Lear открыто описывают эксперименты в домашней камере Вильсона → 2018 фильмованное активное не-отрицание (BL18) → 2026 Knapp называет образец «dead-man switch» на камеру.
+- **Конкретные частоты и размеры.** В корпусе 1989–1991 *нет* числовой резонансной частоты 115; 7.46 Гц впервые появляется в Rachel-93 (1993). Диаметр трубы подвеса эмиттера (~3 дюйма) впервые появляется в 2026. VHF-диапазон уточнён с «~200 МГц» (1997) до 140–150 МГц (2026).
+- **Сдвиг моральной позиции (2026).** До 2026 Лазар неизменно трактовал секретность как мошенничество; в JRE2479 говорит *«maybe I'm the asshole… maybe this is supposed to be just kept quiet.»* S4DOC-26 предлагает более мягкую позицию частичного раскрытия. Цикл 2026 внутренне разделён.
+- **Имена Galileo / Sidekick отсутствуют в 1992–1996.** Не звучат в C2C-92, Rachel-93, UFOL2-4; в ту эпоху по имени назван только Looking Glass. Имена возвращаются в выступлении Huff в 2009 и затем становятся каноническими.
+- **Числа про Zeta Reticuli — планета / расстояние.** ZR2-планета-4 (1991, 2026 doc) vs ZR3 (2019); расстояние ~30 св.л. (1991) vs 38 св.л. (2026 doc). Номер планеты — реальное противоречие; расстояние — задокументированный дрейф (вероятно, правка автора сценария документалки).
+
+## 12.3 Externally verifiable vs unfalsifiable / Что проверяемо извне vs непроверяемо
+
+**EN. Externally verifiable:**
+
+- **Moscovium synthesis 2003–2004 (Dubna).** Real, now a recognised element. But every known isotope is short-lived (~220 ms or less), directly contradicting Lazar's "flatly stable 115" framing of 1989. ASRP Media's 2021 JINR-Dubna interview (ASRP-MEDIA, §1.11) adds an institutional Russian voice that rebuts the stable-isotope-as-fuel thesis on quantitative grounds even in the hypothetical case.
+- **Hand-bone biometric scanner.** Declassified Nellis/Tonopah stealth-era photo shown on camera in BL18 matches Lazar's description almost exactly (§6.5).
+- **CIA 2013 acknowledgement of Area 51 existence.** Verifiable; Lazar had asserted this in 1989.
+- **DoD UAP disclosure 2017–2020 and subsequent Congressional hearings.** Consistent with the timing of Lazar's story being taken seriously in mainstream media (JRE1315, LK19, 2026 CBS hearing).
+- **1941 US Department of the Interior Papoose Lake map** showing a road into the mountain where Lazar placed S-4 (§6.9). Physical document, publicly archived.
+- **Dec 25, 2020 Cessna aerial photo set** (§6.10). Real private-pilot imagery; rectangular-shapes interpretation is evidential but image-processing-dependent.
+- **Polygraph audio (CW16, BL18).** Tavernetti + independent third polygrapher — real people, real tests; interprets as "no attempt to deceive."
+
+**EN. Unfalsifiable with current public evidence:**
+
+- Alien craft at S-4.
+- Alien briefing documents and their content (Zeta Reticuli, 10,000-year photographic record, 65 genetic alterations, "containers," the 1623 date format).
+- Existence of a stable isotope of element 115.
+- Gravity-wave propulsion mechanism as described.
+- "The Kids" internal nickname and any direct alien encounter.
+
+**EN. Honest assessment (3 sentences).** This archive faithfully captures what Lazar has said, with citations, timestamps and contradictions flagged in place. Independent verification of the mechanisms — stable super-heavy isotope, gravity-wave propulsion, antimatter reactor — requires physics experiments that no public institution has yet reproduced, and ASRP-MEDIA's 2021 Dubna interview gives the first institutional Russian voice arguing those mechanisms are quantitatively irrelevant even if physically possible. The 37-year consistency of the core claim shape (9 craft, 22 personnel, 3 amplifiers, Papoose Lake, 223 g of 115, reactor→gravity-wave pipeline) is itself a notable datum — it is not proof of truth, but it is not the behaviour of a fabricator freely adjusting the story to match each new era's debunkers.
+
+**RU. Проверяемо извне:**
+
+- **Синтез московия 2003–2004 (Дубна).** Реально, элемент официально признан. Но все известные изотопы короткоживущие (~220 мс или меньше), что прямо противоречит рамке «абсолютно стабильный 115» Лазара 1989 года. Интервью ASRP Media 2021 с представителем ОИЯИ (ASRP-MEDIA, §1.11) добавляет институциональный российский голос, который опровергает тезис «стабильный изотоп как топливо» по количественным основаниям даже в гипотетическом случае.
+- **Биометрический сканер по костям ладони.** Рассекреченный снимок эпохи stealth-программы Nellis/Tonopah, показанный на камеру в BL18, почти точно соответствует описанию Лазара (§6.5).
+- **Признание ЦРУ 2013 года о существовании Area 51.** Проверяемо; Лазар утверждал это ещё в 1989.
+- **Раскрытие UAP со стороны DoD в 2017–2020 и последующие слушания в Конгрессе.** Согласуется по времени с тем, что историю Лазара начали воспринимать серьёзно в мейнстрим-медиа (JRE1315, LK19, слушание CBS 2026).
+- **Карта Papoose Lake 1941 года Министерства внутренних дел США** с дорогой в гору ровно там, где Лазар помещает S-4 (§6.9). Физический документ, публично архивирован.
+- **Комплект аэрофотоснимков Cessna от 25 декабря 2020** (§6.10). Реальные снимки частного пилота; трактовка прямоугольных форм доказательна, но зависит от постобработки.
+- **Аудио полиграфа (CW16, BL18).** Tavernetti + независимый третий полиграфист — реальные люди, реальные тесты; интерпретация — «попытка обмана отсутствует».
+
+**RU. Непроверяемо при текущих публичных данных:**
+
+- Инопланетные корабли на S-4.
+- Инструктажные документы пришельцев и их содержание (Zeta Reticuli, 10 000-летняя фотохроника, 65 генетических модификаций, «containers», формат даты 1623).
+- Существование стабильного изотопа элемента 115.
+- Механизм гравитационно-волнового движения в описанной форме.
+- Прозвище «The Kids» и любой прямой контакт с пришельцами.
+
+**RU. Честная итоговая оценка (3 предложения).** Этот архив добросовестно фиксирует то, что сказал Лазар, — с цитатами, таймкодами и явно отмеченными противоречиями. Независимая проверка механизмов (стабильный сверхтяжёлый изотоп, гравитационно-волновое движение, антиматериальный реактор) требует физических экспериментов, которые пока не воспроизвело ни одно публичное учреждение, и интервью ASRP-MEDIA с Дубной 2021 года даёт первый институциональный российский голос, утверждающий, что эти механизмы количественно нерелевантны, даже если физически возможны. 37-летняя устойчивость формы основного заявления (9 кораблей, 22 человека, 3 усилителя, Papoose Lake, 223 г 115, конвейер реактор→гравитационная волна) — сама по себе примечательный факт: это не доказательство истинности, но это и не поведение фабрикатора, свободно подгоняющего историю под каждого нового разоблачителя новой эпохи.
 
 ---
 

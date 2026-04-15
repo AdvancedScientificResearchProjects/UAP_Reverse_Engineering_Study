@@ -149,3 +149,98 @@ No claims should be removed. No claims were found to be fabricated.
 ## Executive summary (≈200 words)
 
 I verified 37 sampled claims from MASTER_technical_claims.md against the 23 raw transcripts. Confidence is high. Approximately 89 % of sampled quotes match the source verbatim at the cited timestamp (±30 s). Zero hallucinated quotes were found: every quoted sentence I spot-checked appears in the transcript it was attributed to, and the load-bearing misattribution calls in §11 (Lear vs Lazar for the canonical "pump protons into 115 → 116 → antimatter" sentence in C2C-98 [01:26:59]; Huff's isotope/neutron-bombardment framing in C2C-09; Lear's 12 ms recycle in C2C-09; Lazar's absence from both C2C-98 and C2C-09) independently check out. Evolution flags (52 ↔ 40 ft only in LT-91; Galileo/Sidekick names absent 1992–1996; 30° vs 60° hangar slope; moral-stance reversal in JRE2479) all hold. The defects found are minor: (1) "Kirk Mayer" should be "Kirk Meyer" and the adjacent "Z-number" claim is not evidenced at its citation; (2) a few timestamps drift 60–90 s beyond tolerance (Duxler/Hostfield Rachel-93, "22 people total" JRE2479, "alien cadavers" BL18 edge-of-tolerance). Recommend six small citation fixes. No claims warrant removal. The master doc is a reliable reference.
+
+---
+
+## Review Gate 1 — Batch 1 audit (post-Denis-feedback enrichment)
+
+Reviewer: fresh QA pass, no prior context. Method: verbatim grep against source transcripts for new quote citations; cross-reference §0.0 table rows against §§1–11 body; structural read of §12 and catalog/asrp_media_115_interview.md; spot-check of catalog/interviews.md.
+
+Scope audited:
+- MASTER_technical_claims.md (1028 lines) — new §0.0 table + §1.11 + §12 + 5 S4DOC-26 quotes in body
+- MASTER_technical_claims_RU.md (1028 lines) — parallel §0.0 + §12
+- analysis/per-interview/2026_s4_doc_per_interview.md
+- analysis/topical/2026_s4_doc_topical.md
+- catalog/asrp_media_115_interview.md (new, 396 lines)
+- catalog/interviews.md (new x8nd5fv row)
+
+### Check A — 5 new S4DOC-26 quotes (hallucination check)
+
+All 5 verbatim-verified against `transcripts/52_2026_S4_Bob_Lazar_Story.txt`:
+
+1. **"Now, the amplifiers don't operate on a continuous fashion. They pulse…"** — claimed [01:00:00–01:00:12]; actual [01:00:00]–[01:00:08]: *"operate on a continuous fashion. They pulse. They produce a pulse of energy and then require a recycle"*. ✅ VERBATIM.
+2. **"The emitters were the only things that were a different color. They were black…"** — claimed [00:57:52–00:58:24]; actual [00:58:04]–[00:58:08]: *"The emitters were the only things that were a different color. They were black. The bottoms of them were hollow"*; adjacent context at [00:57:52], [00:58:00], [00:58:24] also matches. ✅ VERBATIM.
+3. **"It has a small antenna-looking device, which is actually a waveguide…"** — claimed [00:49:16–00:49:33]; actual [00:49:24]–[00:49:27]: *"It has a small antenna-looking device, which is actually a waveguide that protrudes from the top."* ✅ VERBATIM.
+4. **"They were using a conventional VHF radio … 140 or 150 MHz bandwidth…"** — claimed [01:04:38–01:04:54]; actual [01:04:30]–[01:04:46]: *"there was what appeared to be a VHF radio…VHF radio to talk to them. And I believe it was in the 140 or 150 MHz bandwidth because"*. ✅ VERBATIM.
+5. **"I had estimated the sport model to be about 15 feet high and about 40 feet wide…"** — claimed [00:47:04–00:47:26]; actual [00:47:01]–[00:47:26]: *"Now previously, I had estimated the sport model to be about 15 feet high and about 40 feet wide…The sport model is 16 feet tall and 52 feet, 9 inches in diameter."* ✅ VERBATIM.
+
+**Check A verdict: PASS.** All 5 quotes verbatim, all timestamps within ±30 s tolerance. No hallucinations.
+
+### Check B — §0.0 Key Parameters table sanity (5 rows spot-checked)
+
+- **Row 13 — 7.46 Hz (Gravity-A carrier).** Cites Rachel-93, C2C-97, S4DOC-26 narration (§2.3). S4DOC-26 transcript line [00:28:10]: *"is 7.46 hertz at a 1 micron bandwidth."* ✅ Value correct. First-stated year **1993** plausible (Rachel-93 is the earliest corpus source for a named carrier frequency; §1.3 and §2.3 consistent).
+- **Row 6 — 223 g per reactor charge.** Cites BG-89, LT-91, C2C-97, LK19, JRE2479, S4DOC-26 (§1.3). S4DOC-26 [00:27:40]: *"you need 223 grams"*. Prior QA sampled BG-89, LT-91 verbatim. ✅ Value and first-year (1989 via BG-89) correct.
+- **Row 5 — 22 total personnel.** Cites KLAS-89b, C2C-97, JRE2479, S4DOC-26 (§6.7). §6.7 cites S4DOC-26 [00:01:22]; actual transcript [00:01:36]–[00:01:41]: *"Myself and 21 other people were responsible…"* (= 22 total, ~14 s drift, within tolerance). ✅ Value correct; first-year 1989 (KLAS-89b [00:10:57]) plausible.
+- **Row 9 — 1740 °C melting temperature.** Cites LT-91, S4DOC-26 narration (§1.3). S4DOC-26 [00:27:55]: *"Element 115's melting point is 1740 degrees Celsius"*. LT-91 [00:23:46] verified in prior QA. ✅ Value correct; first-year 1991 correct (no earlier corpus instance).
+- **Row 29 — Hyperdimensional aliens count.** Marked **TBD** with explicit footer note. Correct conservative handling — no enumerated count appears in the corpus; §9.6 / §9.6.1 / JRE2479 support only qualitative "containers" / "The Kids" framings. ✅ Correctly marked TBD.
+
+**Check B verdict: PASS.** All 5 sampled rows correctly cited and correctly dated.
+
+### Check C — §12 Conclusions honesty check
+
+Read §12.1 (consistent), §12.2 (drifted), §12.3 (externally verifiable).
+
+Cross-checked §12.2 against §10 contradiction/evolution index. §12.2 captures the six most load-bearing drifts (diameter, 115 stability, sample possession, 2026 frequencies/dimensions, moral stance, Galileo/Sidekick 1992–1996 absence, Zeta Reticuli planet/distance). §12.2 **does not** mention:
+
+- §10.4 (recycle time drift ~10 ms vs Lear's 12 ms C2C-09) — minor, but cited in §0.0 row 16 as ⚠️ DRIFTED and explicitly discussed in §11.8.
+- §10.5 (MIT/Caltech: KLAS narration vs Lazar's own words) — substantive, load-bearing for credentialing.
+- §10.11 (reactor-accident fatalities 2 vs 3) — ❌ CONTRADICTED in §0.0 row 33; this is an internal numerical contradiction and merits inclusion in §12.2.
+- §10.15a (hangar door slope 30° vs 60°) — ❌ CONTRADICTED in §0.0 row 22.
+
+None of these omissions are *claims of consistency that are actually drifted* (§12.1 is clean) — rather, §12.2 omits four documented drifts/contradictions that should be surfaced in a "what drifted" summary. Severity: minor structural gap, not an honesty failure.
+
+§12.3 external-verification claims:
+- **Tonopah/Nellis hand-bone scanner:** BL18 transcript [00:35:42] says *"at the Nellis Range, they were talking about the stealth program, there was indeed this hand scanner"*. §12.3 writes *"Nellis/Tonopah stealth-era photo"* — transcript only names "Nellis Range"; "Tonopah" is the common stealth-era coupling but is a minor extrapolation. Not overstated; the match between described scanner and photo is corroborated on-camera (BL18 [00:35:42–00:36:10]). ✅ Fair but recommend tightening to "Nellis Range stealth-era photo" to match transcript wording.
+- **Moscovium 2003–2004 Dubna:** ✅ correct.
+- **CIA 2013 / DoD 2017–2020:** ✅ correct and uncontested historical facts.
+- **1941 Papoose Lake map, Dec 2020 Cessna photo set, polygraph audio:** ✅ consistent with §6.9, §6.10, §8.11.
+
+**Check C verdict: PASS WITH MINOR FIXES.** §12.3 is not overstated. §12.2 should mention fatalities contradiction (§10.11) and hangar-door slope (§10.15a) given they are flagged ❌ CONTRADICTED in §0.0 itself.
+
+### Check D — ASRP Media interview fidelity
+
+- **Full Russian original present, not summarised.** Lines 37–196 contain the complete verbatim Q&A flow from opening framing through *"Благодарю вас за беседу."* Editorial footnote at the Lazar question is clearly labelled `[Редакционная сноска ASRP.media]`. ✅
+- **English translation parallel and non-editorial.** Lines 198–359 mirror the Russian 1:1. The OCR/typo *"синтез 155 элемента московия"* is preserved in Russian and flagged inline in English *"[note: the Russian text says "155 элемента московия" — evidently a typo/OCR error for element 115 moscovium.]"*. ✅ Honest, non-divergent.
+- **10 key takeaways (lines 367–376).** Each one supported by the Russian text:
+  1. Dubna discovered 114–118 → RU line 57 ✅
+  2. SHE Factory, Nov 2020, ~70 atoms / 40 days → RU line 69 ✅
+  3. Flerovium ~100 atoms → RU line 85 ✅
+  4. Lifetimes ~1 second → RU line 77 ✅
+  5. No practical application; "even if stable isotopes existed, quantity negligibly small" → RU line 147 ✅
+  6. Astrophysical origin → RU line 119 ✅
+  7. Dual-use spinoffs → RU lines 156–158 ✅
+  8. Naming etymology → RU line 184 ✅
+  9. Editorial psycho-linguistic footnote clearly labelled as ASRP framing → RU lines 133–143 ✅ (correctly flagged as not a JINR statement)
+  10. Pop-culture intro flagged as unsourced editorial scene-setting ✅
+- **"Bridge to the Lazar archive"** cross-references §1.1 / §1.2 / §1.3 / §1.5 in MASTER. Verified: §1.1 stability framing, §1.2 uses, §1.3 quantities, §1.5 Russian moscovium synthesis narrative — all sections exist and are accurately characterised. The BL18 [01:23:25] Knapp expert-canvass citation is not independently reverified in this gate but the framing ("could not rule out a stabilized version of 115… weak partial consistency") is cautiously worded.
+- **§1.11 in MASTER** (lines 167–172) correctly summarises the interview, does not overstate, and correctly identifies the ASRP editorial footnote as adversarial framing.
+
+**Check D verdict: PASS.** No fabrication, no editorialising beyond what is explicitly flagged. Cross-references to MASTER sections are accurate.
+
+### Check E — Apr 13 chat dump entry
+
+- `catalog/interviews.md` line 238: *"059 Bob Lazar (Ken Wright) — appears to be episode #59 of a Ken Wright–hosted 'Quinta Essentia Part-5' series on Dailymotion. Title names Lazar; participant role (Lazar himself on camera vs Wright discussing Lazar) not confirmed from the Dailymotion page metadata alone. [Dailymotion](https://www.dailymotion.com/video/x8nd5fv) `[NOT TRANSCRIBED — Apr 13 chat dump]`"*
+- Flag `[NOT TRANSCRIBED — Apr 13 chat dump]` present. Uncertainty about Lazar's on-camera role is explicitly acknowledged. ✅ Correctly flagged.
+
+**Check E verdict: PASS.**
+
+### Overall verdict: PASS WITH MINOR FIXES
+
+No hallucinations. No misattributions. No removable claims. Two small structural fixes recommended:
+
+1. **MASTER_technical_claims.md §12.2 (EN ~line 964) and §12.2 RU (~line 976)** — add a bullet noting the two ❌-contradicted rows from §0.0 that §12.2 currently omits: (a) reactor-accident fatalities 2 ↔ 3 (§10.11, §0.0 row 33); (b) hangar-door slope 30° ↔ 60° (§10.15a, §0.0 row 22). Optional: also mention recycle-time 10 ms ↔ 12 ms (§10.4, §0.0 row 16) and MIT/Caltech narration-vs-own-words (§10.5). Severity: LOW (completeness polish; no correctness issue).
+2. **MASTER_technical_claims.md §12.3 EN (~line 989) / RU (~line 1009)** — tighten *"Nellis/Tonopah stealth-era photo"* to *"Nellis Range stealth-era photo"* to match BL18 [00:35:42] wording exactly. Severity: TRIVIAL.
+
+Both fixes are cosmetic/completeness. The Batch 1 enrichment (5 S4DOC-26 quotes, §1.11 ASRP synthesis, §0.0 34-row parameter table, §12 bilingual conclusions, catalog/asrp_media_115_interview.md, x8nd5fv Dailymotion row) is substantively sound and may be accepted as-is or with the two minor fixes above.
+
+**Recommendation:** PROCEED to Batch 2 (bilingual merge). The two Batch 1 fixes can be folded into the Batch 2 editing pass rather than blocking on them.

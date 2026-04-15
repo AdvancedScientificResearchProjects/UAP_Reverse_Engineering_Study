@@ -334,4 +334,40 @@ The documentary was released as the centerpiece of the April 2026 Lazar resurgen
 
 ---
 
+## 18. Refinements & New Parameters (post-initial-extraction)
+
+Five numerical/physical parameters identified on a second pass through the transcript that were only partially captured (or entirely missed) in the initial extraction. All are spoken on-camera by Lazar himself in this documentary.
+
+### 18.1 Amplifier recycle time ≈ 10 ms — direct Lazar 2026 estimate (REFINEMENT)
+- Timestamp: [01:00:00–01:00:12]
+- Speaker: Lazar (on camera)
+- Quote: *"Now, the amplifiers don't operate on a continuous fashion. They pulse. They produce a pulse of energy and then require a recycle time. It's somewhere around 10 milliseconds or something like that."*
+- Context: Until this documentary, the only millisecond-regime recycle figure in the corpus was Lear's 12 ms from C2C-09 (2009), which master §11.8 flagged as Lear-only. Lazar's own 1997 recollection was vaguer (*"microseconds or a millisecond"*). This is the first time Lazar personally voices a concrete millisecond-regime value. Distinct from the 1995 UFOL2-95 *"10 μs apart"* amplifier-sequencing figure (different phenomenon). Closes a long-standing attribution gap.
+
+### 18.2 Emitter suspension-tube diameter ≈ 3 inches (NEW)
+- Timestamp: [00:57:52–00:58:24]
+- Speaker: Lazar (on camera)
+- Quote: *"The emitters were the only things that were a different color. They were black. The bottoms of them were hollow and you could see some sort of copper-colored plates inside there. They were hung by large diameter tubes, maybe three inches or so."*
+- Context: No prior source in the archive gives a diameter for the tubes from which the emitters are suspended. The JRE1315 *"trash can hanging on a pipe"* phrasing is qualitative; this is the first on-record quantitative figure. Also re-confirms the black color of the emitters and the copper-colored internal plates (matches JRE2479 [01:37:15]).
+
+### 18.3 Top-antenna / waveguide color: pewter gray, cold to touch (REFINEMENT)
+- Timestamp: [00:49:16–00:49:33]
+- Speaker: Lazar (on camera)
+- Quote: *"It has a small antenna-looking device, which is actually a waveguide that protrudes from the top. It is like a pewter gray in color. It appears to be metal. I felt it. It's cold."*
+- Context: Master §2.1 and §5.1 previously recorded the top antenna as a waveguide but had no dedicated color for it, and treated hull color (brushed stainless steel) as covering the whole exterior. The 2026 figure distinguishes the top waveguide's color (pewter gray) from the main hull. The "cold" tactile datum re-affirms the earlier UFOL4-96 [00:16:01] waveguide-cold claim but is now delivered on camera specifically about the top antenna.
+
+### 18.4 Ground-to-craft VHF radio band: 140–150 MHz (REFINEMENT)
+- Timestamp: [01:04:38–01:04:54]
+- Speaker: Lazar (on camera)
+- Quote: *"They were using a conventional VHF radio to talk to them. And I believe it was in the 140 or 150 MHz bandwidth because it said right on the radio."*
+- Context: Master previously cited C2C-97 [02:59:22] *"normal VHF around 200 MHz."* The 2026 figure (140–150 MHz) is a narrower and lower band, anchored to a printed marking Lazar recalls reading on the radio itself — therefore likely the more reliable number. Possible contradiction with the 1997 recollection; most parsimonious reading is that 200 MHz was rounded-up memory and 140–150 MHz is the refined value. Also sits in the standard VHF aviation / land-mobile allocation, which is plausible for a ground-to-aircraft test radio.
+
+### 18.5 Sport Model refined dimensions: 52'9" × 16 ft (REFINEMENT — drift explained)
+- Timestamp: [00:47:04–00:47:26]
+- Speaker: Lazar (on camera)
+- Quote: *"I had estimated the sport model to be about 15 feet high and about 40 feet wide, but since then, I've enlisted some expert help from the field of computer imaging… The sport model is 16 feet tall and 52 feet, 9 inches in diameter."*
+- Context: Master §5.2 / §10.1 / §11.7 previously logged the 52 ↔ 40 ft drift with LT-91 (1991) as the 40 ft outlier and 52 ft / 52.8 ft Testors as post-1991 canon. The 2026 doc (a) adds precision (52'9", not just 52 ft or 52.8 ft), (b) confirms 16 ft height against the earlier 15 ft eyeball estimate, and (c) — most importantly — **Lazar explains the drift**: the earlier numbers were his own estimates, and the new figures came from Luigi Vendittelli's CGI-reconstruction process. This is the first time the dimension drift is attributed to a reconstruction methodology rather than simple memory variance.
+
+---
+
 END per-interview analysis.
