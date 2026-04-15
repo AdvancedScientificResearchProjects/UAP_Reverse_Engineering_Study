@@ -56,11 +56,11 @@ Cross-era synthesis organized by topic. Each topic shows how claims evolve from 
 - **BL18** — 2018-12-04, полнометражный фильм Corbell "Bob Lazar: Area 51 & Flying Saucers" (File 40)
 
 **2018–2026:**
-- **C2C18** — 2018-11-25 C2C
-- **LK19** — 2019-01-09 Larry King
+- **C2C-18** — 2018-11-25 C2C
+- **LK-19** — 2019-01-09 Larry King
 - **JRE1315** — 2019-06-20 JRE #1315
-- **KLAS5** / **KLAS6** — KLAS 30th anniversary Pts 5 & 6
-- **KLAS5** / **KLAS6** — KLAS 30-летие, части 5 и 6
+- **KLAS30-P5** / **KLAS30-P6** — KLAS 30th anniversary Pts 5 & 6
+- **KLAS30-P5** / **KLAS30-P6** — KLAS 30-летие, части 5 и 6
 - **JRE2479** — 2026-04-03 JRE #2479
 - **S4DOC-26** — 2026-04 *S4: The Bob Lazar Story* (Vendittelli/Matteau feature doc; File 52). ~90% Blender CGI reconstruction; extensive voice-over narration lifted from LT-91 vintage scripts; genuinely new content is in Luigi's on-camera evidence segments and new Knapp / Huff / Santa Cruz / Joy Lazar interviews. Same April 2026 promotion cycle as JRE2479.
 - **S4DOC-26** — 2026-04, документальный фильм *S4: The Bob Lazar Story* (режиссёры Vendittelli / Matteau; файл 52). Примерно 90% CGI-реконструкции в Blender; значительная часть закадрового текста взята дословно из скриптов эпохи LT-91; действительно новый материал сосредоточен в сегментах с доказательствами Luigi на камеру и в новых интервью Knapp / Huff / Santa Cruz / Joy Lazar. Тот же апрельский 2026-го промо-цикл, что и у JRE2479.
