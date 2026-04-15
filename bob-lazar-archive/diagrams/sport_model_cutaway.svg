@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <style>
+    .bg      { fill: #ffffff; }
+    .hull    { fill: none; stroke: #000; stroke-width: 2; }
+    .part    { fill: none; stroke: #000; stroke-width: 1.5; }
+    .thin    { fill: none; stroke: #000; stroke-width: 1; }
+    .fill-lt { fill: #f2f2f2; stroke: #000; stroke-width: 1.2; }
+    .fill-md { fill: #d9d9d9; stroke: #000; stroke-width: 1.2; }
+    .fill-dk { fill: #595959; stroke: #000; stroke-width: 1; }
+    .dim     { fill: none; stroke: #000; stroke-width: 0.8; }
+    .label   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #000; }
+    .label-sm{ font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #000; }
+    .label-ru{ font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #333; font-style: italic; }
+    .title   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #000; }
+    .src     { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #555; }
+    .dashed  { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 4 3; }
+  </style>
+
+  <rect class="bg" width="1200" height="800"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1200" height="44" fill="#000"/>
+  <text x="600" y="20" text-anchor="middle" class="title" fill="#fff">Sport Model — Side-View Cutaway / Корабль Sport Model — Разрез сбоку</text>
+  <text x="600" y="36" text-anchor="middle" class="label-sm" fill="#fff">52'9" diameter × 16' tall · 52'9" в диаметре × 16' по высоте (S4DOC-26)</text>
+
+  <!-- Overall disc silhouette -->
+  <!-- Lens-like side view: top dome, middle level, lower reactor level -->
+  <!-- Ground reference -->
+  <line x1="140" y1="660" x2="1060" y2="660" class="thin"/>
+  <line x1="140" y1="663" x2="1060" y2="663" class="thin" stroke-dasharray="2 2"/>
+
+  <!-- Outer hull (elliptical disc cross-section) -->
+  <path d="M 170 500
+           C 170 380, 430 280, 600 280
+           C 770 280, 1030 380, 1030 500
+           C 1030 600, 870 650, 600 650
+           C 330 650, 170 600, 170 500 Z" class="hull"/>
+
+  <!-- Level divisions (faint dashed) -->
+  <path d="M 210 560 C 400 600, 800 600, 990 560" class="dashed"/>
+  <path d="M 220 430 C 400 350, 800 350, 980 430" class="dashed"/>
+
+  <!-- Top navigation dome -->
+  <path d="M 510 282 C 510 230, 690 230, 690 282" class="fill-lt"/>
+  <!-- Waveguide antenna -->
+  <rect x="590" y="180" width="20" height="55" class="fill-md"/>
+  <circle cx="600" cy="178" r="8" class="fill-md"/>
+  <!-- Black insulator ring separating top from HV field -->
+  <path d="M 505 285 L 695 285" stroke="#000" stroke-width="4"/>
+
+  <!-- Central reactor hump (bottom third, hemispherical) -->
+  <path d="M 520 540 A 80 60 0 0 1 680 540 Z" class="fill-md"/>
+  <!-- Reactor base plate -->
+  <rect x="510" y="540" width="180" height="8" class="fill-dk"/>
+
+  <!-- 3 Gravity amplifiers (rectangular, middle-bottom). Show front two + one behind (dashed) -->
+  <rect x="330" y="500" width="55" height="55" class="fill-lt"/>
+  <rect x="815" y="500" width="55" height="55" class="fill-lt"/>
+  <rect x="573" y="505" width="55" height="50" class="dashed"/>
+
+  <!-- Support tubes (3-inch / 76 mm diameter) -->
+  <rect x="353" y="555" width="8" height="55" class="fill-md"/>
+  <rect x="838" y="555" width="8" height="55" class="fill-md"/>
+  <rect x="596" y="555" width="8" height="55" class="dashed"/>
+
+  <!-- Emitter trumpets extending below hull -->
+  <!-- Left trumpet -->
+  <path d="M 340 610 L 375 610 L 395 655 L 320 655 Z" class="fill-dk"/>
+  <!-- Right trumpet -->
+  <path d="M 825 610 L 860 610 L 880 655 L 805 655 Z" class="fill-dk"/>
+  <!-- Back trumpet (dashed) -->
+  <path d="M 583 610 L 618 610 L 638 655 L 563 655 Z" class="dashed"/>
+
+  <!-- Crew level: 3 seats + archways + consoles -->
+  <!-- seats (small/child-sized) -->
+  <g>
+    <rect x="420" y="465" width="22" height="28" class="fill-lt"/>
+    <rect x="420" y="460" width="22" height="6" class="fill-md"/>
+    <rect x="758" y="465" width="22" height="28" class="fill-lt"/>
+    <rect x="758" y="460" width="22" height="6" class="fill-md"/>
+    <rect x="589" y="465" width="22" height="28" class="dashed"/>
+  </g>
+  <!-- archways (no doors) -->
+  <path d="M 270 495 Q 270 430 310 430 L 310 495 Z" class="part"/>
+  <path d="M 930 495 Q 930 430 890 430 L 890 495 Z" class="part"/>
+  <!-- consoles above amplifiers -->
+  <rect x="325" y="480" width="65" height="10" class="fill-md"/>
+  <rect x="810" y="480" width="65" height="10" class="fill-md"/>
+
+  <!-- Reversed American flag on right side -->
+  <g>
+    <rect x="945" y="470" width="40" height="24" class="fill-lt"/>
+    <!-- reversed: union on the RIGHT -->
+    <rect x="969" y="470" width="16" height="12" fill="#000"/>
+    <line x1="945" y1="475" x2="985" y2="475" stroke="#000" stroke-width="1"/>
+    <line x1="945" y1="480" x2="985" y2="480" stroke="#000" stroke-width="1"/>
+    <line x1="945" y1="485" x2="985" y2="485" stroke="#000" stroke-width="1"/>
+    <line x1="945" y1="490" x2="985" y2="490" stroke="#000" stroke-width="1"/>
+  </g>
+  <line x1="960" y1="494" x2="960" y2="540" class="thin"/>
+  <text x="1000" y="500" class="label">Reversed US flag (starboard)</text>
+  <text x="1000" y="513" class="label-ru">Перевёрнутый флаг США (правый борт)</text>
+  <text x="1000" y="526" class="label-sm">JRE2479 / S4DOC-26 §5.6</text>
+
+  <!-- Dimension: overall diameter (52'9") -->
+  <line x1="170" y1="700" x2="1030" y2="700" class="dim"/>
+  <polygon points="170,700 180,696 180,704" fill="#000"/>
+  <polygon points="1030,700 1020,696 1020,704" fill="#000"/>
+  <text x="600" y="693" text-anchor="middle" class="label">52'9" (16.08 m) diameter / диаметр</text>
+
+  <!-- Dimension: overall height (16') -->
+  <line x1="100" y1="235" x2="100" y2="650" class="dim"/>
+  <polygon points="100,235 96,245 104,245" fill="#000"/>
+  <polygon points="100,650 96,640 104,640" fill="#000"/>
+  <text x="60" y="445" class="label" transform="rotate(-90 60 445)">16' (4.88 m) tall / высотой</text>
+
+  <!-- Level brackets (right side) -->
+  <line x1="1080" y1="250" x2="1080" y2="285" class="dim"/>
+  <text x="1090" y="265" class="label-sm">Top — Navigation dome</text>
+  <text x="1090" y="277" class="label-ru">Верх — навигационный купол</text>
+
+  <line x1="1080" y1="295" x2="1080" y2="495" class="dim"/>
+  <text x="1090" y="390" class="label-sm">Middle — Crew level</text>
+  <text x="1090" y="402" class="label-ru">Середина — уровень экипажа</text>
+
+  <line x1="1080" y1="505" x2="1080" y2="650" class="dim"/>
+  <text x="1090" y="580" class="label-sm">Bottom — Reactor level</text>
+  <text x="1090" y="592" class="label-ru">Низ — уровень реактора</text>
+
+  <!-- Callouts / arrows -->
+  <!-- Waveguide -->
+  <line x1="600" y1="175" x2="260" y2="120" class="thin"/>
+  <text x="65" y="108" class="label">Waveguide antenna (pewter gray, cold)</text>
+  <text x="65" y="121" class="label-ru">Волновод (цвет олова, холодный)</text>
+
+  <!-- Navigation dome -->
+  <line x1="510" y1="265" x2="260" y2="205" class="thin"/>
+  <text x="65" y="195" class="label">Navigation dome — no HV field</text>
+  <text x="65" y="208" class="label-ru">Навигационный купол — вне ВВ поля</text>
+
+  <!-- Reactor hump -->
+  <line x1="600" y1="490" x2="260" y2="340" class="thin"/>
+  <text x="65" y="330" class="label">Hemispherical antimatter reactor</text>
+  <text x="65" y="343" class="label-ru">Полусферический антиматериальный реактор</text>
+  <text x="65" y="356" class="label-sm">(fuel: 223 g of Element 115)</text>
+
+  <!-- Gravity amplifier -->
+  <line x1="330" y1="525" x2="210" y2="410" class="thin"/>
+  <text x="65" y="400" class="label">Gravity amplifier ×3 (120° apart)</text>
+  <text x="65" y="413" class="label-ru">Гравитационный усилитель ×3 (120°)</text>
+
+  <!-- Support tube -->
+  <line x1="360" y1="590" x2="210" y2="470" class="thin"/>
+  <text x="65" y="460" class="label">Support tube Ø 3" (76 mm)</text>
+  <text x="65" y="473" class="label-ru">Труба подвеса Ø 3" (76 мм)</text>
+
+  <!-- Emitter trumpet -->
+  <line x1="355" y1="640" x2="210" y2="550" class="thin"/>
+  <text x="65" y="540" class="label">Emitter "trumpet" ×3 (black, matte)</text>
+  <text x="65" y="553" class="label-ru">Эмиттер-«раструб» ×3 (чёрный, матовый)</text>
+
+  <!-- Seats -->
+  <line x1="420" y1="475" x2="350" y2="280" class="thin"/>
+  <text x="270" y="270" class="label">3 seats (child-sized)</text>
+  <text x="270" y="283" class="label-ru">3 сиденья (детского размера)</text>
+
+  <!-- Archway -->
+  <line x1="290" y1="460" x2="230" y2="380" class="thin"/>
+  <text x="65" y="370" class="label">Archways (no doors) ×3</text>
+  <text x="65" y="383" class="label-ru">Арочные проёмы (без дверей) ×3</text>
+
+  <!-- Hull uniform cold note -->
+  <line x1="900" y1="310" x2="1000" y2="170" class="thin"/>
+  <text x="980" y="150" class="label">Seamless hull, uniformly cold</text>
+  <text x="980" y="163" class="label-ru">Бесшовный корпус, холодный</text>
+
+  <!-- Ground label -->
+  <text x="600" y="732" text-anchor="middle" class="label-sm">Ground / Поверхность</text>
+
+  <!-- Source attribution footer -->
+  <line x1="40" y1="760" x2="1160" y2="760" class="thin"/>
+  <text x="600" y="776" text-anchor="middle" class="src">Source / Источник: Bob Lazar — S4DOC-26, BL18, JRE2479, BG-89 · §0.0, §2, §5, §6</text>
+  <text x="600" y="790" text-anchor="middle" class="src">ASRP v2.1 · bob-lazar-archive/diagrams/sport_model_cutaway.svg</text>
+</svg>

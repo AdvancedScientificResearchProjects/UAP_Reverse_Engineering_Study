@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1120" viewBox="0 0 1060 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Bob Lazar — Numerical Parameters Stability Table</title>
+  <desc id="desc">Key numerical parameters versus year of first and last restatement, with stability badges.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:24px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:14px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .param { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#0f172a; font-weight:600; }
+    .param-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#0f172a; text-anchor:middle; }
+    .badge { font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; text-anchor:middle; fill:#0f172a; }
+    .stable { fill:#9ad17b; }
+    .drifted { fill:#f6c85f; }
+    .contradicted { fill:#f29c99; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#cbd5e1; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+  </style>
+  <rect class="bg" width="1060" height="1120"/>
+  <text class="title" x="32" y="44">Numerical Parameters — Stability vs Drift / Числовые параметры — устойчивость и дрейф</text>
+  <text class="subtitle" x="32" y="68">20 key quantitative claims, year of first statement vs last restatement. Status per §0.0 consolidated table.</text>
+  <text class="subtitle-ru" x="32" y="86">20 ключевых количественных заявлений, год первой формулировки и последнего повторения. Статус — по сводной таблице §0.0.</text>
+
+  <!-- legend -->
+  <rect x="32" y="102" width="14" height="14" class="stable stroke"/>
+  <text class="legend" x="52" y="114">✅ STABLE / устойчиво</text>
+  <rect x="220" y="102" width="14" height="14" class="drifted stroke"/>
+  <text class="legend" x="240" y="114">⚠️ DRIFTED / дрейф</text>
+  <rect x="400" y="102" width="14" height="14" class="contradicted stroke"/>
+  <text class="legend" x="420" y="114">❌ CONTRADICTED / противоречие</text>
+
+  <!-- header -->
+  <rect x="32" y="132" width="360" height="44" fill="#1f2937"/>
+  <rect x="392" y="132" width="100" height="44" fill="#1f2937"/>
+  <rect x="492" y="132" width="240" height="44" fill="#1f2937"/>
+  <rect x="732" y="132" width="80" height="44" fill="#1f2937"/>
+  <rect x="812" y="132" width="80" height="44" fill="#1f2937"/>
+  <rect x="892" y="132" width="136" height="44" fill="#1f2937"/>
+
+  <text class="hdr" x="212" y="152">Parameter / Параметр</text>
+  <text class="hdr-ru" x="212" y="168">bilingual name</text>
+  <text class="hdr" x="442" y="152">Unit / Ед.</text>
+  <text class="hdr-ru" x="442" y="168">units</text>
+  <text class="hdr" x="612" y="152">Value / Range</text>
+  <text class="hdr-ru" x="612" y="168">Значение / Диапазон</text>
+  <text class="hdr" x="772" y="152">First</text>
+  <text class="hdr-ru" x="772" y="168">первое</text>
+  <text class="hdr" x="852" y="152">Last</text>
+  <text class="hdr-ru" x="852" y="168">последнее</text>
+  <text class="hdr" x="960" y="152">Status / Статус</text>
+  <text class="hdr-ru" x="960" y="168">badge</text>
+
+  <!-- rows (20 params, 42px tall each, starting y=176) -->
+  <g class="stroke">
+    <!-- r1 -->
+    <rect x="32" y="176" width="860" height="42" class="rowA"/><rect x="892" y="176" width="136" height="42" class="stable"/>
+    <!-- r2 -->
+    <rect x="32" y="218" width="860" height="42" class="rowB"/><rect x="892" y="218" width="136" height="42" class="stable"/>
+    <!-- r3 -->
+    <rect x="32" y="260" width="860" height="42" class="rowA"/><rect x="892" y="260" width="136" height="42" class="stable"/>
+    <!-- r4 -->
+    <rect x="32" y="302" width="860" height="42" class="rowB"/><rect x="892" y="302" width="136" height="42" class="stable"/>
+    <!-- r5 -->
+    <rect x="32" y="344" width="860" height="42" class="rowA"/><rect x="892" y="344" width="136" height="42" class="stable"/>
+    <!-- r6 -->
+    <rect x="32" y="386" width="860" height="42" class="rowB"/><rect x="892" y="386" width="136" height="42" class="stable"/>
+    <!-- r7 -->
+    <rect x="32" y="428" width="860" height="42" class="rowA"/><rect x="892" y="428" width="136" height="42" class="stable"/>
+    <!-- r8 -->
+    <rect x="32" y="470" width="860" height="42" class="rowB"/><rect x="892" y="470" width="136" height="42" class="stable"/>
+    <!-- r9 -->
+    <rect x="32" y="512" width="860" height="42" class="rowA"/><rect x="892" y="512" width="136" height="42" class="stable"/>
+    <!-- r10 -->
+    <rect x="32" y="554" width="860" height="42" class="rowB"/><rect x="892" y="554" width="136" height="42" class="stable"/>
+    <!-- r11 DRIFT Sport Model diameter -->
+    <rect x="32" y="596" width="860" height="42" class="rowA"/><rect x="892" y="596" width="136" height="42" class="drifted"/>
+    <!-- r12 DRIFT Sport Model height -->
+    <rect x="32" y="638" width="860" height="42" class="rowB"/><rect x="892" y="638" width="136" height="42" class="drifted"/>
+    <!-- r13 DRIFT 115 stability -->
+    <rect x="32" y="680" width="860" height="42" class="rowA"/><rect x="892" y="680" width="136" height="42" class="drifted"/>
+    <!-- r14 DRIFT ZR distance -->
+    <rect x="32" y="722" width="860" height="42" class="rowB"/><rect x="892" y="722" width="136" height="42" class="drifted"/>
+    <!-- r15 DRIFT recycle time -->
+    <rect x="32" y="764" width="860" height="42" class="rowA"/><rect x="892" y="764" width="136" height="42" class="drifted"/>
+    <!-- r16 DRIFT VHF band -->
+    <rect x="32" y="806" width="860" height="42" class="rowB"/><rect x="892" y="806" width="136" height="42" class="drifted"/>
+    <!-- r17 CONTRA hangar slope -->
+    <rect x="32" y="848" width="860" height="42" class="rowA"/><rect x="892" y="848" width="136" height="42" class="contradicted"/>
+    <!-- r18 CONTRA ZR planet -->
+    <rect x="32" y="890" width="860" height="42" class="rowB"/><rect x="892" y="890" width="136" height="42" class="contradicted"/>
+    <!-- r19 CONTRA reactor fatalities -->
+    <rect x="32" y="932" width="860" height="42" class="rowA"/><rect x="892" y="932" width="136" height="42" class="contradicted"/>
+    <!-- r20 STABLE briefings -->
+    <rect x="32" y="974" width="860" height="42" class="rowB"/><rect x="892" y="974" width="136" height="42" class="stable"/>
+  </g>
+
+  <!-- row content -->
+  <g>
+    <!-- r1 craft -->
+    <text class="param" x="44" y="196">Craft at S-4</text>
+    <text class="param-ru" x="44" y="211">Кораблей на S-4</text>
+    <text class="cell" x="442" y="204">craft / кораблей</text>
+    <text class="cell" x="612" y="204">9</text>
+    <text class="cell" x="772" y="204">1989</text>
+    <text class="cell" x="852" y="204">2026</text>
+    <text class="badge" x="960" y="204">✅ STABLE</text>
+
+    <!-- r2 personnel -->
+    <text class="param" x="44" y="238">Total personnel at S-4</text>
+    <text class="param-ru" x="44" y="253">Всего персонала на S-4</text>
+    <text class="cell" x="442" y="246">people / чел.</text>
+    <text class="cell" x="612" y="246">22</text>
+    <text class="cell" x="772" y="246">1989</text>
+    <text class="cell" x="852" y="246">2026</text>
+    <text class="badge" x="960" y="246">✅ STABLE</text>
+
+    <!-- r3 7.46 hz -->
+    <text class="param" x="44" y="280">Gravity-A carrier frequency</text>
+    <text class="param-ru" x="44" y="295">Несущая частота Gravity-A</text>
+    <text class="cell" x="442" y="288">Hz / Гц</text>
+    <text class="cell" x="612" y="288">7.46</text>
+    <text class="cell" x="772" y="288">1993</text>
+    <text class="cell" x="852" y="288">2026</text>
+    <text class="badge" x="960" y="288">✅ STABLE</text>
+
+    <!-- r4 223 g -->
+    <text class="param" x="44" y="322">Element 115 per reactor charge</text>
+    <text class="param-ru" x="44" y="337">115 на одну загрузку реактора</text>
+    <text class="cell" x="442" y="330">g / г</text>
+    <text class="cell" x="612" y="330">223</text>
+    <text class="cell" x="772" y="330">1989</text>
+    <text class="cell" x="852" y="330">2026</text>
+    <text class="badge" x="960" y="330">✅ STABLE</text>
+
+    <!-- r5 1740 C -->
+    <text class="param" x="44" y="364">Reactor working / melting temp</text>
+    <text class="param-ru" x="44" y="379">Рабочая температура реактора</text>
+    <text class="cell" x="442" y="372">°C</text>
+    <text class="cell" x="612" y="372">1740</text>
+    <text class="cell" x="772" y="372">1991</text>
+    <text class="cell" x="852" y="372">2026</text>
+    <text class="badge" x="960" y="372">✅ STABLE</text>
+
+    <!-- r6 3 levels -->
+    <text class="param" x="44" y="406">Sport Model interior levels</text>
+    <text class="param-ru" x="44" y="421">Уровней интерьера Sport Model</text>
+    <text class="cell" x="442" y="414">levels / уровня</text>
+    <text class="cell" x="612" y="414">3</text>
+    <text class="cell" x="772" y="414">1991</text>
+    <text class="cell" x="852" y="414">2026</text>
+    <text class="badge" x="960" y="414">✅ STABLE</text>
+
+    <!-- r7 38 clearance -->
+    <text class="param" x="44" y="448">Clearance levels above Q</text>
+    <text class="param-ru" x="44" y="463">Уровней допуска выше Q</text>
+    <text class="cell" x="442" y="456">levels / уровней</text>
+    <text class="cell" x="612" y="456">38</text>
+    <text class="cell" x="772" y="456">1989</text>
+    <text class="cell" x="852" y="456">2026</text>
+    <text class="badge" x="960" y="456">✅ STABLE</text>
+
+    <!-- r8 65 alterations -->
+    <text class="param" x="44" y="490">Human genetic alterations</text>
+    <text class="param-ru" x="44" y="505">Генетических модификаций</text>
+    <text class="cell" x="442" y="498">times / раз</text>
+    <text class="cell" x="612" y="498">65</text>
+    <text class="cell" x="772" y="498">1991</text>
+    <text class="cell" x="852" y="498">2019</text>
+    <text class="badge" x="960" y="498">✅ STABLE</text>
+
+    <!-- r9 1.87 radius -->
+    <text class="param" x="44" y="532">Atomic radius of 115</text>
+    <text class="param-ru" x="44" y="547">Атомный радиус 115</text>
+    <text class="cell" x="442" y="540">Å</text>
+    <text class="cell" x="612" y="540">1.87</text>
+    <text class="cell" x="772" y="540">1991</text>
+    <text class="cell" x="852" y="540">2026</text>
+    <text class="badge" x="960" y="540">✅ STABLE</text>
+
+    <!-- r10 500 lb total -->
+    <text class="param" x="44" y="574">Element 115 total possessed</text>
+    <text class="param-ru" x="44" y="589">Общий запас 115</text>
+    <text class="cell" x="442" y="582">lb / фунтов</text>
+    <text class="cell" x="612" y="582">~500</text>
+    <text class="cell" x="772" y="582">1989</text>
+    <text class="cell" x="852" y="582">2009</text>
+    <text class="badge" x="960" y="582">✅ STABLE</text>
+
+    <!-- r11 Sport Model diameter DRIFT -->
+    <text class="param" x="44" y="616">Sport Model diameter</text>
+    <text class="param-ru" x="44" y="631">Диаметр Sport Model</text>
+    <text class="cell" x="442" y="624">ft / фут</text>
+    <text class="cell" x="612" y="624">52 → 40 → 52 → 52'9"</text>
+    <text class="cell" x="772" y="624">1989</text>
+    <text class="cell" x="852" y="624">2026</text>
+    <text class="badge" x="960" y="624">⚠️ DRIFTED</text>
+
+    <!-- r12 Sport Model height DRIFT -->
+    <text class="param" x="44" y="658">Sport Model height</text>
+    <text class="param-ru" x="44" y="673">Высота Sport Model</text>
+    <text class="cell" x="442" y="666">ft / фут</text>
+    <text class="cell" x="612" y="666">15 → 16</text>
+    <text class="cell" x="772" y="666">1991</text>
+    <text class="cell" x="852" y="666">2026</text>
+    <text class="badge" x="960" y="666">⚠️ DRIFTED</text>
+
+    <!-- r13 115 stability DRIFT -->
+    <text class="param" x="44" y="700">Element 115 stability framing</text>
+    <text class="param-ru" x="44" y="715">Стабильность элемента 115</text>
+    <text class="cell" x="442" y="708">— / —</text>
+    <text class="cell" x="612" y="708">"absolute" → "stable isotope" (post-2009)</text>
+    <text class="cell" x="772" y="708">1989</text>
+    <text class="cell" x="852" y="708">2026</text>
+    <text class="badge" x="960" y="708">⚠️ DRIFTED</text>
+
+    <!-- r14 Zeta Reticuli distance DRIFT -->
+    <text class="param" x="44" y="742">Zeta Reticuli distance</text>
+    <text class="param-ru" x="44" y="757">Расстояние до Zeta Reticuli</text>
+    <text class="cell" x="442" y="750">ly / св.л.</text>
+    <text class="cell" x="612" y="750">30 (LT-91) → 38 (S4DOC-26)</text>
+    <text class="cell" x="772" y="750">1991</text>
+    <text class="cell" x="852" y="750">2026</text>
+    <text class="badge" x="960" y="750">⚠️ DRIFTED</text>
+
+    <!-- r15 recycle time DRIFT -->
+    <text class="param" x="44" y="784">Amplifier recycle time</text>
+    <text class="param-ru" x="44" y="799">Время цикла усилителя</text>
+    <text class="cell" x="442" y="792">ms / мс</text>
+    <text class="cell" x="612" y="792">Lear 12 (C2C-09) vs Lazar 10 (S4DOC-26)</text>
+    <text class="cell" x="772" y="792">2009</text>
+    <text class="cell" x="852" y="792">2026</text>
+    <text class="badge" x="960" y="792">⚠️ DRIFTED</text>
+
+    <!-- r16 VHF DRIFT -->
+    <text class="param" x="44" y="826">VHF radio band (ground-to-craft)</text>
+    <text class="param-ru" x="44" y="841">VHF-диапазон связи</text>
+    <text class="cell" x="442" y="834">MHz / МГц</text>
+    <text class="cell" x="612" y="834">~200 (1997) → 140–150 (2026)</text>
+    <text class="cell" x="772" y="834">1997</text>
+    <text class="cell" x="852" y="834">2026</text>
+    <text class="badge" x="960" y="834">⚠️ DRIFTED</text>
+
+    <!-- r17 hangar slope CONTRADICTED -->
+    <text class="param" x="44" y="868">Hangar door slope</text>
+    <text class="param-ru" x="44" y="883">Угол двери ангара</text>
+    <text class="cell" x="442" y="876">° / градусов</text>
+    <text class="cell" x="612" y="876">60 (LT-91) vs 30 (BL18)</text>
+    <text class="cell" x="772" y="876">1991</text>
+    <text class="cell" x="852" y="876">2018</text>
+    <text class="badge" x="960" y="876">❌ CONTRA</text>
+
+    <!-- r18 ZR planet CONTRADICTED -->
+    <text class="param" x="44" y="910">Zeta Reticuli planet designation</text>
+    <text class="param-ru" x="44" y="925">Планета в Zeta Reticuli</text>
+    <text class="cell" x="442" y="918">— / —</text>
+    <text class="cell" x="612" y="918">ZR2-p4 (1991/2026) vs ZR3 (2019)</text>
+    <text class="cell" x="772" y="918">1991</text>
+    <text class="cell" x="852" y="918">2026</text>
+    <text class="badge" x="960" y="918">❌ CONTRA</text>
+
+    <!-- r19 reactor fatalities CONTRADICTED -->
+    <text class="param" x="44" y="952">Reactor-accident fatalities</text>
+    <text class="param-ru" x="44" y="967">Погибших в аварии реактора</text>
+    <text class="cell" x="442" y="960">people / чел.</text>
+    <text class="cell" x="612" y="960">2 (1989–91) vs 3 (C2C-97)</text>
+    <text class="cell" x="772" y="960">1989</text>
+    <text class="cell" x="852" y="960">1997</text>
+    <text class="badge" x="960" y="960">❌ CONTRA</text>
+
+    <!-- r20 briefings STABLE -->
+    <text class="param" x="44" y="994">Number of briefings reviewed</text>
+    <text class="param-ru" x="44" y="1009">Число инструктажей</text>
+    <text class="cell" x="442" y="1002">briefings</text>
+    <text class="cell" x="612" y="1002">120–122</text>
+    <text class="cell" x="772" y="1002">1989</text>
+    <text class="cell" x="852" y="1002">2018</text>
+    <text class="badge" x="960" y="1002">✅ STABLE</text>
+  </g>
+
+  <text class="footer" x="32" y="1048">Source: MASTER_technical_claims.md §0.0 (key parameters), §10 (contradictions), §11 (misattributions).</text>
+  <text class="footer-ru" x="32" y="1066">Источник: MASTER_technical_claims.md §0.0 (ключевые параметры), §10 (противоречия), §11 (ошибочные атрибуции).</text>
+  <text class="footer" x="32" y="1090">Bob Lazar Archive v1.0 — ASRP UAP Reverse-Engineering Study</text>
+  <text class="footer-ru" x="32" y="1108">Архив Bob Lazar v1.0 — ASRP, исследование обратной разработки UAP</text>
+</svg>

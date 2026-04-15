@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="860" viewBox="0 0 1180 860" role="img" aria-labelledby="title desc">
+  <title id="title">Bob Lazar — Claim vs External Corroboration Matrix</title>
+  <desc id="desc">Major Lazar claims scored against six external verification events.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:24px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:14px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:9px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .claim { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#0f172a; font-weight:600; }
+    .claim-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .verify { fill:#9ad17b; }
+    .partial { fill:#f6c85f; }
+    .contra { fill:#f29c99; }
+    .na { fill:#d9d9d9; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#cbd5e1; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+  </style>
+  <rect class="bg" width="1180" height="860"/>
+  <text class="title" x="32" y="44">Claim Corroboration Matrix / Матрица внешней верификации заявлений</text>
+  <text class="subtitle" x="32" y="68">12 major Lazar claims vs 6 external verification events (2004–2020).</text>
+  <text class="subtitle-ru" x="32" y="86">12 ключевых заявлений Лазара против 6 внешних событий верификации (2004–2020).</text>
+
+  <!-- legend -->
+  <rect x="32" y="102" width="14" height="14" class="verify stroke"/>
+  <text class="legend" x="52" y="114">✓ directly verifies / подтверждает</text>
+  <rect x="260" y="102" width="14" height="14" class="partial stroke"/>
+  <text class="legend" x="280" y="114">~ partial support / частично</text>
+  <rect x="460" y="102" width="14" height="14" class="contra stroke"/>
+  <text class="legend" x="480" y="114">✗ contradicts / опровергает</text>
+  <rect x="660" y="102" width="14" height="14" class="na stroke"/>
+  <text class="legend" x="680" y="114">N/A unrelated / не связано</text>
+
+  <!-- header -->
+  <rect x="32" y="132" width="340" height="60" fill="#1f2937"/>
+  <rect x="372" y="132" width="130" height="60" fill="#1f2937"/>
+  <rect x="502" y="132" width="130" height="60" fill="#1f2937"/>
+  <rect x="632" y="132" width="130" height="60" fill="#1f2937"/>
+  <rect x="762" y="132" width="130" height="60" fill="#1f2937"/>
+  <rect x="892" y="132" width="130" height="60" fill="#1f2937"/>
+  <rect x="1022" y="132" width="130" height="60" fill="#1f2937"/>
+
+  <text class="hdr" x="202" y="158">Claim / Заявление</text>
+  <text class="hdr-ru" x="202" y="174">Lazar (1989–2026)</text>
+
+  <text class="hdr" x="437" y="152">Feb 2004</text>
+  <text class="hdr" x="437" y="168">Dubna 115 synth</text>
+  <text class="hdr-ru" x="437" y="184">Синтез в Дубне</text>
+
+  <text class="hdr" x="567" y="152">2013 CIA</text>
+  <text class="hdr" x="567" y="168">Area 51 ack.</text>
+  <text class="hdr-ru" x="567" y="184">Признание CIA</text>
+
+  <text class="hdr" x="697" y="152">Feb 2017</text>
+  <text class="hdr" x="697" y="168">FBI raid UN</text>
+  <text class="hdr-ru" x="697" y="184">Рейд ФБР</text>
+
+  <text class="hdr" x="827" y="152">Apr 2020</text>
+  <text class="hdr" x="827" y="168">Tic-Tac DoD</text>
+  <text class="hdr-ru" x="827" y="184">Видео Пентагона</text>
+
+  <text class="hdr" x="957" y="152">2021 UAPTF</text>
+  <text class="hdr" x="957" y="168">Pentagon rpt</text>
+  <text class="hdr-ru" x="957" y="184">Доклад UAPTF</text>
+
+  <text class="hdr" x="1087" y="152">Dec 2020</text>
+  <text class="hdr" x="1087" y="168">Papoose aerial</text>
+  <text class="hdr-ru" x="1087" y="184">Аэрофото</text>
+
+  <!-- 12 rows, 48px tall starting y=192 -->
+  <g class="stroke">
+    <!-- r1: S-4 exists -->
+    <rect x="32"   y="192" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="192" width="130" height="48" class="na"/>
+    <rect x="502"  y="192" width="130" height="48" class="partial"/>
+    <rect x="632"  y="192" width="130" height="48" class="na"/>
+    <rect x="762"  y="192" width="130" height="48" class="na"/>
+    <rect x="892"  y="192" width="130" height="48" class="na"/>
+    <rect x="1022" y="192" width="130" height="48" class="partial"/>
+    <!-- r2: 115 as fuel -->
+    <rect x="32"   y="240" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="240" width="130" height="48" class="partial"/>
+    <rect x="502"  y="240" width="130" height="48" class="na"/>
+    <rect x="632"  y="240" width="130" height="48" class="na"/>
+    <rect x="762"  y="240" width="130" height="48" class="na"/>
+    <rect x="892"  y="240" width="130" height="48" class="na"/>
+    <rect x="1022" y="240" width="130" height="48" class="na"/>
+    <!-- r3: 115 stable isotope -->
+    <rect x="32"   y="288" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="288" width="130" height="48" class="contra"/>
+    <rect x="502"  y="288" width="130" height="48" class="na"/>
+    <rect x="632"  y="288" width="130" height="48" class="na"/>
+    <rect x="762"  y="288" width="130" height="48" class="na"/>
+    <rect x="892"  y="288" width="130" height="48" class="na"/>
+    <rect x="1022" y="288" width="130" height="48" class="na"/>
+    <!-- r4: antimatter reactor mechanism -->
+    <rect x="32"   y="336" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="336" width="130" height="48" class="na"/>
+    <rect x="502"  y="336" width="130" height="48" class="na"/>
+    <rect x="632"  y="336" width="130" height="48" class="na"/>
+    <rect x="762"  y="336" width="130" height="48" class="na"/>
+    <rect x="892"  y="336" width="130" height="48" class="na"/>
+    <rect x="1022" y="336" width="130" height="48" class="na"/>
+    <!-- r5: gravity wave propulsion -->
+    <rect x="32"   y="384" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="384" width="130" height="48" class="na"/>
+    <rect x="502"  y="384" width="130" height="48" class="na"/>
+    <rect x="632"  y="384" width="130" height="48" class="na"/>
+    <rect x="762"  y="384" width="130" height="48" class="partial"/>
+    <rect x="892"  y="384" width="130" height="48" class="partial"/>
+    <rect x="1022" y="384" width="130" height="48" class="na"/>
+    <!-- r6: hand-bone scanner -->
+    <rect x="32"   y="432" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="432" width="130" height="48" class="na"/>
+    <rect x="502"  y="432" width="130" height="48" class="na"/>
+    <rect x="632"  y="432" width="130" height="48" class="na"/>
+    <rect x="762"  y="432" width="130" height="48" class="na"/>
+    <rect x="892"  y="432" width="130" height="48" class="na"/>
+    <rect x="1022" y="432" width="130" height="48" class="na"/>
+    <!-- r7: briefing docs (ZR) -->
+    <rect x="32"   y="480" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="480" width="130" height="48" class="na"/>
+    <rect x="502"  y="480" width="130" height="48" class="na"/>
+    <rect x="632"  y="480" width="130" height="48" class="na"/>
+    <rect x="762"  y="480" width="130" height="48" class="na"/>
+    <rect x="892"  y="480" width="130" height="48" class="na"/>
+    <rect x="1022" y="480" width="130" height="48" class="na"/>
+    <!-- r8: 9 reverse-engineered craft -->
+    <rect x="32"   y="528" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="528" width="130" height="48" class="na"/>
+    <rect x="502"  y="528" width="130" height="48" class="partial"/>
+    <rect x="632"  y="528" width="130" height="48" class="na"/>
+    <rect x="762"  y="528" width="130" height="48" class="na"/>
+    <rect x="892"  y="528" width="130" height="48" class="na"/>
+    <rect x="1022" y="528" width="130" height="48" class="partial"/>
+    <!-- r9: tic-tac UAP correlation -->
+    <rect x="32"   y="576" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="576" width="130" height="48" class="na"/>
+    <rect x="502"  y="576" width="130" height="48" class="na"/>
+    <rect x="632"  y="576" width="130" height="48" class="na"/>
+    <rect x="762"  y="576" width="130" height="48" class="verify"/>
+    <rect x="892"  y="576" width="130" height="48" class="verify"/>
+    <rect x="1022" y="576" width="130" height="48" class="na"/>
+    <!-- r10: Gov intimidation / FBI raid -->
+    <rect x="32"   y="624" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="624" width="130" height="48" class="na"/>
+    <rect x="502"  y="624" width="130" height="48" class="na"/>
+    <rect x="632"  y="624" width="130" height="48" class="verify"/>
+    <rect x="762"  y="624" width="130" height="48" class="na"/>
+    <rect x="892"  y="624" width="130" height="48" class="na"/>
+    <rect x="1022" y="624" width="130" height="48" class="na"/>
+    <!-- r11: 1941 Papoose map with road -->
+    <rect x="32"   y="672" width="340" height="48" class="rowA"/>
+    <rect x="372"  y="672" width="130" height="48" class="na"/>
+    <rect x="502"  y="672" width="130" height="48" class="na"/>
+    <rect x="632"  y="672" width="130" height="48" class="na"/>
+    <rect x="762"  y="672" width="130" height="48" class="na"/>
+    <rect x="892"  y="672" width="130" height="48" class="na"/>
+    <rect x="1022" y="672" width="130" height="48" class="verify"/>
+    <!-- r12: compartmentalization -->
+    <rect x="32"   y="720" width="340" height="48" class="rowB"/>
+    <rect x="372"  y="720" width="130" height="48" class="na"/>
+    <rect x="502"  y="720" width="130" height="48" class="partial"/>
+    <rect x="632"  y="720" width="130" height="48" class="na"/>
+    <rect x="762"  y="720" width="130" height="48" class="na"/>
+    <rect x="892"  y="720" width="130" height="48" class="partial"/>
+    <rect x="1022" y="720" width="130" height="48" class="na"/>
+  </g>
+
+  <!-- Claim labels -->
+  <g>
+    <text class="claim"    x="44" y="214">S-4 facility exists</text>
+    <text class="claim-ru" x="44" y="232">Существование объекта S-4</text>
+
+    <text class="claim"    x="44" y="262">Element 115 as fuel</text>
+    <text class="claim-ru" x="44" y="280">Элемент 115 как топливо</text>
+
+    <text class="claim"    x="44" y="310">Element 115 stable isotope</text>
+    <text class="claim-ru" x="44" y="328">Стабильный изотоп 115</text>
+
+    <text class="claim"    x="44" y="358">Antimatter reactor mechanism</text>
+    <text class="claim-ru" x="44" y="376">Механизм антиматериального реактора</text>
+
+    <text class="claim"    x="44" y="406">Gravity-wave propulsion</text>
+    <text class="claim-ru" x="44" y="424">Гравитационно-волновая двиг. установка</text>
+
+    <text class="claim"    x="44" y="454">Hand-bone scanner security</text>
+    <text class="claim-ru" x="44" y="472">Сканер костей руки (безопасность)</text>
+
+    <text class="claim"    x="44" y="502">Briefing documents (Zeta Reticuli)</text>
+    <text class="claim-ru" x="44" y="520">Брифинги (Zeta Reticuli)</text>
+
+    <text class="claim"    x="44" y="550">9 reverse-engineered craft at S-4</text>
+    <text class="claim-ru" x="44" y="568">9 обратно разработанных кораблей</text>
+
+    <text class="claim"    x="44" y="598">Tic-Tac UAP correlation</text>
+    <text class="claim-ru" x="44" y="616">Корреляция с Tic-Tac UAP</text>
+
+    <text class="claim"    x="44" y="646">Government intimidation / FBI raid</text>
+    <text class="claim-ru" x="44" y="664">Давление властей / рейд ФБР</text>
+
+    <text class="claim"    x="44" y="694">1941 Papoose Lake map with road</text>
+    <text class="claim-ru" x="44" y="712">Карта 1941 г. Papoose Lake с дорогой</text>
+
+    <text class="claim"    x="44" y="742">Compartmentalization at S-4</text>
+    <text class="claim-ru" x="44" y="760">Компартментализация на S-4</text>
+  </g>
+
+  <!-- Cell marks -->
+  <g>
+    <!-- r1 S-4 exists -->
+    <text class="cell" x="437"  y="222">N/A</text>
+    <text class="cell" x="567"  y="222">~</text>
+    <text class="cell" x="697"  y="222">N/A</text>
+    <text class="cell" x="827"  y="222">N/A</text>
+    <text class="cell" x="957"  y="222">N/A</text>
+    <text class="cell" x="1087" y="222">~</text>
+    <!-- r2 115 fuel -->
+    <text class="cell" x="437"  y="270">~</text>
+    <text class="cell" x="567"  y="270">N/A</text>
+    <text class="cell" x="697"  y="270">N/A</text>
+    <text class="cell" x="827"  y="270">N/A</text>
+    <text class="cell" x="957"  y="270">N/A</text>
+    <text class="cell" x="1087" y="270">N/A</text>
+    <!-- r3 115 stable isotope -->
+    <text class="cell" x="437"  y="318">✗</text>
+    <text class="cell" x="567"  y="318">N/A</text>
+    <text class="cell" x="697"  y="318">N/A</text>
+    <text class="cell" x="827"  y="318">N/A</text>
+    <text class="cell" x="957"  y="318">N/A</text>
+    <text class="cell" x="1087" y="318">N/A</text>
+    <!-- r4 reactor mechanism -->
+    <text class="cell" x="437"  y="366">N/A</text>
+    <text class="cell" x="567"  y="366">N/A</text>
+    <text class="cell" x="697"  y="366">N/A</text>
+    <text class="cell" x="827"  y="366">N/A</text>
+    <text class="cell" x="957"  y="366">N/A</text>
+    <text class="cell" x="1087" y="366">N/A</text>
+    <!-- r5 gravity wave propulsion -->
+    <text class="cell" x="437"  y="414">N/A</text>
+    <text class="cell" x="567"  y="414">N/A</text>
+    <text class="cell" x="697"  y="414">N/A</text>
+    <text class="cell" x="827"  y="414">~</text>
+    <text class="cell" x="957"  y="414">~</text>
+    <text class="cell" x="1087" y="414">N/A</text>
+    <!-- r6 hand-bone scanner -->
+    <text class="cell" x="437"  y="462">N/A</text>
+    <text class="cell" x="567"  y="462">N/A</text>
+    <text class="cell" x="697"  y="462">N/A</text>
+    <text class="cell" x="827"  y="462">N/A</text>
+    <text class="cell" x="957"  y="462">N/A</text>
+    <text class="cell" x="1087" y="462">N/A</text>
+    <!-- r7 briefing docs -->
+    <text class="cell" x="437"  y="510">N/A</text>
+    <text class="cell" x="567"  y="510">N/A</text>
+    <text class="cell" x="697"  y="510">N/A</text>
+    <text class="cell" x="827"  y="510">N/A</text>
+    <text class="cell" x="957"  y="510">N/A</text>
+    <text class="cell" x="1087" y="510">N/A</text>
+    <!-- r8 9 craft -->
+    <text class="cell" x="437"  y="558">N/A</text>
+    <text class="cell" x="567"  y="558">~</text>
+    <text class="cell" x="697"  y="558">N/A</text>
+    <text class="cell" x="827"  y="558">N/A</text>
+    <text class="cell" x="957"  y="558">N/A</text>
+    <text class="cell" x="1087" y="558">~</text>
+    <!-- r9 Tic-Tac -->
+    <text class="cell" x="437"  y="606">N/A</text>
+    <text class="cell" x="567"  y="606">N/A</text>
+    <text class="cell" x="697"  y="606">N/A</text>
+    <text class="cell" x="827"  y="606">✓</text>
+    <text class="cell" x="957"  y="606">✓</text>
+    <text class="cell" x="1087" y="606">N/A</text>
+    <!-- r10 gov intimidation -->
+    <text class="cell" x="437"  y="654">N/A</text>
+    <text class="cell" x="567"  y="654">N/A</text>
+    <text class="cell" x="697"  y="654">✓</text>
+    <text class="cell" x="827"  y="654">N/A</text>
+    <text class="cell" x="957"  y="654">N/A</text>
+    <text class="cell" x="1087" y="654">N/A</text>
+    <!-- r11 1941 Papoose map -->
+    <text class="cell" x="437"  y="702">N/A</text>
+    <text class="cell" x="567"  y="702">N/A</text>
+    <text class="cell" x="697"  y="702">N/A</text>
+    <text class="cell" x="827"  y="702">N/A</text>
+    <text class="cell" x="957"  y="702">N/A</text>
+    <text class="cell" x="1087" y="702">✓</text>
+    <!-- r12 compartmentalization -->
+    <text class="cell" x="437"  y="750">N/A</text>
+    <text class="cell" x="567"  y="750">~</text>
+    <text class="cell" x="697"  y="750">N/A</text>
+    <text class="cell" x="827"  y="750">N/A</text>
+    <text class="cell" x="957"  y="750">~</text>
+    <text class="cell" x="1087" y="750">N/A</text>
+  </g>
+
+  <text class="footer" x="32" y="794">Judgement cells: Dubna 2004 vs "stable 115" = ✗ (short-lived synthesis contradicts absolute-stability framing; §1.1, §10.2). Papoose aerial vs S-4 exists = ~ (shows facility footprint but not contents).</text>
+  <text class="footer-ru" x="32" y="812">Оценочные клетки: Дубна 2004 vs «стабильный 115» = ✗ (короткоживущий синтез опровергает; §1.1, §10.2). Аэрофото Papoose vs «S-4 существует» = ~ (видна площадка, но не содержимое).</text>
+  <text class="footer" x="32" y="836">Basis: §12.3 externally verifiable vs unfalsifiable. Bob Lazar Archive v1.0 — ASRP UAP Reverse-Engineering Study.</text>
+  <text class="footer-ru" x="32" y="854">Основание: §12.3. Архив Bob Lazar v1.0 — ASRP, исследование обратной разработки UAP.</text>
+</svg>
