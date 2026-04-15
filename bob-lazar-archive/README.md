@@ -4,13 +4,28 @@ A comprehensive research archive of Bob Lazar's public interviews, podcast appea
 
 Полный исследовательский архив публичных интервью Боба Лазара (Bob Lazar), подкаст-выступлений, документальных фильмов и конференционных докладов, сосредоточенный на его утверждениях о **S-4 / Зоне 51**, **Элементе 115 / Московии**, **антиматериальном реакторе**, **гравитационно-волновой двигательной установке** и аппарате **Sport Model**.
 
-**EN:** 23 transcribed appearances spanning 37 years, cross-referenced technical analysis, and QA-verified synthesis of every technical claim Lazar has made on record.
+**EN:** 24 transcribed appearances spanning 37 years, cross-referenced technical analysis, and QA-verified synthesis of every technical claim Lazar has made on record.
 
-**RU:** 23 транскрибированных выступления, охватывающих 37 лет, перекрёстно-ссылочный технический анализ и проверенный QA синтез каждого технического утверждения, сделанного Лазаром в записи.
+**RU:** 24 транскрибированных выступления, охватывающих 37 лет, перекрёстно-ссылочный технический анализ и проверенный QA синтез каждого технического утверждения, сделанного Лазаром в записи.
 
 ![Timeline of Bob Lazar appearances 1989–2026 / Хронология публичных выступлений Боба Лазара 1989–2026](diagrams/rendered/timeline_of_appearances.png)
 
-*Chronological overview of all 23 transcribed appearances across 37 years. / Хронологический обзор всех 23 транскрибированных выступлений за 37 лет.*
+*Chronological overview of all 24 transcribed appearances across 37 years. / Хронологический обзор всех 24 транскрибированных выступлений за 37 лет.*
+
+---
+
+## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
+
+| Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
+|------------------|----------------------|-------------|-----------------|
+| Main Technical Reference / Главный технический справочник | Cross-era topical synthesis of every technical claim / Междуэпохальный тематический синтез всех технических заявлений | [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) | ✅ Available / Доступно |
+| Interview Catalog / Каталог интервью | Complete chronological catalog of known appearances / Полный хронологический каталог известных выступлений | [`catalog/interviews.md`](catalog/interviews.md) | ✅ Available / Доступно |
+| Element 115 / Dubna Interview / Интервью 115 / Дубна | ASRP.media interview — institutional Dubna voice on element 115 / Интервью ASRP.media — институциональный голос Дубны об Элементе 115 | [`catalog/asrp_media_115_interview.md`](catalog/asrp_media_115_interview.md) | ✅ Available / Доступно |
+| Raw Transcripts / Сырые транскрипты | Timestamped Whisper transcriptions (24 files) / Транскрипции Whisper с таймкодами (24 файла) | [`transcripts/`](transcripts/) | ✅ Available / Доступно |
+| Per-Interview Analysis / Анализ по интервью | Detailed technical blocks per source, grouped by era (6 files) / Подробные технические блоки по источникам, по эпохам (6 файлов) | [`analysis/per-interview/`](analysis/per-interview/) | ✅ Available / Доступно |
+| Topical Analysis / Тематический анализ | Same content grouped by topic, per era (6 files) / То же содержание по темам, по эпохам (6 файлов) | [`analysis/topical/`](analysis/topical/) | ✅ Available / Доступно |
+| Visual Diagrams / Визуальные схемы | Mermaid sources and rendered SVG/PNG diagrams (12 files) / Исходники Mermaid и отрендеренные SVG/PNG-схемы (12 файлов) | [`diagrams/`](diagrams/) | ✅ Available / Доступно |
+| QA Reviews / Ревью QA | Hallucination audit and structural/visual reviews / Аудит галлюцинаций и структурные/визуальные ревью | [`analysis/QA_REVIEW.md`](analysis/QA_REVIEW.md), [`analysis/REVIEW_*.md`](analysis/) | ✅ Available / Доступно |
 
 ---
 
@@ -35,19 +50,25 @@ bob-lazar-archive/
 │   │                                       сырые транскрипции аудио (OpenAI Whisper, с таймкодами)
 │   ├── 01_1989-05-15_KLAS_Dennis_silhouette.txt
 │   ├── 02_1989-11-10_KLAS_Best_Evidence_Part1.txt
-│   ├── ... (23 files total / всего 23 файла, 2MB)
+│   ├── ... (24 files total / всего 24 файла, ~2MB)
+│   ├── 52_2026_S4_Bob_Lazar_Story.txt
 │   └── 53_2026-04-03_JRE_2479.txt
+│
+├── diagrams/                             ← visual components (Mermaid + SVG) /
+│   │                                       визуальные компоненты (Mermaid + SVG)
+│   ├── *.mmd, *.svg                      (12 source files / 12 исходных файлов)
+│   └── rendered/*.png                    (pre-rendered PNGs / предварительно отрисованные PNG)
+│
+├── CHANGELOG.md                          ← version history / история версий
 │
 └── analysis/                             ← extracted technical content /
     │                                       извлечённое техническое содержание
-    ├── MASTER_technical_claims.md        ⭐ Master synthesis (English, ~66KB) /
-    │                                       Основной синтез (английский, ~66 КБ)
-    ├── MASTER_technical_claims_RU.md     ⭐ Master synthesis (Russian, ~97KB) /
-    │                                       Основной синтез (русский, ~97 КБ)
-    ├── QA_REVIEW.md                      Hallucination audit of EN master /
-    │                                     Аудит галлюцинаций английского мастер-документа
-    ├── RU_TRANSLATION_REVIEW.md          Translation completeness audit /
-    │                                     Аудит полноты перевода
+    ├── MASTER_technical_claims.md        ⭐ Bilingual master synthesis /
+    │                                       Двуязычный основной синтез
+    ├── QA_REVIEW.md                      Hallucination + review gates audit /
+    │                                     Аудит галлюцинаций и ревью-гейтов
+    ├── REVIEW_2A/2B/2C/3A/3B/3C...md     Per-agent batch reviews /
+    │                                     Ревью по каждому агенту в батчах
     │
     ├── per-interview/                    ← per-source detailed technical blocks /
     │                                       подробные технические блоки по каждому источнику
@@ -55,7 +76,8 @@ bob-lazar-archive/
     │   ├── 1992-1996_per_interview.md
     │   ├── 1997-2009_per_interview.md
     │   ├── 2016-2018_docs_per_interview.md
-    │   └── 2018-2026_per_interview.md
+    │   ├── 2018-2026_per_interview.md
+    │   └── 2026_s4_doc_per_interview.md
     │
     └── topical/                          ← same content grouped by topic, per era /
                                             то же содержание, сгруппированное по темам, по эпохам
@@ -63,16 +85,17 @@ bob-lazar-archive/
         ├── 1992-1996_topical.md
         ├── 1997-2009_topical.md
         ├── 2016-2018_docs_topical.md
-        └── 2018-2026_topical.md
+        ├── 2018-2026_topical.md
+        └── 2026_s4_doc_topical.md
 ```
 
 ---
 
 ## Start here / С чего начать
 
-**EN — If you want the technical claims:** → [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) (English) or [`analysis/MASTER_technical_claims_RU.md`](analysis/MASTER_technical_claims_RU.md) (Russian)
+**EN — If you want the technical claims:** → [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) (bilingual EN+RU)
 
-**RU — Если нужны технические утверждения:** → [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) (английский) или [`analysis/MASTER_technical_claims_RU.md`](analysis/MASTER_technical_claims_RU.md) (русский)
+**RU — Если нужны технические утверждения:** → [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) (двуязычный EN+RU)
 
 **EN — If you want the raw transcripts:** → [`transcripts/`](transcripts/)
 **RU — Если нужны сырые транскрипты:** → [`transcripts/`](transcripts/)
@@ -94,7 +117,7 @@ bob-lazar-archive/
 | 1997–2009 | 4 | **Comprehensive C2C 1997**, Element 115 Russian synthesis era / **Исчерпывающий C2C 1997**, эпоха русского синтеза Элемента 115 |
 | 2016–2018 docs / документалки | 2 | Corbell's **Cosmic Whistleblower** + the full **Area 51 & Flying Saucers** doc / **Cosmic Whistleblower** Корбелла + полнометражка **Area 51 & Flying Saucers** |
 | 2018–2026 | 6 | Modern resurgence: Larry King, **JRE #1315**, **JRE #2479**, S4 doc era / Современное возрождение: Larry King, **JRE #1315**, **JRE #2479**, эпоха документалок об S4 |
-| **Total / Всего** | **23** | ~2 MB of text, all timestamped `[HH:MM:SS]` / ~2 МБ текста, всё с таймкодами `[ЧЧ:ММ:СС]` |
+| **Total / Всего** | **24** | ~2 MB of text, all timestamped `[HH:MM:SS]` / ~2 МБ текста, всё с таймкодами `[ЧЧ:ММ:СС]` |
 
 ---
 
@@ -263,3 +286,41 @@ bob-lazar-archive/
 **EN:** If you use this archive in research, please link back to the repository. This is a working research archive. Corrections and additions welcome via pull request.
 
 **RU:** Если вы используете этот архив в исследовании, пожалуйста, дайте ссылку на репозиторий. Это рабочий исследовательский архив. Исправления и дополнения приветствуются через pull request.
+
+---
+
+## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
+
+<div align="center">
+
+### Parent Repository / Родительский Репозиторий
+
+</div>
+
+| Repository / Репозиторий | Direction / Направление | Link / Ссылка |
+|-------------------------|------------------------|---------------|
+| **UAP Reverse Engineering Study / Исследование по Реверс-Инжинирингу НАЯ** | UAP fragment analysis (AI + archival + ECP) / Анализ фрагмента НАЯ (ИИ + архив + КП) | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/UAP_Reverse_Engineering_Study) |
+
+<div align="center">
+
+### Related Research Repositories / Связанные Исследовательские Репозитории
+
+</div>
+
+| Repository / Репозиторий | Direction / Направление | Link / Ссылка |
+|-------------------------|------------------------|---------------|
+| **Hyperbolic Field Blood Plasma Study / Исследование Плазмы Крови** | Blood plasma coagulation / Свёртываемость плазмы | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_BloodPlasma_Study) |
+| **Hyperbolic Field Agricultural Study / Сельскохозяйственное Исследование** | Plant & seed growth / Рост растений и семян | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study) |
+| **Hyperbolic Field DAAT Crystal Study / Исследование Кристаллов DAAT** | Crystal-human interaction / Взаимодействие кристалл-человек | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_DAAT_Crystal_Study) |
+| **Hyperbolic Field Saccharomyces Study / Исследование Дрожжей Saccharomyces** | Yeast fermentation / Ферментация дрожжей | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_SaccharomycesCerevisiae_Study) |
+| **ASRP.art** | Art & consciousness / Искусство и сознание | [View / Просмотр](https://github.com/AdvancedScientificResearchProjects/Axionetic_Sensing_Reactions_Platform_in_Art) |
+
+---
+
+<div align="center">
+
+**ASRP RESEARCH STANDARD v2.1**
+
+**Organization / Организация:** Advanced Scientific Research Projects (ASRP)
+
+</div>

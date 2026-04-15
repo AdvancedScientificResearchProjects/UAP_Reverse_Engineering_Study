@@ -25,6 +25,9 @@ source_code: ASRP-MEDIA
 
 # ASRP Media interview on Dubna, Element 115, and the Lazar connection
 
+> **Navigation / Навигация:** [← README](../README.md) · [Master / Мастер](../analysis/MASTER_technical_claims.md) · [Per-Interview / По интервью](../analysis/per-interview/) · [Topical / Тематически](../analysis/topical/) · [Catalog / Каталог](../catalog/) · [Diagrams / Схемы](../diagrams/)
+
+
 ## Provenance
 
 - The interview was recorded **28 September 2021** and held in ASRP's classified archive until ASRP.media published it on **9 December 2025**, citing post-Congressional-UAP-hearings declassification wave as the trigger.

@@ -1,5 +1,7 @@
 # Bob Lazar 1989–1991 — Per-Interview Technical Digest / Постинтервью Технический Дайджест
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Foundational-era interviews. Only technical content extracted. Quotes carry timestamps from the transcripts so the exact moment can be located.
 
 Интервью основополагающей эпохи. Извлечено только техническое содержание. Цитаты снабжены таймкодами из транскриптов для точной локации момента.

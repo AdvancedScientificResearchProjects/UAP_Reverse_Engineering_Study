@@ -1,5 +1,7 @@
 # Bob Lazar — Per-Interview Technical Extraction (1997–2009) / Постинтервью Техническое Извлечение (1997–2009)
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Scope: four C2C appearances. Only Lazar's technical/biographical statements are captured. Callers, ads, politics, religion, and co-guests (Lear, Huff, Knapp) are summarized only where they frame or contradict Lazar's claims.
 
 Охват: четыре появления на C2C. Извлечены только технические/биографические заявления Лазара. Звонящие, реклама, политика, религия и соведущие/гости (Lear, Huff, Knapp) резюмированы лишь там, где они обрамляют или противоречат заявлениям Лазара.

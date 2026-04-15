@@ -1,5 +1,7 @@
 # S4: The Bob Lazar Story (Vendittelli / Matteau, 2026) — Per-Interview Analysis / Постинтервью Анализ
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 **File / Файл:** `transcripts/52_2026_S4_Bob_Lazar_Story.txt`
 **Source code / Код источника:** **S4DOC-26**
 **Duration / Длительность:** 1h 54m

@@ -1,5 +1,7 @@
 # Lazar 2018–2026 Technical Content — Per Interview / Техническое содержание 2018–2026 — Постинтервью
 
+> **Navigation / Навигация:** [← README](../../README.md) · [Master / Мастер](../MASTER_technical_claims.md) · [Per-Interview / По интервью](../per-interview/) · [Topical / Тематически](../topical/) · [Catalog / Каталог](../../catalog/) · [Diagrams / Схемы](../../diagrams/)
+
 Six transcripts covering Lazar's modern resurgence era (30+ years after 1989 revelation). Each section extracts only TECHNICAL content — propulsion, physics, craft details, S-4 operations, biography/credentials, and new evidence. Podcast banter, politics, and unrelated tangents are excluded.
 
 Шесть транскриптов эпохи современного возвращения Лазара (30+ лет после разоблачения 1989). Каждый раздел извлекает только ТЕХНИЧЕСКОЕ содержание — двигатель, физика, детали аппарата, эксплуатация S-4, биография/квалификация и новые свидетельства. Подкаст-трёп, политика и побочные темы исключены.
