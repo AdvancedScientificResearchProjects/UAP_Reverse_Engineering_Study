@@ -1,9 +1,9 @@
 # MASTER Chernobrov Technical Claims / Технические заявления Черноброва — MASTER
 
 **Author of the claims under review / Автор рассматриваемых заявлений:** Вадим Александрович Чернобров (1965–2017), координатор ОНИОО «Космопоиск», МАИ.
-**Scope / Область:** Integrated technical synthesis of **16 bibliographic monographs (~1.15 MB analytical extracts)**, 2 article/patent files + **NET 4-issue compendium (~158 KB merged)**, 19 transcribed video-lectures, and the Faraday-Lab 2003 patent filing. Covers the Ловондатр time-machine family (1988–2002), measurement methodology, theoretical basis, field-experimental history, UAP-corpus linkage, safety data, institutional network and open contradictions. **v0.5.0 (2026-04-19): OCR complete for `B-EUFO` (Энциклопедия уфологии, 2007, 117 KB) and `B-VBCH10` (Время, Бессмертие, Человек, 2010, ~126 KB merged from 3 chunks); 18 new claims integrated, see §0.0 items 61–78. v0.5.1 (2026-04-19): Review-driven fixes (3) + NET compendium integration (Mishin clarified as «Dr.» peer-not-academician-not-consultant; f=c/d canonical English derivation in NET-12-2003; Frolov vortex-drive RU patent #2002128658; 29.05.2002 Faraday × Kosmopoisk contract; 12.04.2003 conference speaker list; Lovondatr-7 9-volunteer roster reconciled). 4 new §0.0 items (79–82); §11.12, §11.13, §11.14 added.**
+**Scope / Область:** Integrated technical synthesis of **16 bibliographic monographs (~1.15 MB analytical extracts)**, 2 article/patent files + **NET 4-issue compendium (~158 KB merged)**, **20 transcribed Whisper video-lectures covering 19 distinct lectures** (transcripts 08 and 20 are two passes of the same 25 March 2017 Zigelevsky Readings final public lecture — `ZIG-17`), and the Faraday-Lab 2003 patent filing. Covers the Ловондатр time-machine family (1988–2002), measurement methodology, theoretical basis, field-experimental history, UAP-corpus linkage, safety data, institutional network and open contradictions. **v0.5.0 (2026-04-19): OCR complete for `B-EUFO` and `B-VBCH10`; 18 new claims integrated, see §0.0 items 61–78. v0.5.1 (2026-04-19): Review-driven fixes (3) + NET compendium integration; 4 new §0.0 items (79–82); §11.12, §11.13, §11.14 added. v0.5.2 (2026-04-19): Final-lecture anchor — `ZIG-17` source code added (49-е Зигелевские чтения, 25 March 2017, Chernobrov's final public lecture 2 months before death); transcripts 08 and 20 retroactively identified as dual Whisper passes of the same source; §6 timeline entry; §8.8 dedicated ZIG-17 3zv-morphology block; §11.15 clarifies MV↔3zv identification as analyst's inference from `B-HRON03` §32.4, NOT Chernobrov's own claim.**
 **Bilingual policy / Двуязычная политика:** Russian-first verbatim + English gloss. All numerical claims carry source codes.
-**Synthesis date / Дата синтеза:** 2026-04-18 (v0.3.0); 2026-04-19 (v0.5.0 — `B-EUFO` + `B-VBCH10` integration); **2026-04-19 (v0.5.1 — review-driven fixes + NET compendium integration)**.
+**Synthesis date / Дата синтеза:** 2026-04-18 (v0.3.0); 2026-04-19 (v0.5.0 — `B-EUFO` + `B-VBCH10` integration); 2026-04-19 (v0.5.1 — review-driven fixes + NET compendium integration); **2026-04-19 (v0.5.2 — ZIG-17 final-lecture anchor)**.
 **Verdicts used / Метки:** ✅ STRONG (verbatim in ≥2 independent primary sources) · ⚠ DRIFTED (wording or number shifted across editions) · ❌ RETRACTED / PHANTOM (claim does not survive cross-check against primary sources).
 
 ---
@@ -81,13 +81,14 @@ Every numerical and qualitative claim in this document carries at least one of t
 ![Матрица достоверности источников (19 транскриптов × 5 критериев) / Source credibility matrix (19 transcripts × 5 criteria)](../diagrams/source_credibility_matrix.svg)
 *Рисунок 0.3: Матрица оценки достоверности 19 транскрибированных лекций по 5 критериям / Figure 0.3: Credibility-assessment matrix for 19 transcribed lectures across 5 criteria*
 
-Codes `PI-01` … `PI-19` span 19 transcribed lectures. Key codes used below:
+Codes `PI-01` … `PI-19` span 19 distinct lectures transcribed across 20 Whisper files (transcripts 08 and 20 are two passes of the same source — see `ZIG-17`). Key codes used below:
 
 | Code | Lecture / Venue |
 |---|---|
 | `HRON-14` | «Хроноаномалии», Гузерипль 2014 |
 | `GH-14` | «Гиперпространственные технологии», 2014 |
-| `3ZV-NLO` | «Трёхзвёздник-НЛО» lecture |
+| `ZIG-17` | **49-е Зигелевские чтения, Москва, 25 марта 2017** — «Расследование активности и восстановление конструкции трёхзвёздного НЛО (Бельгийского треугольника)», 22 мин. **Chernobrov's FINAL PUBLIC LECTURE** (2 months before death 18 May 2017). Two Whisper passes of the same source: transcript `08_3zvezdnie_NLO_22min.txt` (ex-`3ZV-NLO`) + transcript `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` (venue/date anchor). Dedicated analysis: [`20_zigelevsky_2017_3star.md`](per-interview/20_zigelevsky_2017_3star.md). YouTube `4YGeR1KsXy0` (UnionKOSMOPOISK, published 13 April 2017) |
+| `3ZV-NLO` | *(deprecated alias)* — folded into `ZIG-17` v0.5.2 |
 | `PM-39` | «Параллельные миры» |
 | `MG-DOC-17` | Медведицкая гряда documentary lecture |
 | `NLO-DPL-24` | НЛО-доклад |
@@ -866,7 +867,8 @@ Chernobrov treats Okhatrin's Tesla-antenna excitation of the microleptonic field
 | 28 June 2014 | Гузерипль 2014 «Машина Времени и хронопутешествия» | `PI-07_13` · `KP-TEM` |
 | 2015 | `B-MG05` Vече edition | CORE |
 | 2015 | «Послание в 23 век» Kosmopoisk time capsule project | `KP-TEM` |
-| **18 May 2017** | **Chernobrov's death** | memorialised throughout lectures |
+| **25 March 2017** | **Chernobrov delivers FINAL PUBLIC LECTURE at 49-е Зигелевские чтения / 49th Zigelevsky Readings, Moscow**: «Расследование активности и восстановление конструкции трёхзвёздного НЛО (Бельгийского треугольника)» / «Investigation of activity and reconstruction of the three-star UFO (Belgian triangle)», 22 min. Closing phenomenological position on the 3-star UFO specimen (35-year research programme under Zigel's institutional heir). 2 months before death. Classifies object as «техногенный» but does NOT identify it with the Lovondatr time-machine or with МВ; also zero mentions of Lazar / Element 115 / Ловондатр / МВ / ЭРП (confirmed clean). **Key verbatim facts** preserved: 80×80×50 m largest-class triangle; 0 → ≥20 000 km/h in ≤2 s (≈283 g); «миролюбив и неконфликтен» behavioural assessment; F-16 never successful intercept; 10–11 Oct 2001 all-day tracking via ~200 Kosmopoisk groups → vanished near Arzamas-16; 2000 Azerbaijan border incursion; 1997 first RF video; Moon silhouette 2010s via UFOSETI. Dual transcript: `08_3zvezdnie_NLO_22min.txt` (earlier Whisper pass) + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` (Groq Whisper-large-v3 pass with venue/date metadata) | `ZIG-17`; [`20_zigelevsky_2017_3star.md`](per-interview/20_zigelevsky_2017_3star.md); YouTube `4YGeR1KsXy0` |
+| **18 May 2017** | **Chernobrov's death** (final public lecture 2 months prior — 25 March 2017 ZIG-17) | memorialised throughout lectures; ZIG-17 |
 
 ---
 
@@ -1006,6 +1008,64 @@ Establishes Святой Грааль as an active 2010 «Космопоиск»
 - **Старики Федорович из с. Теребень, Калужская губ.** — one-verst walk took a full day; «помрачение времени, заколдованный круг».
 
 **Sites presented as natural Loвондатры** (locations where the квазимонополь-equivalent field is spontaneously present): **Семиречье / Календарь-гора**, **Монсегюр** (catarian heretic centre, historical anchor for Грааль hypothesis, tied to SS Гимлер expedition during WWII), **с. Теребень**, **г. Токмак** — all explicitly fitted into the same family of «хроноаномалии в природных зонах» referenced in `B-TPV01` (2001), now organised under a single thesis: **all of them operate the same physical mechanism the engineering Lovондатр texts describe**.
+
+### 8.8 ZIG-17 (2017 final public lecture) — closing Chernobrov position on 3-star UFO morphology
+
+**Source:** `ZIG-17` = 49-е Зигелевские чтения, Москва, 25 March 2017, 22 min. Chernobrov's **final public lecture** (2 months before death 18 May 2017). Dual transcript: `08_3zvezdnie_NLO_22min.txt` (earlier Whisper pass, dated "Transcribed: 2026-04-18") + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` (Groq Whisper-large-v3 pass carrying venue/date anchor). Dedicated analysis: [`per-interview/20_zigelevsky_2017_3star.md`](per-interview/20_zigelevsky_2017_3star.md). YouTube: `4YGeR1KsXy0` (UnionKOSMOPOISK, published 13 April 2017).
+
+This lecture is the **single most important 3-star UFO phenomenological document in the corpus** because it carries Chernobrov's last publicly-stated position on the specimen to which he devoted 35 years of fieldwork (since 1982, MAI, still under F.Yu. Zigel). It re-confirms the 3zv morphology parameters already present in transcript 08 and extends them with the venue/date anchor.
+
+**Re-confirmed morphology & kinematics (verbatim ZIG-17):**
+
+| Parameter | Value | ZIG-17 timecode |
+|---|---|---|
+| Three size classes; largest + most common | **80 × 80 × 50 m** | [19:36]–[19:59] |
+| Speed envelope (hover → top) | **0 → ≥20 000 km/h in ≤1–2 s** ⇒ **~283 g** implicit | [07:59]–[08:28] |
+| Silent hover ceiling | «примерно 20 тысяч» [metres altitude] (~20 km) | [08:07] |
+| Name (Kosmopoisk canonical) | «трёхзвёздник» / 3-star (NOT "Бельгийский треугольник") | [00:34]–[00:50] |
+| Landing sites instrumentally measured | «около десятка» (≈10) — subset engineered for reconstruction; total MG landings = 17 (`B-MPN`) | [18:51]–[19:36] |
+| Colour ↔ regime mapping | white = calm cruise; other colours = accelerate / decelerate / land / take-off | [19:59]–[20:58] |
+| Active lifespan documented | 1989 (Belgium) → 2001 (RF video) → 2010s (Moon silhouette via UFOSETI) → 2017+ | §2.2, §3.3, §5 |
+
+**Aviation-interaction summary (ZIG-17 [06:17]–[09:49]):**
+
+- F-16 radar-locks achieved, **zero successful intercepts** — Belgian Air Force and all others
+- Engagement doctrine: identification-only, no fire orders
+- «Cat-and-mouse» tail-switch manoeuvre observed, no damage
+- Verbatim behavioural classification: **«миролюбив и неконфликтен»** ("peaceable and non-confrontational") [09:30]–[09:49]
+
+**New case anchor from ZIG-17 — 10–11 October 2001 all-day tracking (verbatim [13:07]–[14:20]):**
+
+- **First documented full-day track** of a 3-star UFO via Kosmopoisk distributed-observer network
+- Organisational state: **~200 Kosmopoisk groups** operational by October 2001
+- Trajectory: S → E → N along the Volga corridor
+- **Vanishing point: Arzamas-16** (= Sarov, closed nuclear-weapon-design city, VNIIEF)
+- Methodology: slow-mode craft motion gave network phone-relay time to alert downstream observer groups
+- Expedition dispatched to Arzamas-16 immediately after disappearance
+
+This 2001 Volga track is **not covered in MASTER §6.4** as a Chernobrov numerical timeline entry — it enters the corpus through ZIG-17 verbatim testimony. It predates the 2002 Medveditskaya Lovondatr-7 field-tests (§8.3) by eight months but is not cross-correlated with a device pulse in any primary source. Treat as standalone observational entry.
+
+**Additional ZIG-17 case anchors:**
+
+- **2000 — Azerbaijan border incursion** [12:39]–[13:07]: Russian border-guard intercept attempt failed; craft entered RF from Azerbaijan side and vanished toward Caspian Sea. Standalone event, no device correlation.
+- **1997 — first Russian video** [12:22]–[12:31]: earliest RF visual-record anchor.
+- **2010s — Moon triangular silhouette** [14:43]–[15:11]: UFOSETI program single recorded case of triangular silhouette against lunar surface; the only extra-atmospheric extension Chernobrov makes in his 3zv corpus.
+
+**Canonical trajectory-intersection nodes** ZIG-17 [18:11]–[18:23]:
+1. **Гулькевичи (North Caucasus)** — annual Kosmopoisk expeditions
+2. **Медведицкая гряда** — annual Kosmopoisk expeditions (17 confirmed landings, 490 observations to 1997 per `B-MPN`)
+
+**CRITICAL NEGATIVE FINDING — ZIG-17 does NOT claim 3-star UFO = time machine:**
+
+- **Zero** mentions of «машина времени» / time machine / Ловондатр / МВ / ЭРП / матрёшка in the entire 22-minute lecture (confirmed scan).
+- **Zero** mentions of Lazar / Element 115 / Area 51 / S-4 / Moscovium (confirmed clean).
+- **Zero** mentions of хронопутешествие / chrono-travel / «потомки» / «будущее» as craft origin.
+- Chernobrov classifies the object as **«техногенный»** [03:54, 04:01] and refutes secret-human-Earth-origin hypotheses via the pre-aviation sighting record [02:38]–[02:52], but **does not articulate a positive origin hypothesis**. He leaves origin deliberately open.
+- The closing methodological frame [21:19]–[22:01] describes only the specimen-selection strategy («выхватить из всего этого многообразия нечто одно, легко идентифицированное и разобраться именно с этим»), not a conclusion on what the specimen *is*.
+
+**Interpretive consequence:** the **«3-star UFO = Lovondatr-triggered response» identification lives entirely in `B-HRON03` §32.4 (2002 Medveditskaya Lovondatr-7 field test, +12 / +114 / +1 min correlations — see §8.3 above)**, NOT in any Chernobrov lecture or book outside that chapter. ZIG-17 had 15 years after the 2002 Medveditskaya events to articulate the correlation publicly and declined to do so. The MV ↔ 3zv identification is therefore an analyst's cross-reference inference from `B-HRON03` §32.4, not a Chernobrov-authored claim. See §11.15 for framing.
+
+**3-shell ЭРП matryoshka ↔ 3-star triple-node geometric parallel:** Chernobrov's Lovondatr architecture uses 3-layer ЭРП matryoshka (minimum 3 ЭРП per §2.1); the 3-star UFO shows 3 glowing spheres + triangular frame. This architectural parallel is **striking but Chernobrov does NOT verbalise it in ZIG-17** (or anywhere else in the 20-transcript Whisper corpus, per archive-wide grep). It remains an archive-level inference only. See `08_09_10_14_19_thematic.md` §9 flag.
 
 ---
 
@@ -1316,6 +1376,23 @@ USER-RES §17 names **E.D. Sorokodum** and **A.N. Solenyy** as confirmed speaker
 3. USER-RES paraphrase error.
 
 **MASTER position:** treat the 7 NET-confirmed speakers as canonical; flag Sorokodum + Solenyy as **USER-RES paraphrase, not confirmed by NET primary**. See `analysis/articles/NET_full_compendium.md` §4.3 cross-reference.
+
+### 11.15 ZIG-17 (2017 final public lecture) does NOT claim 3-star UFO = time machine — MV ↔ 3zv identification is analyst's cross-reference, not Chernobrov's claim
+
+**Finding:** The ZIG-17 transcript (25 March 2017 Zigelevsky Readings, Chernobrov's final public lecture — see §8.8) contains **zero** mentions of time machine, Lovondatr, МВ, ЭРП, матрёшка, хронопутешествие, «потомки», «будущее» as craft origin, or any connection between the 3-star UFO and Chernobrov's own device-class. Confirmed by archive-wide grep of both dual transcripts (`08_3zvezdnie_NLO_22min.txt` + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt`).
+
+Chernobrov's ZIG-17 position: the 3-star UFO is **«техногенный»** (technogenic), pre-aviation sighting record refutes secret-human-Earth-origin hypotheses, but the **positive origin hypothesis is deliberately left open**. The closing methodological frame ZIG-17 [21:19]–[22:01] explicitly describes only the specimen-selection strategy, not a conclusion on what the specimen is.
+
+**Where the identification lives instead:** the «3-star UFO = Lovondatr-triggered response» correlation is established in **`B-HRON03` §32.4** (2002 Medveditskaya Lovondatr-7 field test entries — see §8.3 above):
+- §32.4.1 (20 June 2002): 3-star UFO +12 min after 1st Lovondatr-7 prozvonka
+- §32.4.2 (2/3 July 2002): 3-star UFO +114 min after 2nd prozvonka
+- §32.4.3 (7/8 July 2002): spherical object +1 min after magnetometer trigger
+
+**Status:** Chernobrov was alive for 15 years after these 2002 events (until 18 May 2017) and chose not to publicly articulate the MV↔3zv correlation in any known lecture, documentary, or interview — including his final public lecture ZIG-17. This is editorial restraint, not ignorance: `B-HRON03` itself was compiled 02.09.2002 and published 2003 with §32.4 as its load-bearing chapter. The published-book claim exists; the lecture-form claim does not.
+
+**MASTER position:** treat the MV↔3zv identification as **operator/analyst cross-reference from `B-HRON03` §32.4** (a single-chapter device↔UFO causal hypothesis that Chernobrov documented but did not amplify on the lecture circuit), **NOT** as a Chernobrov verbatim claim. The ZIG-17 closing position on the 3-star UFO specimen is phenomenological-morphological, not theoretical-causal. Any downstream work reading «трёхзвёздник = машина времени» as Chernobrov's statement misattributes `B-HRON03` §32.4's correlational framing as an identity claim — the causal-correlation chapter in `B-HRON03` uses «появился … после» temporal-statistical language, not identity language.
+
+**Implication for Lovondatr reverse-engineering:** the strongest Chernobrov-authored link between 3-star UFO morphology and the Lovondatr device class remains **§8.5 landing-site-bias in Lovondatr geometry** (Chernobrov explicitly borrows lens/matryoshka hull morphology from observed UFO shells) — i.e. Lovondatr design is reverse-engineered *from* 3-star observations, not claimed to *produce* 3-star craft. This is a much weaker claim than identity and is the canonical frame.
 
 ---
 
