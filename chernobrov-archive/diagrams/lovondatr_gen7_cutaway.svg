@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .bg       { fill: #ffffff; }
+    .hull     { fill: none; stroke: #000; stroke-width: 2; }
+    .part     { fill: none; stroke: #000; stroke-width: 1.5; }
+    .thin     { fill: none; stroke: #000; stroke-width: 1; }
+    .fill-lt  { fill: #f5f5f0; stroke: #000; stroke-width: 1.2; }
+    .fill-md  { fill: #d9d9d9; stroke: #000; stroke-width: 1.2; }
+    .fill-dk  { fill: #595959; stroke: #000; stroke-width: 1; }
+    .fill-yel { fill: #fff5cc; stroke: #000; stroke-width: 1.2; }
+    .fill-blu { fill: #d6e4f0; stroke: #000; stroke-width: 1.2; }
+    .erp      { fill: none; stroke: #b34700; stroke-width: 1.4; stroke-dasharray: 6 3; }
+    .erp-coil { fill: none; stroke: #000; stroke-width: 0.9; }
+    .dim      { fill: none; stroke: #000; stroke-width: 0.8; }
+    .dashed   { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 4 3; }
+    .label    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #000; }
+    .label-sm { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #000; }
+    .label-ru { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #333; font-style: italic; }
+    .title    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #000; }
+    .src      { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #555; }
+    .legend   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11px; fill: #000; }
+  </style>
+
+  <rect class="bg" width="1200" height="900"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1200" height="48" fill="#000"/>
+  <text x="600" y="22" text-anchor="middle" class="title" fill="#fff">Ловондатр-7 — тройная матрёшка (2001) / Lovondatr-7 Triple-Matryoshka Cutaway</text>
+  <text x="600" y="40" text-anchor="middle" class="label-sm" fill="#fff">Поколение 7 · Внеш. Ø 2,1 м · Сред. Ø 1 м · Внутр. Ø 30 см · 2+2+3 ЭРП = 7 рабочих поверхностей · Gen 7 · 2+2+3 EWS = 7 layers</text>
+
+  <!-- Ground / base reference -->
+  <line x1="120" y1="730" x2="1080" y2="730" class="thin"/>
+  <line x1="120" y1="733" x2="1080" y2="733" class="thin" stroke-dasharray="2 2"/>
+  <text x="600" y="752" text-anchor="middle" class="label-sm">Опорная плита / Base platform</text>
+
+  <!-- Center reference (cx,cy) of the spheres -->
+  <!-- Outer sphere Ø 2,1 m, drawn as cross-section circle radius 280 px -->
+  <circle cx="600" cy="430" r="280" class="hull"/>
+  <!-- Middle sphere Ø 1 m, radius 133 px (scaled) -->
+  <circle cx="600" cy="430" r="133" class="hull"/>
+  <!-- Inner sphere Ø 30 cm, radius 40 px -->
+  <circle cx="600" cy="430" r="40" class="hull"/>
+
+  <!-- Cutaway: front-half hatching to suggest cross-section -->
+  <!-- Hatching pattern on right hemisphere of outer shell wall -->
+  <path d="M 600 150 A 280 280 0 0 1 600 710 L 600 705 A 275 275 0 0 0 600 155 Z"
+        fill="#eeeeee" stroke="none"/>
+  <!-- Annular fill: between outer and middle (ЭРП gap) -->
+  <path d="M 600 150 A 280 280 0 0 1 880 430 L 733 430 A 133 133 0 0 0 600 297 Z"
+        fill="#fafafa" stroke="none" opacity="0.6"/>
+  <!-- Annular fill: between middle and inner -->
+  <path d="M 600 297 A 133 133 0 0 1 733 430 L 640 430 A 40 40 0 0 0 600 390 Z"
+        fill="#fff8e8" stroke="none" opacity="0.6"/>
+
+  <!-- ЭРП layers (Electromagnetic Working Surfaces) - rendered as dashed concentric arcs -->
+  <!-- Outer sphere has TRIPLE ЭРП (3 layers between surface and middle) -->
+  <circle cx="600" cy="430" r="265" class="erp"/>
+  <circle cx="600" cy="430" r="232" class="erp"/>
+  <circle cx="600" cy="430" r="195" class="erp"/>
+  <!-- Middle sphere has DOUBLE ЭРП (2 layers) -->
+  <circle cx="600" cy="430" r="123" class="erp"/>
+  <circle cx="600" cy="430" r="100" class="erp"/>
+  <!-- Inner sphere has DOUBLE ЭРП (2 layers) -->
+  <circle cx="600" cy="430" r="36" class="erp"/>
+  <circle cx="600" cy="430" r="28" class="erp"/>
+
+  <!-- Solenoid-coil vignettes at outer ЭРП (top arc, suggest individual emitters) -->
+  <g class="erp-coil">
+    <ellipse cx="500" cy="172" rx="14" ry="6"/>
+    <ellipse cx="540" cy="162" rx="14" ry="6"/>
+    <ellipse cx="600" cy="158" rx="14" ry="6"/>
+    <ellipse cx="660" cy="162" rx="14" ry="6"/>
+    <ellipse cx="700" cy="172" rx="14" ry="6"/>
+    <ellipse cx="430" cy="200" rx="14" ry="6" transform="rotate(-25 430 200)"/>
+    <ellipse cx="770" cy="200" rx="14" ry="6" transform="rotate(25 770 200)"/>
+  </g>
+
+  <!-- Inner sphere = mouse/sensor cell (light yellow) -->
+  <circle cx="600" cy="430" r="22" class="fill-yel"/>
+  <text x="600" y="428" text-anchor="middle" class="label-sm">мышь</text>
+  <text x="600" y="440" text-anchor="middle" class="label-sm">mouse</text>
+
+  <!-- Middle sphere payload mode: human-capable (drawn faintly inside middle ring) -->
+  <!-- Schematic seated human (in dashed lines: removed-inner mode) -->
+  <g class="dashed">
+    <circle cx="600" cy="380" r="14"/>           <!-- head -->
+    <path d="M 586 395 L 614 395 L 620 460 L 580 460 Z"/> <!-- torso -->
+    <line x1="585" y1="455" x2="575" y2="490"/>  <!-- leg -->
+    <line x1="615" y1="455" x2="625" y2="490"/>
+  </g>
+  <text x="660" y="385" class="label-sm">Режим с человеком: вн. ЭРП снимается</text>
+  <text x="660" y="397" class="label-ru">Human mode: inner sphere removed</text>
+
+  <!-- Doors on middle and outer (small openings in cross-section, right side) -->
+  <rect x="731" y="415" width="6" height="32" class="fill-md"/>
+  <rect x="877" y="415" width="6" height="32" class="fill-md"/>
+  <text x="900" y="412" class="label-sm">люк / hatch</text>
+  <text x="900" y="424" class="label-sm">люк / hatch</text>
+
+  <!-- Base platform (rectangle under outer sphere) -->
+  <rect x="380" y="710" width="440" height="20" class="fill-md"/>
+  <!-- Vertical supports -->
+  <line x1="430" y1="710" x2="430" y2="690" class="part"/>
+  <line x1="770" y1="710" x2="770" y2="690" class="part"/>
+
+  <!-- Power cables descending from base into junction box -->
+  <path d="M 600 730 C 600 760, 650 770, 700 800" class="part"/>
+  <path d="M 600 730 C 600 760, 550 770, 500 800" class="part"/>
+  <rect x="470" y="800" width="100" height="30" class="fill-dk"/>
+  <text x="520" y="820" text-anchor="middle" class="label-sm" fill="#fff">генератор</text>
+  <rect x="650" y="800" width="100" height="30" class="fill-dk"/>
+  <text x="700" y="820" text-anchor="middle" class="label-sm" fill="#fff">АКБ ×N</text>
+
+  <text x="520" y="848" text-anchor="middle" class="label-sm">Импульсный генератор</text>
+  <text x="520" y="860" text-anchor="middle" class="label-ru">Pulse generator</text>
+  <text x="700" y="848" text-anchor="middle" class="label-sm">Авто-аккумуляторы</text>
+  <text x="700" y="860" text-anchor="middle" class="label-ru">Car batteries</text>
+
+  <!-- Dimension lines -->
+  <!-- Outer Ø 2.1 m -->
+  <line x1="320" y1="430" x2="880" y2="430" class="dim" stroke-dasharray="3 3"/>
+  <line x1="320" y1="120" x2="320" y2="430" class="dim"/>
+  <line x1="880" y1="120" x2="880" y2="430" class="dim"/>
+  <line x1="320" y1="100" x2="880" y2="100" class="dim"/>
+  <polygon points="320,100 332,96 332,104" fill="#000"/>
+  <polygon points="880,100 868,96 868,104" fill="#000"/>
+  <text x="600" y="92" text-anchor="middle" class="label">Ø 2 100 мм / 2,1 m — внешний шар (3 ЭРП) / outer sphere (triple EWS)</text>
+
+  <!-- Middle Ø 1 m -->
+  <line x1="467" y1="540" x2="733" y2="540" class="dim"/>
+  <polygon points="467,540 477,536 477,544" fill="#000"/>
+  <polygon points="733,540 723,536 723,544" fill="#000"/>
+  <text x="600" y="556" text-anchor="middle" class="label">Ø 1 000 мм / 1 m — средний шар (2 ЭРП) / middle (double EWS)</text>
+
+  <!-- Inner Ø 30 cm -->
+  <line x1="560" y1="500" x2="640" y2="500" class="dim"/>
+  <polygon points="560,500 568,496 568,504" fill="#000"/>
+  <polygon points="640,500 632,496 632,504" fill="#000"/>
+  <text x="600" y="492" text-anchor="middle" class="label-sm">Ø 300 мм / 30 cm — внутр. шар (2 ЭРП) / inner (double EWS)</text>
+
+  <!-- Callouts (left side) -->
+  <line x1="360" y1="220" x2="200" y2="190" class="thin"/>
+  <text x="40" y="178" class="label">Внешняя оболочка с тройной ЭРП</text>
+  <text x="40" y="192" class="label-ru">Outer shell with triple EWS</text>
+
+  <line x1="495" y1="320" x2="200" y2="290" class="thin"/>
+  <text x="40" y="278" class="label">Средний шар: компартмент экипажа</text>
+  <text x="40" y="292" class="label-ru">Middle sphere: human bay (~1 m)</text>
+
+  <line x1="563" y1="420" x2="200" y2="400" class="thin"/>
+  <text x="40" y="388" class="label">Внутренний шар: ячейка мыши/датчиков</text>
+  <text x="40" y="402" class="label-ru">Inner sphere: mouse / sensor cell</text>
+
+  <line x1="700" y1="172" x2="980" y2="160" class="thin"/>
+  <text x="990" y="158" class="label">Соленоид-излучатель</text>
+  <text x="990" y="172" class="label-ru">Solenoid emitter (one of many per EWS)</text>
+  <text x="990" y="186" class="label-sm">«система соленоидов-излучателей»</text>
+
+  <line x1="595" y1="245" x2="990" y2="270" class="thin"/>
+  <text x="990" y="268" class="label">Сходящаяся ЭМ-волна</text>
+  <text x="990" y="282" class="label-ru">Converging EM wavefront → quasi-monopole focus</text>
+
+  <!-- Wave arrows (converging toward center) -->
+  <g stroke="#0050a0" stroke-width="1.4" fill="none">
+    <path d="M 600 200 L 600 260" marker-end="url(#arrowblue)"/>
+    <path d="M 380 430 L 460 430" marker-end="url(#arrowblue)"/>
+    <path d="M 820 430 L 740 430" marker-end="url(#arrowblue)"/>
+    <path d="M 600 660 L 600 600" marker-end="url(#arrowblue)"/>
+  </g>
+  <defs>
+    <marker id="arrowblue" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <polygon points="0 0, 8 4, 0 8" fill="#0050a0"/>
+    </marker>
+  </defs>
+
+  <!-- Life-support callout -->
+  <line x1="734" y1="447" x2="900" y2="540" class="thin"/>
+  <text x="910" y="538" class="label">Вентиляция, удаление конденсата</text>
+  <text x="910" y="552" class="label-ru">Ventilation, condensate removal</text>
+
+  <!-- Legend box (lower-left) -->
+  <rect x="40" y="600" width="320" height="180" fill="#fafafa" stroke="#000" stroke-width="1"/>
+  <text x="50" y="618" class="legend" font-weight="bold">Легенда / Legend</text>
+
+  <line x1="55" y1="630" x2="85" y2="630" class="erp"/>
+  <text x="92" y="634" class="legend">ЭРП — Электромагнитная Рабочая Поверхность</text>
+  <text x="92" y="646" class="label-sm">EWS — Electromagnetic Working Surface</text>
+
+  <rect x="55" y="654" width="30" height="10" class="fill-yel"/>
+  <text x="92" y="663" class="legend">Полезная нагрузка / Payload cell</text>
+
+  <rect x="55" y="672" width="30" height="10" class="fill-md"/>
+  <text x="92" y="681" class="legend">Опорная плита, люки / Base, hatches</text>
+
+  <rect x="55" y="690" width="30" height="10" class="fill-dk"/>
+  <text x="92" y="699" class="legend">Питание / Power supply</text>
+
+  <line x1="55" y1="713" x2="85" y2="713" stroke="#0050a0" stroke-width="1.4"/>
+  <polygon points="85,713 80,710 80,716" fill="#0050a0"/>
+  <text x="92" y="717" class="legend">Сходящаяся волна / Converging wave</text>
+
+  <text x="50" y="738" class="label-sm">Конфигурация мыши: 2+2+3 = 7 ЭРП</text>
+  <text x="50" y="752" class="label-sm">Конф. человека: 2+3 = 5 ЭРП (внутр. снят)</text>
+  <text x="50" y="766" class="label-ru">Mouse mode 7 EWS · Human mode 5 EWS</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="858" x2="1160" y2="858" class="thin"/>
+  <text x="600" y="874" text-anchor="middle" class="src">Источники / Sources: B-TPV01 §1.4 · TM-02-C7,C14 · F-12R §1.3 · NE-03-PG · REX-C1 · MASTER §1.4</text>
+  <text x="600" y="888" text-anchor="middle" class="src">ASRP · chernobrov-archive/diagrams/lovondatr_gen7_cutaway.svg</text>
+</svg>

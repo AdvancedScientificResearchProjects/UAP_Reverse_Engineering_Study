@@ -6,3 +6,13 @@ data/raw/*
 __pycache__/
 *.pyc
 pipeline/.venv/
+
+# Chernobrov archive: exclude raw binaries, derived chunks, and third-party sources
+chernobrov-archive/audio/
+chernobrov-archive/chunks/
+chernobrov-archive/books/downloads/
+!chernobrov-archive/books/downloads/INVENTORY.md
+chernobrov-archive/ocr-pipeline/.venv/
+
+# Private / non-archive research scratchpad
+chernobrov-archive-tg/

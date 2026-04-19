@@ -1,0 +1,84 @@
+=== Chernobrov Groq Transcription === (3/19 already done)
+
+[#-----------------------------] 1/19 SKIP 01_Chernobrov_MashinaVremeni_2h37
+[###---------------------------] 2/19 SKIP 02_Chernobrov_MashinaVremeni_LAI_1h46
+[####--------------------------] 3/19 SKIP 03_Chernobrov_MashinaVremeni_41min
+[######------------------------] 4/19 START 04_Chernobrov_MashinaVremeni_1h46_alt (106.4min)
+  → 6 chunk(s)
+  [rate] last-hour: 0.0min, last-24h: 0.0min, next: 35.5min
+  chunk 1/6 (35.5min) ... OK (11.5s)
+  [rate] last-hour: 35.5min, last-24h: 35.5min, next: 35.5min
+  chunk 2/6 (35.5min) ... OK (12.2s)
+  [rate] last-hour: 70.9min, last-24h: 70.9min, next: 35.5min
+  chunk 3/6 (35.5min) ...    [429] rate limit hit. Sleeping 275s...
+ OK (288.9s)
+  [rate] last-hour: 106.4min, last-24h: 106.4min, next: 0.0min
+  chunk 4/6 (0.0min) ... OK (0.3s)
+  [rate] last-hour: 106.4min, last-24h: 106.4min, next: 20.0min
+  [rate] hour cap reached. Sleeping 3328s...
+  chunk 5/6 (20.0min) ... OK (5.7s)
+  [rate] last-hour: 55.5min, last-24h: 126.4min, next: 6.4min
+  chunk 6/6 (6.4min) ... OK (2.2s)
+  ✓ saved 04_Chernobrov_MashinaVremeni_1h46_alt.txt (163KB)
+[#######-----------------------] 5/19 START 05_Gaiduchok_traveler_58min (58.5min)
+  → 3 chunk(s)
+  [rate] last-hour: 61.8min, last-24h: 132.7min, next: 20.0min
+  chunk 1/3 (20.0min) ... OK (11.7s)
+  [rate] last-hour: 81.8min, last-24h: 152.7min, next: 20.0min
+  chunk 2/3 (20.0min) ... OK (8.7s)
+  [rate] last-hour: 101.8min, last-24h: 172.7min, next: 18.5min
+  [rate] hour cap reached. Sleeping 213s...
+  chunk 3/3 (18.5min) ... OK (9.0s)
+  ✓ saved 05_Gaiduchok_traveler_58min.txt (71KB)
+[#########---------------------] 6/19 START 06_SlediPutesh_2h55 (175.7min)
+  → 9 chunk(s)
+  [rate] last-hour: 84.9min, last-24h: 191.2min, next: 20.0min
+  chunk 1/9 (20.0min) ... OK (7.9s)
+  [rate] last-hour: 104.9min, last-24h: 211.2min, next: 20.0min
+  [rate] hour cap reached. Sleeping 3115s...
+  chunk 2/9 (20.0min) ... OK (7.4s)
+  [rate] last-hour: 98.5min, last-24h: 231.2min, next: 20.0min
+  [rate] hour cap reached. Sleeping 66s...
+  chunk 3/9 (20.0min) ... OK (8.0s)
+  [rate] last-hour: 78.5min, last-24h: 251.2min, next: 20.0min
+  chunk 4/9 (20.0min) ... OK (7.4s)
+  [rate] last-hour: 98.5min, last-24h: 271.3min, next: 20.0min
+  [rate] hour cap reached. Sleeping 215s...
+  chunk 5/9 (20.0min) ... OK (7.6s)
+  [rate] last-hour: 100.0min, last-24h: 291.3min, next: 20.0min
+  [rate] hour cap reached. Sleeping 203s...
+  chunk 6/9 (20.0min) ... OK (8.1s)
+  [rate] last-hour: 100.0min, last-24h: 311.3min, next: 20.0min
+  [rate] hour cap reached. Sleeping 3114s...
+  chunk 7/9 (20.0min) ... OK (8.1s)
+  [rate] last-hour: 100.0min, last-24h: 331.3min, next: 20.0min
+  [rate] hour cap reached. Sleeping 66s...
+  chunk 8/9 (20.0min) ... OK (8.5s)
+  [rate] last-hour: 80.0min, last-24h: 351.3min, next: 15.7min
+  chunk 9/9 (15.7min) ... OK (6.1s)
+  ✓ saved 06_SlediPutesh_2h55.txt (222KB)
+[###########-------------------] 7/19 START 07_MashinaVremeni_Hronoput_3h04 (184.2min)
+  → 10 chunk(s)
+  [rate] last-hour: 75.7min, last-24h: 366.9min, next: 20.0min
+  chunk 1/10 (20.0min) ... OK (7.5s)
+  [rate] last-hour: 95.7min, last-24h: 386.9min, next: 20.0min
+  [rate] hour cap reached. Sleeping 191s...
+  chunk 2/10 (20.0min) ... OK (7.7s)
+  [rate] last-hour: 95.7min, last-24h: 406.9min, next: 20.0min
+  [rate] hour cap reached. Sleeping 3114s...
+  chunk 3/10 (20.0min) ... OK (8.0s)
+  [rate] last-hour: 95.7min, last-24h: 426.9min, next: 20.0min
+  [rate] hour cap reached. Sleeping 67s...
+  [rate] day cap reached. Sleeping 71913s (1199min)...
+=== Chernobrov Groq Transcription === (6/19 already done)
+
+[#-----------------------------] 1/19 SKIP 01_Chernobrov_MashinaVremeni_2h37
+[###---------------------------] 2/19 SKIP 02_Chernobrov_MashinaVremeni_LAI_1h46
+[####--------------------------] 3/19 SKIP 03_Chernobrov_MashinaVremeni_41min
+[######------------------------] 4/19 SKIP 04_Chernobrov_MashinaVremeni_1h46_alt
+[#######-----------------------] 5/19 SKIP 05_Gaiduchok_traveler_58min
+[#########---------------------] 6/19 SKIP 06_SlediPutesh_2h55
+[###########-------------------] 7/19 START 07_MashinaVremeni_Hronoput_3h04 (184.2min)
+  → 10 chunk(s)
+  [rate] last-hour: 0.0min, last-24h: 426.9min, next: 20.0min
+  [rate] day cap reached. Sleeping 29029s (484min)...

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 750" width="1100" height="750">
+  <style>
+    .bg       { fill: #ffffff; }
+    .part     { fill: none; stroke: #000; stroke-width: 1.6; }
+    .thin     { fill: none; stroke: #000; stroke-width: 1; }
+    .dim      { fill: none; stroke: #000; stroke-width: 0.8; }
+    .dashed   { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 4 3; }
+    .fill-yel { fill: #fff5cc; stroke: #000; stroke-width: 1.2; }
+    .fill-blu { fill: #d6e4f0; stroke: #000; stroke-width: 1.2; }
+    .fill-lt  { fill: #f5f5f0; stroke: #000; stroke-width: 1.2; }
+    .label    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #000; }
+    .label-sm { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #000; }
+    .label-ru { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #333; font-style: italic; }
+    .title    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #000; }
+    .src      { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #555; }
+    .eq       { font-family: "Times New Roman", serif; font-size: 18px; fill: #000; }
+    .eq-big   { font-family: "Times New Roman", serif; font-size: 28px; fill: #000; font-weight: bold; }
+    .eq-sm    { font-family: "Times New Roman", serif; font-size: 14px; fill: #000; }
+  </style>
+
+  <rect class="bg" width="1100" height="750"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1100" height="56" fill="#000"/>
+  <text x="550" y="24" text-anchor="middle" class="title" fill="#fff">f = c / d   |   Frolov–Chernobrov frequency relation</text>
+  <text x="550" y="44" text-anchor="middle" class="label" fill="#fff">Соотношение частоты от осевого смещения слоёв ЭРП · Phase-shift derivation for multi-layer EM emitter (Рис. 1, патент РФ 2003110067)</text>
+
+  <!-- Main equation block (left center) -->
+  <rect x="60" y="100" width="500" height="320" class="fill-lt"/>
+
+  <text x="80" y="135" class="label" font-weight="bold">Вывод формулы / Derivation</text>
+
+  <text x="80" y="165" class="label-sm">Условие синфазности (Чернобров): один период пульсации</text>
+  <text x="80" y="178" class="label-sm">не должен превышать времени прохода ЭМ-волны по установке.</text>
+  <text x="80" y="192" class="label-ru">Pulse-period sizing rule: one period must not exceed wave transit time.</text>
+
+  <!-- Equation 1 -->
+  <text x="200" y="232" class="eq-big">T = d / c</text>
+  <text x="490" y="232" class="eq">(1)</text>
+
+  <text x="80" y="256" class="label-sm">где d — осевое смещение участков тока (м), c — скорость света.</text>
+  <text x="80" y="270" class="label-ru">d = axial offset between coil sections; c = speed of light.</text>
+
+  <!-- Equation 2 -->
+  <text x="200" y="316" class="eq-big">f = 1 / T = c / d</text>
+  <text x="490" y="316" class="eq">(2)</text>
+
+  <text x="80" y="342" class="label-sm">f — частота последовательного возбуждения слоёв.</text>
+  <text x="80" y="356" class="label-ru">f = sequential layer-excitation frequency.</text>
+
+  <text x="80" y="386" class="label" font-weight="bold">Применение: многослойный электромагнит (Рис. 1)</text>
+  <text x="80" y="402" class="label-ru">Application: multi-layer (matryoshka) EM emitter, no semiconductor RF.</text>
+
+  <!-- Worked example block (right center) -->
+  <rect x="600" y="100" width="440" height="320" class="fill-yel"/>
+
+  <text x="620" y="135" class="label" font-weight="bold">Пример: d = 7 мм / Worked example</text>
+
+  <text x="620" y="170" class="eq-sm">d = 7 мм = 7 × 10⁻³ м</text>
+  <text x="620" y="194" class="eq-sm">c = 2,997924 × 10⁸ м/с (≈ 3 × 10⁸ м/с)</text>
+
+  <line x1="620" y1="208" x2="1020" y2="208" class="thin"/>
+
+  <text x="620" y="240" class="eq">T = d / c</text>
+  <text x="620" y="266" class="eq">  = (7 × 10⁻³) / (2,997924 × 10⁸)</text>
+  <text x="620" y="292" class="eq">  = 2,335 × 10⁻¹¹ с</text>
+
+  <line x1="620" y1="306" x2="1020" y2="306" class="thin"/>
+
+  <text x="620" y="338" class="eq">f = 1 / T = 4,28 × 10¹⁰ Гц</text>
+  <text x="620" y="368" class="eq-big">≈ 43 ГГц (EHF, mm-wave)</text>
+  <text x="620" y="394" class="label-sm">Длина волны λ = c/f ≈ 7 мм (= d)</text>
+  <text x="620" y="408" class="label-ru">Wavelength matches axial pitch — characteristic resonance.</text>
+
+  <!-- Three-layer EM cross-section inset (lower-left) -->
+  <g transform="translate(60 450)">
+    <rect x="0" y="0" width="500" height="240" class="fill-lt"/>
+    <text x="10" y="20" class="label" font-weight="bold">Вставка / Inset: трёхслойная ЭРП в разрезе</text>
+    <text x="10" y="34" class="label-ru">Cross-section of three-layer EWS (radial view)</text>
+
+    <!-- Concentric arcs -->
+    <g transform="translate(250 130)">
+      <!-- outer layer -->
+      <path d="M -190 0 A 190 90 0 0 1 190 0" stroke="#b34700" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+      <!-- middle layer -->
+      <path d="M -130 0 A 130 60 0 0 1 130 0" stroke="#006a4e" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+      <!-- inner layer -->
+      <path d="M -75 0 A 75 35 0 0 1 75 0" stroke="#0050a0" stroke-width="2" fill="none" stroke-dasharray="6 3"/>
+      <!-- center focus -->
+      <circle cx="0" cy="0" r="6" fill="#000"/>
+      <text x="0" y="22" text-anchor="middle" class="label-sm">фокус / focus</text>
+
+      <!-- d marks between layers -->
+      <line x1="0" y1="-90" x2="0" y2="-60" class="dim"/>
+      <text x="6" y="-72" class="label-sm">d</text>
+      <line x1="0" y1="-60" x2="0" y2="-35" class="dim"/>
+      <text x="6" y="-44" class="label-sm">d</text>
+
+      <!-- Labels for layers -->
+      <text x="-200" y="-5" text-anchor="end" class="label-sm" fill="#b34700">слой 1 / layer 1</text>
+      <text x="-140" y="-5" text-anchor="end" class="label-sm" fill="#006a4e">слой 2</text>
+      <text x="-85" y="-5" text-anchor="end" class="label-sm" fill="#0050a0">слой 3</text>
+    </g>
+
+    <text x="10" y="218" class="label-sm">Сходящаяся волна плотности энергии — последовательно возбуждается каждый слой</text>
+    <text x="10" y="232" class="label-ru">Converging energy-density wave — layers excited sequentially with phase shift T = d/c</text>
+  </g>
+
+  <!-- Comparison table (lower-right) -->
+  <g transform="translate(600 450)">
+    <rect x="0" y="0" width="440" height="240" class="fill-blu"/>
+    <text x="10" y="20" class="label" font-weight="bold">Таблица: f от d / Frequency vs offset</text>
+
+    <!-- Table header -->
+    <line x1="10" y1="30" x2="430" y2="30" class="thin"/>
+    <text x="40" y="48" class="label-sm" font-weight="bold">d (мм)</text>
+    <text x="140" y="48" class="label-sm" font-weight="bold">T (с)</text>
+    <text x="260" y="48" class="label-sm" font-weight="bold">f (Гц)</text>
+    <text x="370" y="48" class="label-sm" font-weight="bold">диапазон</text>
+    <line x1="10" y1="56" x2="430" y2="56" class="thin"/>
+
+    <text x="40" y="74" class="label-sm">3</text>
+    <text x="140" y="74" class="label-sm">1,00 × 10⁻¹¹</text>
+    <text x="260" y="74" class="label-sm">1,00 × 10¹¹</text>
+    <text x="370" y="74" class="label-sm">100 ГГц</text>
+
+    <text x="40" y="94" class="label-sm" font-weight="bold">7</text>
+    <text x="140" y="94" class="label-sm" font-weight="bold">2,335 × 10⁻¹¹</text>
+    <text x="260" y="94" class="label-sm" font-weight="bold">4,28 × 10¹⁰</text>
+    <text x="370" y="94" class="label-sm" font-weight="bold">43 ГГц ←</text>
+
+    <text x="40" y="114" class="label-sm">10</text>
+    <text x="140" y="114" class="label-sm">3,34 × 10⁻¹¹</text>
+    <text x="260" y="114" class="label-sm">3,00 × 10¹⁰</text>
+    <text x="370" y="114" class="label-sm">30 ГГц</text>
+
+    <text x="40" y="134" class="label-sm">30</text>
+    <text x="140" y="134" class="label-sm">1,00 × 10⁻¹⁰</text>
+    <text x="260" y="134" class="label-sm">1,00 × 10¹⁰</text>
+    <text x="370" y="134" class="label-sm">10 ГГц</text>
+
+    <line x1="10" y1="142" x2="430" y2="142" class="thin"/>
+
+    <text x="10" y="162" class="label-sm">EHF / СВЧ-миллиметровый: 30–300 ГГц</text>
+    <text x="10" y="176" class="label-ru">EHF / mm-wave band 30–300 GHz · ITU designation</text>
+
+    <text x="10" y="200" class="label-sm">Замечание: d = λ → волна каждый слой проходит за период,</text>
+    <text x="10" y="214" class="label-sm">обеспечивая стоячий резонанс плотности энергии в фокусе.</text>
+    <text x="10" y="228" class="label-ru">Standing energy-density resonance at focus when d = λ.</text>
+  </g>
+
+  <!-- Citation footer -->
+  <line x1="40" y1="708" x2="1060" y2="708" class="thin"/>
+  <text x="550" y="724" text-anchor="middle" class="src">Цитирование / Citation: Фролов А.В. + Чернобров В.А., «Новая Энергетика» №3 (Май–Июнь), СПб 2003 · F-12R §2 lines 293–322 · патент РФ №2003110067 (приоритет 09.04.2003)</text>
+  <text x="550" y="738" text-anchor="middle" class="src">ASRP · chernobrov-archive/diagrams/phase_shift_formula.svg</text>
+</svg>
