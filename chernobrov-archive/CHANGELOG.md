@@ -8,6 +8,42 @@ Format: bilingual side-by-side (EN / RU) per ASRP v2.1.
 
 ---
 
+## v0.5.2 — Final-Lecture Anchor — 2026-04-19
+
+**EN — Added:**
+- `transcripts/20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` — fresh Groq Whisper-large-v3 pass of the 49th Zigelevsky Readings lecture (Moscow, 25 March 2017, 22 min; YouTube `4YGeR1KsXy0`).
+- `analysis/per-interview/20_zigelevsky_2017_3star.md` (~36 KB, 9 focus sections) — dedicated ZIG-17 analysis: morphology & kinematics (§1), observation history 1989–2017 (§2), geography (§3), aviation interaction (§4), specific cases incl. 2001 Arzamas-16 all-day track (§5), engineering reconstructions (§6), Kosmopoisk methodology (§7), «миролюбив и неконфликтен» behavioural assessment (§8), and **§9 What is NOT said** — the critical negative findings (no TM, no Ловондатр, no Lazar, no future-descendants).
+- Transcript `08_3zvezdnie_NLO_22min.txt` **retroactively identified as the same 25 March 2017 Zigelevsky Readings source** — dual transcript confirmation (identical YouTube URL, identical 22-min duration, identical moderator intro, identical topic title, identical verbatim phrases incl. «миролюбив и неконфликтен», «80 на 80 на 50 метров», «примерно две сотни групп космопоиска»). Folds 08 into the `ZIG-17` source code; 08 is Chernobrov's FINAL PUBLIC LECTURE as well.
+
+**EN — Changed:**
+- `catalog/interviews.md` row 51: venue/date anchor added (25 March 2017, 49th Zigelevsky Readings, Moscow); source code `3ZV-NLO` → `ZIG-17`; row tagged as FINAL PUBLIC LECTURE with 2-month-before-death marker; both transcript files listed. New row 57a added under 2017 section as cross-link. Header corpus statement updated to «20 transcripts / 19 distinct lectures».
+- `catalog/research-2010-2017.md`: added 2017 timeline row highlighting 25.03.2017 as Chernobrov's final public lecture; updated per-interview analysis table to reference new 20_zigelevsky file; corpus-closure text updated.
+- `analysis/MASTER_chernobrov_claims.md`:
+  - §0.3 source-code table: new `ZIG-17` row with full description; `3ZV-NLO` deprecated as alias.
+  - §6.5 timeline: new 25 March 2017 entry between 2015 and 18 May 2017 death rows.
+  - **New §8.8 ZIG-17 (2017 final public lecture)** — dedicated 3zv-morphology block with verbatim-parameter table, aviation-interaction summary, 10–11 Oct 2001 Arzamas-16 case, additional case anchors (2000 Azerbaijan, 1997 RF video, 2010s Moon silhouette), canonical trajectory nodes, and **CRITICAL NEGATIVE FINDING** clarifying no-time-machine-identification in this lecture.
+  - **New §11.15** — clarifies that the «3-star UFO = time machine» reading is NOT Chernobrov's claim; the MV↔3zv identification is an analyst's cross-reference inference from `B-HRON03` §32.4 (2002 Medveditskaya Lovondatr-7 field test +12 / +114 / +1 min correlations), which uses temporal-statistical «появился … после» language rather than identity language. Chernobrov had 15 years after 2002 to state the correlation on the lecture circuit and chose not to, including in ZIG-17.
+  - Header scope/synthesis-date updated to v0.5.2.
+- `README.md`: transcript count «19 Whisper transcripts» → «20 Whisper-large-v3 transcripts (2.1 MB) covering 19 distinct lectures (files 08 and 20 = same 25 Mar 2017 Zigelevsky source, two Whisper passes)»; QUICK NAVIGATION and Corpus Statistics rows updated; Transcripts code table gains `ZIG-17` entry flagged as final public lecture; per-interview directory listing grows from 8 to 9 files (adds `20_zigelevsky_2017_3star.md`); new Key Findings entry #14 on final lecture + MV↔3zv clarification; Status header updated to v0.5.2.
+
+**RU — Добавлено:**
+- `transcripts/20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` — свежий проход Groq Whisper-large-v3 лекции на 49-х Зигелевских чтениях (Москва, 25 марта 2017, 22 мин; YouTube `4YGeR1KsXy0`).
+- `analysis/per-interview/20_zigelevsky_2017_3star.md` (~36 КБ, 9 фокус-разделов) — выделенный анализ ZIG-17: морфология и кинематика (§1), история наблюдений 1989–2017 (§2), география (§3), взаимодействие с авиацией (§4), конкретные случаи включая суточное отслеживание 2001 г. → Арзамас-16 (§5), инженерные реконструкции (§6), методология Космопоиска (§7), поведенческая оценка «миролюбив и неконфликтен» (§8), и **§9 Что НЕ сказано** — критические отрицательные находки (нет МВ, нет Ловондатр, нет Лазара, нет гипотезы «потомков из будущего»).
+- Транскрипт `08_3zvezdnie_NLO_22min.txt` **ретроспективно идентифицирован как тот же источник 25 марта 2017, 49-е Зигелевские чтения** — подтверждение двойного транскрипта (одинаковый YouTube URL, одинаковая длительность 22 мин, одинаковое вступление ведущего, одинаковое название темы, одинаковые дословные фразы, включая «миролюбив и неконфликтен», «80 на 80 на 50 метров», «примерно две сотни групп космопоиска»). 08 сливается в код источника `ZIG-17`; 08 также является ФИНАЛЬНОЙ ПУБЛИЧНОЙ ЛЕКЦИЕЙ Черноброва.
+
+**RU — Изменено:**
+- `catalog/interviews.md` строка 51: добавлен anchor места/даты (25 марта 2017, 49-е Зигелевские чтения, Москва); код источника `3ZV-NLO` → `ZIG-17`; строка помечена как ФИНАЛЬНАЯ ПУБЛИЧНАЯ ЛЕКЦИЯ с маркером «2 месяца до смерти»; перечислены оба файла транскрипта. Добавлена новая строка 57a в раздел 2017 как кросс-ссылка. Заголовочное описание корпуса обновлено на «20 транскриптов / 19 различных лекций».
+- `catalog/research-2010-2017.md`: добавлена строка хронологии 2017, подчёркивающая 25.03.2017 как финальную публичную лекцию Черноброва; обновлена таблица per-interview-анализов со ссылкой на новый файл 20_zigelevsky; обновлён текст закрытия программы.
+- `analysis/MASTER_chernobrov_claims.md`:
+  - §0.3 таблица кодов источников: новая строка `ZIG-17` с полным описанием; `3ZV-NLO` помечен как deprecated alias.
+  - §6.5 хронология: новая запись 25 марта 2017 между 2015 и 18 мая 2017.
+  - **Новый §8.8 ZIG-17 (финальная публичная лекция 2017)** — выделенный блок по морфологии 3zv с таблицей дословных параметров, обзором взаимодействия с авиацией, случаем 10–11.10.2001 Арзамас-16, дополнительными case-anchors (2000 Азербайджан, 1997 первое видео РФ, 2010-е силуэт на Луне), каноническими узлами траекторий, и **КРИТИЧЕСКАЯ ОТРИЦАТЕЛЬНАЯ НАХОДКА**: в этой лекции отсутствует отождествление с машиной времени.
+  - **Новый §11.15** — уточнение, что чтение «трёхзвёздник = машина времени» НЕ является утверждением Черноброва; отождествление MV↔3zv — инференция аналитика из кросс-ссылки на `B-HRON03` §32.4 (2002 полевой тест Ловондатр-7 на МГ, корреляции +12 / +114 / +1 мин), в котором используется темпорально-статистический язык «появился … после», а не язык тождества. Чернобров имел 15 лет после 2002 г. для публичной артикуляции корреляции на лекционном контуре и выбрал не делать этого, в том числе в ZIG-17.
+  - Заголовок области/даты синтеза обновлён на v0.5.2.
+- `README.md`: счёт транскриптов «19 Whisper transcripts» → «20 транскриптов Whisper-large-v3 (2.1 МБ), покрывающих 19 различных лекций (файлы 08 и 20 = один источник 25.03.2017 Зигелевские чтения, два прохода Whisper)»; строки QUICK NAVIGATION и Corpus Statistics обновлены; таблица кодов транскриптов получает запись `ZIG-17`, помеченную как финальная публичная лекция; листинг директории per-interview растёт с 8 до 9 файлов (добавлен `20_zigelevsky_2017_3star.md`); новая запись Key Findings #14 о финальной лекции + уточнение MV↔3zv; заголовок Status обновлён на v0.5.2.
+
+---
+
 ## v0.5.1 — Review-driven fixes + NET compendium integration — 2026-04-19
 
 **EN — Fixed (3 review-driven corrections to MASTER §0.0):**

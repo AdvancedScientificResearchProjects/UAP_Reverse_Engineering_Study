@@ -2,13 +2,13 @@
 
 > **Навигация / Navigation:** [← README](../README.md) · [Мастер / Master](../analysis/MASTER_chernobrov_claims.md) · [По интервью / Per-Interview](../analysis/per-interview/) · [Тематически / Topical](../analysis/topical/) · [Каталог / Catalog](../catalog/) · [Схемы / Diagrams](../diagrams/)
 
-**RU:** Полный хронологический каталог всех известных публичных выступлений, публикаций и экспедиционной работы В.А. Черноброва (1965–2017), сосредоточенных на программе машины времени «Ловондатр», «Космопоиске» и полевых исследованиях аномальных зон. Объединяет транскрибированные лекции (19 файлов в `transcripts/`), ссылки на некодированные аудио/видео, печатные публикации (книги, статьи, патент), и ссылки на выступления, упомянутые только по косвенным свидетельствам.
+**RU:** Полный хронологический каталог всех известных публичных выступлений, публикаций и экспедиционной работы В.А. Черноброва (1965–2017), сосредоточенных на программе машины времени «Ловондатр», «Космопоиске» и полевых исследованиях аномальных зон. Объединяет транскрибированные лекции (20 файлов в `transcripts/`, 19 различных лекций; файлы 08 и 20 — одна и та же лекция 49-х Зигелевских чтений 25.03.2017, два прохода Whisper), ссылки на некодированные аудио/видео, печатные публикации (книги, статьи, патент), и ссылки на выступления, упомянутые только по косвенным свидетельствам.
 
-**EN:** Comprehensive chronological catalog of all known public appearances, publications, and expeditionary work by V.A. Chernobrov (1965–2017), focused on the «Lovondatr» time-machine program, «Kosmopoisk», and anomalous-zone field research. Combines transcribed lectures (19 files in `transcripts/`), links to untranscribed audio/video, print publications (books, articles, patent), and pointers to appearances referenced only by secondary mention.
+**EN:** Comprehensive chronological catalog of all known public appearances, publications, and expeditionary work by V.A. Chernobrov (1965–2017), focused on the «Lovondatr» time-machine program, «Kosmopoisk», and anomalous-zone field research. Combines transcribed lectures (20 files in `transcripts/`, 19 distinct lectures; files 08 and 20 are the same 49th Zigelevsky Readings lecture of 25 March 2017, two Whisper passes), links to untranscribed audio/video, print publications (books, articles, patent), and pointers to appearances referenced only by secondary mention.
 
-**RU — Источники использованы:** собственные 19 транскрипций Whisper-large-v3; `B-*` книжный анализ (17 справочников); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; страница Kosmopoisk «Темпорология»; Академия тринитаризма; Флибуста; Koob; livelib; IMDb; YouTube. Дата сборки каталога: 2026-04-19.
+**RU — Источники использованы:** собственные 20 транскрипций Whisper-large-v3 (19 различных лекций); `B-*` книжный анализ (17 справочников); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; страница Kosmopoisk «Темпорология»; Академия тринитаризма; Флибуста; Koob; livelib; IMDb; YouTube. Дата сборки каталога: 2026-04-19 (v0.5.2: добавлен ZIG-17 anchor для последней публичной лекции Черноброва).
 
-**EN — Sources used:** 19 Whisper-large-v3 self-transcriptions; `B-*` book analyses (17 references); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; Kosmopoisk «Temporology» page; Trinitarian Academy; Flibusta; Koob; livelib; IMDb; YouTube. Catalog compilation date: 2026-04-19.
+**EN — Sources used:** 20 Whisper-large-v3 self-transcriptions (19 distinct lectures); `B-*` book analyses (17 references); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; Kosmopoisk «Temporology» page; Trinitarian Academy; Flibusta; Koob; livelib; IMDb; YouTube. Catalog compilation date: 2026-04-19 (v0.5.2: ZIG-17 anchor added for Chernobrov's final public lecture).
 
 ---
 
@@ -170,6 +170,8 @@
 
 ## 2014 — Серия лекций: Муром, ЛАИ, Гузерипль, Хронопут / 2014 lecture series: Murom, LAI, Guzeripl, Hronoput
 
+**RU — Примечание v0.5.2:** Строка 51 ниже («Трёхзвёздные НЛО», 22 мин) ретроспективно переатрибутирована на **25 марта 2017** (49-е Зигелевские чтения, Москва — ФИНАЛЬНАЯ публичная лекция Черноброва), но оставлена в нумерации под 2014-м разделом для сохранения каталожной непрерывности; кросс-ссылка на хронологически-корректную позицию добавлена в раздел 2017 ниже как строка 57a. / **Note v0.5.2:** Row 51 below («Three-star UFOs», 22 min) is retroactively re-dated to **25 March 2017** (49th Zigelevsky Readings, Moscow — Chernobrov's FINAL public lecture), but kept in numbering under the 2014 section for catalog-continuity; a chronologically-correct cross-link is added under the 2017 section below as row 57a.
+
 | # | Дата / Date | Передача/Источник / Show/Outlet | Интервьюер / Interviewer | Формат / Format | Длительность / Duration | Темы / Topics | Ссылка / Link |
 |---|-------------|-------------------------------|------------------------|-----------------|------------------------|---------------|--------------|
 | 43 | середина лета / mid-summer | Лекция Муром / Murom lecture | Чернобров / Chernobrov | Видео-лекция / Video lecture | 2ч 37 мин / 2h 37 min | Обзор программы МВ; файл `01` = `13` re-upload / TM program overview; file `01` = `13` re-upload | `MUR-14`; `01_Chernobrov_MashinaVremeni_2h37.txt` + `13_Hronoput_Murom_2h37.txt` |
@@ -180,7 +182,7 @@
 | 48 | — / — | «Машина Времени», 41 мин / «Time Machine», 41 min (вариация / variation) | Чернобров / Chernobrov | Видео-лекция / Video lecture | 41 мин / 41 min | Файл `03_Chernobrov_MashinaVremeni_41min.txt` / File `03_Chernobrov_MashinaVremeni_41min.txt` | собственный транскрипт / self-transcript |
 | 49 | — / — | «Загадки Времени», 25 мин / «Puzzles of Time», 25 min | — | Видео / Video | 25 мин / 25 min | Файл `14_ZagadkiVremeni_25min.txt` / File `14_ZagadkiVremeni_25min.txt` | собственный транскрипт / self-transcript |
 | 50 | — / — | GhostHunters — «Машина Времени» / GhostHunters — «Time Machine» | Чернобров / Chernobrov | Видео / Video | 1ч 45 мин / 1h 45 min | Файл `11_MashinaVremeni_GhostHunters_1h45.txt` / File `11_MashinaVremeni_GhostHunters_1h45.txt` | `GH-14`; QA-Check A #6-11 |
-| 51 | — / — | «3-звёздные НЛО», 22 мин / «3-star UFOs», 22 min | Чернобров / Chernobrov | Видео / Video | 22 мин / 22 min | 80×80×50 м треугольник; 20 000 км/ч; файл `08` / 80×80×50 m triangle; 20 000 km/h; file `08` | `3ZV-NLO`; `08_3zvezdnie_NLO_22min.txt` |
+| 51 | **25 марта / 25 March 2017** | **49-е Зигелевские чтения, Москва — «Расследование активности и восстановление конструкции трёхзвёздного НЛО (Бельгийского треугольника)» — ФИНАЛЬНАЯ ПУБЛИЧНАЯ ЛЕКЦИЯ ЧЕРНОБРОВА / 49th Zigelevsky Readings, Moscow — «Investigation of activity and reconstruction of the three-star UFO (Belgian triangle)» — CHERNOBROV'S FINAL PUBLIC LECTURE** (2 months before death 18 May 2017) | Чернобров / Chernobrov | Видео (YouTube) / Video (YouTube) | 22 мин / 22 min | 80×80×50 м треугольник (3 класса размеров); 0 → 20 000+ км/ч за 1-2 с; 10.10.2001 суточное отслеживание ~200 группами Космопоиска → пропал у Арзамаса-16; 2000 г. инцидент с азербайджанской границей; «миролюбив и неконфликтен»; F-16 не удавалось перехватить; 1997 первая видеозапись в РФ; луна 2010-е через UFOSETI. Квалифицирует объект как «техногенный», но НЕ отождествляет с МВ (отождествление живёт в `B-HRON03` §32.4, не здесь) / 80×80×50 m triangle (3 size classes); 0 → 20 000+ km/h in 1-2 s; 10–11 Oct 2001 all-day tracking via ~200 Kosmopoisk groups → vanished near Arzamas-16; 2000 Azerbaijan border incursion; «peaceable and non-confrontational»; F-16 never able to intercept; 1997 first RF video; Moon silhouette 2010s via UFOSETI. Classifies object as «technogenic» but does NOT identify with time machine (identification lives in `B-HRON03` §32.4, not here). **Два транскрипта одного источника / Two transcripts of the same source:** `08_3zvezdnie_NLO_22min.txt` (ранний проход) + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt` (свежий проход с метаданными места/даты) | `ZIG-17`; `08_3zvezdnie_NLO_22min.txt` + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt`; [`20_zigelevsky_2017_3star.md`](../analysis/per-interview/20_zigelevsky_2017_3star.md); YouTube https://www.youtube.com/watch?v=4YGeR1KsXy0 (UnionKOSMOPOISK, published 13 April 2017) |
 | 52 | — / — | «Параллельные миры», 39 мин / «Parallel Worlds», 39 min | Чернобров / Chernobrov | Видео / Video | 39 мин / 39 min | 6-мерное пространство-время; материалист; файл `09` / 6D spacetime; materialist framing; file `09` | `PM-39`; `09_ParallelnyeMiry_39min.txt` |
 | 53 | — / — | Гайдучок — «Путешественник», 58 мин / Gayduchok — «The Traveler», 58 min | Гайдучок / Gayduchok | Видео / Video | 58 мин / 58 min | Файл `05_Gaiduchok_traveler_58min.txt` / File `05_Gaiduchok_traveler_58min.txt` | собственный транскрипт / self-transcript |
 | 54 | — / — | «Следы путешественников», 2ч 55 мин / «Traces of Travellers», 2h 55 min | Чернобров / Chernobrov | Видео-лекция / Video lecture | 2ч 55 мин / 2h 55 min | Реестр случаев; файл `06` / Case registry; file `06` | `SLEDY`; `06_SlediPutesh_2h55.txt`; `cases/06_chernobrov_case_catalog.md` |
@@ -190,12 +192,13 @@
 
 ---
 
-## 2017 — Документалка МГ + смерть Черноброва / MG documentary + Chernobrov's death
+## 2017 — Финальная лекция + докфильм МГ + смерть Черноброва / Final lecture + MG documentary + Chernobrov's death
 
 | # | Дата / Date | Передача/Источник / Show/Outlet | Интервьюер / Interviewer | Формат / Format | Длительность / Duration | Темы / Topics | Ссылка / Link |
 |---|-------------|-------------------------------|------------------------|-----------------|------------------------|---------------|--------------|
+| 57a | **25 марта / 25 March** | **49-е Зигелевские чтения, Москва — ФИНАЛЬНАЯ ПУБЛИЧНАЯ ЛЕКЦИЯ / 49th Zigelevsky Readings, Moscow — FINAL PUBLIC LECTURE** | Чернобров / Chernobrov | Видео-лекция / Video lecture | 22 мин / 22 min | Итоговая позиция по трёхзвёздному НЛО (Бельгийскому треугольнику); 2 месяца до смерти. Полная таблица тем — см. строку 51 выше / Closing position on the three-star UFO (Belgian triangle); 2 months before death. Full topic list — see row 51 above | `ZIG-17`; `08_3zvezdnie_NLO_22min.txt` + `20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt`; [`20_zigelevsky_2017_3star.md`](../analysis/per-interview/20_zigelevsky_2017_3star.md); YouTube `4YGeR1KsXy0` |
 | 58 | — / — | «Медведицкая гряда» — докфильм / MG documentary | Чернобров (интервью) / Chernobrov (interview) | Документалка / Documentary | 32 мин / 32 min | «~400 следов шаровых молний»; пастух «Бесен Мамай»; 14 экземпляров + 6 модификаций общий реестр за 30 лет / «~400 ball-lightning traces»; shepherd «Besen Mamay»; 14 installations + 6 modifications 30-year tally | `MG-DOC-17`; `15_MedveditskayaGryada_docfilm_2017_32min.txt`; MASTER §0.0 #50 |
-| 59 | **18 мая / 18 May** | — — смерть Черноброва / Chernobrov's death | — | Некролог / Obituary | — | Программа «Космопоиск» переходит под совместное руководство соратников / «Kosmopoisk» program transitions to collective leadership of colleagues | per-interview лекции memorialisation |
+| 59 | **18 мая / 18 May** | — — смерть Черноброва / Chernobrov's death | — | Некролог / Obituary | — | Программа «Космопоиск» переходит под совместное руководство соратников; финальная лекция 25.03.2017 (Зигелевские чтения) — за 2 месяца до кончины / «Kosmopoisk» program transitions to collective leadership of colleagues; final public lecture 25.03.2017 (Zigelevsky Readings) — 2 months before death | per-interview лекции memorialisation; ZIG-17 |
 
 ---
 
@@ -219,15 +222,15 @@
 ## Сводка по корпусу / Corpus summary
 
 **RU:**
-- **19 транскрибированных лекций** (2011–2018, 2.1 МБ, Whisper-large-v3 RU) — Muром/ЛАИ/Гузерипль 2014, 2013 Круги, 2017 МГ-докфильм, различные ТВ-форматы.
+- **20 транскрипций Whisper-large-v3** (2011–2018, 2.1 МБ) покрывают **19 различных лекций** — Муром/ЛАИ/Гузерипль 2014, 2013 Круги, 2017 МГ-докфильм, различные ТВ-форматы **плюс 25.03.2017 финальная публичная лекция на 49-х Зигелевских чтениях** (транскрипты 08 и 20 — два прохода одного источника).
 - **32 FB2-книги** с Флибусты (37 МБ плейнтекста) — полный корпус опубликованных работ Черноброва до 2017.
 - **5 крупных PDF** + 4 журнала NET + 10+ HTML — плотность «2001–2003 золотая эпоха» (NET-03-2001, TM-02, NE-03, PAT-RF2003, F-12R, B-HRON03).
-- **60 каталожных записей** за период 1988–2019 покрывают лабораторную сборку → публикации → полевые опыты → патент → пост-мортем.
+- **60 каталожных записей** за период 1988–2019 покрывают лабораторную сборку → публикации → полевые опыты → патент → пост-мортем (включая anchor ZIG-17 за 25.03.2017 как последнее публичное выступление).
 - **Не транскрибированы / открыты лакуны:** газета МАИ 1991 (физический архив), academia.edu Report 2002–2003 (CloudFlare/доступ), 17 других докладов NET #3 2003 (контекст, не первичный Чернобров), пред-2011 радио/ТВ-лекции (в основном утеряны).
 
 **EN:**
-- **19 transcribed lectures** (2011–2018, 2.1 MB, Whisper-large-v3 RU) — Murom/LAI/Guzeripl 2014, 2013 Crop Circles, 2017 MG documentary, various TV formats.
+- **20 Whisper-large-v3 transcripts** (2011–2018, 2.1 MB) covering **19 distinct lectures** — Murom/LAI/Guzeripl 2014, 2013 Crop Circles, 2017 MG documentary, various TV formats **plus 25 March 2017 final public lecture at the 49th Zigelevsky Readings** (transcripts 08 and 20 are two passes of the same source).
 - **32 FB2 books** from Flibusta (37 MB plaintext) — complete corpus of Chernobrov's published works through 2017.
 - **5 major PDFs** + 4 NET issues + 10+ HTML — density peaks at the "2001–2003 golden era" (NET-03-2001, TM-02, NE-03, PAT-RF2003, F-12R, B-HRON03).
-- **60 catalog entries** spanning 1988–2019 cover lab assembly → publications → field tests → patent → post-mortem.
+- **60 catalog entries** spanning 1988–2019 cover lab assembly → publications → field tests → patent → post-mortem (including ZIG-17 anchor for 25 March 2017 as the final public lecture).
 - **Untranscribed / open gaps:** MAI newspaper 1991 (physical archive), academia.edu Report 2002–2003 (CloudFlare/access), 17 other NET #3 2003 papers (context, not Chernobrov-primary), pre-2011 radio/TV lectures (mostly lost).

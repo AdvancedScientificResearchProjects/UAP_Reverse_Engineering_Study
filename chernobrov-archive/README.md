@@ -4,9 +4,9 @@
 
 A research archive of **Vadim Chernobrov** (1965–2017) and the **«Kosmopoisk»** association, focused on the **«Lovondatr»** time-machine development program, Russian temporology, and the field research of anomalous zones, crop pictograms, and UAP.
 
-**RU:** 19 транскрибированных лекций и интервью (2011–2018), 32 книги с Флибусты, **5 ключевых PDF (все OCR-обработаны на v0.5.0)**, 10 HTML-статей, внешние исследования Perplexity + пользовательский мета-анализ, единый синтез технических утверждений с дословными цитатами и проверкой на галлюцинации.
+**RU:** 20 транскрипций Whisper-large-v3 (2011–2018), покрывающих **19 различных лекций** (файлы 08 и 20 — два прохода одной и той же лекции 49-х Зигелевских чтений 25.03.2017, финальной публичной лекции Черноброва), 32 книги с Флибусты, **5 ключевых PDF (все OCR-обработаны на v0.5.0)**, 10 HTML-статей, внешние исследования Perplexity + пользовательский мета-анализ, единый синтез технических утверждений с дословными цитатами и проверкой на галлюцинации.
 
-**EN:** 19 transcribed lectures and interviews (2011–2018), 32 Flibusta books, **5 major PDFs (all OCR-complete as of v0.5.0)**, 10 HTML articles, external Perplexity research + user-provided meta-analysis, unified synthesis of technical claims with verbatim quotes and hallucination audit.
+**EN:** 20 Whisper-large-v3 transcripts (2011–2018) covering **19 distinct lectures** (transcripts 08 and 20 are two passes of the same 49th Zigelevsky Readings lecture of 25 March 2017, Chernobrov's final public lecture), 32 Flibusta books, **5 major PDFs (all OCR-complete as of v0.5.0)**, 10 HTML articles, external Perplexity research + user-provided meta-analysis, unified synthesis of technical claims with verbatim quotes and hallucination audit.
 
 Параллельно архиву **[bob-lazar-archive](../bob-lazar-archive/)**: где Лазар — это индустриальная американская линия (S-4, Элемент 115, антиматерия), Чернобров — это независимая советско-российская линия (Ловондатр, магнитные поля, многомерное пространство-время). Оба корпуса сходятся на гравитации и многомерности как центральной физике.
 
@@ -19,7 +19,7 @@ Parallel to **[bob-lazar-archive](../bob-lazar-archive/)**: where Lazar represen
 | Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
 |------------------|----------------------|-------------|-----------------|
 | Main Technical Reference / Главный технический справочник | Unified bilingual synthesis of every technical claim / Единый двуязычный синтез всех технических утверждений | [`analysis/MASTER_chernobrov_claims.md`](analysis/MASTER_chernobrov_claims.md) | Available / Доступно |
-| Raw Transcripts / Сырые транскрипты | 19 Whisper-large-v3 Russian transcriptions (2.1 MB) / 19 Whisper-large-v3 русских транскрипций (2.1 МБ) | [`transcripts/`](transcripts/) | Available / Доступно |
+| Raw Transcripts / Сырые транскрипты | 20 Whisper-large-v3 Russian transcriptions (2.1 MB, 19 distinct lectures; 08 + 20 = same ZIG-17 2017 source) / 20 транскрипций Whisper-large-v3 (2.1 МБ, 19 различных лекций; 08 + 20 — тот же источник ZIG-17 2017) | [`transcripts/`](transcripts/) | Available / Доступно |
 | Source Books / Исходные книги | 32 Flibusta FB2 plaintexts (37 MB) / 32 плейнтекста FB2 с Флибусты (37 МБ) | [`books/downloads/fb2_text/`](books/downloads/fb2_text/) | Available / Доступно |
 | Per-Book Analysis / Анализ по книгам | 14 merged `B-*` book references + 21 chunk intermediates / 14 объединённых справочников `B-*` + 21 промежуточный чанк | [`analysis/books/`](analysis/books/) | Available / Доступно |
 | Per-Interview Analysis / Анализ по интервью | 8 per-transcript files covering 19 lectures / 8 файлов, охватывающих 19 лекций | [`analysis/per-interview/`](analysis/per-interview/) | Available / Доступно |
@@ -52,7 +52,7 @@ This archive extracts, verifies, and uniformly encodes Chernobrov's technical cl
 
 | Category / Категория | Count / Кол-во | Size / Объём | Status / Статус |
 |----------------------|----------------|--------------|-----------------|
-| YouTube lectures transcribed / Лекции YouTube транскрибированы | 19 | 2.1 MB | Whisper-large-v3 RU, полный / complete |
+| YouTube lectures transcribed / Лекции YouTube транскрибированы | **20 transcripts (19 distinct lectures; 08 + 20 are two Whisper passes of the same 25 Mar 2017 Zigelevsky Readings source) / 20 транскриптов (19 различных лекций; 08 и 20 — два прохода Whisper одного источника 49-х Зигелевских чтений 25.03.2017)** | 2.1 MB | Whisper-large-v3 RU, полный / complete |
 | Flibusta FB2 books / Книги FB2 с Флибусты | 32 | 37 MB plaintext / плейнтекст | Extracted, indexed / извлечено, индексировано |
 | Major PDFs processed / Крупные PDF обработаны | 5 | see below / см. ниже | **COMPLETE (all 5 OCR'd as of v0.5.0)** / Полностью (все 5 OCR'd на v0.5.0) |
 | — Энциклопедия уфологии / Encyclopedia of Ufology | 1 | 169 MB | **OCR COMPLETE** (v0.5.0, 2026-04-19) — `B-EUFO_enciklopediya_ufologii.md` 117 KB, 14 thematic sections / **OCR ВЫПОЛНЕН** |
@@ -129,7 +129,8 @@ chernobrov-archive/
     ├── FINAL_REVIEW.md                     Финальное ревью / final review
     ├── 01_02_comparison.md                 Ранняя сверка транскриптов / early cross-check
     │
-    ├── per-interview/                      8 файлов → 19 транскриптов / 8 files → 19 transcripts
+    ├── per-interview/                      9 файлов → 20 транскриптов (19 лекций) /
+    │   │                                    9 files → 20 transcripts (19 distinct lectures)
     │   ├── 01_02_mashina_vremeni_lectures.md
     │   ├── 03_04_05_mixed.md
     │   ├── 06_sledy_puteshestvennikov.md
@@ -137,7 +138,9 @@ chernobrov-archive/
     │   ├── 08_09_10_14_19_thematic.md
     │   ├── 11_12_mv_lectures.md
     │   ├── 15_17_18_field_media.md
-    │   └── 16_krugi_na_polyakh.md
+    │   ├── 16_krugi_na_polyakh.md
+    │   └── 20_zigelevsky_2017_3star.md     ⭐ v0.5.2 — ФИНАЛЬНАЯ ЛЕКЦИЯ 25.03.2017 /
+    │                                       FINAL LECTURE 25 Mar 2017 (same source as 08)
     │
     ├── topical/                            то же по темам / same by topic
     │   ├── 01_02_mashina_vremeni_topical.md
@@ -286,7 +289,9 @@ chernobrov-archive/
 
 12. **Северомoрский советский повтор «Элдриджа» (1980-е) / Severomorsk Soviet Philadelphia replica (1980s)** — `B-EUFO` §10.2 (v0.5.0, entry «Филадельфийский эксперимент»): **Минсредмаш + Минэлектронпром**, anti-SDI programme, один крейсер Северного флота, зафиксировано американскими спутниками-разведчиками; в 2000 году советский участник обратился в «Космопоиск» после публикации `B-TV99`. / **Минсредмаш + Минэлектронпром**, anti-SDI cruiser of Northern Fleet, recorded by US spy satellites; Soviet participant approached Kosmopoisk in 2000 after publication of TV-99.
 
-13. **Организм как самопроизвольная Ловондатр (тезис `B-VBCH10` 2010) / Body-as-spontaneous-Lovondatr thesis (`B-VBCH10` 2010)** — central unification claim of the 2010 book: stress-induced human field equivalent to device output; field extends cm to tens of cm, selectivity (skin vs clothes; feet vs face); time-dilation as the only kinematically tenable mechanism for bullet-stopping (Кулагина's 0,5 kg / 1–2 min force budget insufficient). Introduces **ОУВ (Орган Управления Временем)** as hypothetical distributed neural-field function. / Central unification thesis: body in extreme stress spontaneously produces Lovondatr-equivalent local time-modifying field; introduces «ОУВ» (Organ of Time-Management) as 2010 Chernobrov coinage for distributed neural-field function.
+13. **Организм как самопроизвольная Ловондатр (тезис `B-VBCH10` 2010) / Body-as-spontaneous-Lovondatr thesis (`B-VBCH10` 2010)** — central unification claim of the 2010 book: stress-induced human field equivalent to device output; field extends cm to tens of cm, selectivity (skin vs clothes; feet vs face); time-dilation as the only kinematically tenable mechanism for bullet-stopping (Кулагина's 0,5 kg / 1–2 min force budget insufficient). Introduces **ОУВ (Орган Управления Временем)** as hypothetical distributed neural-field function. / Central unification thesis: body in extreme stress spontaneously produces Lovondatr-equivalent local time-modifying field; introduces «ОУВ» (Organe of Time-Management) as 2010 Chernobrov coinage for distributed neural-field function.
+
+14. **Финальная публичная лекция — 25 марта 2017, 49-е Зигелевские чтения, Москва (ZIG-17) / Final public lecture — 25 March 2017, 49th Zigelevsky Readings, Moscow (ZIG-17)** — за 2 месяца до смерти Черноброва (18 мая 2017) он делает закрывающую публичную позицию по трёхзвёздному НЛО («Бельгийскому треугольнику»): 22 мин, YouTube `4YGeR1KsXy0`. Подтверждает морфологию 80×80×50 м, диапазон скоростей 0 → 20+ тыс. км/ч за 1–2 с, поведенческую категорию «миролюбив и неконфликтен», новый case-anchor 10–11 октября 2001 (суточное отслеживание одного объекта через ~200 групп Космопоиска → пропал у Арзамаса-16, VNIIEF). **Квалифицирует объект как «техногенный», но НЕ отождествляет с машиной времени.** Отождествление «3-star UFO = отклик на импульс Ловондатр-7» живёт исключительно в `B-HRON03` §32.4 (2002 МГ полевой тест), а НЕ в этой лекции — это вывод архивного анализа по кросс-ссылке, а не утверждение Черноброва. Транскрипт 08 ретроспективно идентифицирован как тот же источник (другой проход Whisper). / 2 months before Chernobrov's death (18 May 2017) he delivers the closing public position on the three-star UFO (Belgian triangle): 22 min, YouTube `4YGeR1KsXy0`. Re-confirms 80×80×50 m morphology, 0 → 20 000+ km/h in 1–2 s speed envelope, «peaceable and non-confrontational» behavioural class, new case anchor 10–11 October 2001 (all-day tracking of one craft via ~200 Kosmopoisk groups → vanished near Arzamas-16, VNIIEF). **Classifies object as «technogenic» but does NOT identify it with the time machine.** The «3-star UFO = Lovondatr-7-pulse response» identification lives entirely in `B-HRON03` §32.4 (2002 MG field test), NOT in this lecture — it is an archive cross-reference inference, not a Chernobrov claim. Transcript 08 retroactively identified as same source (different Whisper pass).
 
 ---
 
@@ -326,6 +331,7 @@ chernobrov-archive/
 | LAI-14 | Little A-Le-Inn-аналог (лекция в ЛАИ), 2014 / LAI lecture, 2014 | [`02_Chernobrov_MashinaVremeni_LAI_1h46.txt`](transcripts/02_Chernobrov_MashinaVremeni_LAI_1h46.txt) |
 | MV-46 | Лекция «Машина времени», 46 мин / «Time Machine» lecture, 46 min | [`12_MashinaVremeni_Chernobrov_46min.txt`](transcripts/12_MashinaVremeni_Chernobrov_46min.txt) |
 | MG-DOC-17 | Медведицкая гряда: докфильм 2017 / Medveditskaya Ridge: 2017 documentary | [`15_MedveditskayaGryada_docfilm_2017_32min.txt`](transcripts/15_MedveditskayaGryada_docfilm_2017_32min.txt) |
+| **ZIG-17** ⭐ | **49-е Зигелевские чтения, Москва, 25 марта 2017 — ФИНАЛЬНАЯ ПУБЛИЧНАЯ ЛЕКЦИЯ ЧЕРНОБРОВА / 49th Zigelevsky Readings, Moscow, 25 March 2017 — CHERNOBROV'S FINAL PUBLIC LECTURE** (2 months before death) | [`20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt`](transcripts/20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt) + [`08_3zvezdnie_NLO_22min.txt`](transcripts/08_3zvezdnie_NLO_22min.txt) (same source, two Whisper passes) |
 | KP-LEC-13 | «Круги на полях», 2013 / «Crop Circles», 2013 | [`16_KrugiNaPolyakh_2013_2h57.txt`](transcripts/16_KrugiNaPolyakh_2013_2h57.txt) |
 | KP-N24-58 | Космопоиск на N24: «Машина времени» / Kosmopoisk on N24: «Time Machine» | [`18_Kosmopoisk_MashinaVremeni_N24_58min.txt`](transcripts/18_Kosmopoisk_MashinaVremeni_N24_58min.txt) |
 | NLO-DPL-24 | «НЛО: доля правды» / «UAP: a share of truth» | [`17_NLO_dolya_pravdy_2h24.txt`](transcripts/17_NLO_dolya_pravdy_2h24.txt) |
@@ -405,9 +411,9 @@ chernobrov-archive/
 
 ## Status / Статус
 
-**RU:** Текущая версия: **v0.5.0 (2026-04-19)** — OCR полностью завершён для обоих крупных PDF (`B-EUFO` 117 KB + `B-VBCH10` ~126 KB), 18 новых заявлений интегрированы в MASTER (см. §0.0 пп. 61–78). Батч **4** (диаграммы Mermaid/SVG) — в очереди.
+**RU:** Текущая версия: **v0.5.2 (2026-04-19)** — добавлен anchor ZIG-17 для финальной публичной лекции Черноброва (49-е Зигелевские чтения, 25.03.2017, за 2 месяца до смерти); транскрипты 08 и 20 идентифицированы как два прохода Whisper одного источника; §8.8 в MASTER; §11.15 уточняет, что отождествление «3-зв. НЛО = МВ» — инференция архива из `B-HRON03` §32.4, а не утверждение Черноброва. Предыдущая версия v0.5.1: правки ревью + интеграция NET-компендиума. Батч **4** (диаграммы Mermaid/SVG) — в очереди.
 
-**EN:** Current version: **v0.5.0 (2026-04-19)** — OCR fully complete for both large PDFs (`B-EUFO` 117 KB + `B-VBCH10` ~126 KB); 18 new claims integrated into MASTER (see §0.0 items 61–78). Batch **4** (Mermaid/SVG diagrams) queued.
+**EN:** Current version: **v0.5.2 (2026-04-19)** — ZIG-17 anchor added for Chernobrov's final public lecture (49th Zigelevsky Readings, 25 March 2017, 2 months before death); transcripts 08 and 20 identified as two Whisper passes of the same source; MASTER §8.8 added; §11.15 clarifies «3-star UFO = TM» identification as archive inference from `B-HRON03` §32.4, NOT a Chernobrov claim. Previous version v0.5.1: review-driven fixes + NET compendium integration. Batch **4** (Mermaid/SVG diagrams) queued.
 
 ---
 
