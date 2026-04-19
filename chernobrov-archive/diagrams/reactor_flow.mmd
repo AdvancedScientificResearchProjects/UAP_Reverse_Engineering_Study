@@ -1,0 +1,32 @@
+---
+title: "Ловондатр — поток энергии / Lovondatr Energy Flow"
+---
+flowchart LR
+    PWR["Power supply<br/>Источник питания"]
+    PG["3-element pulse generator<br/>3-элементный импульсный генератор"]
+    ERP["Matryoshka ЭРП<br/>Матрёшка ЭРП<br/>(3-5 nested shells / 3-5 вложенных оболочек)"]
+    PHASE["Phase shift<br/>Фазовый сдвиг<br/>d = 7 mm"]
+    FREQ["f = 43 GHz<br/>Частота 43 ГГц"]
+    EMW["Converging spherical EM waves<br/>Сходящиеся сферические ЭМ-волны"]
+    QM["Quasi-monopole<br/>Квази-монополь"]
+    TIME["Time-density change<br/>Изменение плотности времени<br/>t/t₀ = 0.99 - 1.01"]
+    FALL["External falloff 1/r³<br/>Внешний спад 1/r³"]
+
+    PWR --> PG
+    PG --> ERP
+    ERP --> PHASE
+    PHASE --> FREQ
+    FREQ --> EMW
+    EMW --> QM
+    QM --> TIME
+    TIME --> FALL
+
+    classDef power fill:#ffe0b2,stroke:#e65100,color:#000
+    classDef core  fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef field fill:#bbdefb,stroke:#0d47a1,color:#000
+    classDef out   fill:#f8bbd0,stroke:#880e4f,color:#000
+
+    class PWR,PG power
+    class ERP,PHASE,FREQ core
+    class EMW,QM field
+    class TIME,FALL out

@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1620" viewBox="0 0 1280 1620" role="img" aria-labelledby="title desc">
+  <title id="title">Чернобров — Числовые параметры: устойчивость, дрейф, противоречия</title>
+  <desc id="desc">30 key numerical parameters from Chernobrov corpus, book vs USER-RES, with status badges.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .param { font-family:Arial,Helvetica,sans-serif; font-size:12.5px; fill:#0f172a; font-weight:600; }
+    .param-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#0f172a; text-anchor:middle; }
+    .cell-l { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#0f172a; }
+    .badge { font-family:Arial,Helvetica,sans-serif; font-size:11.5px; font-weight:700; text-anchor:middle; fill:#0f172a; }
+    .stable { fill:#9ad17b; }
+    .drifted { fill:#f6c85f; }
+    .unverified { fill:#f5b969; }
+    .contradicted { fill:#f29c99; }
+    .phantom { fill:#e57373; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#888; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+  </style>
+  <rect class="bg" width="1280" height="1620"/>
+  <text class="title" x="32" y="42">Числовые параметры — устойчивость и дрейф / Numerical Parameters — Stability vs Drift</text>
+  <text class="subtitle" x="32" y="64">30 key quantitative claims: book-supported value vs USER-RES / alt-source value, with status badges per §0.0 and §11 of MASTER.</text>
+  <text class="subtitle-ru" x="32" y="82">30 ключевых количественных заявлений: значение из книг против USER-RES / альт. источника, со статусом по §0.0 и §11 MASTER.</text>
+
+  <!-- legend -->
+  <rect x="32"  y="98" width="14" height="14" class="stable stroke"/>
+  <text class="legend" x="52"  y="110">✅ STABLE / устойчиво</text>
+  <rect x="220" y="98" width="14" height="14" class="drifted stroke"/>
+  <text class="legend" x="240" y="110">⚠ DRIFTED / дрейф</text>
+  <rect x="380" y="98" width="14" height="14" class="unverified stroke"/>
+  <text class="legend" x="400" y="110">? UNVERIFIED / не подтв.</text>
+  <rect x="560" y="98" width="14" height="14" class="contradicted stroke"/>
+  <text class="legend" x="580" y="110">❌ CONTRADICTED / противоречие</text>
+  <rect x="780" y="98" width="14" height="14" class="phantom stroke"/>
+  <text class="legend" x="800" y="110">✗ PHANTOM / фантом</text>
+
+  <!-- header (4 columns: Param | Book value | USER-RES / Alt | Status) -->
+  <rect x="32"  y="128" width="380" height="44" fill="#1f2937"/>
+  <rect x="412" y="128" width="380" height="44" fill="#1f2937"/>
+  <rect x="792" y="128" width="320" height="44" fill="#1f2937"/>
+  <rect x="1112" y="128" width="136" height="44" fill="#1f2937"/>
+
+  <text class="hdr" x="222"  y="148">Parameter / Параметр</text>
+  <text class="hdr-ru" x="222"  y="164">bilingual name</text>
+  <text class="hdr" x="602"  y="148">Book-supported value</text>
+  <text class="hdr-ru" x="602"  y="164">по книгам Черноброва</text>
+  <text class="hdr" x="952"  y="148">Alt / USER-RES value</text>
+  <text class="hdr-ru" x="952"  y="164">альт. источник / USER-RES</text>
+  <text class="hdr" x="1180" y="148">Status / Статус</text>
+  <text class="hdr-ru" x="1180" y="164">badge</text>
+
+  <!-- 30 rows, 46px tall, starting y=172 -->
+  <g class="stroke">
+    <!-- r1 Gen-1 outer -->
+    <rect x="32"   y="172" width="1080" height="46" class="rowA"/><rect x="1112" y="172" width="136" height="46" class="stable"/>
+    <!-- r2 Gen-1 inner -->
+    <rect x="32"   y="218" width="1080" height="46" class="rowB"/><rect x="1112" y="218" width="136" height="46" class="stable"/>
+    <!-- r3 Gen-7 matryoshka -->
+    <rect x="32"   y="264" width="1080" height="46" class="rowA"/><rect x="1112" y="264" width="136" height="46" class="stable"/>
+    <!-- r4 ЭРП layers -->
+    <rect x="32"   y="310" width="1080" height="46" class="rowB"/><rect x="1112" y="310" width="136" height="46" class="stable"/>
+    <!-- r5 f at d=7mm -->
+    <rect x="32"   y="356" width="1080" height="46" class="rowA"/><rect x="1112" y="356" width="136" height="46" class="stable"/>
+    <!-- r6 t/t0 band -->
+    <rect x="32"   y="402" width="1080" height="46" class="rowB"/><rect x="1112" y="402" width="136" height="46" class="stable"/>
+    <!-- r7 1/r3 falloff -->
+    <rect x="32"   y="448" width="1080" height="46" class="rowA"/><rect x="1112" y="448" width="136" height="46" class="stable"/>
+    <!-- r8 Peak time drift -->
+    <rect x="32"   y="494" width="1080" height="46" class="rowB"/><rect x="1112" y="494" width="136" height="46" class="drifted"/>
+    <!-- r9 Routine slow -->
+    <rect x="32"   y="540" width="1080" height="46" class="rowA"/><rect x="1112" y="540" width="136" height="46" class="stable"/>
+    <!-- r10 Routine fast -->
+    <rect x="32"   y="586" width="1080" height="46" class="rowB"/><rect x="1112" y="586" width="136" height="46" class="stable"/>
+    <!-- r11 Konov 30/-3 -->
+    <rect x="32"   y="632" width="1080" height="46" class="rowA"/><rect x="1112" y="632" width="136" height="46" class="stable"/>
+    <!-- r12 Lethal threshold -->
+    <rect x="32"   y="678" width="1080" height="46" class="rowB"/><rect x="1112" y="678" width="136" height="46" class="contradicted"/>
+    <!-- r13 Gen-1 date -->
+    <rect x="32"   y="724" width="1080" height="46" class="rowA"/><rect x="1112" y="724" width="136" height="46" class="stable"/>
+    <!-- r14 Konov date -->
+    <rect x="32"   y="770" width="1080" height="46" class="rowB"/><rect x="1112" y="770" width="136" height="46" class="stable"/>
+    <!-- r15 Patent filing -->
+    <rect x="32"   y="816" width="1080" height="46" class="rowA"/><rect x="1112" y="816" width="136" height="46" class="stable"/>
+    <!-- r16 Patent status -->
+    <rect x="32"   y="862" width="1080" height="46" class="rowB"/><rect x="1112" y="862" width="136" height="46" class="stable"/>
+    <!-- r17 Devices by 1993 -->
+    <rect x="32"   y="908" width="1080" height="46" class="rowA"/><rect x="1112" y="908" width="136" height="46" class="stable"/>
+    <!-- r18 Total generations -->
+    <rect x="32"   y="954" width="1080" height="46" class="rowB"/><rect x="1112" y="954" width="136" height="46" class="stable"/>
+    <!-- r19 MG expeditions -->
+    <rect x="32"   y="1000" width="1080" height="46" class="rowA"/><rect x="1112" y="1000" width="136" height="46" class="drifted"/>
+    <!-- r20 MG participants -->
+    <rect x="32"   y="1046" width="1080" height="46" class="rowB"/><rect x="1112" y="1046" width="136" height="46" class="stable"/>
+    <!-- r21 Kosmopoisk -->
+    <rect x="32"   y="1092" width="1080" height="46" class="rowA"/><rect x="1112" y="1092" width="136" height="46" class="stable"/>
+    <!-- r22 Pictograms authentic -->
+    <rect x="32"   y="1138" width="1080" height="46" class="rowB"/><rect x="1112" y="1138" width="136" height="46" class="stable"/>
+    <!-- r23 Landing sites for MV design -->
+    <rect x="32"   y="1184" width="1080" height="46" class="rowA"/><rect x="1112" y="1184" width="136" height="46" class="phantom"/>
+    <!-- r24 Mishin consultation -->
+    <rect x="32"   y="1230" width="1080" height="46" class="rowB"/><rect x="1112" y="1230" width="136" height="46" class="unverified"/>
+    <!-- r25 I-7 craft -->
+    <rect x="32"   y="1276" width="1080" height="46" class="rowA"/><rect x="1112" y="1276" width="136" height="46" class="stable"/>
+    <!-- r26 MG +5h clock jump -->
+    <rect x="32"   y="1322" width="1080" height="46" class="rowB"/><rect x="1112" y="1322" width="136" height="46" class="stable"/>
+    <!-- r27 2002 MG UFO response -->
+    <rect x="32"   y="1368" width="1080" height="46" class="rowA"/><rect x="1112" y="1368" width="136" height="46" class="stable"/>
+    <!-- r28 1990-1991 3-star UFO response -->
+    <rect x="32"   y="1414" width="1080" height="46" class="rowB"/><rect x="1112" y="1414" width="136" height="46" class="stable"/>
+    <!-- r29 Lovondatr name -->
+    <rect x="32"   y="1460" width="1080" height="46" class="rowA"/><rect x="1112" y="1460" width="136" height="46" class="stable"/>
+    <!-- r30 piloted-MV forecast -->
+    <rect x="32"   y="1506" width="1080" height="46" class="rowB"/><rect x="1112" y="1506" width="136" height="46" class="stable"/>
+  </g>
+
+  <!-- row contents -->
+  <g>
+    <!-- r1 -->
+    <text class="param" x="44" y="194">Gen-1 outer ЭРП Ø</text>
+    <text class="param-ru" x="44" y="210">Внешний диаметр первой ЭРП</text>
+    <text class="cell-l" x="424" y="200">≈ 0.9 m (90 cm)</text>
+    <text class="cell-l" x="804" y="200">same</text>
+    <text class="badge" x="1180" y="200">✅ STABLE</text>
+
+    <!-- r2 -->
+    <text class="param" x="44" y="240">Gen-1 inner ЭРП Ø</text>
+    <text class="param-ru" x="44" y="256">Внутренний диаметр минимальной ЭРП</text>
+    <text class="cell-l" x="424" y="246">115 mm</text>
+    <text class="cell-l" x="804" y="246">same</text>
+    <text class="badge" x="1180" y="246">✅ STABLE</text>
+
+    <!-- r3 Gen-7 matryoshka -->
+    <text class="param" x="44" y="286">Gen-7 matryoshka spheres</text>
+    <text class="param-ru" x="44" y="302">Матрёшка Ловондатр-7</text>
+    <text class="cell-l" x="424" y="292">30 / 1000 / 2100 mm</text>
+    <text class="cell-l" x="804" y="292">same</text>
+    <text class="badge" x="1180" y="292">✅ STABLE</text>
+
+    <!-- r4 ЭРП layers -->
+    <text class="param" x="44" y="332">ЭРП layer count (experimental)</text>
+    <text class="param-ru" x="44" y="348">Слойность ЭРП</text>
+    <text class="cell-l" x="424" y="338">3 – 5 layers</text>
+    <text class="cell-l" x="804" y="338">same</text>
+    <text class="badge" x="1180" y="338">✅ STABLE</text>
+
+    <!-- r5 f at d=7mm -->
+    <text class="param" x="44" y="378">Frequency at d = 7 mm</text>
+    <text class="param-ru" x="44" y="394">Частота при d = 7 мм</text>
+    <text class="cell-l" x="424" y="384">≈ 43 GHz (mm-wave EHF)</text>
+    <text class="cell-l" x="804" y="384">same</text>
+    <text class="badge" x="1180" y="384">✅ STABLE</text>
+
+    <!-- r6 t/t0 band -->
+    <text class="param" x="44" y="424">Time-rate envelope t/t₀</text>
+    <text class="param-ru" x="44" y="440">Диапазон скорости Времени</text>
+    <text class="cell-l" x="424" y="430">0.99 – 1.01 (±1 %)</text>
+    <text class="cell-l" x="804" y="430">same</text>
+    <text class="badge" x="1180" y="430">✅ STABLE</text>
+
+    <!-- r7 1/r3 falloff -->
+    <text class="param" x="44" y="470">External field fall-off</text>
+    <text class="param-ru" x="44" y="486">Спад поля вне установки</text>
+    <text class="cell-l" x="424" y="476">∝ 1/r³, opposite sign, ×0.1 internal</text>
+    <text class="cell-l" x="804" y="476">same</text>
+    <text class="badge" x="1180" y="476">✅ STABLE</text>
+
+    <!-- r8 Peak drift -->
+    <text class="param" x="44" y="516">Peak time-rate drift (single outlier)</text>
+    <text class="param-ru" x="44" y="532">Пик замедления времени</text>
+    <text class="cell-l" x="424" y="522">−30 s/hr (TV-99)</text>
+    <text class="cell-l" x="804" y="522">−40 s/hr (KP-EMV 1996)</text>
+    <text class="badge" x="1180" y="522">⚠ DRIFTED</text>
+
+    <!-- r9 Routine slow -->
+    <text class="param" x="44" y="562">Routine slowdown ceiling</text>
+    <text class="param-ru" x="44" y="578">Штатный потолок замедления</text>
+    <text class="cell-l" x="424" y="568">−1.5 s/hr</text>
+    <text class="cell-l" x="804" y="568">same</text>
+    <text class="badge" x="1180" y="568">✅ STABLE</text>
+
+    <!-- r10 Routine fast -->
+    <text class="param" x="44" y="608">Routine speed-up ceiling</text>
+    <text class="param-ru" x="44" y="624">Штатный потолок ускорения</text>
+    <text class="cell-l" x="424" y="614">+0.5 s/hr</text>
+    <text class="cell-l" x="804" y="614">same</text>
+    <text class="badge" x="1180" y="614">✅ STABLE</text>
+
+    <!-- r11 Konov -->
+    <text class="param" x="44" y="654">Lovondatr-7 Konov human trial</text>
+    <text class="param-ru" x="44" y="670">Сеанс Конова</text>
+    <text class="cell-l" x="424" y="660">30 min, −3 % t₀</text>
+    <text class="cell-l" x="804" y="660">same</text>
+    <text class="badge" x="1180" y="660">✅ STABLE</text>
+
+    <!-- r12 Lethal -->
+    <text class="param" x="44" y="700">Lethality threshold</text>
+    <text class="param-ru" x="44" y="716">Летальный порог</text>
+    <text class="cell-l" x="424" y="706">1.5 s differential (canonical, books)</text>
+    <text class="cell-l" x="804" y="706">2 s (USER-RES §1, KP-EMV-C7)</text>
+    <text class="badge" x="1180" y="706">❌ CONTRA</text>
+
+    <!-- r13 Gen-1 date -->
+    <text class="param" x="44" y="746">Gen-1 first run date</text>
+    <text class="param-ru" x="44" y="762">Дата 1-го пуска</text>
+    <text class="cell-l" x="424" y="752">7 / 8 Apr 1988</text>
+    <text class="cell-l" x="804" y="752">same</text>
+    <text class="badge" x="1180" y="752">✅ STABLE</text>
+
+    <!-- r14 Konov date -->
+    <text class="param" x="44" y="792">Konov session date</text>
+    <text class="param-ru" x="44" y="808">Дата сеанса Конова</text>
+    <text class="cell-l" x="424" y="798">26 Aug 2001, 19:30–20:00 МСК</text>
+    <text class="cell-l" x="804" y="798">same</text>
+    <text class="badge" x="1180" y="798">✅ STABLE</text>
+
+    <!-- r15 Patent filing -->
+    <text class="param" x="44" y="838">Patent filing</text>
+    <text class="param-ru" x="44" y="854">Подача патента</text>
+    <text class="cell-l" x="424" y="844">RU 2003110067, 9 Apr 2003</text>
+    <text class="cell-l" x="804" y="844">same</text>
+    <text class="badge" x="1180" y="844">✅ STABLE</text>
+
+    <!-- r16 Patent status -->
+    <text class="param" x="44" y="884">Patent outcome</text>
+    <text class="param-ru" x="44" y="900">Исход патента</text>
+    <text class="cell-l" x="424" y="890">DISCONTINUED 21 Apr 2005 (FA92)</text>
+    <text class="cell-l" x="804" y="890">USER-RES silent on outcome</text>
+    <text class="badge" x="1180" y="890">✅ STABLE</text>
+
+    <!-- r17 Devices by 1993 -->
+    <text class="param" x="44" y="930">Devices built by 1993</text>
+    <text class="param-ru" x="44" y="946">Установок к 1993 г.</text>
+    <text class="cell-l" x="424" y="936">4 installations</text>
+    <text class="cell-l" x="804" y="936">same</text>
+    <text class="badge" x="1180" y="936">✅ STABLE</text>
+
+    <!-- r18 Total generations -->
+    <text class="param" x="44" y="976">Total generations (Lovondatr family)</text>
+    <text class="param-ru" x="44" y="992">Всего поколений Ловондатр</text>
+    <text class="cell-l" x="424" y="982">7 generations (1988–2002)</text>
+    <text class="cell-l" x="804" y="982">same</text>
+    <text class="badge" x="1180" y="982">✅ STABLE</text>
+
+    <!-- r19 MG expeditions -->
+    <text class="param" x="44" y="1022">Medveditskaya expeditions (1982–2014)</text>
+    <text class="param-ru" x="44" y="1038">Экспедиции МГ (1982–2014)</text>
+    <text class="cell-l" x="424" y="1028">~50 (B-MG05 / SS-aggregate)</text>
+    <text class="cell-l" x="804" y="1028">44 (USER-RES)</text>
+    <text class="badge" x="1180" y="1028">⚠ DRIFTED</text>
+
+    <!-- r20 MG participants -->
+    <text class="param" x="44" y="1068">MG participants (cumulative)</text>
+    <text class="param-ru" x="44" y="1084">Участники МГ (всего)</text>
+    <text class="cell-l" x="424" y="1074">906 persons (B-SS §6.2)</text>
+    <text class="cell-l" x="804" y="1074">same</text>
+    <text class="badge" x="1180" y="1074">✅ STABLE</text>
+
+    <!-- r21 Kosmopoisk -->
+    <text class="param" x="44" y="1114">Kosmopoisk aggregate (1982–2005)</text>
+    <text class="param-ru" x="44" y="1130">Космопоиск суммарно</text>
+    <text class="cell-l" x="424" y="1120">4 030 participants / 465 expeditions</text>
+    <text class="cell-l" x="804" y="1120">varies (later editions)</text>
+    <text class="badge" x="1180" y="1120">✅ STABLE</text>
+
+    <!-- r22 Pictograms -->
+    <text class="param" x="44" y="1160">Pictograms authentic (crop circles)</text>
+    <text class="param-ru" x="44" y="1176">Подтв. круги на полях</text>
+    <text class="cell-l" x="424" y="1166">153 (B-KP §6, table p.34)</text>
+    <text class="cell-l" x="804" y="1166">154 (≈, KP-LEC-13 [02:03:03])</text>
+    <text class="badge" x="1180" y="1166">✅ STABLE (≈)</text>
+
+    <!-- r23 Landing sites for MV design -->
+    <text class="param" x="44" y="1206">UFO landing-sites that informed MV design</text>
+    <text class="param-ru" x="44" y="1222">Места посадок НЛО как основа MV</text>
+    <text class="cell-l" x="424" y="1212">17 MG sites + ~490 3-star observ.</text>
+    <text class="cell-l" x="804" y="1212">50 sites (USER-RES paraphrase)</text>
+    <text class="badge" x="1180" y="1212">✗ PHANTOM</text>
+
+    <!-- r24 Mishin consultation -->
+    <text class="param" x="44" y="1252">Acad. V.P. Mishin consultation on Lovondatr</text>
+    <text class="param-ru" x="44" y="1268">Консультация ак. Мишина по Ловондатру</text>
+    <text class="cell-l" x="424" y="1258">Honorary lead claim only (B-SS)</text>
+    <text class="cell-l" x="804" y="1258">claimed (USER-RES paraphrase)</text>
+    <text class="badge" x="1180" y="1258">? UNVERIF.</text>
+
+    <!-- r25 I-7 craft -->
+    <text class="param" x="44" y="1298">I-7 interstellar vehicle (design)</text>
+    <text class="param-ru" x="44" y="1314">Межзвёздный аппарат И-7 (проект)</text>
+    <text class="cell-l" x="424" y="1304">46 × 40 × 9 m, 18.5 MW × 2 reactors</text>
+    <text class="cell-l" x="804" y="1304">— (no alt)</text>
+    <text class="badge" x="1180" y="1304">✅ STABLE</text>
+
+    <!-- r26 MG +5h jump -->
+    <text class="param" x="44" y="1344">MG +5 h clock jump (lunar eclipse)</text>
+    <text class="param-ru" x="44" y="1360">Скачок +5 ч на МГ при затмении</text>
+    <text class="cell-l" x="424" y="1350">8 Aug 1998, 9-clock bundle</text>
+    <text class="cell-l" x="804" y="1350">— (no alt)</text>
+    <text class="badge" x="1180" y="1350">✅ STABLE</text>
+
+    <!-- r27 2002 MG UFO response -->
+    <text class="param" x="44" y="1390">2002 MG Lovondatr-7 UFO responses</text>
+    <text class="param-ru" x="44" y="1406">Реакция НЛО 2002 на прозвонку</text>
+    <text class="cell-l" x="424" y="1396">+12 / +114 min after pulse</text>
+    <text class="cell-l" x="804" y="1396">— (no alt)</text>
+    <text class="badge" x="1180" y="1396">✅ STABLE</text>
+
+    <!-- r28 1990-1991 3-star -->
+    <text class="param" x="44" y="1436">1990–1991 3-star UFO field responses</text>
+    <text class="param-ru" x="44" y="1452">Ответы трёхзвёздных НЛО 1990–91</text>
+    <text class="cell-l" x="424" y="1442">documented (B-TPV01 §8)</text>
+    <text class="cell-l" x="804" y="1442">— (no alt)</text>
+    <text class="badge" x="1180" y="1442">✅ STABLE</text>
+
+    <!-- r29 Lovondatr name -->
+    <text class="param" x="44" y="1482">«Ловондатр» = «Ловушка ондатры» (cover-name)</text>
+    <text class="param-ru" x="44" y="1498">Название = «ловушка ондатры»</text>
+    <text class="cell-l" x="424" y="1488">muskrat-trap cover (B-SVL only)</text>
+    <text class="cell-l" x="804" y="1488">unique to B-SVL</text>
+    <text class="badge" x="1180" y="1488">✅ STABLE</text>
+
+    <!-- r30 piloted-MV forecast -->
+    <text class="param" x="44" y="1528">1999–2017 piloted-MV forecast</text>
+    <text class="param-ru" x="44" y="1544">Прогноз пилотируемой MV 1999–2017</text>
+    <text class="cell-l" x="424" y="1534">forecast made; UNFULFILLED at death 2017</text>
+    <text class="cell-l" x="804" y="1534">— (no alt)</text>
+    <text class="badge" x="1180" y="1534">✅ STABLE</text>
+  </g>
+
+  <text class="footer" x="32" y="1572">Source: MASTER_chernobrov_claims.md §0.0 (key parameters), §11 (contradictions / phantoms), §10 (institutional). Books abbreviated: B-TV99, B-TPV01, TM-02, B-MG05, B-KP, B-SVL, B-HRON03, B-SS.</text>
+  <text class="footer-ru" x="32" y="1590">Источник: MASTER_chernobrov_claims.md §0.0, §11, §10. Чернобров Архив v1.0 — ASRP. USER-RES = `03_user_provided_research_2026-04-18.md`.</text>
+  <text class="footer-ru" x="32" y="1608">Архив Черноброва v1.0 — ASRP, исследование обратной разработки UAP</text>
+</svg>
