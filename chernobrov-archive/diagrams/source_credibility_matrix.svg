@@ -1,0 +1,344 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1020" viewBox="0 0 1200 1020" role="img" aria-labelledby="title desc">
+  <title id="title">Чернобров — Матрица достоверности источников / Chernobrov Source Credibility Matrix</title>
+  <desc id="desc">19 transcribed Chernobrov-adjacent appearances scored across five evidentiary criteria.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .colhdr { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .colhdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .row-code { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#0f172a; }
+    .row-date { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#6b7280; }
+    .cell-text { font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+    .yes { fill:#9ad17b; }
+    .no { fill:#f29c99; }
+    .mid { fill:#f6c85f; }
+    .low { fill:#e9a896; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#888; stroke-width:1; }
+  </style>
+  <rect class="bg" width="1200" height="1020"/>
+  <text class="title" x="32" y="42">Матрица достоверности источников / Source Credibility Matrix — Chernobrov</text>
+  <text class="subtitle" x="32" y="64">19 transcribed Chernobrov video/audio appearances scored across five evidentiary criteria.</text>
+  <text class="subtitle-ru" x="32" y="82">19 транскрибированных выступлений Черноброва, оценённых по пяти критериям свидетельств.</text>
+
+  <!-- legend -->
+  <rect x="32" y="98" width="16" height="16" class="yes stroke"/>
+  <text class="legend" x="54" y="111">yes / да (✓)</text>
+  <rect x="160" y="98" width="16" height="16" class="mid stroke"/>
+  <text class="legend" x="182" y="111">partial / частично (~)</text>
+  <rect x="320" y="98" width="16" height="16" class="no stroke"/>
+  <text class="legend" x="342" y="111">no / нет (✗)</text>
+  <rect x="450" y="98" width="16" height="16" class="low stroke"/>
+  <text class="legend" x="472" y="111">low / низкий</text>
+
+  <!-- header row -->
+  <rect x="32"  y="128" width="220" height="50" fill="#1f2937"/>
+  <rect x="252" y="128" width="170" height="50" fill="#1f2937"/>
+  <rect x="422" y="128" width="170" height="50" fill="#1f2937"/>
+  <rect x="592" y="128" width="200" height="50" fill="#1f2937"/>
+  <rect x="792" y="128" width="170" height="50" fill="#1f2937"/>
+  <rect x="962" y="128" width="206" height="50" fill="#1f2937"/>
+  <text class="colhdr" x="142"  y="152">Source / Источник</text>
+  <text class="colhdr-ru" x="142"  y="168">code + year</text>
+  <text class="colhdr" x="337"  y="152">Chernobrov direct</text>
+  <text class="colhdr-ru" x="337"  y="168">Чернобров лично</text>
+  <text class="colhdr" x="507"  y="152">First-hand</text>
+  <text class="colhdr-ru" x="507"  y="168">Первоисточник</text>
+  <text class="colhdr" x="692"  y="152">Technical density</text>
+  <text class="colhdr-ru" x="692"  y="168">Техн. плотность</text>
+  <text class="colhdr" x="877"  y="152">On-camera</text>
+  <text class="colhdr-ru" x="877"  y="168">На камеру</text>
+  <text class="colhdr" x="1065" y="152">Archival-verified</text>
+  <text class="colhdr-ru" x="1065" y="168">Архивная проверка</text>
+
+  <!-- 19 rows, 36 px each, starting y=178 -->
+  <g class="stroke">
+    <!-- ROW 1 MUR-14 -->
+    <rect x="32"  y="178" width="220" height="36" class="rowA"/>
+    <rect x="252" y="178" width="170" height="36" class="yes"/>
+    <rect x="422" y="178" width="170" height="36" class="yes"/>
+    <rect x="592" y="178" width="200" height="36" class="yes"/>
+    <rect x="792" y="178" width="170" height="36" class="yes"/>
+    <rect x="962" y="178" width="206" height="36" class="mid"/>
+    <!-- ROW 2 LAI-14 -->
+    <rect x="32"  y="214" width="220" height="36" class="rowB"/>
+    <rect x="252" y="214" width="170" height="36" class="yes"/>
+    <rect x="422" y="214" width="170" height="36" class="yes"/>
+    <rect x="592" y="214" width="200" height="36" class="yes"/>
+    <rect x="792" y="214" width="170" height="36" class="yes"/>
+    <rect x="962" y="214" width="206" height="36" class="mid"/>
+    <!-- ROW 3 MV-46 -->
+    <rect x="32"  y="250" width="220" height="36" class="rowA"/>
+    <rect x="252" y="250" width="170" height="36" class="yes"/>
+    <rect x="422" y="250" width="170" height="36" class="yes"/>
+    <rect x="592" y="250" width="200" height="36" class="yes"/>
+    <rect x="792" y="250" width="170" height="36" class="yes"/>
+    <rect x="962" y="250" width="206" height="36" class="yes"/>
+    <!-- ROW 4 HRON-14 -->
+    <rect x="32"  y="286" width="220" height="36" class="rowB"/>
+    <rect x="252" y="286" width="170" height="36" class="yes"/>
+    <rect x="422" y="286" width="170" height="36" class="yes"/>
+    <rect x="592" y="286" width="200" height="36" class="yes"/>
+    <rect x="792" y="286" width="170" height="36" class="yes"/>
+    <rect x="962" y="286" width="206" height="36" class="mid"/>
+    <!-- ROW 5 MUR-14-13 (~80% dup of MUR-14) -->
+    <rect x="32"  y="322" width="220" height="36" class="rowA"/>
+    <rect x="252" y="322" width="170" height="36" class="yes"/>
+    <rect x="422" y="322" width="170" height="36" class="mid"/>
+    <rect x="592" y="322" width="200" height="36" class="yes"/>
+    <rect x="792" y="322" width="170" height="36" class="yes"/>
+    <rect x="962" y="322" width="206" height="36" class="mid"/>
+    <!-- ROW 6 GH-14 -->
+    <rect x="32"  y="358" width="220" height="36" class="rowB"/>
+    <rect x="252" y="358" width="170" height="36" class="yes"/>
+    <rect x="422" y="358" width="170" height="36" class="yes"/>
+    <rect x="592" y="358" width="200" height="36" class="yes"/>
+    <rect x="792" y="358" width="170" height="36" class="yes"/>
+    <rect x="962" y="358" width="206" height="36" class="mid"/>
+    <!-- ROW 7 MG-DOC-17 -->
+    <rect x="32"  y="394" width="220" height="36" class="rowA"/>
+    <rect x="252" y="394" width="170" height="36" class="yes"/>
+    <rect x="422" y="394" width="170" height="36" class="mid"/>
+    <rect x="592" y="394" width="200" height="36" class="mid"/>
+    <rect x="792" y="394" width="170" height="36" class="yes"/>
+    <rect x="962" y="394" width="206" height="36" class="yes"/>
+    <!-- ROW 8 NLO-DPL-24 -->
+    <rect x="32"  y="430" width="220" height="36" class="rowB"/>
+    <rect x="252" y="430" width="170" height="36" class="yes"/>
+    <rect x="422" y="430" width="170" height="36" class="yes"/>
+    <rect x="592" y="430" width="200" height="36" class="mid"/>
+    <rect x="792" y="430" width="170" height="36" class="yes"/>
+    <rect x="962" y="430" width="206" height="36" class="mid"/>
+    <!-- ROW 9 KP-N24-58 -->
+    <rect x="32"  y="466" width="220" height="36" class="rowA"/>
+    <rect x="252" y="466" width="170" height="36" class="yes"/>
+    <rect x="422" y="466" width="170" height="36" class="yes"/>
+    <rect x="592" y="466" width="200" height="36" class="mid"/>
+    <rect x="792" y="466" width="170" height="36" class="yes"/>
+    <rect x="962" y="466" width="206" height="36" class="mid"/>
+    <!-- ROW 10 KP-LEC-13 -->
+    <rect x="32"  y="502" width="220" height="36" class="rowB"/>
+    <rect x="252" y="502" width="170" height="36" class="yes"/>
+    <rect x="422" y="502" width="170" height="36" class="yes"/>
+    <rect x="592" y="502" width="200" height="36" class="yes"/>
+    <rect x="792" y="502" width="170" height="36" class="yes"/>
+    <rect x="962" y="502" width="206" height="36" class="mid"/>
+    <!-- ROW 11 SLEDY-55 -->
+    <rect x="32"  y="538" width="220" height="36" class="rowA"/>
+    <rect x="252" y="538" width="170" height="36" class="yes"/>
+    <rect x="422" y="538" width="170" height="36" class="yes"/>
+    <rect x="592" y="538" width="200" height="36" class="mid"/>
+    <rect x="792" y="538" width="170" height="36" class="no"/>
+    <rect x="962" y="538" width="206" height="36" class="mid"/>
+    <!-- ROW 12 ASTRO-41 (file 03 short TV) -->
+    <rect x="32"  y="574" width="220" height="36" class="rowB"/>
+    <rect x="252" y="574" width="170" height="36" class="yes"/>
+    <rect x="422" y="574" width="170" height="36" class="yes"/>
+    <rect x="592" y="574" width="200" height="36" class="mid"/>
+    <rect x="792" y="574" width="170" height="36" class="yes"/>
+    <rect x="962" y="574" width="206" height="36" class="mid"/>
+    <!-- ROW 13 MIX-04 (file 04 short interview) -->
+    <rect x="32"  y="610" width="220" height="36" class="rowA"/>
+    <rect x="252" y="610" width="170" height="36" class="yes"/>
+    <rect x="422" y="610" width="170" height="36" class="yes"/>
+    <rect x="592" y="610" width="200" height="36" class="mid"/>
+    <rect x="792" y="610" width="170" height="36" class="yes"/>
+    <rect x="962" y="610" width="206" height="36" class="mid"/>
+    <!-- ROW 14 MIX-05 (file 05) -->
+    <rect x="32"  y="646" width="220" height="36" class="rowB"/>
+    <rect x="252" y="646" width="170" height="36" class="yes"/>
+    <rect x="422" y="646" width="170" height="36" class="yes"/>
+    <rect x="592" y="646" width="200" height="36" class="mid"/>
+    <rect x="792" y="646" width="170" height="36" class="yes"/>
+    <rect x="962" y="646" width="206" height="36" class="mid"/>
+    <!-- ROW 15 3ZV-NLO (file 08, 22 min) -->
+    <rect x="32"  y="682" width="220" height="36" class="rowA"/>
+    <rect x="252" y="682" width="170" height="36" class="yes"/>
+    <rect x="422" y="682" width="170" height="36" class="yes"/>
+    <rect x="592" y="682" width="200" height="36" class="mid"/>
+    <rect x="792" y="682" width="170" height="36" class="yes"/>
+    <rect x="962" y="682" width="206" height="36" class="mid"/>
+    <!-- ROW 16 PARAL-09 (file 09, parallel worlds) -->
+    <rect x="32"  y="718" width="220" height="36" class="rowB"/>
+    <rect x="252" y="718" width="170" height="36" class="yes"/>
+    <rect x="422" y="718" width="170" height="36" class="yes"/>
+    <rect x="592" y="718" width="200" height="36" class="mid"/>
+    <rect x="792" y="718" width="170" height="36" class="yes"/>
+    <rect x="962" y="718" width="206" height="36" class="no"/>
+    <!-- ROW 17 TPRIM-10 (file 10, theory primer) -->
+    <rect x="32"  y="754" width="220" height="36" class="rowA"/>
+    <rect x="252" y="754" width="170" height="36" class="yes"/>
+    <rect x="422" y="754" width="170" height="36" class="yes"/>
+    <rect x="592" y="754" width="200" height="36" class="mid"/>
+    <rect x="792" y="754" width="170" height="36" class="yes"/>
+    <rect x="962" y="754" width="206" height="36" class="no"/>
+    <!-- ROW 18 RIDDLE-14 (file 14, time riddles) -->
+    <rect x="32"  y="790" width="220" height="36" class="rowB"/>
+    <rect x="252" y="790" width="170" height="36" class="yes"/>
+    <rect x="422" y="790" width="170" height="36" class="yes"/>
+    <rect x="592" y="790" width="200" height="36" class="mid"/>
+    <rect x="792" y="790" width="170" height="36" class="yes"/>
+    <rect x="962" y="790" width="206" height="36" class="no"/>
+    <!-- ROW 19 GRAV-19 (file 19, grav anomalies) -->
+    <rect x="32"  y="826" width="220" height="36" class="rowA"/>
+    <rect x="252" y="826" width="170" height="36" class="yes"/>
+    <rect x="422" y="826" width="170" height="36" class="yes"/>
+    <rect x="592" y="826" width="200" height="36" class="mid"/>
+    <rect x="792" y="826" width="170" height="36" class="yes"/>
+    <rect x="962" y="826" width="206" height="36" class="no"/>
+  </g>
+
+  <!-- Row labels (codes + dates) -->
+  <g>
+    <text class="row-code" x="44" y="196">MUR-14</text><text class="row-date" x="44" y="210">2014 Murom lecture, 2h37m (file 01)</text>
+    <text class="row-code" x="44" y="232">LAI-14</text><text class="row-date" x="44" y="246">2014 ЛАИ lecture, 1h46m (file 02)</text>
+    <text class="row-code" x="44" y="268">MV-46</text><text class="row-date" x="44" y="282">2001/02 field talk on-site MG, 46m (file 12)</text>
+    <text class="row-code" x="44" y="304">HRON-14</text><text class="row-date" x="44" y="318">2014-06-28 Гузерипль lecture, 3h04m (file 07)</text>
+    <text class="row-code" x="44" y="340">MUR-14-13</text><text class="row-date" x="44" y="354">2014 Murom re-encode ~80% dup MUR-14 (file 13)</text>
+    <text class="row-code" x="44" y="376">GH-14</text><text class="row-date" x="44" y="390">2014 Ghost Hunters lecture, 1h45m (file 11)</text>
+    <text class="row-code" x="44" y="412">MG-DOC-17</text><text class="row-date" x="44" y="426">2017 Медв. гряда documentary, 32m (file 15)</text>
+    <text class="row-code" x="44" y="448">NLO-DPL-24</text><text class="row-date" x="44" y="462">Dubna lecture "доля правды", 2h24m (file 17)</text>
+    <text class="row-code" x="44" y="484">KP-N24-58</text><text class="row-date" x="44" y="498">2014 TV-studio Новости-24 Саратов, 58m (file 18)</text>
+    <text class="row-code" x="44" y="520">KP-LEC-13</text><text class="row-date" x="44" y="534">2013 Murmansk lecture "Круги на полях", 2h57m (file 16)</text>
+    <text class="row-code" x="44" y="556">SLEDY-55</text><text class="row-date" x="44" y="570">2015-10-21 NSR radio "следы путешественников", 2h55m (file 06)</text>
+    <text class="row-code" x="44" y="592">ASTRO-41</text><text class="row-date" x="44" y="606">Astro-TV "В поиске ответа" condensed studio, 41m (file 03)</text>
+    <text class="row-code" x="44" y="628">MIX-04</text><text class="row-date" x="44" y="642">Short interview, mixed thematic (file 04)</text>
+    <text class="row-code" x="44" y="664">MIX-05</text><text class="row-date" x="44" y="678">Short interview, mixed thematic (file 05)</text>
+    <text class="row-code" x="44" y="700">3ZV-NLO</text><text class="row-date" x="44" y="714">Conf. lecture «Трёхзвёздные НЛО», 22m (file 08)</text>
+    <text class="row-code" x="44" y="736">PARAL-09</text><text class="row-date" x="44" y="750">Short talk «Параллельные миры», &lt;40m (file 09)</text>
+    <text class="row-code" x="44" y="772">TPRIM-10</text><text class="row-date" x="44" y="786">Short talk time-theory primer, &lt;40m (file 10)</text>
+    <text class="row-code" x="44" y="808">RIDDLE-14</text><text class="row-date" x="44" y="822">Short talk «загадки Времени», &lt;40m (file 14)</text>
+    <text class="row-code" x="44" y="844">GRAV-19</text><text class="row-date" x="44" y="858">Short talk «гравитационные аномалии», &lt;40m (file 19)</text>
+  </g>
+
+  <!-- Cell marks -->
+  <g>
+    <!-- r1 MUR-14 -->
+    <text class="cell-text" x="337"  y="201">✓</text>
+    <text class="cell-text" x="507"  y="201">✓</text>
+    <text class="cell-text" x="692"  y="201">HIGH</text>
+    <text class="cell-text" x="877"  y="201">✓</text>
+    <text class="cell-text" x="1065" y="201">~ (book §1)</text>
+    <!-- r2 LAI-14 -->
+    <text class="cell-text" x="337"  y="237">✓</text>
+    <text class="cell-text" x="507"  y="237">✓</text>
+    <text class="cell-text" x="692"  y="237">HIGH</text>
+    <text class="cell-text" x="877"  y="237">✓</text>
+    <text class="cell-text" x="1065" y="237">~ (book §1)</text>
+    <!-- r3 MV-46 -->
+    <text class="cell-text" x="337"  y="273">✓</text>
+    <text class="cell-text" x="507"  y="273">✓</text>
+    <text class="cell-text" x="692"  y="273">HIGH</text>
+    <text class="cell-text" x="877"  y="273">✓ (on-site)</text>
+    <text class="cell-text" x="1065" y="273">✓ (TM-02)</text>
+    <!-- r4 HRON-14 -->
+    <text class="cell-text" x="337"  y="309">✓</text>
+    <text class="cell-text" x="507"  y="309">✓</text>
+    <text class="cell-text" x="692"  y="309">HIGH</text>
+    <text class="cell-text" x="877"  y="309">✓</text>
+    <text class="cell-text" x="1065" y="309">~ (40k rpm new)</text>
+    <!-- r5 MUR-14-13 -->
+    <text class="cell-text" x="337"  y="345">✓</text>
+    <text class="cell-text" x="507"  y="345">~ dup</text>
+    <text class="cell-text" x="692"  y="345">HIGH</text>
+    <text class="cell-text" x="877"  y="345">✓</text>
+    <text class="cell-text" x="1065" y="345">~ (book §1)</text>
+    <!-- r6 GH-14 -->
+    <text class="cell-text" x="337"  y="381">✓</text>
+    <text class="cell-text" x="507"  y="381">✓</text>
+    <text class="cell-text" x="692"  y="381">HIGH</text>
+    <text class="cell-text" x="877"  y="381">✓</text>
+    <text class="cell-text" x="1065" y="381">~ (book §1)</text>
+    <!-- r7 MG-DOC-17 -->
+    <text class="cell-text" x="337"  y="417">✓</text>
+    <text class="cell-text" x="507"  y="417">~ narrator</text>
+    <text class="cell-text" x="692"  y="417">MED</text>
+    <text class="cell-text" x="877"  y="417">✓</text>
+    <text class="cell-text" x="1065" y="417">✓ (B-MG05)</text>
+    <!-- r8 NLO-DPL-24 -->
+    <text class="cell-text" x="337"  y="453">✓</text>
+    <text class="cell-text" x="507"  y="453">✓</text>
+    <text class="cell-text" x="692"  y="453">MED</text>
+    <text class="cell-text" x="877"  y="453">✓</text>
+    <text class="cell-text" x="1065" y="453">~ (B-TPV01)</text>
+    <!-- r9 KP-N24-58 -->
+    <text class="cell-text" x="337"  y="489">✓</text>
+    <text class="cell-text" x="507"  y="489">✓</text>
+    <text class="cell-text" x="692"  y="489">MED</text>
+    <text class="cell-text" x="877"  y="489">✓</text>
+    <text class="cell-text" x="1065" y="489">~ (B-MG05)</text>
+    <!-- r10 KP-LEC-13 -->
+    <text class="cell-text" x="337"  y="525">✓</text>
+    <text class="cell-text" x="507"  y="525">✓</text>
+    <text class="cell-text" x="692"  y="525">HIGH</text>
+    <text class="cell-text" x="877"  y="525">✓</text>
+    <text class="cell-text" x="1065" y="525">~ (B-KP §6)</text>
+    <!-- r11 SLEDY-55 -->
+    <text class="cell-text" x="337"  y="561">✓</text>
+    <text class="cell-text" x="507"  y="561">✓</text>
+    <text class="cell-text" x="692"  y="561">MED</text>
+    <text class="cell-text" x="877"  y="561">✗ (radio)</text>
+    <text class="cell-text" x="1065" y="561">~ (B-TPV01)</text>
+    <!-- r12 ASTRO-41 -->
+    <text class="cell-text" x="337"  y="597">✓</text>
+    <text class="cell-text" x="507"  y="597">✓</text>
+    <text class="cell-text" x="692"  y="597">MED</text>
+    <text class="cell-text" x="877"  y="597">✓</text>
+    <text class="cell-text" x="1065" y="597">~ (numbers cut)</text>
+    <!-- r13 MIX-04 -->
+    <text class="cell-text" x="337"  y="633">✓</text>
+    <text class="cell-text" x="507"  y="633">✓</text>
+    <text class="cell-text" x="692"  y="633">MED</text>
+    <text class="cell-text" x="877"  y="633">✓</text>
+    <text class="cell-text" x="1065" y="633">~ (book cross)</text>
+    <!-- r14 MIX-05 -->
+    <text class="cell-text" x="337"  y="669">✓</text>
+    <text class="cell-text" x="507"  y="669">✓</text>
+    <text class="cell-text" x="692"  y="669">MED</text>
+    <text class="cell-text" x="877"  y="669">✓</text>
+    <text class="cell-text" x="1065" y="669">~ (book cross)</text>
+    <!-- r15 3ZV-NLO -->
+    <text class="cell-text" x="337"  y="705">✓</text>
+    <text class="cell-text" x="507"  y="705">✓</text>
+    <text class="cell-text" x="692"  y="705">MED</text>
+    <text class="cell-text" x="877"  y="705">✓</text>
+    <text class="cell-text" x="1065" y="705">~ (B-MG05 §2.2)</text>
+    <!-- r16 PARAL-09 -->
+    <text class="cell-text" x="337"  y="741">✓</text>
+    <text class="cell-text" x="507"  y="741">✓</text>
+    <text class="cell-text" x="692"  y="741">MED</text>
+    <text class="cell-text" x="877"  y="741">✓</text>
+    <text class="cell-text" x="1065" y="741">✗</text>
+    <!-- r17 TPRIM-10 -->
+    <text class="cell-text" x="337"  y="777">✓</text>
+    <text class="cell-text" x="507"  y="777">✓</text>
+    <text class="cell-text" x="692"  y="777">MED</text>
+    <text class="cell-text" x="877"  y="777">✓</text>
+    <text class="cell-text" x="1065" y="777">✗</text>
+    <!-- r18 RIDDLE-14 -->
+    <text class="cell-text" x="337"  y="813">✓</text>
+    <text class="cell-text" x="507"  y="813">✓</text>
+    <text class="cell-text" x="692"  y="813">MED</text>
+    <text class="cell-text" x="877"  y="813">✓</text>
+    <text class="cell-text" x="1065" y="813">✗</text>
+    <!-- r19 GRAV-19 -->
+    <text class="cell-text" x="337"  y="849">✓</text>
+    <text class="cell-text" x="507"  y="849">✓</text>
+    <text class="cell-text" x="692"  y="849">MED</text>
+    <text class="cell-text" x="877"  y="849">✓</text>
+    <text class="cell-text" x="1065" y="849">✗</text>
+  </g>
+
+  <text class="footer" x="32" y="906">Scoring basis: §0.3 source codes + §11 contradictions/attributions. MUR-14-13 flagged "First-hand = ~" because ~80% verbatim duplicate of MUR-14 (file 01).</text>
+  <text class="footer-ru" x="32" y="924">Основание: §0.3 коды источников + §11 противоречия/атрибуции. MUR-14-13 помечен «Первоисточник = ~» — ~80% дубликат MUR-14 (файл 01).</text>
+  <text class="footer" x="32" y="948">Archival cross-references: B-TV99 (1999), B-TPV01 (2001), TM-02 (2002), B-MG05 (2015), B-KP (Crop Circles), B-HRON03 (2003), B-SS, NE-03-FP, PAT-RF2003-GP. Short thematic talks (rows 16–19) lack book-level archival corroboration for their narrower themes.</text>
+  <text class="footer-ru" x="32" y="966">Архивные сверки: B-TV99 (1999), B-TPV01 (2001), TM-02 (2002), B-MG05 (2015), B-KP, B-HRON03 (2003), B-SS, NE-03-FP, патент РФ 2003110067.</text>
+  <text class="footer" x="32" y="996">Chernobrov Archive v1.0 — ASRP UAP Reverse-Engineering Study</text>
+  <text class="footer-ru" x="32" y="1014">Архив Черноброва v1.0 — ASRP, исследование обратной разработки UAP</text>
+</svg>

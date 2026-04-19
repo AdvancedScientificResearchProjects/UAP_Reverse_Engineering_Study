@@ -1,0 +1,141 @@
+{
+  "01": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/01_Chernobrov_MashinaVremeni_2h37.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/01_Chernobrov_MashinaVremeni_2h37.txt",
+    "chunks": 7
+  },
+  "02": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/02_Chernobrov_MashinaVremeni_LAI_1h46.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/02_Chernobrov_MashinaVremeni_LAI_1h46.txt",
+    "chunks": 4
+  },
+  "03": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/03_Chernobrov_MashinaVremeni_41min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/03_Chernobrov_MashinaVremeni_41min.txt",
+    "chunks": 3
+  },
+  "04": {
+    "status": "transcribed",
+    "transcribed": true,
+    "provider": "groq",
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/04_Chernobrov_MashinaVremeni_1h46_alt.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/04_Chernobrov_MashinaVremeni_1h46_alt.txt",
+    "chunks": 6,
+    "duration_min": 106.36
+  },
+  "05": {
+    "status": "transcribed",
+    "transcribed": true,
+    "provider": "groq",
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/05_Gaiduchok_traveler_58min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/05_Gaiduchok_traveler_58min.txt",
+    "chunks": 3,
+    "duration_min": 58.526399999999995
+  },
+  "06": {
+    "status": "transcribed",
+    "transcribed": true,
+    "provider": "groq",
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/06_SlediPutesh_2h55.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/06_SlediPutesh_2h55.txt",
+    "chunks": 9,
+    "duration_min": 175.668
+  },
+  "07": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/07_MashinaVremeni_Hronoput_3h04.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/07_MashinaVremeni_Hronoput_3h04.txt",
+    "chunks": 8
+  },
+  "08": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/08_3zvezdnie_NLO_22min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/08_3zvezdnie_NLO_22min.txt",
+    "chunks": 1
+  },
+  "09": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/09_ParallelnyeMiry_39min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/09_ParallelnyeMiry_39min.txt",
+    "chunks": 3
+  },
+  "10": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/10_KakUstroenoVremya_2011_11min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/10_KakUstroenoVremya_2011_11min.txt",
+    "chunks": 1
+  },
+  "11": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/11_MashinaVremeni_GhostHunters_1h45.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/11_MashinaVremeni_GhostHunters_1h45.txt",
+    "chunks": 5
+  },
+  "12": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/12_MashinaVremeni_Chernobrov_46min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/12_MashinaVremeni_Chernobrov_46min.txt",
+    "chunks": 3
+  },
+  "13": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/13_Hronoput_Murom_2h37.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/13_Hronoput_Murom_2h37.txt",
+    "chunks": 7
+  },
+  "14": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/14_ZagadkiVremeni_25min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/14_ZagadkiVremeni_25min.txt",
+    "chunks": 1
+  },
+  "15": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/15_MedveditskayaGryada_docfilm_2017_32min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/15_MedveditskayaGryada_docfilm_2017_32min.txt",
+    "chunks": 3
+  },
+  "16": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/16_KrugiNaPolyakh_2013_2h57.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/16_KrugiNaPolyakh_2013_2h57.txt",
+    "chunks": 8
+  },
+  "17": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/17_NLO_dolya_pravdy_2h24.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/17_NLO_dolya_pravdy_2h24.txt",
+    "chunks": 6
+  },
+  "18": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/18_Kosmopoisk_MashinaVremeni_N24_58min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/18_Kosmopoisk_MashinaVremeni_N24_58min.txt",
+    "chunks": 3
+  },
+  "19": {
+    "status": "transcribed",
+    "transcribed": true,
+    "audio": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/audio/19_GravitatsionnyeAnomalii_12min.mp3",
+    "transcript": "/home/liker2/asrp-audit/UAP_Reverse_Engineering_Study/chernobrov-archive/transcripts/19_GravitatsionnyeAnomalii_12min.txt",
+    "chunks": 1
+  }
+}
