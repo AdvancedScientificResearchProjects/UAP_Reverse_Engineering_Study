@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <style>
+    .bg       { fill: #fbfaf5; }
+    .terrain  { fill: #efece1; stroke: #c0b890; stroke-width: 1; }
+    .ridge    { fill: none; stroke: #8a7340; stroke-width: 1.6; }
+    .road     { fill: none; stroke: #555; stroke-width: 1.4; stroke-dasharray: 6 4; }
+    .river    { fill: none; stroke: #4a7ea3; stroke-width: 1.8; }
+    .river-fill { fill: #d6e4f0; stroke: #4a7ea3; stroke-width: 1; }
+    .forest   { fill: #d8e4cc; stroke: #5e8050; stroke-width: 0.8; }
+    .thin     { fill: none; stroke: #000; stroke-width: 1; }
+    .dim      { fill: none; stroke: #000; stroke-width: 0.8; }
+    .dashed   { fill: none; stroke: #000; stroke-width: 1; stroke-dasharray: 4 3; }
+    .label    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #000; }
+    .label-sm { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #000; }
+    .label-ru { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #333; font-style: italic; }
+    .label-bg { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11px; fill: #000; }
+    .title    { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #000; }
+    .src      { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #555; }
+    .legend   { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 11px; fill: #000; }
+    .city     { fill: #444; stroke: #000; stroke-width: 1; }
+    .marker-landing { fill: #b34700; stroke: #000; stroke-width: 0.8; }
+    .marker-event   { fill: #fff5cc; stroke: #b34700; stroke-width: 1.5; }
+    .marker-camp    { fill: #d6e4f0; stroke: #0050a0; stroke-width: 1.5; }
+    .marker-pulse   { fill: #ffd6d6; stroke: #a02020; stroke-width: 1.5; }
+  </style>
+
+  <rect class="bg" width="1200" height="900"/>
+
+  <!-- Title band -->
+  <rect x="0" y="0" width="1200" height="48" fill="#000"/>
+  <text x="600" y="22" text-anchor="middle" class="title" fill="#fff">Медведицкая гряда — топология аномальных зон / Medveditskaya Ridge anomaly map</text>
+  <text x="600" y="40" text-anchor="middle" class="label-sm" fill="#fff">Жирновский р-н, Волгоградская обл. · ~15–18 км С-СЗ от г. Жирновск · 36 экспедиций «Космопоиск», 1982–2014 · 17 каталогизированных мест посадки</text>
+
+  <!-- Map frame -->
+  <rect x="60" y="80" width="900" height="700" fill="#fbfaf5" stroke="#000" stroke-width="2"/>
+
+  <!-- Background terrain wash (light) -->
+  <rect x="62" y="82" width="896" height="696" fill="#f5f1e3"/>
+
+  <!-- River Medveditsa (winding, runs roughly N-S on east side) -->
+  <path d="M 850 90 Q 820 200 830 320 Q 840 430 810 540 Q 780 640 800 770" class="river"/>
+  <text x="820" y="180" class="label-sm" fill="#4a7ea3" transform="rotate(72 820 180)">р. Медведица</text>
+  <text x="820" y="180" class="label-ru" fill="#4a7ea3" transform="rotate(72 820 180)" dy="12">Medveditsa river</text>
+
+  <!-- Ridge line (the Medveditskaya gryada itself: a low cuesta running NE-SW) -->
+  <path d="M 200 220 Q 350 280 480 340 Q 600 400 720 460 Q 800 510 880 560" class="ridge"/>
+  <path d="M 200 240 Q 350 300 480 360 Q 600 420 720 480 Q 800 530 880 580" class="ridge"/>
+  <text x="350" y="260" class="label-sm" fill="#8a7340" transform="rotate(22 350 260)" font-style="italic">Медведицкая гряда / Medveditskaya Ridge (cuesta)</text>
+
+  <!-- Forest patches -->
+  <ellipse cx="350" cy="500" rx="90" ry="50" class="forest"/>
+  <text x="350" y="505" text-anchor="middle" class="label-sm">лес / forest</text>
+  <ellipse cx="640" cy="640" rx="80" ry="42" class="forest"/>
+  <text x="640" y="645" text-anchor="middle" class="label-sm">лес / forest</text>
+  <ellipse cx="200" cy="380" rx="70" ry="35" class="forest"/>
+  <text x="200" y="385" text-anchor="middle" class="label-sm">лес</text>
+
+  <!-- Road from Zhirnovsk into the zone -->
+  <path d="M 780 800 Q 700 760 600 700 Q 480 620 380 540" class="road"/>
+  <text x="650" y="755" class="label-sm">грунтовая дорога / dirt road</text>
+
+  <!-- Town: Zhirnovsk (south-east corner, outside main map area) -->
+  <rect x="820" y="780" width="120" height="40" fill="#888" stroke="#000"/>
+  <text x="880" y="800" text-anchor="middle" class="label" fill="#fff" font-weight="bold">Жирновск</text>
+  <text x="880" y="813" text-anchor="middle" class="label-sm" fill="#fff">Zhirnovsk · база</text>
+
+  <!-- Distance arc from Zhirnovsk to MG zone center -->
+  <path d="M 820 800 L 500 450" class="dashed"/>
+  <text x="660" y="610" class="label-sm" transform="rotate(-40 660 610)">~15–18 км С-СЗ / ~15–18 km NNW</text>
+
+  <!-- ============ KEY ANOMALY ZONES ============ -->
+
+  <!-- 1) Склон бешеных молний — top-left center -->
+  <g>
+    <ellipse cx="320" cy="350" rx="70" ry="50" fill="#fff0e0" stroke="#b34700" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <!-- lightning bolts inside -->
+    <path d="M 290 335 L 295 350 L 285 350 L 295 370" stroke="#b34700" stroke-width="1.5" fill="none"/>
+    <path d="M 320 325 L 325 345 L 315 345 L 325 365" stroke="#b34700" stroke-width="1.5" fill="none"/>
+    <path d="M 350 335 L 355 350 L 345 350 L 355 370" stroke="#b34700" stroke-width="1.5" fill="none"/>
+    <text x="320" y="408" text-anchor="middle" class="label-bg" font-weight="bold">«Склон бешеных молний»</text>
+    <text x="320" y="421" text-anchor="middle" class="label-sm">Slope of Crazy Lightning</text>
+    <text x="320" y="434" text-anchor="middle" class="label-sm">~400 следов ШМ · 8 авг 1998: +5 ч</text>
+    <text x="320" y="446" text-anchor="middle" class="label-ru">~400 ball-lightning traces · 8 Aug 1998: +5h jump (9 clocks)</text>
+  </g>
+
+  <!-- 2) Поляна сухостоя — left-center area -->
+  <g>
+    <ellipse cx="240" cy="560" rx="55" ry="35" fill="#f0e8d8" stroke="#8a6020" stroke-width="1.5"/>
+    <!-- dead trees: small vertical lines -->
+    <line x1="220" y1="545" x2="220" y2="568" stroke="#5a4020" stroke-width="1"/>
+    <line x1="232" y1="540" x2="232" y2="568" stroke="#5a4020" stroke-width="1"/>
+    <line x1="245" y1="548" x2="245" y2="568" stroke="#5a4020" stroke-width="1"/>
+    <line x1="258" y1="542" x2="258" y2="568" stroke="#5a4020" stroke-width="1"/>
+    <line x1="270" y1="550" x2="270" y2="568" stroke="#5a4020" stroke-width="1"/>
+    <text x="240" y="608" text-anchor="middle" class="label-bg" font-weight="bold">Поляна сухостоя (1993)</text>
+    <text x="240" y="621" text-anchor="middle" class="label-sm">Dead-Tree Glade · отставание 3–5 мин</text>
+    <text x="240" y="633" text-anchor="middle" class="label-ru">3–5 min clock-lag (1993 reading)</text>
+  </g>
+
+  <!-- 3) Triangular landing (55 × 80 × 80 m) — center of map -->
+  <g>
+    <polygon points="500,450 580,470 540,520" fill="#f5e8e0" stroke="#a04020" stroke-width="1.6"/>
+    <line x1="500" y1="450" x2="540" y2="520" stroke="#a04020" stroke-width="0.6" stroke-dasharray="2 2"/>
+    <text x="540" y="430" text-anchor="middle" class="label-bg" font-weight="bold">Треугольная посадка</text>
+    <text x="540" y="442" text-anchor="middle" class="label-sm">Triangle landing · 55 × 80 × 80 м</text>
+    <!-- Arrow pointing to underground pulse -->
+    <line x1="540" y1="495" x2="600" y2="540" class="thin"/>
+  </g>
+
+  <!-- 3a) Underground 27-s pulse zone (overlapping triangle area) -->
+  <g>
+    <circle cx="610" cy="555" r="24" class="marker-pulse"/>
+    <text x="610" y="554" text-anchor="middle" class="label-sm" font-weight="bold">⊙</text>
+    <text x="610" y="568" text-anchor="middle" class="label-sm">27 с</text>
+    <text x="660" y="548" class="label-sm" font-weight="bold">Подземный импульс / Underground pulse</text>
+    <text x="660" y="561" class="label-sm">1 имп / 27 с = 0,03 Гц (1999, «УФО-сталкер»)</text>
+    <text x="660" y="574" class="label-ru">8-instrument geo-acoustic kit, B-MG05 §2.6</text>
+  </g>
+
+  <!-- 4) Two-pair "valetom" 4 × 4.5 × 4.5 m (small pair of marks) -->
+  <g>
+    <!-- Pair: two overlapping ellipses arranged head-to-tail -->
+    <ellipse cx="460" cy="620" rx="14" ry="6" fill="#fff5cc" stroke="#a04020" stroke-width="1.2"/>
+    <ellipse cx="478" cy="630" rx="14" ry="6" fill="#fff5cc" stroke="#a04020" stroke-width="1.2"/>
+    <text x="380" y="612" class="label-sm" font-weight="bold">Пара «валетом»</text>
+    <text x="380" y="624" class="label-sm">Head-to-tail pair</text>
+    <text x="380" y="636" class="label-sm">4 × 4,5 × 4,5 м (×2)</text>
+  </g>
+
+  <!-- 5) 8-й лагерь Космопоиска (2002) -->
+  <g>
+    <rect x="430" y="280" width="22" height="22" class="marker-camp"/>
+    <text x="441" y="296" text-anchor="middle" class="label-sm" font-weight="bold">8</text>
+    <text x="465" y="284" class="label-bg" font-weight="bold">8-й лагерь «Космопоиска» (2002)</text>
+    <text x="465" y="296" class="label-sm">8th camp · 118-я экспедиция</text>
+    <text x="465" y="308" class="label-sm">20 июн / 2-3 июл 2002 — Ловондатр-7</text>
+    <text x="465" y="320" class="label-ru">3-star UFO 12 min / 114 min after prozvonka</text>
+  </g>
+
+  <!-- Lovondatr-7 deployment marker (inside 8th camp area) -->
+  <g>
+    <circle cx="441" cy="335" r="10" fill="#fff5cc" stroke="#0050a0" stroke-width="1.5"/>
+    <text x="441" y="339" text-anchor="middle" class="label-sm">Л-7</text>
+    <line x1="451" y1="335" x2="465" y2="335" class="thin"/>
+    <text x="468" y="338" class="label-sm">установка Ловондатр-7 / Lovondatr-7 deployment</text>
+  </g>
+
+  <!-- ============ 17 LANDING SITES (catalog markers) ============ -->
+  <g>
+    <!-- Distributed around the ridge area; small filled circles -->
+    <circle cx="300" cy="450" r="5" class="marker-landing"/>
+    <circle cx="380" cy="430" r="5" class="marker-landing"/>
+    <circle cx="430" cy="490" r="5" class="marker-landing"/>
+    <circle cx="510" cy="380" r="5" class="marker-landing"/>
+    <circle cx="585" cy="365" r="5" class="marker-landing"/>
+    <circle cx="650" cy="420" r="5" class="marker-landing"/>
+    <circle cx="700" cy="500" r="5" class="marker-landing"/>
+    <circle cx="725" cy="580" r="5" class="marker-landing"/>
+    <circle cx="600" cy="690" r="5" class="marker-landing"/>
+    <circle cx="525" cy="660" r="5" class="marker-landing"/>
+    <circle cx="450" cy="700" r="5" class="marker-landing"/>
+    <circle cx="380" cy="635" r="5" class="marker-landing"/>
+    <circle cx="320" cy="640" r="5" class="marker-landing"/>
+    <circle cx="270" cy="700" r="5" class="marker-landing"/>
+    <circle cx="195" cy="500" r="5" class="marker-landing"/>
+    <circle cx="160" cy="420" r="5" class="marker-landing"/>
+    <circle cx="200" cy="280" r="5" class="marker-landing"/>
+  </g>
+
+  <!-- ============ COMPASS ROSE (top-right of map) ============ -->
+  <g transform="translate(880 130)">
+    <circle cx="0" cy="0" r="38" fill="#fff" stroke="#000" stroke-width="1.2"/>
+    <polygon points="0,-34 6,0 0,12 -6,0" fill="#000"/>
+    <polygon points="0,34 6,0 0,-12 -6,0" fill="#fff" stroke="#000" stroke-width="0.8"/>
+    <text x="0" y="-42" text-anchor="middle" class="label-sm" font-weight="bold">С / N</text>
+    <text x="0" y="50" text-anchor="middle" class="label-sm">Ю / S</text>
+    <text x="-46" y="4" text-anchor="middle" class="label-sm">З/W</text>
+    <text x="46" y="4" text-anchor="middle" class="label-sm">В/E</text>
+  </g>
+
+  <!-- ============ SCALE BAR (bottom of map area) ============ -->
+  <g transform="translate(100 740)">
+    <rect x="0" y="0" width="40" height="10" fill="#000"/>
+    <rect x="40" y="0" width="40" height="10" fill="#fff" stroke="#000"/>
+    <rect x="80" y="0" width="40" height="10" fill="#000"/>
+    <rect x="120" y="0" width="40" height="10" fill="#fff" stroke="#000"/>
+    <text x="0" y="26" class="label-sm">0</text>
+    <text x="40" y="26" class="label-sm">1</text>
+    <text x="80" y="26" class="label-sm">2</text>
+    <text x="120" y="26" class="label-sm">3</text>
+    <text x="160" y="26" class="label-sm">4 км</text>
+    <text x="0" y="-4" class="label-sm">Масштаб / Scale (приблизительно)</text>
+  </g>
+
+  <!-- ============ LEGEND BOX ============ -->
+  <g transform="translate(990 80)">
+    <rect x="0" y="0" width="200" height="700" fill="#fafaf2" stroke="#000" stroke-width="1"/>
+    <text x="100" y="22" text-anchor="middle" class="label" font-weight="bold">Легенда / Legend</text>
+    <line x1="10" y1="30" x2="190" y2="30" class="thin"/>
+
+    <!-- Camp marker -->
+    <rect x="14" y="44" width="14" height="14" class="marker-camp"/>
+    <text x="36" y="55" class="legend">Лагерь / Camp</text>
+
+    <!-- Lovondatr deployment -->
+    <circle cx="21" cy="78" r="8" fill="#fff5cc" stroke="#0050a0" stroke-width="1.2"/>
+    <text x="36" y="82" class="legend">Ловондатр-7 (2002)</text>
+
+    <!-- Landing site (1 of 17) -->
+    <circle cx="21" cy="104" r="5" class="marker-landing"/>
+    <text x="36" y="108" class="legend">Место посадки (1 из 17)</text>
+    <text x="36" y="120" class="label-ru">Landing site (catalog)</text>
+
+    <!-- Triangular landing -->
+    <polygon points="14,140 32,144 22,156" fill="#f5e8e0" stroke="#a04020" stroke-width="1.2"/>
+    <text x="40" y="148" class="legend">Треугольная посадка</text>
+    <text x="40" y="160" class="label-ru">Triangle 55×80×80 m</text>
+
+    <!-- Pair valetom -->
+    <ellipse cx="18" cy="180" rx="8" ry="3" fill="#fff5cc" stroke="#a04020" stroke-width="1"/>
+    <ellipse cx="26" cy="184" rx="8" ry="3" fill="#fff5cc" stroke="#a04020" stroke-width="1"/>
+    <text x="40" y="184" class="legend">Пара «валетом»</text>
+    <text x="40" y="196" class="label-ru">Head-to-tail pair 4×4.5×4.5 m</text>
+
+    <!-- Anomaly slope -->
+    <ellipse cx="22" cy="218" rx="14" ry="9" fill="#fff0e0" stroke="#b34700" stroke-width="1.2" stroke-dasharray="2 2"/>
+    <text x="42" y="222" class="legend">Хроно-аномальная зона</text>
+    <text x="42" y="234" class="label-ru">Chrono-anomaly zone</text>
+
+    <!-- Underground pulse -->
+    <circle cx="22" cy="256" r="9" class="marker-pulse"/>
+    <text x="40" y="260" class="legend">Подз. импульс 0,03 Гц</text>
+    <text x="40" y="272" class="label-ru">Underground 27-s pulse</text>
+
+    <!-- Ridge line -->
+    <line x1="14" y1="290" x2="40" y2="290" class="ridge"/>
+    <text x="46" y="294" class="legend">Гряда / Ridge crest</text>
+
+    <!-- River -->
+    <line x1="14" y1="310" x2="40" y2="310" class="river"/>
+    <text x="46" y="314" class="legend">р. Медведица</text>
+
+    <!-- Forest -->
+    <rect x="14" y="324" width="22" height="14" class="forest"/>
+    <text x="42" y="335" class="legend">Лес / Forest</text>
+
+    <!-- Road -->
+    <line x1="14" y1="354" x2="40" y2="354" class="road"/>
+    <text x="46" y="358" class="legend">Дорога / Road</text>
+
+    <!-- KEY EVENT DATES -->
+    <line x1="10" y1="378" x2="190" y2="378" class="thin"/>
+    <text x="100" y="394" text-anchor="middle" class="label" font-weight="bold">Ключевые даты</text>
+    <text x="100" y="406" text-anchor="middle" class="label-ru">Key event dates</text>
+
+    <text x="14" y="426" class="label-sm" font-weight="bold">1993</text>
+    <text x="14" y="438" class="label-sm">Поляна сухостоя:</text>
+    <text x="14" y="450" class="label-sm">отставание 3–5 мин</text>
+
+    <text x="14" y="468" class="label-sm" font-weight="bold">1 авг 1997</text>
+    <text x="14" y="480" class="label-sm">Эпидемия отставания</text>
+    <text x="14" y="492" class="label-sm">часов 15–60 мин</text>
+
+    <text x="14" y="510" class="label-sm" font-weight="bold">8 авг 1998</text>
+    <text x="14" y="522" class="label-sm">Скачок +5 ч на 9 часах</text>
+    <text x="14" y="534" class="label-sm">(лунное затмение)</text>
+
+    <text x="14" y="552" class="label-sm" font-weight="bold">1999</text>
+    <text x="14" y="564" class="label-sm">Подземный импульс 27 с</text>
+    <text x="14" y="576" class="label-sm">на «треугольнике»</text>
+
+    <text x="14" y="594" class="label-sm" font-weight="bold">13 авг 2001</text>
+    <text x="14" y="606" class="label-sm">1-м серая сфера,</text>
+    <text x="14" y="618" class="label-sm">тракторист В.И.</text>
+
+    <text x="14" y="636" class="label-sm" font-weight="bold">20 июн 2002</text>
+    <text x="14" y="648" class="label-sm">3-зв. НЛО, +12 мин</text>
+    <text x="14" y="660" class="label-sm">после 1-й прозвонки Л-7</text>
+
+    <text x="14" y="678" class="label-sm" font-weight="bold">2-3 июл 2002</text>
+    <text x="14" y="690" class="label-sm">3-зв. НЛО, +114 мин</text>
+  </g>
+
+  <!-- Coordinates band -->
+  <text x="510" y="100" text-anchor="middle" class="label-sm" font-style="italic">~50,9° с.ш. · 44,7° в.д. (МГ-зона) / Medveditskaya Zone, Volgograd Oblast, RU</text>
+
+  <!-- Footer -->
+  <line x1="40" y1="858" x2="1160" y2="858" class="thin"/>
+  <text x="600" y="874" text-anchor="middle" class="src">Источники / Sources: B-MG05 §1.2–§4.3 · B-HRON03 §31.6, §32.4 · B-TPV01 §5.2–§5.3 · MG-DOC-17 · MASTER §0.0 items 37–57, §1.5, §8.2</text>
+  <text x="600" y="888" text-anchor="middle" class="src">ASRP · chernobrov-archive/diagrams/medveditskaya_site_topology.svg</text>
+</svg>

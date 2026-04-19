@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="780" viewBox="0 0 1320 780" role="img" aria-labelledby="title desc">
+  <title id="title">Чернобров — Матрица внешней верификации заявлений / Claim Corroboration Matrix</title>
+  <desc id="desc">7 major Chernobrov claims scored against 8 external verification events / contexts.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:11.5px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:9px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .claim { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#0f172a; font-weight:600; }
+    .claim-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .verify { fill:#9ad17b; }
+    .partial { fill:#f6c85f; }
+    .contra { fill:#f29c99; }
+    .untest { fill:#bfcfe7; }
+    .na { fill:#d9d9d9; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#888; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+  </style>
+  <rect class="bg" width="1320" height="780"/>
+  <text class="title" x="32" y="42">Матрица внешней верификации заявлений / Claim Corroboration Matrix — Chernobrov</text>
+  <text class="subtitle" x="32" y="64">7 major Chernobrov claims vs 8 external events / research contexts (1950s–2020s).</text>
+  <text class="subtitle-ru" x="32" y="82">7 ключевых заявлений Черноброва против 8 внешних событий / контекстов (1950-е — 2020-е).</text>
+
+  <!-- legend -->
+  <rect x="32"  y="98" width="14" height="14" class="verify stroke"/>
+  <text class="legend" x="52"  y="110">✓ corroborated / подтверждает</text>
+  <rect x="260" y="98" width="14" height="14" class="partial stroke"/>
+  <text class="legend" x="280" y="110">~ partial / частично</text>
+  <rect x="400" y="98" width="14" height="14" class="contra stroke"/>
+  <text class="legend" x="420" y="110">✗ falsified / опровергает</text>
+  <rect x="560" y="98" width="14" height="14" class="untest stroke"/>
+  <text class="legend" x="580" y="110">? untestable / не проверяемо</text>
+  <rect x="760" y="98" width="14" height="14" class="na stroke"/>
+  <text class="legend" x="780" y="110">– n/a unrelated / не связано</text>
+
+  <!-- header (8 columns of 125 px each + label column) -->
+  <rect x="32"   y="128" width="260" height="64" fill="#1f2937"/>
+  <rect x="292"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="417"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="542"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="667"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="792"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="917"  y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="1042" y="128" width="125" height="64" fill="#1f2937"/>
+  <rect x="1167" y="128" width="140" height="64" fill="#1f2937"/>
+
+  <text class="hdr" x="162" y="156">Claim / Заявление</text>
+  <text class="hdr-ru" x="162" y="174">Chernobrov 1988–2017</text>
+
+  <text class="hdr" x="354" y="150">Kozyrev</text>
+  <text class="hdr" x="354" y="166">mechanics</text>
+  <text class="hdr-ru" x="354" y="184">1950s–80s</text>
+
+  <text class="hdr" x="479" y="150">Bartini</text>
+  <text class="hdr" x="479" y="166">6D spacetime</text>
+  <text class="hdr-ru" x="479" y="184">1960s</text>
+
+  <text class="hdr" x="604" y="150">Dubna 115</text>
+  <text class="hdr" x="604" y="166">synthesis</text>
+  <text class="hdr-ru" x="604" y="184">2003</text>
+
+  <text class="hdr" x="729" y="150">Podkletnov</text>
+  <text class="hdr" x="729" y="166">antigravity</text>
+  <text class="hdr-ru" x="729" y="184">1990s</text>
+
+  <text class="hdr" x="854" y="150">BLT Research</text>
+  <text class="hdr" x="854" y="166">crop circles</text>
+  <text class="hdr-ru" x="854" y="184">1994+</text>
+
+  <text class="hdr" x="979" y="150">RU patent</text>
+  <text class="hdr" x="979" y="166">system</text>
+  <text class="hdr-ru" x="979" y="184">2003</text>
+
+  <text class="hdr" x="1104" y="150">DoD UAP</text>
+  <text class="hdr" x="1104" y="166">disclosure</text>
+  <text class="hdr-ru" x="1104" y="184">2020+</text>
+
+  <text class="hdr" x="1237" y="150">Academic</text>
+  <text class="hdr" x="1237" y="166">silence</text>
+  <text class="hdr-ru" x="1237" y="184">ongoing</text>
+
+  <!-- 7 rows, 68 px each, starting y=192 -->
+  <g class="stroke">
+    <!-- r1: 6D spacetime -->
+    <rect x="32"   y="192" width="260" height="68" class="rowA"/>
+    <rect x="292"  y="192" width="125" height="68" class="partial"/>
+    <rect x="417"  y="192" width="125" height="68" class="verify"/>
+    <rect x="542"  y="192" width="125" height="68" class="na"/>
+    <rect x="667"  y="192" width="125" height="68" class="na"/>
+    <rect x="792"  y="192" width="125" height="68" class="na"/>
+    <rect x="917"  y="192" width="125" height="68" class="na"/>
+    <rect x="1042" y="192" width="125" height="68" class="na"/>
+    <rect x="1167" y="192" width="140" height="68" class="partial"/>
+    <!-- r2: Gravity-field manipulation -->
+    <rect x="32"   y="260" width="260" height="68" class="rowB"/>
+    <rect x="292"  y="260" width="125" height="68" class="na"/>
+    <rect x="417"  y="260" width="125" height="68" class="partial"/>
+    <rect x="542"  y="260" width="125" height="68" class="na"/>
+    <rect x="667"  y="260" width="125" height="68" class="partial"/>
+    <rect x="792"  y="260" width="125" height="68" class="na"/>
+    <rect x="917"  y="260" width="125" height="68" class="partial"/>
+    <rect x="1042" y="260" width="125" height="68" class="partial"/>
+    <rect x="1167" y="260" width="140" height="68" class="contra"/>
+    <!-- r3: Time density observable -->
+    <rect x="32"   y="328" width="260" height="68" class="rowA"/>
+    <rect x="292"  y="328" width="125" height="68" class="verify"/>
+    <rect x="417"  y="328" width="125" height="68" class="partial"/>
+    <rect x="542"  y="328" width="125" height="68" class="na"/>
+    <rect x="667"  y="328" width="125" height="68" class="na"/>
+    <rect x="792"  y="328" width="125" height="68" class="na"/>
+    <rect x="917"  y="328" width="125" height="68" class="na"/>
+    <rect x="1042" y="328" width="125" height="68" class="na"/>
+    <rect x="1167" y="328" width="140" height="68" class="contra"/>
+    <!-- r4: UFO landing-site studies -->
+    <rect x="32"   y="396" width="260" height="68" class="rowB"/>
+    <rect x="292"  y="396" width="125" height="68" class="na"/>
+    <rect x="417"  y="396" width="125" height="68" class="na"/>
+    <rect x="542"  y="396" width="125" height="68" class="na"/>
+    <rect x="667"  y="396" width="125" height="68" class="na"/>
+    <rect x="792"  y="396" width="125" height="68" class="verify"/>
+    <rect x="917"  y="396" width="125" height="68" class="na"/>
+    <rect x="1042" y="396" width="125" height="68" class="partial"/>
+    <rect x="1167" y="396" width="140" height="68" class="contra"/>
+    <!-- r5: Kozyrev theory extension -->
+    <rect x="32"   y="464" width="260" height="68" class="rowA"/>
+    <rect x="292"  y="464" width="125" height="68" class="verify"/>
+    <rect x="417"  y="464" width="125" height="68" class="partial"/>
+    <rect x="542"  y="464" width="125" height="68" class="na"/>
+    <rect x="667"  y="464" width="125" height="68" class="na"/>
+    <rect x="792"  y="464" width="125" height="68" class="na"/>
+    <rect x="917"  y="464" width="125" height="68" class="na"/>
+    <rect x="1042" y="464" width="125" height="68" class="na"/>
+    <rect x="1167" y="464" width="140" height="68" class="contra"/>
+    <!-- r6: Patent process -->
+    <rect x="32"   y="532" width="260" height="68" class="rowB"/>
+    <rect x="292"  y="532" width="125" height="68" class="na"/>
+    <rect x="417"  y="532" width="125" height="68" class="na"/>
+    <rect x="542"  y="532" width="125" height="68" class="na"/>
+    <rect x="667"  y="532" width="125" height="68" class="na"/>
+    <rect x="792"  y="532" width="125" height="68" class="na"/>
+    <rect x="917"  y="532" width="125" height="68" class="contra"/>
+    <rect x="1042" y="532" width="125" height="68" class="na"/>
+    <rect x="1167" y="532" width="140" height="68" class="na"/>
+    <!-- r7: Pictogram-time connection -->
+    <rect x="32"   y="600" width="260" height="68" class="rowA"/>
+    <rect x="292"  y="600" width="125" height="68" class="na"/>
+    <rect x="417"  y="600" width="125" height="68" class="na"/>
+    <rect x="542"  y="600" width="125" height="68" class="na"/>
+    <rect x="667"  y="600" width="125" height="68" class="na"/>
+    <rect x="792"  y="600" width="125" height="68" class="partial"/>
+    <rect x="917"  y="600" width="125" height="68" class="na"/>
+    <rect x="1042" y="600" width="125" height="68" class="na"/>
+    <rect x="1167" y="600" width="140" height="68" class="untest"/>
+  </g>
+
+  <!-- Claim labels -->
+  <g>
+    <text class="claim"    x="44" y="224">6D spacetime (3 space + date + variant + density)</text>
+    <text class="claim-ru" x="44" y="244">6-мерное пространство-время (Bartini extension)</text>
+
+    <text class="claim"    x="44" y="292">Gravity-field manipulation for propulsion</text>
+    <text class="claim-ru" x="44" y="312">Управление гравиполем для двигателя</text>
+
+    <text class="claim"    x="44" y="360">Time density is physically observable</text>
+    <text class="claim-ru" x="44" y="380">Плотность времени — измеримая величина</text>
+
+    <text class="claim"    x="44" y="428">UFO landing sites leave time-anomaly traces</text>
+    <text class="claim-ru" x="44" y="448">Следы времени на местах посадки НЛО</text>
+
+    <text class="claim"    x="44" y="496">Kozyrev causal-mechanics extension</text>
+    <text class="claim-ru" x="44" y="516">Расширение причинной механики Козырева</text>
+
+    <text class="claim"    x="44" y="564">Russian patent RU 2003110067 process</text>
+    <text class="claim-ru" x="44" y="584">Ход российской патентной заявки 2003110067</text>
+
+    <text class="claim"    x="44" y="632">Pictogram ↔ chrono-anomaly connection</text>
+    <text class="claim-ru" x="44" y="652">Связь пиктограмм с хроноаномалиями</text>
+  </g>
+
+  <!-- Cell marks -->
+  <g>
+    <!-- r1 6D spacetime -->
+    <text class="cell" x="354"  y="232">~</text>
+    <text class="cell" x="479"  y="232">✓</text>
+    <text class="cell" x="604"  y="232">–</text>
+    <text class="cell" x="729"  y="232">–</text>
+    <text class="cell" x="854"  y="232">–</text>
+    <text class="cell" x="979"  y="232">–</text>
+    <text class="cell" x="1104" y="232">–</text>
+    <text class="cell" x="1237" y="232">~</text>
+    <!-- r2 gravity manipulation -->
+    <text class="cell" x="354"  y="300">–</text>
+    <text class="cell" x="479"  y="300">~</text>
+    <text class="cell" x="604"  y="300">–</text>
+    <text class="cell" x="729"  y="300">~</text>
+    <text class="cell" x="854"  y="300">–</text>
+    <text class="cell" x="979"  y="300">~</text>
+    <text class="cell" x="1104" y="300">~</text>
+    <text class="cell" x="1237" y="300">✗</text>
+    <!-- r3 time density observable -->
+    <text class="cell" x="354"  y="368">✓</text>
+    <text class="cell" x="479"  y="368">~</text>
+    <text class="cell" x="604"  y="368">–</text>
+    <text class="cell" x="729"  y="368">–</text>
+    <text class="cell" x="854"  y="368">–</text>
+    <text class="cell" x="979"  y="368">–</text>
+    <text class="cell" x="1104" y="368">–</text>
+    <text class="cell" x="1237" y="368">✗</text>
+    <!-- r4 landing-site studies -->
+    <text class="cell" x="354"  y="436">–</text>
+    <text class="cell" x="479"  y="436">–</text>
+    <text class="cell" x="604"  y="436">–</text>
+    <text class="cell" x="729"  y="436">–</text>
+    <text class="cell" x="854"  y="436">✓</text>
+    <text class="cell" x="979"  y="436">–</text>
+    <text class="cell" x="1104" y="436">~</text>
+    <text class="cell" x="1237" y="436">✗</text>
+    <!-- r5 Kozyrev extension -->
+    <text class="cell" x="354"  y="504">✓</text>
+    <text class="cell" x="479"  y="504">~</text>
+    <text class="cell" x="604"  y="504">–</text>
+    <text class="cell" x="729"  y="504">–</text>
+    <text class="cell" x="854"  y="504">–</text>
+    <text class="cell" x="979"  y="504">–</text>
+    <text class="cell" x="1104" y="504">–</text>
+    <text class="cell" x="1237" y="504">✗</text>
+    <!-- r6 patent process -->
+    <text class="cell" x="354"  y="572">–</text>
+    <text class="cell" x="479"  y="572">–</text>
+    <text class="cell" x="604"  y="572">–</text>
+    <text class="cell" x="729"  y="572">–</text>
+    <text class="cell" x="854"  y="572">–</text>
+    <text class="cell" x="979"  y="572">✗ disc.</text>
+    <text class="cell" x="1104" y="572">–</text>
+    <text class="cell" x="1237" y="572">–</text>
+    <!-- r7 pictogram-time -->
+    <text class="cell" x="354"  y="640">–</text>
+    <text class="cell" x="479"  y="640">–</text>
+    <text class="cell" x="604"  y="640">–</text>
+    <text class="cell" x="729"  y="640">–</text>
+    <text class="cell" x="854"  y="640">~</text>
+    <text class="cell" x="979"  y="640">–</text>
+    <text class="cell" x="1104" y="640">–</text>
+    <text class="cell" x="1237" y="640">?</text>
+  </g>
+
+  <text class="footer" x="32" y="694">Judgement notes: Bartini 6D is an independent Soviet formalism directly matching Chernobrov's date/variant/density triple → ✓. BLT Research (W.C. Levengood 1994+) corroborates physical-anomaly reality of crop formations but not the time-connection → ~. RU patent DISCONTINUED 21 Apr 2005 (FA92) → ✗ for "granted" reading. Academic silence ≠ falsification (see §12.3), scored ✗ where no peer-reviewed path exists.</text>
+  <text class="footer-ru" x="32" y="714">Примечания: 6D Бартини прямо соответствует триаде «дата/вариант/плотность» Черноброва → ✓. BLT Research (Левенгуд 1994+) подтверждает физическую аномальность пиктограмм, но не связь со временем → ~. Патент прекращён 21.04.2005 (код FA92) → ✗ для «выдан».</text>
+  <text class="footer" x="32" y="746">Basis: §9 cross-refs to Lazar Archive, §10 institutional network, §11.5 patent status, §12.3 externally verifiable vs unfalsifiable.</text>
+  <text class="footer-ru" x="32" y="762">Архив Черноброва v1.0 — ASRP, исследование обратной разработки UAP</text>
+</svg>
