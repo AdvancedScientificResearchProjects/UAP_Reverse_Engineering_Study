@@ -16,3 +16,10 @@ chernobrov-archive/ocr-pipeline/.venv/
 
 # Private / non-archive research scratchpad
 chernobrov-archive-tg/
+
+# Chernobrov archive: scripts, logs, and OCR pipeline build artifacts
+chernobrov-archive/*.py
+chernobrov-archive/*.sh
+chernobrov-archive/*.log
+chernobrov-archive/*.json
+chernobrov-archive/ocr-pipeline/
