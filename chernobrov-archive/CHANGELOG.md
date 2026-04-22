@@ -8,6 +8,52 @@ Format: bilingual side-by-side (EN / RU) per ASRP v2.1.
 
 ---
 
+## v0.5.3 — SLEDY-55 Ч2 ingest + per-interview 06→06_20 merge — 2026-04-20
+
+**EN — Added:**
+- `transcripts/20_SlediPutesh_Ch2_2h55.txt` — fresh Whisper pass of Part 2 of the 21–22 October 2015 broadcast on Народное Славянское Радио (2h55m, 2397 segments, 260 KB; YouTube `Ptq5z7AQn2I`). Part 1 was the pre-existing `06_SlediPutesh_2h55.txt` (itself ending on a cliff-hanger photo-method teaser at `[02:55:16]`). Ч2 opens at `[00:01:07]` with the host bridge «Итак, переходим к следующему пункту заявленного нашего общения, это разговор о фотографиях» and delivers the full photo-evidence block + Q&A that Ч1 had deferred.
+- New source code `SLEDY-55` for the merged 5h51m broadcast; split into `SLEDY-55-C1` (Ч1 = transcript 06) and `SLEDY-55-C2` (Ч2 = transcript 20) chunk sub-codes for citation granularity. Listed in MASTER §0.3.
+- `analysis/per-interview/06_20_sledy_puteshestvennikov.md` — existing 06 file renamed; Ч2 content appended as sections §18–§28 (≈ 350 new lines, bilingual RU-first). New sections cover: photo-anomaly thesis & methodology (§18); Bralorne Canadian 1930s-photograph case-study with NTV crew (§19 — 9 subsections); Hawking 2012 time-traveller party (§20); 2015 Medveditskaya hronokapsula field experiment + Dmitry covert-call result (§21); 1920s Rabfak-student case (§22); Domodedovo 21.12.1998 + Archangelsk VHS backlog + "relative from the future" anecdote (§23); Q&A technical claims incl. 3-dimensions-of-time + January-2016-mobile-МВ-crowdfunding + Belimov/Volzhskaya cross-ref to `B-PV01` (§24); Ч2-only names/books (§25–§26); Ч2 absences (§27); position in corpus (§28).
+- 3 new `§0.0` MASTER numerical-params items (83–85): (83) Bralorne Canadian 1930s-photograph investigation; (84) 2015 Medveditskaya hronokapsula field experiment; (85) Domodedovo airport luggage-locker drop 21 December 1998.
+- 3 new MASTER `§6.5` timeline rows: July 2015 hronokapsula; 21–22 October 2015 `SLEDY-55` broadcast; January-2016-announced mobile-chassis МВ crowdfunding.
+- New MASTER `§11.16` clarifying that the "deliberate-bait photograph" framing (Ч2 §19.7) is single-source to `SLEDY-55-C2` and not corroborated in any book chapter in the current archive corpus; Ч2 generalised claim «NLO каждый раз при новом включении новой установки» noted as single-source extension of the 2002 Medveditskaya Lovondatr-7 sequence (MASTER §8.3 / `B-HRON03` §32.4).
+
+**EN — Changed:**
+- MASTER header Scope line: «20 transcripts covering 19 distinct lectures» → «21 transcripts covering 19 distinct lectures», with explicit note on both source-merges (08+20_Zigelevsky = ZIG-17; 06+20_SlediPutesh_Ch2 = SLEDY-55). v0.5.3 summary added.
+- MASTER `§0.3` Video-lectures table: new `SLEDY-55` row describing the 5h51m single broadcast and its C1/C2 chunk split; row explicitly notes Ч2 ASR stuck-loop pathology (~2 min of unrecoverable segments between `[01:10]` and `[01:13]`). Transcript count updated to 21.
+- `README.md`: transcript count «20» → «21»; both QUICK NAVIGATION Raw Transcripts row and Corpus Statistics YouTube-lectures row reflect the new dual-merge structure; per-interview analyses count 8 → 9 files; per-interview dir listing shows `06_20_sledy_puteshestvennikov.md` (renamed from `06_sledy_puteshestvennikov.md`); Transcripts code table gains `SLEDY-55` row; Status header v0.5.3.
+- Per-interview 06 file renamed in place: `06_sledy_puteshestvennikov.md` → `06_20_sledy_puteshestvennikov.md`. Header rewritten to dual-transcript form (SLEDY-55-C1 + SLEDY-55-C2, 351 min total, Source code split). Existing §1–§17 Ч1 content preserved unchanged except §15 gets a bridge-note to §18 continuation.
+
+**Top 5 novel findings from Ч2** (per analysis, single-source to `SLEDY-55-C2` unless noted):
+1. Chernobrov's **"deliberate-bait photograph"** trace-mechanic (§19.7) — an original inversion of the enforcement-failure model; no book-chapter corroboration found (§11.16).
+2. **Bralorne Canadian 1930s-photograph investigation** — NTV federal-channel field crew, museum-director-reveals-to-Russians-only, Russian-language inscriptions, non-gold-mine site, censored broadcast (§19 + §0.0 item 83).
+3. **2015 Medveditskaya hronokapsula experiment** + Dmitry-covert-call with unpredicted-class in-camp response (§21 + §0.0 item 84).
+4. **Domodedovo 21 December 1998 luggage-locker drop** — date-pinned case-anchor for an artefact Chernobrov retains but has never published (§23.1 + §0.0 item 85).
+5. **January 2016 mobile-chassis МВ crowdfunding announcement** — architecture shift from fixed matryoshka to vehicle-portable (§24.3 + §6.5 timeline).
+
+**RU — Добавлено:**
+- `transcripts/20_SlediPutesh_Ch2_2h55.txt` — свежий прогон Whisper Части 2 эфира 21–22 октября 2015 г. на Народном Славянском Радио (2h55m, 2397 сегментов, 260 КБ; YouTube `Ptq5z7AQn2I`). Часть 1 — ранее существовавший `06_SlediPutesh_2h55.txt`, оборванный на клиффхэнгере о фотографиях в `[02:55:16]`. Ч2 открывается в `[00:01:07]` связкой ведущего «Итак, переходим к следующему пункту заявленного нашего общения, это разговор о фотографиях» и содержит полный блок о фотоуликах + Q&A.
+- Новый код источника `SLEDY-55` для объединённого 5h51m эфира, разделённый на `SLEDY-55-C1` (Ч1 = транскрипт 06) и `SLEDY-55-C2` (Ч2 = транскрипт 20). Указан в MASTER §0.3.
+- `analysis/per-interview/06_20_sledy_puteshestvennikov.md` — существующий файл 06 переименован; контент Ч2 добавлен разделами §18–§28 (~350 новых строк, двуязычно RU-first). Новые разделы: тезис и методология фотоулик (§18); **Брэлорнская канадская фотография 1930-х** + съёмочная группа НТВ (§19 — 9 подразделов); вечеринка Хокинга для путешественников во времени 2012 (§20); **хронокапсула Медведицкой гряды июль 2015** + эксперимент Дмитрия (§21); случай рабфаковца 1920-х (§22); **Домодедово 21.12.1998** + ВХС-архив Архангельска + анекдот «родственница из будущего» (§23); технические заявления Q&A включая три измерения времени + **мобильная МВ-кампания на январь 2016** + кросс-реф к Белимов/Волжская регрессивно-гипнотическая группа в `B-PV01` (§24); имена/книги, упомянутые только в Ч2 (§25–§26); отсутствия в Ч2 (§27); место в корпусе (§28).
+- 3 новых пункта §0.0 MASTER (83–85): (83) Брэлорнская канадская фотография 1930-х; (84) хронокапсула Медведицкой гряды июль 2015; (85) камера хранения Домодедово 21.12.1998.
+- 3 новые строки хронологии MASTER §6.5: июль 2015 хронокапсула; 21–22 октября 2015 эфир `SLEDY-55`; объявленная январь-2016 мобильная МВ-кампания.
+- Новый §11.16 MASTER: уточнение, что концепт «намеренно-приманочной фотографии» (§19.7 Ч2) — single-source, не подтверждён ни одной главой книги в текущем корпусе; обобщение Ч2 «НЛО при каждом новом включении новой установки» — single-source-расширение 2002 г. последовательности Ловондатр-7 на МГ.
+
+**RU — Изменено:**
+- Строка области MASTER: «20 транскриптов, покрывающих 19 различных лекций» → «21 транскрипт, покрывающий 19 различных лекций» с явным указанием обоих мержей источников. Добавлена сводка v0.5.3.
+- Таблица видеодокладов MASTER §0.3: новая строка `SLEDY-55`, описывающая 5h51m эфир и его разбиение C1/C2; явно отмечена патология стак-лупов Whisper Части 2 (~2 мин нечитаемых сегментов между `[01:10]` и `[01:13]`). Общее число транскриптов обновлено до 21.
+- `README.md`: число транскриптов «20» → «21»; обе строки QUICK NAVIGATION и Corpus Statistics отражают новую структуру двойного мержа; число per-interview-анализов 8 → 9; листинг директории показывает `06_20_sledy_puteshestvennikov.md`; таблица кодов транскриптов получает строку `SLEDY-55`; заголовок Status v0.5.3.
+- Файл per-interview 06 переименован на месте: `06_sledy_puteshestvennikov.md` → `06_20_sledy_puteshestvennikov.md`. Заголовок переписан в двухтранскриптную форму. Существующее содержание §1–§17 Ч1 сохранено без изменений, за исключением того, что §15 получает переходную ссылку на продолжение §18.
+
+**Топ-5 новых находок из Ч2** (single-source к `SLEDY-55-C2`, если не отмечено иначе):
+1. Концепт **«намеренно-приманочной фотографии»** Черноброва (§19.7) — оригинальная инверсия модели «trace-через-неудачу-протокола»; корреляция в книжном корпусе отсутствует (§11.16).
+2. **Расследование Брэлорнской канадской фотографии 1930-х** — съёмочная группа НТВ, директор музея раскрывает материалы только русским, надписи на русском языке, место «не золотая шахта», вырезание из эфира (§19 + §0.0 п. 83).
+3. **Эксперимент с хронокапсулой Медведицкой гряды 2015** + скрытый 30-минутный отклик Дмитрия с непредсказуемой внутрилагерной реакцией (§21 + §0.0 п. 84).
+4. **Камера хранения Домодедово 21 декабря 1998** — кейс-якорь с датой, артефакт сохранён, но никогда не публиковался (§23.1 + §0.0 п. 85).
+5. **Январь 2016: объявление о краудфандинге мобильной МВ** — архитектурный сдвиг от стационарной матрёшки к транспортной (§24.3 + §6.5 хронология).
+
+---
+
 ## v0.5.2 — Final-Lecture Anchor — 2026-04-19
 
 **EN — Added:**

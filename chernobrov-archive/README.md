@@ -4,9 +4,9 @@
 
 A research archive of **Vadim Chernobrov** (1965–2017) and the **«Kosmopoisk»** association, focused on the **«Lovondatr»** time-machine development program, Russian temporology, and the field research of anomalous zones, crop pictograms, and UAP.
 
-**RU:** 20 транскрипций Whisper-large-v3 (2011–2018), покрывающих **19 различных лекций** (файлы 08 и 20 — два прохода одной и той же лекции 49-х Зигелевских чтений 25.03.2017, финальной публичной лекции Черноброва), 32 книги с Флибусты, **5 ключевых PDF (все OCR-обработаны на v0.5.0)**, 10 HTML-статей, внешние исследования Perplexity + пользовательский мета-анализ, единый синтез технических утверждений с дословными цитатами и проверкой на галлюцинации.
+**RU:** 21 транскрипция Whisper-large-v3 (2011–2018), покрывающая **19 различных лекций**. Два мержа источников: (а) файлы 08 и 20_ZigelevskyChteniya — два прохода одной и той же лекции 49-х Зигелевских чтений 25.03.2017, финальной публичной лекции Черноброва (`ZIG-17`); (б) файлы 06 и 20_SlediPutesh_Ch2 — две половины одного непрерывного 5h51m эфира на Народном Славянском Радио 21–22 октября 2015 г. (`SLEDY-55` = `SLEDY-55-C1` + `SLEDY-55-C2`). Плюс 32 книги с Флибусты, **5 ключевых PDF (все OCR-обработаны на v0.5.0)**, 10 HTML-статей, внешние исследования Perplexity + пользовательский мета-анализ, единый синтез технических утверждений с дословными цитатами и проверкой на галлюцинации.
 
-**EN:** 20 Whisper-large-v3 transcripts (2011–2018) covering **19 distinct lectures** (transcripts 08 and 20 are two passes of the same 49th Zigelevsky Readings lecture of 25 March 2017, Chernobrov's final public lecture), 32 Flibusta books, **5 major PDFs (all OCR-complete as of v0.5.0)**, 10 HTML articles, external Perplexity research + user-provided meta-analysis, unified synthesis of technical claims with verbatim quotes and hallucination audit.
+**EN:** 21 Whisper-large-v3 transcripts (2011–2018) covering **19 distinct lectures**. Two source-merges: (a) transcripts 08 and 20_ZigelevskyChteniya are two passes of the same 49th Zigelevsky Readings lecture of 25 March 2017 (`ZIG-17`, Chernobrov's final public lecture); (b) transcripts 06 and 20_SlediPutesh_Ch2 are the two halves of a single continuous 5h51m broadcast on Narodnoye Slavyanskoye Radio 21–22 October 2015 (`SLEDY-55` = `SLEDY-55-C1` + `SLEDY-55-C2`). Plus 32 Flibusta books, **5 major PDFs (all OCR-complete as of v0.5.0)**, 10 HTML articles, external Perplexity research + user-provided meta-analysis, unified synthesis of technical claims with verbatim quotes and hallucination audit.
 
 Параллельно архиву **[bob-lazar-archive](../bob-lazar-archive/)**: где Лазар — это индустриальная американская линия (S-4, Элемент 115, антиматерия), Чернобров — это независимая советско-российская линия (Ловондатр, магнитные поля, многомерное пространство-время). Оба корпуса сходятся на гравитации и многомерности как центральной физике.
 
@@ -19,7 +19,7 @@ Parallel to **[bob-lazar-archive](../bob-lazar-archive/)**: where Lazar represen
 | Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
 |------------------|----------------------|-------------|-----------------|
 | Main Technical Reference / Главный технический справочник | Unified bilingual synthesis of every technical claim / Единый двуязычный синтез всех технических утверждений | [`analysis/MASTER_chernobrov_claims.md`](analysis/MASTER_chernobrov_claims.md) | Available / Доступно |
-| Raw Transcripts / Сырые транскрипты | 20 Whisper-large-v3 Russian transcriptions (2.1 MB, 19 distinct lectures; 08 + 20 = same ZIG-17 2017 source) / 20 транскрипций Whisper-large-v3 (2.1 МБ, 19 различных лекций; 08 + 20 — тот же источник ZIG-17 2017) | [`transcripts/`](transcripts/) | Available / Доступно |
+| Raw Transcripts / Сырые транскрипты | 21 Whisper-large-v3 Russian transcriptions (~2.4 MB, 19 distinct lectures; 08 + 20_Zigelevsky = same ZIG-17 2017 source; 06 + 20_SlediPutesh_Ch2 = same SLEDY-55 2015 broadcast) / 21 транскрипция Whisper-large-v3 (~2.4 МБ, 19 различных лекций; 08 + 20_Zigelevsky — тот же источник ZIG-17 2017; 06 + 20_SlediPutesh_Ch2 — тот же 5h51m эфир SLEDY-55 от 21–22 октября 2015) | [`transcripts/`](transcripts/) | Available / Доступно |
 | Source Books / Исходные книги | 32 Flibusta FB2 plaintexts (37 MB) / 32 плейнтекста FB2 с Флибусты (37 МБ) | [`books/downloads/fb2_text/`](books/downloads/fb2_text/) | Available / Доступно |
 | Per-Book Analysis / Анализ по книгам | 14 merged `B-*` book references + 21 chunk intermediates / 14 объединённых справочников `B-*` + 21 промежуточный чанк | [`analysis/books/`](analysis/books/) | Available / Доступно |
 | Per-Interview Analysis / Анализ по интервью | 8 per-transcript files covering 19 lectures / 8 файлов, охватывающих 19 лекций | [`analysis/per-interview/`](analysis/per-interview/) | Available / Доступно |
@@ -52,7 +52,7 @@ This archive extracts, verifies, and uniformly encodes Chernobrov's technical cl
 
 | Category / Категория | Count / Кол-во | Size / Объём | Status / Статус |
 |----------------------|----------------|--------------|-----------------|
-| YouTube lectures transcribed / Лекции YouTube транскрибированы | **20 transcripts (19 distinct lectures; 08 + 20 are two Whisper passes of the same 25 Mar 2017 Zigelevsky Readings source) / 20 транскриптов (19 различных лекций; 08 и 20 — два прохода Whisper одного источника 49-х Зигелевских чтений 25.03.2017)** | 2.1 MB | Whisper-large-v3 RU, полный / complete |
+| YouTube lectures transcribed / Лекции YouTube транскрибированы | **21 transcripts (19 distinct lectures; 08 + 20_Zigelevsky = two passes of 25 Mar 2017 Zigelevsky Readings source; 06 + 20_SlediPutesh_Ch2 = two halves of single 21–22 Oct 2015 Narodnoye Slavyanskoye Radio 5h51m broadcast SLEDY-55) / 21 транскрипт (19 различных лекций; 08 + 20_Zigelevsky — два прохода источника 49-х Зигелевских чтений 25.03.2017; 06 + 20_SlediPutesh_Ch2 — две половины одного эфира SLEDY-55 21–22.10.2015)** | ~2.4 MB | Whisper-large-v3 RU, полный / complete |
 | Flibusta FB2 books / Книги FB2 с Флибусты | 32 | 37 MB plaintext / плейнтекст | Extracted, indexed / извлечено, индексировано |
 | Major PDFs processed / Крупные PDF обработаны | 5 | see below / см. ниже | **COMPLETE (all 5 OCR'd as of v0.5.0)** / Полностью (все 5 OCR'd на v0.5.0) |
 | — Энциклопедия уфологии / Encyclopedia of Ufology | 1 | 169 MB | **OCR COMPLETE** (v0.5.0, 2026-04-19) — `B-EUFO_enciklopediya_ufologii.md` 117 KB, 14 thematic sections / **OCR ВЫПОЛНЕН** |
@@ -64,7 +64,7 @@ This archive extracts, verifies, and uniformly encodes Chernobrov's technical cl
 | Perplexity research / Исследования Perplexity | 2 | ~60 KB | Integrated / интегрировано |
 | User-provided meta-research / Пользовательский мета-анализ | 1 | ~40 KB | Integrated / интегрировано |
 | **Merged book analyses (B-*) / Объединённые анализы книг (B-*)** | **16** (was 14 in v0.3.0) | ~1.15 MB | Available / Доступно |
-| **Per-interview analyses / Анализы по интервью** | **8 files → 19 transcripts** | ~0.4 MB | Available / Доступно |
+| **Per-interview analyses / Анализы по интервью** | **9 files → 21 transcripts (19 distinct lectures)** | ~0.45 MB | Available / Доступно |
 | **Topical analyses / Тематические анализы** | **8 topical files** | ~0.4 MB | Available / Доступно |
 | **Article/patent analyses / Анализы статей и патентов** | **3** (was 2 in v0.5.0; +`NET_full_compendium.md` in v0.5.1) | ~0.31 MB | Available / Доступно |
 | **Case catalogs / Каталоги случаев** | **2** | ~0.2 MB | Available / Доступно |
@@ -129,11 +129,12 @@ chernobrov-archive/
     ├── FINAL_REVIEW.md                     Финальное ревью / final review
     ├── 01_02_comparison.md                 Ранняя сверка транскриптов / early cross-check
     │
-    ├── per-interview/                      9 файлов → 20 транскриптов (19 лекций) /
-    │   │                                    9 files → 20 transcripts (19 distinct lectures)
+    ├── per-interview/                      9 файлов → 21 транскрипт (19 лекций) /
+    │   │                                    9 files → 21 transcripts (19 distinct lectures)
     │   ├── 01_02_mashina_vremeni_lectures.md
     │   ├── 03_04_05_mixed.md
-    │   ├── 06_sledy_puteshestvennikov.md
+    │   ├── 06_20_sledy_puteshestvennikov.md   ⭐ v0.5.3 — ОБЪЕДИНЁННЫЙ 5h51m ЭФИР 21.10.2015 (Ч1+Ч2)
+    │   │                                       / MERGED 5h51m BROADCAST 21 Oct 2015 (Ч1+Ч2, SLEDY-55)
     │   ├── 07_13_heavy_mv.md
     │   ├── 08_09_10_14_19_thematic.md
     │   ├── 11_12_mv_lectures.md
@@ -332,6 +333,7 @@ chernobrov-archive/
 | MV-46 | Лекция «Машина времени», 46 мин / «Time Machine» lecture, 46 min | [`12_MashinaVremeni_Chernobrov_46min.txt`](transcripts/12_MashinaVremeni_Chernobrov_46min.txt) |
 | MG-DOC-17 | Медведицкая гряда: докфильм 2017 / Medveditskaya Ridge: 2017 documentary | [`15_MedveditskayaGryada_docfilm_2017_32min.txt`](transcripts/15_MedveditskayaGryada_docfilm_2017_32min.txt) |
 | **ZIG-17** ⭐ | **49-е Зигелевские чтения, Москва, 25 марта 2017 — ФИНАЛЬНАЯ ПУБЛИЧНАЯ ЛЕКЦИЯ ЧЕРНОБРОВА / 49th Zigelevsky Readings, Moscow, 25 March 2017 — CHERNOBROV'S FINAL PUBLIC LECTURE** (2 months before death) | [`20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt`](transcripts/20_ZigelevskyChteniya_49_3zvNLO_2017-03-25_22min.txt) + [`08_3zvezdnie_NLO_22min.txt`](transcripts/08_3zvezdnie_NLO_22min.txt) (same source, two Whisper passes) |
+| **SLEDY-55** ⭐ | **Народное Славянское Радио, 21–22 октября 2015 («Back to the Future Day») — 5h51m single broadcast «Как найти следы путешественников во Времени» / Narodnoye Slavyanskoye Radio, 21–22 Oct 2015, 5h51m single broadcast.** Split into `SLEDY-55-C1` (Ч1) + `SLEDY-55-C2` (Ч2) for citation granularity. Ч2 contains the Bralorne Canadian 1930s-photograph investigation, the 2015 Medveditskaya hronokapsula field experiment, and the Domodedovo 21.12.1998 luggage-locker case-anchor | [`06_SlediPutesh_2h55.txt`](transcripts/06_SlediPutesh_2h55.txt) (Ч1) + [`20_SlediPutesh_Ch2_2h55.txt`](transcripts/20_SlediPutesh_Ch2_2h55.txt) (Ч2, YouTube `Ptq5z7AQn2I`) |
 | KP-LEC-13 | «Круги на полях», 2013 / «Crop Circles», 2013 | [`16_KrugiNaPolyakh_2013_2h57.txt`](transcripts/16_KrugiNaPolyakh_2013_2h57.txt) |
 | KP-N24-58 | Космопоиск на N24: «Машина времени» / Kosmopoisk on N24: «Time Machine» | [`18_Kosmopoisk_MashinaVremeni_N24_58min.txt`](transcripts/18_Kosmopoisk_MashinaVremeni_N24_58min.txt) |
 | NLO-DPL-24 | «НЛО: доля правды» / «UAP: a share of truth» | [`17_NLO_dolya_pravdy_2h24.txt`](transcripts/17_NLO_dolya_pravdy_2h24.txt) |
@@ -411,9 +413,9 @@ chernobrov-archive/
 
 ## Status / Статус
 
-**RU:** Текущая версия: **v0.5.2 (2026-04-19)** — добавлен anchor ZIG-17 для финальной публичной лекции Черноброва (49-е Зигелевские чтения, 25.03.2017, за 2 месяца до смерти); транскрипты 08 и 20 идентифицированы как два прохода Whisper одного источника; §8.8 в MASTER; §11.15 уточняет, что отождествление «3-зв. НЛО = МВ» — инференция архива из `B-HRON03` §32.4, а не утверждение Черноброва. Предыдущая версия v0.5.1: правки ревью + интеграция NET-компендиума. Батч **4** (диаграммы Mermaid/SVG) — в очереди.
+**RU:** Текущая версия: **v0.5.3 (2026-04-20)** — интегрирован транскрипт 20_SlediPutesh_Ch2_2h55 (YouTube `Ptq5z7AQn2I`, 2h55m; Часть 2 эфира 21 октября 2015 г. на Народном Славянском Радио); per-interview файл 06 объединён с Ч2 и переименован в `06_20_sledy_puteshestvennikov.md` (покрывает весь 5h51m эфир `SLEDY-55`). Добавлены 3 новых параметра §0.0 (83–85): канадская фотография 1930-х (Брэлорн), хронокапсула Медведицкой гряды июля 2015 г. и кейс-якорь камеры хранения Домодедово 21.12.1998 г. Добавлены строки хронологии §6.5 (июль 2015, январь 2016). Новый §11.16: «намеренно-приманочный» концепт фотографии Ч2 как single-source-заявление. **v0.5.2 (2026-04-19):** добавлен anchor ZIG-17 для финальной публичной лекции Черноброва (49-е Зигелевские чтения, 25.03.2017, за 2 месяца до смерти). Батч **4** (диаграммы Mermaid/SVG) — в очереди.
 
-**EN:** Current version: **v0.5.2 (2026-04-19)** — ZIG-17 anchor added for Chernobrov's final public lecture (49th Zigelevsky Readings, 25 March 2017, 2 months before death); transcripts 08 and 20 identified as two Whisper passes of the same source; MASTER §8.8 added; §11.15 clarifies «3-star UFO = TM» identification as archive inference from `B-HRON03` §32.4, NOT a Chernobrov claim. Previous version v0.5.1: review-driven fixes + NET compendium integration. Batch **4** (Mermaid/SVG diagrams) queued.
+**EN:** Current version: **v0.5.3 (2026-04-20)** — transcript 20_SlediPutesh_Ch2_2h55 integrated (YouTube `Ptq5z7AQn2I`, 2h55m; Part 2 of 21 Oct 2015 Narodnoye Slavyanskoye Radio broadcast); per-interview 06 merged with Ч2 and renamed to `06_20_sledy_puteshestvennikov.md` (covers full 5h51m `SLEDY-55` broadcast). 3 new §0.0 items added (83–85): Bralorne Canadian 1930s photograph, 2015 Medveditskaya hronokapsula, Domodedovo 21.12.1998 luggage-locker case-anchor. §6.5 timeline rows added (July 2015, January 2016). New §11.16: Ч2 "deliberate-bait photograph" framing as single-source. **v0.5.2 (2026-04-19):** ZIG-17 anchor added for Chernobrov's final public lecture (49th Zigelevsky Readings, 25 March 2017, 2 months before death). Batch **4** (Mermaid/SVG diagrams) queued.
 
 ---
 

@@ -28,10 +28,11 @@
 6. [Working Hypotheses / Рабочие Гипотезы](#working-hypotheses--рабочие-гипотезы)
 7. [Visual Evidence / Визуализация Данных](#visual-evidence--визуализация-данных)
 8. [Timeline / Временная Шкала](#timeline--временная-шкала)
-9. [Team / Команда](#research-team--исследовательская-команда)
-10. [Structure / Структура](#structure--структура)
-11. [Security / Безопасность](#security--безопасность)
-12. [Contact / Контакты](#contact-information--контактная-информация)
+9. [Historical Archives / Исторические Архивы](#historical-archives--исторические-архивы)
+10. [Team / Команда](#research-team--исследовательская-команда)
+11. [Structure / Структура](#structure--структура)
+12. [Security / Безопасность](#security--безопасность)
+13. [Contact / Контакты](#contact-information--контактная-информация)
 
 ---
 
@@ -90,6 +91,26 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | [AI Report: Control Test / Отчёт ИИ: Контрольный Тест](reports/ai_reports/AI-2026-04-09-control-test.md) | SigLIP2 control validation with 14 reference images / Валидация SigLIP2 на 14 контрольных изображениях | Available / Доступно |
 | [ECP Protocol / Протокол КП](experiments/protocol_ecp.md) | Percipient session protocol / Протокол сеансов перципиентов | v2.0 |
 | [AI Protocol / Протокол ИИ](experiments/protocol_ai.md) | AI analysis pipeline protocol / Протокол конвейера ИИ-анализа | v3.1 |
+| [Bob Lazar Archive / Архив Боба Лазара](bob-lazar-archive/README.md) | Interview archive (1989–2026) / Архив интервью (1989–2026) | Available / Доступно |
+| [Vadim Chernobrov Archive / Архив Вадима Черноброва](chernobrov-archive/README.md) | Research archive (1988–2017) / Архив исследований (1988–2017) | Available / Доступно |
+
+---
+
+## HISTORICAL ARCHIVES / ИСТОРИЧЕСКИЕ АРХИВЫ
+
+### ENGLISH
+
+Two independent historical research archives are included in this repository as supporting materials. Each archive stands alone and is not presented as a comparison or synthesis of the other.
+
+- **[Bob Lazar Interview Archive (1989–2026)](bob-lazar-archive/README.md)** — Complete interview corpus of Robert Lazar's public statements on S-4, Element 115, and gravity propulsion. Includes 24 transcripts, per-interview and topical analysis, catalog by research period, and technical diagrams.
+- **[Vadim Chernobrov Research Archive (1988–2017)](chernobrov-archive/README.md)** — Research corpus of Vadim Chernobrov (Kosmopoisk) on time-machine experiments, gravitational anomalies, and anomalous zones. Includes transcripts, per-interview and topical analysis, catalog by research period, and selected books.
+
+### РУССКИЙ
+
+В репозитории включены два независимых исторических исследовательских архива в качестве вспомогательных материалов. Каждый архив самостоятелен и не представлен как сравнение или синтез другого.
+
+- **[Архив Интервью Боба Лазара (1989–2026)](bob-lazar-archive/README.md)** — Полный корпус интервью Роберта Лазара по S-4, Элементу 115 и гравитационной силовой установке. Включает 24 транскрипта, поштучный и тематический анализ, каталог по периодам и технические диаграммы.
+- **[Архив Исследований Вадима Черноброва (1988–2017)](chernobrov-archive/README.md)** — Исследовательский корпус Вадима Черноброва (Космопоиск) по экспериментам с машиной времени, гравитационным аномалиям и аномальным зонам. Включает транскрипты, поштучный и тематический анализ, каталог по периодам и избранные книги.
 
 ---
 
