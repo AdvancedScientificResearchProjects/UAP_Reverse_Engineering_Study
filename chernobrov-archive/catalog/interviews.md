@@ -6,9 +6,9 @@
 
 **EN:** Comprehensive chronological catalog of all known public appearances, publications, and expeditionary work by V.A. Chernobrov (1965–2017), focused on the «Lovondatr» time-machine program, «Kosmopoisk», and anomalous-zone field research. Combines transcribed lectures (20 files in `transcripts/`, 19 distinct lectures; files 08 and 20 are the same 49th Zigelevsky Readings lecture of 25 March 2017, two Whisper passes), links to untranscribed audio/video, print publications (books, articles, patent), and pointers to appearances referenced only by secondary mention.
 
-**RU — Источники использованы:** собственные 20 транскрипций Whisper-large-v3 (19 различных лекций); `B-*` книжный анализ (17 справочников); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; страница Kosmopoisk «Темпорология»; Академия тринитаризма; Флибуста; Koob; livelib; IMDb; YouTube. Дата сборки каталога: 2026-04-19 (v0.5.2: добавлен ZIG-17 anchor для последней публичной лекции Черноброва).
+**RU — Источники использованы:** собственные 20 транскрипций Whisper-large-v3 (19 различных лекций); `B-*` книжный анализ (17 справочников); `catalog/deep_research.md`; `catalog/youtube_catalog.json`; USER-RES-2026-04-18; страница Kosmopoisk «Темпорология»; Академия тринитаризма; Флибуста; Koob; livelib; IMDb; YouTube. Дата сборки каталога: 2026-04-19 (v0.5.2: добавлен ZIG-17 anchor для последней публичной лекции Черноброва).
 
-**EN — Sources used:** 20 Whisper-large-v3 self-transcriptions (19 distinct lectures); `B-*` book analyses (17 references); `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; USER-RES-2026-04-18; Kosmopoisk «Temporology» page; Trinitarian Academy; Flibusta; Koob; livelib; IMDb; YouTube. Catalog compilation date: 2026-04-19 (v0.5.2: ZIG-17 anchor added for Chernobrov's final public lecture).
+**EN — Sources used:** 20 Whisper-large-v3 self-transcriptions (19 distinct lectures); `B-*` book analyses (17 references); `catalog/deep_research.md`; `catalog/youtube_catalog.json`; USER-RES-2026-04-18; Kosmopoisk «Temporology» page; Trinitarian Academy; Flibusta; Koob; livelib; IMDb; YouTube. Catalog compilation date: 2026-04-19 (v0.5.2: ZIG-17 anchor added for Chernobrov's final public lecture).
 
 ---
 
