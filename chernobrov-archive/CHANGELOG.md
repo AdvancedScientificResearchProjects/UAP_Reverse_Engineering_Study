@@ -310,7 +310,7 @@ Format: bilingual side-by-side (EN / RU) per ASRP v2.1.
 - HTML article captures: Flibusta author page, Koob index, Kosmopoisk temporology page, Trinitarian Academy 2002/2003 reports, Livelib, Natural World, Avidreaders, Obuchalka, Klex, Royallib, Fileskachat, Hayakawa blog, Frolov Wikireading, Medveditskaya Ridge Avidreaders.
 - Perplexity research (2 files): `01_early_kosmopoisk_chernobrov.md` + `01_…_KEY_FINDINGS.md`; `02_chernobrov_time_works.md` + `02_…_thinking.md`.
 - User-provided meta-research (1 file): `03_user_provided_research_2026-04-18.md` (source-of-truth for Lovondatr-7 dimensions, Konov trial, 1.5 s lethal threshold, patent discontinuation date, etc.).
-- Catalog support: `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; `catalog/whisper_alternatives.md`.
+- Catalog support: `catalog/deep_research.md`; `catalog/youtube_catalog.json`; `catalog/whisper_alternatives.md`.
 
 **RU — Добавлено:**
 - 19 лекций YouTube, транскрибированных Whisper-large-v3 (русский), ≈2.1 МБ текста.
@@ -320,4 +320,4 @@ Format: bilingual side-by-side (EN / RU) per ASRP v2.1.
 - HTML-захваты статей: страница автора Флибуста, индекс Koob, страница темпорологии Космопоиска, отчёты Академии тринитаризма 2002/2003, Livelib, Natural World, Avidreaders, Обучалка, Klex, Royallib, Fileskachat, блог Хаякавы, Фролов Wikireading, Медведицкая гряда Avidreaders.
 - Исследования Perplexity (2 файла): `01_early_kosmopoisk_chernobrov.md` + `01_…_KEY_FINDINGS.md`; `02_chernobrov_time_works.md` + `02_…_thinking.md`.
 - Пользовательский мета-анализ (1 файл): `03_user_provided_research_2026-04-18.md` (источник истины для размеров Ловондатр-7, испытания Конова, летального порога 1,5 с, даты прекращения патента и т. д.).
-- Каталог-поддержка: `catalog/deep_research.md`; `catalog/denis_youtube_catalog.json`; `catalog/whisper_alternatives.md`.
+- Каталог-поддержка: `catalog/deep_research.md`; `catalog/youtube_catalog.json`; `catalog/whisper_alternatives.md`.
