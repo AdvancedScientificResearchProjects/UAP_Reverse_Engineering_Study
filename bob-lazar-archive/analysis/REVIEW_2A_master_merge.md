@@ -1,13 +1,15 @@
-# Review 2A — MASTER_technical_claims.md Bilingual Merge
+# Review 2A — MASTER_technical_claims.md Bilingual Merge / Ревью 2A — двуязычное слияние MASTER_technical_claims.md
 
 **Reviewer:** Agent 2A (read-only gate)
 **Target:** `<repo>/bob-lazar-archive/analysis/MASTER_technical_claims.md`
 **Size:** 1446 lines / 242,645 bytes
 **Scope:** Verify structural integrity, bilingual coverage, quote preservation, content preservation, QA fixes, deletion of old RU file, and ASRP v2.1 format compliance.
 
+**RU — Сводка / Summary (RU):** Проверка ворот слияния двуязычной версии MASTER_technical_claims.md (1446 строк, 242 645 байт). Семь проверок: структурная целостность (13 секций §0.0–§12 на месте, 34 строки в таблице §0.0), двуязычное покрытие (заголовки, таблицы — все двуязычны; **найдены 4 подтверждённые утечки EN-only**: строки 165, 464, 465, 1283 — все англоязычные цитаты без RU-парного контекста), сохранение цитат (10/10 выборочных цитат целы, таймкоды и коды источников сохранены), сохранение контента (-30% строк объяснимо параллельной структурой, spot-check разделов не выявил потерь), применение правок Gate 1 (§12.2 и §12.3 исправлены; остаётся несоответствие §12.1 «Nellis/Tonopah» vs §12.3 «Nellis Range»), удаление старых файлов (MASTER_RU.md и RU_TRANSLATION_REVIEW.md удалены), соответствие ASRP v2.1 (всё по стандарту с разделителем `EN / RU`). Итог: **PASS с правками** — 3 рекомендации по устранению 4 EN-only утечек и выравниванию формулировки «Nellis».
+
 ---
 
-## Check 1 — Structural Integrity
+## Check 1 — Structural Integrity / Проверка 1 — Структурная целостность
 
 **Verdict: PASS**
 
@@ -33,7 +35,7 @@ All 13 top-level sections present:
 
 ---
 
-## Check 2 — Bilingual Coverage
+## Check 2 — Bilingual Coverage / Проверка 2 — Двуязычное покрытие
 
 **Verdict: PASS WITH FIXES**
 
@@ -54,7 +56,7 @@ Additional candidates flagged by automated scan (needs manual audit): lines 215,
 
 ---
 
-## Check 3 — Quote Preservation
+## Check 3 — Quote Preservation / Проверка 3 — Сохранение цитат
 
 **Verdict: PASS**
 
@@ -77,7 +79,7 @@ All source codes and timestamps intact. English quotes inside RU bullets are pre
 
 ---
 
-## Check 4 — Content Preservation
+## Check 4 — Content Preservation / Проверка 4 — Сохранение контента
 
 **Verdict: PASS**
 
@@ -99,7 +101,7 @@ No detectable content loss from spot checks.
 
 ---
 
-## Check 5 — QA Fixes from Review Gate 1
+## Check 5 — QA Fixes from Review Gate 1 / Проверка 5 — QA-правки из Ворот 1
 
 **Verdict: PASS WITH MINOR FIX**
 
@@ -117,7 +119,7 @@ No detectable content loss from spot checks.
 
 ---
 
-## Check 6 — Old Files Deleted
+## Check 6 — Old Files Deleted / Проверка 6 — Старые файлы удалены
 
 **Verdict: PASS**
 
@@ -127,7 +129,7 @@ No detectable content loss from spot checks.
 
 ---
 
-## Check 7 — ASRP v2.1 Format Compliance
+## Check 7 — ASRP v2.1 Format Compliance / Проверка 7 — Соответствие формату ASRP v2.1
 
 **Verdict: PASS**
 
@@ -142,7 +144,7 @@ The only mild stylistic inconsistency: some top-level headings use `/` followed 
 
 ---
 
-## Overall Verdict
+## Overall Verdict / Общий вердикт
 
 **PASS WITH FIXES**
 
@@ -150,7 +152,7 @@ The merge is structurally sound, content-complete, and ASRP v2.1-compliant. Quot
 
 ---
 
-## Fixes Recommended
+## Fixes Recommended / Рекомендованные правки
 
 1. **Add missing RU pairs for 4 confirmed EN-only bullets:**
    - Line 165 (§1.2): *"Injecting an accelerated proton..."* Rachel-93 quote

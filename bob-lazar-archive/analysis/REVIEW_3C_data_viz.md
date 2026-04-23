@@ -1,4 +1,4 @@
-# REVIEW 3C — Data-Visualization Matrices (SVG)
+# REVIEW 3C — Data-Visualization Matrices (SVG) / РЕВЬЮ 3C — Матрицы визуализации данных (SVG)
 
 **Scope.** Three SVGs in `bob-lazar-archive/diagrams/`:
 
@@ -8,14 +8,16 @@
 
 **Verdict: PASS WITH FIXES.**
 
+**RU — Сводка / Summary (RU):** Проверка трёх SVG-матриц визуализации данных: матрица доверия к источникам (source_credibility_matrix), таблица числовых параметров (numerical_params_table), матрица корроборации заявлений (claim_corroboration). Все файлы валидны как XML (один корневой `<svg>`, `xmlns` установлен, viewBox совпадает с width/height, `role="img"` и `aria-labelledby` для доступности, стили встроены, без внешних шрифтов и `<image>`, палитра консистентна с референсом `charts/ecp_response_agreement_matrix.svg`). Двуязычные метки EN+RU присутствуют на всех заголовках, подзаголовках, строках, легендах и футерах. Содержание сверено с MASTER §0.0, §10, §11, §12.3: коды источников правильные, значения стабильности/дрейфа/противоречий верны (52→40→52→52'9", 30°/60°, стабильность 115, 2 vs 3 жертвы, ZR2-p4/ZR3 и т. д.), cell-матрица 12×6 = 72 ячейки — все заполнены, Dubna 2004 даёт `.contra` для «стабильного изотопа 115», DoD Tic-Tac даёт `.verify`, FBI raid — `.verify`. Выявлена одна косметическая ошибка: заголовок/подзаголовок/`<desc>` источник_credibility говорят «23 появления», но отрисовано **24 строки** (S4DOC-26 включён). Рекомендация: обновить текст на «24». Итог: **PASS с правками** (одна косметическая правка счётчика).
+
 ---
 
-## 1. File presence
+## 1. File presence / 1. Наличие файлов
 
 All three files exist at the expected path and match the stated dimensions
 (`width`/`height`/`viewBox` consistent; byte sizes within rounding of the stated KB).
 
-## 2. SVG validity
+## 2. SVG validity / 2. Валидность SVG
 
 - Well-formed XML, single `<svg>` root, `xmlns` set, `viewBox` matches `width`/`height`.
 - `role="img"` + `aria-labelledby="title desc"` present on all three (good accessibility).
@@ -32,7 +34,7 @@ All three files exist at the expected path and match the stated dimensions
   `<text>`. That is functionally equivalent and matches the convention in the
   reference chart. Not a defect.
 
-## 3. Content accuracy
+## 3. Content accuracy / 3. Точность содержания
 
 ### 3.1 `source_credibility_matrix.svg`
 
@@ -93,7 +95,7 @@ All three files exist at the expected path and match the stated dimensions
 - Column headers span three lines (date + short label + RU gloss) and fit
   within the 130 px column width.
 
-## 4. Style compliance vs `charts/ecp_response_agreement_matrix.svg`
+## 4. Style compliance vs `charts/ecp_response_agreement_matrix.svg` / 4. Соответствие стилю эталона `charts/ecp_response_agreement_matrix.svg`
 
 Matches on: background color, title/subtitle typography (Arial 24/14/12 px),
 dark header bar (`#1f2937`), alternating row fills, `#cbd5e1` gridlines,
@@ -101,7 +103,7 @@ heat-map palette, legend layout, bilingual EN/RU pairing with RU italic in
 muted gray, and footer with attribution line ("Bob Lazar Archive v1.0 — ASRP
 UAP Reverse-Engineering Study"). Consistent family; no style drift.
 
-## 5. Summary of defects
+## 5. Summary of defects / 5. Сводка дефектов
 
 | # | File | Severity | Issue | Fix |
 |---|------|----------|-------|-----|

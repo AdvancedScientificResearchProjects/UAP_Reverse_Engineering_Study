@@ -1,11 +1,39 @@
-Космопоиск и Вадим Чернобров: ранние публикации, экспедиции и документы (1980–2005)
-Обзор
+# Kosmopoisk and Vadim Chernobrov: Early Publications, Expeditions and Documents (1980–2005) / Космопоиск и Вадим Чернобров: ранние публикации, экспедиции и документы (1980–2005)
+
+---
+
+## Source note / Примечание об источнике
+
+**EN:** This file is raw research output from Perplexity (Deep Research mode), preserved verbatim in Russian as the primary source. English annotations (title, summary, and section-heading translations) have been added alongside the original text. The Russian body is the authoritative research output; EN additions are glosses for navigation and cross-reference.
+
+**RU:** Этот файл — сырой исследовательский вывод Perplexity (режим Deep Research), сохранённый дословно на русском языке как первоисточник. Английские аннотации (заголовок, резюме, переводы заголовков разделов) добавлены рядом с оригинальным текстом. Русское тело документа — авторитетный исследовательский вывод; английские вставки — глоссы для навигации и перекрёстных ссылок.
+
+---
+
+## English summary
+
+This Perplexity Deep Research report traces the early publications, expeditions, and institutional documents of the "Kosmopoisk" research group and its founder Vadim A. Chernobrov (1965–2017), an aerospace engineer from MAI (Moscow Aviation Institute).
+
+**Key findings:**
+- **Institutional timeline (1980–2005):** founded 1980 as a student expedition group at MAI; first anomaly observations on Medveditsa Ridge in 1982; "Lovondatr" chronal apparatus developed 1985–1988, completed 7 April 1988; first measurable chronal deviations March 1989; official Moscow registration 3 February 1994; international status 2003; All-Russian registration 28 May 2004.
+- **Earliest publications:** MAI newspaper (April 1991) — first public report on the Lovondatr time machine. Articles in "Tekhnika Molodezhi" ("Technology for the Youth"): 21 May 1992 ("Time Machine: Wells Was Right" — first systematic exposition of the electromagnetic time-control theory) and 1993 ("First Experiments on Moving Flies and Cockroaches into the Past"), plus a 2001 piece on Kozyrev and 2006 "Mountain That Didn't Come to Moses."
+- **First books (1999–2006):** "Secrets of Time" (1999, AST/Olimp, 10,000 copies), "Secrets and Paradoxes of Time" (2001), "Time Travel: Myth or Reality?" (2001), "Encyclopedia of Ufology" (2002), "Encyclopedia of Anomalous Phenomena" (2002), "Chronicles of UFO Visits" (2003, Drofa, 448 pp. — first mass-market publication of Soviet/Russian military UFO archives), "Encyclopedia of Mysterious Places of Russia" (2004, Veche), "Medveditsa Ridge" (~2005), "Encyclopedia of Mysterious Places of the World" (2006).
+- **Field expeditions:** Medveditsa Ridge (44 multi-month expeditions, 1600+ volunteers since early 1980s); Molyobka anomaly zone (Perm region, "M-skiy Triangle", opened by geologist Bachurin in 1983); Tunguska; Kaluga region Korenevka meteorite expeditions (since 1997); Krasnodar crop circles (since 1990).
+- **UFO reverse-engineering publications:** "Parade of Gravi-Flyers" (July–August 2003, "Novaya Energetika" journal) — the most detailed Kosmopoisk document directly addressing UFO technology reverse-engineering. Analyzes four classes of hypothesized UFO propulsion (gravitational, magneto-gravi, electro-gravi, anti-gravi); describes specific Soviet/Russian projects (MAI, NPO "Energiya", NPO "Salyut"); documents Chernobrov's participation in E.D. Pronin's experiments; mentions A.K. Titarenko (MAI, killed 1993).
+- **Lovondatr as reverse-engineering object:** Chernobrov explicitly stated he derived his time-machine principle from studying 50 UFO landing sites; the lens-shaped units "visually resembled UFOs"; participants included specialists from MAI, Khrunichev Factory, NPO "Salyut" and NPO "Energiya". Considered the first Russian non-academic object constructively inspired by alleged UFO technology.
+- **Honorary leaders:** Felix Siegel (MAI docent, Soviet ufology founder, Chernobrov's mentor), Alexander Kazantsev (honorary leader 1994–2002), cosmonaut Georgy Grechko, test pilot Marina Popovich, Academician V.P. Mishin (Korolev's first deputy, scientific consultant on Lovondatr).
+- **Unverified early documents:** field journals 1980–1988, Siegel Readings reports from early 1990s, pre-1994 internal Kosmopoisk bulletins.
+- **Critical caveat:** None of Chernobrov's publications passed academic peer review; Kosmopoisk is criticized for uncritical treatment of testimonies and blending of scientific and popular discourse. However, his role as archivist/systematizer of Soviet/post-Soviet ufological data is recognized even by critics.
+
+---
+
+## Обзор / Overview
 
 Вадим Александрович Чернобров (1965–2017) — кандидат технических наук, инженер-конструктор аэрокосмических летательных аппаратов, координатор и идейный организатор исследовательского объединения «Космопоиск». Организация основана в 1980 году при Московском авиационном институте им. Орджоникидзе (МАИ). На протяжении 1980-х–2000-х годов Чернобров опубликовал десятки статей и книг, посвящённых уфологии, аномальным явлениям, «хрональным» экспериментам и экспедиционным отчётам.
 wikipedia
 +3
 
-1. Хронология организации (институциональные вехи)
+## 1. Хронология организации (институциональные вехи) / Organizational timeline (institutional milestones)
 Год	Событие
 1980	Основание экспедиционной группы при МАИ; первые студенческие выезды
 kosmopoisk
@@ -39,14 +67,15 @@ kosmopoisk
 28 мая 2004	Регистрация Общероссийского научно-исследовательского общественного объединения «Космопоиск»
 wikipedia
 +1
-2. Самые ранние публикации и статьи (конец 1980-х — 1995)
-Газета МАИ, 1991 — первый «репортаж» об установке машины времени
+## 2. Самые ранние публикации и статьи (конец 1980-х — 1995) / Earliest publications and articles (late 1980s – 1995)
+
+### Газета МАИ, 1991 — первый «репортаж» об установке машины времени / MAI newspaper, 1991 — first "report" on the time machine
 
 Самой первой публикацией Черноброва о хрональных экспериментах считается заметка в газете МАИ, вышедшая «в день 30-летия первого полёта человека в Космос» (т. е. в апреле 1991 года). Именно тогда была описана работа первой установки «Ловондатр», законченной 7 апреля 1988 года. Это, судя по всему, первый задокументированный выход «Космопоиска» в открытую прессу.
 techlibrary
 +2
 
-«Техника — молодёжи», 1992–1993 — ключевые статьи о машине времени и НЛО
+### «Техника — молодёжи», 1992–1993 — ключевые статьи о машине времени и НЛО / "Tekhnika Molodezhi" ("Technology for the Youth"), 1992–1993 — key articles on the time machine and UFOs
 
 Журнал Техника — молодёжи стал основной площадкой Черноброва в начале 1990-х:
 
@@ -59,13 +88,13 @@ techlibrary
 darkermagazine
 +2
 
-Ранние статьи в советской научно-популярной периодике
+### Ранние статьи в советской научно-популярной периодике / Early articles in Soviet popular-science periodicals
 
 Тема НЛО в советский период широко освещалась в журналах Техника — молодёжи и Наука и жизнь начиная с 1960-х годов. Феликс Зигель (доцент МАИ, учитель Черноброва) опубликовал первые систематические материалы по НЛО именно в этих изданиях. «Архив Зигеля», впоследствии частично спасённый «Космопоиском» и введённый в оборот в книге 2003 года, сформировал базу ранних советских уфологических публикаций.
 newageru.hypotheses
 +3
 
-3. Первые книги Черноброва (1999–2005)
+## 3. Первые книги Черноброва (1999–2005) / Chernobrov's first books (1999–2005)
 
 Несмотря на то что публикационная активность Черноброва в прессе началась в начале 1990-х, его первые самостоятельные книги вышли только в конце десятилетия. До этого материалы распространялись в виде машинописных и самиздатовских копий экспедиционных отчётов.
 
@@ -101,16 +130,17 @@ litres
 
 «Энциклопедия загадочных мест мира»	2006	Вече	ISBN 5-9533-0232-0
 livelib
-4. Полевые отчёты и экспедиции (1980–2005)
-4.1 Медведицкая гряда (Волгоградская / Саратовская области)
+## 4. Полевые отчёты и экспедиции (1980–2005) / Field reports and expeditions (1980–2005)
 
-Хронология экспедиций:
+### 4.1 Медведицкая гряда (Волгоградская / Саратовская области) / Medveditsa Ridge (Volgograd / Saratov regions)
+
+**Хронология экспедиций / Expedition chronology:**
 
 «Космопоиск» начал регулярные выезды на Медведицкую гряду с начала 1980-х годов; всего организация провела там 44 многомесячные экспедиции, в которых приняли участие более 1600 добровольцев. Именно здесь 29 июня 1982 года Чернобров лично наблюдал аномальный световой объект — треугольную конфигурацию из трёх «ярких звёздочек» — эпизод, описанный впоследствии в книге «Медведицкая гряда».
 michael101063.livejournal
 +1
 
-Ключевые задокументированные выезды и их датировки по открытым источникам:
+**Ключевые задокументированные выезды и их датировки по открытым источникам / Key documented expeditions with open-source dating:**
 
 Экспедиция / событие	Год	Отчёт / упоминание
 Первые наблюдения аномалий (Чернобров лично)	29 июня 1982	Книга «Медведицкая гряда»
@@ -134,7 +164,7 @@ bibliotekar
 Основная программа полевых работ на гряде включала: измерение гравитационного потенциала, картирование хроноаномальных зон (по методике Золотова / Черноброва), поиск и съёмку пещер и подземных туннелей, регистрацию шаровых молний и мест посадок НЛО.
 vitkvv2017.livejournal
 
-4.2 Молёбская аномальная зона (Пермская область / М-ский треугольник)
+### 4.2 Молёбская аномальная зона (Пермская область / М-ский треугольник) / Molyobka anomaly zone (Perm region / "M-skiy Triangle")
 
 «Молёбский треугольник» открыт геологом Бачуриным в 1983 году. Широкую огласку зона получила в 1989 году после публикации серии статей Павла Мухортова «М-ский треугольник, или Чужие здесь не ходят» в рижской газете «Советская молодёжь». «Комсомольская правда» 12 октября 1989 года также опубликовала материал о «Молёбке».
 wikipedia
@@ -144,16 +174,16 @@ wikipedia
 kulturologia
 +1
 
-4.3 Тунгуска и другие зоны
+### 4.3 Тунгуска и другие зоны / Tunguska and other zones
 
 Среди основных направлений работы организации в 1980–1990-е годы — экспедиции на Подкаменную Тунгуску (Тунгусский феномен). С 1997 года в Калужской области регулярно проводились Комплексные Кореневские метеоритные экспедиции-съезды. Также с 1990 года фиксировались круги на полях в Краснодарском крае.
 dic.academic
 
-5. Публикации по реверс-инжинирингу НЛО / UAP-технологий
+## 5. Публикации по реверс-инжинирингу НЛО / UAP-технологий / Publications on UFO / UAP technology reverse-engineering
 
 Это отдельная и заслуживающая особого внимания тема. «Космопоиск» подходил к ней под несколькими углами.
 
-5.1 «Парад гравилётов» (2003) — первый систематический обзор
+### 5.1 «Парад гравилётов» (2003) — первый систематический обзор / "Parade of Gravi-Flyers" (2003) — first systematic overview
 
 Статья Черноброва «Парад гравилётов» была опубликована в журнале «Новая Энергетика», июль–август 2003 г.. Это наиболее детализированный документ организации, напрямую связанный с концепцией реверс-инжиниринга технологий НЛО:
 kosmopoisk
@@ -169,7 +199,7 @@ kosmopoisk
 Фигурирует работа А.К. Титаренко (МАИ), убитого в 1993 году и оставившего незаконченную разработку по аналогичной тематике
 kosmopoisk
 
-5.2 Установка «Ловондатр» как реверс-инжиниринговый объект
+### 5.2 Установка «Ловондатр» как реверс-инжиниринговый объект / The "Lovondatr" installation as a reverse-engineering object
 
 Принципиально важен следующий факт: первая «хрональная» установка «Ловондатр» была сконструирована на основе изучения мест посадок НЛО. По словам Черноброва, свой принцип машины времени он «вывел из изучения 50 мест посадок НЛО, где на границе и внутри [зоны] фиксировались хрональные аномалии». Аппараты чечевицеобразной формы «с виду напоминали НЛО». В создании участвовали специалисты МАИ, завода им. Хруничева, НПО «Салют» и «Энергия».
 kuzbass85
@@ -177,18 +207,18 @@ kuzbass85
 
 Таким образом, «Ловондатр» (1988) можно рассматривать как первый российский неакадемический объект, конструктивно вдохновлённый предполагаемыми технологиями НЛО.
 
-5.3 Ранние отсылки к советской программе изучения НЛО-технологий
+### 5.3 Ранние отсылки к советской программе изучения НЛО-технологий / Early references to the Soviet UFO-technology study program
 
 В «Хрониках визитов НЛО» (2003) Чернобров впервые опубликовал «закрытые архивы вооружённых сил СССР» по наблюдениям НЛО. Это единственный массовый источник, где советские военные материалы по НЛО стали доступны для широкого читателя — хотя сам Чернобров признаёт, что часть «архива Зигеля» была безвозвратно утеряна после 1991 года.
 koob
 +1
 
-5.4 Научные чтения им. Зигеля (Москва, с начала 1990-х)
+### 5.4 Научные чтения им. Зигеля (Москва, с начала 1990-х) / Siegel Scientific Readings (Moscow, since early 1990s)
 
 В статье «Парад гравилётов» Чернобров упоминает доклады на «первых научных чтениях им. Зигеля» в Москве, где советские и российские инженеры демонстрировали прообразы «летающей тарелки». Это свидетельствует о существовании регулярной конференционной площадки по НЛО-инженерии в Москве с начала 1990-х.
 kosmopoisk
 
-6. Хронологическая сводная таблица ранних публикаций
+## 6. Хронологическая сводная таблица ранних публикаций / Consolidated chronological table of early publications
 Год	Название	Тип	Издание / место
 апрель 1991	«Репортаж об установке машины времени»	Газетная заметка	Газета МАИ (внутренняя газета института)
 rulit
@@ -231,7 +261,7 @@ litres
 
 2006	«Гора, которая не шла к Моисею»	Статья	Техника — молодёжи, 2006
 epizodsspace.airbase
-7. Почётные руководители и влиятельные соратники организации
+## 7. Почётные руководители и влиятельные соратники организации / Honorary leaders and influential collaborators
 
 На формирование документального наследия «Космопоиска» существенно повлияли несколько фигур:
 
@@ -251,7 +281,7 @@ kosmopoisk
 Академик Василий Павлович Мишин (первый заместитель С. П. Королёва) — оказывал научное консультирование по «Ловондатру»
 pravda
 
-8. Неверифицированные и предположительные ранние документы
+## 8. Неверифицированные и предположительные ранние документы / Unverified and putative early documents
 
 Ряд документов данного периода не верифицирован через публичные источники:
 
@@ -263,7 +293,7 @@ kosmopoisk
 
 Внутренние бюллетени «Космопоиска»: согласно ряду источников, организация выпускала внутренние издания ещё до официальной регистрации в 1994 году, но их архив не оцифрован
 
-9. Критическое замечание об источниковой базе
+## 9. Критическое замечание об источниковой базе / Critical note on the source base
 
 Деятельность «Космопоиска» систематически критикуется с научной точки зрения: организацию обвиняют в некритичном отношении к свидетельствам, смешении научного и популярного дискурсов, использовании экспедиций как маркетинговых инструментов для книгопродажи. Ни одна из публикаций Черноброва не прошла рецензирования в академических журналах. Тем не менее его роль как архивиста и систематизатора советских и постсоветских уфологических данных признаётся даже критиками: «Хроники визитов НЛО» остаются единственным массовым изданием, где советские военные и гражданские архивы НЛО представлены в хронологическом порядке.
 darkermagazine

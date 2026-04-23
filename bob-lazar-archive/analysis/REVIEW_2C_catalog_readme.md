@@ -1,12 +1,14 @@
-# Review 2C — Catalog + README bilingual merge
+# Review 2C — Catalog + README bilingual merge / Ревью 2C — двуязычное слияние каталога и README
 
 Reviewer: Agent 2C QA
 Date: 2026-04-15
 Scope: README.md (merge) + 4 catalog files translated + asrp_media_115_interview.md unchanged
 
+**RU — Сводка / Summary (RU):** QA-проверка двуязычного слияния README.md и 4 файлов каталога (`catalog/interviews.md`, `catalog/research-1989-2005.md`, `catalog/research-2006-2018.md`, `catalog/research-2018-2026.md`), с подтверждением неизменности `catalog/asrp_media_115_interview.md` (был уже двуязычным с партии 1). Семь проверок: удаление `README.en.md` (подтверждено), двуязычие README.md (все заголовки двуязычны, твин-абзацы `**EN:** / **RU:**`, все 23 кода источников в таблице сохранены), двуязычный формат каталога (заголовки, столбцы таблиц, метки полей двуязычны; все исходные URL сохранены), проверка `research-2018-2026.md` на потерю контента (сокращение 320 → 305 строк — это консолидация `Date / Дата:` в одну строку, а не удаление; три выборочные записи — JRE #1315, BL18, S4 doc 2026 — присутствуют полностью), неизменность `asrp_media_115_interview.md` (396 строк, frontmatter целый), сохранение записи «Apr 13 chat dump» (присутствует на L241–243 с флагом `[NOT TRANSCRIBED]`), сохранение секции ASRP-adjacent. Итог: **PASS** — все 6 файлов прошли, правок не требуется.
+
 ---
 
-## Pass/fail per file
+## Pass/fail per file / PASS/FAIL по файлам
 
 | # | File | Lines | Verdict |
 |---|------|------:|---------|
@@ -19,11 +21,11 @@ Scope: README.md (merge) + 4 catalog files translated + asrp_media_115_interview
 
 ---
 
-## Check 1 — README.en.md deleted
+## Check 1 — README.en.md deleted / Проверка 1 — README.en.md удалён
 
 Confirmed deleted. `ls` returns "No such file or directory" for `README.en.md`. Only `README.md` present at archive root.
 
-## Check 2 — README.md bilingual
+## Check 2 — README.md bilingual / Проверка 2 — README.md двуязычный
 
 Sampled headings and sections — all bilingual:
 
@@ -41,7 +43,7 @@ No language-switcher line detected (no "English / Русский" selector remai
 
 Source-code key table (L119–143) preserved all 23 codes (KLAS-89a/b/c, BG-89, LT-91, C2C-92/97/98/03/09/18, Rachel-93/93b, UFOL2/3/4-95/96, CW16, BL18, LK-19, JRE1315, KLAS30-P5/P6, JRE2479).
 
-## Check 3 — Catalog bilingual format
+## Check 3 — Catalog bilingual format / Проверка 3 — Двуязычный формат каталога
 
 **interviews.md:** Headings bilingual (e.g. `## 1989 — The Original Revelations / Первоначальные откровения`, L9). Tables have bilingual column headers: `| # | Date / Дата | Show/Outlet / Передача/Источник | Interviewer / Интервьюер | Format / Формат | Duration / Длительность | Topics / Темы | Link / Ссылка |`. Source codes preserved in "Priority for Transcription" section (#10, #12, #24, #45, #53, #40, #52, #55, #29, #2). URLs unchanged (YouTube, archive.org, singjupost, disclosdex, papooselake, mysterywire, Spotify all present verbatim).
 
@@ -53,7 +55,7 @@ Source-code key table (L119–143) preserved all 23 codes (KLAS-89a/b/c, BG-89, 
 
 Source codes (KLAS, LT, BG, C2C, Rachel, JRE, BL18, CW16, LK-19, etc.) are preserved across all four files.
 
-## Check 4 — research-2018-2026.md content-loss check
+## Check 4 — research-2018-2026.md content-loss check / Проверка 4 — контроль потери контента в research-2018-2026.md
 
 **Line count 320 → 305 is legitimate consolidation, not content loss.**
 
@@ -67,20 +69,20 @@ Verified all three spot-checked 2018-2026-era entries are present with full deta
 
 Additional confirmation: all 20 event `###` sections plus 4 summary sections are present. Line shrinkage is explained by EN/RU consolidation in shared lines (e.g. `Date / Дата:` single line replacing two), not by section removal.
 
-## Check 5 — asrp_media_115_interview.md unchanged
+## Check 5 — asrp_media_115_interview.md unchanged / Проверка 5 — asrp_media_115_interview.md не изменён
 
 Confirmed: 396 lines (matches expectation). Frontmatter fully intact (title_ru, title_en, source_url, publisher, publish_date 2025-12-09, interview_recorded 2021-09-28, document_id, interviewers list with 5 named + 1 anonymised, interviewee anonymised JINR representative, editorial_apparatus, fetch_method, source_code: ASRP-MEDIA). File was correctly skipped during the bilingual merge as it was already bilingual from Batch 1.
 
-## Check 6 — Apr 13 chat dump entry preserved
+## Check 6 — Apr 13 chat dump entry preserved / Проверка 6 — Запись чат-дампа от 13 апреля сохранена
 
 Confirmed at `interviews.md` L241–243: `## Pending Identification (Apr 13 chat dump) / Ожидает идентификации (чат-дамп от 13 апр)` — survives with full dailymotion URL `https://www.dailymotion.com/video/x8nd5fv`, bilingual commentary on the Ken Wright "Quinta Essentia Part-5" episode #59, and the `[NOT TRANSCRIBED — Apr 13 chat dump / НЕ ТРАНСКРИБИРОВАНО — чат-дамп от 13 апр]` marker.
 
-## Check 7 — ASRP-adjacent section preserved
+## Check 7 — ASRP-adjacent section preserved / Проверка 7 — Секция ASRP-adjacent сохранена
 
 Confirmed at `interviews.md` L191–199: `## ASRP-adjacent / supporting research (non-Lazar interviews) / Вспомогательные исследования ASRP (не интервью с Лазаром)`. Contains entry A1 — ASRP.media interview with JINR representative, published 2025-12-09 / recorded 2021-09-28, source code `ASRP-MEDIA`, full URL preserved, cross-reference to `catalog/asrp_media_115_interview.md`, bilingual topics block covering Superheavy Elements Factory (Nov 2020 first run, ~70 atoms moscovium in 40 days, ~100 atoms flerovium follow-up), sub-second lifetimes, on-record institutional response to Lazar 115-fuel thesis, Half-Life 2 pop-culture framing, and editorial psycho-linguistic footnote.
 
 ---
 
-## Overall verdict: **PASS**
+## Overall verdict: **PASS** / Общий вердикт: **PASS**
 
 All six files pass. README merge is clean and symmetric. Four catalog files correctly converted to bilingual side-by-side. The research-2018-2026.md line reduction (320 → 305) is explained by legitimate EN/RU consolidation in single-line field labels and `/` separators — no content was lost; all event entries, URLs, and source codes remain. The unchanged asrp_media file matches its expected 396-line state. The Apr 13 chat dump entry and ASRP-adjacent section both survived. No fixes required.

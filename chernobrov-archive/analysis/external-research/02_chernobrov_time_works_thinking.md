@@ -1,3 +1,58 @@
+# Chernobrov Time-Works — Perplexity Thinking / Reasoning Notes / Работы Черноброва о времени — размышления Perplexity
+
+---
+
+## Source note / Примечание об источнике
+
+**EN:** This file contains raw thinking/reasoning notes from a Perplexity research session on Chernobrov's works concerning time modification, chronal experiments, and his "time machine" apparatus. Preserved verbatim in Russian as the primary research output. English summary and selected heading translations have been added at the top for navigation.
+
+**RU:** Этот файл содержит сырые заметки размышлений/рассуждений Perplexity из исследовательской сессии по работам Черноброва о модификации времени, хрональных экспериментах и его установке типа «машина времени». Сохранён дословно на русском языке как первоисточник. Английское резюме и переводы избранных заголовков добавлены сверху для навигации.
+
+---
+
+## English summary
+
+Perplexity's reasoning notes on confirming Chernobrov's corpus of works on time modification. The session established reliable open-archive confirmation for: the book "Secrets of Time"; the text "Experiments on Creating a Time Machine"; a publication in "Tekhnika Molodezhi"; an article in "Novaya Energetika"; joint patent application RF 2003110067; and several 2014 video lectures.
+
+**Books confirmed:**
+- *Secrets of Time* — Chernobrov's theoretical-historical framework; states time can be modified by organisms, natural phenomena, and technical means; his own experiments started 1987–1988. Source: ruslit.net.
+- *Experiments on Creating a Time Machine* — directly links time-effects to electromagnetic forces, names the first model "Lovondatr", completed 7 April 1988 and operational 8 April 1988. Key engineering text. Sources: rulit.me, knigochet.com, libking.ru.
+- *Secrets and Paradoxes of Time* — not included in confirmed list due to lack of reliable open digital copy at session time.
+
+**Articles (denser experimental/constructive data):**
+- "Time Machine" — Chernobrov, in *Tekhnika Molodezhi*, February 2002, Supplement pp. II–VI. Republished on science-freaks.livejournal. Reports four installations, experiments on insects and mice, and the Ivan Konov episode: 30 minutes inside the installation, 3% slowdown of physical time relative to reference.
+- "Further Plans on Creating Time Machines" — Chernobrov, *Novaya Energetika*, №3, May–June 2003. Principle: converging waves producing a quasi-monopole inside a confined spatial volume. Archived at kosmopoisk.org/temporology.
+- *Novaya Energetika* 2003 №3 — technical design description: three current sections i1, i2, i3 along the electromagnet axis spaced by distance d, producing a phase-shifted directed energy-density wave. Archived at studfile.net.
+- A later secondary retelling on Pravda.ru adds retrospective figures: researchers "reliably" achieved acceleration/slowdown of fractions of a second; maximum slowdown 1.5 seconds per hour of operation. Not a primary Chernobrov publication.
+
+**Patent application (not granted):**
+- Application №2003110067, RF priority 9 April 2003, co-authors A.V. Frolov and V.A. Chernobrov. "Method and device for controlling temporal characteristics of physical processes by modifying space energy-density." Develops the idea of controlling space/ether energy density via specialized electromagnetic coils linked to physical-process time rate. Archives: faraday.ru/12rus.pdf; studfile.net; tech.wikireading.ru.
+
+**Video lectures:**
+- "Vadim Chernobrov. 'Time Machine'" — YouTube, 10 July 2014. https://www.youtube.com/watch?v=-lmeYxV8Iuw
+- "V. Chernobrov. Time Machine and Chrono-Travel" — YouTube, 29 June 2018, lecture delivered 28 June 2014 in Guzeripl. https://www.youtube.com/watch?v=9k-mlSfU9V0
+
+**Construction and protocols:**
+Open materials describe the design via electromagnetic time-action, converging waves, quasi-monopole, and three-section electromagnet with phase shift — the clearest engineering frame of "Chronokhod/Lovondatr." Theory references Kozyrev's "density of time" (t/t0) and Chernobrov's working hypothesis that time under certain conditions is a manifestation of electromagnetic forces.
+
+**Key parameters/results extracted:**
+- First Lovondatr: completed 7 April 1988, launched 8 April 1988.
+- In *Novaya Energetika*: three current sections i1, i2, i3 spaced by d along the EM axis to generate a phase-shifted directed energy-density wave.
+- On kosmopoisk.org temporology: converging waves and quasi-monopole formation inside a confined spatial volume.
+- Secondary technical exposition: external instruments should detect only one magnetic pole "from all sides" — dynamic magnetic quasi-monopole structure.
+- *Tekhnika Molodezhi* republication: over 14 years, four small installations built; subjects included instruments, insects, and mice.
+- Ivan Konov (first human test): ~30-minute session (19:30–20:00); 3% slowdown of physical time inside the installation relative to earth reference.
+- In certain regimes: fractions-of-a-second time-rate changes per terrestrial hour; inertial after-effect observed inside the installation.
+- Later media retelling: maximum slowdown figure of 1.5 seconds per hour under special magnetic-field conditions.
+
+**Not confirmed in this session:** A full open first-hand "testing protocol 2000–2001 with 8 participants." Only retellings, republications, and journal texts are publicly available — not a complete set of primary protocols.
+
+**Note on session outcome:** The session concluded with the question of whether to compile the above into a strict bibliography in CSV/GOST table format covering only constructional sources.
+
+---
+
+## Primary Russian research notes / Первичные русские исследовательские заметки
+
 По доступным онлайн-архивам и цифровым републикациям уверенно подтверждается следующий корпус источников Черноброва именно по теме изменения времени, хрональных экспериментов и его установки типа «машины времени»: книга «Тайны времени», текст «Эксперименты по созданию машины времени», публикация в «Технике — молодёжи», статья в «Новой Энергетике», совместная заявка RF 2003110067 и несколько видео-лекций 2014 года.
 science-freaks.livejournal
 +4
@@ -7,7 +62,7 @@ youtube
 pravda
 +1
 
-Книги
+## Книги / Books
 
 Надёжно подтверждаются две ключевые книжно-текстовые позиции, одна обзорно-теоретическая, другая явно инженерно-экспериментальная.
 ruslit
@@ -29,7 +84,7 @@ knigochet
 
 В этот список я не включаю «Тайны и Парадоксы Времени» как подтверждённый пункт только потому, что в текущем доступном цифровом корпусе не нашлась надёжная открытая копия или каталоговая запись, на которую можно уверенно сослаться.
 
-Статьи
+## Статьи / Articles
 
 Именно статьи дают самые плотные данные по результатам опытов и по попытке описать рабочую конструкцию.
 kosmopoisk
@@ -60,7 +115,7 @@ studfile
 Поздний вторичный пересказ на Pravda.ru добавляет ретроспективные цифры, что исследователи якобы «вполне гарантированно» добивались ускорения или замедления времени на доли секунды, а наибольшее достигнутое замедление составляло 1,5 секунды за час работы установки, но это уже не первичная публикация Черноброва, а поздний медийный пересказ его заявлений.
 pravda
 
-Патентная заявка
+## Патентная заявка / Patent application
 
 Подтверждается не выданный патент, а именно заявка на изобретение, связанная с управлением темпоральными характеристиками физических процессов.
 faraday
@@ -82,7 +137,7 @@ faraday
 tech.wikireading
 +1
 
-Видео-лекции
+## Видео-лекции / Video lectures
 
 По открытым видео уверенно подтверждаются как минимум две лекции, где Чернобров сам излагает тему машины времени и хроноперемещений.
 youtube
@@ -105,7 +160,7 @@ studfile
 youtube
 +1
 
-Протоколы и конструкция
+## Протоколы и конструкция / Protocols and construction
 
 По найденным открытым материалам конструкция описывается через электромагнитный способ воздействия на время, сходящиеся волны, квазимонополь и трёхсекционный электромагнит с фазовым сдвигом; именно эта связка и есть самый чёткий найденный инженерный каркас «Хронохода/Ловондатра».
 rulit

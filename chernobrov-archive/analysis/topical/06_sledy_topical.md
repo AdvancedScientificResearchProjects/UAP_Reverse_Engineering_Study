@@ -116,7 +116,7 @@ Catalogue source: *Энциклопедия загадочных мест Рос
 
 ## T7 — Cover-legend planet index (partial)
 
-- Nibiru — «на слуху» [01:35:56]
+- Nibiru — «на слуху» / "on everyone's lips" [01:35:56]
 - Pekran (Пекран) — 25 cases, all mutually contradictory [01:36:11]
 - Sirius — 27 cases [01:37:06]
 - "Michaila Voprosov" — hypothetical joke planet to illustrate zero-validation [01:40:00]
@@ -142,11 +142,13 @@ Catalogue source: *Энциклопедия загадочных мест Рос
 |-------|------------------|-----------------------------|
 | Biology | Different microbiome; should avoid close contact | Same humans, no quarantine observed |
 | Script | Unreadable / invented runes | Russian / English / Arabic |
-| Influence on history | Permitted — «тут есть варианты» | **Categorically forbidden** |
+| Influence on history | Permitted — «тут есть варианты» / "options exist here" | **Categorically forbidden** |
 | Typical cover identity | Sirius/Pekran era-adjusted | Never self-identify |
 | Research class | Ufology | Chrono-investigation (Kosmopoisk specialty) |
 
-Key line [01:57:26]: «между инопланетными и иновременными, как вы догадываетесь, есть огромная разница.»
+Key line [01:57:26]:
+> RU: «между инопланетными и иновременными, как вы догадываетесь, есть огромная разница.»
+> EN: "Between extra-terrestrials and extra-temporals, as you can guess, there is a huge difference."
 
 ---
 
@@ -171,7 +173,7 @@ Key line [01:57:26]: «между инопланетными и иновреме
 
 ## T11 — "Ancient war traces" side-thread
 
-A separate Kosmopoisk report by an unnamed speaker: *«Факты древней войны»* / *«Следы древней войны у нас на Земле»*, scheduled for Kosmopoisk readings on **31 October 2015**. Thesis [00:41:52]: "energy-intensive weapon traces, possibly nuclear-class, with very old dating" exist on Earth. Not developed further in this lecture.
+A separate Kosmopoisk report by an unnamed speaker: *«Факты древней войны»* / *"Facts of an ancient war"* ; *«Следы древней войны у нас на Земле»* / *"Traces of an ancient war here on Earth"*, scheduled for Kosmopoisk readings on **31 October 2015**. Thesis [00:41:52]: "energy-intensive weapon traces, possibly nuclear-class, with very old dating" exist on Earth. Not developed further in this lecture.
 
 ---
 

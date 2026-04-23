@@ -1,13 +1,15 @@
-# Review 3A — Structural Mermaid Diagrams
+# Review 3A — Structural Mermaid Diagrams / Ревью 3A — Структурные Mermaid-диаграммы
 
 **Reviewer:** Agent review pass
 **Scope:** 5 Mermaid diagrams + PNG renders in `diagrams/` and `diagrams/rendered/`
 **Cross-reference:** `analysis/MASTER_technical_claims.md`
 **Verdict:** **PASS**
 
+**RU — Сводка / Summary (RU):** Проверка 5 структурных Mermaid-диаграмм с PNG-рендерами в `diagrams/` и `diagrams/rendered/`: timeline_of_appearances (gantt), reactor_flow (flowchart TB), gravity_modes (flowchart LR), claim_evolution (timeline), s4_facility_layout (flowchart TB с подграфами). Все файлы присутствуют в обеих формах (.mmd + .png). Синтаксис Mermaid валиден (gantt, timeline, flowchart TB/LR, subgraph, classDef). Двуязычная EN+RU разметка представлена везде. Все числовые заявления (7.46 Гц, 1 мкм ширина полосы, 223 г, 52 фут 9 дюймов, 9 ангарных боксов, 30°/60° конфликт угла двери, 1941 карта Dept of Interior, ZR2-p4/ZR3/ZR2-p4 дрейф, 10ms/12ms рецикл) сверены с MASTER §0.0 / §1–§12 — совпадают. Галлюцинированных чисел или дат нет. Мелкие некритичные замечания: текст `claim_evolution.png` плотный при уменьшении (13 точек), PNG лежат в `diagrams/rendered/`, а не в `diagrams/` напрямую (соответствует путям в MASTER). Правки не требуются.
+
 ---
 
-## File existence
+## File existence / Наличие файлов
 
 All required files present.
 
@@ -27,7 +29,7 @@ A 6th bonus diagram `element_115_machining.{mmd,png}` also exists but is outside
 
 ---
 
-## Per-diagram review
+## Per-diagram review / Обзор по диаграммам
 
 ### 1. `timeline_of_appearances` — PASS
 
@@ -103,7 +105,7 @@ A 6th bonus diagram `element_115_machining.{mmd,png}` also exists but is outside
 
 ---
 
-## Cross-check summary vs. MASTER
+## Cross-check summary vs. MASTER / Сводка сверки с MASTER
 
 | Claim                    | Diagram(s)              | MASTER ref               | Status |
 |--------------------------|-------------------------|--------------------------|--------|
@@ -126,7 +128,7 @@ A 6th bonus diagram `element_115_machining.{mmd,png}` also exists but is outside
 
 ---
 
-## Overall verdict: PASS
+## Overall verdict: PASS / Общий вердикт: PASS
 
 All 5 diagrams exist in both `.mmd` and `.png` form. Mermaid syntax is valid
 (subgraphs, classDef, gantt, timeline, flowchart TB/LR all used correctly).

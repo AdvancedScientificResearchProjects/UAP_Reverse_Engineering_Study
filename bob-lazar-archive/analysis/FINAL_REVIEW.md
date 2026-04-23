@@ -1,12 +1,14 @@
-# FINAL END-TO-END REVIEW — Bob Lazar Archive
+# FINAL END-TO-END REVIEW — Bob Lazar Archive / Финальный сквозной обзор — архив Боба Лазара
 
 Review date: 2026-04-15
 Branch: `bob-lazar-archive`
 Reviewer: fresh agent (no prior-context end-to-end audit)
 
+**RU — Сводка / Summary (RU):** Сквозной аудит архива Боба Лазара перед релизом. Проверены 6 задач: навигация по ссылкам, двуязычное покрытие, диаграммы, гигиена коммитов, качество контента, регрессии. Содержание готово к релизу: MASTER-файл содержит 34-строчную таблицу числовых параметров, §12 «Выводы» из трёх подразделов, все 12 диаграмм разрешаются, 10/10 цитат дословно подтверждаются в транскриптах. Выявлены 5 мелких/косметических пунктов перед тегом релиза: партия 4 не закоммичена (19 изменённых файлов + 1 новый CHANGELOG.md), ASCII-дерево README ошибочно помещает CHANGELOG.md под `analysis/`, файл `catalog/asrp_media_115_interview.md` лишён блока навигации, в MASTER два заголовка «Table of Contents», нумерация §1 прыгает 1.1 → 1.6 → 1.11. Ни одна из проблем не затрагивает содержание. Финальный вердикт: **MINOR POLISH** — готово к релизу после пяти правок по ≤10 минут каждая.
+
 ---
 
-## Task 1 — Navigation (link resolution)
+## Task 1 — Navigation (link resolution) / Задача 1 — Навигация (разрешение ссылок)
 
 **Status: PASS with minor doc-tree discrepancy.**
 
@@ -27,7 +29,7 @@ Evidence:
 
 ---
 
-## Task 2 — Bilingual coverage
+## Task 2 — Bilingual coverage / Задача 2 — Двуязычное покрытие
 
 **Status: PASS with one partial exception (acceptable).**
 
@@ -40,7 +42,7 @@ Evidence:
 
 ---
 
-## Task 3 — Diagrams
+## Task 3 — Diagrams / Задача 3 — Диаграммы
 
 **Status: PASS.**
 
@@ -55,7 +57,7 @@ Evidence:
 
 ---
 
-## Task 4 — Commit hygiene
+## Task 4 — Commit hygiene / Задача 4 — Гигиена коммитов
 
 **Status: MIXED — commits clean, but Batch 4 not committed.**
 
@@ -74,7 +76,7 @@ Evidence:
 
 ---
 
-## Task 5 — Content quality
+## Task 5 — Content quality / Задача 5 — Качество контента
 
 **Status: PASS.**
 
@@ -87,7 +89,7 @@ Evidence:
 
 ---
 
-## Task 6 — Regressions
+## Task 6 — Regressions / Задача 6 — Регрессии
 
 **Status: PASS.**
 
@@ -102,13 +104,13 @@ Evidence:
 
 ---
 
-## Final Verdict
+## Final Verdict / Финальный вердикт
 
-### MINOR POLISH
+### MINOR POLISH / МЕЛКАЯ ШЛИФОВКА
 
 The archive is **substantively ready to ship**. All content, diagrams, bilingual merging, reviews, and navigation plumbing are in place and internally consistent. The gaps are cosmetic/administrative, not content-integrity.
 
-### Items to address before tagging a release
+### Items to address before tagging a release / Правки перед тегом релиза
 
 1. **Commit Batch 4.** 19 modified + 1 untracked file are uncommitted on `bob-lazar-archive`. Stage and commit as `feat(lazar): batch 4 — navigation, changelog, final lint`.
 2. **Fix README ASCII tree**: `CHANGELOG.md` is shown under `analysis/` (lines 66–67) but actually lives at the archive root. Move it in the tree display or move the file.
@@ -118,6 +120,6 @@ The archive is **substantively ready to ship**. All content, diagrams, bilingual
 
 None of the five items affects technical content or bilingual fidelity. All are ≤10-minute edits.
 
-### Overall quality assessment
+### Overall quality assessment / Общая оценка качества
 
 The archive is a disciplined, genuinely bilingual, extensively cross-referenced research corpus: 24 transcribed appearances across 37 years, synthesized into a 1,513-line master reference with a 34-row numerical-parameters quick-reference, 12 diagrams (Mermaid + SVG + PNG), a dedicated institutional-Dubna counterpoint interview, per-agent QA reviews, and a changelog. The commit history is clean and attribution-free; the content has been audited for misattribution between Lazar / Huff / Lear; the quantitative claims carry stability flags (✅/⚠️/❌). The remaining deltas are five small housekeeping items — not content gaps. Ship after committing Batch 4 and clearing the polish list above.

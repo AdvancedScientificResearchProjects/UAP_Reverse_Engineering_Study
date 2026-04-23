@@ -55,14 +55,14 @@ Self-description: «Я считаю, что это научный метод. Н
 
 This is the most **explicit, structured, single-place** articulation of Chernobrov's fraud-detection methodology in the archive to date.
 
-### T1.4 — Inversion rule: «все парадоксы — расписка в собственном незнании» [KP-N24-58 00:47:38]
+### T1.4 — Inversion rule: «все парадоксы — расписка в собственном незнании» / "all paradoxes are an admission of one's own ignorance" [KP-N24-58 00:47:38]
 
 Paradoxes are admissions of ignorance, not physical impossibilities. Grand-father-paradox resolution by branching-universes: the branch you started from is invariant; other branches can be altered. Ties directly into T6 Time Machine theoretical base.
 
 ### T1.5 — Gatekeeping Kosmopoisk seriousness [KP-N24-58 00:14:47, 00:38:18]
 
 - **Dry law** is the first-level filter. Any alcohol → immediate rejection of observer testimony (counter-argument: "how much did they drink?" becomes unanswerable). Chernobrov states: this rule is **not** moralistic, it is epistemic.
-- No belief required; no dogma; «мы не требуем веры какой-то».
+- No belief required; no dogma; «мы не требуем веры какой-то» / "we don't require any belief".
 - Expeditions are **non-commercial**: no fees, no payments.
 
 ---
@@ -247,20 +247,20 @@ Four **Kosmopoisk open questions** Chernobrov explicitly keeps unresolved after 
 ### T6.2 — Structural design
 
 From MG-DOC-17:
-- **Spherical body** («сферический корпус»)
-- **Several nested layers** («несколько слоёв»)
+- **Spherical body** («сферический корпус» / "spherical housing")
+- **Several nested layers** («несколько слоёв» / "several layers")
 - Many electromagnets mounted on the shell
 - For each model: optimal values of **frequency** and **switching-regime intensity** selected empirically
 
 Corresponds to USER-RES §1, §5, §6 descriptions:
-- «чечевицеобразные аппараты» / lenticular bodies
+- «чечевицеобразные аппараты» / "lenticular bodies"
 - Nested matryoshka of **ЭРП** (electromagnetic working surfaces)
 - Each ЭРП = ellipsoidal wound electromagnets
 - Pulsed operation, frequency = c/d (for d=7mm → ~43 GHz, Frolov reformulation)
 
 ### T6.3 — Scale of Medveditskaya manned installation
 
-MG-DOC-17 [00:19:15]: **~100 people × 4 months** construction labour; «может быть, первая в мире установка … с которой может принять участие человек», with **manned compartment**. USER-RES §5 dates the Lovondatr-7 construction at 3 months summer 2001 with ~100 people — MG-DOC-17's "4 months" is marginally longer and likely includes preparatory work + on-site trials.
+MG-DOC-17 [00:19:15]: **~100 people × 4 months** construction labour; «может быть, первая в мире установка … с которой может принять участие человек» / "perhaps the first installation in the world in which a person can participate", with **manned compartment**. USER-RES §5 dates the Lovondatr-7 construction at 3 months summer 2001 with ~100 people — MG-DOC-17's "4 months" is marginally longer and likely includes preparatory work + on-site trials.
 
 ### T6.4 — Manned-experiment achievement
 
@@ -270,7 +270,7 @@ USER-RES §5 / §16 quantifies: **−3 % over 30 minutes** for the Lovondatr-7 /
 
 ### T6.5 — Bottleneck → lightning
 
-MG-DOC-17 [00:20:50]: «нам нужна **энергия молнии**» — the path forward for larger time displacement is harvesting **lightning energy**. This is **not** in USER-RES; it is a novel 2017 statement of program direction.
+MG-DOC-17 [00:20:50]: «нам нужна **энергия молнии**» / "we need the energy of lightning" — the path forward for larger time displacement is harvesting **lightning energy**. This is **not** in USER-RES; it is a novel 2017 statement of program direction.
 
 ### T6.6 — Theoretical base
 
@@ -307,7 +307,9 @@ Internal thermal burn along spine = potential EM-coupling / plasma-injection mec
 
 ### T7.2 — Physiological basis of "blud places" [KP-N24-58 00:24:13]
 
-«Где-то понимаем, что она связана с физиологией человека, с особенностями человеческих органов чувств, но, тем не менее, все вопросы в этой загадке не разрешены.» → disorientation zones linked to **human sense-organ physiology**; not fully explained. Linked conceptually to Ingushetia "Cave of Djinns" cluster.
+RU: «Где-то понимаем, что она связана с физиологией человека, с особенностями человеческих органов чувств, но, тем не менее, все вопросы в этой загадке не разрешены.»
+
+EN: "We somewhat understand that it is linked to human physiology, to the features of human sense-organs, but nevertheless not all questions in this riddle have been resolved." → disorientation zones linked to **human sense-organ physiology**; not fully explained. Linked conceptually to Ingushetia "Cave of Djinns" cluster.
 
 ### T7.3 — Volunteer profile for TM experiments [KP-N24-58 00:51:33]
 

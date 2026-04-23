@@ -1,10 +1,12 @@
-# QA Review — MASTER_technical_claims.md
+# QA Review — MASTER_technical_claims.md / QA-обзор — MASTER_technical_claims.md
 
 Reviewer: fresh QA pass. Method: sample-verified ~35 cited claims from master doc against the 23 source transcripts in `transcripts/`. Transcript timestamp format is `[HH:MM:SS]` per whisper segment; tolerance ±30 s used for segmentation drift.
 
+**RU — Сводка / Summary (RU):** Свежий QA-проход по MASTER_technical_claims.md. Метод — выборочная проверка ~35 цитируемых заявлений в 23 исходных транскриптах с допуском ±30 с по таймкодам. Результат: **89% VERIFIED (33/37)**, 4 случая PARAPHRASED (смещение таймкода или мелкая орфография — «Kirk Mayer» vs «Meyer», невалидированное «Z-number», 70-секундный дрейф таймкода Дакслер/Хостфилд, окно для «22 человека» в JRE2479 смещено на ~1 мин, «alien cadavers» в BL18 на границе допуска), **0 HALLUCINATED, 0 MISATTRIBUTED**. Проверки «Lazar absent» для C2C-98 (Lear-соло) и C2C-09 (Knapp/Huff/Lear) подтверждаются в транскриптах. Флаги эволюции (52 ↔ 40 футов только в LT-91; Galileo/Sidekick отсутствуют 1992–1996; наклон ангара 30° vs 60°; инверсия моральной позиции в 2026) выдерживают проверку. Уровень уверенности: **ВЫСОКИЙ**. Рекомендованы 6 мелких правок цитирования; убирать ни одно заявление не требуется. Второй раздел (Review Gate 1) — аудит партии 1 после доработок: 5/5 новых цитат S4DOC-26 дословны, 5/5 строк ключевой таблицы §0.0 корректны, интервью ASRP Media-115 (catalog) соответствует первоисточнику, запись «Apr 13 chat dump» в интервью корректно помечена как нетранскрибированная. Итог Gate 1: **PASS WITH MINOR FIXES** — рекомендовано 2 правки §12 MASTER (добавить упоминания о противоречиях «жертвы 2 vs 3» и «наклон двери 30° vs 60°»; уточнить «Nellis Range» вместо «Nellis/Tonopah»). Партия 1 готова к переходу в партию 2.
+
 ---
 
-## 1. Source code → transcript file mapping
+## 1. Source code → transcript file mapping / 1. Сопоставление кодов источников и файлов транскриптов
 
 | Master code | Transcript file | Notes |
 |---|---|---|
@@ -35,11 +37,11 @@ All codes mapped. No unresolved codes.
 
 ---
 
-## 2. Sampled claims (35 total)
+## 2. Sampled claims (35 total) / 2. Выборочные заявления (всего 35)
 
 Codes: ✅ VERIFIED / ⚠️ PARAPHRASED / ❌ HALLUCINATED / 🤔 UNVERIFIABLE / 🔄 MISATTRIBUTED. Timestamp drift ≤30 s counted as verified.
 
-### Element 115 / physical properties
+### Element 115 / physical properties / Элемент 115 / физические свойства
 
 1. **"115 is strictly an extraterrestrial material." (KLAS-89b [00:25:06])** → Actual line at **[00:24:44]**. Quote verbatim. Timestamp off by 22 s. ✅ VERIFIED (borderline on ts).
 2. **"Element 115 is stable" / decay framing (KLAS-89b [00:27:31–00:28:14])** → Actual spans [00:27:28]–[00:28:14]. Content matches, incl. "247" hint. ✅ VERIFIED.
@@ -56,12 +58,12 @@ Codes: ✅ VERIFIED / ⚠️ PARAPHRASED / ❌ HALLUCINATED / 🤔 UNVERIFIABLE 
 13. **"Injecting an accelerated proton into a piece of 115…" (Rachel-93 [00:01:45])** → Actual [00:01:57] (file 12b) / [00:02:00] (file 12). Timestamp 12–15 s drift; quote verbatim. ✅ VERIFIED.
 14. **"Machined into disks… stacked up and then cut into a cone shape…" (Rachel-93 [00:12:03])** → Actual [00:12:10]–[00:12:14]. Verbatim. ✅ VERIFIED.
 
-### Antimatter reactor
+### Antimatter reactor / Антиматериальный реактор
 
 15. **"Barry showed me the reactor… try and touch the sphere… hand was pushed away" (BL18 [00:31:46])** → Exact match at [00:31:46]–[00:31:54]. ✅ VERIFIED.
 16. **"47 megatons per kg of antimatter" (CW16 [00:12:22])** → Actual [00:12:30]: *"a kilogram of antimatter is equal in energy to 47 megaton hydrogen bombs."* ~8 s drift. ✅ VERIFIED. Correctly flagged as new in 2016.
 
-### Gravity physics / misattributions
+### Gravity physics / misattributions / Гравитационная физика / ошибочная атрибуция
 
 17. **Lear "pumping protons into 115, it becomes 116, which immediately decays" (C2C-98 [01:26:47])** → Actual verbatim at **[01:26:59]**. ~12 s drift. Speaker attribution to Lear (C2C-98 Lear solo) correct. ✅ VERIFIED. Misattribution flag (§11.4) is accurate.
 18. **Lear "Gravity is instantaneous… two forms of it, A and B" (C2C-98 [02:24:50])** → Actual [02:24:50]–[02:24:59]. Verbatim. ✅ VERIFIED.
@@ -69,7 +71,7 @@ Codes: ✅ VERIFIED / ⚠️ PARAPHRASED / ❌ HALLUCINATED / 🤔 UNVERIFIABLE 
 20. **"It's a repulsive gravitational field… never, even with antimatter… new repulsive force" (JRE2479 [01:37:44])** → Actual [01:37:40]–[01:37:57]. Verbatim. ✅ VERIFIED.
 21. **Repulsive field impenetrable beyond ~9 in (JRE2479 [01:30:01])** → Actual [01:30:04]: *"Maybe about nine inches, which is about a span. And no, at some point you can't push back on it at all."* ✅ VERIFIED.
 
-### Dimensions / Sport Model
+### Dimensions / Sport Model / Размеры / Sport Model
 
 22. **52 ft (KLAS-89b [00:19:01])** → Actual [00:18:40]: *"this craft was about 52 feet in diameter."* 21 s drift. ✅ VERIFIED.
 23. **"About 16 feet tall and 40 feet in diameter" (LT-91 [00:24:50])** → Verbatim match [00:24:50]. ✅ VERIFIED. LT-91 40 ft outlier claim is accurately flagged.
@@ -78,28 +80,28 @@ Codes: ✅ VERIFIED / ⚠️ PARAPHRASED / ❌ HALLUCINATED / 🤔 UNVERIFIABLE 
 26. **52 ft (LK19 [00:25:47])** → Actual [00:25:49]. ✅ VERIFIED.
 27. **18-inch square plate, half-sphere on top (BG-89 [00:46:00])** → Verbatim at [00:46:01]–[00:46:11]. ✅ VERIFIED.
 
-### Briefings / aliens
+### Briefings / aliens / Брифинги / инопланетяне
 
 28. **"Product of externally corrected evolution," "genetically altered 65 times," "containers" (LT-91 [00:35:13–00:35:30])** → Actual [00:35:17]–[00:35:25]. Verbatim. ✅ VERIFIED.
 29. **6-digit date format beginning 1623 (LT-91 [00:33:41])** → Actual [00:33:45]–[00:33:49]. ✅ VERIFIED.
 30. **"The Kids" alien nickname (BL18 [00:48:35])** → Actual [00:48:34]–[00:48:38]. ✅ VERIFIED.
 31. **"Size of the alien cadavers I saw" (BL18 [00:54:48–55:08])** → Actual [00:54:26]. Off by ~30 s (edge of tolerance) but quote verbatim and master correctly flags phrasing drift. ✅ VERIFIED (with timestamp note).
 
-### S-4 / personnel
+### S-4 / personnel / S-4 / Персонал
 
 32. **22 people / 38 levels above Q / Majestic (KLAS-89b [00:10:57])** → Actual [00:10:59]–[00:11:02] for 22 people + majestic + 38 levels. Verbatim. ✅ VERIFIED.
 33. **22 people (JRE2479 [00:20:02–00:25:43])** → [00:26:50]: *"only 22 people there total, including myself."* Timestamp window in master is imprecise; actual instance is just outside the stated upper bound. ⚠️ PARAPHRASED (claim true, timestamp window wrong by ~1 min).
 34. **Mike Thigpen confirmation (BL18 [01:03:48–01:04:04])** → Actual [01:03:43]–[01:03:55]. ✅ VERIFIED.
 35. **Terry Tavernetti polygrapher + third polygrapher (BL18 [01:02:13, 01:02:51])** → Actual [01:02:17]–[01:02:21] and [01:02:38]–[01:02:41]. Timestamps slightly off but close; content verbatim. ✅ VERIFIED.
 
-### Credentials
+### Credentials / Образование и полномочия
 
 36. **Duxler (Caltech) and Hostfield (MIT) professor names (Rachel-93 [00:44:56])** → Actual **[00:46:04]–[00:46:26]** in file 12b; [00:46:07]–[00:46:25] in file 12. Claim verbatim but **timestamp off by ~1 min 10 s** — outside tolerance. ⚠️ PARAPHRASED (content correct, timestamp wrong).
 37. **"Kirk Mayer = subcontractor/headhunter; Z-number assigned." (C2C-09 [01:14:55])** → Actual [01:14:48]–[01:14:55] says **"Kirk Meyer"** (spelling), described as "headhunter." Spoken by Knapp or Huff, not Lazar. **No "Z-number" mention anywhere in transcript searched.** ⚠️ PARAPHRASED — Mayer/Meyer spelling error; "Z-number" claim not found in nearby transcript and may be inferred or pulled from a different place. Recommend verifying Z-number sourcing.
 
 ---
 
-## 3. Summary statistics
+## 3. Summary statistics / 3. Сводная статистика
 
 - Sampled claims: **37**
 - ✅ VERIFIED: **33** (~89 %)
@@ -122,7 +124,7 @@ Additional global checks:
 
 ---
 
-## 4. Confidence assessment: **HIGH**
+## 4. Confidence assessment: **HIGH** / 4. Оценка уверенности: **ВЫСОКАЯ**
 
 The master doc is substantially accurate. Quotes are mostly verbatim; attributions (including the load-bearing Lear-vs-Lazar and Huff-vs-Lazar distinctions) are correct against the source audio transcripts. Timestamp drift is common (often 10–30 s, occasionally up to ~70 s) but appears driven by whisper-segmentation, not fabrication. No quotes in the sample were invented, and no quote was placed in the wrong transcript.
 
@@ -130,7 +132,7 @@ The doc's evolution flags and contradiction calls (52 ↔ 40 ft, 115 stability s
 
 ---
 
-## 5. Recommended fixes
+## 5. Recommended fixes / 5. Рекомендуемые правки
 
 Small edits only — nothing requires removal.
 
@@ -146,13 +148,13 @@ No claims should be removed. No claims were found to be fabricated.
 
 ---
 
-## Executive summary (≈200 words)
+## Executive summary (≈200 words) / Исполнительная сводка (≈200 слов)
 
 I verified 37 sampled claims from MASTER_technical_claims.md against the 23 raw transcripts. Confidence is high. Approximately 89 % of sampled quotes match the source verbatim at the cited timestamp (±30 s). Zero hallucinated quotes were found: every quoted sentence I spot-checked appears in the transcript it was attributed to, and the load-bearing misattribution calls in §11 (Lear vs Lazar for the canonical "pump protons into 115 → 116 → antimatter" sentence in C2C-98 [01:26:59]; Huff's isotope/neutron-bombardment framing in C2C-09; Lear's 12 ms recycle in C2C-09; Lazar's absence from both C2C-98 and C2C-09) independently check out. Evolution flags (52 ↔ 40 ft only in LT-91; Galileo/Sidekick names absent 1992–1996; 30° vs 60° hangar slope; moral-stance reversal in JRE2479) all hold. The defects found are minor: (1) "Kirk Mayer" should be "Kirk Meyer" and the adjacent "Z-number" claim is not evidenced at its citation; (2) a few timestamps drift 60–90 s beyond tolerance (Duxler/Hostfield Rachel-93, "22 people total" JRE2479, "alien cadavers" BL18 edge-of-tolerance). Recommend six small citation fixes. No claims warrant removal. The master doc is a reliable reference.
 
 ---
 
-## Review Gate 1 — Batch 1 audit (post-Denis-feedback enrichment)
+## Review Gate 1 — Batch 1 audit (post-Denis-feedback enrichment) / Ворота 1 — аудит партии 1 (после обогащения по фидбеку Дениса)
 
 Reviewer: fresh QA pass, no prior context. Method: verbatim grep against source transcripts for new quote citations; cross-reference §0.0 table rows against §§1–11 body; structural read of §12 and catalog/asrp_media_115_interview.md; spot-check of catalog/interviews.md.
 
@@ -164,7 +166,7 @@ Scope audited:
 - catalog/asrp_media_115_interview.md (new, 396 lines)
 - catalog/interviews.md (new x8nd5fv row)
 
-### Check A — 5 new S4DOC-26 quotes (hallucination check)
+### Check A — 5 new S4DOC-26 quotes (hallucination check) / Проверка A — 5 новых цитат S4DOC-26 (проверка галлюцинаций)
 
 All 5 verbatim-verified against `transcripts/52_2026_S4_Bob_Lazar_Story.txt`:
 
@@ -176,7 +178,7 @@ All 5 verbatim-verified against `transcripts/52_2026_S4_Bob_Lazar_Story.txt`:
 
 **Check A verdict: PASS.** All 5 quotes verbatim, all timestamps within ±30 s tolerance. No hallucinations.
 
-### Check B — §0.0 Key Parameters table sanity (5 rows spot-checked)
+### Check B — §0.0 Key Parameters table sanity (5 rows spot-checked) / Проверка B — санитарная проверка таблицы ключевых параметров §0.0 (5 строк выборочно)
 
 - **Row 13 — 7.46 Hz (Gravity-A carrier).** Cites Rachel-93, C2C-97, S4DOC-26 narration (§2.3). S4DOC-26 transcript line [00:28:10]: *"is 7.46 hertz at a 1 micron bandwidth."* ✅ Value correct. First-stated year **1993** plausible (Rachel-93 is the earliest corpus source for a named carrier frequency; §1.3 and §2.3 consistent).
 - **Row 6 — 223 g per reactor charge.** Cites BG-89, LT-91, C2C-97, LK19, JRE2479, S4DOC-26 (§1.3). S4DOC-26 [00:27:40]: *"you need 223 grams"*. Prior QA sampled BG-89, LT-91 verbatim. ✅ Value and first-year (1989 via BG-89) correct.
@@ -186,7 +188,7 @@ All 5 verbatim-verified against `transcripts/52_2026_S4_Bob_Lazar_Story.txt`:
 
 **Check B verdict: PASS.** All 5 sampled rows correctly cited and correctly dated.
 
-### Check C — §12 Conclusions honesty check
+### Check C — §12 Conclusions honesty check / Проверка C — проверка честности выводов §12
 
 Read §12.1 (consistent), §12.2 (drifted), §12.3 (externally verifiable).
 
@@ -207,7 +209,7 @@ None of these omissions are *claims of consistency that are actually drifted* (�
 
 **Check C verdict: PASS WITH MINOR FIXES.** §12.3 is not overstated. §12.2 should mention fatalities contradiction (§10.11) and hangar-door slope (§10.15a) given they are flagged ❌ CONTRADICTED in §0.0 itself.
 
-### Check D — ASRP Media interview fidelity
+### Check D — ASRP Media interview fidelity / Проверка D — соответствие интервью ASRP Media оригиналу
 
 - **Full Russian original present, not summarised.** Lines 37–196 contain the complete verbatim Q&A flow from opening framing through *"Благодарю вас за беседу."* Editorial footnote at the Lazar question is clearly labelled `[Редакционная сноска ASRP.media]`. ✅
 - **English translation parallel and non-editorial.** Lines 198–359 mirror the Russian 1:1. The OCR/typo *"синтез 155 элемента московия"* is preserved in Russian and flagged inline in English *"[note: the Russian text says "155 элемента московия" — evidently a typo/OCR error for element 115 moscovium.]"*. ✅ Honest, non-divergent.
@@ -227,14 +229,14 @@ None of these omissions are *claims of consistency that are actually drifted* (�
 
 **Check D verdict: PASS.** No fabrication, no editorialising beyond what is explicitly flagged. Cross-references to MASTER sections are accurate.
 
-### Check E — Apr 13 chat dump entry
+### Check E — Apr 13 chat dump entry / Проверка E — запись чат-дампа от 13 апреля
 
 - `catalog/interviews.md` line 238: *"059 Bob Lazar (Ken Wright) — appears to be episode #59 of a Ken Wright–hosted 'Quinta Essentia Part-5' series on Dailymotion. Title names Lazar; participant role (Lazar himself on camera vs Wright discussing Lazar) not confirmed from the Dailymotion page metadata alone. [Dailymotion](https://www.dailymotion.com/video/x8nd5fv) `[NOT TRANSCRIBED — Apr 13 chat dump]`"*
 - Flag `[NOT TRANSCRIBED — Apr 13 chat dump]` present. Uncertainty about Lazar's on-camera role is explicitly acknowledged. ✅ Correctly flagged.
 
 **Check E verdict: PASS.**
 
-### Overall verdict: PASS WITH MINOR FIXES
+### Overall verdict: PASS WITH MINOR FIXES / Общий вердикт: PASS с мелкими правками
 
 No hallucinations. No misattributions. No removable claims. Two small structural fixes recommended:
 

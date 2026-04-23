@@ -1,13 +1,15 @@
-# FINAL_REVIEW — Review Gate 4 — Chernobrov / Kosmopoisk Archive
+# FINAL_REVIEW — Review Gate 4 — Chernobrov / Kosmopoisk Archive / Финальный обзор — Ворота 4 — архив Черноброва/Космопоиска
 
 **Reviewer:** Independent end-to-end audit agent (Opus 4.7, 1M-context), no prior context from Batches 1–4.
 **Date:** 2026-04-19
 **Scope:** Top-to-bottom verification of the completed archive against ASRP v2.1 standards before sign-off.
 **Verdict (preview):** **CONDITIONAL PASS** — content fidelity is high; 1 documentation-sync issue must be fixed before final sign-off.
 
+**RU — Сводка / Summary (RU):** Независимый сквозной аудит архива Черноброва/Космопоиска перед финальной приёмкой (Ворота 4). Проверены 8 структурных компонентов, 10 двуязычных разделов, 30 кодов источников, 12 диаграмм, 10 дословных цитат и 5 стандартов честной отчётности — все пройдены. Единственная блокирующая проблема: файл `UAP_META_MASTER.md` не был обновлён после создания `MASTER_chernobrov_claims.md` и продолжает утверждать, что единого MASTER-файла ещё нет. После правки (см. §9 и §10) архив прошёл финальную приёмку. В §11 описан второй круг проверки v0.5.1: 4 параллельных ревью-агента (покрытие, галлюцинации, консистентность, выравнивание с USER-RES) плюс 3 агента закрытия пробелов. Ключевое исправление — ретракция «академик Мишин как консультант Ловондатр»: это вёрсточная ошибка NET-09-2003, где «Академик» относился к А.Ф. Миткевичу, а не к А.М. Мишину. Итог v0.5.1 (§12): **PASS**, 0 галлюцинаций, 0 внутренних противоречий, 7 явно флагнутых расхождений с USER-RES (все разрешены в MASTER §11), 2 открытых пробела (газета МАИ 1991 и academia.edu отчёт — недоступны из открытых источников).
+
 ---
 
-## §1 Structural Integrity Check
+## §1 Structural Integrity Check / §1 Проверка структурной целостности
 
 | Item | Required | Present | Status |
 |---|---|---|---|
@@ -26,7 +28,7 @@
 
 ---
 
-## §2 Bilingual Coverage
+## §2 Bilingual Coverage / §2 Двуязычное покрытие
 
 ASRP v2.1 mandate for Chernobrov archive: **RU primary, EN secondary**, no EN-only or RU-only sections except verbatim quotes (verbatim quotes RU-only with EN gloss is acceptable).
 
@@ -49,7 +51,7 @@ ASRP v2.1 mandate for Chernobrov archive: **RU primary, EN secondary**, no EN-on
 
 ---
 
-## §3 Source Code Convention Consistency
+## §3 Source Code Convention Consistency / §3 Консистентность соглашений о кодах источников
 
 Source-code coverage (grep across MASTER + 5 random analysis files):
 
@@ -78,7 +80,7 @@ Hyphenation/normalisation check: all `B-*` codes use hyphen (not underscore). Ar
 
 ---
 
-## §4 Diagram Integration
+## §4 Diagram Integration / §4 Интеграция диаграмм
 
 Diagrams inventory: 12 unique artefacts (5 `.mmd` sources + 5 PNG renders + 7 SVG natives), matching the README claim.
 
@@ -100,7 +102,7 @@ All 12 unique diagrams are referenced from at least one MD file (verified via gr
 
 ---
 
-## §5 Cross-archive Coherence
+## §5 Cross-archive Coherence / §5 Межархивная согласованность
 
 `UAP_META_MASTER.md` (34 KB at parent level) was reviewed end-to-end:
 
@@ -127,7 +129,7 @@ This is a documentation-sync defect, not a content defect. Fix is mechanical (3 
 
 ---
 
-## §6 Hallucination Spot-check (10 quotes)
+## §6 Hallucination Spot-check (10 quotes) / §6 Выборочная проверка галлюцинаций (10 цитат)
 
 Verbatim Russian quotes sampled diversely from MASTER and per-interview/QA files; grepped against `transcripts/` and `books/downloads/fb2_text/` (with substring tolerance):
 
@@ -152,7 +154,7 @@ Note: QA-RG2 had previously flagged "Бесен Мамай" as a paraphrase when
 
 ---
 
-## §7 Honest Reporting Check
+## §7 Honest Reporting Check / §7 Проверка честной отчётности
 
 | Item | Required behavior | Status in MASTER |
 |---|---|---|
@@ -172,7 +174,7 @@ Additional honest-reporting items detected:
 
 ---
 
-## §8 Commit Hygiene
+## §8 Commit Hygiene / §8 Гигиена коммитов
 
 Ran `git log --oneline -20` at parent dir:
 
@@ -196,9 +198,9 @@ Conventional-commits format used throughout (`feat:`, `fix:`, `docs:`, `chore:`)
 
 ---
 
-## §9 Final Verdict
+## §9 Final Verdict / §9 Финальный вердикт
 
-### **CONDITIONAL PASS**
+### **CONDITIONAL PASS** / **УСЛОВНЫЙ PASS**
 
 Content quality is excellent. Structural completeness, bilingual coverage, source-code consistency, diagram integration, hallucination audit, and honest-reporting checks all PASS at high confidence. Commit hygiene is clean.
 
@@ -222,7 +224,7 @@ Content quality is excellent. Structural completeness, bilingual coverage, sourc
 
 ---
 
-## Summary metrics for caller
+## Summary metrics for caller / Итоговые метрики для вызывающего
 
 | Metric | Result |
 |---|---|
@@ -240,7 +242,7 @@ Content quality is excellent. Structural completeness, bilingual coverage, sourc
 
 ---
 
-## §10 Post-Review Fixes Applied (2026-04-19)
+## §10 Post-Review Fixes Applied (2026-04-19) / §10 Применённые пост-ревью правки
 - Issue 1 (BLOCKING): UAP_META_MASTER.md synced — §1.3 + §7 + §9 updated, version v0.3 → v0.4
 - Issue 2: KEY-FINDINGS-01 canonicalized in MASTER §0.4
 - Issue 3: README corpus stats corrected (5 → 8 per-interview, 5 → 8 topical)
@@ -249,11 +251,11 @@ Content quality is excellent. Structural completeness, bilingual coverage, sourc
 
 ---
 
-## §11 v0.5.1 Review Round (2026-04-19 evening)
+## §11 v0.5.1 Review Round (2026-04-19 evening) / §11 Круг проверки v0.5.1 (вечер 2026-04-19)
 
 A second comprehensive review pass was launched after Review Gate 4 sign-off, prompted by a USER-RES paraphrase update that flagged potential gaps and a single critical attribution error (Mishin role).
 
-### §11.1 Review-agent campaign
+### §11.1 Review-agent campaign / §11.1 Кампания ревью-агентов
 
 Four parallel review agents were launched against the v0.5.0 archive state:
 
@@ -264,7 +266,7 @@ Four parallel review agents were launched against the v0.5.0 archive state:
 | 3 | Cross-doc consistency | MASTER vs per-interview vs topical vs articles vs books vs README vs UAP_META_MASTER — numbers, dates, source codes, names | PASS — 0 contradictions; 3 minor MASTER fixes applied (date formatting, source-code casing, single duplicated row in §0.0) |
 | 4 | USER-RES alignment | New paraphrase doc compared row-by-row to MASTER claims | PASS — 50 ALIGNED + 70 EXTENDED + 7 CONTRADICTED + 2 MISSING (see §11.3 below) |
 
-### §11.2 Gap-fill agents
+### §11.2 Gap-fill agents / §11.2 Агенты закрытия пробелов
 
 Three follow-up agents were dispatched to close gaps surfaced by the alignment review:
 
@@ -274,14 +276,14 @@ Three follow-up agents were dispatched to close gaps surfaced by the alignment r
 | 2 | RUFORS 2019 Mishin-related material | Locate the cited 2019 RUFORS conference Mishin talk | **Video-only**, no transcript exists in open record. Flagged unresolvable without manual transcription. |
 | 3 | SCRIBD 487087395 | Pull the full document referenced in USER-RES | **AI-preview only**, full doc not accessible without paid SCRIBD account. Flagged unresolvable from open-internet sources. |
 
-### §11.3 USER-RES alignment results
+### §11.3 USER-RES alignment results / §11.3 Результаты выравнивания с USER-RES
 
 - **50 ALIGNED:** USER-RES paraphrase matches MASTER claim verbatim or in close paraphrase.
 - **70 EXTENDED:** MASTER carries strictly more detail than USER-RES — no contradiction, MASTER is the superset.
 - **7 CONTRADICTED:** All 7 contradictions are recorded explicitly in MASTER §11 (Honest-reporting / Contradictions). The most significant is the Mishin role attribution (§11.4 below).
 - **2 MISSING:** Two USER-RES claims could not be sourced from the corpus. Both pre-flagged as un-verifiable in MASTER §12.6 (open gaps register) — the газета МАИ April 1991 physical archive (no digital scan available) and the academia.edu Report (404 / removed by author).
 
-### §11.4 Mishin RETRACTION strengthened
+### §11.4 Mishin RETRACTION strengthened / §11.4 Усиленная ретракция по Мишину
 
 The NET-09 through NET-12 (2003) compendium pull confirms a hard correction to a recurring secondary-source claim:
 
@@ -290,13 +292,13 @@ The NET-09 through NET-12 (2003) compendium pull confirms a hard correction to a
 - **Source of the confusion:** The single NET-09-2003 page where the surname "Мишин" appears within ~5 lines of the word "Академик" — on closer reading the word "Академик" attaches to **A.F. Mitkevich** (a different person referenced in an adjacent paragraph), not to Mishin. This is a layout-induced misattribution, not a genuine title.
 - **MASTER fix:** §11 now carries the RETRACTION explicitly and §3 (Personnel) demotes Mishin from "consultant" to "peer aether-theory contributor (NET 2003 special issue)".
 
-### §11.5 MASTER edits applied (14 total)
+### §11.5 MASTER edits applied (14 total) / §11.5 Применённые правки MASTER (14 всего)
 
 - 3 fixes (date formatting, source-code casing, deduplication in §0.0)
 - 11 additions (Mishin retraction, NET-09–12 source codes added to §0, three new rows to §0.0 numerical params from NET compendium, USER-RES alignment cross-references in §11)
 - §0.0 row count: 78 → **82**
 
-### §11.6 Honest gaps remaining (cannot be filled from open sources)
+### §11.6 Honest gaps remaining (cannot be filled from open sources) / §11.6 Честно признанные оставшиеся пробелы (не закрываются из открытых источников)
 
 1. **газета МАИ «Пропеллер», 12 April 1991** — physical archive only; not digitised; no copy reachable from open internet
 2. **academia.edu Report (Mishin/aether)** — original URL returns 404; archive.org snapshot incomplete
@@ -305,7 +307,7 @@ Both are explicitly flagged in MASTER §12.6 as "evidence-pending, open-internet
 
 ---
 
-## §12 FINAL VERDICT v0.5.1
+## §12 FINAL VERDICT v0.5.1 / §12 ФИНАЛЬНЫЙ ВЕРДИКТ v0.5.1
 
 **PASS — sign-off ready.**
 

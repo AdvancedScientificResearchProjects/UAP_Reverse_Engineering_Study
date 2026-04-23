@@ -6,9 +6,11 @@
 **Branch audited:** `bob-lazar-archive`
 **Commit at audit:** `0c9f1bc` (batch 4 — navigation, polish, CHANGELOG)
 
+**RU — Сводка / Summary (RU):** Полный 10-секционный сквозной аудит архива Боба Лазара в позиции скептического оборонного подрядчика (первый просмотр). Проверены: целостность файлов (28 .md + 24 .txt + 6 .mmd + 6 .svg + 6 .png, 0 устаревших файлов, 100% UTF-8), навигация (ручной обход ~60 ссылок — все разрешаются), двуязычное покрытие (все содержательные файлы двуязычны; ревью-файлы намеренно на EN по стандарту), валидация диаграмм (6/6 mermaid + 6/6 SVG корректны, бирилингвально размечены), качество контента MASTER (§0.0 — 34 строки, §1–§12 последовательно, флаги C2C-98/C2C-09 «Лазар отсутствует» на месте), соглашения кодов источников (все 25 используются; одна косметическая неконсистентность дефисов), соответствие ASRP v2.1, гигиена git (6 коммитов, 0 AI-атрибуций), проверка честности контента (15/15 цитат сверены с транскриптами — 0 галлюцинаций), внешняя готовность (ясный README, внятный тон). Итог: **SHIP READY** — одна косметическая правка (нормализация дефисации кодов C2C18 → C2C-18 в §0 MASTER).
+
 ---
 
-## 1. Repository structure & file integrity
+## 1. Repository structure & file integrity / 1. Структура репозитория и целостность файлов
 
 | Check | Result |
 |-------|--------|
@@ -27,7 +29,7 @@
 
 ---
 
-## 2. Navigation integrity (manual link-walk)
+## 2. Navigation integrity (manual link-walk) / 2. Целостность навигации (ручной обход ссылок)
 
 ### README.md
 Followed every relative link in:
@@ -41,7 +43,7 @@ Followed every relative link in:
 - TOC is a 12-row anchor table. Anchor slugs follow GitHub auto-slug convention (lowercase, hyphens, Cyrillic preserved). Spot-checked 5 anchors (`#00-…`, `#5-sport-model-craft--5-корабль-sport-model`, `#11-misattributions…`, `#12-conclusions--выводы`) — all appear as actual headings in the doc.
 - Section numbering (§1–§12) **strictly sequential**. §1.1–§1.7, §2.1–§2.7, §3.1–§3.7, §4.1–§4.9, §5.1–§5.6, §6.1–§6.14, §7.1–§7.5, §8.1–§8.16, §9.1–§9.12, §10.1–§10.20 (with inserted §10.15a/b/c, §10.20a/b — flagged as intentional extensions), §11.1–§11.11, §12.1–§12.3. **No gaps** beyond those explicitly marked.
 
-### Per-interview, topical, catalog navigation blocks
+### Per-interview, topical, catalog navigation blocks / Блоки навигации per-interview, topical, catalog
 - `analysis/per-interview/1989-1991_per_interview.md` nav bar resolves ✅
 - `analysis/topical/1989-1991_topical.md` nav bar resolves ✅
 - `catalog/interviews.md` nav bar resolves ✅
@@ -51,7 +53,7 @@ Followed every relative link in:
 
 ---
 
-## 3. Bilingual coverage audit
+## 3. Bilingual coverage audit / 3. Аудит двуязычного покрытия
 
 Cyrillic character counts (substantive content files):
 
@@ -80,30 +82,30 @@ Verbatim Lazar English quotes retained as English throughout — correct per ASR
 
 ---
 
-## 4. Diagram validation
+## 4. Diagram validation / 4. Валидация диаграмм
 
-### Source files
+### Source files / Исходные файлы
 - 6 `.mmd` Mermaid sources — all have matching PNG in `diagrams/rendered/` ✅
 - 6 `.svg` vector diagrams — no PNG companion needed (raster-friendly by nature)
 - **Total: 12 diagrams** — matches README claim
 
-### PNG legibility (read as images)
+### PNG legibility (read as images) / Читаемость PNG (при просмотре как изображений)
 - `timeline_of_appearances.png` (164 KB): legible, bilingual header, 5 era bands color-coded, 24 source markers placed, event annotations readable ✅
 - `reactor_flow.png` (204 KB): clean flowchart, bilingual node labels, numerical sidebars (7.46 Hz, 1 μm, 223 g) present and legible ✅
 
-### SVG validation
+### SVG validation / Валидация SVG
 - All 6 SVGs start with valid `<?xml ... ?>` or `<svg …>` declarations ✅
 - Bilingual labels present in `emitter_structure.svg` sample ("Gravity Amplifier Emitter / Эмиттер…") ✅
 - `source_credibility_matrix.svg` has proper `<title>`/`<desc>` accessibility blocks ✅
 
-### Cross-referencing
+### Cross-referencing / Перекрёстные ссылки
 - Every one of the 12 diagrams is referenced in ≥2 `.md` files (2 to 5 refs each). No orphaned diagrams.
 
 **Verdict: PASS**
 
 ---
 
-## 5. Content quality — MASTER file deep-dive
+## 5. Content quality — MASTER file deep-dive / 5. Качество контента — глубокий разбор MASTER-файла
 
 | Check | Expected | Actual | Result |
 |-------|----------|--------|--------|
@@ -120,7 +122,7 @@ Verbatim Lazar English quotes retained as English throughout — correct per ASR
 
 ---
 
-## 6. Source code conventions
+## 6. Source code conventions / 6. Соглашения о кодах источников
 
 All 25 codes from the source-code key are actively used across `analysis/` + `catalog/` + `README.md`. Usage ranges from 2 citations (rarely-cited like C2C-18, Rachel-93b, KLAS30-P6) up to 290 citations (LT-91).
 
@@ -130,7 +132,7 @@ All 25 codes from the source-code key are actively used across `analysis/` + `ca
 
 ---
 
-## 7. ASRP v2.1 compliance
+## 7. ASRP v2.1 compliance / 7. Соответствие ASRP v2.1
 
 | Criterion | Parent repo pattern | Archive pattern | Compliance |
 |-----------|---------------------|-----------------|------------|
@@ -145,7 +147,7 @@ All 25 codes from the source-code key are actively used across `analysis/` + `ca
 
 ---
 
-## 8. Commit & git hygiene
+## 8. Commit & git hygiene / 8. Гигиена коммитов и git
 
 ```
 0c9f1bc 2026-04-15 feat(lazar): batch 4 — navigation, polish, CHANGELOG
@@ -165,7 +167,7 @@ d2c762d 2026-04-14 add: S4 documentary (Vendittelli 2026) transcript + analysis
 
 ---
 
-## 9. Content honesty / hallucination spot-check
+## 9. Content honesty / hallucination spot-check / 9. Честность контента — выборочная проверка на галлюцинации
 
 15-quote sample, each checked against cited transcript with ±30 s timestamp tolerance.
 
@@ -193,7 +195,7 @@ d2c762d 2026-04-14 add: S4 documentary (Vendittelli 2026) transcript + analysis
 
 ---
 
-## 10. External-facing polish (defense-contractor POV)
+## 10. External-facing polish (defense-contractor POV) / 10. Внешняя шлифовка (взгляд оборонного подрядчика)
 
 | Question | Answer |
 |----------|--------|
@@ -210,7 +212,7 @@ d2c762d 2026-04-14 add: S4 documentary (Vendittelli 2026) transcript + analysis
 
 ## OVERALL VERDICT / ОБЩИЙ ВЕРДИКТ
 
-# **SHIP READY** ✅
+# **SHIP READY** / **ГОТОВ К РЕЛИЗУ** ✅
 
 Quality bar substantially higher than typical open-source research archives. Every check passed; only one cosmetic normalization recommended.
 
@@ -218,7 +220,7 @@ Quality bar substantially higher than typical open-source research archives. Eve
 
 ## Prioritized fix list / Список правок (по приоритету)
 
-### P3 — Cosmetic (ship-blocking: no)
+### P3 — Cosmetic (ship-blocking: no) / P3 — Косметические (не блокируют релиз)
 1. **Normalize source-code hyphenation in MASTER §0 source-code block.** Currently says `C2C18`, `LK19`, `KLAS5`, `KLAS6`; rest of the archive uses `C2C-18`, `LK-19`, `KLAS30-P5`, `KLAS30-P6`. Single-file edit: `analysis/MASTER_technical_claims.md` lines 55–62.
 
 No P0, P1, or P2 issues identified.

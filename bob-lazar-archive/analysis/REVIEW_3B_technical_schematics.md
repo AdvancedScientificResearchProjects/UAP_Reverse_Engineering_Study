@@ -1,12 +1,14 @@
-# REVIEW 3B — Technical Schematics
+# REVIEW 3B — Technical Schematics / РЕВЬЮ 3B — Технические схемы
 
 **Scope:** 3 SVGs + 1 Mermaid (`.mmd` + rendered `.png`) produced by Agent 3B.
 **Reviewer:** Review Agent · ASRP v2.1
 **Verdict:** **PASS WITH MINOR FIXES**
 
+**RU — Сводка / Summary (RU):** Проверка 4 технических схем от агента 3B: три SVG (`sport_model_cutaway.svg`, `sport_model_top_view.svg`, `emitter_structure.svg`) плюс Mermaid-диаграмма `element_115_machining.{mmd,png}`. Все файлы присутствуют и корректно расположены. SVG валидны (`xmllint --noout` — exit 0), содержат `<?xml?>` пролог, namespace, viewBox, явные width/height, заголовочную полосу EN/RU, подпись источника, class-систему, отсутствуют внешние ссылки. Содержание соответствует MASTER §0.0, §1.3–§1.4, §5.2, §5.5, §5.6, §10.20b: в cutaway присутствуют 52'9" диаметр, 16' высота, 3 гравитационных усилителя, 3 эмиттера, 3 сиденья, 3 арки, волновод, реактор с 223 г топлива, перевёрнутый флаг (правый борт); в top view — 3 арки под 120°, перевёрнутый флаг с правой стороны, центральный волновод, метки PORT/STARBOARD/FORWARD/AFT, посадочные площадки; в emitter — трубчатое основание 3", медные пластины (цвет `#7a5a3a`), оловянная серая трубка (pewter gray), 20° поворот активирует реактор; в machining.mmd — 7+ стадий от сырого стока до вставки в реактор, боковой узел LA-1000 легенды. Двуязычная разметка везде. Мелкие замечания: пересечение метки «amplifier ring» с центральным кругом в top view, PNG-путь `diagrams/rendered/` вместо `diagrams/`. Итог: **PASS с мелкими правками**.
+
 ---
 
-## 1. File Inventory
+## 1. File Inventory / 1. Инвентаризация файлов
 
 | File | Size | Present | Notes |
 |------|------|---------|-------|
@@ -16,7 +18,7 @@
 | `diagrams/element_115_machining.mmd` | 2.9 KB | yes | matches brief |
 | `diagrams/rendered/element_115_machining.png` | 400 KB | yes | present at `rendered/` subdir (not `diagrams/` root — reviewer note only; acceptable because all other PNGs live here too) |
 
-## 2. SVG Validity
+## 2. SVG Validity / 2. Валидность SVG
 
 All three SVGs **pass `xmllint --noout`** (exit 0 — well-formed XML).
 
@@ -30,7 +32,7 @@ All three carry:
 
 No malformed tags, no broken internal refs.
 
-## 3. Content Accuracy vs MASTER_technical_claims.md
+## 3. Content Accuracy vs MASTER_technical_claims.md / 3. Точность содержания относительно MASTER_technical_claims.md
 
 ### 3.1 `sport_model_cutaway.svg`
 
@@ -92,7 +94,7 @@ Read the rendered PNG as image. Visible steps, top-to-bottom:
 
 That is **more than the 7 steps** the brief asked for (brief listed 7 conceptual stages; actual graph contains 7 linear process nodes + 1 cover-story side-node + 1 reactor-insertion terminal node — all correct relative to MASTER §1.3–§1.4). Bilingual throughout (EN + italic RU per node). `classDef` palette is black/white/grey only — strict ASRP compliance. Source comment at bottom cites Rachel-93, BL18, S4DOC-26, BG-89, LT-91, LK19, JRE2479.
 
-## 4. ASRP Style Compliance
+## 4. ASRP Style Compliance / 4. Соответствие стилю ASRP
 
 | Criterion | SVG cutaway | SVG top | SVG emitter | MMD machining |
 |---|---|---|---|---|
@@ -102,7 +104,7 @@ That is **more than the 7 steps** the brief asked for (brief listed 7 conceptual
 | Attribution footer | ✅ | ✅ | ✅ | ✅ (comment lines cite sources + ASRP v2.1) |
 | Bilingual EN/RU | ✅ | ✅ | ✅ | ✅ |
 
-## 5. Cross-Ref to MASTER §0.0 + §5
+## 5. Cross-Ref to MASTER §0.0 + §5 / 5. Сверка с MASTER §0.0 + §5
 
 - §0.0 top-claims: Sport Model 52'9" × 16'; 3 amplifiers; 223 g fuel; reversed flag on starboard — **all four appear in the cutaway**.
 - §5.2 dimensions: 52'9" CGI-assisted — cited on both sport-model SVGs.
@@ -110,7 +112,7 @@ That is **more than the 7 steps** the brief asked for (brief listed 7 conceptual
 - §5.6 reversed flag (2026 split): starboard convention correctly depicted; JRE2479 + S4DOC-26 attribution present in footer.
 - §1.3–§1.4 machining: all stages and numerics present in MMD.
 
-## 6. Findings
+## 6. Findings / 6. Находки
 
 **Strengths:**
 - All four files valid and complete.
@@ -126,7 +128,7 @@ That is **more than the 7 steps** the brief asked for (brief listed 7 conceptual
 
 **No hard defects. No fabricated content. No unsourced numerics.**
 
-## 7. Verdict
+## 7. Verdict / 7. Вердикт
 
 **PASS WITH MINOR FIXES** — deployable as-is. Recommended cosmetic fix: move the "amplifier ring" label in `sport_model_top_view.svg` to a less crowded location (e.g. `x=330 y=420`). All other items are not defects.
 

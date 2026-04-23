@@ -12,42 +12,59 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 ## 1. Device architecture (generations, shells, dimensions, emitters)
 
 - **Installation count: 9 (as of MV-41), plus "more than 10 models" in MV-ALT**
-  - `MV-41 [00:38:15]`: «мы сделали первые пока девять установок, которые называются машинами времени... установки для искривления торможения времени»
-  - `MV-ALT [01:28:49]`: «таких моделей было много более десятка... некоторые были доведены до серии экспериментов, некоторые не дошли»
-  - `MV-ALT [01:32:34]`: «седьмой лавандатор» — 7 generations of the Lovondatr core line confirmed
+  - `MV-41 [00:38:15]` RU: «мы сделали первые пока девять установок, которые называются машинами времени... установки для искривления торможения времени»
+  - EN: "We have built the first nine installations so far, called time machines... installations for curving/slowing time."
+  - `MV-ALT [01:28:49]` RU: «таких моделей было много более десятка... некоторые были доведены до серии экспериментов, некоторые не дошли»
+  - EN: "There were many such models — more than a dozen... some were brought to a series of experiments, some didn't make it."
+  - `MV-ALT [01:32:34]` RU: «седьмой лавандатор» — 7 generations of the Lovondatr core line confirmed
+  - EN: "The seventh lovondatr"
 - **Largest installation: 4.5 metres**
-  - `MV-ALT [01:41:58]`: «самая большая на сегодняшний момент машина времени размером четыре с половиной метра»
+  - `MV-ALT [01:41:58]` RU: «самая большая на сегодняшний момент машина времени размером четыре с половиной метра»
+  - EN: "The largest time machine at the present moment, 4.5 metres in size."
 - **Shell count: up to 5, typical 2–4**
-  - `MV-ALT [01:44:59]`: «Максимально пока мы использовали пятиоболочные машины. Но в основном... эксперименты крутятся две, три, четыре оболочечные машины»
+  - `MV-ALT [01:44:59]` RU: «Максимально пока мы использовали пятиоболочные машины. Но в основном... эксперименты крутятся две, три, четыре оболочечные машины»
+  - EN: "Maximum so far we've used five-shell machines. But most experiments revolve around two-, three-, four-shell machines."
 - **Nested-sphere ("matryoshka") geometry — interim, to be replaced by single shell once nano-tech available**
-  - `MV-41 [00:28:06]`: «несколько сфер, каждый внутри другой... метод матрешки»
+  - `MV-41 [00:28:06]` RU: «несколько сфер, каждый внутри другой... метод матрешки»
+  - EN: "Several spheres, each inside the other... the matryoshka method."
   - `MV-41 [00:28:44]` / `MV-ALT [01:38:15]`: single-shell nanotech replacement anticipated
 - **Dodecahedral layout of emitters (one variant)**
-  - `MV-ALT [01:43:04]`: «один тип установок мы делали на основе додекаэдра... все доидеикраидальные установки» — compared to ancient Roman dodecahedra
+  - `MV-ALT [01:43:04]` RU: «один тип установок мы делали на основе додекаэдра... все доидеикраидальные установки» — compared to ancient Roman dodecahedra
+  - EN: "One type of installation we built on the basis of the dodecahedron... all the dodecahedral installations." — compared to ancient Roman dodecahedra.
 - **Emitters: solenoids on spherical surfaces**
-  - `MV-ALT [01:25:00]`: «расположение излучателей электромагнитных соленоидов на сферических поверхностях»
+  - `MV-ALT [01:25:00]` RU: «расположение излучателей электромагнитных соленоидов на сферических поверхностях»
+  - EN: "Placement of emitters — electromagnetic solenoids — on spherical surfaces."
 - **Protective suit of metallised cloth** (`MV-ALT [01:29:32]`) — still in working condition, slightly shrunk from high temperature.
 - **Tesla coil visible in experimental rig** (`MV-ALT [02:09:06]`).
-- **Axis table of devices**: horizontal = years 80s/90s/late-2000s; vertical = shell count (`MV-ALT [01:44:40]`). «после 91 года 2001 2011 на этом я надеюсь наш технологический рост не остановится и когда-нибудь будет 21 31 41» — expected to continue 2021/2031/2041.
+- **Axis table of devices**: horizontal = years 80s/90s/late-2000s; vertical = shell count (`MV-ALT [01:44:40]`).
+  - RU: «после 91 года 2001 2011 на этом я надеюсь наш технологический рост не остановится и когда-нибудь будет 21 31 41»
+  - EN: "After '91, 2001, 2011 — I hope our technological growth will not stop there, and someday there will be '21, '31, '41." Expected to continue 2021/2031/2041.
 
 ---
 
 ## 2. Operating principle (frequency, field geometry, wave type)
 
 - **Converging EM waves on a spherical surface** — fundamental principle.
-  - `MV-41 [00:25:00]`: «сферические поверхности, на которых находятся электромагниты... создают вдоль всей поверхности сферы сходящиеся электромагнитные волны»
-  - `MV-ALT [01:14:49]`: «сходящиеся электромагнитные поля и, как следствие... квазимонополь»
+  - `MV-41 [00:25:00]` RU: «сферические поверхности, на которых находятся электромагниты... создают вдоль всей поверхности сферы сходящиеся электромагнитные волны»
+  - EN: "Spherical surfaces on which the electromagnets are placed... produce, along the entire surface of the sphere, converging electromagnetic waves."
+  - `MV-ALT [01:14:49]` RU: «сходящиеся электромагнитные поля и, как следствие... квазимонополь»
+  - EN: "Converging electromagnetic fields and, as a consequence, a quasi-monopole."
 - **Pulsed / phased-synchronous emission** — wave 2 launched when wave 1 reaches centre.
-  - `MV-ALT [01:21:41]`: «подпускать эти волны пульсирующими... если сделать излучение пульсирующим... как только волна номер один доходит до центра... мы пускаем волну номер два номер три»
+  - `MV-ALT [01:21:41]` RU: «подпускать эти волны пульсирующими... если сделать излучение пульсирующим... как только волна номер один доходит до центра... мы пускаем волну номер два номер три»
+  - EN: "Launch these waves in pulses... if the emission is pulsed, then as soon as wave number one reaches the centre we release wave number two, number three."
 - **All-simultaneous ring excitation** (the "hoop dropped flat onto water" analogy) is the cleaner alternative to sequential switching.
-  - `MV-ALT [01:23:35]`: «если эти все излучатели, находящиеся на окружности, будут работать синхронно, то создаваемая ими суперпозиция полей... будет представлять из себя 2 фронта волны — один нормальный... расходящиеся во все стороны, и 2 ненормальные... движущиеся против скорости»
+  - `MV-ALT [01:23:35]` RU: «если эти все излучатели, находящиеся на окружности, будут работать синхронно, то создаваемая ими суперпозиция полей... будет представлять из себя 2 фронта волны — один нормальный... расходящиеся во все стороны, и 2 ненормальные... движущиеся против скорости»
+  - EN: "If all these emitters arranged on a circle work synchronously, the superposition of fields they create will represent two wave fronts — one normal, diverging in all directions, and an abnormal one, moving against the [wave] velocity."
 - **Rotation speed of EM fields: arbitrary (even >c), because it's a field, not mass**.
-  - `MV-ALT [01:13:30]`: «вращать электромагнитные поля можно с любыми скоростями, в том числе и со сверхсветовыми... здесь нет никакого парадокса, потому что мы вращаем не физическое тело»
+  - `MV-ALT [01:13:30]` RU: «вращать электромагнитные поля можно с любыми скоростями, в том числе и со сверхсветовыми... здесь нет никакого парадокса, потому что мы вращаем не физическое тело»
+  - EN: "Electromagnetic fields can be rotated at any speed, including faster-than-light... there's no paradox here, because we are not rotating a physical body."
 - **Quasi-monopole generation as the aimed endpoint**.
   - `MV-ALT [01:14:49]`
 - **Speed/inertia rejection of rotating-flywheel method**.
-  - `MV-41 [00:17:48]`: «раскрутить его тяжело... превращается в шарапнельную бомбу»
-  - `MV-ALT [01:11:20]`: «скорости... настолько чудовищно большие... прочность материалов... у нас на земле таких материалов просто нет»
+  - `MV-41 [00:17:48]` RU: «раскрутить его тяжело... превращается в шарапнельную бомбу»
+  - EN: "Spinning it up is hard... it turns into a shrapnel bomb."
+  - `MV-ALT [01:11:20]` RU: «скорости... настолько чудовищно большие... прочность материалов... у нас на земле таких материалов просто нет»
+  - EN: "The speeds required are so monstrously high... the material strength required — we simply don't have such materials on Earth."
 - **No explicit frequency (Hz) or field-strength (T) values given in any of the three transcripts.** These numbers exist in the longer lectures (01/02) but are CUT from both the 41-min TV condensation (MV-41) and the 1h46 alt (MV-ALT). MV-ALT is closer to a slide-driven lecture without numeric disclosure.
 
 ---
@@ -55,15 +72,18 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 ## 3. Measurement methodology
 
 - **Chronometers + duplicated quartz generators on the human body**.
-  - `MV-ALT [00:33:50]`: «с помощью хронометров, с помощью дублированных кварцевых генераторов, наложенных на тело человека, измерять скорость физического времени»
+  - `MV-ALT [00:33:50]` RU: «с помощью хронометров, с помощью дублированных кварцевых генераторов, наложенных на тело человека, измерять скорость физического времени»
+  - EN: "Using chronometers, using duplicated quartz oscillators placed on the human body, to measure the rate of physical time."
 - **Two experimental platforms**:
   1. Institute of Aviation and Space Medicine centrifuge, up to **9G**.
   2. Gorky Park bungee platform with sensors attached to the jumping subject.
   - `MV-ALT [00:42:05]`
-- **Interchangeable terms**: «скорость физического времени» ≡ «плотность времени» (MV-ALT [00:41:26]).
+- **Interchangeable terms**: «скорость физического времени» / "rate of physical time" ≡ «плотность времени» / "density of time" (MV-ALT [00:41:26]).
 - **UFO-landing site measurements**: chronometer-based, at visible outline boundaries.
-  - `MV-41 [00:14:38]`: «остаточные следы в виде заторможенного времени, это можно померить хронометрами»
-  - `MV-ALT [00:58:47]`: «на границе видимого очертания... резкое замедление времени»
+  - `MV-41 [00:14:38]` RU: «остаточные следы в виде заторможенного времени, это можно померить хронометрами»
+  - EN: "Residual traces in the form of slowed time — this can be measured with chronometers."
+  - `MV-ALT [00:58:47]` RU: «на границе видимого очертания... резкое замедление времени»
+  - EN: "At the boundary of the visible outline... a sharp slowing of time."
 - **~30 (max 50) alleged UFO-landing sites measured over ~30 years** (`MV-ALT [00:57:06]`).
 - **Scientific-purity caveat**: subjects could not be genuinely frightened (they had to sign consent), so "stress" was not fully mortal (`MV-ALT [00:43:30]`). 4-mode typology of stress-time response found (`MV-ALT [00:46:56]`).
 
@@ -113,7 +133,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 ## 5. Theory (Bartini 6D, Kozyrev, Einstein)
 
 - **Kozyrev framework**: 7 methods to act on time (partially experimentally confirmed).
-  - `MV-ALT [00:09:00]`
+  - `MV-ALT [00:09:00]` — Kozyrev's seven ways of acting on time, partially experimentally confirmed.
 - **Methods checklist given in MV-41**: speed (relativistic), gravity, large-mass rotation (flywheel), small-rotation (spinning top), chemical reactions including crystallisation/de-crystallisation, Kozyrev mirrors, electromagnetic fields (7th and chosen method).
   - `MV-41 [00:16:41]–[00:24:00]`
 - **Einstein twin-paradox** covered as "one-way to the future" method, acknowledged but rejected as impractical for round-trip.
@@ -128,7 +148,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ## 6. Experimental history
 
-- **Origin in late 1980s**. `MV-41 [00:24:46]`: «с конца 80-х годов было сделано несколько установок».
+- **Origin in late 1980s**. `MV-41 [00:24:46]` RU: «с конца 80-х годов было сделано несколько установок». EN: "Since the late 1980s several installations have been built."
 - **MAI (Moscow Aviation Institute)** origin: government-funded UFO-flight-principle study.
   - `MV-41 [00:11:08]`
 - **1989 first Kozyrev-mirror experiments** (distinct line). `MV-41 [00:18:30]`
@@ -147,8 +167,11 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 ## 7. Safety incidents
 
 - **All mice in first two cohorts (40 total) died before parameters found**.
-  - `MV-ALT [01:36:03]`: «все мыши погибали, к сожалению»
-- **Concern "may there be an absolute prohibition on time travel"** — explicit crisis ≈ 2000 (`MV-ALT [01:34:46]`): «были сомнения... может быть, никогда никому не суждено вообще перемещаться во времени, поскольку существует некий запрет, тут все погибают и все».
+  - `MV-ALT [01:36:03]` RU: «все мыши погибали, к сожалению»
+  - EN: "All the mice died, unfortunately."
+- **Concern "may there be an absolute prohibition on time travel"** — explicit crisis ≈ 2000.
+  - `MV-ALT [01:34:46]` RU: «были сомнения... может быть, никогда никому не суждено вообще перемещаться во времени, поскольку существует некий запрет, тут все погибают и все».
+  - EN: "There were doubts — perhaps no one is ever fated to travel through time, because there exists some prohibition: here everybody dies and that's it."
 - **Human trial: "unpleasant sensation"** but no injuries. All participants alive 13 years later (`MV-ALT [01:37:22]`).
 - **Flywheel/inertial time-machine** described as shrapnel-bomb hazard (`MV-41 [00:17:48]`).
 
@@ -157,7 +180,8 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 ## 8. UAP / crop circles / UFO-landing cross-references
 
 - **UFOs as potential time-travellers from our own future**: explicit hypothesis.
-  - `MV-41 [00:13:01]`: «часть техногенных НЛО это, безусловно, машины времени»
+  - `MV-41 [00:13:01]` RU: «часть техногенных НЛО это, безусловно, машины времени»
+  - EN: "A part of the techno-genic UFOs are undoubtedly time machines."
   - `MV-41 [00:13:40]`: "butterfly-effect" explains their avoidance of contact.
 - **Three-star-formation UFOs** as empirical instance of multi-installation 4D-pilotable designs.
   - `MV-ALT [01:27:54]`

@@ -1,12 +1,14 @@
-# Agent 2B Review — Per-Interview & Topical Bilingual Translation Verification
+# Agent 2B Review — Per-Interview & Topical Bilingual Translation Verification / Ревью агента 2B — верификация двуязычного перевода per-interview и topical файлов
 
 **Scope:** 12 files (6 per-interview + 6 topical) translated from EN-only to bilingual EN/RU side-by-side per ASRP v2.1.
 **Concern:** Prior 2B run hit an API 500 mid-way; verify completeness.
 **Method:** Read-only inspection — Cyrillic distribution (first vs second half), bilingual heading density, quote preservation (English italics + source codes + timestamps), bilingual analysis prose, source-code spot-checks.
 
+**RU — Сводка / Summary (RU):** Проверка полноты двуязычного перевода 12 файлов (6 per-interview + 6 topical), выполненного параллельно после прерывания предыдущего прогона ошибкой API 500. Цель — убедиться, что ни один файл не остался переведённым только наполовину. Метод только для чтения: распределение кириллицы по половинам файла, плотность двуязычных заголовков, сохранение цитат (английский курсив + коды источников + таймкоды), двуязычная аналитическая проза, выборочные коды источников. Результат: **60/60 проверок PASS**, ни один файл не требует перезапуска. Дополнительно проинспектирован флагнутый файл `2016-2018_docs_per_interview.md` (низкий счётчик кириллицы — объясняется тем, что файл короткий и содержит много англоязычных цитат из расшифровок полиграфа и пассажей Кнаппа/Корбелла, корректно сохранённых курсивом согласно спецификации). Нижняя граница кириллицы 49 строк в каждой половине — признаки усечения отсутствуют. Итог: **PASS** — 12/12 файлов полные, двуязычные, соответствуют ASRP v2.1 side-by-side.
+
 ---
 
-## Per-File Pass/Fail Table
+## Per-File Pass/Fail Table / Таблица PASS/FAIL по файлам
 
 | # | File | A. Cyrillic both halves | B. Headings EN/RU | C. Quotes EN italics + codes/ts | D. Analysis prose bilingual | E. Source codes intact | Verdict |
 |---|------|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -27,12 +29,12 @@
 
 ---
 
-## Detailed Notes per Concern
+## Detailed Notes per Concern / Подробные заметки по опасениям
 
-### Cyrillic distribution
+### Cyrillic distribution / Распределение кириллицы
 No file exhibits the "first-half-only" failure pattern that would indicate a mid-stream API 500 cut. Second-half Cyrillic is equal to or greater than first-half in 9 of 12 files; the 3 with slightly more Cyrillic in the first half (1992-1996 per-interview, 1997-2009 per-interview, 2026_s4_doc per-interview) still have heavy Cyrillic presence in their second halves (49, 66, 104 Cyrillic-bearing lines respectively) — consistent with variable paragraph density, not truncation.
 
-### Flagged file: `2016-2018_docs_per_interview.md` (79 Cyrillic lines)
+### Flagged file: `2016-2018_docs_per_interview.md` (79 Cyrillic lines) / Флагнутый файл: `2016-2018_docs_per_interview.md` (79 кириллических строк)
 Inspected in detail. The low Cyrillic line count is an artifact of the source: the file is the shortest (157 lines) and contains long English-only transcript quotes (polygraph audio, Knapp/Corbell passages) that are correctly preserved as EN italics per spec. Measured density:
 - 69 italic quote lines preserved with timestamps.
 - 75 lines containing the ` / ` bilingual separator.
@@ -43,26 +45,26 @@ Inspected in detail. The low Cyrillic line count is an artifact of the source: t
 
 Verdict on flagged file: **complete, not thin**.
 
-### Heading bilingual
+### Heading bilingual / Двуязычные заголовки
 All 12 files use EN `—`/` ` RU heading pattern consistently. Heading counts with `/` separator range 22–96 per file.
 
-### Quote preservation
+### Quote preservation / Сохранение цитат
 All sampled quotes retained as `*"..."*` English italics, accompanied by `[hh:mm:ss]`/`[mm:ss–mm:ss]` timestamps and source tags (KLAS, C2C, JRE, Rogan, Corbell, file-number refs). No quotes translated into Russian; only adjacent analytical prose translated, per spec.
 
-### Analysis prose bilingual
+### Analysis prose bilingual / Двуязычная аналитическая проза
 Samples across all files show the EN sentence immediately followed by ` / ` + RU rendering, at both list-item and paragraph level. Cross-interview summaries, "Contradictions", "Items absent", and "Flag" blocks all bilingual through the tail.
 
-### Source codes intact
+### Source codes intact / Коды источников сохранены
 All probed canonical codes (MAJ-12, SR-71, NC-101, JRE1315, JRE2479, LA-1000, LT-91, BG-89, KLAS-89) present and unaltered. Files from the 1992–96 / 1997–2009 windows rely on year-based tagging (92, 97, 03, 09) which is the native convention for those source transcripts and remains intact.
 
 ---
 
-## Files Needing Re-Translation
+## Files Needing Re-Translation / Файлы, требующие повторного перевода
 
 None.
 
 ---
 
-## Overall Verdict
+## Overall Verdict / Общий вердикт
 
 **PASS** — all 12 files are complete, bilingual, and conform to ASRP v2.1 side-by-side standard. No evidence of the API 500 interruption leaving a file half-translated. No re-runs required.
