@@ -12,9 +12,9 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 
 ## 🇷🇺 + 🇺🇸 KEY FINDING — Russia + USA equal-partner discovery / КЛЮЧЕВОЙ ВЫВОД — Россия + США как равноправные партнёры открытия
 
-**EN:** Element 115 (Moscovium) was **not** synthesized by Russia alone. It was the product of a **joint peer-reviewed experiment by JINR Dubna + Lawrence Livermore National Laboratory (LLNL, USA)** — published in **Physical Review C 69, 021601(R)** on 2 February 2004, with co-authorship from both institutions. The USA's role was **not** secondary: LLNL supplied the critical ²⁴³Am target, participated in decay-chain analysis and radiochemical identification, and was listed as equal co-author on the priority publication. Without the American americium-243 target, the reaction was not possible.
+**EN:** Element 115 (Moscovium) was **not** synthesized by Russia alone. It was the product of a **joint peer-reviewed experiment by JINR Dubna + Lawrence Livermore National Laboratory (LLNL, USA)** — published in **Physical Review C 69, 021601(R)** on 2 February 2004, with co-authorship from both institutions. The USA's role was **not** secondary: LLNL supplied the critical ²⁴³Am target, participated in decay-chain analysis and radiochemical identification, and was listed as equal co-author on the priority publication. The specific ²⁴³Am(⁴⁸Ca, xn) reaction required americium-243, which at the time was practically available only from DOE reactor-processing stockpiles stewarded by LLNL.
 
-**RU:** Элемент 115 (Московий) был синтезирован **не Россией в одиночку**. Это результат **совместного рецензируемого эксперимента ОИЯИ Дубна + Lawrence Livermore National Laboratory (LLNL, США)** — опубликованного в **Physical Review C 69, 021601(R)** 2 февраля 2004 г., с соавторством от обоих учреждений. Роль США **не** была второстепенной: LLNL поставила критически важную мишень ²⁴³Am, участвовала в анализе цепочки распада и в радиохимической идентификации, и значится как равноправный соавтор в приоритетной публикации. Без американской мишени америций-243 реакция была невозможна.
+**RU:** Элемент 115 (Московий) был синтезирован **не Россией в одиночку**. Это результат **совместного рецензируемого эксперимента ОИЯИ Дубна + Lawrence Livermore National Laboratory (LLNL, США)** — опубликованного в **Physical Review C 69, 021601(R)** 2 февраля 2004 г., с соавторством от обоих учреждений. Роль США **не** была второстепенной: LLNL поставила критически важную мишень ²⁴³Am, участвовала в анализе цепочки распада и в радиохимической идентификации, и значится как равноправный соавтор в приоритетной публикации. Конкретная реакция ²⁴³Am(⁴⁸Ca, xn) требовала америция-243, который на тот момент был практически доступен только из запасов переработки реакторов DOE, курируемых LLNL.
 
 ### Role split / Разделение ролей
 
@@ -37,9 +37,9 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 
 ## 🕵 Detective board / Детективная доска
 
-**EN:** Summary visual of every actor, place, claim, and piece of evidence in the 115-element story. Red-dashed lines are Lazar's claims falling against documented reality. Blue heavy lines are the Russia–USA joint experimental chain. Green heavy lines are the independent confirmation path via GSI Darmstadt + Lund.
+**EN:** Summary visual of every actor, place, claim, and piece of evidence in the 115-element story. Red-dashed lines mark Lazar's claims falling against documented reality. Blue heavy lines mark the Russia–USA joint experimental chain (Am-243 target → cyclotron → PRC 2004 co-authorship). The green heavy line marks the institutional confirmation (PRC 2004 → Moscovium).
 
-**RU:** Обзорная визуальная схема всех фигурантов, мест, заявлений и улик в истории 115-го элемента. Красные пунктирные линии — заявления Лазара, расходящиеся с задокументированной реальностью. Синие жирные линии — совместная экспериментальная цепочка Россия–США. Зелёные жирные линии — путь независимого подтверждения через GSI Дармштадт + Лунд.
+**RU:** Обзорная визуальная схема всех фигурантов, мест, заявлений и улик в истории 115-го элемента. Красные пунктирные линии — заявления Лазара, расходящиеся с задокументированной реальностью. Синие жирные линии — совместная экспериментальная цепочка Россия–США (мишень Am-243 → циклотрон → соавторство PRC 2004). Зелёная жирная линия — институциональное подтверждение (PRC 2004 → Московий).
 
 ![Detective board / Детективная доска](diagrams/rendered/detective_board.png)
 
@@ -113,7 +113,7 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 |------------------|----------------------|-------------|-----------------|
 | Master Claims / Мастер-таблица | Every technical claim made in the interview, timestamped / Каждое техническое утверждение из интервью, с таймкодом | [`analysis/MASTER_claims.md`](analysis/MASTER_claims.md) | ✅ Available / Доступно |
 | JINR History & Members / ОИЯИ — история и члены | Fact-checked list of member states, founding, 115 discovery timeline / Проверенный список стран-членов, основание, хронология открытия 115 | [`analysis/jinr-facts-and-history.md`](analysis/jinr-facts-and-history.md) | ✅ Available / Доступно |
-| Lazar ↔ Dubna ↔ LLNL / Лазар ↔ Дубна ↔ LLNL | 1989 Lazar claim → 2003 Dubna + LLNL discovery (Nature 2004) / Заявление Лазара 1989 → открытие Дубна + LLNL 2003 (Nature 2004) | [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) | ✅ Available / Доступно |
+| Lazar ↔ Dubna ↔ LLNL / Лазар ↔ Дубна ↔ LLNL | 1989 Lazar claim → 2003 Dubna + LLNL discovery (PRC 2004) / Заявление Лазара 1989 → открытие Дубна + LLNL 2003 (PRC 2004) | [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) | ✅ Available / Доступно |
 | Superheavy Factory / Фабрика сверхтяжёлых | Launched November 2020, 70 Mc atoms in 40 days, ~100 Fl atoms / Запущена ноябрь 2020, 70 атомов Mc за 40 дней, ~100 атомов Fl | [`analysis/superheavy-factory-2020.md`](analysis/superheavy-factory-2020.md) | ✅ Available / Доступно |
 | BN-800 / MOX Fuel / БН-800 / МОКС | Analogy between Lazar's 115 brick and MOX fuel cycle / Аналогия между «бруском 115» Лазара и топливным циклом МОКС | [`analysis/bn800-mox-analogy.md`](analysis/bn800-mox-analogy.md) | ✅ Available / Доступно |
 | Kazakhstan Geology & UAP / Геология Казахстана и UAP | Denis's hypothesis, fact-checked history of Soviet-era sighting hotspots / Гипотеза Дениса, проверенная история советских hot-spot-ов | [`analysis/kazakhstan-uap-geological.md`](analysis/kazakhstan-uap-geological.md) | ✅ Available / Доступно |
@@ -163,8 +163,8 @@ dubna-element-115-analysis/
 │   │                                        каждое техническое утверждение из интервью
 │   ├── jinr-facts-and-history.md          founding members, current membership, 115 timeline
 │   │                                        страны-основатели, текущие члены, хронология 115
-│   ├── lazar-dubna-connection.md          Lazar 1989 → Dubna+LLNL 2003 → Nature 2004
-│   │                                        Лазар 1989 → Дубна+LLNL 2003 → Nature 2004
+│   ├── lazar-dubna-connection.md          Lazar 1989 → Dubna+LLNL 2003 → PRC 2004
+│   │                                        Лазар 1989 → Дубна+LLNL 2003 → PRC 2004
 │   ├── superheavy-factory-2020.md         SHEF launch, throughput, applications
 │   │                                        запуск Фабрики, производительность, применения
 │   ├── bn800-mox-analogy.md               MOX fuel cycle ↔ Lazar's 115 brick
@@ -211,7 +211,7 @@ dubna-element-115-analysis/
 
 **EN:** This archive corrects and extends the informal framing of the interview with publicly verifiable facts:
 
-- **Element 115 synthesis (2003 / Nature 2004)** was a joint experiment of **JINR Dubna (Russia)** and **Lawrence Livermore National Laboratory (LLNL, USA)** — the USA was *not* a member of JINR, but LLNL was the direct American collaborator on the synthesis itself. This is the concrete Lazar-claim ↔ real-world link.
+- **Element 115 synthesis (2003 / Phys. Rev. C 2004)** was a joint experiment of **JINR Dubna (Russia)** and **Lawrence Livermore National Laboratory (LLNL, USA)** — the USA was *not* a member of JINR, but LLNL was the direct American collaborator on the synthesis itself. This is the concrete Lazar-claim ↔ real-world link.
 - **JINR membership** at the time of the 2003 synthesis included Kazakhstan, Ukraine, DPRK, and many others — but **not the USA** (which collaborated via LLNL) and **not Germany as a full member** (Germany is an associate member, alongside Italy, South Africa, Serbia). The interviewee's own 2021 phrasing "*representatives from 18 countries*" is the safe formulation for the state of the institute at the time of the recording; for the 2003 snapshot, see [`analysis/jinr-facts-and-history.md`](analysis/jinr-facts-and-history.md) §2.4.
 - **Superheavy Elements Factory** was launched **November 2020**; as stated in the interview, the first experiment produced roughly **70 atoms of moscovium (element 115) in 40 days** with interruptions, and the second experiment produced **~100 atoms of flerovium (element 114)**. Isotope lifetimes are on the order of 1 second.
 - **Post-synthesis industrial applications** named in the interview: radiation-resistant electronics for Roscosmos, medical radioisotopes, polymer track membranes (filters, burn dressings). These are spin-off technologies, not the moscovium itself.
@@ -219,7 +219,7 @@ dubna-element-115-analysis/
 
 **RU:** Этот архив корректирует и расширяет неформальное изложение интервью публично проверяемыми фактами:
 
-- **Синтез 115 элемента (2003 / Nature 2004)** был совместным экспериментом **ОИЯИ Дубна (Россия)** и **Ливерморской национальной лаборатории им. Лоуренса (LLNL, США)** — США *не были* членом ОИЯИ, но LLNL была прямым американским соавтором на самом синтезе. Это конкретная связка заявление-Лазара ↔ реальный мир.
+- **Синтез 115 элемента (2003 / Phys. Rev. C 2004)** был совместным экспериментом **ОИЯИ Дубна (Россия)** и **Ливерморской национальной лаборатории им. Лоуренса (LLNL, США)** — США *не были* членом ОИЯИ, но LLNL была прямым американским соавтором на самом синтезе. Это конкретная связка заявление-Лазара ↔ реальный мир.
 - **Членство в ОИЯИ** на момент синтеза 2003 года включало Казахстан, Украину, КНДР и многих других — но **не США** (которые сотрудничали через LLNL) и **не Германию как полноправного члена** (Германия — ассоциированный член наряду с Италией, ЮАР, Сербией). Формулировка самого интервьюируемого 2021 года — «*представители 18 стран*» — безопасна для состояния института на момент записи; срез на 2003 см. в [`analysis/jinr-facts-and-history.md`](analysis/jinr-facts-and-history.md) §2.4.
 - **Фабрика сверхтяжёлых элементов** запущена в **ноябре 2020 г.**; как сказано в интервью, первый эксперимент дал примерно **70 атомов московия (элемент 115) за 40 дней** с перерывами, второй эксперимент — **~100 атомов флеровия (элемент 114)**. Время жизни изотопов — порядка 1 секунды.
 - **Индустриальные побочные применения**, названные в интервью: радиационно-стойкая электроника для Роскосмоса, медицинские радиоизотопы, полимерные трек-мембраны (фильтры, ожоговые повязки). Это побочные технологии, не сам московий.
