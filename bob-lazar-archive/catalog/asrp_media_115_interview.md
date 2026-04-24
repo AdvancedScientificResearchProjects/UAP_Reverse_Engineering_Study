@@ -26,6 +26,8 @@ source_code: ASRP-MEDIA
 # ASRP Media interview on Dubna, Element 115, and the Lazar connection
 
 > **Navigation / Навигация:** [← README](../README.md) · [Master / Мастер](../analysis/MASTER_technical_claims.md) · [Per-Interview / По интервью](../analysis/per-interview/) · [Topical / Тематически](../analysis/topical/) · [Catalog / Каталог](../catalog/) · [Diagrams / Схемы](../diagrams/)
+>
+> **Cross-archive / Перекрёстный архив:** For the dedicated Dubna / Element 115 sub-archive with raw audio, fact-checked analysis, diagrams, and the full Lazar ↔ JINR+LLNL ↔ SHEF context, see [`../../dubna-element-115-analysis/`](../../dubna-element-115-analysis/). / Для отдельного подархива Дубна / Элемент 115 с сырым аудио, проверенным анализом, диаграммами и полным контекстом Лазар ↔ ОИЯИ+LLNL ↔ Фабрика — см. [`../../dubna-element-115-analysis/`](../../dubna-element-115-analysis/).
 
 
 ## Provenance

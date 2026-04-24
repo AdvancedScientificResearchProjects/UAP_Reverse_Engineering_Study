@@ -93,6 +93,7 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | [AI Protocol / Протокол ИИ](experiments/protocol_ai.md) | AI analysis pipeline protocol / Протокол конвейера ИИ-анализа | v3.1 |
 | [Bob Lazar Archive / Архив Боба Лазара](bob-lazar-archive/README.md) | Interview archive (1989–2026) / Архив интервью (1989–2026) | Available / Доступно |
 | [Vadim Chernobrov Archive / Архив Вадима Черноброва](chernobrov-archive/README.md) | Research archive (1988–2017) / Архив исследований (1988–2017) | Available / Доступно |
+| [Dubna / Element 115 Analysis / Анализ Дубна / Элемент 115](dubna-element-115-analysis/README.md) | ASRP.media interview with JINR representative + fact-checked analysis / Интервью ASRP.media с представителем ОИЯИ + проверенный анализ | Available / Доступно |
 
 ---
 
@@ -100,17 +101,19 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 
 ### ENGLISH
 
-Two independent historical research archives are included in this repository as supporting materials. Each archive stands alone and is not presented as a comparison or synthesis of the other.
+Three independent historical / institutional research archives are included in this repository as supporting materials. Each archive stands alone and is not presented as a comparison or synthesis of the others.
 
 - **[Bob Lazar Interview Archive (1989–2026)](bob-lazar-archive/README.md)** — Complete interview corpus of Robert Lazar's public statements on S-4, Element 115, and gravity propulsion. Includes 24 transcripts, per-interview and topical analysis, catalog by research period, and technical diagrams.
 - **[Vadim Chernobrov Research Archive (1988–2017)](chernobrov-archive/README.md)** — Research corpus of Vadim Chernobrov (Kosmopoisk) on time-machine experiments, gravitational anomalies, and anomalous zones. Includes transcripts, per-interview and topical analysis, catalog by research period, and selected books.
+- **[Dubna / Element 115 Analysis](dubna-element-115-analysis/README.md)** — ASRP.media interview with an anonymised high-ranking representative of the Joint Institute for Nuclear Research (JINR), recorded 28 September 2021 and published 9 December 2025. Includes raw audio transcript, verbatim EN/RU published text, master claims table, fact-checked JINR history, the Lazar ↔ Dubna ↔ LLNL collaboration line, Superheavy Elements Factory (2020) data, BN-800 / MOX analogy, Kazakhstan-geology hypothesis framing, and Soviet-era UAP-research context (SETKA-AN / SETKA-MO).
 
 ### РУССКИЙ
 
-В репозитории включены два независимых исторических исследовательских архива в качестве вспомогательных материалов. Каждый архив самостоятелен и не представлен как сравнение или синтез другого.
+В репозитории включены три независимых исторических / институциональных исследовательских архива в качестве вспомогательных материалов. Каждый архив самостоятелен и не представлен как сравнение или синтез другого.
 
 - **[Архив Интервью Боба Лазара (1989–2026)](bob-lazar-archive/README.md)** — Полный корпус интервью Роберта Лазара по S-4, Элементу 115 и гравитационной силовой установке. Включает 24 транскрипта, поштучный и тематический анализ, каталог по периодам и технические диаграммы.
 - **[Архив Исследований Вадима Черноброва (1988–2017)](chernobrov-archive/README.md)** — Исследовательский корпус Вадима Черноброва (Космопоиск) по экспериментам с машиной времени, гравитационным аномалиям и аномальным зонам. Включает транскрипты, поштучный и тематический анализ, каталог по периодам и избранные книги.
+- **[Анализ Дубна / Элемент 115](dubna-element-115-analysis/README.md)** — Интервью ASRP.media с неразглашённым высокопоставленным представителем Объединённого института ядерных исследований (ОИЯИ), записанное 28 сентября 2021 и опубликованное 9 декабря 2025. Включает сырой транскрипт аудио, дословный EN/RU опубликованный текст, мастер-таблицу утверждений, проверенную историю ОИЯИ, связку Лазар ↔ Дубна ↔ LLNL, данные Фабрики сверхтяжёлых элементов (2020), аналогию БН-800 / МОКС, гипотезную рамку геологии Казахстана и контекст советских UAP-исследований (SETKA-AN / SETKA-MO).
 
 ---
 

@@ -1,0 +1,82 @@
+graph TB
+    classDef lazar fill:#fce4ec,stroke:#c2185b,color:#000
+    classDef dubna fill:#e3f2fd,stroke:#1565c0,color:#000
+    classDef industry fill:#e8f5e9,stroke:#2e7d32,color:#000
+    classDef geo fill:#fff3e0,stroke:#ef6c00,color:#000
+    classDef signal fill:#f3e5f5,stroke:#6a1b9a,color:#000
+
+    subgraph L[Lazar side / Сторона Лазара]
+        L1["Bob Lazar 1989<br/>Боб Лазар 1989"]:::lazar
+        L2["KLAS TV 1989"]:::lazar
+        L3["S-4 / Area 51"]:::lazar
+        L4["Element 115 claim<br/>(stable isotope fuel)<br/>Заявление об элементе 115<br/>(стаб. изотоп как топливо)"]:::lazar
+        L5["Sport Model craft<br/>Аппарат Sport Model"]:::lazar
+    end
+
+    subgraph D[Discovery side / Сторона открытия]
+        D1["JINR Dubna<br/>ОИЯИ Дубна"]:::dubna
+        D2["LLNL USA"]:::dubna
+        D3["Oganessian lab<br/>Лаборатория Оганесяна"]:::dubna
+        D4["2003 / 2004 synthesis<br/>Синтез 2003 / 2004"]:::dubna
+        D5["Phys. Rev. C 69, 021601(R)<br/>2 Feb 2004"]:::dubna
+        D6["Moscovium Mc<br/>Московий Mc<br/>IUPAC 2016"]:::dubna
+    end
+
+    subgraph I[Industrial side / Индустриальная сторона]
+        I1["SHEF 2020<br/>Фабрика 2020"]:::industry
+        I2["BN-800 reactor<br/>Реактор БН-800"]:::industry
+        I3["MOX fuel cycle<br/>Цикл МОКС"]:::industry
+        I4["Roscosmos radiation<br/>hardness testing<br/>Радстойкость для Роскосмоса"]:::industry
+        I5["Medical radioisotopes<br/>Мед. радиоизотопы"]:::industry
+    end
+
+    subgraph G[Geopolitical-historical / Геополитическое-историческое]
+        G1["USSR aerospace<br/>Аэрокосмос СССР"]:::geo
+        G2["Ukraine / Украина<br/>Yuzhmash, Zenit"]:::geo
+        G3["Kazakhstan / Казахстан<br/>KazAtomProm, Baikonur"]:::geo
+        G4["Russia / Россия<br/>JINR, Rosatom"]:::geo
+        G5["SETKA-AN / SETKA-MO<br/>1977–1991"]:::geo
+        G6["Sary-Ozek 1960<br/>CIA declassified"]:::geo
+        G7["Kapustin Yar / Капустин Яр"]:::geo
+    end
+
+    subgraph S[External signals / Внешние сигналы]
+        S1["ASRP.media interview<br/>Интервью ASRP.media"]:::signal
+        S2["Psycho-linguistic footnote<br/>Психолингв. сноска"]:::signal
+        S3["Robert Cardillo NGA<br/>LinkedIn engagement"]:::signal
+    end
+
+    L1 --> L2
+    L1 --> L3
+    L1 --> L4
+    L4 --> L5
+    L4 -.->|"claimed link<br/>заявленная связь"| D6
+
+    D3 --> D1
+    D1 --> D4
+    D2 --> D4
+    D4 --> D5
+    D5 --> D6
+    D4 -->|"²⁴³Am target<br/>мишень ²⁴³Am"| D2
+
+    D1 --> I1
+    I1 -->|"first run Nov 2020<br/>70 atoms Mc / 40 days"| D6
+    G4 --> I2
+    I2 --> I3
+    I1 --> I4
+    I1 --> I5
+    I3 -.->|"analogy only<br/>только аналогия"| L4
+
+    G1 --> G2
+    G1 --> G3
+    G1 --> G4
+    G4 --> D1
+    G3 --> G6
+    G3 --> G7
+    G1 --> G5
+    G5 -->|"documented hotspot<br/>задокументированный hotspot"| G3
+
+    D1 --> S1
+    S1 --> S2
+    S2 -.->|"adversarial framing<br/>адверсативная подача"| L4
+    S1 --> S3

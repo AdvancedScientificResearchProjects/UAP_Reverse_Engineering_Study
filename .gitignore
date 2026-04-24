@@ -23,3 +23,8 @@ chernobrov-archive/*.sh
 chernobrov-archive/*.log
 chernobrov-archive/*.json
 chernobrov-archive/ocr-pipeline/
+
+# Dubna-115 archive: raw binary audio (transcripts are committed)
+dubna-element-115-analysis/raw/*.mp3
+dubna-element-115-analysis/raw/*.mp4
+dubna-element-115-analysis/raw/*.wav
