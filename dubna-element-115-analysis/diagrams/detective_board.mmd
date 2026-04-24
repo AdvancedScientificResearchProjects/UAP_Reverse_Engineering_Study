@@ -1,0 +1,69 @@
+flowchart LR
+    classDef person fill:#fff8e1,stroke:#f57f17,stroke-width:3px,color:#000
+    classDef place fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef event fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef claim fill:#fce4ec,stroke:#880e4f,stroke-width:2px,color:#000
+    classDef evidence fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef redflag fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+
+    BL["👤 Bob Lazar<br/>physicist claimant<br/>физик-заявитель<br/>1989"]:::person
+    YO["👤 Yu. Ts. Oganessian<br/>academician, JINR lab director<br/>академик, директор ЛЯР<br/>1989–present"]:::person
+    KG["👤 George Knapp<br/>investigative journalist<br/>журналист-расследователь<br/>KLAS-89, BL18"]:::person
+    RC["👤 Robert Cardillo<br/>former NGA director<br/>бывший директор NGA<br/>LinkedIn 2026"]:::person
+    DB["👤 Denis Banchenko<br/>ASRP alliance CEO<br/>глава альянса ASRP<br/>2021–2026"]:::person
+
+    S4["🏢 S-4 / Area 51<br/>Nevada, USA<br/>alleged site / заявленное место"]:::place
+    DUBNA["🏢 JINR Dubna<br/>Moscow Oblast<br/>synthesis site / место синтеза"]:::place
+    LLNL["🏢 LLNL<br/>Livermore, USA<br/>target supplier / поставщик мишени"]:::place
+    GSI["🏢 GSI Darmstadt<br/>Germany<br/>replication site / место репликации"]:::place
+    ASRP["🏢 ASRP.media<br/>publisher<br/>издатель 2025"]:::place
+
+    C1["💬 CLAIM 1989<br/>'115 is stable fuel<br/>for S-4 craft'<br/>«115 — стабильное топливо<br/>для аппарата в S-4»"]:::claim
+
+    E1["🧪 Am-243 target<br/>Мишень америций-243<br/>USA-supplied<br/>критически важно"]:::evidence
+    E2["⚛ Ca-48 beam<br/>Пучок кальций-48<br/>Russia-supplied"]:::evidence
+    E3["📄 Phys. Rev. C 69, 021601(R)<br/>2 Feb 2004<br/>co-authors:<br/>JINR + LLNL"]:::evidence
+    E4["🎤 ASRP.media interview<br/>28 Sep 2021<br/>anonymous JINR rep<br/>published 9 Dec 2025"]:::evidence
+    E5["👍 Cardillo LinkedIn<br/>engagement<br/>взаимодействие<br/>22 Apr 2026"]:::evidence
+    E6["🔁 Aug 2013<br/>GSI + Lund<br/>independent confirmation<br/>независимое подтверждение"]:::evidence
+
+    O1["❌ No stable isotope<br/>observed<br/>стабильный изотоп<br/>не наблюдался"]:::redflag
+    O2["❌ Single atoms only<br/>только единичные атомы<br/>sub-second life / жизнь < 1 сек"]:::redflag
+    O3["⚠ psycho-linguistic<br/>footnote by ASRP<br/>not JINR voice<br/>не голос ОИЯИ"]:::redflag
+
+    RESULT["✅ Moscovium Mc<br/>Z = 115<br/>IUPAC 28 Nov 2016<br/>Russia + USA collaboration"]:::event
+
+    %% Lazar claim thread
+    BL -.->|alleges / утверждает| S4
+    BL -.->|claims exist / заявляет| C1
+    C1 -.->|fails against reality| O1
+    C1 -.->|fails against reality| O2
+
+    %% Dubna+LLNL chain
+    LLNL ==>|ships target / отправляет мишень| DUBNA
+    LLNL --> E1
+    DUBNA --> E2
+    E1 ==> E3
+    E2 ==> E3
+    E3 ==> RESULT
+
+    %% Confirmation path
+    YO -->|leads lab / возглавляет лабораторию| DUBNA
+    E3 --> GSI
+    GSI --> E6
+    E6 ==> RESULT
+
+    %% Journalism + ASRP chain
+    KG -.->|canvasses physicists| BL
+    DB --> ASRP
+    ASRP --> E4
+    E4 -.->|adds / добавляет| O3
+    DB -->|posts on LinkedIn| RC
+    RC --> E5
+
+    linkStyle 2 stroke:#c62828,stroke-width:3px,stroke-dasharray:5 5
+    linkStyle 3 stroke:#c62828,stroke-width:3px,stroke-dasharray:5 5
+    linkStyle 4 stroke:#c62828,stroke-width:4px
+    linkStyle 7 stroke:#1565c0,stroke-width:4px
+    linkStyle 8 stroke:#1565c0,stroke-width:4px
+    linkStyle 9 stroke:#2e7d32,stroke-width:4px

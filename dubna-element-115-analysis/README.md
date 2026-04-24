@@ -10,6 +10,103 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 
 ---
 
+## 🇷🇺 + 🇺🇸 KEY FINDING — Russia + USA equal-partner discovery / КЛЮЧЕВОЙ ВЫВОД — Россия + США как равноправные партнёры открытия
+
+**EN:** Element 115 (Moscovium) was **not** synthesized by Russia alone. It was the product of a **joint peer-reviewed experiment by JINR Dubna + Lawrence Livermore National Laboratory (LLNL, USA)** — published in **Physical Review C 69, 021601(R)** on 2 February 2004, with co-authorship from both institutions. The USA's role was **not** secondary: LLNL supplied the critical ²⁴³Am target, participated in decay-chain analysis and radiochemical identification, and was listed as equal co-author on the priority publication. Without the American americium-243 target, the reaction was not possible.
+
+**RU:** Элемент 115 (Московий) был синтезирован **не Россией в одиночку**. Это результат **совместного рецензируемого эксперимента ОИЯИ Дубна + Lawrence Livermore National Laboratory (LLNL, США)** — опубликованного в **Physical Review C 69, 021601(R)** 2 февраля 2004 г., с соавторством от обоих учреждений. Роль США **не** была второстепенной: LLNL поставила критически важную мишень ²⁴³Am, участвовала в анализе цепочки распада и в радиохимической идентификации, и значится как равноправный соавтор в приоритетной публикации. Без американской мишени америций-243 реакция была невозможна.
+
+### Role split / Разделение ролей
+
+| Component / Компонент | Russia (JINR Dubna) / Россия (ОИЯИ Дубна) | USA (LLNL) / США (LLNL) |
+|---|:---:|:---:|
+| U-400 cyclotron / Циклотрон У-400 | ✅ | — |
+| ⁴⁸Ca beam / Пучок кальций-48 | ✅ | — |
+| Experimental setup / Экспериментальная установка | ✅ | — |
+| **²⁴³Am target (critical) / Мишень америций-243 (критически)** | — | ✅ |
+| Data analysis / Анализ данных | ✅ | ✅ |
+| Decay-chain interpretation / Интерпретация цепочек распада | ✅ | ✅ |
+| Radiochemistry (dubnium ID) / Радиохимия (идентификация дубния) | ✅ | ✅ |
+| Co-authorship (PRC 2004) / Соавторство (PRC 2004) | ✅ | ✅ |
+
+![Russia + USA role split in element 115 synthesis / Разделение ролей Россия + США в синтезе 115 элемента](diagrams/rendered/role_split_russia_usa.png)
+
+*Full analysis: [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) §4. / Полный разбор: [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) §4.*
+
+---
+
+## 🕵 Detective board / Детективная доска
+
+**EN:** Summary visual of every actor, place, claim, and piece of evidence in the 115-element story. Red-dashed lines are Lazar's claims falling against documented reality. Blue heavy lines are the Russia–USA joint experimental chain. Green heavy lines are the independent confirmation path via GSI Darmstadt + Lund.
+
+**RU:** Обзорная визуальная схема всех фигурантов, мест, заявлений и улик в истории 115-го элемента. Красные пунктирные линии — заявления Лазара, расходящиеся с задокументированной реальностью. Синие жирные линии — совместная экспериментальная цепочка Россия–США. Зелёные жирные линии — путь независимого подтверждения через GSI Дармштадт + Лунд.
+
+![Detective board / Детективная доска](diagrams/rendered/detective_board.png)
+
+---
+
+## 🧪 Synthesis flow / Поток синтеза
+
+**EN:** Mechanical/chemical flow of the 2003 experiment showing exactly where each partner contributed.
+
+**RU:** Механико-химический поток эксперимента 2003 года с указанием точных мест вклада каждого партнёра.
+
+![Element 115 synthesis flow / Поток синтеза 115 элемента](diagrams/rendered/element_115_synthesis_flow.png)
+
+---
+
+## 🇺🇸 USA participation timeline / Хронология участия США
+
+**EN:** USA-specific timeline from Lazar's 1989 claim (as a US citizen) through LLNL's 2003 experimental contribution, 2004 publication, 2004–2010 radiochemistry, to the end of the US–Russia collaboration era with SHEF in 2020.
+
+**RU:** Хронология, специально посвящённая участию США — от заявления Лазара 1989 г. (как гражданина США), через экспериментальный вклад LLNL 2003 г., публикацию 2004 г., радиохимию 2004–2010 гг., до окончания эпохи коллаборации США–Россия с запуском SHEF в 2020 г.
+
+![USA participation timeline / Хронология участия США](diagrams/rendered/usa_participation_timeline.png)
+
+---
+
+## ⚖ Claim vs. reality / Заявление против реальности
+
+**EN:** Six Lazar claims side-by-side with what Dubna + LLNL actually documented. One claim (element 115 exists) is green; five claims are red.
+
+**RU:** Шесть заявлений Лазара рядом с тем, что Дубна + LLNL действительно задокументировали. Одно заявление (115 элемент существует) — зелёное; пять — красные.
+
+![Claim vs. reality / Заявление vs. реальность](diagrams/rendered/claim_vs_reality.png)
+
+---
+
+## 📍 Kazakhstan UAP hotspots + nuclear footprint / Казахстан — UAP-hotspots и ядерный след
+
+**EN:** Documented Soviet-era UAP hotspots in Kazakh SSR (Sary-Ozek 1960, Baikonur, Kapustin Yar, Semipalatinsk, the 1973 CIA Kazakhstan report) alongside the nuclear-resource footprint (KazAtomProm, Soviet uranium mining since the 1940s). The `correlation?` dashed links mark Denis Banchenko's open research hypothesis — it is not established.
+
+**RU:** Задокументированные советские UAP-hotspots в Казахской ССР (Сары-Озек 1960, Байконур, Капустин Яр, Семипалатинск, отчёт ЦРУ 1973 г. о Казахстане) рядом с ядерно-ресурсным следом (КазАтомПром, советская добыча урана с 1940-х). Пунктиры `correlation?` отмечают открытую исследовательскую гипотезу Дениса Банченко — она не установлена.
+
+![Kazakhstan UAP hotspots / Казахстан — UAP-hotspots](diagrams/rendered/kazakhstan_hotspots.png)
+
+---
+
+## 🕰 Main timeline 1989–2026 / Основная хронология 1989–2026
+
+![Main timeline 1989–2026 / Основная хронология 1989–2026](diagrams/rendered/timeline_1989-2026.png)
+
+---
+
+## 🗺 USSR aerospace role split / Разделение ролей в аэрокосмосе СССР
+
+**EN:** Why the 2003 experiment involved Russia, Ukraine, and Kazakhstan simultaneously — the inherited USSR role split: Ukraine = aerospace manufacturing, Kazakhstan = uranium and launch operations, Russia = nuclear science coordination (JINR, IZMIRAN, Rosatom, RSC Energia). External collaborators (LLNL USA, GSI Germany, ORNL USA) connect in with dashed external lines.
+
+**RU:** Почему эксперимент 2003 года одновременно включал Россию, Украину и Казахстан — унаследованное разделение ролей СССР: Украина = аэрокосмическое производство, Казахстан = уран и пусковые операции, Россия = координация ядерной науки (ОИЯИ, ИЗМИРАН, Росатом, РКК «Энергия»). Внешние коллабораторы (LLNL США, GSI Германия, ORNL США) подключаются пунктирными внешними линиями.
+
+![USSR aerospace role split / Разделение ролей в аэрокосмосе СССР](diagrams/rendered/ussr_aerospace_map.png)
+
+---
+
+## 🔗 Full connection graph / Полный граф связей
+
+![Full connection graph / Полный граф связей](diagrams/rendered/connection_graph.png)
+
+---
+
 ## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
 
 | Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
@@ -26,6 +123,12 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 | Audio Transcript / Транскрипт аудио | Raw Whisper transcription of the 25-minute recording / Сырой транскрипт Whisper 25-минутной записи | [`transcripts/asrp_media_audio_RU.md`](transcripts/asrp_media_audio_RU.md) | ✅ Available / Доступно |
 | Published Interview RU / Опубликованное интервью RU | Verbatim Russian text as published by ASRP.media / Дословный русский текст в публикации ASRP.media | [`transcripts/asrp_media_interview_RU.md`](transcripts/asrp_media_interview_RU.md) | ✅ Available / Доступно |
 | Published Interview EN / Опубликованное интервью EN | Verbatim English translation as published by ASRP.media / Дословный английский перевод в публикации ASRP.media | [`transcripts/asrp_media_interview_EN.md`](transcripts/asrp_media_interview_EN.md) | ✅ Available / Доступно |
+| Role Split RU/USA / Разделение ролей РФ/США | Russia + USA equal-partner table for element 115 synthesis / Таблица равноправных партнёров РФ + США в синтезе 115 | [`diagrams/role_split_russia_usa.mmd`](diagrams/role_split_russia_usa.mmd) | ✅ Available / Доступно |
+| Detective Board / Детективная доска | Film-style investigation board of all actors, places, claims, evidence / Доска расследования в стиле фильма: фигуранты, места, заявления, улики | [`diagrams/detective_board.mmd`](diagrams/detective_board.mmd) | ✅ Available / Доступно |
+| Synthesis Flow / Поток синтеза | Mechanical/chemical flow of the 2003 experiment / Механико-химический поток эксперимента 2003 | [`diagrams/element_115_synthesis_flow.mmd`](diagrams/element_115_synthesis_flow.mmd) | ✅ Available / Доступно |
+| USA Participation Timeline / Хронология участия США | USA-specific timeline 1989–2026 / Хронология, посвящённая участию США 1989–2026 | [`diagrams/usa_participation_timeline.mmd`](diagrams/usa_participation_timeline.mmd) | ✅ Available / Доступно |
+| Claim vs. Reality / Заявление vs. реальность | Six Lazar claims side-by-side with documented reality / Шесть заявлений Лазара рядом с задокументированной реальностью | [`diagrams/claim_vs_reality.mmd`](diagrams/claim_vs_reality.mmd) | ✅ Available / Доступно |
+| Kazakhstan Hotspots / Казахстан — hotspots | UAP hotspots + nuclear footprint in Kazakh SSR / UAP-hotspots + ядерный след в Казахской ССР | [`diagrams/kazakhstan_hotspots.mmd`](diagrams/kazakhstan_hotspots.mmd) | ✅ Available / Доступно |
 | Connection Graph / Граф связей | Investigation-style graph linking Lazar, USSR, JINR, LLNL, SHEF, Kazakhstan / Детективный граф связей: Лазар, СССР, ОИЯИ, LLNL, Фабрика, Казахстан | [`diagrams/connection_graph.mmd`](diagrams/connection_graph.mmd) | ✅ Available / Доступно |
 | Timeline 1989–2026 / Хронология 1989–2026 | From Lazar's first interview to the Superheavy Factory / От первого интервью Лазара до Фабрики сверхтяжёлых элементов | [`diagrams/timeline_1989-2026.mmd`](diagrams/timeline_1989-2026.mmd) | ✅ Available / Доступно |
 | USSR Aerospace Map / Карта аэрокосмоса СССР | Ukraine = aerospace / Kazakhstan = uranium / Russia = JINR / Украина = аэрокосмос / Казахстан = уран / Россия = ОИЯИ | [`diagrams/ussr_aerospace_map.mmd`](diagrams/ussr_aerospace_map.mmd) | ✅ Available / Доступно |
@@ -73,6 +176,18 @@ dubna-element-115-analysis/
 │
 ├── diagrams/                              ← mermaid sources and rendered diagrams
 │   │                                        исходники mermaid и отрендеренные схемы
+│   ├── role_split_russia_usa.mmd          Russia + USA equal-partner role table
+│   │                                        таблица равноправных партнёров РФ + США
+│   ├── detective_board.mmd                film-style investigation board
+│   │                                        доска расследования в стиле фильма
+│   ├── element_115_synthesis_flow.mmd     mechanical/chemical flow of 2003 experiment
+│   │                                        механико-химический поток эксперимента 2003
+│   ├── usa_participation_timeline.mmd     USA-specific timeline 1989–2026
+│   │                                        хронология участия США 1989–2026
+│   ├── claim_vs_reality.mmd               6 Lazar claims vs. documented reality
+│   │                                        6 заявлений Лазара vs. задокументированная реальность
+│   ├── kazakhstan_hotspots.mmd            UAP hotspots + nuclear footprint in KZ SSR
+│   │                                        UAP-hotspots + ядерный след в КазССР
 │   ├── connection_graph.mmd               investigation-style connection graph
 │   │                                        детективный граф связей
 │   ├── timeline_1989-2026.mmd             1989 Lazar → 2003 discovery → 2020 SHEF → now

@@ -1,0 +1,40 @@
+flowchart TB
+    classDef russia fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef usa fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#000
+    classDef joint fill:#f3e5f5,stroke:#6a1b9a,stroke-width:3px,color:#000
+    classDef result fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,color:#000
+
+    subgraph RU[Russia / Россия — JINR Dubna / ОИЯИ Дубна]
+        R1["U-400 cyclotron<br/>Циклотрон У-400"]:::russia
+        R2["Ca-48 beam<br/>Пучок Ca-48"]:::russia
+        R3["Experimental setup<br/>Экспериментальная установка"]:::russia
+    end
+
+    subgraph US[USA / США — Lawrence Livermore National Lab]
+        U1["Am-243 target material<br/>Мишень америций-243<br/>⚠ critical component<br/>⚠ критический компонент"]:::usa
+        U2["DOE reactor-processing legacy<br/>Наследие переработки DOE"]:::usa
+    end
+
+    subgraph JOINT[Joint work / Совместная работа]
+        J1["Data analysis<br/>Анализ данных"]:::joint
+        J2["Decay chain interpretation<br/>Интерпретация цепочек распада"]:::joint
+        J3["Radiochemistry / dubnium ID<br/>Радиохимия / идентификация дубния"]:::joint
+        J4["Co-authorship<br/>Соавторство<br/>Phys. Rev. C 69, 021601(R) 2004"]:::joint
+    end
+
+    RESULT["Element 115 synthesis<br/>Синтез 115 элемента<br/>4 atoms / 4 атома (2003)<br/>Moscovium (Mc) — IUPAC 2016"]:::result
+
+    U2 --> U1
+    R1 --> R2
+    R2 --> RESULT
+    U1 --> RESULT
+    R3 --> RESULT
+    RESULT --> J1
+    RESULT --> J2
+    RESULT --> J3
+    J1 --> J4
+    J2 --> J4
+    J3 --> J4
+
+    linkStyle 3 stroke:#c62828,stroke-width:4px
+    linkStyle 2 stroke:#1565c0,stroke-width:4px

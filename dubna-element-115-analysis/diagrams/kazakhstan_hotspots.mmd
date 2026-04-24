@@ -1,0 +1,44 @@
+flowchart TB
+    classDef kz fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef soviet fill:#bbdefb,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef hotspot fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+    classDef resource fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+
+    KZ["🇰🇿 Kazakh SSR / post-Soviet Kazakhstan<br/>Казахская ССР / постсоветский Казахстан"]:::kz
+
+    subgraph UAP[Documented UAP hotspots / Задокументированные UAP hotspots]
+        H1["📍 Sary-Ozek<br/>Сары-Озек<br/>9 March 1960<br/>CIA declassified"]:::hotspot
+        H2["📍 Baikonur<br/>Байконур<br/>Cosmodrome / Космодром<br/>SETKA reports"]:::hotspot
+        H3["📍 Kapustin Yar ext.<br/>Капустин Яр<br/>'Russia's Area 51'<br/>западная пресса"]:::hotspot
+        H4["📍 Semipalatinsk<br/>Семипалатинск<br/>nuclear test site<br/>ядерный полигон"]:::hotspot
+        H5["📍 CIA 1973 KZ UFO<br/>report / отчёт"]:::hotspot
+    end
+
+    subgraph RES[Nuclear resource footprint / След ядерных ресурсов]
+        R1["⛏ KazAtomProm<br/>КазАтомПром<br/>>40% world uranium<br/>>40% мирового урана (2019)"]:::resource
+        R2["⚛ Soviet uranium mining<br/>Советская добыча урана<br/>since 1940s"]:::resource
+    end
+
+    subgraph SOV[Soviet state UAP programs / Советские госпрограммы UAP]
+        S1["SETKA-AN<br/>Academy of Sciences<br/>АН СССР<br/>1977–1990"]:::soviet
+        S2["SETKA-MO<br/>Ministry of Defence<br/>Минобороны СССР<br/>1977–1990"]:::soviet
+        S3["Petrozavodsk phenomenon<br/>Петрозаводский феномен<br/>20 Sep 1977<br/>triggered SETKA<br/>запустил SETKA"]:::soviet
+    end
+
+    HYP["⚠ Denis Banchenko's hypothesis<br/>Гипотеза Дениса<br/>geological depth ↔ UAP activity<br/>OPEN — not established<br/>ОТКРЫТА — не установлена"]
+
+    S3 ==>|triggers / запускает| S1
+    S3 ==>|triggers / запускает| S2
+    KZ --> H1
+    KZ --> H2
+    KZ --> H3
+    KZ --> H4
+    KZ --> H5
+    KZ --> R1
+    KZ --> R2
+    S1 -.->|logs reports from| KZ
+    S2 -.->|logs reports from| KZ
+    R1 -.->|correlation?| UAP
+    R2 -.->|correlation?| UAP
+    UAP -.-> HYP
+    RES -.-> HYP

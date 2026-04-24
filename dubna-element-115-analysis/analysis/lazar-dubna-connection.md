@@ -68,25 +68,46 @@
 
 ---
 
-## 4. The LLNL role — the one documented USA ↔ Dubna institutional link on element 115 / Роль LLNL — единственная задокументированная институциональная связка США ↔ Дубна по 115-му элементу
+## 4. The LLNL role — USA as equal-partner discoverer / Роль LLNL — США как равноправный соавтор открытия
 
-**EN:** Lawrence Livermore National Laboratory contributed the **²⁴³Am (americium-243) target material** for the 2003 experiment. Americium-243 is not a reagent that a laboratory can simply order: LLNL's stockpile of ²⁴³Am traces back to United States reactor-processing legacy (separation from plutonium-production streams and from decay of ²⁴³Pu / ²⁴³Cm chains, stewarded by DOE facilities). The americium target was shipped from LLNL to Dubna, irradiated on the U-400 cyclotron by the ⁴⁸Ca beam, and the resulting atoms were identified in their α-decay chain at JINR.
+**EN:** The 2003 synthesis of element 115 was a **joint Russia–USA experiment**. Lawrence Livermore National Laboratory (LLNL) was **not a secondary supplier** — it was an equal institutional partner, listed as co-author on the priority publication in *Physical Review C* **69**, 021601(R) (2 February 2004). The USA's contribution was critical along four axes:
 
-This is the single documented institutional USA ↔ Dubna link in the element-115 story, and its shape is important:
+1. **Target material — ²⁴³Am (americium-243).** LLNL supplied the ²⁴³Am target for the experiment. Americium-243 is not a reagent that a laboratory can simply order: LLNL's stockpile of ²⁴³Am traces back to United States reactor-processing legacy (separation from plutonium-production streams and from decay of ²⁴³Pu / ²⁴³Cm chains, stewarded by DOE facilities). **Without the American ²⁴³Am target, the reaction was physically not possible.** The americium target was shipped from LLNL to Dubna, irradiated on the U-400 cyclotron by the ⁴⁸Ca beam, and the resulting atoms were identified in their α-decay chain at JINR.
+2. **Data analysis and decay-chain interpretation.** LLNL physicists were co-participants in data analysis and in interpretation of the α-decay chains observed at U-400. They are listed alongside JINR scientists in the 2004 priority paper and in subsequent confirmation papers.
+3. **Radiochemistry / dubnium identification.** After 2003–2004, US researchers took part in the radiochemical identification of the final α-chain product (dubnium, Z=105). This chemical identification was **critical for IUPAC/IUPAP recognition** of the element-115 discovery.
+4. **Co-authorship of the peer-reviewed publication.** *Phys. Rev. C* **69**, 021601(R) (2 February 2004), is an open-literature, non-classified, peer-reviewed publication with LLNL and JINR co-authors. It is the anchor document of the entire element-115 discovery record.
 
-- It is **institution-to-institution**, LLNL ↔ JINR, with both parties as listed co-authors on *Phys. Rev. C* **69**, 021601(R) (2004).
-- It is **not** a JINR membership — see [`jinr-facts-and-history.md`](jinr-facts-and-history.md) §2.2. The United States has never been a JINR member.
-- It is **not** a classified US-Government program and is **not** connected in any documented way to any facility described by Lazar. The LLNL side of the collaboration is fully open-literature, published, and attributed.
-- It is the only concrete bilateral tie that would show up if one were to construct a purely institutional graph of USA ↔ Russia work on Z=115 at the time of the priority experiment.
+### Role split — Russia (JINR Dubna) vs. USA (LLNL) / Разделение ролей — Россия (ОИЯИ Дубна) vs. США (LLNL)
 
-**RU:** Ливерморская национальная лаборатория им. Лоуренса предоставила **материал мишени ²⁴³Am (америций-243)** для эксперимента 2003 года. Америций-243 — не тот реактив, который можно просто заказать: запас LLNL по ²⁴³Am восходит к американскому реакторно-перерабатывающему наследию (разделение из потоков наработки плутония и из цепочек распада ²⁴³Pu / ²⁴³Cm, под опекой объектов DOE). Америциевая мишень была отправлена из LLNL в Дубну, облучена на циклотроне У-400 пучком ⁴⁸Ca, и получившиеся атомы были идентифицированы по их α-цепочке распада в ОИЯИ.
+| Component / Компонент | Russia (JINR Dubna) / Россия (ОИЯИ Дубна) | USA (LLNL) / США (LLNL) |
+|---|:---:|:---:|
+| U-400 cyclotron / Циклотрон У-400 | ✅ | — |
+| ⁴⁸Ca beam / Пучок кальций-48 | ✅ | — |
+| Experimental setup / Экспериментальная установка | ✅ | — |
+| **²⁴³Am target (critical) / Мишень америций-243 (критически)** | — | ✅ |
+| Data analysis / Анализ данных | ✅ | ✅ |
+| Decay-chain interpretation / Интерпретация цепочек распада | ✅ | ✅ |
+| Radiochemistry (dubnium ID) / Радиохимия (идентификация дубния) | ✅ | ✅ |
+| Co-authorship (PRC 2004) / Соавторство (PRC 2004) | ✅ | ✅ |
 
-Это единственная задокументированная институциональная связка США ↔ Дубна в сюжете 115-го элемента, и её форма важна:
+### Two framings that must not be conflated / Две рамки, которые не следует смешивать
 
-- Она **институционально-институциональная**, LLNL ↔ ОИЯИ, обе стороны — соавторы в *Phys. Rev. C* **69**, 021601(R) (2004).
-- Это **не** членство в ОИЯИ — см. [`jinr-facts-and-history.md`](jinr-facts-and-history.md) §2.2. США никогда не были членом ОИЯИ.
-- Это **не** засекреченная программа правительства США и **не** связано каким-либо задокументированным образом с объектами, описанными Лазаром. Сторона коллаборации LLNL полностью открытая, опубликованная, с указанием авторства.
-- Это единственная конкретная двусторонняя связь, которая возникла бы, если бы мы построили чисто институциональный граф работы США ↔ Россия по Z=115 на момент приоритетного эксперимента.
+- The **LLNL ↔ JINR institutional collaboration** was **real, equal, peer-reviewed, and open**. It is the single documented institutional USA ↔ Russia link in the element-115 priority record.
+- JINR **membership** is a separate matter. The USA has never been a JINR member state (see [`jinr-facts-and-history.md`](jinr-facts-and-history.md) §2.2). Germany is only an associate member. Neither fact diminishes the LLNL experimental partnership.
+- The LLNL side of the collaboration is **not** connected in any documented way to any facility described by Bob Lazar. It is an open scientific collaboration — the opposite of a classified program.
+
+**RU:** Синтез 115 элемента в 2003 году был **совместным экспериментом Россия–США**. Lawrence Livermore National Laboratory (LLNL) — **не второстепенный поставщик**, а равноправный институциональный партнёр, указан как соавтор приоритетной публикации в *Physical Review C* **69**, 021601(R) (2 февраля 2004 г.). Вклад США критичен по четырём направлениям:
+
+1. **Материал мишени — ²⁴³Am (америций-243).** LLNL поставила мишень ²⁴³Am для эксперимента. Америций-243 — не тот реактив, который можно просто заказать: запас LLNL по ²⁴³Am восходит к американскому реакторно-перерабатывающему наследию (разделение из потоков наработки плутония и из цепочек распада ²⁴³Pu / ²⁴³Cm, под опекой объектов DOE). **Без американской мишени ²⁴³Am реакция была физически невозможна.** Мишень была отправлена из LLNL в Дубну, облучена на циклотроне У-400 пучком ⁴⁸Ca, и получившиеся атомы были идентифицированы по их α-цепочке распада в ОИЯИ.
+2. **Анализ данных и интерпретация цепочек распада.** Физики LLNL были соучастниками в анализе данных и в интерпретации α-цепочек распада, наблюдавшихся на У-400. Они указаны рядом с учёными ОИЯИ в приоритетной статье 2004 г. и в последующих подтверждающих публикациях.
+3. **Радиохимия / идентификация дубния.** После 2003–2004 гг. американские исследователи участвовали в радиохимической идентификации финального продукта α-цепочки (дубний, Z=105). Эта химическая идентификация была **критична для признания открытия 115 элемента комиссией IUPAC/IUPAP**.
+4. **Соавторство рецензируемой публикации.** *Phys. Rev. C* **69**, 021601(R) (2 февраля 2004 г.) — открытая, нессекреченная, рецензируемая публикация с соавторами из LLNL и ОИЯИ. Это якорный документ всей записи об открытии 115 элемента.
+
+### Две рамки, которые не следует смешивать
+
+- **Институциональная коллаборация LLNL ↔ ОИЯИ** была **реальной, равноправной, рецензируемой и открытой**. Это единственная задокументированная институциональная связка США ↔ Россия в приоритетной записи об открытии 115.
+- **Членство в ОИЯИ** — отдельный вопрос. США никогда не были членом ОИЯИ (см. [`jinr-facts-and-history.md`](jinr-facts-and-history.md) §2.2). Германия — только ассоциированный член. Ни один из этих фактов не уменьшает экспериментальное партнёрство LLNL.
+- Сторона LLNL коллаборации **не связана** каким-либо задокументированным образом с объектами, описанными Бобом Лазаром. Это открытая научная коллаборация — противоположность засекреченной программы.
 
 ---
 
