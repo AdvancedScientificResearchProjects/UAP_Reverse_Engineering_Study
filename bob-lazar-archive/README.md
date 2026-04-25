@@ -169,6 +169,12 @@ bob-lazar-archive/
 | KLAS30-P6 | KLAS 30th anniversary Part 6 / 30-я годовщина KLAS, часть 6 | 2019-11 | [46b_...](transcripts/46b_2019-11_KLAS_30th_Part6.txt) |
 | JRE2479 | **Joe Rogan Experience #2479** | 2026-04-03 | [53_...](transcripts/53_2026-04-03_JRE_2479.txt) |
 
+### External cross-references (not Lazar primary sources) / Внешние перекрёстные ссылки (не первичные источники Лазара)
+
+| Code / Код | Show / Передача | Date / Дата | Transcript / Транскрипт |
+|------|--------|-------|--------------|
+| JRE2416 | **Joe Rogan Experience #2416 with Dan Farah (Russian dub)** — Lazar's element 115 / "humans as containers" / propulsion claims cited heavily by Farah; not a Lazar appearance / **JRE #2416 с Дэном Фара (рус. дубляж)** — Фара активно цитирует Лазара по 115 элементу / «люди как контейнеры» / двигательной установке; это не выступление Лазара | 2025 | [external/jre_2416_dan_farah_RU.txt](transcripts/external/jre_2416_dan_farah_RU.txt); see analysis: [`../analysis/external-podcasts.md`](../analysis/external-podcasts.md) §1 |
+
 ---
 
 ## Key findings (highlights from the master doc) / Ключевые находки (выдержки из мастер-документа)
@@ -283,8 +289,8 @@ bob-lazar-archive/
 
 ## Related archives / Связанные архивы
 
-- **EN:** Cross-archive synthesis: [`../dubna-element-115-analysis/analysis/cross-archive-synthesis.md`](../dubna-element-115-analysis/analysis/cross-archive-synthesis.md) — shared themes across Lazar / Chernobrov / Dubna.
-- **RU:** Кросс-архивный синтез: [`../dubna-element-115-analysis/analysis/cross-archive-synthesis.md`](../dubna-element-115-analysis/analysis/cross-archive-synthesis.md) — общие темы Лазар / Чернобров / Дубна.
+- **EN:** Cross-archive synthesis: [`../analysis/cross-archive-synthesis.md`](../analysis/cross-archive-synthesis.md) — shared themes across Lazar / Chernobrov / Dubna.
+- **RU:** Кросс-архивный синтез: [`../analysis/cross-archive-synthesis.md`](../analysis/cross-archive-synthesis.md) — общие темы Лазар / Чернобров / Дубна.
 
 ---
 

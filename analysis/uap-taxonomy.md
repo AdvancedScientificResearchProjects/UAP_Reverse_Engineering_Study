@@ -67,12 +67,12 @@
 
 **EN:** Origin posited in time — that is, the UAP is not from elsewhere in space at all, but from elsewhere in our own timeline. Time travellers, future humans, or objects displaced in time fall here.
 - **Canonical narrative in this project:** Vadim Chernobrov's "machine of time" experiments and his explicitly stated time-traveller hypothesis (Chernobrov spent decades on apparatus he described as designed to slow or warp local time, and connected several of his anomalous-zone sightings to a temporal-displacement reading rather than an extraterrestrial one).
-- **Working hypothesis for the ECP artifact under study in the root repository:** the artifact studied under [`../experiments/protocol_ecp.md`](../../experiments/protocol_ecp.md) is tentatively placed in the temporal category, on Denis's framing «*мы следуем во времени объекта*» («we are tracking an object in time»). This is a working hypothesis only — it is the current frame for percipient session design, not a confirmed categorisation.
+- **Working hypothesis for the ECP artifact under study in the root repository:** the artifact studied under [`../experiments/protocol_ecp.md`](../experiments/protocol_ecp.md) is tentatively placed in the temporal category, on Denis's framing «*мы следуем во времени объекта*» («we are tracking an object in time»). This is a working hypothesis only — it is the current frame for percipient session design, not a confirmed categorisation.
 - **Evidence type:** temporal navigation signatures, time-shift reports, anachronistic material assays. None of these are confirmed for the ECP artifact at the time of writing.
 
 **RU:** Происхождение постулируется во времени — то есть UAP вообще не из другого места в пространстве, а из другой точки нашей же хронологии. Сюда попадают путешественники во времени, будущие люди, объекты, смещённые во времени.
 - **Канонический нарратив в проекте:** эксперименты Вадима Черноброва с «машиной времени» и его явно сформулированная гипотеза путешественника во времени (Чернобров десятилетиями работал над аппаратурой, описываемой им как замедляющая или искривляющая локальное время, и связывал ряд своих наблюдений в аномальных зонах именно с темпоральным смещением, а не с внеземным).
-- **Рабочая гипотеза для ECP-артефакта, изучаемого в корневом репозитории:** артефакт, изучаемый по [`../experiments/protocol_ecp.md`](../../experiments/protocol_ecp.md), предварительно помещён в темпоральную категорию — по формулировке Дениса «*мы следуем во времени объекта*». Это только рабочая гипотеза — текущая рамка для проектирования сессий перципиентов, а не подтверждённая категоризация.
+- **Рабочая гипотеза для ECP-артефакта, изучаемого в корневом репозитории:** артефакт, изучаемый по [`../experiments/protocol_ecp.md`](../experiments/protocol_ecp.md), предварительно помещён в темпоральную категорию — по формулировке Дениса «*мы следуем во времени объекта*». Это только рабочая гипотеза — текущая рамка для проектирования сессий перципиентов, а не подтверждённая категоризация.
 - **Тип свидетельства:** сигнатуры темпоральной навигации, репорты о временно́м сдвиге, анахроничные материаловедческие пробы. Ничто из этого не подтверждено для ECP-артефакта на момент написания.
 
 ---
@@ -105,9 +105,9 @@
 
 ## 5. ECP artifact placement / Размещение ECP-артефакта
 
-**EN:** The artifact under study via the root-repository protocol [`../experiments/protocol_ecp.md`](../../experiments/protocol_ecp.md) is, at the time of writing, **tentatively placed in category 3.3 (temporal)**. The placement rests on a single source — Denis's voice-message phrasing «*мы следуем во времени объекта*» — and on the design choice to direct percipient sessions toward temporal-navigation signatures rather than interstellar or interdimensional ones. The placement is a **working hypothesis only**. It will be revisited if and when ECP session data, instrumented assays, or external collaboration data force a re-classification. No commitment is made here that the artifact is in fact temporal in origin.
+**EN:** The artifact under study via the root-repository protocol [`../experiments/protocol_ecp.md`](../experiments/protocol_ecp.md) is, at the time of writing, **tentatively placed in category 3.3 (temporal)**. The placement rests on a single source — Denis's voice-message phrasing «*мы следуем во времени объекта*» — and on the design choice to direct percipient sessions toward temporal-navigation signatures rather than interstellar or interdimensional ones. The placement is a **working hypothesis only**. It will be revisited if and when ECP session data, instrumented assays, or external collaboration data force a re-classification. No commitment is made here that the artifact is in fact temporal in origin.
 
-**RU:** Артефакт, изучаемый по протоколу корневого репозитория [`../experiments/protocol_ecp.md`](../../experiments/protocol_ecp.md), на момент написания **предварительно помещён в категорию 3.3 (темпоральная)**. Это размещение опирается на единственный источник — формулировку Дениса в голосовом сообщении «*мы следуем во времени объекта*» — и на проектное решение направлять сессии перципиентов на сигнатуры темпоральной навигации, а не межзвёздной или межмерной. Это размещение — **только рабочая гипотеза**. Оно будет пересмотрено, если и когда данные ECP-сессий, инструментальные пробы или данные внешнего сотрудничества вынудят к переклассификации. Здесь не делается утверждение, что артефакт действительно темпоральный по происхождению.
+**RU:** Артефакт, изучаемый по протоколу корневого репозитория [`../experiments/protocol_ecp.md`](../experiments/protocol_ecp.md), на момент написания **предварительно помещён в категорию 3.3 (темпоральная)**. Это размещение опирается на единственный источник — формулировку Дениса в голосовом сообщении «*мы следуем во времени объекта*» — и на проектное решение направлять сессии перципиентов на сигнатуры темпоральной навигации, а не межзвёздной или межмерной. Это размещение — **только рабочая гипотеза**. Оно будет пересмотрено, если и когда данные ECP-сессий, инструментальные пробы или данные внешнего сотрудничества вынудят к переклассификации. Здесь не делается утверждение, что артефакт действительно темпоральный по происхождению.
 
 ---
 
@@ -134,9 +134,9 @@
 ## Bottom navigation / Навигация по архиву
 
 - [Sub-archive root README / Корневой README подархива](../README.md)
-- [Master claims / Мастер-таблица утверждений](MASTER_claims.md)
-- [Kazakhstan UAP geological hypothesis / Геологическая гипотеза по UAP в Казахстане](kazakhstan-uap-geological.md)
+- [Master claims / Мастер-таблица утверждений](../dubna-element-115-analysis/analysis/MASTER_claims.md)
+- [Kazakhstan UAP geological hypothesis / Геологическая гипотеза по UAP в Казахстане](../dubna-element-115-analysis/analysis/kazakhstan-uap-geological.md)
 - [Cross-archive synthesis / Кросс-архивный синтез](cross-archive-synthesis.md)
-- [Lazar archive (interstellar branch) / Архив Лазара (межзвёздная ветка)](../../bob-lazar-archive/)
-- [Chernobrov archive (parallel + temporal branches) / Архив Черноброва (параллельная + темпоральная ветки)](../../chernobrov-archive/)
-- [Root ECP protocol / Корневой протокол ECP](../../experiments/protocol_ecp.md)
+- [Lazar archive (interstellar branch) / Архив Лазара (межзвёздная ветка)](../bob-lazar-archive/)
+- [Chernobrov archive (parallel + temporal branches) / Архив Черноброва (параллельная + темпоральная ветки)](../chernobrov-archive/)
+- [Root ECP protocol / Корневой протокол ECP](../experiments/protocol_ecp.md)

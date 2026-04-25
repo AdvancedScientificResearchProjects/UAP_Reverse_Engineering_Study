@@ -17,10 +17,10 @@
 **RU:** Заявление Лазара на KLAS-TV в 1989 году заключалось конкретно в том, что элемент 115 — на тот момент неоткрытый сверхтяжёлый — существует как **стабильный** изотоп и служит топливом для аппарата Sport Model на S-4. В 2003 г. ОИЯИ Дубна совместно с LLNL (США) синтезировали элемент 115 в реакции ²⁴³Am(⁴⁸Ca, xn) на циклотроне У-400, публикация — *Phys. Rev. C* 69, 021601(R) от 2 февраля 2004 г. ИЮПАК официально присвоил ему имя **Московий (Mc)** 28 ноября 2016 г. Фабрика сверхтяжёлых элементов (SHEF) запущена в ОИЯИ в ноябре 2020 г. и в 40-дневной кампании произвела ~70 атомов московия. Архив Дубны документирует эту институциональную цепочку от начала до конца. Материалы Черноброва / «Космопоиска» **не** обсуждают элемент 115 напрямую — команда Черноброва подходила к тому же общему классу объектов (образцы UAP-материала) через полевые экспедиции в аномальные зоны, а не через ускорительную химию. Методологии не пересекаются, однако сам класс целевого объекта — заявленный экзотический материал, связанный с UAP, — совпадает.
 
 **Cross-links / Перекрёстные ссылки:**
-- [`../../bob-lazar-archive/catalog/asrp_media_115_interview.md`](../../bob-lazar-archive/catalog/asrp_media_115_interview.md)
-- [`../../bob-lazar-archive/analysis/MASTER_technical_claims.md`](../../bob-lazar-archive/analysis/MASTER_technical_claims.md) §1
-- [`../../chernobrov-archive/transcripts/`](../../chernobrov-archive/transcripts/)
-- [`./lazar-dubna-connection.md`](./lazar-dubna-connection.md)
+- [`../bob-lazar-archive/catalog/asrp_media_115_interview.md`](../bob-lazar-archive/catalog/asrp_media_115_interview.md)
+- [`../bob-lazar-archive/analysis/MASTER_technical_claims.md`](../bob-lazar-archive/analysis/MASTER_technical_claims.md) §1
+- [`../chernobrov-archive/transcripts/`](../chernobrov-archive/transcripts/)
+- [`../dubna-element-115-analysis/analysis/lazar-dubna-connection.md`](../dubna-element-115-analysis/analysis/lazar-dubna-connection.md)
 
 ---
 
@@ -31,9 +31,9 @@
 **RU:** Заявление Лазара о гравитационно-волновой двигательной установке предполагает искажение пространства-времени двумя различными гравитационными полями — **Gravity-A** и **Gravity-B** — с элементом 115 в качестве источника. В версии Лазара аппарат не преодолевает расстояние, а деформирует пространство-время вокруг точки назначения и «падает» в эту деформацию. Программа Черноброва «Ловондатр» (семь поколений с 1988 г. по ~2005 г.) целилась в **микро-темпоральные эффекты** через гравитационные аномалии в тороидальных и цилиндрических электромагнитных камерах — команда сообщала об отклонениях темпа времени порядка долей секунды, измеренных относительно внешних эталонов. Интервьюируемый из Дубны **не** касался ни пространства-времени, ни двигательных установок, ни темпоральных эффектов: эти темы лежат вне опубликованной области ОИЯИ, ограниченной синтезом сверхтяжёлых элементов и побочными применениями (радиационно-стойкая электроника, медицинские радиоизотопы, полимерные трек-мембраны). Пересечение Лазара и Черноброва по этой линии — **концептуальное** (гравитационное искажение пространства-времени), но обе программы независимы и каждая оспаривается отдельно.
 
 **Cross-links / Перекрёстные ссылки:**
-- [`../../bob-lazar-archive/analysis/MASTER_technical_claims.md`](../../bob-lazar-archive/analysis/MASTER_technical_claims.md) §3 (Gravity Physics)
-- [`../../chernobrov-archive/analysis/topical/01_02_mashina_vremeni_topical.md`](../../chernobrov-archive/analysis/topical/01_02_mashina_vremeni_topical.md)
-- [`../../chernobrov-archive/analysis/MASTER_chernobrov_claims.md`](../../chernobrov-archive/analysis/MASTER_chernobrov_claims.md)
+- [`../bob-lazar-archive/analysis/MASTER_technical_claims.md`](../bob-lazar-archive/analysis/MASTER_technical_claims.md) §3 (Gravity Physics)
+- [`../chernobrov-archive/analysis/topical/01_02_mashina_vremeni_topical.md`](../chernobrov-archive/analysis/topical/01_02_mashina_vremeni_topical.md)
+- [`../chernobrov-archive/analysis/MASTER_chernobrov_claims.md`](../chernobrov-archive/analysis/MASTER_chernobrov_claims.md)
 
 ---
 
@@ -44,9 +44,9 @@
 **RU:** В интервью 1989 года Лазар упоминает научное сотрудничество СССР–США до 1991 г. и помещает свою работу на S-4 в контекст Холодной войны, где элитные физические кадры перемещались через Железный занавес по узким специализированным каналам. Вадим Чернобров — **советский инженер-аэрокосмист**, выпускник МАИ (Московский авиационный институт) с последующими связями с РКК «Энергия»; он основал **«Космопоиск»** в 1980 г. (формальное общество — 1988 г.) — линия преемственности идёт прямо из советской аэрокосмической кадровой среды в постсоветские гражданские полевые исследования. Сам синтез 115 элемента 2003 г. в Дубне с участием LLNL — учебниковый институциональный мост СССР–США: основанный в СССР институт (ОИЯИ, 1956 г.) выступает соавтором приоритетной публикации с национальной лабораторией США (LLNL), при этом химия эксперимента зависит от поставленной из США мишени ²⁴³Am, переработанной из реакторных запасов DOE. Все три архива лежат на одном историческом субстрате — послевоенной советской аэрокосмической и ядерной кадровой системе — но каждый входит в этот субстрат под своим углом.
 
 **Cross-links / Перекрёстные ссылки:**
-- [`../diagrams/ussr_aerospace_map.mmd`](../diagrams/ussr_aerospace_map.mmd)
-- [`./lazar-dubna-connection.md`](./lazar-dubna-connection.md)
-- [`../../chernobrov-archive/analysis/MASTER_chernobrov_claims.md`](../../chernobrov-archive/analysis/MASTER_chernobrov_claims.md)
+- [`../dubna-element-115-analysis/diagrams/ussr_aerospace_map.mmd`](../dubna-element-115-analysis/diagrams/ussr_aerospace_map.mmd)
+- [`../dubna-element-115-analysis/analysis/lazar-dubna-connection.md`](../dubna-element-115-analysis/analysis/lazar-dubna-connection.md)
+- [`../chernobrov-archive/analysis/MASTER_chernobrov_claims.md`](../chernobrov-archive/analysis/MASTER_chernobrov_claims.md)
 
 ---
 
@@ -70,7 +70,7 @@
 
 ## Navigation / Навигация
 
-- **Bob Lazar archive / Архив Боба Лазара:** [`../../bob-lazar-archive/README.md`](../../bob-lazar-archive/README.md)
-- **Chernobrov / Kosmopoisk archive / Архив Черноброва / «Космопоиск»:** [`../../chernobrov-archive/README.md`](../../chernobrov-archive/README.md)
+- **Bob Lazar archive / Архив Боба Лазара:** [`../bob-lazar-archive/README.md`](../bob-lazar-archive/README.md)
+- **Chernobrov / Kosmopoisk archive / Архив Черноброва / «Космопоиск»:** [`../chernobrov-archive/README.md`](../chernobrov-archive/README.md)
 - **Dubna / Element 115 analysis / Анализ Дубна / Элемент 115:** [`../README.md`](../README.md)
-- **Cross-archive links diagram / Диаграмма межархивных связей:** [`../diagrams/cross_archive_links.mmd`](../diagrams/cross_archive_links.mmd)
+- **Cross-archive links diagram / Диаграмма межархивных связей:** [`../charts/mermaid/cross_archive_links.mmd`](../charts/mermaid/cross_archive_links.mmd)

@@ -94,6 +94,9 @@ Multi-layered scientific study of UAP fragment with 3 analytical pipelines:
 | [Bob Lazar Archive / Архив Боба Лазара](bob-lazar-archive/README.md) | Interview archive (1989–2026) / Архив интервью (1989–2026) | Available / Доступно |
 | [Vadim Chernobrov Archive / Архив Вадима Черноброва](chernobrov-archive/README.md) | Research archive (1988–2017) / Архив исследований (1988–2017) | Available / Доступно |
 | [Dubna / Element 115 Analysis / Анализ Дубна / Элемент 115](dubna-element-115-analysis/README.md) | ASRP.media interview with JINR representative + fact-checked analysis / Интервью ASRP.media с представителем ОИЯИ + проверенный анализ | Available / Доступно |
+| [Cross-archive synthesis / Кросс-архивный синтез](analysis/cross-archive-synthesis.md) | Lazar ↔ Chernobrov ↔ Dubna shared themes / Общие темы трёх архивов | Available / Доступно |
+| [UAP origin taxonomy / Таксономия происхождения UAP](analysis/uap-taxonomy.md) | Denis's 3-category framework (interstellar / parallel / temporal) / Трёхкатегорная классификация Дениса (межзвёздная / параллельная / темпоральная) | Available / Доступно |
+| [External podcasts and documentaries / Внешние подкасты и документалки](analysis/external-podcasts.md) | JRE 2416 (Dan Farah), Age of Disclosure 2025, 1991 Lazar Tape Russian dub / JRE 2416 (Дэн Фара), «Эпоха раскрытия» 2025, рус. дубляж 1991 Lazar Tape | Available / Доступно |
 
 ---
 
@@ -109,6 +112,14 @@ Three independent historical / institutional research archives are included in t
 
 ![Element 115 detective board preview / Превью детективной доски по 115 элементу](dubna-element-115-analysis/diagrams/rendered/detective_board.png)
 
+#### Cross-archive material (root level)
+
+Subjects that span more than one of the three archives are kept at the **root-repository level**, not inside a specific archive:
+
+- **[Cross-archive synthesis](analysis/cross-archive-synthesis.md)** — documented and contested overlaps between Lazar / Chernobrov / Dubna on three themes: element 115 / Moscovium, gravity-and-space-time, and Soviet aerospace lineage. Visual: [`charts/mermaid/cross_archive_links.png`](charts/mermaid/cross_archive_links.png).
+- **[UAP origin taxonomy](analysis/uap-taxonomy.md)** — Denis Banchenko's 3-category origin framework (interstellar / parallel-reality / temporal) and how each archive maps onto it; the ECP artifact under study is tentatively placed in the temporal category as a working hypothesis. Visual: [`charts/mermaid/uap_taxonomy.png`](charts/mermaid/uap_taxonomy.png).
+- **[External podcasts and documentaries](analysis/external-podcasts.md)** — JRE #2416 (Dan Farah, RU dub) with 7 cataloged claims; *Age of Disclosure* 2025 (deferred); 1991 Lazar Tape Russian dub (cross-link to Lazar archive).
+
 ### РУССКИЙ
 
 В репозитории включены три независимых исторических / институциональных исследовательских архива в качестве вспомогательных материалов. Каждый архив самостоятелен и не представлен как сравнение или синтез другого.
@@ -116,6 +127,14 @@ Three independent historical / institutional research archives are included in t
 - **[Архив Интервью Боба Лазара (1989–2026)](bob-lazar-archive/README.md)** — Полный корпус интервью Роберта Лазара по S-4, Элементу 115 и гравитационной силовой установке. Включает 24 транскрипта, поштучный и тематический анализ, каталог по периодам и технические диаграммы.
 - **[Архив Исследований Вадима Черноброва (1988–2017)](chernobrov-archive/README.md)** — Исследовательский корпус Вадима Черноброва (Космопоиск) по экспериментам с машиной времени, гравитационным аномалиям и аномальным зонам. Включает транскрипты, поштучный и тематический анализ, каталог по периодам и избранные книги.
 - **[Анализ Дубна / Элемент 115](dubna-element-115-analysis/README.md)** — Интервью ASRP.media с неразглашённым высокопоставленным представителем Объединённого института ядерных исследований (ОИЯИ), записанное 28 сентября 2021 и опубликованное 9 декабря 2025. Включает сырой транскрипт аудио, дословный EN/RU опубликованный текст, мастер-таблицу утверждений, проверенную историю ОИЯИ, **связку равноправных партнёров Россия + США (ОИЯИ Дубна ↔ LLNL, *Phys. Rev. C* 69, 021601(R) 2004)**, данные Фабрики сверхтяжёлых элементов (2020), аналогию БН-800 / МОКС, гипотезную рамку геологии Казахстана, контекст советских UAP-исследований (SETKA-AN / SETKA-MO) и **9 визуальных схем** (разделение ролей, детективная доска, поток синтеза, хронология США, заявление vs. реальность, hotspots Казахстана, граф связей, хронология 1989–2026, карта аэрокосмоса СССР).
+
+#### Кросс-архивные материалы (корневой уровень)
+
+Темы, охватывающие более одного из трёх архивов, размещены на **уровне корневого репозитория**, а не внутри конкретного архива:
+
+- **[Кросс-архивный синтез](analysis/cross-archive-synthesis.md)** — задокументированные и оспариваемые пересечения Лазара / Черноброва / Дубны по трём темам: элемент 115 / Московий, гравитация и пространство-время, советская аэрокосмическая линия преемственности. Визуально: [`charts/mermaid/cross_archive_links.png`](charts/mermaid/cross_archive_links.png).
+- **[Таксономия происхождения UAP](analysis/uap-taxonomy.md)** — трёхкатегорная классификация происхождения, предложенная Денисом Банченко (межзвёздные / параллельная реальность / темпоральные), и соответствие каждого архива одной или нескольким категориям; ECP-артефакт предварительно помещён в темпоральную категорию как рабочая гипотеза. Визуально: [`charts/mermaid/uap_taxonomy.png`](charts/mermaid/uap_taxonomy.png).
+- **[Внешние подкасты и документалки](analysis/external-podcasts.md)** — JRE #2416 (Дэн Фара, рус. дубляж) с 7 зафиксированными claim-ами; *Эпоха раскрытия* 2025 (отложено); рус. дубляж 1991 Lazar Tape (перекрёстная ссылка в архив Лазара).
 
 ---
 
