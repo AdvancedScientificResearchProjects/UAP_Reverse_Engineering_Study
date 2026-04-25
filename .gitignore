@@ -2,6 +2,7 @@ data/processed/*.npy
 data/processed/*.png
 data/raw/*
 !data/raw/control-images/
+!data/raw/percipient-sketches/
 !data/raw/.gitkeep
 __pycache__/
 *.pyc

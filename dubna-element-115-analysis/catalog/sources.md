@@ -79,7 +79,16 @@
 
 **RU:** Первичный рецензируемый отчёт о синтезе 115 элемента в ОИЯИ Дубна в 2003 г. коллаборацией ОИЯИ–LLNL. В первом эксперименте наблюдалось 4 атома московия. Даёт *реальную* сторону сравнения «заявление Лазара ↔ открытие ОИЯИ».
 
-### 2.4 IUPAC — naming of element 115 as Moscovium (2016) / ИЮПАК — присвоение имени «Московий» элементу 115 (2016)
+### 2.4 Moore (independent, 2025) — Stabilization of Mc-290 for Exotic Matter Applications / Мур (независимое, 2025) — стабилизация Mc-290 для экзотической материи
+
+- Reference: Gregory Cornelius Moore II, *"Stabilization of Muscovium (Element 115, Mc-290) for Exotic Matter Applications"* — independent self-published paper, no peer-reviewed venue. Author email: gregmoore925@gmail.com.
+- Local copy: `<assistant-repo>/.assistant-operator/denis_dump/docs/237267_Stabilization_of_Muscovium_Element_115__Mc_290_for_Exotic_Matter.pdf` (Telegram msg 237267, sent by Denis Banchenko 2026-04-01).
+
+**EN:** Independent (non-peer-reviewed) proposal that ²⁹⁰Mc's natural half-life of ~0.65 s could be extended to ~1.52 s using cryogenic Penning traps + 10 PW laser shell-tuning + a hypothetical "Teslaon field" superconducting matrix, producing negative-energy density (~-1.5×10⁴ J/m³) for theoretical Alcubierre-style warp drive applications. Yield estimated at ~20.4 atoms/day. The author explicitly notes self-taught background and AI-assisted calculations. Relevance to the Lazar narrative: even this aggressive proposal extends Mc-290 to ~1.5 seconds — still NOT a stable isotope and NOT at gram scale. The paper reinforces the published-literature position that *no* method to produce stable Mc has been published; cf. JINR interviewee's own statement that even if stable isotopes existed their quantity would be "negligibly small". Cited in [`../analysis/lazar-dubna-connection.md`](../analysis/lazar-dubna-connection.md) §3.2 (Knapp canvass note).
+
+**RU:** Независимое (нерецензируемое) предложение о том, что естественное время полураспада ²⁹⁰Mc ~0.65 с может быть продлено до ~1.52 с с помощью криогенных ловушек Пеннинга + лазерной настройки 7p1/2 оболочки 10 ПВт импульсами + гипотетического сверхпроводящего матрикса в «теслаоновом поле», производящего плотность отрицательной энергии (~-1.5×10⁴ Дж/м³) для теоретических варп-двигателей в духе Алькубьерре. Производительность оценена ~20.4 атома/день. Автор явно указывает, что является самоучкой и использовал ИИ для расчётов. Связь с нарративом Лазара: даже это агрессивное предложение продлевает Mc-290 до ~1.5 секунды — это всё ещё **не** стабильный изотоп и **не** в граммовых количествах. Статья усиливает позицию опубликованной литературы, что *ни один* метод производства стабильного Mc не был опубликован; ср. собственное заявление представителя ОИЯИ, что даже если стабильные изотопы существовали бы, их количество было бы «ничтожно малым». Цитируется в [`../analysis/lazar-dubna-connection.md`](../analysis/lazar-dubna-connection.md) §3.2 (заметка о опросе Knapp).
+
+### 2.5 IUPAC — naming of element 115 as Moscovium (2016) / ИЮПАК — присвоение имени «Московий» элементу 115 (2016)
 
 - URL: <https://iupac.org> (search "moscovium" / "element 115 naming 2016")
 

@@ -85,6 +85,26 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 
 ---
 
+## 🔗 Cross-archive synthesis / Кросс-архивный синтез
+
+**EN:** This repository contains three sibling research archives — Bob Lazar (1989–2026), Vadim Chernobrov / Kosmopoisk (1988–2017), and Dubna / Element 115 (ASRP.media JINR interview, 2021/2025). The three converge on three overlapping subject-matter themes — **element 115 / moscovium**, **gravitational distortion of space-time**, and the **Soviet aerospace / nuclear lineage** — without claiming that the three figures collaborated or corroborate one another. Full discussion: [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md).
+
+**RU:** Этот репозиторий содержит три родственных исследовательских подархива — Боба Лазара (1989–2026), Вадима Черноброва / «Космопоиск» (1988–2017) и Дубна / Элемент 115 (интервью ОИЯИ для ASRP.media, 2021/2025). Три архива сходятся по трём пересекающимся предметным темам — **элемент 115 / московий**, **гравитационное искажение пространства-времени** и **советская аэрокосмическая / ядерная линия преемственности** — без утверждения того, что три фигуранта сотрудничали или подтверждают друг друга. Полное обсуждение: [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md).
+
+![Cross-archive links / Межархивные связи](diagrams/rendered/cross_archive_links.png)
+
+---
+
+## 🌳 UAP origin taxonomy / Таксономия происхождения UAP
+
+**EN:** Denis Banchenko's three-category origin framework for UAP — **interstellar** (from other star systems), **parallel-reality** (from parallel branches of reality), and **temporal** (from time / time-travelling). The Lazar archive sits in the interstellar branch (Sport Model / S-4 narrative); the Chernobrov archive spans both the parallel-reality branch (anomalous-zone field expeditions — Lukino, Medveditskaya) and the temporal branch (machine-of-time experiments). The artifact under study via the root-repository ECP protocol is **tentatively** placed in the temporal category as a working hypothesis only. Full discussion: [`analysis/uap-taxonomy.md`](analysis/uap-taxonomy.md).
+
+**RU:** Трёхкатегорная классификация происхождения UAP, предложенная Денисом Банченко — **межзвёздные** (из других звёздных систем), **параллельная реальность** (из параллельных веток реальности) и **темпоральные** (из времени / путешественники во времени). Архив Лазара ложится в межзвёздную ветку (нарратив Sport Model / S-4); архив Черноброва охватывает и параллельную ветку (полевые экспедиции в аномальные зоны — Лукино, Медведицкая), и темпоральную (эксперименты с машиной времени). Артефакт, изучаемый по корневому ECP-протоколу, **предварительно** помещён в темпоральную категорию — только как рабочая гипотеза. Полное обсуждение: [`analysis/uap-taxonomy.md`](analysis/uap-taxonomy.md).
+
+![UAP origin taxonomy / Таксономия происхождения UAP](diagrams/rendered/uap_taxonomy.png)
+
+---
+
 ## 🕰 Main timeline 1989–2026 / Основная хронология 1989–2026
 
 ![Main timeline 1989–2026 / Основная хронология 1989–2026](diagrams/rendered/timeline_1989-2026.png)
@@ -112,6 +132,10 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 | Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
 |------------------|----------------------|-------------|-----------------|
 | Master Claims / Мастер-таблица | Every technical claim made in the interview, timestamped / Каждое техническое утверждение из интервью, с таймкодом | [`analysis/MASTER_claims.md`](analysis/MASTER_claims.md) | ✅ Available / Доступно |
+| UAP Taxonomy / Таксономия UAP | Denis's 3-category origin classification (interstellar / parallel / temporal) / Трёхкатегорная классификация Дениса (межзвёздная / параллельная / темпоральная) | [`analysis/uap-taxonomy.md`](analysis/uap-taxonomy.md) | ✅ Available / Доступно |
+| UAP Taxonomy Diagram / Диаграмма таксономии UAP | Visual 3-branch tree with archive coverage / Визуальное 3-ветвистое дерево с покрытием архивов | [`diagrams/uap_taxonomy.mmd`](diagrams/uap_taxonomy.mmd) | ✅ Available / Доступно |
+| Cross-archive synthesis / Кросс-архивный синтез | Lazar ↔ Chernobrov ↔ Dubna shared themes / Общие темы трёх архивов | [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md) | ✅ Available / Доступно |
+| Cross-archive Links Diagram / Диаграмма межархивных связей | Visual graph of shared themes / Визуальный граф общих тем | [`diagrams/cross_archive_links.mmd`](diagrams/cross_archive_links.mmd) | ✅ Available / Доступно |
 | JINR History & Members / ОИЯИ — история и члены | Fact-checked list of member states, founding, 115 discovery timeline / Проверенный список стран-членов, основание, хронология открытия 115 | [`analysis/jinr-facts-and-history.md`](analysis/jinr-facts-and-history.md) | ✅ Available / Доступно |
 | Lazar ↔ Dubna ↔ LLNL / Лазар ↔ Дубна ↔ LLNL | 1989 Lazar claim → 2003 Dubna + LLNL discovery (PRC 2004) / Заявление Лазара 1989 → открытие Дубна + LLNL 2003 (PRC 2004) | [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) | ✅ Available / Доступно |
 | Superheavy Factory / Фабрика сверхтяжёлых | Launched November 2020, 70 Mc atoms in 40 days, ~100 Fl atoms / Запущена ноябрь 2020, 70 атомов Mc за 40 дней, ~100 атомов Fl | [`analysis/superheavy-factory-2020.md`](analysis/superheavy-factory-2020.md) | ✅ Available / Доступно |
@@ -161,6 +185,10 @@ dubna-element-115-analysis/
 │   │                                        тематический анализ, с проверкой фактов
 │   ├── MASTER_claims.md                   every technical claim in the interview
 │   │                                        каждое техническое утверждение из интервью
+│   ├── uap-taxonomy.md                    Denis's 3-category origin classification
+│   │                                        трёхкатегорная классификация происхождения
+│   ├── cross-archive-synthesis.md         Lazar ↔ Chernobrov ↔ Dubna shared themes
+│   │                                        общие темы трёх архивов: Лазар ↔ Чернобров ↔ Дубна
 │   ├── jinr-facts-and-history.md          founding members, current membership, 115 timeline
 │   │                                        страны-основатели, текущие члены, хронология 115
 │   ├── lazar-dubna-connection.md          Lazar 1989 → Dubna+LLNL 2003 → PRC 2004
@@ -180,6 +208,10 @@ dubna-element-115-analysis/
 │   │                                        таблица равноправных партнёров РФ + США
 │   ├── detective_board.mmd                film-style investigation board
 │   │                                        доска расследования в стиле фильма
+│   ├── uap_taxonomy.mmd                   3-branch UAP origin tree with archive coverage
+│   │                                        3-ветвистое дерево происхождения UAP с покрытием архивов
+│   ├── cross_archive_links.mmd            Lazar ↔ Chernobrov ↔ Dubna thematic graph
+│   │                                        тематический граф трёх архивов
 │   ├── element_115_synthesis_flow.mmd     mechanical/chemical flow of 2003 experiment
 │   │                                        механико-химический поток эксперимента 2003
 │   ├── usa_participation_timeline.mmd     USA-specific timeline 1989–2026

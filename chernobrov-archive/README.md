@@ -324,6 +324,13 @@ chernobrov-archive/
 
 ---
 
+## Related archives / Связанные архивы
+
+- **EN:** Cross-archive synthesis: [`../dubna-element-115-analysis/analysis/cross-archive-synthesis.md`](../dubna-element-115-analysis/analysis/cross-archive-synthesis.md) — shared themes across Lazar / Chernobrov / Dubna.
+- **RU:** Кросс-архивный синтез: [`../dubna-element-115-analysis/analysis/cross-archive-synthesis.md`](../dubna-element-115-analysis/analysis/cross-archive-synthesis.md) — общие темы Лазар / Чернобров / Дубна.
+
+---
+
 ## Citation / Цитирование
 
 **EN:** If you use this archive in research, please link back to the repository. This is a working research archive. Corrections and additions welcome via pull request.

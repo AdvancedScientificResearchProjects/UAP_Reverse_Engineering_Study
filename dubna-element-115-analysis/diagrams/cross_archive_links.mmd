@@ -1,0 +1,71 @@
+graph TB
+    classDef lazar fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
+    classDef cherno fill:#fff8e1,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef dubna fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef theme fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
+
+    subgraph L[Lazar archive / Архив Лазара]
+        L1["KLAS-89 interviews<br/>Интервью KLAS-89"]:::lazar
+        L2["S-4 / Area 51<br/>S-4 / Зона 51"]:::lazar
+        L3["Element 115 claim<br/>(stable fuel)<br/>Заявление об элементе 115<br/>(стабильное топливо)"]:::lazar
+        L4["Sport Model craft<br/>Аппарат Sport Model"]:::lazar
+        L5["Gravity A / B<br/>Гравитация A / B"]:::lazar
+    end
+
+    subgraph C[Chernobrov archive / Архив Черноброва]
+        C1["Kosmopoisk<br/>(founded 1980 / 1988)<br/>«Космопоиск»<br/>(основан 1980 / 1988)"]:::cherno
+        C2["«Lovondatr»<br/>time-machine experiment<br/>эксперимент машины времени"]:::cherno
+        C3["Anomalous zones<br/>field expeditions<br/>Аномальные зоны<br/>полевые экспедиции"]:::cherno
+        C4["RKK Energia / MAI<br/>aerospace background<br/>РКК «Энергия» / МАИ<br/>аэрокосмическая база"]:::cherno
+    end
+
+    subgraph D[Dubna archive / Архив Дубны]
+        D1["JINR Dubna<br/>(founded 1956)<br/>ОИЯИ Дубна<br/>(основан 1956)"]:::dubna
+        D2["LLNL collaboration<br/>(²⁴³Am target)<br/>Сотрудничество с LLNL<br/>(мишень ²⁴³Am)"]:::dubna
+        D3["U-400 cyclotron<br/>Циклотрон У-400"]:::dubna
+        D4["SHEF 2020<br/>Фабрика 2020"]:::dubna
+        D5["Moscovium 2016<br/>(IUPAC name)<br/>Московий 2016<br/>(имя ИЮПАК)"]:::dubna
+    end
+
+    T1["Theme 1<br/>Element 115 / Moscovium<br/>Тема 1<br/>Элемент 115 / Московий"]:::theme
+    T2["Theme 2<br/>Time / space-time<br/>Тема 2<br/>Время / пространство-время"]:::theme
+    T3["Theme 3<br/>Soviet aerospace lineage<br/>Тема 3<br/>Советская аэрокосмическая линия"]:::theme
+
+    L1 ==> L2
+    L1 ==> L3
+    L3 ==> L4
+    L3 ==> L5
+
+    C1 ==> C2
+    C1 ==> C3
+    C4 ==> C1
+
+    D3 ==> D1
+    D1 ==> D2
+    D1 ==> D4
+    D2 ==> D5
+    D4 ==> D5
+
+    L3 -.->|"thematic link<br/>тематическая связь"| T1
+    C3 -.->|"thematic link<br/>тематическая связь"| T1
+    D5 -.->|"institutional link<br/>институциональная связь"| T1
+
+    L5 -.->|"thematic link<br/>тематическая связь"| T2
+    C2 -.->|"thematic link<br/>тематическая связь"| T2
+
+    L1 -.->|"thematic link<br/>тематическая связь"| T3
+    C4 -.->|"thematic link<br/>тематическая связь"| T3
+    D1 -.->|"institutional link<br/>институциональная связь"| T3
+
+    linkStyle 0 stroke:#c2185b,stroke-width:3px
+    linkStyle 1 stroke:#c2185b,stroke-width:3px
+    linkStyle 2 stroke:#c2185b,stroke-width:3px
+    linkStyle 3 stroke:#c2185b,stroke-width:3px
+    linkStyle 4 stroke:#f57f17,stroke-width:3px
+    linkStyle 5 stroke:#f57f17,stroke-width:3px
+    linkStyle 6 stroke:#f57f17,stroke-width:3px
+    linkStyle 7 stroke:#1565c0,stroke-width:3px
+    linkStyle 8 stroke:#1565c0,stroke-width:3px
+    linkStyle 9 stroke:#1565c0,stroke-width:3px
+    linkStyle 10 stroke:#1565c0,stroke-width:3px
+    linkStyle 11 stroke:#1565c0,stroke-width:3px

@@ -1,0 +1,39 @@
+graph TB
+    classDef root fill:#fff8e1,stroke:#f57f17,stroke-width:3px,color:#000
+    classDef interstellar fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
+    classDef parallel fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
+    classDef temporal fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef archive fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef ecp fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+
+    ROOT["UAP / ОАП<br/>(base term — replaces НЛО / UFO)<br/>(базовый термин — заменяет НЛО / UFO)<br/>+ AIT framing / + рамка AIT"]:::root
+
+    C1["Interstellar / Межзвёздные<br/>from other star systems<br/>из других звёздных систем"]:::interstellar
+    C2["Parallel-reality / Параллельная реальность<br/>from parallel branches of reality<br/>из параллельных веток реальности"]:::parallel
+    C3["Temporal / Темпоральные<br/>moving in time<br/>двигаются во времени"]:::temporal
+
+    L["Lazar archive / Архив Лазара<br/>S-4 / Sport Model<br/>claimed alien craft<br/>заявленный инопланетный аппарат"]:::archive
+    CH1["Chernobrov archive / Архив Черноброва<br/>anomalous-zone field work<br/>полевая работа в аномальных зонах<br/>Lukino, Medveditskaya<br/>Лукино, Медведицкая"]:::archive
+    CH2["Chernobrov archive / Архив Черноброва<br/>machine-of-time experiments<br/>эксперименты с машиной времени<br/>time-traveller hypothesis<br/>гипотеза путешественника во времени"]:::archive
+    DUBNA["Dubna archive / Архив Дубны<br/>partial — element-115 narrative only<br/>частично — только нарратив об элементе 115"]:::archive
+
+    ECP["ECP artifact / ECP-артефакт<br/>working hypothesis / рабочая гипотеза<br/>'we are tracking an object in time'<br/>«мы следуем во времени объекта»"]:::ecp
+
+    ROOT --> C1
+    ROOT --> C2
+    ROOT --> C3
+
+    C1 --> L
+    C1 -.-> DUBNA
+    C2 --> CH1
+    C3 --> CH2
+    C3 --> ECP
+
+    linkStyle 0 stroke:#c2185b,stroke-width:3px
+    linkStyle 1 stroke:#6a1b9a,stroke-width:3px
+    linkStyle 2 stroke:#1565c0,stroke-width:3px
+    linkStyle 3 stroke:#c2185b,stroke-width:2px
+    linkStyle 4 stroke:#c2185b,stroke-width:1px,stroke-dasharray:5 5
+    linkStyle 5 stroke:#6a1b9a,stroke-width:2px
+    linkStyle 6 stroke:#1565c0,stroke-width:2px
+    linkStyle 7 stroke:#b71c1c,stroke-width:3px
