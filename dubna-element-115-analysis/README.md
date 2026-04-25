@@ -136,6 +136,7 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 | UAP Taxonomy Diagram / Диаграмма таксономии UAP | Visual 3-branch tree with archive coverage / Визуальное 3-ветвистое дерево с покрытием архивов | [`diagrams/uap_taxonomy.mmd`](diagrams/uap_taxonomy.mmd) | ✅ Available / Доступно |
 | Cross-archive synthesis / Кросс-архивный синтез | Lazar ↔ Chernobrov ↔ Dubna shared themes / Общие темы трёх архивов | [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md) | ✅ Available / Доступно |
 | Cross-archive Links Diagram / Диаграмма межархивных связей | Visual graph of shared themes / Визуальный граф общих тем | [`diagrams/cross_archive_links.mmd`](diagrams/cross_archive_links.mmd) | ✅ Available / Доступно |
+| External podcasts and documentaries / Внешние подкасты и документалки | JRE 2416 (Dan Farah), Age of Disclosure 2025, 1991 Lazar Tape Russian dub / JRE 2416 (Дэн Фара), «Эпоха раскрытия» 2025, рус. дубляж 1991 Lazar Tape | [`analysis/external-podcasts.md`](analysis/external-podcasts.md) | ✅ Available / Доступно |
 | JINR History & Members / ОИЯИ — история и члены | Fact-checked list of member states, founding, 115 discovery timeline / Проверенный список стран-членов, основание, хронология открытия 115 | [`analysis/jinr-facts-and-history.md`](analysis/jinr-facts-and-history.md) | ✅ Available / Доступно |
 | Lazar ↔ Dubna ↔ LLNL / Лазар ↔ Дубна ↔ LLNL | 1989 Lazar claim → 2003 Dubna + LLNL discovery (PRC 2004) / Заявление Лазара 1989 → открытие Дубна + LLNL 2003 (PRC 2004) | [`analysis/lazar-dubna-connection.md`](analysis/lazar-dubna-connection.md) | ✅ Available / Доступно |
 | Superheavy Factory / Фабрика сверхтяжёлых | Launched November 2020, 70 Mc atoms in 40 days, ~100 Fl atoms / Запущена ноябрь 2020, 70 атомов Mc за 40 дней, ~100 атомов Fl | [`analysis/superheavy-factory-2020.md`](analysis/superheavy-factory-2020.md) | ✅ Available / Доступно |
@@ -189,6 +190,8 @@ dubna-element-115-analysis/
 │   │                                        трёхкатегорная классификация происхождения
 │   ├── cross-archive-synthesis.md         Lazar ↔ Chernobrov ↔ Dubna shared themes
 │   │                                        общие темы трёх архивов: Лазар ↔ Чернобров ↔ Дубна
+│   ├── external-podcasts.md                external podcasts/documentaries (JRE 2416, Age of Disclosure)
+│   │                                        внешние подкасты/документалки (JRE 2416, Эпоха раскрытия)
 │   ├── jinr-facts-and-history.md          founding members, current membership, 115 timeline
 │   │                                        страны-основатели, текущие члены, хронология 115
 │   ├── lazar-dubna-connection.md          Lazar 1989 → Dubna+LLNL 2003 → PRC 2004
