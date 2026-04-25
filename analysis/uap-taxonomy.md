@@ -133,8 +133,9 @@
 
 ## Bottom navigation / Навигация по архиву
 
-- [Sub-archive root README / Корневой README подархива](../README.md)
-- [Master claims / Мастер-таблица утверждений](../dubna-element-115-analysis/analysis/MASTER_claims.md)
+- [Root repository README / Корневой README репозитория](../README.md)
+- [Dubna sub-archive README / README подархива «Дубна»](../dubna-element-115-analysis/README.md)
+- [Master claims (Dubna) / Мастер-таблица утверждений (Дубна)](../dubna-element-115-analysis/analysis/MASTER_claims.md)
 - [Kazakhstan UAP geological hypothesis / Геологическая гипотеза по UAP в Казахстане](../dubna-element-115-analysis/analysis/kazakhstan-uap-geological.md)
 - [Cross-archive synthesis / Кросс-архивный синтез](cross-archive-synthesis.md)
 - [Lazar archive (interstellar branch) / Архив Лазара (межзвёздная ветка)](../bob-lazar-archive/)

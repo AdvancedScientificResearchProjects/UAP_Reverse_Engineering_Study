@@ -72,5 +72,5 @@
 
 - **Bob Lazar archive / Архив Боба Лазара:** [`../bob-lazar-archive/README.md`](../bob-lazar-archive/README.md)
 - **Chernobrov / Kosmopoisk archive / Архив Черноброва / «Космопоиск»:** [`../chernobrov-archive/README.md`](../chernobrov-archive/README.md)
-- **Dubna / Element 115 analysis / Анализ Дубна / Элемент 115:** [`../README.md`](../README.md)
+- **Dubna / Element 115 analysis / Анализ Дубна / Элемент 115:** [`../dubna-element-115-analysis/README.md`](../dubna-element-115-analysis/README.md)
 - **Cross-archive links diagram / Диаграмма межархивных связей:** [`../charts/mermaid/cross_archive_links.mmd`](../charts/mermaid/cross_archive_links.mmd)
