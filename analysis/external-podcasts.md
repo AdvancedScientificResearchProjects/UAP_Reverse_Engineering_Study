@@ -58,7 +58,7 @@
 ## 3. 1991 Lazar Tape (Russian dub) / «Lazar Tape» 1991 (русский дубляж)
 
 - **Source / Источник:** Telegram message id=237323 from Denis Banchenko, 2026-04-01
-- **Belongs to / Принадлежит:** Bob Lazar archive (paired with English original) / Архив Боба Лазара (паркой к английскому оригиналу)
+- **Belongs to / Принадлежит:** Bob Lazar archive (paired with English original) / Архив Боба Лазара (парный к английскому оригиналу)
 - **Transcript / Транскрипт:** [`../bob-lazar-archive/transcripts/10b_1991_LazarTape_RussianDub.txt`](../bob-lazar-archive/transcripts/10b_1991_LazarTape_RussianDub.txt)
 - **Catalog entry / Запись каталога:** `bob-lazar-archive/catalog/interviews.md` row 10
 
