@@ -29,3 +29,5 @@ chernobrov-archive/ocr-pipeline/
 dubna-element-115-analysis/raw/*.mp3
 dubna-element-115-analysis/raw/*.mp4
 dubna-element-115-analysis/raw/*.wav
+dubna-element-115-analysis/raw/external/*.mp3
+dubna-element-115-analysis/raw/external/*.mp4

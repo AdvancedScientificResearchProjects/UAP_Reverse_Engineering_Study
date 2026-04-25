@@ -19,7 +19,28 @@
 
 **RU:** Дэн Фара — продюсер документального фильма 2025 года *The Age of Disclosure*. Его выступление на Joe Rogan Experience #2416 в 2025 году — это длинноформатное интервью, сопровождающее выпуск документалки. Русскоязычная дублированная версия прислана Денисом 1 апреля как первичный материал вместе с самой документалкой.
 
-**Key claims / Ключевые утверждения:** *(to be extracted from the transcript and added here once transcription completes / будут извлечены из транскрипта и добавлены сюда после завершения транскрипции)*
+### Key claims by Dan Farah (transcript extracts) / Ключевые утверждения Дэна Фары (выдержки из транскрипта)
+
+**EN:** The following are direct extracts from the Russian-dub transcript, with the original timestamp. They are Dan Farah's claims as conveyed in the dub — not independent corroboration, and not endorsed by this archive. Cited as documentation of the public-disclosure narrative environment around the 2025 documentary release.
+
+**RU:** Ниже — прямые выдержки из русского дубляжа с указанием таймкода оригинала. Это утверждения Дэна Фары в дубляже — не независимое подтверждение и не позиция данного архива. Цитируется как документация публичного нарратива о disclosure на момент выхода документалки 2025 года.
+
+| # | Time / Время | Claim (paraphrased) / Утверждение (перефразировано) | Relevance to this archive / Релевантность для архива |
+|---|:---:|---|---|
+| F1 | [02:47] | Lazar's story (per Corbell documentary) is what brought Farah back into UAP work / История Лазара (по документалке Корбелла) — то, что вернуло Фару в UAP-тематику | Anchors Lazar as a continuing primary reference point in 2025 disclosure / Закрепляет Лазара как ключевой референс в disclosure 2025 |
+| F2 | [15:31] | Lazar's "humans as containers" is one of the most disturbing claims; Farah re-interprets as "containers for souls" / «Люди как контейнеры» Лазара — одно из самых тревожных утверждений; Фара переинтерпретирует как «контейнеры для душ» | Cross-ref `bob-lazar-archive/transcripts/10_1991_The_Lazar_Tape.txt` (briefing-document narrative) / Перекрёстно — то же |
+| F3 | [17:20]–[17:39] | Senate Intelligence + Armed Services Committees + NSC officials convinced Farah USA recovered "dozens, dozens of crashed craft of non-human origin" since 1940s, with reverse-engineering successes / Сенатские комитеты по разведке и вооружённым силам + чиновники NSC убедили Фару, что США восстановили «десятки, десятки разбившихся кораблей нечеловеческого происхождения» с 1940-х, с успехами в обратной инженерии | Backdrop for the LLNL ↔ Dubna 2003 collaboration narrative; Farah's sources are not named / Фон для нарратива коллаборации LLNL ↔ Дубна 2003; источники Фары не названы |
+| F4 | [17:47]–[17:53] | Same activity in China and Russia; described as «атомная гонка на стероидах» / "atomic race on steroids" / Та же активность в Китае и России; «атомная гонка на стероидах» | Geopolitical framing of Russia + USA collaboration on element 115 (see [`lazar-dubna-connection.md`](lazar-dubna-connection.md) §4) / Геополитическая рамка для коллаборации Россия + США по 115 элементу |
+| F5 | [01:54]–[01:58] | $1+ trillion estimated total spend on the program since 1940s | Cited claim, no source given. Out-of-scope for this archive (no 115-specific implication) / Цитируемая оценка без источника. Вне scope архива (нет специфики по 115) |
+| F6 | [81:07]–[81:24] | Description of propulsion systems Farah heard from sources in 2025 is **«точно такое же»** as Lazar's 1989 description: element 115 + gravity-bending field + "ball going through a soft cushion" analogy / Описание движительных систем, которое Фара услышал в 2025, **«точно такое же»**, как у Лазара 1989: элемент 115 + поле, искажающее гравитацию + аналогия «шар, проходящий через мягкую подушку» | Direct overlap with Lazar §3 (gravity A/B propulsion); see `bob-lazar-archive/analysis/MASTER_technical_claims.md` §3. Independence question (Lazar 1989 → Farah's sources 2025): Farah does NOT specify whether his sources were Lazar-influenced or independent / Прямое перекрытие с §3 Лазара; вопрос независимости источников Фары — не уточняется |
+| F7 | [115:30]–[115:50] | Defense contractors that absorbed earlier reverse-engineering work (40s–50s small contractors) include **Lockheed Martin, Northrop Grumman, Raytheon** / Оборонные подрядчики, поглотившие раннюю реверс-инженерию (мелкие подрядчики 40–50-х): **Lockheed Martin, Northrop Grumman, Raytheon** | Industrial-pipeline framing; not specific to element 115; relevant for the broader USA-side reverse-engineering claim chain / Индустриальная рамка; не специфично для 115; релевантно для более широкой цепи утверждений о реверс-инженерии в США |
+
+### Methodological notes / Методологические замечания
+
+- **EN:** This is a Russian dub of an English-language podcast — translation introduces a layer of paraphrase. Quotation marks above are around English-source paraphrases inferred from the dub; for verbatim citations consult the original English-language podcast.
+- **EN:** Farah is the producer of *The Age of Disclosure* and is promoting the documentary; the appearance is consistent with disclosure-advocacy framing. Source attribution ("Senate Intelligence Committee members") is by Farah without named individuals.
+- **RU:** Это русский дубляж англоязычного подкаста — перевод вносит слой парафраза. Кавычки выше — вокруг англоязычных парафраз, выведенных из дубляжа; для дословного цитирования следует обращаться к оригиналу подкаста.
+- **RU:** Фара — продюсер документалки *The Age of Disclosure* и продвигает её; выступление согласуется с рамкой disclosure-адвокации. Атрибуция источников («члены Сенатского комитета по разведке») идёт от Фары без указания конкретных персон.
 
 ---
 
