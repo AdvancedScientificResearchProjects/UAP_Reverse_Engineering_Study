@@ -6,6 +6,7 @@ data/raw/*
 !data/raw/.gitkeep
 __pycache__/
 *.pyc
+.venv/
 pipeline/.venv/
 
 # Chernobrov archive: exclude raw binaries, derived chunks, and third-party sources
