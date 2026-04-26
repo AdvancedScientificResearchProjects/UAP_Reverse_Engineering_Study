@@ -1,0 +1,51 @@
+flowchart LR
+    classDef person fill:#fff8e1,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef nuclear fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+    classDef space fill:#bbdefb,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef plasma fill:#c8e6c9,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef defence fill:#d1c4e9,stroke:#311b92,stroke-width:2px,color:#000
+    classDef oversight fill:#ffe0b2,stroke:#e65100,stroke-width:3px,color:#000
+
+    subgraph N[Nuclear / Ядерные]
+        LANL["LANL — Los Alamos<br/>Лос-Аламос"]:::nuclear
+        KCNSC["Kansas City NSC"]:::nuclear
+        DOE["⚛ DoE / Минэнерго США<br/>Department of Energy"]:::oversight
+    end
+
+    subgraph S[Space / Космические]
+        JPL["NASA JPL<br/>Jet Propulsion Lab"]:::space
+        CALTECH["Caltech<br/>(JPL parent / родитель JPL)"]:::space
+    end
+
+    subgraph P[Plasma / Plasma fusion / Плазма]
+        MIT["MIT Plasma Science &<br/>Fusion Center"]:::plasma
+        IFES["Institute For Exotic Sciences"]:::plasma
+    end
+
+    subgraph D[Defence / Оборона]
+        AFRL["AFRL — Air Force<br/>Research Lab"]:::defence
+        NOVA["Novarti<br/>(MA defense contractor)"]:::defence
+    end
+
+    subgraph O[Federal oversight / Федеральный надзор]
+        FBI["🟠 FBI<br/>Kash Patel<br/>19 Apr 2026"]:::oversight
+        CARDILLO["👤 Robert Cardillo<br/>ex-NGA director<br/>'Gabriella Rev A'"]:::oversight
+    end
+
+    DOE -.->|stewards / курирует| LANL
+    DOE -.->|stewards / курирует| KCNSC
+    CALTECH -->|operates / управляет| JPL
+
+    LANL --- |2 cases| OBS
+    JPL --- |3 cases| OBS
+    MIT --- |1 case| OBS
+    AFRL --- |1 case| OBS
+    CALTECH --- |1 case| OBS
+    KCNSC --- |1 case| OBS
+    IFES --- |1 case| OBS
+    NOVA --- |1 case| OBS
+
+    OBS["🔍 11 deaths / disappearances<br/>11 смертей / исчезновений<br/>2022 — 2026"]:::person
+
+    OBS --> FBI
+    OBS -.->|analyzed by / анализируется| CARDILLO

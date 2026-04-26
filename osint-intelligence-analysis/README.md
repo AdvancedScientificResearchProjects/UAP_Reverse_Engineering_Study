@@ -51,6 +51,42 @@
 
 ---
 
+## 🗺 Visual overview / Визуальный обзор
+
+### Signature classification / Классификация сигнатур
+
+**EN:** Four operational classes from "stable nonlinear" (well-known physics) through "transient" and "self-organizing" up to "anomalous (model-defying)" — the rightmost class is where genuine new-physics candidates sit, but only after the validation pipeline confirms reproducibility.
+
+**RU:** Четыре операционных класса — от «стабильно нелинейных» (хорошо известная физика) через «переходные» и «самоорганизующиеся» до «аномальных (вне модели)» — кандидаты на реально новую физику живут в правом классе, но только после прохождения конвейера валидации.
+
+![Signature classification / Классификация сигнатур](diagrams/rendered/signature_classification.png)
+
+### Validation pipeline / Конвейер валидации
+
+**EN:** Seven sequential steps feeding into a 5-criteria acceptance gate. All five must hold for the observation to be promoted to "new physical regime"; common error modes that fail the gate are shown on the side.
+
+**RU:** Семь последовательных шагов сходятся к воротам приёмки из 5 критериев. Все пять должны выполняться, чтобы наблюдение было повышено до «нового физического режима»; типичные ошибки, проваливающие ворота, показаны сбоку.
+
+![Validation pipeline / Конвейер валидации](diagrams/rendered/validation_pipeline.png)
+
+### Five anomaly cases / Пять кейсов аномалий
+
+**EN:** Five real experimental cases (nanosecond plasma, laser breakdown, dielectric-barrier discharge, pulse-power solid-state, RF-microwave) — each with the setup, the observed anomalous signature, and the key insight extracted.
+
+**RU:** Пять реальных экспериментальных кейсов (нс-плазма, лазерный пробой, диэлектрический барьерный разряд, pulse-power для твёрдого тела, RF-микроволны) — каждый с установкой, наблюдаемой аномальной сигнатурой и ключевым выводом.
+
+![Five anomaly cases / Пять кейсов аномалий](diagrams/rendered/anomaly_cases.png)
+
+### Methodology application across tracks / Применение методологии по трекам
+
+**EN:** How the OSINT methodology validates each data-bearing sub-archive: Track 4 (Dubna / Element 115) is the positive control — it ran the full pipeline cleanly; Track 2 (Lazar) fails 5 of 5 criteria except "Z=115 exists" which is standard physics; Track 1 (ECP artifact) has compromised blinding (textbook error mode 3); Track 3 (Chernobrov) and Track 6 (people-cluster) have validation incomplete.
+
+**RU:** Как методология OSINT валидирует каждый подархив с данными: Трек 4 (Дубна / Элемент 115) — положительный контроль, прошёл конвейер чисто; Трек 2 (Лазар) проваливает 5 из 5 критериев, кроме «Z=115 существует» (это стандартная физика); Трек 1 (ECP-артефакт) — нарушенное ослепление (типичная ошибка 3); Треки 3 (Чернобров) и 6 (кластер людей) — валидация не завершена.
+
+![Methodology application / Применение методологии](diagrams/rendered/methodology_application.png)
+
+---
+
 ## Sections / Разделы
 
 ### 1. Signature analysis methodology / Методология анализа сигнатур

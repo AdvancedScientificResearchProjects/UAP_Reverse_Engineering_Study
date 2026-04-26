@@ -60,6 +60,20 @@
 
 ---
 
+## Methodology and human-impact tracks / Методологический и человеко-импактный треки
+
+**EN:** Two further tracks were added to the repository in late April 2026 and are documented at root level alongside this synthesis:
+
+- **Track 5 — OSINT + Intelligence Analysis** (`osint-intelligence-analysis/`): not data, but the analytical lens. Defines what a *signature* is, what a *threshold* is, and the 7-step / 5-criteria validation pipeline by which the data in Tracks 2–4 and Track 6 is read. The Dubna / Element 115 archive serves as the methodology's positive control (the validation pipeline ran cleanly there). The Lazar archive fails 5 of 5 criteria except for the trivially-met "Z=115 exists". The ECP artifact study (Track 1) has acknowledged compromised blinding — textbook error mode #3 (mixed processes). See [`../osint-intelligence-analysis/README.md`](../osint-intelligence-analysis/README.md).
+- **Track 6 — People analysis** (`people-analysis/`): the cluster of 11 US scientist deaths/disappearances at LANL / NASA JPL / MIT Plasma / AFRL / Caltech / Kansas City NSC / Institute For Exotic Sciences / Novarti, consolidated by FBI Director Kash Patel on 19 April 2026. This track does not concern the UAP object itself but the **human-impact field around the reverse-engineering programme** — observers, contractors, ex-DoE staff. It enters this synthesis as a fourth shared theme (federal-investigation lineage), and is also analysed in the UAP origin taxonomy as a *separate class of phenomenon* (human-impact, not UAP-origin). See [`../people-analysis/README.md`](../people-analysis/README.md) and [`uap-taxonomy.md`](uap-taxonomy.md).
+
+**RU:** В конце апреля 2026 в репозитории появились ещё два трека, задокументированные на корневом уровне рядом с этим синтезом:
+
+- **Трек 5 — OSINT и разведывательный анализ** (`osint-intelligence-analysis/`): не данные, а аналитическая оптика. Определяет, что такое *сигнатура*, что такое *порог*, и фиксирует 7-шаговый конвейер с 5 критериями приёмки, через который читаются данные Треков 2–4 и Трека 6. Архив Дубны / Элемента 115 — положительный контроль методологии (валидационный конвейер пройден чисто). Архив Лазара проваливает 5 из 5 критериев, кроме тривиально выполненного «Z=115 существует». Исследование ECP-артефакта (Трек 1) фиксирует нарушенное ослепление — типичную ошибку №3 (смешение процессов). См. [`../osint-intelligence-analysis/README.md`](../osint-intelligence-analysis/README.md).
+- **Трек 6 — Анализ людей** (`people-analysis/`): кластер из 11 смертей/исчезновений учёных США в LANL / NASA JPL / MIT Plasma / AFRL / Caltech / Kansas City NSC / Институте экзотических наук / Novarti, консолидированный директором ФБР Кэшем Пателем 19 апреля 2026. Этот трек посвящён не самому объекту НАЯ, а **полю человеческих последствий программы реверс-инжиниринга** — наблюдатели, подрядчики, бывшие сотрудники DoE. В синтезе он входит четвёртой общей темой (линия федерального расследования), а в таксономии происхождения НАЯ рассматривается как *отдельный класс явлений* (человеческий импакт, а не происхождение НАЯ). См. [`../people-analysis/README.md`](../people-analysis/README.md) и [`uap-taxonomy.md`](uap-taxonomy.md).
+
+---
+
 ## What this archive does NOT claim / Что этот архив НЕ утверждает
 
 **EN:** This synthesis identifies overlapping themes only. It does **not** claim that Lazar, Chernobrov, and the JINR interviewee collaborated, knew each other, or operated within a shared programme. It does **not** claim that any one figure's testimony corroborates another's. Each archive remains independent, fact-checked on its own terms, and contested on its own terms. The convergences listed above are subject-matter convergences — same target object class, same conceptual physics topic, same historical substrate — and nothing more. Any reading that treats these convergences as mutual confirmation goes beyond what the source documents support.
@@ -70,7 +84,11 @@
 
 ## Navigation / Навигация
 
-- **Bob Lazar archive / Архив Боба Лазара:** [`../bob-lazar-archive/README.md`](../bob-lazar-archive/README.md)
-- **Chernobrov / Kosmopoisk archive / Архив Черноброва / «Космопоиск»:** [`../chernobrov-archive/README.md`](../chernobrov-archive/README.md)
-- **Dubna / Element 115 analysis / Анализ Дубна / Элемент 115:** [`../dubna-element-115-analysis/README.md`](../dubna-element-115-analysis/README.md)
+- **Bob Lazar archive (Track 2) / Архив Боба Лазара (Трек 2):** [`../bob-lazar-archive/README.md`](../bob-lazar-archive/README.md)
+- **Chernobrov / Kosmopoisk archive (Track 3) / Архив Черноброва / «Космопоиск» (Трек 3):** [`../chernobrov-archive/README.md`](../chernobrov-archive/README.md)
+- **Dubna / Element 115 analysis (Track 4) / Анализ Дубна / Элемент 115 (Трек 4):** [`../dubna-element-115-analysis/README.md`](../dubna-element-115-analysis/README.md)
+- **OSINT + Intelligence Analysis (Track 5) / OSINT и разведывательный анализ (Трек 5):** [`../osint-intelligence-analysis/README.md`](../osint-intelligence-analysis/README.md)
+- **People analysis (Track 6) / Анализ людей (Трек 6):** [`../people-analysis/README.md`](../people-analysis/README.md)
+- **UAP origin taxonomy / Таксономия происхождения НАЯ:** [`uap-taxonomy.md`](uap-taxonomy.md)
+- **External podcasts / Внешние подкасты:** [`external-podcasts.md`](external-podcasts.md)
 - **Cross-archive links diagram / Диаграмма межархивных связей:** [`../charts/mermaid/cross_archive_links.mmd`](../charts/mermaid/cross_archive_links.mmd)

@@ -103,6 +103,14 @@
 
 ---
 
+## 4b. Adjacent class — human-impact (NOT a UAP-origin category) / Смежный класс — человеческий импакт (НЕ категория происхождения НАЯ)
+
+**EN:** The 11-scientists cluster (`people-analysis/`) is documented in this repository but **does not** belong to the three UAP origin categories above. It is an **adjacent class**: the human-impact field that surrounds the UAP-reverse-engineering programme — observers, contractors, ex-DoE staff, lab personnel. The eleven figures are not UAP themselves; they are people whose deaths or disappearances have been consolidated by the FBI (announcement: Director Kash Patel, 19 April 2026) as one coordinated investigation. This class is recorded here so that the taxonomy is honest about the **scope distinction**: the UAP origin question (Section 3) and the human-impact question (this 4b) are separate research objects, even when they intersect at the same institutional sites (LANL, NASA JPL, MIT Plasma, AFRL).
+
+**RU:** Кластер из 11 учёных (`people-analysis/`) задокументирован в репозитории, но **не относится** к трём категориям происхождения НАЯ выше. Это **смежный класс**: поле человеческих последствий, окружающее программу реверс-инжиниринга НАЯ — наблюдатели, подрядчики, бывшие сотрудники DoE, персонал лабораторий. Одиннадцать фигурантов — не НАЯ сами по себе; это люди, смерти и исчезновения которых консолидированы ФБР (объявление: директор Кэш Патель, 19 апреля 2026) в одно скоординированное расследование. Этот класс зафиксирован здесь, чтобы таксономия честно отражала **различие областей**: вопрос происхождения НАЯ (раздел 3) и вопрос человеческого импакта (этот раздел 4b) — разные исследовательские объекты, даже если они пересекаются на одних и тех же институциональных площадках (ЛАНЛ, NASA JPL, MIT Plasma, AFRL).
+
+---
+
 ## 5. ECP artifact placement / Размещение ECP-артефакта
 
 **EN:** The artifact under study via the root-repository protocol [`../experiments/protocol_ecp.md`](../experiments/protocol_ecp.md) is, at the time of writing, **tentatively placed in category 3.3 (temporal)**. The placement rests on a single source — Denis's voice-message phrasing «*мы следуем во времени объекта*» — and on the design choice to direct percipient sessions toward temporal-navigation signatures rather than interstellar or interdimensional ones. The placement is a **working hypothesis only**. It will be revisited if and when ECP session data, instrumented assays, or external collaboration data force a re-classification. No commitment is made here that the artifact is in fact temporal in origin.

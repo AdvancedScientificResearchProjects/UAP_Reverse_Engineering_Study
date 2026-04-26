@@ -1,0 +1,27 @@
+flowchart LR
+    classDef method fill:#fff3e0,stroke:#e65100,stroke-width:3px,color:#000
+    classDef track fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef pos fill:#c8e6c9,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef partial fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef weak fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+    classDef neut fill:#e0e0e0,stroke:#424242,stroke-width:2px,color:#000
+
+    M["📡 OSINT methodology<br/>7-step pipeline + 5 criteria<br/>Методология OSINT"]:::method
+
+    T1["Track 1<br/>ECP artifact study<br/>Артефакт UAP-FRAG-001"]:::track
+    T2["Track 2<br/>Bob Lazar archive<br/>Архив Лазара"]:::track
+    T3["Track 3<br/>Chernobrov archive<br/>Архив Черноброва"]:::track
+    T4["Track 4<br/>Dubna / Element 115<br/>Дубна / 115 элемент"]:::track
+    T6["Track 6<br/>People analysis<br/>Анализ людей"]:::track
+
+    M --> T1
+    M --> T2
+    M --> T3
+    M --> T4
+    M --> T6
+
+    T1 --> R1["⚠ Compromised blinding<br/>= textbook error mode 3<br/>(mixed processes)<br/>методологическая проблема<br/>известна и зафиксирована"]:::partial
+    T2 --> R2["❌ Lazar claims fail<br/>5/5 criteria except<br/>'Z=115 exists'<br/>(which is standard physics)<br/>заявления Лазара не<br/>проходят валидацию"]:::weak
+    T3 --> R3["⚠ Anomalous-zone data —<br/>multi-channel verification<br/>+ repeatability incomplete<br/>проверка не завершена"]:::partial
+    T4 --> R4["✅ Positive control —<br/>full pipeline run cleanly<br/>(JINR+LLNL → PRC 2004)<br/>положительный контроль"]:::pos
+    T6 --> R6["🔍 Cluster validation<br/>(threshold? scale? signature?)<br/>analysis ongoing<br/>анализ продолжается"]:::neut

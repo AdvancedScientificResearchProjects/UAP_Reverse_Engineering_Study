@@ -1,0 +1,39 @@
+flowchart TB
+    classDef lab fill:#bbdefb,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef disappeared fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef killed fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+    classDef died fill:#e1bee7,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef found fill:#d7ccc8,stroke:#3e2723,stroke-width:2px,color:#000
+
+    LANL["🏢 Los Alamos National Lab<br/>Лос-Аламос (LANL)"]:::lab
+    JPL["🏢 NASA JPL<br/>Jet Propulsion Lab"]:::lab
+    MIT["🏢 MIT Plasma Science &<br/>Fusion Center<br/>МТИ Плазма"]:::lab
+    AFRL["🏢 Air Force Research Lab<br/>AFRL"]:::lab
+    CALTECH["🏢 Caltech<br/>Калифорнийский ИТ"]:::lab
+    KCNSC["🏢 Kansas City National<br/>Security Campus"]:::lab
+    IFES["🏢 Institute For<br/>Exotic Sciences (Alabama)"]:::lab
+    NOVA["🏢 Novarti<br/>(Massachusetts)"]:::lab
+
+    P1["Cassias 06.2025<br/>disappeared / исчезла"]:::disappeared
+    P2["Chavez 05.2025<br/>disappeared / исчез"]:::disappeared
+    P3["Hassen-Tores 2025<br/>disappeared / исчезла"]:::disappeared
+    P4["Maiwald<br/>died unclear / умер"]:::died
+    P5["Higgs<br/>died unclear / умер"]:::died
+    P6["McCasland 02.2026<br/>disappeared / исчез"]:::disappeared
+    P7["Loureiro 12.2025<br/>killed (suspect) / убит"]:::killed
+    P8["Grillmar 02.2026<br/>shot at home / застрелен"]:::killed
+    P9["Garcia 2025<br/>disappeared / исчез"]:::disappeared
+    P10["Eskridge 2022<br/>died unclear / умерла"]:::died
+    P11["Thomas<br/>found dead in lake<br/>тело в озере"]:::found
+
+    LANL --> P1
+    LANL --> P2
+    JPL --> P3
+    JPL --> P4
+    JPL --> P5
+    AFRL --> P6
+    MIT --> P7
+    CALTECH --> P8
+    KCNSC --> P9
+    IFES --> P10
+    NOVA --> P11

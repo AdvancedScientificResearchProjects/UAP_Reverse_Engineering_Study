@@ -20,6 +20,52 @@ A dedicated research sub-archive documenting, with public-source provenance only
 
 **RU:** Этот архив **НЕ** делает утверждений о причинах смертей, исчезновений или мотивах. Он фиксирует кластер по публично задокументированным источникам, институциональные аффилиации каждого фигуранта и существование и периметр расследования ФБР и аналитической рамки Кардилло, в которых одиннадцать случаев трактуются как скоординированное множество.
 
+---
+
+## 🗺 Visual overview / Визуальный обзор
+
+### Institutional cluster map / Карта учреждений
+
+**EN:** Eight institutions, eleven cases. Status colour-coded: yellow = disappeared, red = killed (suspect named), purple = died unclear, brown = body found without violence.
+
+**RU:** Восемь учреждений, одиннадцать случаев. Статусы цветом: жёлтый — исчез, красный — убит (подозреваемый известен), фиолетовый — умер неясно, коричневый — тело найдено без признаков насилия.
+
+![Institutional cluster map / Карта учреждений](diagrams/rendered/institutional_cluster_map.png)
+
+### Timeline 2022–2026 / Хронология 2022–2026
+
+**EN:** All eleven events on the time axis. The 19 April 2026 FBI consolidation is the rightmost column — it converts a scatter of independent cases into one coordinated investigation.
+
+**RU:** Все одиннадцать событий на оси времени. Консолидация ФБР 19 апреля 2026 — крайняя справа колонка — превращает разрозненные дела в единое скоординированное расследование.
+
+![Timeline 2022–2026 / Хронология 2022–2026](diagrams/rendered/timeline_2022_2026.png)
+
+### Affiliation graph / Граф аффилиаций
+
+**EN:** Institutions grouped into four classes (nuclear / space / plasma / defence). DoE stewards LANL and Kansas City NSC; Caltech operates JPL. The 11 deaths/disappearances flow into the FBI consolidated investigation and the Cardillo analytical framework.
+
+**RU:** Учреждения сгруппированы в четыре класса (ядерные / космические / плазма / оборона). DoE курирует LANL и Kansas City NSC; Caltech управляет JPL. 11 смертей/исчезновений втекают в консолидированное расследование ФБР и в аналитическую рамку Кардилло.
+
+![Affiliation graph / Граф аффилиаций](diagrams/rendered/affiliation_graph.png)
+
+### Investigation status breakdown / Разбивка по статусу расследования
+
+**EN:** 5 disappeared without body, 2 killed with named suspect, 3 died of unclear causes, 1 found dead without signs of violence.
+
+**RU:** 5 исчезли без тела, 2 убиты с известным подозреваемым, 3 умерли по неясным причинам, 1 найден мёртвым без признаков насилия.
+
+![Investigation status / Разбивка по статусу](diagrams/rendered/investigation_status.png)
+
+### Cardillo's "Gabriella Rev A" framework / Рамка «Gabriella Rev A» Кардилло
+
+**EN:** Robert Cardillo's analytical framework applied to the same eleven cases — four pillars (multifactor analytics, cluster analysis, anomaly detection, scenario modelling) feeding a hypothesis-space output, NOT a single-cause attribution.
+
+**RU:** Аналитическая рамка Роберта Кардилло применена к тем же одиннадцати случаям — четыре столпа (мультифакторная аналитика, кластерный анализ, поиск аномалий, сценарное моделирование) дают выход в виде пространства гипотез, а НЕ единичной атрибуции.
+
+![Cardillo's Gabriella Rev A framework / Рамка Кардилло «Gabriella Rev A»](diagrams/rendered/cardillo_gabriella_framework.png)
+
+---
+
 **Status legend in tables / Легенда статусов в таблицах:**
 
 | Symbol / Символ | Meaning / Значение |

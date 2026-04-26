@@ -1,0 +1,29 @@
+flowchart LR
+    classDef case fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef sig fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+    classDef key fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+
+    C1S["⚡ Case 1<br/>Nanosecond plasma in atmospheric gas<br/>~5–20 ns pulses, tens of kV, air/N₂"]:::case
+    C1A["multi-pulse EM response<br/>narrow spectral lines<br/>optics delayed vs EM"]:::sig
+    C1K["🔑 plasma forms in steps —<br/>fast electrons, slow ions"]:::key
+    C1S --> C1A --> C1K
+
+    C2S["⚡ Case 2<br/>Laser-induced breakdown<br/>fs/ns laser focused in air or material"]:::case
+    C2A["filamentation (line not point)<br/>self-sustaining channel<br/>continuum + narrow lines"]:::sig
+    C2K["🔑 energy not where you put it —<br/>self-focusing, nonlinear optics"]:::key
+    C2S --> C2A --> C2K
+
+    C3S["⚡ Case 3<br/>Pulsing dielectric-barrier discharge<br/>pulse train, ns intervals"]:::case
+    C3A["pulse 1: weak, pulse 2: stronger<br/>same channels<br/>chaos → structure"]:::sig
+    C3K["🔑 system has memory —<br/>residual ionization, surface charge"]:::key
+    C3S --> C3A --> C3K
+
+    C4S["⚡ Case 4<br/>Pulse-power + solid material<br/>ns current through material"]:::case
+    C4A["conductivity jump (low → high)<br/>delay before effect<br/>noisy spike pattern"]:::sig
+    C4K["🔑 microbreakdowns, local heating,<br/>phase transitions"]:::key
+    C4S --> C4A --> C4K
+
+    C5S["⚡ Case 5<br/>RF/microwave + plasma/material<br/>short microwave pulses"]:::case
+    C5A["reflection ≠ input<br/>new frequencies generated<br/>each pulse different"]:::sig
+    C5K["🔑 nonlinear medium,<br/>property modulation"]:::key
+    C5S --> C5A --> C5K
