@@ -259,10 +259,13 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 **RU:** **Методологический слой** хаба. Этот трек **не содержит** первичных наблюдательных данных — в нём аналитическая оптика: анализ сигнатур сигналов, классификация аномалий и конвейер валидации, отделяющий «обычную нелинейную физику» от «действительно нового физического режима»; показано, как эта оптика применяется к трекам с данными (Лазар, Чернобров, Дубна / Элемент 115, анализ людей) и к ECP-артефакту Трека 1. Включает 4 аналитических файла (методология сигнатур, классификация аномалий, конвейер валидации, применение к UAP).
 
 - Analysis files / Аналитических файлов: 4
+- Diagrams / Диаграмм: 4 (signature classification · validation pipeline · 5 anomaly cases · methodology application across tracks)
 - Coverage / Покрытие: applied to Tracks 1, 2, 3, 4, 6 / применяется к Трекам 1, 2, 3, 4, 6
 - Source / Источник: structured ChatGPT working dialogue captured 2026-04-26 / структурированный рабочий диалог ChatGPT, захвачено 26.04.2026
 
 **Lead file / Главный файл:** [`osint-intelligence-analysis/README.md`](osint-intelligence-analysis/README.md)
+
+![OSINT validation pipeline / Конвейер валидации OSINT](osint-intelligence-analysis/diagrams/rendered/validation_pipeline.png)
 
 ---
 
@@ -273,10 +276,15 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 **RU:** Кластер из **одиннадцати (11) американских учёных** из ведущих национальных лабораторий (ядерная, космическая, плазменная и «экзотическая» сферы), погибших или пропавших без вести с 2022 года, который **ФБР под руководством директора Кэша Пателя** объявило **19 апреля 2026 года** объектом единого скоординированного расследования. Архив фиксирует кластер, документированные институциональные аффилиации каждого фигуранта (AFRL, NASA JPL, Aerojet Rocketdyne, Kansas City National Security Campus, Лос-Аламос, Caltech, Центр плазмы и термоядерного синтеза MIT, Institute for Exotic Sciences и др.), периметр расследования ФБР и аналитическую рамку «Gabriella Rev A» Роберта Кардилло. Архив **не** делает утверждений о причинах смертей или мотивах — только публичные источники.
 
 - People profiled / Фигурантов: 11
-- FBI consolidation date / Дата консолидации ФБР: 2026-04-19
+- Per-person files / Файлов по фигурантам: 11
+- Diagrams / Диаграмм: 5 (institutional cluster map · timeline 2022–2026 · affiliation graph · investigation status breakdown · Cardillo Gabriella framework)
+- Status breakdown / Статусы: 5 disappeared · 2 killed (suspect named) · 3 died unclear · 1 found dead in lake / 5 исчезли · 2 убиты (подозреваемый известен) · 3 умерли неясно · 1 найден в озере
+- FBI consolidation date / Дата консолидации ФБР: 2026-04-19 (Kash Patel on Fox News *Sunday Morning Futures* with Maria Bartiromo / Кэш Патель на Fox News с Марией Бартиромо)
 - Frameworks / Рамки: FBI investigation, Cardillo "Gabriella Rev A" / расследование ФБР, «Gabriella Rev A» Кардилло
 
 **Lead file / Главный файл:** [`people-analysis/README.md`](people-analysis/README.md)
+
+![People analysis — institutional cluster map / Карта учреждений](people-analysis/diagrams/rendered/institutional_cluster_map.png)
 
 ---
 
@@ -354,10 +362,17 @@ UAP_Reverse_Engineering_Study/
 │   └── diagrams/rendered/             # 9 rendered diagrams / 9 отрендеренных диаграмм
 │
 ├── osint-intelligence-analysis/       # Track 5 (methodology) / Трек 5 (методология)
-│   └── README.md
+│   ├── README.md
+│   ├── analysis/                      # 4 analysis files / 4 аналитических файла
+│   ├── diagrams/rendered/             # 4 diagrams / 4 диаграммы
+│   └── raw/                           # ChatGPT-captured methodology dialogue
 │
 ├── people-analysis/                   # Track 6 (11 scientists cluster) / Трек 6 (кластер 11 учёных)
-│   └── README.md
+│   ├── README.md
+│   ├── analysis/                      # 3 analysis files (Cardillo / FBI / cluster summary)
+│   ├── people/                        # 11 per-person files / 11 файлов по фигурантам
+│   ├── diagrams/rendered/             # 5 diagrams / 5 диаграмм
+│   └── raw/                           # YouTube transcript + ChatGPT-Cardillo analysis
 │
 ├── charts/                            # Track 1 visual evidence / Визуализация Трека 1
 │   ├── ecp_response_agreement_matrix.svg
