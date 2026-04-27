@@ -112,7 +112,7 @@ If all 5 criteria are satisfied, the cluster is upgraded out of "suggestive" int
 - Signature methodology / Методология сигнатур: [`signature-methodology.md`](signature-methodology.md)
 - Anomaly classification / Классификация аномалий: [`anomaly-classification.md`](anomaly-classification.md)
 - Validation pipeline / Конвейер валидации: [`validation-pipeline.md`](validation-pipeline.md)
-- Source / Источник: [`../raw/chatgpt_69ed8711_signature_methodology.txt`](../raw/chatgpt_69ed8711_signature_methodology.txt)
+- Source / Источник: [`../raw/banchenko_2026-04-26_signature_methodology_notes.txt`](../raw/banchenko_2026-04-26_signature_methodology_notes.txt)
 - Root README / Корневой README: [`../../README.md`](../../README.md)
 - Bob Lazar archive / Архив Боба Лазара: [`../../bob-lazar-archive/`](../../bob-lazar-archive/)
 - Chernobrov archive / Архив Черноброва: [`../../chernobrov-archive/`](../../chernobrov-archive/)

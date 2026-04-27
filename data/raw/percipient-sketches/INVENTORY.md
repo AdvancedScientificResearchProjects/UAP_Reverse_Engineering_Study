@@ -10,7 +10,7 @@
 
 | Filename / Имя файла | Date / Дата | Source / Источник | Description / Описание |
 |---|---|---|---|
-| `2026-04-02_session_disc_sketch.jpg` | 2026-04-02 | Telegram msg id=237398 from Denis Banchenko | Hand-drawn disc-shaped UAP with annotations "умер. часть" (dimensions/parts), "проводимость" (conductivity); margin notes referencing material zones / Зарисовка дискообразного UAP с пометками «умер. часть» (размер. часть) и «проводимость»; на полях — пометки о материальных зонах |
+| `2026-04-02_session_disc_sketch.jpg` | 2026-04-02 | Provided by Denis Banchenko / Предоставлено Денисом Банченко | Hand-drawn disc-shaped UAP with annotations "умер. часть" (dimensions/parts), "проводимость" (conductivity); margin notes referencing material zones / Зарисовка дискообразного UAP с пометками «умер. часть» (размер. часть) и «проводимость»; на полях — пометки о материальных зонах |
 
 ---
 

@@ -261,7 +261,7 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 - Analysis files / Аналитических файлов: 4
 - Diagrams / Диаграмм: 4 (signature classification · validation pipeline · 5 anomaly cases · methodology application across tracks)
 - Coverage / Покрытие: applied to Tracks 1, 2, 3, 4, 6 / применяется к Трекам 1, 2, 3, 4, 6
-- Source / Источник: structured ChatGPT working dialogue captured 2026-04-26 / структурированный рабочий диалог ChatGPT, захвачено 26.04.2026
+- Source / Источник: structured working notes by Denis Banchenko, captured 2026-04-26 / структурированные рабочие заметки Дениса Банченко, зафиксированы 26.04.2026
 
 **Lead file / Главный файл:** [`osint-intelligence-analysis/README.md`](osint-intelligence-analysis/README.md)
 
@@ -365,14 +365,14 @@ UAP_Reverse_Engineering_Study/
 │   ├── README.md
 │   ├── analysis/                      # 4 analysis files / 4 аналитических файла
 │   ├── diagrams/rendered/             # 4 diagrams / 4 диаграммы
-│   └── raw/                           # ChatGPT-captured methodology dialogue
+│   └── raw/                           # Banchenko methodology working notes (primary)
 │
 ├── people-analysis/                   # Track 6 (11 scientists cluster) / Трек 6 (кластер 11 учёных)
 │   ├── README.md
 │   ├── analysis/                      # 3 analysis files (Cardillo / FBI / cluster summary)
 │   ├── people/                        # 11 per-person files / 11 файлов по фигурантам
 │   ├── diagrams/rendered/             # 5 diagrams / 5 диаграмм
-│   └── raw/                           # YouTube transcript + ChatGPT-Cardillo analysis
+│   └── raw/                           # YouTube transcript + Banchenko notes on Cardillo framework
 │
 ├── charts/                            # Track 1 visual evidence / Визуализация Трека 1
 │   ├── ecp_response_agreement_matrix.svg

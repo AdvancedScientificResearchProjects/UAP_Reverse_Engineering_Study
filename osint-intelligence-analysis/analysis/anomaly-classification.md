@@ -60,5 +60,5 @@
 - Signature methodology / Методология сигнатур: [`signature-methodology.md`](signature-methodology.md)
 - Validation pipeline / Конвейер валидации: [`validation-pipeline.md`](validation-pipeline.md)
 - UAP application / Применение к НАЯ: [`uap-application.md`](uap-application.md)
-- Source / Источник: [`../raw/chatgpt_69ed8711_signature_methodology.txt`](../raw/chatgpt_69ed8711_signature_methodology.txt)
+- Source / Источник: [`../raw/banchenko_2026-04-26_signature_methodology_notes.txt`](../raw/banchenko_2026-04-26_signature_methodology_notes.txt)
 - Root README / Корневой README: [`../../README.md`](../../README.md)

@@ -16,9 +16,9 @@
 
 ## Provenance / Происхождение
 
-**EN:** The methodology presented here is a structured distillation of a ChatGPT-captured working dialogue by **Denis Banchenko** (project owner, captured 2026-04-26 via Telegram). It is a working analytical framework, not a peer-reviewed engineering manual. The raw capture is preserved verbatim in `raw/` and is the single source for all four analysis files in this sub-archive.
+**EN:** The methodology presented here is a structured distillation of working notes by **Denis Banchenko** (project owner, working session 2026-04-26). It is a working analytical framework, not a peer-reviewed engineering manual. The primary working notes are preserved verbatim in `raw/` and are the single source for all four analysis files in this sub-archive.
 
-**RU:** Методология, изложенная здесь, — структурированная дистилляция рабочего диалога, зафиксированного **Денисом Банченко** (владелец проекта) через ChatGPT (захвачено 26.04.2026 через Telegram). Это рабочая аналитическая рамка, а не рецензируемое инженерное руководство. Исходный захват дословно сохранён в `raw/` и является единственным источником всех четырёх аналитических файлов этого подархива.
+**RU:** Методология, изложенная здесь, — структурированная дистилляция рабочих заметок **Дениса Банченко** (владелец проекта; рабочая сессия 26.04.2026). Это рабочая аналитическая рамка, а не рецензируемое инженерное руководство. Первичные рабочие заметки дословно сохранены в `raw/` и являются единственным источником всех четырёх аналитических файлов этого подархива.
 
 ---
 
@@ -125,9 +125,9 @@
 
 ## Sources / Источники
 
-**EN:** Single source: ChatGPT-captured working dialogue, preserved verbatim at [`raw/chatgpt_69ed8711_signature_methodology.txt`](raw/chatgpt_69ed8711_signature_methodology.txt). Original conversation share URL is recorded in the file header. Captured by Denis Banchenko, Telegram message 239970, 2026-04-26.
+**EN:** Single source: Banchenko working notes (2026-04-26), preserved verbatim at [`raw/banchenko_2026-04-26_signature_methodology_notes.txt`](raw/banchenko_2026-04-26_signature_methodology_notes.txt). Authored by Denis Banchenko, 2026-04-26.
 
-**RU:** Единственный источник: рабочий диалог в ChatGPT, дословно сохранённый в [`raw/chatgpt_69ed8711_signature_methodology.txt`](raw/chatgpt_69ed8711_signature_methodology.txt). URL исходного шеринга беседы — в шапке файла. Захвачено Денисом Банченко, Telegram-сообщение 239970, 26.04.2026.
+**RU:** Единственный источник: рабочие заметки Дениса Банченко (26.04.2026), дословно сохранённые в [`raw/banchenko_2026-04-26_signature_methodology_notes.txt`](raw/banchenko_2026-04-26_signature_methodology_notes.txt). Автор — Денис Банченко, 26.04.2026.
 
 ---
 

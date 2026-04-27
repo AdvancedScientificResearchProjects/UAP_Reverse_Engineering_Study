@@ -16,14 +16,14 @@ Analytical framework applied by **Robert Cardillo**, former director of the US *
 
 ## What "Gabriella Rev A" is / Что такое «Gabriella Rev A»
 
-**EN:** Per his LinkedIn post and the analysis captured in [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), "Gabriella Rev A" is a labelled analytical framework covering:
+**EN:** Per his LinkedIn post and the working notes captured in [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt), "Gabriella Rev A" is a labelled analytical framework covering:
 
 - **Multifactor analytics / мультифакторная аналитика** — multiple variables analysed jointly rather than in isolation;
 - **Cluster analysis / кластерный анализ** — grouping of cases by feature similarity;
 - **Anomaly detection / выявление аномалий** — flagging events that fall outside expected statistical envelopes;
 - **Scenario modelling / сценарное моделирование** — generating and comparing alternate explanatory paths.
 
-**RU:** Согласно его посту в LinkedIn и анализу, зафиксированному в [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), «Gabriella Rev A» — это поименованная аналитическая рамка, включающая:
+**RU:** Согласно его посту в LinkedIn и рабочим заметкам, зафиксированным в [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt), «Gabriella Rev A» — это поименованная аналитическая рамка, включающая:
 
 - **Мультифакторную аналитику** — несколько переменных анализируются совместно, а не по отдельности;
 - **Кластерный анализ** — группировка кейсов по сходству признаков;
@@ -70,14 +70,14 @@ The framework also references the **FBI** consolidation and the **Department of 
 
 ## Engagement with Denis Banchenko's UAP study / Взаимодействие с UAP-исследованием Дениса Банченко
 
-**EN:** **Denis Banchenko** (ASRP project owner) posted a comment under Cardillo's LinkedIn thread linking to the **UAP Reverse-Engineering Study** and to the **Hyperbolic Field / Plasma Study**. Cardillo did **not** respond directly. He also did **not** remove the comment, and the thread remained active. Per the analysis in [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), this is correctly read as:
+**EN:** **Denis Banchenko** (ASRP project owner) posted a comment under Cardillo's LinkedIn thread linking to the **UAP Reverse-Engineering Study** and to the **Hyperbolic Field / Plasma Study**. Cardillo did **not** respond directly. He also did **not** remove the comment, and the thread remained active. Per the working notes at [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt), this is correctly read as:
 
 - Not an invitation to collaborate.
 - Not a confirmation of any ASRP hypothesis.
 - Not a recognition.
 - **A point of entry** — the ASRP material has now been seen, and not filtered as noise, by an analyst at this level and within the audience he reaches.
 
-**RU:** **Денис Банченко** (владелец проекта ASRP) разместил комментарий под постом Кардилло в LinkedIn со ссылкой на **UAP Reverse-Engineering Study** и **Hyperbolic Field / Plasma Study**. Кардилло напрямую **не** ответил. Он также **не** удалил комментарий, и тред остался активным. Согласно анализу из [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), это корректно читается как:
+**RU:** **Денис Банченко** (владелец проекта ASRP) разместил комментарий под постом Кардилло в LinkedIn со ссылкой на **UAP Reverse-Engineering Study** и **Hyperbolic Field / Plasma Study**. Кардилло напрямую **не** ответил. Он также **не** удалил комментарий, и тред остался активным. Согласно рабочим заметкам из [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt), это корректно читается как:
 
 - Не приглашение к сотрудничеству.
 - Не подтверждение какой-либо гипотезы ASRP.
@@ -88,7 +88,7 @@ The framework also references the **FBI** consolidation and the **Department of 
 
 ## Strategic implications for the ASRP project / Стратегические следствия для проекта ASRP
 
-**EN:** The ChatGPT-side analysis identifies a clear positioning rule for ASRP if it intends to operate in proximity to a Cardillo-style framework:
+**EN:** The working-notes analysis identifies a clear positioning rule for ASRP if it intends to operate in proximity to a Cardillo-style framework:
 
 - **Avoid:** "we reverse-engineered UAP" register — for the senior-analyst audience this reads as fringe noise.
 - **Adopt:** "we add a physical hypothesis to your cluster model" — i.e. position the UAP / hyperbolic-field work as a **mechanism layer** that plugs into a multifactor cluster analysis, rather than as a stand-alone disclosure claim.
@@ -96,7 +96,7 @@ The framework also references the **FBI** consolidation and the **Department of 
 - **Risk:** continued framing as a self-contained "we know the answer" archive will continue to be filtered as fringe by intelligence-community readers.
 - **Opportunity:** disciplined framing as a hypothesis-mechanism contributor opens a slow-burn channel of intelligence-community visibility that currently is partially open.
 
-**RU:** Анализ со стороны ChatGPT выделяет ясное правило позиционирования для ASRP, если проект намерен работать в близости к рамке типа Кардилло:
+**RU:** Аналитические рабочие заметки выделяют ясное правило позиционирования для ASRP, если проект намерен работать в близости к рамке типа Кардилло:
 
 - **Избегать:** регистра «мы реверс-инжинирнули UAP» — для аудитории старших аналитиков это читается как маргинальный шум.
 - **Принять:** регистр «мы добавляем физическую гипотезу в вашу кластерную модель» — то есть позиционировать работу по UAP / гиперболическому полю как **слой механизмов**, встраиваемый в мультифакторный кластерный анализ, а не как самостоятельное «раскрывающее» заявление.
@@ -108,9 +108,9 @@ The framework also references the **FBI** consolidation and the **Department of 
 
 ## Provenance / Провенанс
 
-**EN:** This page synthesises the ChatGPT analysis at [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), captured by Denis Banchenko (Telegram message 239971, 2026-04-26). The underlying primary artefact is Cardillo's public LinkedIn post on the "Gabriella Rev A" framework. This file does not reproduce the post; the ChatGPT file analyses it.
+**EN:** This page synthesises Banchenko's working notes at [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt) (working session, 2026-04-26). The underlying primary artefact is Cardillo's public LinkedIn post on the "Gabriella Rev A" framework. This file does not reproduce the post; the working notes analyse it.
 
-**RU:** Эта страница синтезирует анализ ChatGPT по адресу [`raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt`](../raw/chatgpt_69e8e3a3_cardillo_gabriella_framework.txt), зафиксированный Денисом Банченко (сообщение Telegram 239971, 26.04.2026). Лежащий в основе первичный артефакт — публичный пост Кардилло в LinkedIn о рамке «Gabriella Rev A». Эта страница не воспроизводит сам пост; файл ChatGPT его анализирует.
+**RU:** Эта страница синтезирует рабочие заметки Дениса Банченко по адресу [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](../raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt) (рабочая сессия, 26.04.2026). Лежащий в основе первичный артефакт — публичный пост Кардилло в LinkedIn о рамке «Gabriella Rev A». Эта страница не воспроизводит сам пост; рабочие заметки его анализируют.
 
 ---
 

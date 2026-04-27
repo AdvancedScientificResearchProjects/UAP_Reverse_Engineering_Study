@@ -1,5 +1,5 @@
 # Joe Rogan Experience #2416 — Dan Farah (Russian dub)
-# Source: Telegram message id=237273 from Denis Banchenko, 2026-04-01
+# Source: Provided by Denis Banchenko, 2026-04-01
 # Original filename: Джо_Роган_подкаст_#2416_с_Дэном_Фара_—_русский.mp4 (229 MB)
 # Whisper large-v3, language=ru, 2 chunks (0..72 min, 72..145 min)
 

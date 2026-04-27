@@ -1,7 +1,7 @@
 # Bob Lazar — 1991 Lazar Tape (Russian dub)
 # Original: Tri-Dot Productions / Gene Huff VHS, September 1991, ~46 min
 # English-original transcript: 10_1991_The_Lazar_Tape.txt (same source, English)
-# Source: Telegram message id=237323 from Denis Banchenko, 2026-04-01
+# Source: Provided by Denis Banchenko, 2026-04-01
 # Original filename: Bob_Laza_1987.mp4 (377 MB, 46:15) — the "1987" tag in the
 #   filename is misleading; content matches the 1991 Lazar Tape (Projects Galileo,
 #   Sidekick, Looking Glass; Element 115; gravity-A; Sport Model interior; etc.)
