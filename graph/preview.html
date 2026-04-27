@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>UAP Reverse-Engineering — Facts & Events Graph</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0F172A; color: #E2E8F0; }
+  #cy { position: absolute; top: 0; left: 0; right: 320px; bottom: 0; background: #0F172A; }
+  #panel { position: absolute; top: 0; right: 0; width: 320px; bottom: 0; background: #1E293B; border-left: 1px solid #334155; padding: 16px; overflow-y: auto; box-sizing: border-box; }
+  h1 { font-size: 16px; margin: 0 0 8px 0; color: #F1F5F9; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; margin: 16px 0 6px 0; color: #94A3B8; font-weight: 600; }
+  .stat { font-size: 12px; color: #CBD5E1; margin: 2px 0; }
+  .legend { font-size: 11px; line-height: 1.5; }
+  .legend-item { display: flex; align-items: center; margin: 3px 0; }
+  .legend-dot { width: 11px; height: 11px; border-radius: 50%; margin-right: 8px; flex-shrink: 0; }
+  #info { font-size: 12px; line-height: 1.5; color: #E2E8F0; }
+  #info .label { font-weight: 600; color: #F1F5F9; font-size: 14px; margin-bottom: 4px; }
+  #info .type { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: #94A3B8; margin-bottom: 8px; }
+  #info .field { margin: 6px 0; }
+  #info .field .key { color: #94A3B8; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  #info .field .value { color: #E2E8F0; word-break: break-word; }
+  #info a { color: #60A5FA; text-decoration: none; }
+  #info a:hover { text-decoration: underline; }
+  .controls { display: flex; gap: 6px; margin: 8px 0 12px 0; flex-wrap: wrap; }
+  .btn { padding: 4px 10px; background: #334155; color: #E2E8F0; border: none; border-radius: 4px; cursor: pointer; font-size: 11px; }
+  .btn:hover { background: #475569; }
+  .btn.active { background: #3B82F6; }
+  .btn.lang { background: #1E40AF; font-weight: 600; padding: 6px 12px; font-size: 12px; }
+  .btn.lang:hover { background: #2563EB; }
+  input[type="text"] { width: 100%; padding: 6px 10px; background: #0F172A; border: 1px solid #334155; color: #E2E8F0; border-radius: 4px; font-size: 12px; box-sizing: border-box; margin-bottom: 8px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 4px; }
+  .filter-btn { padding: 3px 8px; background: #334155; color: #E2E8F0; border: 1px solid #475569; border-radius: 12px; cursor: pointer; font-size: 10px; user-select: none; }
+  .filter-btn.off { opacity: 0.35; }
+  .filter-btn:hover { background: #475569; }
+</style>
+</head>
+<body>
+
+<div id="cy"></div>
+
+<div id="panel">
+  <h1>UAP Reverse-Engineering — Facts & Events Graph</h1>
+  <div class="stat" id="stat-counts">Loading...</div>
+
+  <div class="controls">
+    <button class="btn" id="btn-fit"        onclick="fit()">Fit</button>
+    <button class="btn" id="btn-fcose"      onclick="layout('fcose')">fcose</button>
+    <button class="btn" id="btn-spread"     onclick="layout('fcose', 1.6)">spread×</button>
+    <button class="btn" id="btn-bilkent"    onclick="layout('cose-bilkent')">bilkent</button>
+    <button class="btn" id="btn-concentric" onclick="layout('concentric')">concentric</button>
+    <button class="btn" id="btn-tree"       onclick="layout('breadthfirst')">tree</button>
+    <button class="btn" id="btn-png"        onclick="exportPNG()">PNG</button>
+  </div>
+  <div class="controls">
+    <button class="btn lang" id="langToggle" onclick="toggleLang()">🌐 Language: EN</button>
+  </div>
+  <div class="controls">
+    <button class="btn" id="edgeLabelToggle" onclick="toggleEdgeLabels()">Edge labels: hover only</button>
+  </div>
+
+  <input type="text" id="search" placeholder="Search nodes (Esc to clear)…" oninput="search()">
+
+  <h2 id="h-filter">Filter by type</h2>
+  <div class="filters" id="filters"></div>
+
+  <h2 id="h-selection">Selection</h2>
+  <div id="info">Click any node to see details.</div>
+
+  <h2 id="h-legend">Legend</h2>
+  <div class="legend" id="legend"></div>
+</div>
+
+<script src="libs/cytoscape.min.js"></script>
+<script src="libs/layout-base.js"></script>
+<script src="libs/cose-base.js"></script>
+<script src="libs/cytoscape-fcose.js"></script>
+<script src="libs/cytoscape-cose-bilkent.js"></script>
+<script>
+  // Register extensions BEFORE any layout call.
+  if (typeof cytoscape !== 'undefined') {
+    if (typeof cytoscapeFcose !== 'undefined')        cytoscape.use(cytoscapeFcose);
+    if (typeof cytoscapeCoseBilkent !== 'undefined')  cytoscape.use(cytoscapeCoseBilkent);
+  }
+</script>
+<script>
+const TYPE_COLORS = {
+  // Reused from marketing graph
+  'legal-entity':       '#7C3AED',
+  'legal-disclosure':   '#A78BFA',
+  'person · team':      '#F59E0B',
+  'person · external':  '#FB923C',
+  'project':            '#10B981',
+  'patent':             '#EAB308',
+  'publication':        '#3B82F6',
+  'channel':            '#EC4899',
+  'outreach':           '#EF4444',
+  'institution':        '#06B6D4',
+  'accreditation':      '#84CC16',
+  'funding-source':     '#22C55E',
+  'event':              '#A855F7',
+  'theory-anchor':      '#F472B6',
+  'tooling-class':      '#14B8A6',
+  'cluster':            '#0EA5E9',
+  // NEW for UAP graph
+  'fact':               '#FCD34D',  /* amber — atomic citable claim */
+  'phenomenon':         '#DC2626',  /* red — UAP-side phenomenon */
+  'source':             '#94A3B8',  /* slate — citable reference */
+  'hypothesis':         '#A21CAF',  /* magenta — proposed explanation */
+};
+
+// Element-type labels in Russian (for the side panel + filter chips).
+const TYPE_LABELS_RU = {
+  "legal-entity":      "юр. лицо",
+  "legal-disclosure":  "юр. оговорка",
+  "person · team":     "человек · команда",
+  "person · external": "человек · внешний",
+  "project":           "проект",
+  "patent":            "патент",
+  "publication":       "публикация",
+  "channel":           "канал",
+  "outreach":          "аутрич",
+  "institution":       "институция",
+  "accreditation":     "аккредитация",
+  "funding-source":    "источник финансирования",
+  "event":             "событие",
+  "theory-anchor":     "теоретический якорь",
+  "tooling-class":     "класс инструментов",
+  "cluster":           "кластер",
+  // NEW for UAP graph
+  "fact":              "факт",
+  "phenomenon":        "явление",
+  "source":            "источник",
+  "hypothesis":        "гипотеза",
+};
+
+// UI strings (buttons / panel headings / placeholder text).
+const UI_LABELS = {
+  en: {
+    fit:           'Fit',
+    spread:        'spread×',
+    bilkent:       'bilkent',
+    concentric:    'concentric',
+    tree:          'tree',
+    png:           'PNG',
+    edgeHover:     'Edge labels: hover only',
+    edgeAlways:    'Edge labels: always',
+    edgeOff:       'Edge labels: off',
+    lang:          '🌐 Language: EN',
+    search:        'Search nodes (Esc to clear)…',
+    filterTitle:   'Filter by type',
+    selTitle:      'Selection',
+    selPlaceholder:'Click any node to see details.',
+    legend:        'Legend',
+    connections:   'Connections',
+    statSuffix:    n => `<b>${n.elements}</b> entities · <b>${n.connections}</b> connections`,
+    fieldKey:      { status:'status', description:'description', location:'location', role:'role', jurisdiction:'jurisdiction', registry:'registry', filed:'filed', granted:'granted', date:'date', reach:'reach', url:'url', scope:'scope', source:'source', confidence:'confidence' },
+  },
+  ru: {
+    fit:           'Подогнать',
+    spread:        'распылить×',
+    bilkent:       'bilkent',
+    concentric:    'концентрич.',
+    tree:          'дерево',
+    png:           'PNG',
+    edgeHover:     'Подписи связей: на наведении',
+    edgeAlways:    'Подписи связей: всегда',
+    edgeOff:       'Подписи связей: выкл.',
+    lang:          '🌐 Язык: RU',
+    search:        'Поиск нод (Esc — очистить)…',
+    filterTitle:   'Фильтр по типу',
+    selTitle:      'Выбор',
+    selPlaceholder:'Кликните на любую ноду для деталей.',
+    legend:        'Легенда',
+    connections:   'Связи',
+    statSuffix:    n => `<b>${n.elements}</b> сущностей · <b>${n.connections}</b> связей`,
+    fieldKey:      { status:'статус', description:'описание', location:'локация', role:'роль', jurisdiction:'юрисдикция', registry:'реестр', filed:'подан', granted:'выдан', date:'дата', reach:'охват', url:'ссылка', scope:'охват', source:'источник', confidence:'уверенность' },
+  },
+};
+
+// Bilingual translation table for edge-type labels (RU equivalents).
+// Anything not in the table falls back to the English wording.
+const EDGE_LABELS_RU = {
+  "co-author":                       "соавтор",
+  "owns":                            "владеет",
+  "covers":                          "покрывает",
+  "covers (FBHFS hyperbolic-field base)": "покрывает (FBHFS-база)",
+  "describes":                       "описывает",
+  "first author":                    "первый автор",
+  "co-author (Kapustin Dream Match Search AI Model)": "соавтор (Kapustin Dream Match Search AI Model)",
+  "reviews":                         "рецензирует",
+  "method used in":                  "метод используется в",
+  "founding methodology":            "основополагающая методология",
+  "founding method (mnemonic dream sync)": "основополагающий метод (мнемоническая синхронизация снов)",
+  "economic model":                  "экономическая модель",
+  "blockchain-funding architecture": "архитектура блокчейн-финансирования",
+  "early lucid-dream methodology":   "ранняя методология осознанных сновидений",
+  "primary contact (Czech pizza-meat partner)": "основной контакт (чешский партнёр)",
+  "Gulf War Syndrome programmes — cancer-treatment pathway target": "программы Gulf War Syndrome — цель онко-терапии",
+  "≈$165k cumulative · funds":       "≈$165 тыс. накоплено · финансирует",
+  "covers (neurodiagnostic complement)":  "покрывает (нейродиагностика)",
+  "scientific base":                 "научная база",
+  "validates":                       "валидирует",
+  "validates respiratory biosensor in DAAT stack": "валидирует Inspira-X в стеке DAAT",
+  "feeds biosensor data to":         "подаёт биосенсорные данные в",
+  "feeds raw biological data to (genetic / EEG / GSR / ANS)": "подаёт сырые биоданные (генетика / ЭЭГ / GSR / ANS)",
+  "feeds dreams + biosensor → analytical layer":   "подаёт сны + биосенсоры → аналитика",
+  "feeds biological data → analytical layer":      "подаёт биоданные → аналитика",
+  "courses + bot are dual data sources":           "курсы + бот — двойной источник данных",
+  "publishes via":                   "публикуется через",
+  "publishes forecasts on":          "публикует прогнозы на",
+  "rating substrate · accuracy ↑/↓ ↔ Kapusta credit": "субстрат рейтингов · точность ↑/↓ ↔ Kapusta",
+  "motivates biological sensors":    "мотивирует биодатчики",
+  "promotes accurate contributors":  "продвигает точных контрибьюторов",
+  "filters low-quality forecasts":   "фильтрует слабые прогнозы",
+  "bundle component (respiratory biosensor)":  "компонент бандла (респ. биосенсор)",
+  "AI interpretation layer":         "слой AI-интерпретации",
+  "sold via":                        "продаётся через",
+  "objectifies SPR-certified states as Mental Objects": "объективизирует SPR-состояния как Ментальные Объекты",
+  "uses subdomain for Mental Objects DB": "использует субдомен под БД Ментальных Объектов",
+  "settles transactions in":         "ведёт расчёты в",
+  "campaign target product":         "целевой продукт кампании",
+  "presented on the projects portfolio": "представлен в портфолио",
+  "directs traffic to portfolio":    "направляет трафик в портфолио",
+  "module of":                       "модуль",
+  "validates":                       "валидирует",
+  "founder & CEO":                   "основатель и CEO",
+  "co-founder":                      "сооснователь",
+  "officer":                         "сотрудник",
+  "formal sole executive (legal-technical only)": "формальный единоличный исполнитель",
+  "personal channel of":             "личный канал",
+  "lab page hosted by":              "лаб-страница размещена",
+  "company page":                    "корпоративная страница",
+  "second company page":             "вторая корпоративная страница",
+  "primary contact":                 "основной контакт",
+  "target":                          "цель",
+  "operational contact (admin)":     "операционный контакт (админ)",
+  "submission contact":              "контакт при подаче",
+  "engaged participant":             "вовлечённый участник",
+  "subject of engagement":           "предмет переговоров",
+  "secondary subject":               "вторичный предмет",
+  "subject of letter (with T₊/T₀/T₋ photo)": "предмет письма (с фото T₊/T₀/T₋)",
+  "scientific framing":              "научная рамка",
+  "first-read event on the repo":    "событие первого читателя",
+  "novel therapeutic technology submitted": "подана новая терапевтич. технология",
+  "engaged with":                    "взаимодействует с",
+  "submitted to":                    "подано в",
+  "first-read by":                   "прочитано первым",
+  "tracked at":                      "отслеживается в",
+  "files at":                        "подаёт в",
+  "institutional context (element-115 synthesis)": "институциональный контекст (синтез 115-го элемента)",
+  "granted":                         "выдано",
+  "holds":                           "держит",
+  "revenue from":                    "доход от",
+  "potential funder":                "потенциальный донор",
+  "B2G target via DARPA/DoD":        "B2G-цель через DARPA/DoD",
+  "B2G target":                      "B2G-цель",
+  "B2G contracting through":         "B2G-контракты через",
+  "campaign for":                    "кампания за",
+  "presented":                       "представлен",
+  "produced data for":               "поставил данные для",
+  "underpins":                       "лежит в основе",
+  "underpins (cancer therapeutic)":  "лежит в основе (онко-терапия)",
+  "applied in":                      "применяется в",
+  "external support for":            "внешняя поддержка для",
+  "communicated to Nolan as core hypothesis": "передано Nolan как ключевая гипотеза",
+  "communicated as plasma-fibrin T-notation": "передано как T-нотация фибрина",
+  "formal backbone for":             "формальный каркас для",
+  "Phase-4 partnership target":      "цель партнёрства Фазы 4",
+  "Phase-4 cognitive-stack partner target": "цель Фазы 4 — когнитивный стек",
+  "Phase-4 partner target":          "цель Фазы 4",
+  "Phase-3/4 BFS target cluster":    "BFS-кластер Фазы 3/4",
+  "Phase-3/5 BFS / functional-foods target": "цель Фазы 3/5 (BFS / functional-foods)",
+  "Phase-3 production scale-up":     "масштабирование Фазы 3",
+  "Phase-3 agri pilots":             "агро-пилоты Фазы 3",
+  "Phase-3 large-scale field partners": "крупномасштабные полевые партнёры Фазы 3",
+  "applies under FBHFS protocols":   "применяется под FBHFS-протоколами",
+  "biofeedback adjunct B2B target":  "B2B-цель для biofeedback-комплемента",
+  "cognitive-stack adjunct positioning": "позиционирование для когнитивного стека",
+  "outreach pipeline":               "пайплайн аутрича",
+  "includes (named contact)":        "включает (именованный контакт)",
+  "grant pipeline target":           "цель grant-пайплайна",
+  "grant target":                    "цель гранта",
+  "channel for":                     "канал",
+  "feeds":                           "питает",
+  "data analysis":                   "анализ данных",
+  "data analysis (sole analyst on raw set)": "анализ данных (единств. аналитик)",
+  "data analysis & repository":      "анализ данных и репозиторий",
+  "AI production layer for":         "слой AI-производства для",
+  "fan-out publisher for":           "фан-аут паблишер для",
+  "SEO discovery for":               "SEO-открытие для",
+  "operates":                        "управляет",
+  "for the operating entity":        "для операционной компании",
+  "B2B executive-wellness pitch context": "контекст B2B executive-wellness",
+  "theoretical backbone cited in":   "теоретический каркас, цитируется в",
+  "lead patron":                     "ведущий меценат",
+  "lead patron ($100k)":             "ведущий меценат ($100k)",
+  "patron":                          "меценат",
+  "patron ($1k)":                    "меценат ($1k)",
+  "patron ($5k)":                    "меценат ($5k)",
+  "patron ($10k)":                   "меценат ($10k)",
+  "patron ($200)":                   "меценат ($200)",
+  "Group includes (UK reinstatement entity)": "Группа включает (UK-юрлицо в восстановлении)",
+  "Group includes (US operational entity)":   "Группа включает (US-операционное)",
+  "Group includes (KZ patent-holding entity)":"Группа включает (KZ-патентное)",
+  "executive (group level)":         "руководитель (на уровне Группы)",
+  "executive (group)":               "руководитель (Группа)",
+  "channel of":                      "канал",
+  "UBO of":                          "UBO",
+  "broadcast via":                   "транслируется через",
+  "publicised B2C wearers of":       "публично анонсировал носителей B2C",
+  "substrate for":                   "субстрат для",
+  "settlement substrate for":        "расчётный субстрат для",
+  "submission to authority":         "подача регулятору",
+  "submitted to programme":          "подача в программу",
+  "owner of pipeline":               "владелец пайплайна",
+  "submission contact":              "контакт при подаче",
+  "engagement target":               "цель взаимодействия",
+  "DoD prime engagement target (~$40M reverse-engineering benchmark)": "цель DoD prime (~$40 млн reverse-engineering)",
+  "Gulf War Syndrome track target":  "цель — программа Gulf War Syndrome",
+  "engagement target (institutional)": "институциональная цель",
+  "Gulf War Syndrome programme adjacency": "смежно с программой Gulf War Syndrome",
+  "VA veterans-care funnel for UAP-adjacent oncology": "VA-воронка ветеранов для UAP-онкологии",
+  "DoD reverse-engineering benchmark (~$40M illustrative)": "DoD reverse-engineering benchmark (~$40 млн)",
+  "preregistration platform":        "платформа предрегистрации",
+  "potential cultured-meat partner (placeholder)": "потенциальный партнёр по cultured meat",
+  "≈$165k cumulative · funds":       "≈$165 тыс. накопленно · финансирует",
+  "investor inflows (when activated)": "инвестиц. потоки (при активации)",
+  "scientific base for":             "научная база для",
+  "supports BFS synergy":            "поддерживает синергию с BFS",
+  "Phase-4 institutional partnership target": "цель Фазы 4 (институциональное партнёрство)",
+  "DoD prime engagement target":     "цель DoD prime",
+  "supports BFS synergy":            "поддерживает синергию BFS",
+  "Soviet nuclear-research adjacency (institutional context)": "смежно с советскими ядерными исследованиями",
+  "archive cross-reference (chernobrov-archive)": "архивная перекрёстная ссылка (chernobrov-archive)",
+  "research lineage anchor (S-4, element-115)":   "якорь линии исследования (S-4, 115-й элемент)",
+  "employed at":                     "работает в",
+  "cross-promo affiliate banners → product":   "кросс-промо банеры → продукт",
+  "cross-promo affiliate banners → storefront":"кросс-промо банеры → витрина",
+  "USD contracting through":         "USD-контракты через",
+  "grant disbursements via":         "выплаты грантов через",
+  "campaign proceeds to":            "поступления кампании в",
+  "revenue routes via":              "выручка через",
+  "engineering channel for technical audience": "инжен. канал для тех. аудитории",
+  "publishes via":                   "публикуется через",
+  "broadcasts via":                  "вещает через",
+  "Phase-4 partnership target":      "цель партнёрства Фазы 4",
+  "covers (KZ 2025/1095.1 + KZ 413554 — DAAT scientific base)": "покрывает (KZ 2025/1095.1 + KZ 413554)",
+  "research backing the product":    "исследование, поддерживающее продукт",
+  "scientific basis under FBHFS patent": "научная база (FBHFS-патент)",
+  "same hyperbolic-field protocol family": "та же семья протоколов гиперб. поля",
+  "lab study by":                    "лаб-исследование под",
+  "taught at":                       "преподаётся в",
+  "parallel cognitive-enhancement track (movement vs crystal)": "параллельный когнитивный трек (движение vs кристалл)",
+  "feeds into":                      "питает",
+  "Phase-3 functional-drinks pilot target": "цель Фазы 3 (functional-drinks)",
+  "module of":                       "модуль",
+  "covers (FBHFS hyperbolic-field base)": "покрывает (FBHFS-база)",
+  // ── UAP graph — additional verbs ────────────────────────────────────
+  "claims":                          "заявляет",
+  "claims as S-4 propulsion fuel":   "заявляет как топливо S-4",
+  "claims to have worked on":        "заявляет, что работал над",
+  "claims employment-at":            "заявляет о работе в",
+  "claims employed-at":              "заявляет о работе в",
+  "testifies":                       "свидетельствует",
+  "testified":                       "свидетельствовал",
+  "testified-at":                    "свидетельствовал на",
+  "documents":                       "документирует",
+  "documented":                      "задокументировано",
+  "documented-by":                   "документируется",
+  "documented-in":                   "задокументировано в",
+  "synthesised":                     "синтезировал",
+  "co-synthesised":                  "соавтор синтеза",
+  "led research":                    "руководил исследованием",
+  "led":                             "возглавил",
+  "hosted experiment":               "проводил эксперимент",
+  "hosted":                          "хостил",
+  "performed":                       "выполнил",
+  "co-authored":                     "соавтор",
+  "authored":                        "автор",
+  "produces-result":                 "выдаёт результат",
+  "produced":                        "произвёл",
+  "produced-data-for":               "поставил данные для",
+  "predicts":                        "предсказывает",
+  "predicts-for":                    "предсказывает для",
+  "explains":                        "объясняет",
+  "contradicts":                     "противоречит",
+  "contradicted-by":                 "опровергнуто",
+  "challenges":                      "оспаривает",
+  "challenged-by":                   "оспорено",
+  "challenges-physics-of":           "оспаривает физику",
+  "supports":                        "поддерживает",
+  "supported-by":                    "поддержано",
+  "partially-supports":              "частично поддерживает",
+  "partially-supported-by":          "частично поддержано",
+  "weakly-supports":                 "слабо поддерживает",
+  "cited-from":                      "цитируется из",
+  "reproduced-in":                   "воспроизведено в",
+  "verified-by":                     "верифицировано",
+  "evidenced-by":                    "подтверждается",
+  "characterised-by":                "характеризуется",
+  "named-by":                        "назван",
+  "enabled":                         "позволило",
+  "triggered":                       "спровоцировало",
+  "precedes":                        "предшествует",
+  "supersedes":                      "сменяет",
+  "investigated":                    "исследовал",
+  "investigates":                    "исследует",
+  "investigates (Track 1)":          "исследует (Трек 1)",
+  "investigates (Track 2)":          "исследует (Трек 2)",
+  "investigates (Track 3)":          "исследует (Трек 3)",
+  "investigates (Track 4)":          "исследует (Трек 4)",
+  "investigates (Track 6)":          "исследует (Трек 6)",
+  "uses methodology (Track 5)":      "использует методологию (Трек 5)",
+  "investigated-by":                 "расследуется",
+  "founded":                         "основал",
+  "founded-in":                      "основан",
+  "founder & program-director":      "основатель и директор программы",
+  "biomedical-research-director":    "директор биомедицинских исследований",
+  "Chief AI Engineer":               "главный ИИ-инженер",
+  "IT-specialist for":               "ИТ-специалист",
+  "employed-at":                     "работает в",
+  "former-director-of":              "бывший директор",
+  "operates":                        "управляет",
+  "part-of":                         "часть",
+  "collaborates-with":               "сотрудничает с",
+  "lineage-of":                      "линия преемственности",
+  "is-percipient-of":                "перципиент сеанса",
+  "is-sub-session-of":               "подсессия",
+  "subject-of":                      "субъект",
+  "applies-method":                  "применяет метод",
+  "applies-to-as-positive-control":  "применяется как положительный контроль",
+  "applies-to-as-failed-validation": "применяется как пройденная проверка → провал",
+  "applies-to-as-partial-failure":   "применяется как частичный провал",
+  "applies-to-as-statistical-signature": "применяется как статистическая сигнатура",
+  "applies-to-with-error-mode-3":    "применяется с ошибкой 3",
+  "feeds":                           "питает",
+  "instantiated-by":                 "инстанцируется",
+  "constrained-by":                  "ограничено",
+  "central-claim-of":                "центральное утверждение",
+  "parallel-but-disjoint":           "параллельно, но непересекаются",
+  "does-not-reference":              "не ссылается на",
+  "framing for":                     "рамка для",
+  "formal backbone for":             "формальный каркас",
+  "scientific base":                 "научная база",
+  "sibling research":                "исследование-сосед",
+  "potential reverse-engineering programme target": "потенциальная цель программы реверс-инжиниринга",
+  "issued naming recommendation":    "присвоил наименование",
+  "issued initial decline":          "первоначально отказал",
+  "accepted after replication":      "принял после репликации",
+  "captured":                        "захватил",
+  "appeared-at":                     "появился на",
+  "appeared-in":                     "появился в",
+  "conducted":                       "проводил",
+  "engaged-with":                    "взаимодействовал с",
+  "studies":                         "изучает",
+  "contains":                        "содержит",
+  "uses-as-evidence":                "использует как доказательство",
+  "draws-analogy-to":                "проводит аналогию",
+  "structurally-maps-to":            "структурно соответствует",
+  "references":                      "ссылается на",
+  "evidences":                       "доказывает",
+  "describes":                       "описывает",
+  "refers-to":                       "ссылается на",
+  "corrects-attribution-to":         "исправляет атрибуцию на",
+  "also-corrects-attribution-to":    "также исправляет атрибуцию на",
+  "contextualises":                  "контекстуализирует",
+  "describes-output-of":             "описывает результат",
+  "claim corroborated":              "заявление подтверждено",
+  "wears":                           "носит",
+  "resulted-in":                     "привело к",
+  "succeeded by":                    "сменён",
+  "framed-by":                       "оформлен через",
+  "member-of-cluster":               "участник кластера",
+  "documented in LinkedIn analysis": "задокументирован в анализе LinkedIn",
+  "announced":                       "объявил",
+  "led":                             "возглавил",
+  "related-to":                      "связано с",
+  "Configuration Management":        "управление конфигурацией",
+  "took-place-in":                   "произошло в",
+  "participated-in":                 "участвовал в",
+  "anti-conspiratorial-framing":     "анти-конспирологическая рамка",
+  "engaged-as":                      "вовлечён как",
+  "is-percipient-at":                "перципиент",
+  // ── Additional UAP-specific verbs added during review fixes ─────────
+  "applies-to":                      "применяется к",
+  "classifies":                      "классифицирует",
+  "coordinated":                     "координировал",
+  "died-on":                         "умер",
+  "disappeared-on":                  "исчез",
+  "disrupted":                       "нарушено",
+  "member-of":                       "входит в",
+  "proposed":                        "предложил",
+  "succeeds":                        "наследует",
+  "CTO":                             "CTO",
+  "joint-working-party-with":        "совместная рабочая группа с",
+  "co-issued":                       "совместно выпустил",
+  "publicly disputed":               "публично оспаривал",
+  "host of":                         "ведущий",
+  "hosted":                          "проводил",
+  "discusses":                       "обсуждает",
+  "documents":                       "документирует",
+  "confidence anchor for material-class claim": "якорь уверенности по классу материала",
+  "primary visual context":          "первичный визуальный контекст",
+  "submitted by percipient at":      "передано перципиентом на",
+  "cites":                           "цитирует",
+  "DARPA BAA proposal-portal access":"доступ к порталу DARPA BAA",
+  "DoD reverse-engineering benchmark target": "цель DoD reverse-engineering benchmark",
+  "Track 7 placeholder":             "плейсхолдер Трека 7",
+  "contradicts physics-of":          "противоречит физике",
+  "submission to authority":         "подача регулятору",
+  "subject of engagement":           "предмет взаимодействия",
+  "communicated to Nolan as core hypothesis": "передано Nolan как ключевая гипотеза",
+  "engaged-as":                      "вовлечён как",
+  "first-read event on the repo":    "событие первого читателя",
+};
+
+function edgeTypeFor(e, currentLang) {
+  const en = e.data('type');
+  if (currentLang === 'ru') return EDGE_LABELS_RU[en] || en;
+  return en;
+}
+
+// Build a data-URI for an SVG that draws an emoji at the centre of a 100x100 viewBox.
+// Used as background-image for nodes so the icon sits INSIDE the circle.
+function emojiBg(emoji) {
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>` +
+    `<text x='50' y='68' font-size='62' text-anchor='middle' ` +
+    `font-family='Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,Twemoji Mozilla,EmojiOne,sans-serif'>` +
+    `${emoji}</text></svg>`;
+  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
+let cy = null;
+let typeFilters = {};
+window.addEventListener('error', e => console.error('PAGE ERROR:', e.message, e.filename, e.lineno));
+window.addEventListener('unhandledrejection', e => console.error('PROMISE REJECT:', e.reason));
+
+async function load() {
+  const res = await fetch('uap_kumu.json?_=' + Date.now());
+  const data = await res.json();
+
+  const elements = [];
+  for (const el of data.elements) {
+    // Icon now goes INSIDE the circle (background-image), not as label prefix
+    const labelEn = el.label;
+    const labelRu = el.labelRu || el.label;
+    elements.push({
+      data: { ...el, id: el.id, labelEn, labelRu, displayLabel: labelEn,
+              iconBg: emojiBg(el.icon || '•') },
+      classes: 'node-' + el.type.replace(/[^a-z0-9]/gi, '-')
+    });
+  }
+  let cidx = 0;
+  for (const c of data.connections) {
+    elements.push({
+      data: { id: 'c' + (cidx++), source: c.from, target: c.to,
+              ...c, displayType: c.type }
+    });
+  }
+
+  // Stats
+  const types = {};
+  for (const el of data.elements) types[el.type] = (types[el.type] || 0) + 1;
+  for (const t of Object.keys(types)) typeFilters[t] = true;
+  // Stats data is stored globally for re-rendering on lang switch.
+  window.__stats = { elements: data.elements.length, connections: data.connections.length };
+  window.__typeCounts = types;
+  document.getElementById('stat-counts').innerHTML =
+    UI_LABELS[lang].statSuffix(window.__stats);
+  rebuildFilterAndLegend();
+
+  document.title += ` | el:${elements.length}`;
+  // store debug info on body data-attrs for bridge inspection
+  try {
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    pixelRatio: 'auto',                /* HiDPI rendering */
+    textureOnViewport: false,
+    motionBlur: false,
+    /* default wheelSensitivity = 1; restored to native */
+    elements,
+    style: [
+      {
+        selector: 'node',
+        style: {
+          'shape': 'ellipse',
+          'background-color': ele => TYPE_COLORS[ele.data('type')] || '#94A3B8',
+          'background-image':         ele => ele.data('iconBg'),
+          'background-fit':           'contain',
+          'background-clip':          'node',
+          'background-position-x':    '50%',
+          'background-position-y':    '50%',
+          'background-width':         '70%',     /* emoji takes ~70% of node, centered */
+          'background-height':        '70%',
+          'background-image-opacity': 1,
+          'label':           'data(displayLabel)',
+          'color':           '#F1F5F9',
+          'font-size':       11,
+          'font-weight':     500,
+          'text-wrap':       'wrap',
+          'text-max-width':  160,
+          'text-valign':     'bottom',
+          'text-halign':     'center',
+          'text-margin-y':   6,
+          'text-outline-color': '#0F172A',
+          'text-outline-width': 3,
+          'min-zoomed-font-size': 5,
+          'width':           'mapData(weight, 0, 12, 24, 56)',
+          'height':          'mapData(weight, 0, 12, 24, 56)',
+          'border-width':    1.5,
+          'border-color':    '#0F172A',
+        }
+      },
+      {
+        selector: 'node:selected',
+        style: {
+          'border-width': 4,
+          'border-color': '#FBBF24',
+          'background-blacken': -0.2,
+          'font-size': 13,
+          'z-index': 999,
+        }
+      },
+      {
+        selector: 'edge',
+        style: {
+          'width': 1.2,
+          'line-color': '#475569',
+          'target-arrow-color': '#475569',
+          'target-arrow-shape': 'triangle',
+          'curve-style': 'bezier',
+          'opacity': 0.45,
+          'label': 'data(displayType)',
+          'font-size': 11,
+          'font-weight': 500,
+          'color': '#F1F5F9',
+          'text-rotation': 'autorotate',
+          'text-background-color': '#0F172A',
+          'text-background-opacity': 0.95,
+          'text-background-padding': 3,
+          'text-background-shape': 'roundrectangle',
+          'text-border-color': '#475569',
+          'text-border-opacity': 0.6,
+          'text-border-width': 1,
+          'text-opacity': 0,                     /* hidden by default */
+        }
+      },
+      {
+        selector: 'edge.show-label',
+        style: {
+          'text-opacity': 1,
+          'opacity': 0.85,
+          'width': 1.8,
+        }
+      },
+      {
+        selector: 'edge:selected',
+        style: {
+          'line-color': '#FBBF24',
+          'target-arrow-color': '#FBBF24',
+          'opacity': 1,
+          'width': 2.5,
+          'text-opacity': 1,
+        }
+      },
+      {
+        selector: '.faded',
+        style: { 'opacity': 0.07 }
+      },
+      {
+        selector: '.highlighted',
+        style: { 'opacity': 1, 'z-index': 100 }
+      },
+    ],
+    layout: fcoseLayoutOpts(),
+  });
+  window.__cy = cy;
+  document.body.dataset.cyOk = 'yes:'+cy.nodes().length+'/'+cy.edges().length;
+  } catch(err) {
+    document.body.dataset.cyError = err.message + ' | stack: ' + (err.stack||'').slice(0,400);
+    document.title += ' | ERR';
+    throw err;
+  }
+
+  // weight by degree (so hubs render bigger)
+  cy.nodes().forEach(n => n.data('weight', Math.min(12, n.degree(false))));
+
+  cy.on('tap', 'node', e => showNodeInfo(e.target));
+  cy.on('tap', e => { if (e.target === cy) clearSelection(); });
+
+  // hover-based edge labels — show edge label + neighbour-edge labels on node hover
+  cy.on('mouseover', 'node', e => {
+    if (edgeLabelMode === 'hover') {
+      e.target.connectedEdges().addClass('show-label');
+    }
+  });
+  cy.on('mouseout', 'node', e => {
+    if (edgeLabelMode === 'hover') {
+      e.target.connectedEdges().removeClass('show-label');
+    }
+  });
+  cy.on('mouseover', 'edge', e => {
+    if (edgeLabelMode === 'hover') e.target.addClass('show-label');
+  });
+  cy.on('mouseout', 'edge', e => {
+    if (edgeLabelMode === 'hover') e.target.removeClass('show-label');
+  });
+
+  fit();
+}
+
+/* fcose — Compound Spring Embedder. Per-element fields MUST be functions. */
+function fcoseLayoutOpts(spreadMul = 1.0) {
+  return {
+    name: 'fcose',
+    quality: 'default',
+    randomize: true,
+    animate: true,
+    animationDuration: 700,
+    fit: true,
+    padding: 60,
+    nodeDimensionsIncludeLabels: true,
+    uniformNodeDimensions: false,
+    packComponents: true,
+    samplingType: true,
+    sampleSize: 25,
+    nodeSeparation: 250 * spreadMul,
+    piTol: 0.0000001,
+    nodeRepulsion: () => 15000 * spreadMul,
+    idealEdgeLength: () => 220 * spreadMul,
+    edgeElasticity: () => 0.45,
+    nestingFactor: 0.1,
+    numIter: 2500,
+    tile: true,
+    tilingPaddingVertical: 40,
+    tilingPaddingHorizontal: 40,
+    gravity: 0.25,
+    gravityRange: 3.8,
+    gravityCompound: 1.0,
+    gravityRangeCompound: 1.5,
+    initialEnergyOnIncremental: 0.3,
+  };
+}
+
+/* cose-bilkent fallback — older, also label-aware */
+function coseBilkentLayoutOpts() {
+  return {
+    name: 'cose-bilkent',
+    animate: 'end',
+    fit: true,
+    padding: 60,
+    nodeDimensionsIncludeLabels: true,
+    randomize: true,
+    nodeRepulsion: 4500,
+    idealEdgeLength: 120,
+    edgeElasticity: 0.45,
+    nestingFactor: 0.1,
+    gravity: 0.25,
+    numIter: 2500,
+    tile: true,
+    tilingPaddingVertical: 20,
+    tilingPaddingHorizontal: 20,
+  };
+}
+
+let edgeLabelMode = 'hover';   /* 'hover' | 'always' | 'off' */
+function edgeLabelButtonText() {
+  const T = UI_LABELS[lang];
+  return { hover: T.edgeHover, always: T.edgeAlways, off: T.edgeOff }[edgeLabelMode];
+}
+function toggleEdgeLabels() {
+  const order = ['hover', 'always', 'off'];
+  edgeLabelMode = order[(order.indexOf(edgeLabelMode) + 1) % order.length];
+  document.getElementById('edgeLabelToggle').textContent = edgeLabelButtonText();
+  if (edgeLabelMode === 'always') {
+    cy.edges().addClass('show-label');
+  } else {
+    cy.edges().removeClass('show-label');
+  }
+}
+
+let lang = 'en';   /* 'en' | 'ru' */
+function applyUILang() {
+  const T = UI_LABELS[lang];
+  // buttons
+  document.getElementById('btn-fit').textContent        = T.fit;
+  document.getElementById('btn-fcose').textContent      = T.fcose || 'fcose';
+  document.getElementById('btn-spread').textContent     = T.spread;
+  document.getElementById('btn-bilkent').textContent    = T.bilkent;
+  document.getElementById('btn-concentric').textContent = T.concentric;
+  document.getElementById('btn-tree').textContent       = T.tree;
+  document.getElementById('btn-png').textContent        = T.png;
+  document.getElementById('langToggle').textContent     = T.lang;
+  document.getElementById('edgeLabelToggle').textContent = edgeLabelButtonText();
+  // labels
+  document.getElementById('search').placeholder = T.search;
+  document.getElementById('h-filter').textContent    = T.filterTitle;
+  document.getElementById('h-selection').textContent = T.selTitle;
+  document.getElementById('h-legend').textContent    = T.legend;
+  // re-render filter chips with translated type names
+  rebuildFilterAndLegend();
+  // re-render selection panel
+  const sel = cy && cy.$(':selected').first();
+  if (sel && sel.length) showNodeInfo(sel);
+  else document.getElementById('info').textContent = T.selPlaceholder;
+  // re-render stats (counts)
+  if (window.__stats) {
+    document.getElementById('stat-counts').innerHTML = T.statSuffix(window.__stats);
+  }
+}
+
+function toggleLang() {
+  lang = lang === 'en' ? 'ru' : 'en';
+  cy.nodes().forEach(n => {
+    n.data('displayLabel', lang === 'ru' ? n.data('labelRu') : n.data('labelEn'));
+  });
+  cy.edges().forEach(e => {
+    const en = e.data('type');
+    e.data('displayType', lang === 'ru' ? (EDGE_LABELS_RU[en] || en) : en);
+  });
+  applyUILang();
+}
+
+function rebuildFilterAndLegend() {
+  const filtersEl = document.getElementById('filters');
+  const legendEl  = document.getElementById('legend');
+  if (!filtersEl || !window.__typeCounts) return;
+  filtersEl.innerHTML = '';
+  legendEl.innerHTML = '';
+  Object.entries(window.__typeCounts).sort((a,b) => b[1] - a[1]).forEach(([t, n]) => {
+    const color = TYPE_COLORS[t] || '#94A3B8';
+    const tName = lang === 'ru' ? (TYPE_LABELS_RU[t] || t) : t;
+    const btn = document.createElement('div');
+    btn.className = 'filter-btn' + (typeFilters[t] === false ? ' off' : '');
+    btn.textContent = `${tName} (${n})`;
+    btn.style.borderLeft = `4px solid ${color}`;
+    btn.onclick = () => {
+      typeFilters[t] = !typeFilters[t];
+      btn.classList.toggle('off');
+      applyFilters();
+    };
+    filtersEl.appendChild(btn);
+    const li = document.createElement('div');
+    li.className = 'legend-item';
+    li.innerHTML = `<div class="legend-dot" style="background:${color}"></div>${tName} (${n})`;
+    legendEl.appendChild(li);
+  });
+}
+
+function showNodeInfo(node) {
+  const d = node.data();
+  const T = UI_LABELS[lang];
+  const typeLabel = lang === 'ru' ? (TYPE_LABELS_RU[d.type] || d.type) : d.type;
+  let html = `<div class="label">${d.displayLabel}</div>`;
+  html += `<div class="type">${typeLabel}</div>`;
+  for (const k of ['status','description','confidence','source','date','location','role','jurisdiction','registry','filed','granted','reach','url','scope']) {
+    if (k === 'description') {
+      const value = lang === 'ru' ? (d.descriptionRu || d.description) : d.description;
+      if (value) {
+        html += `<div class="field"><div class="key">${T.fieldKey.description}</div><div class="value">${value}</div></div>`;
+      }
+      continue;
+    }
+    if (d[k]) {
+      const value = (k === 'url' || k === 'registry') && d[k].startsWith('http')
+        ? `<a href="${d[k]}" target="_blank">${d[k]}</a>`
+        : d[k];
+      const keyLabel = T.fieldKey[k] || k;
+      html += `<div class="field"><div class="key">${keyLabel}</div><div class="value">${value}</div></div>`;
+    }
+  }
+  // neighbors — use the same lang as currently selected
+  const neigh = node.connectedEdges().map(e => {
+    const other = e.source().id() === node.id() ? e.target() : e.source();
+    const dir = e.source().id() === node.id() ? '→' : '←';
+    const otherLabel = lang === 'ru' ? other.data('labelRu') : other.data('labelEn');
+    const en = e.data('type');
+    const edgeLabel = lang === 'ru' ? (EDGE_LABELS_RU[en] || en) : en;
+    return `<div class="field"><div class="key">${dir} ${edgeLabel}</div><div class="value">${otherLabel}</div></div>`;
+  }).join('');
+  if (neigh) html += `<div class="key" style="margin-top:12px;text-transform:uppercase;font-size:10px;color:#94A3B8;letter-spacing:0.05em;">${T.connections} (${node.connectedEdges().length})</div>${neigh}`;
+  document.getElementById('info').innerHTML = html;
+
+  // highlight neighborhood
+  cy.elements().removeClass('faded');
+  const closed = node.closedNeighborhood();
+  cy.elements().difference(closed).addClass('faded');
+}
+
+function clearSelection() {
+  cy.elements().removeClass('faded');
+  document.getElementById('info').innerHTML = 'Click any node to see details.';
+}
+
+function applyFilters() {
+  cy.nodes().forEach(n => {
+    const t = n.data('type');
+    n.style('display', typeFilters[t] ? 'element' : 'none');
+  });
+}
+
+function fit() { cy.fit(undefined, 60); }
+function layout(name, spread = 1.0) {
+  let opts;
+  if (name === 'fcose') {
+    opts = fcoseLayoutOpts(spread);
+  } else if (name === 'cose-bilkent') {
+    opts = coseBilkentLayoutOpts();
+  } else {
+    opts = {
+      name, animate: true, padding: 80, spacingFactor: 2.5,
+      nodeDimensionsIncludeLabels: true,
+      avoidOverlap: true,
+    };
+  }
+  if (name === 'concentric') opts.concentric = (n) => n.degree();
+  cy.layout(opts).run();
+}
+
+function search() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  cy.elements().removeClass('faded');
+  if (!q) return;
+  const matched = cy.nodes().filter(n =>
+    (n.data('labelEn')||'').toLowerCase().includes(q) ||
+    (n.data('labelRu')||'').toLowerCase().includes(q) ||
+    (n.data('description') || '').toLowerCase().includes(q));
+  cy.elements().difference(matched.closedNeighborhood()).addClass('faded');
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    document.getElementById('search').value = '';
+    clearSelection();
+  }
+});
+
+function exportPNG() {
+  const png = cy.png({ full: true, scale: 2, bg: '#0F172A' });
+  const a = document.createElement('a');
+  a.href = png;
+  a.download = 'asrp_ecosystem_graph.png';
+  a.click();
+}
+
+load();
+</script>
+
+</body>
+</html>
