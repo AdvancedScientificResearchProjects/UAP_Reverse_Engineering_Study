@@ -292,9 +292,9 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 
 **Status: Planned / Статус: Запланировано**
 
-**EN:** Placeholder for a future track on **companies engaged in UAP reverse-engineering**, **JFES (Joint Financial / Engineering Services) budget structure**, and **market structure** of the field. Announced by Denis Banchenko (voice message 239973, 2026-04-26). No content yet — TBD.
+**EN:** Placeholder for a future track on **companies engaged in UAP reverse-engineering**, **JFES (Joint Financial / Engineering Services) budget structure**, and **market structure** of the field. Announced by Denis Banchenko (working session, 2026-04-26). No content yet — TBD.
 
-**RU:** Плейсхолдер для будущего трека о **компаниях, занимающихся реверс-инжинирингом UAP**, **структуре бюджета JFES (Joint Financial / Engineering Services)** и **структуре рынка** этой области. Анонсирован Денисом Банченко (голосовое сообщение 239973, 26.04.2026). Контента пока нет — TBD.
+**RU:** Плейсхолдер для будущего трека о **компаниях, занимающихся реверс-инжинирингом UAP**, **структуре бюджета JFES (Joint Financial / Engineering Services)** и **структуре рынка** этой области. Анонсирован Денисом Банченко (рабочая сессия, 26.04.2026). Контента пока нет — TBD.
 
 **Lead file / Главный файл:** TBD
 

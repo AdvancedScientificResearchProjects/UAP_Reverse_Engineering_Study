@@ -1,20 +1,20 @@
 # UAP Taxonomy / Таксономия UAP
 
-**EN:** This file records a three-category origin taxonomy for UAP proposed by **Denis Banchenko** (project owner, ASRP alliance) in voice message 238104, dated 2026-04-06. The taxonomy is preserved here as a **classification scheme for analytical work** — not as a claim that any particular category is correct, ranked, or empirically established. It is the framework under which the present sub-archive, the Lazar archive, and the Chernobrov archive can be organised on a common axis.
+**EN:** This file records a three-category origin taxonomy for UAP proposed by **Denis Banchenko** (project owner, ASRP alliance) in a working session on 2026-04-06. The taxonomy is preserved here as a **classification scheme for analytical work** — not as a claim that any particular category is correct, ranked, or empirically established. It is the framework under which the present sub-archive, the Lazar archive, and the Chernobrov archive can be organised on a common axis.
 
-**RU:** Этот файл фиксирует трёхкатегорную классификацию происхождения UAP, предложенную **Денисом Банченко** (владелец проекта, альянс ASRP) в голосовом сообщении 238104 от 2026-04-06. Таксономия сохранена здесь как **классификационная схема для аналитической работы** — а не как утверждение, что какая-либо конкретная категория верна, ранжирована или эмпирически установлена. Это рамка, по которой настоящий подархив, архив Лазара и архив Черноброва можно организовать на общей оси.
+**RU:** Этот файл фиксирует трёхкатегорную классификацию происхождения UAP, предложенную **Денисом Банченко** (владелец проекта, альянс ASRP) в рабочей сессии 06.04.2026. Таксономия сохранена здесь как **классификационная схема для аналитической работы** — а не как утверждение, что какая-либо конкретная категория верна, ранжирована или эмпирически установлена. Это рамка, по которой настоящий подархив, архив Лазара и архив Черноброва можно организовать на общей оси.
 
 ---
 
 ## 1. Premise / Предпосылка
 
-**EN:** Denis Banchenko proposed the taxonomy in a Russian-language voice message. The verbatim source is preserved below for traceability. Nothing in the proposal asserts which category is correct; the proposal is structural — it gives the project a vocabulary of three buckets so that disparate UAP narratives can be compared on a common origin axis.
+**EN:** Denis Banchenko proposed the taxonomy in a working session (Russian). The verbatim formulation is preserved below for traceability. Nothing in the proposal asserts which category is correct; the proposal is structural — it gives the project a vocabulary of three buckets so that disparate UAP narratives can be compared on a common origin axis.
 
-**RU:** Денис Банченко предложил таксономию в русскоязычном голосовом сообщении. Дословный источник приведён ниже для прослеживаемости. Ничто в предложении не утверждает, какая категория верна; предложение — структурное: оно даёт проекту словарь из трёх корзин, чтобы разрозненные нарративы об UAP можно было сравнивать по общей оси происхождения.
+**RU:** Денис Банченко предложил таксономию в рабочей сессии (на русском). Дословная формулировка приведена ниже для прослеживаемости. Ничто в предложении не утверждает, какая категория верна; предложение — структурное: оно даёт проекту словарь из трёх корзин, чтобы разрозненные нарративы об UAP можно было сравнивать по общей оси происхождения.
 
 > «нельзя использовать терминологию НЛО. Это как бы ненаучно... есть терминология UAP, да, ее как бы используют как базовую обязательно, но потом там всегда идет расширение AIT, то есть на английском в библиотеке конгресса США, в конгрессе в самом, там есть AIT, перспективный аэрокосмический транспорт или прогрессивный аэрокосмический транспорт... ОАПы делятся на категории, то есть есть, которые с других звездных систем прибывают, есть которые с параллельных веток реальности, есть которые во времени двигаются. У нас там гипотеза, что мы следуем во времени объекта.»
 >
-> — Denis Banchenko, voice message 238104, 2026-04-06 / Денис Банченко, голосовое сообщение 238104, 2026-04-06
+> — Denis Banchenko, working session, 2026-04-06 / Денис Банченко, рабочая сессия, 06.04.2026
 
 ---
 
