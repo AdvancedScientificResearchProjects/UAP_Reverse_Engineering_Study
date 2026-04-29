@@ -17,14 +17,15 @@ Public-source corporate profiles for Track 7. One file per major company; each f
 | 5 | [`boeing.md`](boeing.md) | Boeing (NYSE: BA) | Phantom Works + DARPA-BAA benchmark / Phantom Works + benchmark DARPA-BAA |
 | 6 | [`raytheon-rtx.md`](raytheon-rtx.md) | RTX Corporation (NYSE: RTX) | Sensor / radar / EW supply chain / Сенсоры / РЛС / РЭБ |
 | 7 | [`northrop-grumman.md`](northrop-grumman.md) | Northrop Grumman (NYSE: NOC) | B-2 / B-21 black programs / Чёрные программы B-2 / B-21 |
+| 8 | [`honeywell.md`](honeywell.md) | Honeywell International (NYSE: HON) | KCNSC operator via FM&T; 3 NNSA consortia (KCNSC + NTESS + MSTS) / Оператор KCNSC через FM&T; 3 консорциума NNSA |
 
 ---
 
 ## v2 set (planned) / Набор v2 (запланирован)
 
-General Atomics, Aerojet Rocketdyne, Battelle, Sandia/SNL operator chain, Bechtel National, Jacobs Solutions (post-CMS), SAIC, Parsons, Booz Allen Hamilton, URS (historical), L3Harris, Honeywell FM&T (KCNSC).
+General Atomics, Aerojet Rocketdyne, Battelle, Sandia/SNL operator chain, Bechtel National, Jacobs Solutions (post-CMS), SAIC, Parsons, Booz Allen Hamilton, URS (historical), L3Harris.
 
-General Atomics, Aerojet Rocketdyne, Battelle, операторская цепь Sandia/SNL, Bechtel National, Jacobs Solutions (после spinoff CMS), SAIC, Parsons, Booz Allen Hamilton, URS (исторически), L3Harris, Honeywell FM&T (KCNSC).
+General Atomics, Aerojet Rocketdyne, Battelle, операторская цепь Sandia/SNL, Bechtel National, Jacobs Solutions (после spinoff CMS), SAIC, Parsons, Booz Allen Hamilton, URS (исторически), L3Harris.
 
 ---
 

@@ -42,6 +42,24 @@
   - Эксплуатация NTS и аэродромная логистика (Special Projects, Лас-Вегас).
   - Оптоэлектроника / сенсоры (коммерческий спин-офф, впоследствии продан отдельно).
 
+### Historical sub-units / Исторические подразделения
+
+**EN:** Several named technical sub-divisions operated under the EG&G corporate umbrella through the 1960s–1990s. They are documented here as public-record sub-unit names because their patent assignees are useful entry points for OSINT into the EG&G technical-services book; the sub-units themselves were absorbed into the URS → AECOM → Amentum services lineage or were divested separately during the 2002 acquisition. Concrete patent records and named inventors are inventoried in [`../analysis/patents-inventory.md`](../analysis/patents-inventory.md) — that file applies the protocol's role-class anonymization bar for any content findings about named individuals.
+
+**RU:** Несколько именованных технических подразделений действовали под корпоративным зонтом EG&G в 1960-х–1990-х гг. Они документируются здесь как публично известные имена подразделений, поскольку их патентные правопреемники — удобные точки входа в OSINT по технико-сервисному портфелю EG&G; сами подразделения были поглощены сервисной линией URS → AECOM → Amentum или выделены отдельно во время сделки 2002 г. Конкретные патентные записи и имена изобретателей инвентаризованы в [`../analysis/patents-inventory.md`](../analysis/patents-inventory.md) — этот файл соблюдает запрет протокола на ролево-классовые контент-выводы о названных физических лицах.
+
+- **EN — EG&G Pressure Science**: pressure-engineering sub-unit specialising in hermetic seals, pressure-vessel components, and pressure-instrumentation for nuclear-test diagnostics and aerospace applications. Patent assignees in this sub-unit's filings appear in the inventory under "Pressure Science" assignee labelling.
+
+- **RU — EG&G Pressure Science**: подразделение прессинговой инженерии, специализировавшееся на герметичных уплотнениях, компонентах сосудов давления и приборном обеспечении давления для диагностики ядерных испытаний и аэрокосмических применений. Патентные правопреемники этого подразделения фигурируют в инвентаре под маркой «Pressure Science».
+
+- **EN — Sealol**: hermetic-seal sub-division (mechanical face seals, pressure / vacuum hermetics) operated under EG&G ownership; key inventors associated with Sealol filings include Swensen and Halling (see inventory).
+
+- **RU — Sealol**: подразделение герметичных уплотнений (механические торцевые уплотнения, прессинг / вакуумные гермосистемы) под управлением EG&G; ключевые изобретатели по заявкам Sealol — Swensen и Halling (см. инвентарь).
+
+- **EN — EG&G Optoelectronics**: high-speed photography, spectral lamps, and optical-systems sub-unit, inheriting the Edgerton imaging line. Key inventor associated with this sub-unit's spectral-lamp filings is Riley Jr (see inventory). Later divested separately from the federal-services line during the URS-acquisition restructuring.
+
+- **RU — EG&G Optoelectronics**: подразделение высокоскоростной съёмки, спектральных ламп и оптических систем, наследующее линию изображения Эдгертона. Ключевой изобретатель, связанный с заявками подразделения по спектральным лампам, — Riley Jr (см. инвентарь). Позднее выделен отдельно от линии федеральных сервисов в ходе реструктуризации при покупке URS.
+
 ## UAP-relevance / UAP-релевантность
 
 - **EN:** EG&G Special Projects (Las Vegas) is the **documented S-4 site contractor** named by Bob Lazar as his employer-of-record. The Lazar testimony chain — KLAS-TV (1989), the Lazar Tape (1991), and JRE 1315 (2019) — consistently identifies EG&G Special Projects as the entity that hired him onto the S-4 programme via the NTS access route. This places EG&G at the centre of Track-2 (Lazar) of the present archive. EG&G's broader nuclear-instrumentation heritage also intersects with Track-4 (exotic-physics anchor) through its long working relationship with the DOE weapons complex.

@@ -48,6 +48,20 @@
 
 - **RU:** UAP-релевантность Boeing — **ассоциативная / контекстная**. Подразделение Phantom Works — общедоступный аналог Skunk Works у Lockheed как промышленной структуры для компартментализованной продвинутой аэрокосмической разработки; само наличие двух параллельных таких подразделений у двух крупнейших аэрокосмических праймов США используется в Треке 5 как методологическая база «как выглядит продвинутое прототипирование на открытом уровне». Дополнительно — **Broad Agency Announcement DARPA 2017 г. по Aerospace Innovations / Advanced Aircraft Concepts (BAA)** служит публичной референцией OSINT-методологии Трека 5 для характеристики RFP «обратно-инжинирингового» типа; Boeing был типичным респондентом. Ничто из этого не атрибутирует Boeing работы по обратному инжинирингу UAP.
 
+### Janet Airlines (NTS air shuttle) / Janet Airlines (воздушный шаттл NTS)
+
+**EN:** Boeing operates the unmarked civilian-registered **Janet Airlines** shuttle fleet (call sign JANET, popularly back-formed as "Just Another Non-Existent Terminal") providing personnel transport from a dedicated terminal at Las Vegas Harry Reid International Airport (formerly McCarran) to the Nevada National Security Site (NNSS, formerly NTS), Area 51 / Homey Airport (KXTA), and the Tonopah Test Range. The public-record fleet comprises Boeing 737-600s and Beechcraft 1900s registered to a series of shell-style holders rooted in the Boeing prime contract; the fleet's existence and base of operations are documented in FAA registry data, Wikipedia, and longstanding aviation-press coverage.
+
+**RU:** Boeing эксплуатирует флот безмаркировочных гражданско-зарегистрированных шаттлов **Janet Airlines** (позывной JANET, популярная задняя расшифровка — «Just Another Non-Existent Terminal»), обеспечивающий перевозку персонала из специального терминала в международном аэропорту Лас-Вегаса Харри Рейд (бывш. Макарран) на Невадскую национальную испытательную площадку (NNSS, бывш. NTS), Area 51 / Homey Airport (KXTA) и Тонопахский испытательный полигон. Публично зафиксированный флот — Boeing 737-600 и Beechcraft 1900, оформленные на череду структур-«пустышек», восходящих к прайм-контракту Boeing; существование флота и база его операций задокументированы в реестре FAA, на Wikipedia и в давней авиационной прессе.
+
+**EN:** The NTS-logistics function overlaps the historical **EG&G Special Projects** scope — EG&G's Special Projects unit (Las Vegas) is what Bob Lazar names as his S-4 employer-of-record (see [`egng.md`](egng.md)); Janet Airlines is the air-side counterpart of the same NTS access route. The overlap is logistical, not testimonial: there is no public-record claim that the Janet shuttle itself transports UAP-related personnel or material. The shuttle is included in this archive as a public-record corporate fact connected to the broader NTS / Area 51 / Tonopah access ecosystem.
+
+**RU:** Функция NTS-логистики пересекается с историческим объёмом **EG&G Special Projects** — подразделение Special Projects EG&G (Лас-Вегас) — это то, что Боб Лазар называет своим формальным работодателем по S-4 (см. [`egng.md`](egng.md)); Janet Airlines — воздушный аналог того же маршрута допуска к NTS. Пересечение логистическое, не свидетельское: публичных утверждений, что сам шаттл Janet перевозит UAP-связанный персонал или материал, нет. Шаттл включён в архив как публично документированный корпоративный факт, связанный с более широкой экосистемой допуска к NTS / Area 51 / Тонопаху.
+
+**EN:** Public source — Wikipedia "Janet (airline)" and FAA registry records of the public-fleet aircraft. Cross-reference to [`egng.md`](egng.md) for EG&G Special Projects scope.
+
+**RU:** Публичный источник — Wikipedia «Janet (airline)» и записи реестра FAA по самолётам публичного флота. Кросс-ссылка на [`egng.md`](egng.md) по объёму EG&G Special Projects.
+
 ## Public market data (snapshot) / Рыночные данные (снимок)
 
 | Metric / Показатель | Value / Значение |

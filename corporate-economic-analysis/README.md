@@ -70,10 +70,13 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | [EG&G → Amentum succession / Преемственность EG&G → Amentum](analysis/egng-amentum-succession.md) | Central corporate-genealogy thesis / Центральный тезис корпоративной генеалогии |
 | [Lazar S-4 contractor bridge / Мост подрядчика Lazar S-4](analysis/lazar-s4-contractor-bridge.md) | Track-2 ↔ Track-7 load-bearing bridge / Нагруженный мост между Треком 2 и 7 |
 | [Intelligence-analysis methodology / Методология разведывательного анализа](analysis/intelligence-analysis-methodology.md) | "Разведывательный анализ" frame; subsumes Track 5 OSINT methodology / Рамка «разведывательного анализа»; наследует методологию OSINT Трека 5 |
+| [Patents inventory / Патентный инвентарь](analysis/patents-inventory.md) | EG&G technical sub-units — 11 named inventors + topic clusters (USPTO/Justia metadata only) / Технические подразделения EG&G — 11 именованных изобретателей и тематические кластеры (только метаданные USPTO/Justia) |
+| [Adversarial OSINT framing / Адверсариальная OSINT-рамка](analysis/adversarial-osint-framing.md) | 3-pass cross-validation methodology (positive-control / devil's-advocate / null-finding) / Методология кросс-валидации в 3 прохода |
 | [Companies / Компании](companies/) | One file per major company / По одному файлу на крупную компанию |
 | [Per-executive scan dossiers / Досье сканирования руководителей](people/_scan-targets/) | HSP-scan output for Amentum CEO + CTO / Результат HSP-сканирования для CEO + CTO Amentum |
 | [Banchenko corporate-session brief 2026-04-26 / Бриф корпоративной сессии Банченко 26.04.2026](raw/denis_2026-04-26_egng_amentum_brief.md) | Working-session notes that frame this archive / Рабочие заметки, формирующие данный архив |
-| [Banchenko companies-and-patents brief 2026-04-27 / Бриф компаний и патентов Банченко 27.04.2026](raw/denis_2026-04-27_companies_patents_brief.md) | Adversarial / multi-LLM cross-validation context / Контекст adversarial / multi-LLM кросс-валидации |
+| [Banchenko legal-risks assessment 2026-04-26 / Оценка юридических рисков Банченко 26.04.2026](raw/banchenko_2026-04-26_legal_risks_assessment.md) | Source for the protocol's Legal posture section / Источник для раздела Legal posture протокола |
+| [Banchenko corporate-analysis full notes 2026-04-27 / Полные заметки корпоративного анализа Банченко 27.04.2026](raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) | Source for v2 entities (Honeywell, EG&G sub-units, patents inventory) / Источник для сущностей v2 (Honeywell, подразделения EG&G, инвентарь патентов) |
 
 ---
 
@@ -93,6 +96,11 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | 10 | Diagram / Диаграмма | EG&G → Amentum succession tree | v1 |
 | 11 | Diagram / Диаграмма | Prime contractor constellation | v1 |
 | 12 | Diagram / Диаграмма | Lazar S-4 contractor bridge | v1 |
+| 13 | Company / Компания | Honeywell International (NYSE: HON) | **v2 / +** — KCNSC operator via FM&T; 3 NNSA consortia / Оператор KCNSC через FM&T; 3 консорциума NNSA |
+| 14 | Sub-units / Подразделения | EG&G historical sub-units (Pressure Science / Sealol / Optoelectronics) | **v2 / +** — Patent-assignee OSINT entry points / Точки входа OSINT по правопреемникам патентов |
+| 15 | Analysis / Анализ | Patents inventory (11 inventors / 5 patent families) | **v2 / +** — USPTO/Justia metadata only; no person-nodes / Только метаданные USPTO/Justia; узлов-людей нет |
+| 16 | Analysis / Анализ | Adversarial OSINT framing methodology | **v2 / +** — 3-pass cross-validation device / Приём кросс-валидации в 3 прохода |
+| 17 | Sub-unit / Подразделение | Janet Airlines (Boeing NTS shuttle) | **v2 / +** — NTS-logistics overlap with EG&G Special Projects / Пересечение NTS-логистики с EG&G Special Projects |
 
 ---
 
@@ -121,8 +129,10 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | Source / Источник | Type / Тип | Reference / Ссылка |
 |---|---|---|
 | Banchenko corporate-session brief, 2026-04-26 / Бриф корпоративной сессии Банченко, 26.04.2026 | Working notes / Рабочие заметки | [`raw/denis_2026-04-26_egng_amentum_brief.md`](raw/denis_2026-04-26_egng_amentum_brief.md) |
-| Banchenko companies-and-patents brief, 2026-04-27 / Бриф компаний и патентов Банченко, 27.04.2026 | Working notes / Рабочие заметки | [`raw/denis_2026-04-27_companies_patents_brief.md`](raw/denis_2026-04-27_companies_patents_brief.md) |
-| SEC EDGAR 10-K filings (Amentum FY24, Leidos FY24, LMT FY24, BA FY24, RTX FY24, NOC FY24) | Primary public filings / Первичная публичная отчётность | Per-company files in `companies/` / Файлы компаний в `companies/` |
+| Banchenko legal-risks assessment, 2026-04-26 / Оценка юридических рисков Банченко, 26.04.2026 | Working notes / Рабочие заметки | [`raw/banchenko_2026-04-26_legal_risks_assessment.md`](raw/banchenko_2026-04-26_legal_risks_assessment.md) |
+| Banchenko corporate-analysis full notes, 2026-04-27 / Полные заметки корпоративного анализа Банченко, 27.04.2026 | Working notes / Рабочие заметки | [`raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`](raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) |
+| SEC EDGAR 10-K filings (Amentum FY24, Leidos FY24, LMT FY24, BA FY24, RTX FY24, NOC FY24, Honeywell FY24) | Primary public filings / Первичная публичная отчётность | Per-company files in `companies/` / Файлы компаний в `companies/` |
+| Justia Patents (public USPTO mirror) / Justia Patents (публичное зеркало USPTO) | Patent-assignee OSINT / OSINT по правопреемникам | [`analysis/patents-inventory.md`](analysis/patents-inventory.md) |
 | LinkedIn — public C-level executive profiles / LinkedIn — публичные профили C-level руководителей | OSINT / OSINT | Per-person files in `people/_scan-targets/` / Файлы персон в `people/_scan-targets/` |
 | Bob Lazar testimony corpus 1989–2026 / Корпус показаний Bob Lazar 1989–2026 | Track-2 Lazar archive / Архив Lazar (Трек 2) | [`../bob-lazar-archive/`](../bob-lazar-archive/) |
 
