@@ -337,3 +337,8 @@ bob-lazar-archive/
 **Organization / Организация:** Advanced Scientific Research Projects (ASRP)
 
 </div>
+
+
+---
+
+> **Support / Поддержать:** if this work is valuable to you — https://asrp.tech/en/patrons

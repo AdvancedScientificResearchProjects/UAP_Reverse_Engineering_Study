@@ -1,0 +1,43 @@
+flowchart LR
+    classDef testimony fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef anchor fill:#fecaca,stroke:#7f1d1d,stroke-width:3px,color:#000
+    classDef ma fill:#bfdbfe,stroke:#1e3a8a,stroke-width:2px,color:#000
+    classDef successor fill:#bbf7d0,stroke:#14532d,stroke-width:3px,color:#000
+    classDef hyp fill:#e9d5ff,stroke:#5b21b6,stroke-width:2px,stroke-dasharray:5 5,color:#000
+    classDef cluster fill:#d1d5db,stroke:#374151,stroke-width:2px,color:#000
+
+    KLAS["📺 KLAS-TV 1989<br/>Bob Lazar interview<br/>интервью Боба Лазара"]:::testimony
+    LZRTAPE["📼 Lazar Tape 1991<br/>EG&G Special Projects named<br/>назван EG&G Special Projects"]:::testimony
+    JRE["🎙 JRE 1315 / 2479<br/>2019 / 2025 restatement<br/>повтор показаний"]:::testimony
+
+    EGNG["🏢 EG&G Special Projects<br/>(Las Vegas)<br/>Lazar's named<br/>employer-of-record<br/>Названный работодатель"]:::anchor
+
+    URS["URS Corp (2002)"]:::ma
+    AECOM["AECOM (2014)"]:::ma
+    AMTM["Amentum (2020)<br/>NYSE: AMTM (2024)<br/>EG&G лineage successor<br/>правопреемник линии EG&G"]:::successor
+
+    HYP1["💭 hyp-egng-s4-contractor<br/>EG&G named as S-4 contractor<br/>EG&G — подрядчик S-4<br/>(single-source / Lazar)<br/>(один источник / Лазар)"]:::hyp
+    HYP2["💭 hyp-amentum-egng-legacy<br/>Amentum is EG&G successor<br/>Amentum — преемник EG&G<br/>(documented / задокументировано)"]:::hyp
+
+    CLUSTERT2["📦 Track 2 — Lazar archive<br/>cluster-track2"]:::cluster
+    CLUSTERT7["📦 Track 7 — Corporate analysis<br/>cluster-track7-corporate"]:::cluster
+
+    CLUSTERT2 --- KLAS
+    CLUSTERT2 --- LZRTAPE
+    CLUSTERT2 --- JRE
+
+    KLAS -- "names<br/>называет" --> EGNG
+    LZRTAPE -- "names<br/>называет" --> EGNG
+    JRE -- "restates<br/>повторяет" --> EGNG
+
+    EGNG -.-> HYP1
+    HYP1 -.-> EGNG
+
+    EGNG -- "acquired-by<br/>поглощена" --> URS
+    URS -- "acquired-by<br/>поглощена" --> AECOM
+    AECOM -- "spinoff<br/>spinoff" --> AMTM
+    AMTM -.-> HYP2
+    HYP2 -.-> AMTM
+
+    CLUSTERT7 --- AMTM
+    CLUSTERT7 --- EGNG

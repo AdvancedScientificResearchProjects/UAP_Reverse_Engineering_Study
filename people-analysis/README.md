@@ -215,3 +215,8 @@ A dedicated research sub-archive documenting, with public-source provenance only
 ---
 
 [← Root README / Корень](../README.md)
+
+
+---
+
+> **Support / Поддержать:** if this work is valuable to you — https://asrp.tech/en/patrons

@@ -139,3 +139,8 @@
 - Chernobrov archive / Архив Черноброва: [`../chernobrov-archive/`](../chernobrov-archive/)
 - Dubna / Element 115 / Дубна / Элемент 115: [`../dubna-element-115-analysis/`](../dubna-element-115-analysis/)
 - People analysis / People-анализ: [`../people-analysis/`](../people-analysis/)
+
+
+---
+
+> **Support / Поддержать:** if this work is valuable to you — https://asrp.tech/en/patrons

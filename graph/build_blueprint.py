@@ -299,11 +299,11 @@ E("src-percipient-sketch-237398", "Percipient hand-drawn disc sketch (2026-04-02
   description_ru="Ручной набросок диска НАЯ с подписью «умер. часть / проводимость» · получен от перципиента ECP-сессии через Дениса Банченко · хранится в репо в data/raw/percipient-sketches/2026-04-02_session_disc_sketch.jpg · первичный визуальный контекст для UAP-FRAG-001",
   url="data/raw/percipient-sketches/2026-04-02_session_disc_sketch.jpg")
 
-# Track-7 placeholder cluster
-E("cluster-track7-corporate", "Track 7 — Corporate / Economic Analysis (planned)", "cluster",
-  label_ru="Трек 7 — Корпоративный / экономический анализ (запланирован)",
-  description="Placeholder cluster for Track 7 · companies engaged in UAP reverse-engineering · JFES budget structure · market structure · awaiting Denis Banchenko source material",
-  description_ru="Placeholder-кластер Трека 7 · компании, занимающиеся реверс-инжинирингом UAP · структура бюджета JFES · структура рынка · ожидаются исходные материалы Дениса Банченко")
+# Track-7 cluster (active — see fragments/agentE_track7_corporate.py for full population)
+E("cluster-track7-corporate", "Track 7 — Corporate / Economic Analysis", "cluster",
+  label_ru="Трек 7 — Корпоративный / экономический анализ",
+  description="Defense-prime contractor constellation behind the UAP record. Anchor thesis: EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) is the documented Lazar-S-4-contractor lineage. Cluster includes 4 engineering primes (LMT, BA, RTX, NOC) + services-prime ring (Amentum, Leidos, Jacobs, etc.) + 2 HSP role-class scan targets at Amentum (public CEO scan target + public CTO scan target, depersonalized per protocol_corporate_scan.md v1.1). Public-source-only.",
+  description_ru="Созвездие prime-подрядчиков обороны за UAP-нарративом. Якорный тезис: EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) — задокументированная линия подрядчика Lazar-S-4. Кластер включает 4 инженерных prime (LMT, BA, RTX, NOC) + сервисное кольцо (Amentum, Leidos, Jacobs и др.) + 2 ролево-классовые цели HSP-сканирования в Amentum (публичная цель CEO + публичная цель CTO, деперсонализировано по protocol_corporate_scan.md v1.1). Только публичные источники.")
 
 # Additional Lazar-corpus persons (per review)
 E("p-friedman", "Stanton T. Friedman", "person · external",
@@ -382,9 +382,14 @@ exec(Path(__file__).parent.joinpath("fragments/agentC_osint_people.py").read_tex
 # ════════════════════════════════════════════════════════════════════════════
 exec(Path(__file__).parent.joinpath("fragments/agentD_track1.py").read_text(encoding="utf-8"))
 
+# ════════════════════════════════════════════════════════════════════════════
+# 5. AGENT E — Track 7 Corporate / Economic Analysis (EG&G → Amentum lineage)
+# ════════════════════════════════════════════════════════════════════════════
+exec(Path(__file__).parent.joinpath("fragments/agentE_track7_corporate.py").read_text(encoding="utf-8"))
+
 
 # ════════════════════════════════════════════════════════════════════════════
-# 5. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
+# 6. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
 # ════════════════════════════════════════════════════════════════════════════
 
 # Lazar ↔ Dubna: element 115 as the critical bridge
@@ -433,7 +438,7 @@ C("inst-boeing", "pj-uap", "DoD reverse-engineering benchmark target", direction
 C("inst-boeing", "cluster-track7-corporate", "member-of", direction="directed")
 C("inst-jfes", "cluster-track7-corporate", "member-of", direction="directed")
 C("inst-darpa", "cluster-track7-corporate", "related-to", direction="directed")
-C("cluster-track7-corporate", "pj-uap", "Track 7 placeholder", direction="directed")
+C("cluster-track7-corporate", "pj-uap", "scope-of", direction="directed")
 
 # (2) DOI source nodes link to theory anchors
 C("src-3dt-paper", "th-3dt", "documents", direction="directed")

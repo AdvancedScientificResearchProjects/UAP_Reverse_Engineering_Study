@@ -1,0 +1,148 @@
+# Corporate / Economic Analysis — UAP reverse-engineering industry / Корпоративный / экономический анализ — индустрия реверс-инжиниринга UAP
+
+A research sub-archive documenting, with public-source provenance only, the **defense-prime contractor constellation** historically and currently associated with classified aerospace research-and-development programmes that intersect the UAP record. Central thesis: the EG&G corporate genealogy — EG&G (1947) → URS (2002) → AECOM (2014) → **Amentum** (2020), with the Jacobs Critical Mission Solutions merger (2024) — is the documented Lazar-S-4 site contractor lineage, and Amentum is its present-day successor. Around Amentum stand the four engineering primes (Lockheed Martin, Boeing, RTX, Northrop Grumman) and the services-prime ring (Leidos, SAIC, Jacobs, Parsons, BAH) that operate the DoE national laboratories.
+
+Отдельный исследовательский подархив, документирующий — исключительно по публичным источникам — **созвездие prime-подрядчиков обороны**, исторически и в настоящее время связанных с засекреченными авиакосмическими R&D-программами, пересекающимися с UAP-нарративом. Центральный тезис: корпоративная генеалогия EG&G — EG&G (1947) → URS (2002) → AECOM (2014) → **Amentum** (2020), с поглощением Jacobs Critical Mission Solutions (2024) — является задокументированной линией подрядчика площадки Lazar S-4, и Amentum — её современный преемник. Вокруг Amentum располагаются четыре инженерных prime-подрядчика (Lockheed Martin, Boeing, RTX, Northrop Grumman) и сервисное кольцо (Leidos, SAIC, Jacobs, Parsons, BAH), оперирующее национальными лабораториями DoE.
+
+---
+
+## Premise / Предпосылка
+
+**EN:** Bob Lazar has stated since 1989 that during his time at S-4 (Papoose Lake / Area 51) his employer of record was **EG&G**. EG&G's services line went through three corporate roll-ups over 22 years and now sits inside **Amentum Holdings (NYSE: AMTM)**. This sub-archive documents the corporate-genealogy chain end-to-end, profiles the named primes that surround it, and links the chain to two adjacent UAP-relevant data sets in this repository: the Track-2 Lazar-S-4 testimony and the Track-6 FBI 11-scientist cluster (whose institutional employers map heavily onto this same constellation). The goal is to render the industrial layer beneath the UAP record as a navigable graph — not to assert any specific reverse-engineering claim.
+
+**RU:** Боб Лазар с 1989 года утверждает, что в период работы на S-4 (озеро Papoose / Area 51) его официальным работодателем было **EG&G**. Сервисное направление EG&G прошло через три корпоративных rollups за 22 года и сегодня находится внутри **Amentum Holdings (NYSE: AMTM)**. Этот подархив документирует цепь корпоративной генеалогии end-to-end, профилирует именованные prime-подрядчики вокруг неё и связывает цепь с двумя смежными UAP-релевантными датасетами в этом репозитории: показанием Lazar-S-4 (Трек 2) и кластером 11 учёных ФБР (Трек 6), институциональные работодатели которого преимущественно ложатся на это же созвездие. Цель — отрисовать индустриальный слой под UAP-нарративом как навигируемый граф, не утверждая никакого конкретного reverse-engineering claim.
+
+---
+
+## Status framing / Рамка статуса
+
+**EN:** This archive does **NOT** assert that any specific company performed UAP reverse-engineering. It records:
+- Documented corporate genealogy (10-K filings, press releases, M&A announcements)
+- Named CEOs and CTOs (LinkedIn, company-website "About" pages)
+- Public market-data snapshots (NYSE / NASDAQ tickers, market caps as of build date)
+- Institutional employer-of-record claims by Bob Lazar in his 1989–2026 testimony corpus
+- Track-6 FBI-cluster scientists' employers, where these overlap with the Track-7 prime constellation
+- Two **HSP percipient scans** of public C-level executives (Amentum CEO + CTO) conducted 2026-04-26, mirroring Track 1 ECP methodology
+
+**RU:** Этот архив **НЕ** утверждает, что какая-либо конкретная компания проводила reverse-engineering UAP. Он фиксирует:
+- Задокументированную корпоративную генеалогию (10-K отчёты, пресс-релизы, объявления о M&A)
+- Названных CEO и CTO (LinkedIn, разделы «About» корпоративных сайтов)
+- Снимки публичных рыночных данных (тикеры NYSE / NASDAQ, market cap на дату сборки)
+- Институциональные заявления Lazar о его работодателе из корпуса 1989–2026
+- Работодателей кластера 11 учёных Трека 6, где они пересекаются с prime-созвездием Трека 7
+- Два **HSP-перципиентных скана** публичных C-level руководителей (CEO + CTO Amentum), проведённых 26.04.2026 в зеркальной ECP-методологии Трека 1
+
+---
+
+## 🗺 Visual overview / Визуальный обзор
+
+### EG&G → Amentum succession tree / Дерево преемственности EG&G → Amentum
+
+**EN:** 22-year corporate genealogy: EG&G (1947, founding contractor for the Manhattan-test instrumentation programme) → URS Corporation (2002 acquisition) → AECOM (2014 acquisition) → Amentum (2020 spinoff) + Jacobs CMS merger (2024). The right-most node is the present-day successor of EG&G's federal-services line.
+
+**RU:** 22-летняя корпоративная генеалогия: EG&G (1947, основатель программы инструментирования Манхэттенских испытаний) → URS Corporation (поглощение 2002) → AECOM (поглощение 2014) → Amentum (spinoff 2020) + слияние с Jacobs CMS (2024). Крайний правый узел — современный преемник федеральной сервисной линии EG&G.
+
+![EG&G → Amentum succession tree / Дерево преемственности](diagrams/rendered/egng_succession_tree.png)
+
+### Prime contractor constellation / Созвездие prime-подрядчиков
+
+**EN:** Four engineering primes (LMT, BA, RTX, NOC) inner ring; services-prime ring (Amentum, Leidos, SAIC, Jacobs, Parsons, BAH); DoE national labs (LANL, LLNL, SNL) outer ring with operator-consortium arrows.
+
+**RU:** Четыре инженерных prime (LMT, BA, RTX, NOC) — внутреннее кольцо; сервисное кольцо (Amentum, Leidos, SAIC, Jacobs, Parsons, BAH); национальные лаборатории DoE (LANL, LLNL, SNL) — внешнее кольцо, со стрелками операторов-консорциумов.
+
+![Prime contractor constellation / Созвездие prime-подрядчиков](diagrams/rendered/prime_contractor_constellation.png)
+
+### Lazar S-4 contractor bridge / Мост подрядчика Lazar S-4
+
+**EN:** The load-bearing bridge: Lazar's 1989 KLAS-TV testimony names **EG&G** as the S-4 site contractor. Track-2 Lazar archive → EG&G → Amentum (legacy-of) → Track-7 cluster. This diagram is the single most direct connection between the Lazar testimony and the present-day corporate state.
+
+**RU:** Несущий мост: показания Lazar на KLAS-TV 1989 года называют **EG&G** подрядчиком площадки S-4. Архив Lazar (Трек 2) → EG&G → Amentum (legacy-of) → кластер Трека 7. Эта диаграмма — самое прямое соединение показаний Lazar с современным корпоративным состоянием.
+
+![Lazar S-4 contractor bridge / Мост подрядчика Lazar S-4](diagrams/rendered/lazar_s4_contractor_bridge.png)
+
+---
+
+## Quick navigation / Быстрая навигация
+
+| Section / Раздел | Purpose / Назначение |
+|---|---|
+| [Industry landscape / Индустриальный ландшафт](analysis/industry-landscape.md) | 4 primes + services ring + DoE-complex operator chains / 4 prime + сервисное кольцо + операторские цепочки DoE |
+| [EG&G → Amentum succession / Преемственность EG&G → Amentum](analysis/egng-amentum-succession.md) | Central corporate-genealogy thesis / Центральный тезис корпоративной генеалогии |
+| [Lazar S-4 contractor bridge / Мост подрядчика Lazar S-4](analysis/lazar-s4-contractor-bridge.md) | Track-2 ↔ Track-7 load-bearing bridge / Нагруженный мост между Треком 2 и 7 |
+| [Intelligence-analysis methodology / Методология разведывательного анализа](analysis/intelligence-analysis-methodology.md) | "Разведывательный анализ" frame; subsumes Track 5 OSINT methodology / Рамка «разведывательного анализа»; наследует методологию OSINT Трека 5 |
+| [Companies / Компании](companies/) | One file per major company / По одному файлу на крупную компанию |
+| [Per-executive scan dossiers / Досье сканирования руководителей](people/_scan-targets/) | HSP-scan output for Amentum CEO + CTO / Результат HSP-сканирования для CEO + CTO Amentum |
+| [Banchenko corporate-session brief 2026-04-26 / Бриф корпоративной сессии Банченко 26.04.2026](raw/denis_2026-04-26_egng_amentum_brief.md) | Working-session notes that frame this archive / Рабочие заметки, формирующие данный архив |
+| [Banchenko companies-and-patents brief 2026-04-27 / Бриф компаний и патентов Банченко 27.04.2026](raw/denis_2026-04-27_companies_patents_brief.md) | Adversarial / multi-LLM cross-validation context / Контекст adversarial / multi-LLM кросс-валидации |
+
+---
+
+## v1 inventory / Инвентарь v1
+
+| # | Type / Тип | Name / Имя | Status / Статус |
+|---:|---|---|---|
+| 1 | Company / Компания | EG&G | Historical, defunct as standalone (2002) / Исторический, недействующий как самостоятельный (2002) |
+| 2 | Company / Компания | Amentum (NYSE: AMTM) | **Current EG&G successor** / **Современный преемник EG&G** |
+| 3 | Company / Компания | Leidos (NYSE: LDOS) | Co-inheritor of EG&G / Lockheed services line / Сонаследник сервисной линии EG&G / Lockheed |
+| 4 | Company / Компания | Lockheed Martin (NYSE: LMT) | Engineering prime; Skunk Works / Инженерный prime; Skunk Works |
+| 5 | Company / Компания | Boeing (NYSE: BA) | Engineering prime; DARPA BAA reverse-engineering benchmark / Инженерный prime; benchmark DARPA BAA |
+| 6 | Company / Компания | RTX Corporation (NYSE: RTX) | Engineering prime; sensor / radar heritage / Инженерный prime; сенсоры / РЛС |
+| 7 | Company / Компания | Northrop Grumman (NYSE: NOC) | Engineering prime; B-2 / B-21 black programs / Инженерный prime; чёрные программы B-2 / B-21 |
+| 8 | Scan target / Цель сканирования | Public CEO scan target — Amentum | **HSP-scanned 2026-04-26 (role-class, depersonalized)** / **HSP-сканирование 26.04.2026 (ролевой класс, деперсонализировано)** |
+| 9 | Scan target / Цель сканирования | Public CTO scan target — Amentum | **HSP-scanned 2026-04-26 (role-class, depersonalized)** / **HSP-сканирование 26.04.2026 (ролевой класс, деперсонализировано)** |
+| 10 | Diagram / Диаграмма | EG&G → Amentum succession tree | v1 |
+| 11 | Diagram / Диаграмма | Prime contractor constellation | v1 |
+| 12 | Diagram / Диаграмма | Lazar S-4 contractor bridge | v1 |
+
+---
+
+## What this archive does NOT claim / Чего этот архив НЕ утверждает
+
+**EN:**
+- It does **not** assert that EG&G, Amentum, Lockheed Martin, Boeing, RTX, Northrop Grumman, or any other named company conducted UAP reverse-engineering.
+- It does **not** claim any individual executive personally participated in classified UAP programmes.
+- It does **not** advance any conspiracy frame; the analytical posture mirrors Cardillo's "Gabriella Rev A" — building a hypothesis space, not closing it.
+- HSP-scan output is **subjective percipient observation**, not factual diagnosis. The scans address the **role-class signal layer** of public-figure C-level executives, never the named-individual layer.
+- **HSP-scan dossiers in this archive use role-class subject framing** (e.g. "CEO scan target — Amentum") and **do NOT record subjects' personal names** in the public dossier files. The scans address the role-class signal layer, not the named-individual layer. **No subject photographs are stored in the repository** — only references to public sources (corporate "About" pages and public LinkedIn profiles).
+- This archive does **NOT** make claims about any individual person's psychology, intentions, internal properties, hidden activities, or participation in classified programs. Such claims are out-of-scope for this archive and would be **defamation-class even with disclaimers**; they are excluded by the protocol's Legal posture section.
+
+**RU:**
+- Он **не** утверждает, что EG&G, Amentum, Lockheed Martin, Boeing, RTX, Northrop Grumman или любая другая названная компания проводили reverse-engineering UAP.
+- Он **не** утверждает, что какой-либо отдельно взятый руководитель лично участвовал в засекреченных UAP-программах.
+- Он **не** продвигает конспирологическую рамку; аналитическая позиция повторяет рамку Кардилло «Gabriella Rev A» — построение поля гипотез, а не его закрытие.
+- HSP-скан — **субъективное перципиентное наблюдение**, не фактическая диагностика. Сканирование обращается к **слою сигнала ролевого класса** публичных C-level руководителей, а не к слою названного индивида.
+- **HSP-сканирующие досье в этом архиве используют рамку ролевого класса** (напр. «CEO scan target — Amentum») и **НЕ фиксируют личные имена** субъектов в публичных файлах досье. Сканирование обращается к слою сигнала ролевого класса, а не к слою названного индивида. **Фотографии субъектов в репозитории не сохраняются** — только ссылки на публичные источники (корпоративные страницы «About» и публичные LinkedIn-профили).
+- Архив **НЕ** делает утверждений о психологии, намерениях, «внутренних свойствах», скрытой деятельности или участии в засекреченных программах какого-либо конкретного человека. Такие утверждения — вне рамок данного архива и были бы **класса диффамации даже с дисклеймерами**; они исключены разделом Legal posture протокола.
+
+---
+
+## Sources / Источники
+
+| Source / Источник | Type / Тип | Reference / Ссылка |
+|---|---|---|
+| Banchenko corporate-session brief, 2026-04-26 / Бриф корпоративной сессии Банченко, 26.04.2026 | Working notes / Рабочие заметки | [`raw/denis_2026-04-26_egng_amentum_brief.md`](raw/denis_2026-04-26_egng_amentum_brief.md) |
+| Banchenko companies-and-patents brief, 2026-04-27 / Бриф компаний и патентов Банченко, 27.04.2026 | Working notes / Рабочие заметки | [`raw/denis_2026-04-27_companies_patents_brief.md`](raw/denis_2026-04-27_companies_patents_brief.md) |
+| SEC EDGAR 10-K filings (Amentum FY24, Leidos FY24, LMT FY24, BA FY24, RTX FY24, NOC FY24) | Primary public filings / Первичная публичная отчётность | Per-company files in `companies/` / Файлы компаний в `companies/` |
+| LinkedIn — public C-level executive profiles / LinkedIn — публичные профили C-level руководителей | OSINT / OSINT | Per-person files in `people/_scan-targets/` / Файлы персон в `people/_scan-targets/` |
+| Bob Lazar testimony corpus 1989–2026 / Корпус показаний Bob Lazar 1989–2026 | Track-2 Lazar archive / Архив Lazar (Трек 2) | [`../bob-lazar-archive/`](../bob-lazar-archive/) |
+
+---
+
+## Related sub-archives / Связанные подархивы
+
+| Archive / Архив | Why related / Почему связано |
+|---|---|
+| [Root README](../README.md) | Project root / Корень проекта |
+| [Track 2 — Bob Lazar archive](../bob-lazar-archive/README.md) | EG&G is Lazar's stated S-4 employer-of-record / EG&G — заявленный работодатель Lazar на S-4 |
+| [Track 4 — Dubna / Element 115](../dubna-element-115-analysis/README.md) | LLNL is operated by an Amentum-consortium-member entity / LLNL оперируется участником консорциума с Amentum |
+| [Track 5 — OSINT methodology](../osint-intelligence-analysis/README.md) | Methodology layer applied here / Слой методологии, применяемый здесь |
+| [Track 6 — People analysis (FBI 11)](../people-analysis/README.md) | FBI-cluster employers map onto Track-7 primes / Работодатели кластера ФБР ложатся на prime Трека 7 |
+| [Cross-archive synthesis / Кросс-архивный синтез](../analysis/cross-archive-synthesis.md) | Lazar / Chernobrov / Dubna shared themes / Общие темы Lazar / Chernobrov / Дубна |
+
+---
+
+> **Support / Поддержать:** if this work is valuable to you — https://asrp.tech/en/patrons
+
+---
+
+[← Root README / Корень](../README.md)

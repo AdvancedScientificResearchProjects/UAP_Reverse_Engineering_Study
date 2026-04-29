@@ -245,3 +245,8 @@ dubna-element-115-analysis/
 
 - **EN:** Root repository README: [`../README.md`](../README.md)
 - **RU:** Корневой README репозитория: [`../README.md`](../README.md)
+
+
+---
+
+> **Support / Поддержать:** if this work is valuable to you — https://asrp.tech/en/patrons

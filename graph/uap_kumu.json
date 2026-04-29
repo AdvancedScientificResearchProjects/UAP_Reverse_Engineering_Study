@@ -452,12 +452,12 @@
     },
     {
       "id": "cluster-track7-corporate",
-      "label": "Track 7 — Corporate / Economic Analysis (planned)",
+      "label": "Track 7 — Corporate / Economic Analysis",
       "type": "cluster",
       "icon": "🎯",
-      "labelRu": "Трек 7 — Корпоративный / экономический анализ (запланирован)",
-      "descriptionRu": "Placeholder-кластер Трека 7 · компании, занимающиеся реверс-инжинирингом UAP · структура бюджета JFES · структура рынка · ожидаются исходные материалы Дениса Банченко",
-      "description": "Placeholder cluster for Track 7 · companies engaged in UAP reverse-engineering · JFES budget structure · market structure · awaiting Denis Banchenko source material",
+      "labelRu": "Трек 7 — Корпоративный / экономический анализ",
+      "descriptionRu": "Созвездие prime-подрядчиков обороны за UAP-нарративом. Якорный тезис: EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) — задокументированная линия подрядчика Lazar-S-4. Кластер включает 4 инженерных prime (LMT, BA, RTX, NOC) + сервисное кольцо (Amentum, Leidos, Jacobs и др.) + 2 ролево-классовые цели HSP-сканирования в Amentum (публичная цель CEO + публичная цель CTO, деперсонализировано по protocol_corporate_scan.md v1.1). Только публичные источники.",
+      "description": "Defense-prime contractor constellation behind the UAP record. Anchor thesis: EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) is the documented Lazar-S-4-contractor lineage. Cluster includes 4 engineering primes (LMT, BA, RTX, NOC) + services-prime ring (Amentum, Leidos, Jacobs, etc.) + 2 HSP role-class scan targets at Amentum (public CEO scan target + public CTO scan target, depersonalized per protocol_corporate_scan.md v1.1). Public-source-only.",
       "tags": [
         "cluster"
       ]
@@ -3538,6 +3538,439 @@
       "tags": [
         "source"
       ]
+    },
+    {
+      "id": "inst-egng",
+      "label": "EG&G Inc. (defunct standalone since 2002)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "EG&G Inc. (несамостоятельна с 2002)",
+      "descriptionRu": "Американский оборонный и технико-сервисный подрядчик, основан в 1947 г. Эдгертоном, Гермесгаузеном, Грайером как спин-офф MIT для приборного обеспечения ядерных испытаний. Основной подрядчик приборного обеспечения NTS 1947–1992. EG&G Special Projects (Лас-Вегас) обслуживало части NTS. Поглощена URS Corporation в 2002. Заявленный Лазаром формальный работодатель на S-4.",
+      "description": "US defense and technical-services contractor founded 1947 by Edgerton, Germeshausen, and Grier as MIT spin-off to instrument US nuclear-weapons tests. Principal NTS instrumentation contractor 1947–1992. EG&G Special Projects (Las Vegas) operated portions of NTS. Acquired by URS Corporation in 2002. Bob Lazar's stated employer-of-record at S-4.",
+      "source": "corporate-economic-analysis/companies/egng.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-urs",
+      "label": "URS Corporation (acquired by AECOM 2014)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "URS Corporation (поглощена AECOM в 2014)",
+      "descriptionRu": "Американская инжиниринговая и строительно-сервисная фирма. Поглотила федерально-сервисную линию EG&G в 2002. Поглощена AECOM в 2014. Промежуточный узел в корпоративной генеалогии EG&G → Amentum.",
+      "description": "US engineering and construction-services firm. Acquired EG&G's federal-services line in 2002. Acquired by AECOM in 2014. Intermediate node in the EG&G → Amentum corporate genealogy.",
+      "source": "corporate-economic-analysis/analysis/egng-amentum-succession.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-aecom",
+      "label": "AECOM (NYSE: ACM)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "AECOM (NYSE: ACM)",
+      "descriptionRu": "Американская инжиниринговая, строительная и управленческо-сервисная фирма. Поглотила URS в 2014. Выделила Management Services в Amentum в 2020. Промежуточный узел в корпоративной генеалогии EG&G → Amentum. Продолжает существовать как самостоятельный субъект после spinoff.",
+      "description": "US engineering, construction, and management-services firm. Acquired URS in 2014. Spun off Management Services as Amentum in 2020. Intermediate node in the EG&G → Amentum corporate genealogy. Continues as standalone entity post-spinoff.",
+      "source": "corporate-economic-analysis/companies/egng.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-amentum",
+      "label": "Amentum Holdings (NYSE: AMTM)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Amentum Holdings (NYSE: AMTM)",
+      "descriptionRu": "Американский инжиниринговый и технико-сервисный prime-подрядчик. Выделена из AECOM Management Services в 2020 г. Слилась с Jacobs Critical Mission Solutions (CMS) в 2024 г. Листинг NYSE: AMTM в посткорпоративной структуре. Член Triad LLC (оператор LANL) и LLNS LLC (оператор LLNL). Современный преемник линии федеральных сервисов EG&G.",
+      "description": "US engineering and technical-services prime contractor. Spun off from AECOM Management Services 2020. Merged with Jacobs Critical Mission Solutions (CMS) 2024. Listed NYSE: AMTM in post-merger structure. Member of Triad LLC (LANL operator) and LLNS LLC (LLNL operator). Present-day successor of the EG&G federal-services lineage.",
+      "source": "corporate-economic-analysis/companies/amentum.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-jacobs",
+      "label": "Jacobs Solutions (NYSE: J)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Jacobs Solutions (NYSE: J)",
+      "descriptionRu": "Американская инжиниринговая и профессионально-сервисная фирма. Выделила подразделение Critical Mission Solutions (CMS), которое слилось с Amentum в 2024. Член MSTS LLC (оператор NNSS).",
+      "description": "US engineering and professional-services firm. Spun off Critical Mission Solutions (CMS) division which merged into Amentum in 2024. Member of MSTS LLC (NNSS operator).",
+      "source": "corporate-economic-analysis/companies/amentum.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-leidos",
+      "label": "Leidos Holdings (NYSE: LDOS)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Leidos Holdings (NYSE: LDOS)",
+      "descriptionRu": "Американский prime в обороне, разведсервисах и инжиниринге. Выделена из SAIC в 2013. Поглотила Information Systems & Global Solutions (IS&GS) Lockheed Martin в 2016. Член CNS LLC (оператор Y-12 / Pantex). Сонаследник линии федеральных сервисов LM.",
+      "description": "US defense, intelligence, and engineering services prime. Spun off from SAIC in 2013. Absorbed Lockheed Martin's Information Systems & Global Solutions (IS&GS) in 2016. Member of CNS LLC (Y-12 / Pantex operator). Co-inheritor of LM federal-services line.",
+      "source": "corporate-economic-analysis/companies/leidos.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-lmt",
+      "label": "Lockheed Martin (NYSE: LMT)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Lockheed Martin (NYSE: LMT)",
+      "descriptionRu": "Крупнейший американский оборонный prime по выручке. Skunk Works (Advanced Development Programs, Палмдейл) — исторические чёрные программы SR-71, F-117, F-22. Lockheed Martin Space (Денвер) — секретные спутниковые полезные нагрузки. Исторически — оператор LANL через LANS LLC (до перехода 2018 г. на Triad LLC).",
+      "description": "Largest US defense prime by revenue. Skunk Works (Advanced Development Programs, Palmdale) — historical SR-71, F-117, F-22 black programs. Lockheed Martin Space (Denver) handles classified satellite payloads. Historical operator of LANL via LANS LLC (until 2018 transition to Triad LLC).",
+      "source": "corporate-economic-analysis/companies/lockheed-martin.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-rtx",
+      "label": "RTX Corporation (NYSE: RTX)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "RTX Corporation (NYSE: RTX)",
+      "descriptionRu": "Американский инженерный prime, образован слиянием Raytheon и United Technologies в 2020 г.; переименован в RTX в 2023. Наследие сенсоров / РЛС / РЭБ: AESA РЛС (APG-79/APG-82), Patriot, гиперзвук, AMRAAM. Доминирующий американский поставщик сенсоров / РЛС / РЭБ.",
+      "description": "US engineering prime, formed by 2020 merger of Raytheon and United Technologies; renamed RTX 2023. Sensor / radar / EW heritage: AESA radars (APG-79/APG-82), Patriot, hypersonics, AMRAAM. Dominant US sensor / radar / EW supplier.",
+      "source": "corporate-economic-analysis/companies/raytheon-rtx.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-noc",
+      "label": "Northrop Grumman (NYSE: NOC)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Northrop Grumman (NYSE: NOC)",
+      "descriptionRu": "Американский инженерный prime. Стелс-бомбардировщики B-2 Spirit и B-21 Raider; засекреченные космос и ПРО. Партнёр Pantex. Канонический пример долгосрочной программной структуры засекреченного авиакосмоса.",
+      "description": "US engineering prime. B-2 Spirit and B-21 Raider stealth bombers; classified space and missile-defense work. Pantex partner. Canonical example of long-running classified-aerospace programmatic structure.",
+      "source": "corporate-economic-analysis/companies/northrop-grumman.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "p-amtm-ceo-scan-target",
+      "label": "Public CEO scan target — Amentum Holdings",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Публичная цель сканирования CEO — Amentum Holdings",
+      "descriptionRu": "Цель сканирования ролевого класса: публичный CEO Amentum Holdings (структура после слияния 2024 г.). Субъект HSP-сканирования ролевого класса 26.04.2026 по protocol_corporate_scan.md v1.1 (деперсонализация по умолчанию). Полное юридическое имя субъекта намеренно НЕ фиксируется в графе или публичном досье; досье обращается только к слою сигнала ролевого класса. Только публичные источники: корпоративная страница «About» + публичные LinkedIn-метаданные (фотографии в репо не сохраняются).",
+      "description": "Role-class scan target: the public CEO of Amentum Holdings (post-2024-merger structure). Subject of HSP role-class scan 2026-04-26 per protocol_corporate_scan.md v1.1 (depersonalization-by-default). Subject's full legal name is intentionally NOT recorded in this graph or in the public dossier; the dossier addresses the role-class signal layer only. Public-source references only: corporate 'About' page + public LinkedIn metadata (no photographs stored in repo).",
+      "source": "corporate-economic-analysis/people/_scan-targets/amentum-ceo-scan-target.md",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "p-amtm-cto-scan-target",
+      "label": "Public CTO scan target — Amentum Holdings",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Публичная цель сканирования CTO — Amentum Holdings",
+      "descriptionRu": "Цель сканирования ролевого класса: публичный CTO Amentum Holdings (отмечена в публичном листинге «Top CTO to Watch 2026»). Субъект HSP-сканирования ролевого класса 26.04.2026 по protocol_corporate_scan.md v1.1 (деперсонализация по умолчанию). Сканирование класса CTO регистрирует более сильные маркеры технического содержания, чем класс CEO. Полное юридическое имя субъекта намеренно НЕ фиксируется в графе или публичном досье. Только публичные источники: корпоративная страница «About» + публичные LinkedIn-метаданные (фотографии в репо не сохраняются).",
+      "description": "Role-class scan target: the public CTO of Amentum Holdings (recognised on a 'Top CTO to Watch 2026' listing). Subject of HSP role-class scan 2026-04-26 per protocol_corporate_scan.md v1.1 (depersonalization-by-default). CTO-class scan registers stronger technical-content markers than CEO-class scan. Subject's full legal name is intentionally NOT recorded in this graph or in the public dossier. Public-source references only: corporate 'About' page + public LinkedIn metadata (no photographs stored in repo).",
+      "source": "corporate-economic-analysis/people/_scan-targets/amentum-cto-scan-target.md",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "ev-egng-urs-acquisition-2002",
+      "label": "URS acquires EG&G technical-services (2002)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "URS поглощает EG&G technical-services (2002)",
+      "descriptionRu": "Поглощение технико-сервисного направления EG&G компанией URS Corporation в 2002 г. EG&G перестаёт быть самостоятельной. Первый шаг в линии EG&G → Amentum.",
+      "date": "2002",
+      "description": "2002 acquisition of EG&G's technical-services arm by URS Corporation. EG&G ceases as standalone entity. First step in the EG&G → Amentum lineage.",
+      "source": "corporate-economic-analysis/analysis/egng-amentum-succession.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-urs-aecom-acquisition-2014",
+      "label": "AECOM acquires URS (2014)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "AECOM поглощает URS (2014)",
+      "descriptionRu": "Поглощение URS Corporation компанией AECOM в 2014 г. Линия федеральных сервисов переходит в AECOM Management Services. Второй шаг в линии EG&G → Amentum.",
+      "date": "2014",
+      "description": "2014 acquisition of URS Corporation by AECOM. Federal-services line transitions to AECOM Management Services. Second step in the EG&G → Amentum lineage.",
+      "source": "corporate-economic-analysis/analysis/egng-amentum-succession.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-aecom-amentum-spinoff-2020",
+      "label": "AECOM Management Services spun off as Amentum (2020)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "AECOM Management Services выделена в Amentum (2020)",
+      "descriptionRu": "Выделение AECOM Management Services как самостоятельной Amentum в 2020 г. Линия федеральных сервисов наследуется без разрыва. Третий шаг в линии EG&G → Amentum.",
+      "date": "2020",
+      "description": "2020 spinoff of AECOM's Management Services unit as standalone Amentum. Federal-services lineage carried forward intact. Third step in the EG&G → Amentum lineage.",
+      "source": "corporate-economic-analysis/analysis/egng-amentum-succession.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-amentum-jacobs-cms-merger-2024",
+      "label": "Amentum + Jacobs CMS merger; NYSE: AMTM listing (2024)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Слияние Amentum + Jacobs CMS; листинг NYSE: AMTM (2024)",
+      "descriptionRu": "Слияние Amentum с подразделением Critical Mission Solutions (CMS) Jacobs Solutions в 2024 г. Листинг NYSE под тикером AMTM в посткорпоративной структуре. Capstone линии EG&G → Amentum.",
+      "date": "2024",
+      "description": "2024 merger of Amentum with Jacobs Solutions' Critical Mission Solutions (CMS) division. Listed on NYSE under ticker AMTM in post-merger structure. Capstone of the EG&G → Amentum lineage.",
+      "source": "corporate-economic-analysis/companies/amentum.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "hyp-egng-s4-contractor",
+      "label": "EG&G is the named-as-employer contractor at S-4",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "EG&G — подрядчик-работодатель, названный по S-4",
+      "descriptionRu": "Корпус свидетельств Лазара (KLAS-TV 1989 + Lazar Tape 1991 + JRE 1315 2019 + JRE 2479 2025) последовательно идентифицирует EG&G Special Projects (Лас-Вегас) как подрядчика, оформившего его на программу S-4. Только единственный источник / свидетельства Лазара — без независимой корроборации документов трудоустройства EG&G. Гипотеза — свидетельский мост от Трека 2 (Лазар) к Треку 7 (Корпоративный). Уверенность: низкая — один источник.",
+      "description": "Lazar's testimony corpus (KLAS-TV 1989 + Lazar Tape 1991 + JRE 1315 2019 + JRE 2479 2025) consistently identifies EG&G Special Projects (Las Vegas) as the contractor that hired him onto the S-4 programme. Single-source / Lazar-testimony only — no independent corroboration of the EG&G employment paperwork. The hypothesis is the testimonial bridge from Track 2 (Lazar) to Track 7 (Corporate). Confidence: low — single-source.",
+      "confidence": "low",
+      "source": "corporate-economic-analysis/analysis/lazar-s4-contractor-bridge.md",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-amentum-egng-legacy",
+      "label": "Amentum is the corporate-genealogy successor of EG&G's federal-services line",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "Amentum — линейный преемник федерально-сервисной линии EG&G",
+      "descriptionRu": "Цепочка корпоративной генеалогии EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) задокументирована end-to-end в публичных M&A-записях. Гипотеза — генеалогическая, не свидетельская: статус Amentum как линейного преемника задокументирован; перенос какой-либо субстантивной UAP-программной преемственности НЕ утверждается и остаётся открытым полем гипотез, не закрытием. Уверенность: высокая (для самой цепочки) / не-утверждается (для субстантивной преемственности).",
+      "description": "The corporate-genealogy chain EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024) is documented end-to-end in public M&A records. The hypothesis is genealogical, not testimonial — Amentum's lineage status is documented; whether any substantive UAP-programmatic continuity carries forward is NOT claimed and remains an open hypothesis space, not a closure. Confidence: high (for the lineage chain itself) / not-claimed (for substantive continuity).",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/analysis/egng-amentum-succession.md",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "cluster-engineering-primes",
+      "label": "Engineering primes (LMT, BA, RTX, NOC)",
+      "type": "cluster",
+      "icon": "🎯",
+      "labelRu": "Инженерные prime (LMT, BA, RTX, NOC)",
+      "descriptionRu": "Четыре американских оборонных инженерных prime-подрядчика: Lockheed Martin (Skunk Works), Boeing (Phantom Works), RTX Corporation (сенсоры / РЛС / РЭБ), Northrop Grumman (B-2 / B-21). Совокупная выручка FY24 ≈ $270 млрд. Внутреннее кольцо созвездия prime-подрядчиков.",
+      "description": "Four US defense engineering prime contractors: Lockheed Martin (Skunk Works), Boeing (Phantom Works), RTX Corporation (sensor / radar / EW), Northrop Grumman (B-2 / B-21). Combined revenue FY24 ≈ $270B. Inner ring of the prime-contractor constellation.",
+      "source": "corporate-economic-analysis/analysis/industry-landscape.md",
+      "tags": [
+        "cluster"
+      ]
+    },
+    {
+      "id": "cluster-services-inheritors",
+      "label": "Services-prime inheritors (Amentum, Leidos)",
+      "type": "cluster",
+      "icon": "🎯",
+      "labelRu": "Сервисное кольцо — наследники (Amentum, Leidos)",
+      "descriptionRu": "Два американских сервисных prime-наследника линий федеральных сервисов EG&G / SAIC / LM IS&GS: Amentum (EG&G → URS → AECOM → Amentum) и Leidos (spinoff SAIC 2013 + поглощение LM IS&GS 2016). Оба — члены нескольких консорциумов операторов национальных лабораторий DOE.",
+      "description": "Two US services-prime inheritors of EG&G / SAIC / LM IS&GS federal-services lineages: Amentum (EG&G → URS → AECOM → Amentum) and Leidos (SAIC-2013 spinoff + LM IS&GS-2016 absorption). Both members of multiple DoE national-laboratory operator consortia.",
+      "source": "corporate-economic-analysis/analysis/industry-landscape.md",
+      "tags": [
+        "cluster"
+      ]
+    },
+    {
+      "id": "f-amentum-marketcap",
+      "label": "Amentum public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные Amentum (FY24)",
+      "descriptionRu": "Amentum (NYSE: AMTM) — выручка ~$13 млрд FY24; ~50 000 сотрудников; рыночная капитализация ~$5–6 млрд (снимок 2025); штаб-квартира Чантильи, Вирджиния.",
+      "description": "Amentum (NYSE: AMTM) — revenue ~$13B FY24; ~50,000 employees; market cap ~$5–6B (2025 snapshot); HQ Chantilly, Virginia.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/amentum.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-lmt-marketcap",
+      "label": "Lockheed Martin public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные Lockheed Martin (FY24)",
+      "descriptionRu": "Lockheed Martin (NYSE: LMT) — выручка ~$71 млрд FY24; ~122 000 сотрудников; штаб-квартира Бетесда, Мэриленд.",
+      "description": "Lockheed Martin (NYSE: LMT) — revenue ~$71B FY24; ~122,000 employees; HQ Bethesda, Maryland.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/lockheed-martin.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-boeing-marketcap",
+      "label": "Boeing public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные Boeing (FY24)",
+      "descriptionRu": "Boeing (NYSE: BA) — выручка ~$78 млрд FY24; ~170 000 сотрудников; штаб-квартира Арлингтон, Вирджиния.",
+      "description": "Boeing (NYSE: BA) — revenue ~$78B FY24; ~170,000 employees; HQ Arlington, Virginia.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/boeing.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-rtx-marketcap",
+      "label": "RTX public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные RTX (FY24)",
+      "descriptionRu": "RTX Corporation (NYSE: RTX) — выручка ~$80 млрд FY24; ~185 000 сотрудников; штаб-квартира Арлингтон, Вирджиния.",
+      "description": "RTX Corporation (NYSE: RTX) — revenue ~$80B FY24; ~185,000 employees; HQ Arlington, Virginia.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/raytheon-rtx.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-noc-marketcap",
+      "label": "Northrop Grumman public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные Northrop Grumman (FY24)",
+      "descriptionRu": "Northrop Grumman (NYSE: NOC) — выручка ~$41 млрд FY24; ~101 000 сотрудников; штаб-квартира Фолс-Чёрч, Вирджиния.",
+      "description": "Northrop Grumman (NYSE: NOC) — revenue ~$41B FY24; ~101,000 employees; HQ Falls Church, Virginia.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/northrop-grumman.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "f-leidos-marketcap",
+      "label": "Leidos public market data (FY24)",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Публичные рыночные данные Leidos (FY24)",
+      "descriptionRu": "Leidos Holdings (NYSE: LDOS) — выручка ~$16 млрд FY24; ~47 000 сотрудников; штаб-квартира Рестон, Вирджиния.",
+      "description": "Leidos Holdings (NYSE: LDOS) — revenue ~$16B FY24; ~47,000 employees; HQ Reston, Virginia.",
+      "confidence": "high",
+      "source": "corporate-economic-analysis/companies/leidos.md",
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "src-amentum-10k-fy24",
+      "label": "Amentum Holdings 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Amentum Holdings 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт Amentum Holdings по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "Amentum Holdings annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-lmt-10k-fy24",
+      "label": "Lockheed Martin 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Lockheed Martin 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт Lockheed Martin по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "Lockheed Martin annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-boeing-10k-fy24",
+      "label": "Boeing 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Boeing 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт Boeing по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "Boeing annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-rtx-10k-fy24",
+      "label": "RTX Corporation 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "RTX Corporation 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт RTX Corporation по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "RTX Corporation annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-noc-10k-fy24",
+      "label": "Northrop Grumman 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Northrop Grumman 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт Northrop Grumman по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "Northrop Grumman annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-leidos-10k-fy24",
+      "label": "Leidos Holdings 10-K (FY24)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Leidos Holdings 10-K (FY24)",
+      "descriptionRu": "Годовой отчёт Leidos Holdings по форме 10-K за FY24. Первичная публичная отчётность SEC EDGAR. Уровень провенанса A.",
+      "description": "Leidos Holdings annual report on Form 10-K for fiscal year 2024. SEC EDGAR primary public filing. Provenance grade A.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-banchenko-track7-2026-04-26",
+      "label": "Banchenko corporate-session brief (2026-04-26)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Бриф корпоративной сессии Банченко (26.04.2026)",
+      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по тезису корпоративной генеалогии EG&G → Amentum и инвентарю v1 Трека 7. Составлены 26.04.2026. Сохранены дословно в raw/denis_2026-04-26_egng_amentum_brief.md.",
+      "description": "Working analytical notes by Denis Banchenko on EG&G → Amentum corporate-genealogy thesis and Track 7 v1 inventory. Authored 2026-04-26. Preserved verbatim in raw/denis_2026-04-26_egng_amentum_brief.md.",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "src-banchenko-track7-2026-04-27",
+      "label": "Banchenko companies-and-patents brief (2026-04-27)",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Бриф компаний и патентов Банченко (27.04.2026)",
+      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по рамке adversarial кросс-валидации по каждой компании, обзору патентных портфелей и forward-link к биоинженерному ответвлению. Составлены 27.04.2026. Сохранены дословно в raw/denis_2026-04-27_companies_patents_brief.md.",
+      "description": "Working analytical notes by Denis Banchenko on company-by-company adversarial cross-validation framing, patent-portfolio surfacing, and forward-link to bio-engineering carve-out. Authored 2026-04-27. Preserved verbatim in raw/denis_2026-04-27_companies_patents_brief.md.",
+      "tags": [
+        "source"
+      ]
     }
   ],
   "connections": [
@@ -5750,6 +6183,334 @@
       "direction": "directed"
     },
     {
+      "from": "inst-egng",
+      "to": "ev-egng-urs-acquisition-2002",
+      "type": "acquired-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-egng-urs-acquisition-2002",
+      "to": "inst-urs",
+      "type": "acquired-into",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-urs",
+      "to": "ev-urs-aecom-acquisition-2014",
+      "type": "acquired-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-urs-aecom-acquisition-2014",
+      "to": "inst-aecom",
+      "type": "acquired-into",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-aecom",
+      "to": "ev-aecom-amentum-spinoff-2020",
+      "type": "spinoff-from",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-aecom-amentum-spinoff-2020",
+      "to": "inst-amentum",
+      "type": "spinoff-into",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-jacobs",
+      "to": "ev-amentum-jacobs-cms-merger-2024",
+      "type": "merger-into",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "ev-amentum-jacobs-cms-merger-2024",
+      "type": "merger-into",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-egng",
+      "to": "inst-amentum",
+      "type": "legacy-of",
+      "direction": "directed"
+    },
+    {
+      "from": "p-lazar",
+      "to": "inst-egng",
+      "type": "claims employer-of-record",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-egng",
+      "to": "hyp-egng-s4-contractor",
+      "type": "central-claim-of",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-egng-s4-contractor",
+      "to": "hyp-lazar-s4",
+      "type": "supports",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "hyp-amentum-egng-legacy",
+      "type": "central-claim-of",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-amentum-egng-legacy",
+      "to": "hyp-egng-s4-contractor",
+      "type": "extends-by-lineage",
+      "direction": "directed"
+    },
+    {
+      "from": "f-lazar-credentials-disputed",
+      "to": "hyp-egng-s4-contractor",
+      "type": "challenges",
+      "direction": "directed"
+    },
+    {
+      "from": "p-amtm-ceo-scan-target",
+      "to": "inst-amentum",
+      "type": "scan-target-at",
+      "direction": "directed"
+    },
+    {
+      "from": "p-amtm-cto-scan-target",
+      "to": "inst-amentum",
+      "type": "scan-target-at",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-lmt",
+      "to": "cluster-engineering-primes",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-boeing",
+      "to": "cluster-engineering-primes",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-rtx",
+      "to": "cluster-engineering-primes",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-noc",
+      "to": "cluster-engineering-primes",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "cluster-services-inheritors",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-leidos",
+      "to": "cluster-services-inheritors",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-egng",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-leidos",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-lmt",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-rtx",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-noc",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-jacobs",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-aecom",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-urs",
+      "to": "cluster-track7-corporate",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "cluster-engineering-primes",
+      "to": "cluster-track7-corporate",
+      "type": "sub-cluster-of",
+      "direction": "directed"
+    },
+    {
+      "from": "cluster-services-inheritors",
+      "to": "cluster-track7-corporate",
+      "type": "sub-cluster-of",
+      "direction": "directed"
+    },
+    {
+      "from": "f-amentum-marketcap",
+      "to": "inst-amentum",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "f-lmt-marketcap",
+      "to": "inst-lmt",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "f-boeing-marketcap",
+      "to": "inst-boeing",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "f-rtx-marketcap",
+      "to": "inst-rtx",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "f-noc-marketcap",
+      "to": "inst-noc",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "f-leidos-marketcap",
+      "to": "inst-leidos",
+      "type": "describes",
+      "direction": "directed"
+    },
+    {
+      "from": "src-amentum-10k-fy24",
+      "to": "f-amentum-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-lmt-10k-fy24",
+      "to": "f-lmt-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-boeing-10k-fy24",
+      "to": "f-boeing-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-rtx-10k-fy24",
+      "to": "f-rtx-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-noc-10k-fy24",
+      "to": "f-noc-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-leidos-10k-fy24",
+      "to": "f-leidos-marketcap",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-banchenko-track7-2026-04-26",
+      "to": "hyp-amentum-egng-legacy",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "src-banchenko-track7-2026-04-27",
+      "to": "cluster-track7-corporate",
+      "type": "primary source for",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "inst-llnl",
+      "type": "consortium-member-of",
+      "direction": "directed",
+      "description": "Member of LLNS LLC consortium operating LLNL"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "inst-lanl",
+      "type": "consortium-member-of",
+      "direction": "directed",
+      "description": "Member of Triad LLC consortium operating LANL (post-2024 via Jacobs CMS)"
+    },
+    {
+      "from": "inst-leidos",
+      "to": "inst-doe",
+      "type": "consortium-member-of",
+      "direction": "directed",
+      "description": "Member of CNS LLC consortium operating Y-12 / Pantex"
+    },
+    {
+      "from": "inst-amentum",
+      "to": "cluster-fbi-11",
+      "type": "consortium-member-employer-overlap",
+      "direction": "directed",
+      "description": "Triad LLC consortium membership creates indirect employer-overlap with LANL-affiliated cluster cases (Cassias, Chavez)"
+    },
+    {
+      "from": "inst-egng",
+      "to": "p-lazar",
+      "type": "named-as-employer-of",
+      "direction": "directed"
+    },
+    {
+      "from": "meth-uap-application",
+      "to": "cluster-track7-corporate",
+      "type": "OSINT-validation-target",
+      "direction": "directed"
+    },
+    {
       "from": "phen-mc115",
       "to": "hyp-lazar-s4",
       "type": "central-claim-of",
@@ -5956,7 +6717,7 @@
     {
       "from": "cluster-track7-corporate",
       "to": "pj-uap",
-      "type": "Track 7 placeholder",
+      "type": "scope-of",
       "direction": "directed"
     },
     {
