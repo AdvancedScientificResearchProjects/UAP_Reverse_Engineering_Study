@@ -6,7 +6,7 @@
 
 **EN:** Patent filings are a high-quality public-source signal for mapping the technical scope of a corporate sub-unit and for surfacing the named individuals who were active inventors. The USPTO Patent Public Search and the Justia Patents mirror are open-access, well-indexed, and queryable by assignee — which makes them a natural OSINT entry point into the EG&G technical-services book and its successor lineage (URS → AECOM → Amentum). This file inventories the **named inventors and topic clusters** that surface against EG&G-family assignees in the working notes; the inventory is by name and topic only, with concrete patent numbers deferred to the v3 USPTO/Justia verification pass.
 
-**RU:** Патентные заявки — высококачественный публично-источниковый сигнал для картографирования технического объёма корпоративного подразделения и для выявления именованных физических лиц, выступавших активными изобретателями. USPTO Patent Public Search и зеркало Justia Patents — открытые, хорошо индексированные, с возможностью запроса по правопреемнику — что делает их естественной OSINT-точкой входа в технико-сервисный портфель EG&G и его линию преемников (URS → AECOM → Amentum). Этот файл инвентаризует **именованных изобретателей и тематические кластеры**, всплывающие против правопреемников семейства EG&G в рабочих заметках; инвентарь — только по именам и темам, с конкретными патентными номерами, отложенными на проверочный проход v3 по USPTO/Justia.
+**RU:** Патентные заявки — высококачественный публично-источниковый сигнал для картографирования технического объёма корпоративного подразделения и для выявления именованных физических лиц, выступавших активными изобретателями. USPTO Patent Public Search и зеркало Justia Patents — открытые, хорошо индексированные, с возможностью запроса по правопреемнику — что делает их естественной OSINT-точкой входа в технико-сервисный портфель EG&G и его линию преемников (URS → AECOM → Amentum). Этот файл инвентаризует **именованных изобретателей и тематические кластеры**, всплывающие по правопреемникам семейства EG&G в рабочих заметках; инвентарь — только по именам и темам, с конкретными патентными номерами, отложенными на проверочный проход v3 по USPTO/Justia.
 
 ---
 
@@ -32,19 +32,19 @@
 
 **EN:** The 11 inventors below surface in the working notes (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) against EG&G-family assignees. The "Likely assignee" column is the working-notes interpretation; concrete assignee strings on individual patent records are pending USPTO/Justia verification.
 
-**RU:** 11 изобретателей ниже всплывают в рабочих заметках (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) против правопреемников семейства EG&G. Колонка «Likely assignee» — интерпретация рабочих заметок; конкретные строки правопреемника в индивидуальных патентных записях ожидают сверки по USPTO/Justia.
+**RU:** 11 изобретателей ниже всплывают в рабочих заметках (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) по правопреемникам семейства EG&G. Колонка «Likely assignee» — интерпретация рабочих заметок; конкретные строки правопреемника в индивидуальных патентных записях ожидают сверки по USPTO/Justia.
 
 | # | Inventor / Изобретатель | Topic / Тематика | Likely assignee / Возможный правопреемник |
 |---:|---|---|---|
 | 1 | William J. Riley Jr. | Spectral lamps / optical systems / Спектральные лампы / оптические системы | EG&G Optoelectronics |
 | 2 | Barry T. Neyer | Shaped charges / explosive triggering / Кумулятивные заряды / взрывное срабатывание | EG&G Special Projects (defense detonators / оборонные детонаторы) |
 | 3 | David S. Yetman | Power systems / discharge control / Системы питания / контроль разряда | EG&G defense-systems |
-| 4 | Jeffrey E. Swensen | Hermetic systems / pressure engineering / Гермосистемы / прессинговая инженерия | EG&G Pressure Science / Sealol |
+| 4 | Jeffrey E. Swensen | Hermetic systems / pressure engineering / Гермосистемы / инженерия высокого давления | EG&G Pressure Science / Sealol |
 | 5 | Horace P. Halling | Pressure systems / hermetics / Системы давления / гермосистемы | EG&G Pressure Science / Sealol |
 | 6 | Seymour Goldberg | Frequency stabilization / oscillators / Стабилизация частоты / осцилляторы | EG&G defense-electronics |
 | 7 | Thomas J. Lynch | Frequency stabilization / Стабилизация частоты | EG&G defense-electronics |
 | 8 | Peter J. Clifford | Power systems / Системы питания | EG&G defense-systems |
-| 9 | James F. Gardner | Pressure engineering / Прессинговая инженерия | EG&G Pressure Science |
+| 9 | James F. Gardner | Pressure engineering / Инженерия высокого давления | EG&G Pressure Science |
 | 10 | William L. Manning | Ultrasonic material analysis / Ультразвуковой анализ материалов | EG&G defense / nuclear-test-instrumentation |
 | 11 | Herschel B. Smartt | Optical systems / Оптические системы | EG&G Optoelectronics |
 

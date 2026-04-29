@@ -50,11 +50,11 @@
 
 - **EN — EG&G Pressure Science**: pressure-engineering sub-unit specialising in hermetic seals, pressure-vessel components, and pressure-instrumentation for nuclear-test diagnostics and aerospace applications. Patent assignees in this sub-unit's filings appear in the inventory under "Pressure Science" assignee labelling.
 
-- **RU — EG&G Pressure Science**: подразделение прессинговой инженерии, специализировавшееся на герметичных уплотнениях, компонентах сосудов давления и приборном обеспечении давления для диагностики ядерных испытаний и аэрокосмических применений. Патентные правопреемники этого подразделения фигурируют в инвентаре под маркой «Pressure Science».
+- **RU — EG&G Pressure Science**: подразделение инженерии высокого давления, специализировавшееся на герметичных уплотнениях, компонентах сосудов давления и приборном обеспечении давления для диагностики ядерных испытаний и аэрокосмических применений. Патентные правопреемники этого подразделения фигурируют в инвентаре под маркой «Pressure Science».
 
 - **EN — Sealol**: hermetic-seal sub-division (mechanical face seals, pressure / vacuum hermetics) operated under EG&G ownership; key inventors associated with Sealol filings include Swensen and Halling (see inventory).
 
-- **RU — Sealol**: подразделение герметичных уплотнений (механические торцевые уплотнения, прессинг / вакуумные гермосистемы) под управлением EG&G; ключевые изобретатели по заявкам Sealol — Swensen и Halling (см. инвентарь).
+- **RU — Sealol**: подразделение герметичных уплотнений (механические торцевые уплотнения, гермосистемы давления и вакуума) под управлением EG&G; ключевые изобретатели по заявкам Sealol — Swensen и Halling (см. инвентарь).
 
 - **EN — EG&G Optoelectronics**: high-speed photography, spectral lamps, and optical-systems sub-unit, inheriting the Edgerton imaging line. Key inventor associated with this sub-unit's spectral-lamp filings is Riley Jr (see inventory). Later divested separately from the federal-services line during the URS-acquisition restructuring.
 

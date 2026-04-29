@@ -318,7 +318,7 @@ C("meth-uap-application", "cluster-track7-corporate", "OSINT-validation-target",
 E("inst-honeywell", "Honeywell International (NYSE: HON)", "institution",
   label_ru="Honeywell International (NYSE: HON)",
   description="US diversified industrial-technology prime spanning aerospace, building automation, industrial automation, and energy & sustainability solutions. HQ Charlotte, NC. Revenue ~$38B FY24; ~95,000 employees. Defense-facing arm Honeywell FM&T operates KCNSC under DOE/NNSA contract.",
-  description_ru="Диверсифицированный американский промышленно-технологический prime, охватывающий аэрокосмику, автоматизацию зданий, промышленную автоматизацию, энергию и устойчивость. Штаб-квартира Шарлотт (Северная Каролина). Выручка ~$38 млрд FY24; ~95 000 сотрудников. Оборонная ветвь Honeywell FM&T эксплуатирует KCNSC по контракту DOE/NNSA.",
+  description_ru="Диверсифицированный американский промышленно-технологический прайм, охватывающий аэрокосмику, автоматизацию зданий, промышленную автоматизацию, энергию и устойчивость. Штаб-квартира Шарлотт (Северная Каролина). Выручка ~$38 млрд FY24; ~95 000 сотрудников. Оборонная ветвь Honeywell FM&T эксплуатирует KCNSC по контракту DOE/NNSA.",
   source="corporate-economic-analysis/companies/honeywell.md")
 
 E("inst-honeywell-fmt", "Honeywell Federal Manufacturing & Technologies (FM&T)", "institution",
@@ -330,7 +330,7 @@ E("inst-honeywell-fmt", "Honeywell Federal Manufacturing & Technologies (FM&T)",
 E("inst-janet-airlines", "Janet Airlines (Boeing-operated NTS air shuttle)", "institution",
   label_ru="Janet Airlines (воздушный шаттл NTS, оператор Boeing)",
   description="Boeing-operated unmarked civilian-registered shuttle fleet (call sign JANET) providing personnel transport from a dedicated terminal at Las Vegas Harry Reid International to Nevada National Security Site, Area 51 / Homey Airport (KXTA), and the Tonopah Test Range. Public-record fleet of Boeing 737-600s and Beechcraft 1900s. NTS-logistics function overlaps the historical EG&G Special Projects scope.",
-  description_ru="Безмаркировочный гражданско-зарегистрированный флот шаттлов под управлением Boeing (позывной JANET) для перевозки персонала из специального терминала в Лас-Вегасе (Харри Рейд) на Невадскую национальную испытательную площадку, Area 51 / Homey Airport (KXTA) и Тонопахский испытательный полигон. Публично документированный флот Boeing 737-600 и Beechcraft 1900. Функция NTS-логистики пересекается с историческим объёмом EG&G Special Projects.",
+  description_ru="Безмаркировочный гражданско-зарегистрированный флот шаттлов под управлением Boeing (позывной JANET) для перевозки персонала из специального терминала в Лас-Вегасе (Харри Рейд) на Невадский национальный полигон безопасности (NNSS, бывш. NTS), Area 51 / Homey Airport (KXTA) и Тонопахский испытательный полигон. Публично документированный флот Boeing 737-600 и Beechcraft 1900. Функция NTS-логистики пересекается с историческим объёмом EG&G Special Projects.",
   source="corporate-economic-analysis/companies/boeing.md")
 
 # ----- INSTITUTIONS — EG&G historical sub-units ------------------------
@@ -338,13 +338,13 @@ E("inst-janet-airlines", "Janet Airlines (Boeing-operated NTS air shuttle)", "in
 E("inst-egng-pressure-science", "EG&G Pressure Science (historical sub-unit)", "institution",
   label_ru="EG&G Pressure Science (историческое подразделение)",
   description="Historical EG&G technical sub-unit specialising in pressure engineering, hermetic seals, pressure-vessel components, and pressure-instrumentation for nuclear-test diagnostics and aerospace applications. Patent assignees in this sub-unit's filings appear in the patents inventory under 'Pressure Science' assignee labelling. Absorbed into the EG&G → URS → AECOM → Amentum services lineage.",
-  description_ru="Историческое техническое подразделение EG&G, специализирующееся на прессинговой инженерии, герметичных уплотнениях, компонентах сосудов давления и приборном обеспечении давления для диагностики ядерных испытаний и аэрокосмических применений. Патентные правопреемники этого подразделения фигурируют в инвентаре патентов под маркой «Pressure Science». Поглощено в линию сервисов EG&G → URS → AECOM → Amentum.",
+  description_ru="Историческое техническое подразделение EG&G, специализирующееся на инженерии высокого давления, герметичных уплотнениях, компонентах сосудов давления и приборном обеспечении давления для диагностики ядерных испытаний и аэрокосмических применений. Патентные правопреемники этого подразделения фигурируют в инвентаре патентов под маркой «Pressure Science». Поглощено в линию сервисов EG&G → URS → AECOM → Amentum.",
   source="corporate-economic-analysis/companies/egng.md")
 
 E("inst-egng-sealol", "Sealol (EG&G hermetic-seal sub-division, historical)", "institution",
   label_ru="Sealol (подразделение герметичных уплотнений EG&G, историческое)",
   description="Historical hermetic-seal sub-division (mechanical face seals, pressure / vacuum hermetics) operated under EG&G ownership. Key inventors associated with Sealol filings include Swensen and Halling (see patents inventory).",
-  description_ru="Историческое подразделение герметичных уплотнений (механические торцевые уплотнения, прессинг / вакуумные гермосистемы) под управлением EG&G. Ключевые изобретатели по заявкам Sealol — Swensen и Halling (см. инвентарь патентов).",
+  description_ru="Историческое подразделение герметичных уплотнений (механические торцевые уплотнения, гермосистемы давления и вакуума) под управлением EG&G. Ключевые изобретатели по заявкам Sealol — Swensen и Halling (см. инвентарь патентов).",
   source="corporate-economic-analysis/companies/egng.md")
 
 E("inst-egng-optoelectronics", "EG&G Optoelectronics (historical sub-unit)", "institution",
@@ -376,9 +376,9 @@ E("pat-egng-power-discharge", "EG&G power-systems / discharge-control patent fam
   source="corporate-economic-analysis/analysis/patents-inventory.md")
 
 E("pat-egng-hermetic-seal", "EG&G hermetic-seal / pressure-engineering patent family (Swensen, Halling, Gardner)", "patent",
-  label_ru="Семейство патентов EG&G по гермоуплотнениям / прессинговой инженерии (Swensen, Halling, Gardner)",
+  label_ru="Семейство патентов EG&G по гермоуплотнениям / инженерии высокого давления (Swensen, Halling, Gardner)",
   description="Public USPTO/Justia patent metadata: hermetic-seal and pressure-engineering patent family with named inventors Jeffrey E. Swensen, Horace P. Halling, and James F. Gardner; likely assignees EG&G Pressure Science and Sealol. Concrete US patent number(s) pending v3 USPTO/Justia verification pass.",
-  description_ru="Публичные патентные метаданные USPTO/Justia: семейство патентов по гермоуплотнениям и прессинговой инженерии с именованными изобретателями Jeffrey E. Swensen, Horace P. Halling и James F. Gardner; возможные правопреемники — EG&G Pressure Science и Sealol. Конкретные номера патентов США ожидают сверки на проходе v3.",
+  description_ru="Публичные патентные метаданные USPTO/Justia: семейство патентов по гермоуплотнениям и инженерии высокого давления с именованными изобретателями Jeffrey E. Swensen, Horace P. Halling и James F. Gardner; возможные правопреемники — EG&G Pressure Science и Sealol. Конкретные номера патентов США ожидают сверки на проходе v3.",
   source="corporate-economic-analysis/analysis/patents-inventory.md")
 
 E("pat-egng-frequency-stabilization", "EG&G frequency-stabilization / oscillator patent family (Goldberg, Lynch)", "patent",
@@ -400,7 +400,7 @@ E("cluster-egng-historical-subs", "EG&G historical technical sub-units", "cluste
 E("src-justia-patents", "Justia Patents (public USPTO mirror)", "source",
   label_ru="Justia Patents (публичное зеркало USPTO)",
   description="Public open-access mirror of US Patent and Trademark Office filings, queryable by inventor and assignee. Primary OSINT surface for assignee-by-company patent queries. URL: https://patents.justia.com/. Provenance grade A (mirror of public US-government records).",
-  description_ru="Публичное открытое зеркало заявок Бюро патентов и торговых марок США (USPTO) с возможностью запроса по изобретателю и правопреемнику. Основная OSINT-поверхность для запросов патентов по правопреемнику. URL: https://patents.justia.com/. Уровень провенанса A (зеркало публично-госу­дар­ст­вен­ных записей США).")
+  description_ru="Публичное открытое зеркало заявок Бюро патентов и торговых марок США (USPTO) с возможностью запроса по изобретателю и правопреемнику. Основная OSINT-поверхность для запросов патентов по правопреемнику. URL: https://patents.justia.com/. Уровень провенанса A (зеркало публично-государственных записей США).")
 
 E("src-honeywell-10k-fy24", "Honeywell International 10-K (FY24)", "source",
   label_ru="Honeywell International 10-K (FY24)",
