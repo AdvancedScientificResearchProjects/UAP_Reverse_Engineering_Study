@@ -512,3 +512,37 @@ C("meth-civ-naming-convention", "th-andromagi-civ-anchor", "authorizes", directi
 # Theory-anchor cluster membership
 C("th-upper-channel-modulation", "cluster-track7-corporate", "member-of", direction="directed")
 C("th-andromagi-civ-anchor", "cluster-track7-corporate", "member-of", direction="directed")
+
+
+# ════════════════════════════════════════════════════════════════════════
+# v4 ADDITIONS — Fuel-supply-chain hypothesis (cross-archive Track 2/4/7)
+# Per Banchenko 2026-04-30 review: explicit graphical chain
+# Lazar ↔ S-4 reactor ↔ 115 fuel claim ↔ JINR-LLNL synthesis ↔
+# LLNL operator-consortium ↔ Amentum ↔ EG&G (closes back to Lazar)
+# ════════════════════════════════════════════════════════════════════════
+
+E("hyp-fuel-supply-chain", "Fuel-supply-chain hypothesis (Tracks 2/4/7)", "hypothesis",
+  label_ru="Гипотеза цепочки топливоснабжения (Треки 2/4/7)",
+  description="Closed-loop hypothesis-space mapping composed of three already-documented narratives: (1) Lazar's 1989+ testimony naming Element 115 as S-4 reactor fuel and EG&G as employer-of-record; (2) JINR+LLNL co-synthesis of Element 115 in 2003-2004 with LLNL providing the ²⁴³Am target (Phys. Rev. C 69, 2004); (3) LLNL operated by LLNS LLC consortium with AECOM-now-Amentum as a member, and Amentum as the present-day successor of EG&G's technical-services line. The composition forms a graphical closed loop. The archive records the graphical adjacency, not a confirmed institutional pipeline.",
+  description_ru="Гипотеза-отображение пространства гипотез в виде замкнутого контура, сложенная из трёх уже задокументированных нарративов: (1) свидетельства Лазара с 1989 г., называющие Элемент 115 топливом реактора S-4 и EG&G — официальным работодателем; (2) совместный синтез Элемента 115 ОИЯИ+LLNL в 2003-2004 гг., с поставкой ²⁴³Am-мишени со стороны LLNL (Phys. Rev. C 69, 2004); (3) LLNL управляется консорциумом LLNS LLC, в число членов которого входит AECOM-сейчас-Amentum, причём Amentum — современный преемник технико-сервисной линии EG&G. Композиция образует графический замкнутый контур. Архив фиксирует графическую смежность, не подтверждённый институциональный конвейер.",
+  source="corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md")
+
+# ----- v4 CONNECTIONS — fuel-supply-chain edges -----------------------
+
+C("inst-llnl", "inst-jinr", "fuel-supply-chain", direction="directed",
+  description="LLNL supplied ²⁴³Am target material to JINR (Dubna) for the 2003-2004 Element 115 co-synthesis (Phys. Rev. C 69, 2004).")
+C("phen-mc115", "hyp-lazar-s4", "fuel-supply-chain", direction="directed",
+  description="Lazar's S-4 testimony names Element 115 as the reactor fuel; this edge records the testimony-claim, not its physical correctness.")
+C("inst-amentum", "inst-llnl", "fuel-supply-chain", direction="directed",
+  description="Amentum is a member of LLNS LLC, the consortium that operates LLNL. The fuel-supply-chain edge marks the operator-consortium adjacency, not an operational decision attribution.")
+C("hyp-lazar-s4", "inst-egng", "fuel-supply-chain", direction="directed",
+  description="Lazar names EG&G as his S-4 employer-of-record; this edge records the testimony-claim, not corroboration of S-4 reactor existence.")
+
+# Hypothesis node binds the five anchors as the organizing frame
+C("hyp-fuel-supply-chain", "hyp-lazar-s4", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "phen-mc115", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "inst-jinr", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "inst-llnl", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "inst-amentum", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "inst-egng", "organizes", direction="directed")
+C("hyp-fuel-supply-chain", "cluster-track7-corporate", "member-of", direction="directed")

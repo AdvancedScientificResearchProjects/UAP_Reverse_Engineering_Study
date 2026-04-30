@@ -43,6 +43,8 @@ A dedicated research sub-archive connecting Bob Lazar's 1989 claim about Element
 
 ![Detective board / Детективная доска](diagrams/rendered/detective_board.png)
 
+> **Cross-archive bridge / Кросс-архивный мост (v4):** the Track 7 file [`../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md`](../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md) composes the Track 4 JINR+LLNL co-synthesis with the Track 2 Lazar S-4 testimony and the Track 7 EG&G→Amentum corporate genealogy into a closed-loop reading where Element 115 functions as fuel. The reading is a hypothesis-space mapping, not an institutional-pipeline claim. / Файл Трека 7 [`../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md`](../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md) композирует совместный синтез JINR+LLNL Трека 4 со свидетельством Лазара по S-4 (Трек 2) и корпоративной генеалогией EG&G→Amentum (Трек 7) в замкнутое прочтение, где Элемент 115 выполняет роль топлива. Прочтение — отображение пространства гипотез, а не утверждение об институциональном конвейере.
+
 ---
 
 ## 🧪 Synthesis flow / Поток синтеза

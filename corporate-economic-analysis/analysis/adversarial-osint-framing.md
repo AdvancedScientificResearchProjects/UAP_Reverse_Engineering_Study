@@ -56,6 +56,14 @@
 
 ---
 
+## Implementation status / Статус реализации
+
+**EN:** This file describes the **methodology**. Per-company adversarial-OSINT validation runs are tracked in [`adversarial-osint-runs/`](./adversarial-osint-runs/) (created v4 as a placeholder; per-company runs are scheduled for v5+ and not yet executed). The current state is **methodology-only**: reading this file and then expecting per-company outputs to be elsewhere in the archive is correct — they will appear in `analysis/adversarial-osint-runs/<company>.md` once executed. One example of the methodology being applied — the Ukraine context pass — is captured in [`./ukraine-context-pass.md`](./ukraine-context-pass.md), which exemplifies a "null-finding probe → partial-finding" result in plain narrative form (without yet using the per-company file convention).
+
+**RU:** Этот файл описывает **методологию**. Покомпанийные прогоны валидации adversarial-OSINT отслеживаются в [`adversarial-osint-runs/`](./adversarial-osint-runs/) (создано в v4 как заглушка; покомпанийные прогоны запланированы на v5+ и пока не исполнены). Текущее состояние — **только методология**: прочитать этот файл и ожидать покомпанийных выходов где-то ещё в архиве — корректное ожидание; они появятся в `analysis/adversarial-osint-runs/<company>.md` по мере исполнения. Один пример применения методологии — пройдка контекста по Украине — зафиксирован в [`./ukraine-context-pass.md`](./ukraine-context-pass.md), демонстрирующий результат «зонд нулевого вывода → частичный результат» в простой нарративной форме (пока без покомпанийной файловой конвенции).
+
+---
+
 ## What this file does NOT claim / Чего этот файл НЕ утверждает
 
 - **EN:**

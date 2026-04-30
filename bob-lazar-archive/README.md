@@ -97,6 +97,8 @@ bob-lazar-archive/
 
 **RU — Если нужны технические утверждения:** → [`analysis/MASTER_technical_claims.md`](analysis/MASTER_technical_claims.md) (двуязычный EN+RU)
 
+> **Cross-archive bridge / Кросс-архивный мост (v4):** the Track 7 file [`../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md`](../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md) composes Lazar's S-4 testimony (this archive) with the Track 4 JINR+LLNL Element 115 co-synthesis and the Track 7 EG&G→Amentum corporate genealogy into a closed-loop reading where Element 115 functions as fuel. The reading is a hypothesis-space mapping, not an institutional-pipeline claim. / Файл Трека 7 [`../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md`](../corporate-economic-analysis/analysis/fuel-supply-chain-hypothesis.md) композирует свидетельство Лазара по S-4 (этот архив) с совместным синтезом Элемента 115 JINR+LLNL (Трек 4) и корпоративной генеалогией EG&G→Amentum (Трек 7) в замкнутое прочтение, где Элемент 115 выполняет роль топлива. Прочтение — отображение пространства гипотез, а не утверждение об институциональном конвейере.
+
 **EN — If you want the raw transcripts:** → [`transcripts/`](transcripts/)
 **RU — Если нужны сырые транскрипты:** → [`transcripts/`](transcripts/)
 

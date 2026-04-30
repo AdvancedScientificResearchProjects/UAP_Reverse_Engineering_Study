@@ -28,6 +28,18 @@
 
 ---
 
+## Visual / Визуализация
+
+**EN:** The inventor → sub-unit → topic mapping rendered as a network diagram. Inventors are shown as **text-labeled nodes only**; the hard policy above is preserved (no graph person-node entry in `agentE_track7_corporate.py`).
+
+**RU:** Отображение изобретатель → подразделение → тематика, нарисованное как сетевая диаграмма. Изобретатели показаны **только как узлы с текстовыми метками**; жёсткая политика выше сохраняется (нет записи человека-узла графа в `agentE_track7_corporate.py`).
+
+![Patents inventory network / Сеть патентного инвентаря](../diagrams/rendered/patents_inventory_network.png)
+
+Source: [`../diagrams/patents_inventory_network.mmd`](../diagrams/patents_inventory_network.mmd).
+
+---
+
 ## Inventor + topic table / Таблица изобретателей и тематик
 
 **EN:** The 11 inventors below surface in the working notes (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) against EG&G-family assignees. The "Likely assignee" column is the working-notes interpretation; concrete assignee strings on individual patent records are pending USPTO/Justia verification.

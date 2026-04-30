@@ -1,0 +1,47 @@
+flowchart LR
+    classDef anchor fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef high fill:#bbf7d0,stroke:#14532d,stroke-width:3px,color:#000
+    classDef medium fill:#fed7aa,stroke:#9a3412,stroke-width:2px,color:#000
+    classDef low fill:#fecaca,stroke:#7f1d1d,stroke-width:2px,color:#000
+    classDef thesis fill:#e9d5ff,stroke:#581c87,stroke-width:4px,color:#000
+    classDef historical fill:#e0e7ff,stroke:#3730a3,stroke-width:2px,color:#000
+
+    THESIS["💡 Fuel-supply-chain hypothesis<br/>Гипотеза цепочки топливоснабжения<br/>(closed-loop reading across<br/>Tracks 2 / 4 / 7)"]:::thesis
+
+    LAZAR["👤 Bob Lazar<br/>(Track 2)<br/>S-4 testimony 1989+"]:::anchor
+    S4REACTOR["⚛️ S-4 reactor narrative<br/>Нарратив реактора S-4<br/>115 = fuel claim"]:::low
+
+    MC115["🧪 Element 115 / Moscovium<br/>(synthesised 2003-2004)"]:::high
+    JINR["🏛 JINR (Dubna)<br/>Flerov Lab"]:::high
+    LLNL["🏛 LLNL<br/>²⁴³Am target supplier"]:::high
+    PHYSREV["📄 Phys. Rev. C 69 (2004)<br/>JINR+LLNL synthesis paper"]:::high
+
+    LLNS["🏢 LLNS LLC consortium<br/>Bechtel + UC + Battelle +<br/>BWXT + AECOM-now-Amentum"]:::medium
+    AMTM["🏢 Amentum (NYSE: AMTM)<br/>EG&G successor"]:::high
+
+    EGNG["🏛 EG&G (1947)<br/>Lazar's stated employer<br/>(Track 7)"]:::historical
+    URS["🏢 URS (2002)"]:::historical
+    AECOM["🏢 AECOM (2014)"]:::historical
+
+    LAZAR -- "names as employer<br/>называет работодателем" --> EGNG
+    LAZAR -- "names as fuel<br/>называет топливом" --> S4REACTOR
+    S4REACTOR -- "fuel claim<br/>утверждение про топливо" --> MC115
+
+    JINR -- "co-synthesised<br/>совместный синтез" --> MC115
+    LLNL -- "supplied target ²⁴³Am<br/>поставила мишень" --> JINR
+    PHYSREV -- "documents synthesis<br/>документирует синтез" --> MC115
+
+    LLNS -- "operates<br/>управляет" --> LLNL
+    AMTM -- "consortium member<br/>член консорциума" --> LLNS
+
+    EGNG --> URS
+    URS --> AECOM
+    AECOM --> AMTM
+
+    THESIS -.-> LAZAR
+    THESIS -.-> MC115
+    THESIS -.-> LLNL
+    THESIS -.-> AMTM
+    THESIS -.-> EGNG
+
+    AMTM -. "closes loop back to<br/>замыкает контур к" .-> EGNG

@@ -94,6 +94,24 @@ A research sub-archive documenting, with public-source provenance only, the **de
 
 ![Prime constellation v2 / Созвездие prime-подрядчиков v2](diagrams/rendered/prime_constellation_v2.png)
 
+### 📊 Visual diagrams (v4 expansion) / Визуальные диаграммы (расширение v4)
+
+#### Fuel-supply-chain closed loop / Замкнутый контур цепочки топливоснабжения
+
+**EN:** Cross-archive **closed-loop reading**: Lazar (Track 2) → 115 fuel claim → JINR-LLNL synthesis (Track 4) → LLNL operator-consortium → Amentum (Track 7) → EG&G lineage → Lazar's stated employer. The reading is a hypothesis-space mapping, not an institutional-pipeline claim. Detail: [`analysis/fuel-supply-chain-hypothesis.md`](analysis/fuel-supply-chain-hypothesis.md).
+
+**RU:** Кросс-архивное **замкнутое прочтение**: Лазар (Трек 2) → утверждение про 115 как топливо → синтез JINR-LLNL (Трек 4) → операторский консорциум LLNL → Amentum (Трек 7) → линия EG&G → заявленный работодатель Лазара. Прочтение — отображение пространства гипотез, не утверждение об институциональном конвейере.
+
+![Fuel-supply-chain closed loop / Замкнутый контур цепочки топливоснабжения](diagrams/rendered/dubna_lazar_amentum_llnl_fuel_loop.png)
+
+#### Patents inventory network / Сеть патентного инвентаря
+
+**EN:** Renders the inventor → EG&G sub-unit → topic mapping from `analysis/patents-inventory.md`. Inventors shown as text-labeled nodes only, per the no-graph-person-node hard policy.
+
+**RU:** Отображает связь изобретатель → подразделение EG&G → тематика из `analysis/patents-inventory.md`. Изобретатели показаны только как узлы с текстовыми метками согласно жёсткой политике «без узлов-людей в графе».
+
+![Patents inventory network / Сеть патентного инвентаря](diagrams/rendered/patents_inventory_network.png)
+
 ---
 
 ## Quick navigation / Быстрая навигация
@@ -106,6 +124,9 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | [Intelligence-analysis methodology / Методология разведывательного анализа](analysis/intelligence-analysis-methodology.md) | "Разведывательный анализ" frame; subsumes Track 5 OSINT methodology / Рамка «разведывательного анализа»; наследует методологию OSINT Трека 5 |
 | [Patents inventory / Патентный инвентарь](analysis/patents-inventory.md) | EG&G technical sub-units — 11 named inventors + topic clusters (USPTO/Justia metadata only) / Технические подразделения EG&G — 11 именованных изобретателей и тематические кластеры (только метаданные USPTO/Justia) |
 | [Adversarial OSINT framing / Адверсариальная OSINT-рамка](analysis/adversarial-osint-framing.md) | 3-pass cross-validation methodology (positive-control / devil's-advocate / null-finding) / Методология кросс-валидации в 3 прохода |
+| [Adversarial-OSINT runs / Покомпанийные прогоны](analysis/adversarial-osint-runs/README.md) | Per-company validation runs (placeholder; v5+ execution) / Покомпанийные прогоны валидации (заглушка; исполнение в v5+) |
+| [Fuel-supply-chain hypothesis / Гипотеза цепочки топливоснабжения](analysis/fuel-supply-chain-hypothesis.md) | **v4 / +** — Cross-archive closed loop Lazar / Dubna / LLNL / Amentum / 115 / **v4 / +** — Кросс-архивный замкнутый контур |
+| [Ukraine context pass / Пройдка контекста по Украине](analysis/ukraine-context-pass.md) | **v4 / +** — Documented Ukraine-related findings (JINR / aerospace / Chernobrov UFO cases) / **v4 / +** — Зафиксированные украино-связанные результаты |
 | [Companies / Компании](companies/) | One file per major company / По одному файлу на крупную компанию |
 | [Per-executive scan dossiers / Досье сканирования руководителей](people/_scan-targets/) | HSP-scan output for Amentum CEO + CTO / Результат HSP-сканирования для CEO + CTO Amentum |
 | [Public scanning roster / Публичный реестр сканирования](people/_scan-targets/scanning-roster.md) | Session-organization tool: role-class candidates + LinkedIn URLs (no findings here) / Инструмент организации сессий: кандидаты ролевого класса + LinkedIn URL (результатов здесь нет) |
@@ -145,6 +166,11 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | 23 | Roster / Реестр | Public scanning roster (27 entries) | **v3 / +** — Session-organization tool / Инструмент организации сессий |
 | 24 | Methodology / Методология | Pattern interpretation language (HSP, role-class) | **v3 / +** — Per protocol_corporate_scan.md v1.2 |
 | 25 | Anchor / Якорь | Andromagi (Андромаги, сессионный фрейм B) civilization-naming reference | **v3 / +** — Working anchor for further scanning / Рабочий якорь для дальнейшего сканирования |
+| 26 | Hypothesis / Гипотеза | Fuel-supply-chain closed-loop reading (Tracks 2/4/7) | **v4 / +** — Lazar ↔ 115 ↔ JINR-LLNL ↔ Amentum ↔ EG&G / Лазар ↔ 115 ↔ JINR-LLNL ↔ Amentum ↔ EG&G |
+| 27 | Diagram / Диаграмма | Fuel-supply-chain closed-loop visualization | **v4 / +** |
+| 28 | Diagram / Диаграмма | Patents inventory network | **v4 / +** |
+| 29 | Analysis / Анализ | Ukraine context pass | **v4 / +** — Neutrally framed; JINR membership / aerospace / Chernobrov UFO cases / Нейтрально оформленная пройдка контекста |
+| 30 | Subdir / Подкаталог | Adversarial-OSINT runs (placeholder) | **v4 / +** — Per-company runs scheduled for v5+ / Покомпанийные прогоны запланированы на v5+ |
 
 ---
 
