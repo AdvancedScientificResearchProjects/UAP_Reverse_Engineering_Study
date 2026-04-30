@@ -1,0 +1,62 @@
+graph LR
+    classDef company fill:#bfdbfe,stroke:#1e3a8a,stroke-width:2px,color:#000
+    classDef rolclass fill:#fde68a,stroke:#92400e,stroke-width:2px,color:#000
+    classDef inventor fill:#bbf7d0,stroke:#14532d,stroke-width:1px,color:#000
+    classDef historical fill:#e9d5ff,stroke:#581c87,stroke-width:2px,color:#000
+    classDef logistics fill:#fecaca,stroke:#7f1d1d,stroke-width:2px,color:#000
+
+    AMTM["🏢 Amentum<br/>NYSE: AMTM"]:::company
+    LMT["🏢 Lockheed Martin<br/>NYSE: LMT"]:::company
+    BA["🏢 Boeing<br/>NYSE: BA"]:::company
+    RTX["🏢 RTX<br/>NYSE: RTX"]:::company
+    NOC["🏢 Northrop Grumman<br/>NYSE: NOC"]:::company
+    HON["🏢 Honeywell Intl.<br/>NYSE: HON"]:::company
+    HONFMT["🏢 Honeywell FM&T<br/>federal-manufacturing arm"]:::company
+    EGNG["🏢 EG&G Inc. (historical)<br/>NTS-приборы"]:::historical
+    EGNGSP["🏢 EG&G Special Projects<br/>NTS-логистика"]:::historical
+    EGNGPS["🏢 EG&G Pressure Science<br/>(historical sub-unit)"]:::historical
+    EGNGSE["🏢 EG&G Sealol<br/>(historical sub-unit)"]:::historical
+    EGNGOPT["🏢 EG&G Optoelectronics<br/>(historical sub-unit)"]:::historical
+    JANET["✈️ Janet Airlines<br/>(Boeing-operated NTS shuttle)"]:::logistics
+
+    CEOROLE["👤 Public CEO scan target — Amentum<br/>Публичная цель сканирования CEO"]:::rolclass
+    CTOROLE["👤 Public CTO scan target — Amentum<br/>Публичная цель сканирования CTO"]:::rolclass
+
+    INV1["⚙️ Riley Jr. — spectral lamps"]:::inventor
+    INV2["⚙️ Neyer — shaped charges"]:::inventor
+    INV3["⚙️ Yetman — power systems"]:::inventor
+    INV4["⚙️ Swensen — hermetic systems"]:::inventor
+    INV5["⚙️ Halling — pressure systems"]:::inventor
+    INV6["⚙️ Goldberg — frequency stabilization"]:::inventor
+    INV7["⚙️ Lynch — frequency stabilization"]:::inventor
+    INV8["⚙️ Clifford — power systems"]:::inventor
+    INV9["⚙️ Gardner — pressure engineering"]:::inventor
+    INV10["⚙️ Manning — ultrasonic analysis"]:::inventor
+    INV11["⚙️ Smartt — optical systems"]:::inventor
+
+    AMTM -.-> CEOROLE
+    AMTM -.-> CTOROLE
+
+    HON --> HONFMT
+    HONFMT -.-> AMTM
+
+    EGNG --> EGNGSP
+    EGNG --> EGNGPS
+    EGNG --> EGNGSE
+    EGNG --> EGNGOPT
+    EGNG --> AMTM
+
+    BA --> JANET
+    JANET -.-> EGNGSP
+
+    INV1 --> EGNGOPT
+    INV11 --> EGNGOPT
+    INV2 --> EGNGSP
+    INV3 --> EGNG
+    INV8 --> EGNG
+    INV4 --> EGNGSE
+    INV5 --> EGNGSE
+    INV9 --> EGNGPS
+    INV6 --> EGNG
+    INV7 --> EGNG
+    INV10 --> EGNG

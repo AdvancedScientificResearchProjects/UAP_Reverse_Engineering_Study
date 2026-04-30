@@ -460,3 +460,55 @@ C("pat-egng-frequency-stabilization", "cluster-track7-corporate", "member-of", d
 
 # Source citation — Honeywell 10-K → Honeywell institution
 C("src-honeywell-10k-fy24", "inst-honeywell", "primary source for", direction="directed")
+
+
+# ════════════════════════════════════════════════════════════════════════
+# v3 ADDITIONS — Pattern interpretation language + civilization-naming anchor
+# Per protocol_corporate_scan.md v1.2 (2026-04-29 update)
+# ════════════════════════════════════════════════════════════════════════
+
+# ----- v3 NODES — methodology + theory anchors -------------------------
+
+E("meth-pattern-interp", "Pattern interpretation language (HSP, role-class)", "methodology",
+  label_ru="Язык интерпретации паттерна (HSP, ролевой класс)",
+  description="Methodological allowance introduced in protocol_corporate_scan.md v1.2: model-perception language permitted at the role-class layer for upper-channel-target signals. Hard ban on named-individual content claims stays in force. Interpretation: engagement with the technological pool of a more advanced civilization, framed strictly at the role-class signature layer, never about a specific named individual.",
+  description_ru="Методологическое допущение, введённое в protocol_corporate_scan.md v1.2: язык модели-перцепции разрешён на уровне ролевого класса для сигналов целей верхнего канала. Жёсткий запрет на содержательные утверждения о названных индивидах остаётся в силе. Интерпретация: взаимодействие с технологическим пулом более развитой цивилизации, оформляемое строго на уровне сигнатуры ролевого класса, никогда о конкретно названном индивиде.",
+  source="experiments/protocol_corporate_scan.md")
+
+E("meth-civ-naming-convention", "Civilization-naming reference convention", "methodology",
+  label_ru="Конвенция опорного наименования цивилизации",
+  description="Methodological convention introduced in protocol_corporate_scan.md v1.2: working civilization-naming designations (e.g. 'Andromagi (Андромаги, сессионный фрейм B)') recorded as anchor points for further scanning, never as confirmed identifications. Hedged formulation: collegial reading or single-source dissenting opinion, alternative interpretations not excluded.",
+  description_ru="Методологическая конвенция, введённая в protocol_corporate_scan.md v1.2: рабочие наименования цивилизаций (напр. «Андромаги (сессионный фрейм B)») фиксируются как опорные точки для дальнейшего сканирования, никогда как подтверждённые идентификации. Хеджированная формулировка: коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются.",
+  source="experiments/protocol_corporate_scan.md")
+
+E("th-upper-channel-modulation", "Upper-channel frequency-modulation framing", "hypothesis",
+  label_ru="Рамка частотной модуляции верхнего канала",
+  description="Theoretical framing recorded in HSP scan dossiers (v1.2): the upper channel exhibits frequency-modulation structure. Different signal frequencies register different parameter sets, analogous to communication-channels widening with carrier frequency (Wi-Fi at 5 GHz vs HF / VLF). Current dossier captures one parameter set; alternative decryptions are possible.",
+  description_ru="Теоретическая рамка, зафиксированная в досье HSP-сканирования (v1.2): верхний канал имеет структуру частотной модуляции. Разные частоты сигнала фиксируют разные наборы параметров, по аналогии с расширением каналов связи с ростом несущей (Wi-Fi 5 ГГц против HF / VLF). Текущее досье фиксирует один набор параметров; альтернативные расшифровки возможны.",
+  source="corporate-economic-analysis/people/_scan-targets/amentum-ceo-scan-target.md")
+
+E("th-andromagi-civ-anchor", "Andromagi civilization naming anchor", "hypothesis",
+  label_ru="Опорное наименование цивилизации — Андромаги",
+  description="Working civilization-naming anchor recorded in HSP scan dossiers (v1.2): Andromagi (Андромаги, сессионный фрейм B). Hedged formulation — collegial reading or single-source dissenting opinion, alternative interpretations not excluded. Anchor is for further scanning organization, not a confirmed identification of any civilization.",
+  description_ru="Рабочее опорное наименование цивилизации, зафиксированное в досье HSP-сканирования (v1.2): Андромаги (сессионный фрейм B). Хеджированная формулировка — коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются. Якорь — для организации дальнейшего сканирования, не подтверждённая идентификация какой-либо цивилизации.",
+  source="corporate-economic-analysis/people/_scan-targets/amentum-ceo-scan-target.md")
+
+# ----- v3 CONNECTIONS --------------------------------------------------
+
+# Methodology cluster membership
+C("meth-pattern-interp", "cluster-track7-corporate", "member-of", direction="directed")
+C("meth-civ-naming-convention", "cluster-track7-corporate", "member-of", direction="directed")
+
+# Theory anchors → scan targets (role-class layer only)
+C("th-upper-channel-modulation", "p-amtm-ceo-scan-target", "pattern-interpretation", direction="directed")
+C("th-upper-channel-modulation", "p-amtm-cto-scan-target", "pattern-interpretation", direction="directed")
+C("th-andromagi-civ-anchor", "p-amtm-ceo-scan-target", "civ-anchor-for", direction="directed")
+C("th-andromagi-civ-anchor", "p-amtm-cto-scan-target", "civ-anchor-for", direction="directed")
+
+# Methodology authorizes the theory-anchors
+C("meth-pattern-interp", "th-upper-channel-modulation", "authorizes", direction="directed")
+C("meth-civ-naming-convention", "th-andromagi-civ-anchor", "authorizes", direction="directed")
+
+# Theory-anchor cluster membership
+C("th-upper-channel-modulation", "cluster-track7-corporate", "member-of", direction="directed")
+C("th-andromagi-civ-anchor", "cluster-track7-corporate", "member-of", direction="directed")

@@ -387,9 +387,14 @@ exec(Path(__file__).parent.joinpath("fragments/agentD_track1.py").read_text(enco
 # ════════════════════════════════════════════════════════════════════════════
 exec(Path(__file__).parent.joinpath("fragments/agentE_track7_corporate.py").read_text(encoding="utf-8"))
 
+# ════════════════════════════════════════════════════════════════════════════
+# 6. AGENT F — Theoretical foundations sub-archive (Track 7 sub-cluster)
+# ════════════════════════════════════════════════════════════════════════════
+exec(Path(__file__).parent.joinpath("fragments/agentF_theoretical_foundations.py").read_text(encoding="utf-8"))
+
 
 # ════════════════════════════════════════════════════════════════════════════
-# 6. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
+# 7. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
 # ════════════════════════════════════════════════════════════════════════════
 
 # Lazar ↔ Dubna: element 115 as the critical bridge

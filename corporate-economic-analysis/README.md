@@ -60,6 +60,40 @@ A research sub-archive documenting, with public-source provenance only, the **de
 
 ![Lazar S-4 contractor bridge / Мост подрядчика Lazar S-4](diagrams/rendered/lazar_s4_contractor_bridge.png)
 
+### 📊 Visual diagrams (v3 expansion) / Визуальные диаграммы (расширение v3)
+
+#### Companies-people network / Сеть компаний и лиц
+
+**EN:** Bipartite network: companies (Amentum, Honeywell, EG&G + sub-units, Janet Airlines) ↔ role-class scan targets + 11-inventor patent-assignee labels.
+
+**RU:** Двудольная сеть: компании (Amentum, Honeywell, EG&G + подразделения, Janet Airlines) ↔ цели сканирования ролевого класса + метки правопреемников 11 изобретателей.
+
+![Companies-people network / Сеть компаний и лиц](diagrams/rendered/companies_people_network.png)
+
+#### Lazar employer-lineage timeline / Таймлайн линии работодателя Lazar
+
+**EN:** EG&G → URS → AECOM → Amentum → Jacobs CMS merger, with Lazar testimony events overlaid (KLAS-TV 1989, Lazar Tape 1991, JRE 1315 2019, JRE 2479 2025).
+
+**RU:** EG&G → URS → AECOM → Amentum → слияние с Jacobs CMS, с наложенными событиями свидетельств Лазара (KLAS-TV 1989, «Лазар-Тейп» 1991, JRE 1315 2019, JRE 2479 2025).
+
+![Lazar employer-lineage timeline / Таймлайн линии работодателя Lazar](diagrams/rendered/lazar_employer_lineage_timeline.png)
+
+#### FBI-11 → Track-7 employer overlay / Наложение работодателей FBI-11 на Трек 7
+
+**EN:** Bipartite: 11-cluster scientists ↔ Track-7 employers (LANL/Triad LLC, KCNSC/Honeywell FM&T, NNSS/MSTS, Aerojet/JPL).
+
+**RU:** Двудольная сеть: учёные кластера 11 ↔ работодатели Трека 7 (LANL/Triad LLC, KCNSC/Honeywell FM&T, NNSS/MSTS, Aerojet/JPL).
+
+![FBI-11 → Track-7 employer overlay / Наложение работодателей FBI-11 на Трек 7](diagrams/rendered/fbi11_to_track7_employer_overlay.png)
+
+#### Prime constellation v2 / Созвездие prime-подрядчиков v2
+
+**EN:** Extended version adding Honeywell + Honeywell FM&T, Janet Airlines, EG&G historical sub-units, patent-assignee labels.
+
+**RU:** Расширенная версия с добавлением Honeywell + Honeywell FM&T, Janet Airlines, исторических подразделений EG&G, меток правопреемников патентов.
+
+![Prime constellation v2 / Созвездие prime-подрядчиков v2](diagrams/rendered/prime_constellation_v2.png)
+
 ---
 
 ## Quick navigation / Быстрая навигация
@@ -74,6 +108,8 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | [Adversarial OSINT framing / Адверсариальная OSINT-рамка](analysis/adversarial-osint-framing.md) | 3-pass cross-validation methodology (positive-control / devil's-advocate / null-finding) / Методология кросс-валидации в 3 прохода |
 | [Companies / Компании](companies/) | One file per major company / По одному файлу на крупную компанию |
 | [Per-executive scan dossiers / Досье сканирования руководителей](people/_scan-targets/) | HSP-scan output for Amentum CEO + CTO / Результат HSP-сканирования для CEO + CTO Amentum |
+| [Public scanning roster / Публичный реестр сканирования](people/_scan-targets/scanning-roster.md) | Session-organization tool: role-class candidates + LinkedIn URLs (no findings here) / Инструмент организации сессий: кандидаты ролевого класса + LinkedIn URL (результатов здесь нет) |
+| [Theoretical foundations / Теоретические основы](theoretical-foundations/README.md) | Literature catalog — Morgan / Frolov / scalar-vortex literature; theoretical-context only / Каталог литературы — Morgan / Фролов / литература скаляр-вихрь; только теоретический контекст |
 | [Banchenko corporate-session brief 2026-04-26 / Бриф корпоративной сессии Банченко 26.04.2026](raw/denis_2026-04-26_egng_amentum_brief.md) | Working-session notes that frame this archive / Рабочие заметки, формирующие данный архив |
 | [Banchenko legal-risks assessment 2026-04-26 / Оценка юридических рисков Банченко 26.04.2026](raw/banchenko_2026-04-26_legal_risks_assessment.md) | Source for the protocol's Legal posture section / Источник для раздела Legal posture протокола |
 | [Banchenko corporate-analysis full notes 2026-04-27 / Полные заметки корпоративного анализа Банченко 27.04.2026](raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) | Source for v2 entities (Honeywell, EG&G sub-units, patents inventory) / Источник для сущностей v2 (Honeywell, подразделения EG&G, инвентарь патентов) |
@@ -101,6 +137,14 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | 15 | Analysis / Анализ | Patents inventory (11 inventors / 5 patent families) | **v2 / +** — USPTO/Justia metadata only; no person-nodes / Только метаданные USPTO/Justia; узлов-людей нет |
 | 16 | Analysis / Анализ | Adversarial OSINT framing methodology | **v2 / +** — 3-pass cross-validation device / Приём кросс-валидации в 3 прохода |
 | 17 | Sub-unit / Подразделение | Janet Airlines (Boeing NTS shuttle) | **v2 / +** — NTS-logistics overlap with EG&G Special Projects / Пересечение NTS-логистики с EG&G Special Projects |
+| 18 | Diagram / Диаграмма | Companies-people network | **v3 / +** |
+| 19 | Diagram / Диаграмма | Lazar employer-lineage timeline | **v3 / +** |
+| 20 | Diagram / Диаграмма | FBI-11 → Track-7 employer overlay | **v3 / +** |
+| 21 | Diagram / Диаграмма | Prime constellation v2 | **v3 / +** |
+| 22 | Sub-archive / Подархив | Theoretical foundations (Morgan / Frolov / scalar-vortex literature) | **v3 / +** — Theoretical-context register / Регистр теоретического контекста |
+| 23 | Roster / Реестр | Public scanning roster (27 entries) | **v3 / +** — Session-organization tool / Инструмент организации сессий |
+| 24 | Methodology / Методология | Pattern interpretation language (HSP, role-class) | **v3 / +** — Per protocol_corporate_scan.md v1.2 |
+| 25 | Anchor / Якорь | Andromagi (Андромаги, сессионный фрейм B) civilization-naming reference | **v3 / +** — Working anchor for further scanning / Рабочий якорь для дальнейшего сканирования |
 
 ---
 
