@@ -22,6 +22,20 @@
 
 ---
 
+<div align="center">
+
+[![💛 Support our work / Поддержать](https://img.shields.io/badge/💛%20Support%20our%20work-asrp.tech%2Fpatrons-FBBF24?style=for-the-badge)](https://asrp.tech/en/patrons)
+
+> **EN:** **If this work is valuable to you — support us.** 7 patron tiers from Principal Philanthropist to Individual Contributor.
+> **RU:** **Если эта работа вам полезна — поддержите нас.** 7 уровней меценатства — от Главного Филантропа до Индивидуального Вкладчика.
+>
+> **Support / Поддержать:** <https://asrp.tech/en/patrons>
+> **Investment inquiries / Инвестиционные запросы:** _pending — provide URL when available / в ожидании — добавляется при предоставлении_
+
+</div>
+
+---
+
 ## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
 1. [Overview / Обзор](#overview--обзор)
@@ -328,11 +342,37 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 
 **Status: Available / Статус: Доступно**
 
-**EN:** Public-source literature catalog consolidating peer-reviewed UAP physics + sensor-analysis papers, peer-reviewed social-science / history-of-ufology works, government reports (DNI/ODNI, AARO, NASA), grey literature (NIDS, AAWSAP/AATIP, SCU collected), and observation-program technical outputs (Galileo Project, Hessdalen, UAPx). v4 inventory: 13 source-provenance entries (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA UAP 2023, ODNI 2021-2024, AARO public reports, Hessdalen papers, Nimitz FLIR analyses, Galileo Project papers, SCU collected papers, plus 2 cross-references back to Track 7 theoretical-foundations). Corpus is **seed-level**, with v5+ expansion planned. Does NOT validate cataloged claims; consolidates them so the broader research can reference a stable provenance register.
+**EN:** Public-source literature catalog consolidating peer-reviewed UAP physics + sensor-analysis papers, peer-reviewed social-science / history-of-ufology works, government reports (DNI/ODNI, AARO, NASA), grey literature (NIDS, AAWSAP/AATIP, SCU collected), and observation-program technical outputs (Galileo Project, Hessdalen, UAPx). v5 inventory: **18 source-provenance entries** — 13 from v4 (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA UAP 2023, ODNI 2021-2024, AARO public reports, Hessdalen papers, Nimitz FLIR analyses, Galileo Project papers, SCU collected papers, plus 2 cross-references back to Track 7 theoretical-foundations) + **5 v5 additions** for the **Banchenko Arcanum-12 cycle** (4 confirmed entries from the "Как я нашёл дорогу домой" cycle on the Arcanum-12 educational platform + 1 placeholder for ~8 pending entries). Corpus is **seed-level**, with v6+ expansion planned (eLibrary.ru / ResearchGate / Academia.edu broader pull). Does NOT validate cataloged claims; consolidates them so the broader research can reference a stable provenance register.
 
-**RU:** Публично-источниковый каталог литературы, консолидирующий рецензируемые работы по физике UAP + сенсорному анализу, рецензируемые социально-научные / историко-ufology работы, правительственные отчёты (ODNI/DNI, AARO, NASA), «серую литературу» (NIDS, AAWSAP/AATIP, собрание SCU), технические выходы программ наблюдений (Galileo Project, Hessdalen, UAPx). Инвентарь v4: 13 записей провенанса (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA UAP 2023, ODNI 2021-2024, публичные отчёты AARO, работы Hessdalen, FLIR-анализы Nimitz, опорные работы Galileo Project, собрание работ SCU, плюс 2 кросс-ссылки на Track 7 theoretical-foundations). Корпус — **семенного уровня**, расширение v5+ запланировано. НЕ валидирует каталогизированные утверждения; консолидирует их так, чтобы более широкое исследование могло ссылаться на стабильный регистр провенанса.
+**RU:** Публично-источниковый каталог литературы, консолидирующий рецензируемые работы по физике UAP + сенсорному анализу, рецензируемые социально-научные / историко-ufology работы, правительственные отчёты (ODNI/DNI, AARO, NASA), «серую литературу» (NIDS, AAWSAP/AATIP, собрание SCU), технические выходы программ наблюдений (Galileo Project, Hessdalen, UAPx). Инвентарь v5: **18 записей провенанса** — 13 из v4 (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA UAP 2023, ODNI 2021-2024, публичные отчёты AARO, работы Hessdalen, FLIR-анализы Nimitz, опорные работы Galileo Project, собрание работ SCU, плюс 2 кросс-ссылки на Track 7 theoretical-foundations) + **5 добавлений v5** для **цикла Банченко на Arcanum-12** (4 подтверждённые записи из цикла «Как я нашёл дорогу домой» на образовательной платформе Arcanum-12 + 1 заглушка для ~8 ожидающих записей). Корпус — **семенного уровня**, расширение v6+ запланировано (расширенный пулл eLibrary.ru / ResearchGate / Academia.edu). НЕ валидирует каталогизированные утверждения; консолидирует их так, чтобы более широкое исследование могло ссылаться на стабильный регистр провенанса.
 
 **Lead file / Главный файл:** [`uap-scientific-publications/README.md`](uap-scientific-publications/README.md)
+
+---
+
+## EDUCATIONAL PROGRAM / ОБРАЗОВАТЕЛЬНАЯ ПРОГРАММА
+
+**EN:** ASRP's UAP-reverse-engineering research is paired with an **educational program** at the **Arcanum-12 platform** ([`https://arcanum12th.education`](https://arcanum12th.education)). A dedicated **UAP reverse-engineering course** is in development — status: pending course-page confirmation. The educational program is **part of the project commercialization model**: research → repository → course → engineering-education license → bundled microelectronics + embedded-systems courses → advanced UAP reverse-engineering materials. Patron and investment income closes the loop, sustaining the research-and-publication pipeline.
+
+The companion ecosystem-marketing repository (`ASRP_ecosystem_marketing/`) documents the full ASRP commercialization architecture including Arcanum-12, GFS, ASRP.media, and the Kapusta rating substrate. This UAP-research repository contributes the **research-and-publication track** of that architecture.
+
+**RU:** Исследование ASRP по реверс-инжинирингу UAP сопровождается **образовательной программой** на платформе **Arcanum-12** ([`https://arcanum12th.education`](https://arcanum12th.education)). В разработке — выделенный **курс по реверс-инжинирингу UAP**, статус: в ожидании подтверждения страницы курса. Образовательная программа — **часть модели коммерциализации проекта**: исследование → репозиторий → курс → инженерная образовательная лицензия → бандлированные курсы по микроэлектронике и embedded-системам → продвинутые материалы по реверс-инжинирингу UAP. Доход от меценатства и инвестиций замыкает контур, поддерживая исследовательско-публикационный конвейер.
+
+Сопутствующий репозиторий маркетинга экосистемы (`ASRP_ecosystem_marketing/`) документирует полную архитектуру коммерциализации ASRP, включая Arcanum-12, GFS, ASRP.media и субстрат рейтингов Kapusta. Этот репозиторий по UAP-исследованию вносит **трек исследований и публикаций** в эту архитектуру.
+
+### What this section does NOT claim / Чего эта секция НЕ утверждает
+
+- **EN:**
+  - Does **NOT** assert the UAP reverse-engineering course is currently live and enrolling students.
+  - Does **NOT** claim completion-credentials are currently available.
+  - Does **NOT** promise a specific delivery date for the course.
+  - Does **NOT** assert that course completion grants any specialised authorisation.
+
+- **RU:**
+  - **НЕ** утверждает, что курс по реверс-инжинирингу UAP в настоящее время доступен для записи студентов.
+  - **НЕ** утверждает, что credentials по завершению курса в настоящее время выпускаются.
+  - **НЕ** обещает конкретной даты запуска курса.
+  - **НЕ** утверждает, что прохождение курса даёт какую-либо специальную авторизацию.
 
 ---
 

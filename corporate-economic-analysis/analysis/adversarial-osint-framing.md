@@ -64,6 +64,24 @@
 
 ---
 
+## Banchenko-as-author exception / Исключение Банченко-как-автор
+
+**EN:** The 3-pass framing operates with a **different validation contour** when applied to **ASRP-internal-author** material rather than externally-authored public-source literature. The relevant case is the **Banchenko Arcanum-12 cycle** sub-corpus in Track 9 ([`../../uap-scientific-publications/analysis/banchenko-arcanum-cycle.md`](../../uap-scientific-publications/analysis/banchenko-arcanum-cycle.md)), where the author of the cataloged material is the program director and methodology author of the UAP_Reverse_Engineering_Study research itself. In that case:
+- **Positive-control** pass becomes "what does Banchenko explicitly document in the cycle, and where does that mapping link back to the rest of the archive's tracks?"
+- **Devil's-advocate** pass becomes "what would an external skeptic with no access to ASRP-internal context reasonably challenge, given only the public-source provenance of the cycle?"
+- **Null-finding-probe** pass becomes "what does Banchenko **explicitly NOT** claim in the cycle — what guard-rails are visible in the author's own framing?"
+
+This exception is **not a weaker standard**; it is a **different validation contour** applied where the source is internally-authored. The validation rigour stays equal — the question shifts from "does this externally-authored work hold up under cross-source scrutiny?" to "does this internally-authored work hold up under self-consistent + external-skeptic scrutiny?". The hard bans from the rest of the methodology (no LLM-as-author framing, no defamation-class claims about named third parties, no copyrighted-text reproduction) apply unchanged.
+
+**RU:** 3-проходная рамка работает с **иным контуром валидации**, когда применяется к материалу **ASRP-внутреннего автора**, а не к внешне-авторской публично-источниковой литературе. Соответствующий случай — подкорпус **цикла Банченко на Arcanum-12** в Треке 9 ([`../../uap-scientific-publications/analysis/banchenko-arcanum-cycle.md`](../../uap-scientific-publications/analysis/banchenko-arcanum-cycle.md)), где автор каталогизированного материала является директором программы и автором методологии исследования UAP_Reverse_Engineering_Study. В этом случае:
+- **Положительно-контрольный** проход становится: «что Банченко явно документирует в цикле, и куда это отображение ссылается обратно в остальные треки архива?»
+- **Адвокат-дьявольский** проход становится: «что внешний скептик без доступа к ASRP-внутреннему контексту разумно оспорил бы, имея только публично-источниковый провенанс цикла?»
+- **Зонд-нулевого-вывода** проход становится: «что Банченко **явно НЕ** утверждает в цикле — какие ограждения видны в собственной рамке автора?»
+
+Это исключение — **не более слабый стандарт**; это **иной контур валидации**, применяемый там, где источник внутренне-авторский. Строгость валидации остаётся равной — вопрос смещается с «выдерживает ли внешне-авторская работа кросс-источниковую проверку?» на «выдерживает ли внутренне-авторская работа само-согласованную + внешне-скептическую проверку?». Жёсткие запреты остальной части методологии (нет рамки LLM-как-автор, нет диффамационно-классовых утверждений о именованных третьих сторонах, нет воспроизведения текста под авторским правом) применяются неизменно.
+
+---
+
 ## What this file does NOT claim / Чего этот файл НЕ утверждает
 
 - **EN:**

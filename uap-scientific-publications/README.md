@@ -25,6 +25,8 @@ A bilingual EN+RU **literature-catalog sub-archive** consolidating public-source
 
 A **fifth cross-reference layer** points back into the existing Track 7 [`theoretical-foundations`](../corporate-economic-analysis/theoretical-foundations/) sub-archive (heterodox-physics works by Morgan / NRGscapes-Lab and Frolov), so that readers can traverse from peer-reviewed mainstream to public-source heterodox literature without duplication.
 
+A **sixth sub-layer** (added v5) catalogs the **ASRP-internal author cycle**: Denis Banchenko's "Как я нашёл дорогу домой" articles on the Arcanum-12 educational platform. This sub-corpus is methodologically and topically adjacent to the UAP reverse-engineering hypothesis space and is consolidated as a distinct sub-cluster from externally-authored peer-reviewed / grey / government literature. See [`analysis/banchenko-arcanum-cycle.md`](analysis/banchenko-arcanum-cycle.md). Banchenko-as-author validation contour applies — see the exception note in [`../corporate-economic-analysis/analysis/adversarial-osint-framing.md`](../corporate-economic-analysis/analysis/adversarial-osint-framing.md).
+
 **RU:** Корпус организован в **четырёх таксономических слоях**:
 
 1. **Рецензируемые физические / сенсорно-аналитические работы** — академические публикации по физике UAP, сенсорным сигнатурам, мультимодальным наблюдениям (огни Hessdalen, FLIR-анализ инцидента Nimitz, опорные работы Galileo Project).
@@ -33,6 +35,8 @@ A **fifth cross-reference layer** points back into the existing Track 7 [`theore
 4. **«Серая литература»** — брифинги Bigelow / NIDS / AAWSAP / AATIP, собрание работ SCU, технические отчёты программ наблюдений.
 
 **Пятый кросс-ссылочный слой** указывает обратно на существующий подархив [`theoretical-foundations`](../corporate-economic-analysis/theoretical-foundations/) Трека 7 (гетеродоксально-физические работы Morgan / NRGscapes-Lab и Фролова), чтобы читатель мог переходить от рецензируемой мейнстримной к публично-источниковой гетеродоксальной литературе без дублирования.
+
+**Шестой подслой** (добавлен в v5) каталогизирует **ASRP-внутренний авторский цикл**: статьи Дениса Банченко «Как я нашёл дорогу домой» на образовательной платформе Arcanum-12. Этот подкорпус методологически и тематически смежен с пространством гипотез UAP-реверс-инжиниринга и консолидируется как отдельный подкластер от внешне-авторской рецензируемой / серой / правительственной литературы. См. [`analysis/banchenko-arcanum-cycle.md`](analysis/banchenko-arcanum-cycle.md). Применяется контур валидации Банченко-как-автор — см. исключение в [`../corporate-economic-analysis/analysis/adversarial-osint-framing.md`](../corporate-economic-analysis/analysis/adversarial-osint-framing.md).
 
 ---
 
@@ -68,6 +72,27 @@ A **fifth cross-reference layer** points back into the existing Track 7 [`theore
 | 11 | Society for UAP Studies (SCU) — collected proceedings + peer-reviewed journal articles | Peer-reviewed (society-published) | [`sources/scu-uap-papers-collection.md`](sources/scu-uap-papers-collection.md) |
 | 12 | Cross-reference — NRGscapes-Lab (heterodox-physics) | Cross-reference | [`sources/nrgscapes-cross-ref.md`](sources/nrgscapes-cross-ref.md) |
 | 13 | Cross-reference — Frolov 4D-physics corpus (heterodox-physics) | Cross-reference | [`sources/frolov-cross-ref.md`](sources/frolov-cross-ref.md) |
+| 14 | Banchenko Arcanum-12 cycle entry `332456d3` (ASRP-internal author) | ASRP-internal cycle | [`sources/arcanum-banchenko-cycle-332456d3.md`](sources/arcanum-banchenko-cycle-332456d3.md) |
+| 15 | Banchenko Arcanum-12 cycle entry `3d4f3da4` (ASRP-internal author) | ASRP-internal cycle | [`sources/arcanum-banchenko-cycle-3d4f3da4.md`](sources/arcanum-banchenko-cycle-3d4f3da4.md) |
+| 16 | Banchenko Arcanum-12 cycle entry `2a5ebe26` (ASRP-internal author) | ASRP-internal cycle | [`sources/arcanum-banchenko-cycle-2a5ebe26.md`](sources/arcanum-banchenko-cycle-2a5ebe26.md) |
+| 17 | Banchenko Arcanum-12 cycle entry `2ccb5339` (ASRP-internal author) | ASRP-internal cycle | [`sources/arcanum-banchenko-cycle-2ccb5339.md`](sources/arcanum-banchenko-cycle-2ccb5339.md) |
+| 18 | Banchenko Arcanum-12 cycle pending entries (~8 expected) | ASRP-internal cycle (placeholder) | [`sources/arcanum-banchenko-cycle-pending.md`](sources/arcanum-banchenko-cycle-pending.md) |
+
+---
+
+## Pending v6+ / Ожидающее v6+
+
+**EN:** Items tracked but not integrated in v5:
+- ~8 remaining Arcanum-12 cycle URLs from Banchenko's "Как я нашёл дорогу домой" cycle (4 of ~12 confirmed in v5).
+- eLibrary.ru aggregator pull (~5000 UAP / ~10000 НЛО publication candidates per Banchenko 2026-04-30 message).
+- ResearchGate / Academia.edu / arXiv broader pull pass.
+- Mikhail / Andrey course-status confirmation for the Arcanum-12 UAP reverse-engineering course (educational program).
+
+**RU:** Пункты, отслеживаемые, но не интегрированные в v5:
+- ~8 оставшихся URL цикла на Arcanum-12 из цикла Банченко «Как я нашёл дорогу домой» (4 из ~12 подтверждены в v5).
+- Аггрегаторный пулл eLibrary.ru (~5000 UAP / ~10000 НЛО кандидатов в публикации согласно сообщению Банченко 2026-04-30).
+- Расширенный пулл ResearchGate / Academia.edu / arXiv.
+- Подтверждение статуса курса от Михаила / Андрея для курса UAP-реверс-инжиниринга на Arcanum-12 (образовательная программа).
 
 ---
 
@@ -78,7 +103,7 @@ A **fifth cross-reference layer** points back into the existing Track 7 [`theore
   - Does **NOT** claim any cataloged author is correct in their hypotheses.
   - Does **NOT** reproduce copyrighted full text — only public abstracts and provenance metadata.
   - Does **NOT** advance a "secret-program" frame; the archive frames every entry by its public-source provenance.
-  - Does **NOT** claim the corpus is exhaustive; the catalog is **seed-level** (~13 entries v4, with v5+ expansion planned).
+  - Does **NOT** claim the corpus is exhaustive; the catalog is **seed-level** (~13 entries v4, ~18 entries v5 incl. Banchenko Arcanum cycle, with v6+ expansion planned).
   - Does **NOT** assert that any cataloged publication directly informs any UAP-reverse-engineering programme.
 
 - **RU:**
@@ -86,7 +111,7 @@ A **fifth cross-reference layer** points back into the existing Track 7 [`theore
   - **НЕ** утверждает, что какой-либо каталогизированный автор прав в своих гипотезах.
   - **НЕ** воспроизводит текст под авторским правом — только публичные аннотации и метаданные провенанса.
   - **НЕ** продвигает рамку «секретной программы»; архив оформляет каждую запись по её публично-источниковому провенансу.
-  - **НЕ** утверждает, что корпус исчерпывающий; каталог — **семенного уровня** (~13 записей v4, расширение в v5+ запланировано).
+  - **НЕ** утверждает, что корпус исчерпывающий; каталог — **семенного уровня** (~13 записей v4, ~18 записей v5 включая цикл Банченко на Arcanum, расширение в v6+ запланировано).
   - **НЕ** утверждает, что какая-либо каталогизированная публикация напрямую информирует какую-либо UAP-реверс-инжиниринговую программу.
 
 ---

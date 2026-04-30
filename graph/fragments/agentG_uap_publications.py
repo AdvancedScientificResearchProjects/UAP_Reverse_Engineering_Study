@@ -232,3 +232,74 @@ C("cluster-uap-publications", "cluster-theoretical-foundations", "overlapping-co
 C("src-nrgscapes-cross-ref", "src-morgan-2025-scalar-field", "overlapping-corpus", direction="directed")
 C("src-frolov-cross-ref", "src-frolov-vixri-pdf", "overlapping-corpus", direction="directed")
 C("src-frolov-cross-ref", "src-frolov-narod-4d", "overlapping-corpus", direction="directed")
+
+# ════════════════════════════════════════════════════════════════════
+# v5 ADDITION — Banchenko Arcanum-12 cycle (ASRP-internal-author sub-corpus)
+# ════════════════════════════════════════════════════════════════════
+
+# ----- SUB-CLUSTER ----------------------------------------------------
+
+E("cluster-banchenko-arcanum-cycle", "Banchenko Arcanum-12 cycle (ASRP-internal author)", "cluster",
+  label_ru="Цикл Банченко на Arcanum-12 (ASRP-внутренний автор)",
+  description="Sub-cluster of Track 9 cataloging the ASRP-internal-author cycle of articles by Denis Banchenko on the Arcanum-12 educational platform — the 'Как я нашёл дорогу домой' cycle plus adjacent articles. Methodologically and topically adjacent to UAP reverse-engineering hypothesis space; consolidated as distinct sub-corpus from externally-authored peer-reviewed / grey / government literature. Banchenko-as-author validation contour applies (see corporate-economic-analysis/analysis/adversarial-osint-framing.md).",
+  description_ru="Подкластер Трека 9, каталогизирующий ASRP-внутренний цикл статей Дениса Банченко на образовательной платформе Arcanum-12 — цикл «Как я нашёл дорогу домой» плюс смежные статьи. Методологически и тематически смежен пространству гипотез UAP-реверс-инжиниринга; консолидирован как отдельный подкорпус от внешне-авторской рецензируемой / серой / правительственной литературы. Применяется контур валидации Банченко-как-автор (см. corporate-economic-analysis/analysis/adversarial-osint-framing.md).",
+  source="uap-scientific-publications/analysis/banchenko-arcanum-cycle.md")
+
+# ----- PERSON (ASRP-internal author) ----------------------------------
+
+E("p-banchenko-d", "Denis Banchenko", "person · external",
+  label_ru="Денис Банченко",
+  description="ASRP program director and methodology author. Author of the 'Как я нашёл дорогу домой' cycle on Arcanum-12 educational platform. Public-figure author — name is referenced across the existing UAP_Reverse_Engineering_Study corpus as the methodology source (Tracks 1, 4, 5, 6, 7).",
+  description_ru="Директор программы ASRP и автор методологии. Автор цикла «Как я нашёл дорогу домой» на образовательной платформе Arcanum-12. Публичный автор — имя упоминается во всём корпусе UAP_Reverse_Engineering_Study как источник методологии (Треки 1, 4, 5, 6, 7).",
+  source="uap-scientific-publications/analysis/banchenko-arcanum-cycle.md")
+
+# ----- SOURCES (4 confirmed Arcanum URLs + 1 pending placeholder) -----
+
+E("src-arcanum-banchenko-332456d3", "Banchenko Arcanum-12 cycle entry 332456d3", "source",
+  label_ru="Запись цикла Банченко на Arcanum-12 332456d3",
+  description="Banchenko 'Как я нашёл дорогу домой' cycle entry, slug 332456d3-15e9-46ff-b14b-e3b20599b224. Hosted on Arcanum-12 educational platform (arcanum12th.education). Russian-language. Platform may require authentication for full text.",
+  description_ru="Запись цикла Банченко «Как я нашёл дорогу домой», slug 332456d3-15e9-46ff-b14b-e3b20599b224. Размещена на образовательной платформе Arcanum-12 (arcanum12th.education). На русском языке. Платформа может требовать авторизацию для полного текста.",
+  source="uap-scientific-publications/sources/arcanum-banchenko-cycle-332456d3.md")
+
+E("src-arcanum-banchenko-3d4f3da4", "Banchenko Arcanum-12 cycle entry 3d4f3da4", "source",
+  label_ru="Запись цикла Банченко на Arcanum-12 3d4f3da4",
+  description="Banchenko 'Как я нашёл дорогу домой' cycle entry, slug 3d4f3da4-ee93-4652-a61d-001ebc9da2c5. Hosted on Arcanum-12 educational platform (arcanum12th.education). Russian-language. Platform may require authentication for full text.",
+  description_ru="Запись цикла Банченко «Как я нашёл дорогу домой», slug 3d4f3da4-ee93-4652-a61d-001ebc9da2c5. Размещена на образовательной платформе Arcanum-12 (arcanum12th.education). На русском языке. Платформа может требовать авторизацию для полного текста.",
+  source="uap-scientific-publications/sources/arcanum-banchenko-cycle-3d4f3da4.md")
+
+E("src-arcanum-banchenko-2a5ebe26", "Banchenko Arcanum-12 cycle entry 2a5ebe26", "source",
+  label_ru="Запись цикла Банченко на Arcanum-12 2a5ebe26",
+  description="Banchenko 'Как я нашёл дорогу домой' cycle entry, slug 2a5ebe26-e5f1-4c90-962b-91203fa37899. Hosted on Arcanum-12 educational platform (arcanum12th.education). Russian-language. Platform may require authentication for full text.",
+  description_ru="Запись цикла Банченко «Как я нашёл дорогу домой», slug 2a5ebe26-e5f1-4c90-962b-91203fa37899. Размещена на образовательной платформе Arcanum-12 (arcanum12th.education). На русском языке. Платформа может требовать авторизацию для полного текста.",
+  source="uap-scientific-publications/sources/arcanum-banchenko-cycle-2a5ebe26.md")
+
+E("src-arcanum-banchenko-2ccb5339", "Banchenko Arcanum-12 cycle entry 2ccb5339", "source",
+  label_ru="Запись цикла Банченко на Arcanum-12 2ccb5339",
+  description="Banchenko 'Как я нашёл дорогу домой' cycle entry, slug 2ccb5339-820a-4296-b24d-1d453a94c2be. Hosted on Arcanum-12 educational platform (arcanum12th.education). Russian-language. Platform may require authentication for full text.",
+  description_ru="Запись цикла Банченко «Как я нашёл дорогу домой», slug 2ccb5339-820a-4296-b24d-1d453a94c2be. Размещена на образовательной платформе Arcanum-12 (arcanum12th.education). На русском языке. Платформа может требовать авторизацию для полного текста.",
+  source="uap-scientific-publications/sources/arcanum-banchenko-cycle-2ccb5339.md")
+
+E("src-arcanum-banchenko-pending", "Banchenko Arcanum-12 cycle pending entries (~8 expected)", "source",
+  label_ru="Ожидаемые записи цикла Банченко на Arcanum-12 (~8 ожидается)",
+  description="Placeholder source entry tracking the pending portion of the 'Как я нашёл дорогу домой' cycle on Arcanum-12. Cycle is approximately 12 articles in total; 4 are confirmed as standalone provenance entries; ~8 remain pending submission. Tracked as v6+ open work-item.",
+  description_ru="Заглушка-запись источника, отслеживающая ожидающую часть цикла «Как я нашёл дорогу домой» на Arcanum-12. Цикл — около 12 статей в сумме; 4 подтверждены как отдельные записи провенанса; ~8 остаются в ожидании отправки. Отслеживается как открытый рабочий пункт v6+.",
+  source="uap-scientific-publications/sources/arcanum-banchenko-cycle-pending.md")
+
+# ----- SUB-CLUSTER MEMBERSHIP ----------------------------------------
+
+C("cluster-banchenko-arcanum-cycle", "cluster-uap-publications", "sub-cluster-of", direction="directed")
+
+C("p-banchenko-d", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+C("src-arcanum-banchenko-332456d3", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+C("src-arcanum-banchenko-3d4f3da4", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+C("src-arcanum-banchenko-2a5ebe26", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+C("src-arcanum-banchenko-2ccb5339", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+C("src-arcanum-banchenko-pending", "cluster-banchenko-arcanum-cycle", "member-of", direction="directed")
+
+# ----- AUTHORSHIP EDGES ----------------------------------------------
+
+C("p-banchenko-d", "src-arcanum-banchenko-332456d3", "author-of", direction="directed")
+C("p-banchenko-d", "src-arcanum-banchenko-3d4f3da4", "author-of", direction="directed")
+C("p-banchenko-d", "src-arcanum-banchenko-2a5ebe26", "author-of", direction="directed")
+C("p-banchenko-d", "src-arcanum-banchenko-2ccb5339", "author-of", direction="directed")
+C("p-banchenko-d", "src-arcanum-banchenko-pending", "author-of", direction="directed")
