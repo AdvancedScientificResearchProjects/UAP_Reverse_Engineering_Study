@@ -38,12 +38,40 @@
 
 ---
 
+## PiAS UAP cluster (Knuth + Szydagis + Vallée + Nolan, 2022-2025) / Кластер UAP в PiAS (Кнут + Сидагис + Валле + Нолан, 2022-2025)
+
+**EN:** Elsevier's *Progress in Aerospace Sciences* (PiAS, Q1 aerospace journal) has hosted a recognisable UAP cluster of peer-reviewed papers between 2022 and 2025. The cluster anchors include Nolan / Vallée / Jiang / Lemke 2022 (improved instrumental techniques + isotopic analysis methodology), Knuth K.H. et al. 2025 (33-author *New Science of UAP* global synthesis), Szydagis / Knuth / Kugielsky / Levy 2025 (UAPx first field-expedition results), and Vallée / Dini / Mestchersky 2025 (radiative-energy estimate for a ground-level UAP case). Together these four papers establish that PiAS is now a sustained venue for the engineering-grade slice of the UAP-corpus, distinct from social-science, philosophy, or society-publication channels. Track 9 catalogs the cluster as the strongest mainstream-Elsevier-aerospace anchor presently available.
+
+**RU:** Журнал *Progress in Aerospace Sciences* (PiAS, Q1 аэрокосмический журнал Elsevier) разместил узнаваемый кластер рецензируемых работ по UAP между 2022 и 2025 гг. Якоря кластера: Nolan / Vallée / Jiang / Lemke 2022 (улучшенные инструментальные методики + методология изотопного анализа), Knuth K.H. и др. 2025 (33-авторская глобальная синтез-работа *New Science of UAP*), Szydagis / Knuth / Kugielsky / Levy 2025 (первые результаты полевой экспедиции UAPx) и Vallée / Dini / Mestchersky 2025 (оценка излучательной энергии для наземного UAP-случая). Вместе эти четыре работы устанавливают, что PiAS теперь — устойчивая площадка для инженерно-уровневого среза UAP-корпуса, отличная от социально-научных, философских или обществоиздательских каналов. Трек 9 каталогизирует кластер как наиболее прочный мейнстрим-Elsevier-аэрокосмический якорь, доступный в настоящее время.
+
+---
+
+## Vallée material-analysis lineage (1998-2025) / Линия Vallée по анализу материалов (1998-2025)
+
+**EN:** A 25-year continuous Vallée-co-authored lineage of material-and-energy analysis papers spans 1998 (Vallée, JSE — physical analyses of 10 cases with material samples), 2003 (Vallée + Davis, six-layer phenomenology preprint — currently MEDIUM in v6 audit, deferred), 2022 (Nolan / Vallée / Jiang / Lemke, PiAS — improved instrumental techniques + isotopic analysis), and 2025 (Vallée / Dini / Mestchersky, PiAS — radiative-energy estimate). The lineage is recorded narratively here without a separate dedicated lineage analysis file (deferred to v7 along with the Track 1 isotope-pipeline cross-archive integration).
+
+**RU:** 25-летняя непрерывная линия работ по анализу материи и энергии в соавторстве Vallée охватывает 1998 г. (Vallée, JSE — физический анализ 10 случаев с материальными образцами), 2003 г. (Vallée + Davis, препринт шестислойной феноменологии — на данный момент MEDIUM в аудите v6, отложен), 2022 г. (Nolan / Vallée / Jiang / Lemke, PiAS — улучшенные инструментальные методики + изотопный анализ) и 2025 г. (Vallée / Dini / Mestchersky, PiAS — оценка излучательной энергии). Линия отражена нарративно здесь без отдельного выделенного файла анализа линии (отложено до v7 вместе с кросс-архивной интеграцией Track 1 isotope-pipeline).
+
+---
+
 ## Reference list / Список ссылок
 
 - [`../sources/hessdalen-papers.md`](../sources/hessdalen-papers.md) — Hessdalen Project peer-reviewed corpus / Рецензируемый корпус проекта Hessdalen.
 - [`../sources/nimitz-flir-analyses.md`](../sources/nimitz-flir-analyses.md) — Nimitz Tic-Tac analytic bundle / Аналитический пучок Tic-Tac Nimitz.
 - [`../sources/galileo-project-papers.md`](../sources/galileo-project-papers.md) — Galileo Project anchor papers / Опорные работы Galileo Project.
 - [`../sources/scu-uap-papers-collection.md`](../sources/scu-uap-papers-collection.md) — SCU collected papers / Собрание работ SCU.
+- [`../sources/knuth-2025-new-science-uap.md`](../sources/knuth-2025-new-science-uap.md) — Knuth et al. 2025 PiAS landmark synthesis / Веха-синтез Кнута и др. 2025 в PiAS.
+- [`../sources/watters-loeb-2023-multimodal-observatories.md`](../sources/watters-loeb-2023-multimodal-observatories.md) — Watters / Loeb / Laukien 2023 STM + six-modality sensor stack.
+- [`../sources/domine-2025-galileo-allsky-ir.md`](../sources/domine-2025-galileo-allsky-ir.md) — Domine et al. 2025 Galileo all-sky IR commissioning.
+- [`../sources/szydagis-uapx-2025.md`](../sources/szydagis-uapx-2025.md) — Szydagis et al. 2025 UAPx first field-expedition.
+- [`../sources/knuth-powell-reali-2019-nimitz-physics.md`](../sources/knuth-powell-reali-2019-nimitz-physics.md) — Knuth / Powell / Reali 2019 Entropy kinematic-bounds analysis.
+- [`../sources/bruehl-villarroel-2025-poss-nuclear.md`](../sources/bruehl-villarroel-2025-poss-nuclear.md) — Bruehl & Villarroel 2025 Sci. Rep. POSS-I nuclear-correlation.
+- [`../sources/medina-brewer-kirkpatrick-2023-environmental.md`](../sources/medina-brewer-kirkpatrick-2023-environmental.md) — Medina / Brewer / Kirkpatrick 2023 Sci. Rep. environmental analysis.
+- [`../sources/grosvenor-hancock-porritt-2025-atomic-complex.md`](../sources/grosvenor-hancock-porritt-2025-atomic-complex.md) — Grosvenor / Hancock / Porritt 2025 Limina atomic-complex indications analysis.
+- [`../sources/vallee-1998-material-samples.md`](../sources/vallee-1998-material-samples.md) — Vallée 1998 JSE material-samples catalog.
+- [`../sources/lomas-2025-uap-assessment-matrix.md`](../sources/lomas-2025-uap-assessment-matrix.md) — Lomas et al. 2025 Acta Astronautica assessment matrix.
+- [`../sources/nolan-vallee-2022-isotopic-aerospace-forensics.md`](../sources/nolan-vallee-2022-isotopic-aerospace-forensics.md) — Nolan / Vallée / Jiang / Lemke 2022 PiAS isotopic-analysis methodology anchor.
+- [`../sources/vallee-dini-mestchersky-2025-radiative-energy.md`](../sources/vallee-dini-mestchersky-2025-radiative-energy.md) — Vallée / Dini / Mestchersky 2025 PiAS radiative-energy estimate.
 
 ---
 

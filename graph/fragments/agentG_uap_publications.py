@@ -303,3 +303,265 @@ C("p-banchenko-d", "src-arcanum-banchenko-3d4f3da4", "author-of", direction="dir
 C("p-banchenko-d", "src-arcanum-banchenko-2a5ebe26", "author-of", direction="directed")
 C("p-banchenko-d", "src-arcanum-banchenko-2ccb5339", "author-of", direction="directed")
 C("p-banchenko-d", "src-arcanum-banchenko-pending", "author-of", direction="directed")
+
+# ════════════════════════════════════════════════════════════════════
+# v6 ADDITION — 17 HIGH-priority Perplexity-research-audit sources
+#                + 2 adversarial-balance entries (Condon + Blue Book)
+# ════════════════════════════════════════════════════════════════════
+
+# ----- NEW INSTITUTION (CNES / GEIPAN) --------------------------------
+
+E("inst-cnes-geipan", "CNES / GEIPAN (France, 1977-present)", "institution",
+  label_ru="CNES / GEIPAN (Франция, с 1977 г.)",
+  description="Centre national d'études spatiales (CNES) GEIPAN office — the only national-government civilian UAP investigation office continuously operating from 1977 to present. Institutional lineage: GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005-present). Maintains the only national-government-curated UAP case database with structured A/B/C/D classification, public per-case dossiers, 3200+ entries.",
+  description_ru="Офис GEIPAN при Centre national d'études spatiales (CNES) — единственный национальный правительственно-гражданский UAP-исследовательский офис, непрерывно работающий с 1977 г. по настоящее время. Институциональная линия: GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005-наст. вр.). Поддерживает единственную национальную правительственно-куратируемую базу данных UAP-случаев со структурированной классификацией A/B/C/D, публичными покаждоисточниковыми досье, 3200+ записей.",
+  source="uap-scientific-publications/sources/geipan-cnes-database.md")
+
+# ----- NEW PERSONS (published authors of v6 HIGH papers) --------------
+
+E("p-knuth-k", "Kevin H. Knuth", "person · external",
+  label_ru="Кевин Х. Кнут",
+  description="Associate Professor of Physics, University at Albany (SUNY). Lead author of Knuth K.H. et al. 2025 New Science of UAP (Progress in Aerospace Sciences, 33-author landmark) and co-author of Knuth/Powell/Reali 2019 Entropy on Nimitz flight characteristics. UAPx co-investigator (Szydagis et al. 2025 PiAS).",
+  description_ru="Доцент кафедры физики, University at Albany (SUNY). Ведущий автор работы Knuth K.H. и др. 2025 New Science of UAP (Progress in Aerospace Sciences, 33-авторская веха) и соавтор Knuth/Powell/Reali 2019 Entropy по лётным характеристикам Nimitz. Со-исследователь UAPx (Szydagis и др. 2025 PiAS).",
+  source="uap-scientific-publications/sources/knuth-2025-new-science-uap.md")
+
+E("p-powell-r", "Robert Powell", "person · external",
+  label_ru="Роберт Пауэлл",
+  description="Co-founder, Scientific Coalition for UAP Studies (SCU). Lead author of SCU 2019 Nimitz CSG-11 forensic report, Knuth/Powell/Reali 2019 Entropy on flight characteristics, and Powell et al. 2022 SCU Ubatuba isotope re-analysis.",
+  description_ru="Соучредитель Scientific Coalition for UAP Studies (SCU). Ведущий автор криминалистического отчёта SCU 2019 по Nimitz CSG-11, Knuth/Powell/Reali 2019 Entropy по лётным характеристикам и Powell и др. 2022 SCU повторного изотопного анализа Ubatuba.",
+  source="uap-scientific-publications/sources/powell-2019-nimitz-csg11-forensic.md")
+
+E("p-hancock-l", "Larry J. Hancock", "person · external",
+  label_ru="Ларри Дж. Хэнкок",
+  description="Researcher / author. Lead of the SCU/Zenodo 2023 UAP Pattern Recognition Study 1945-1975 US Atomic Warfare Complex (grey-literature precursor) and co-author of the peer-reviewed Limina V2N1 2025 indications-analysis sequel (Grosvenor / Hancock / Porritt).",
+  description_ru="Исследователь / автор. Ведущий SCU/Zenodo Исследования паттернов UAP 1945-1975 для атомно-вооружённого комплекса США 2023 г. (грей-лит предшественник) и соавтор рецензируемого преемника анализа индикаций Limina V2N1 2025 г. (Grosvenor / Hancock / Porritt).",
+  source="uap-scientific-publications/sources/hancock-2023-scu-pattern-recognition.md")
+
+E("p-vallee-j", "Jacques Vallée", "person · external",
+  label_ru="Жак Валле",
+  description="Computer scientist and ufologist; co-author across a 25-year continuous lineage of UAP material-and-energy analysis papers — Vallée 1998 JSE physical analyses of 10 cases; Nolan / Vallée / Jiang / Lemke 2022 Progress in Aerospace Sciences improved instrumental techniques + isotopic analysis; Vallée / Dini / Mestchersky 2025 Progress in Aerospace Sciences radiative-energy estimate; co-author of the 33-author Knuth et al. 2025 PiAS landmark.",
+  description_ru="Компьютерный учёный и ufolog; соавтор 25-летней непрерывной линии работ по анализу материи и энергии UAP — Vallée 1998 JSE физический анализ 10 случаев; Nolan / Vallée / Jiang / Lemke 2022 Progress in Aerospace Sciences улучшенные инструментальные методики + изотопный анализ; Vallée / Dini / Mestchersky 2025 Progress in Aerospace Sciences оценка излучательной энергии; соавтор 33-авторской вехи Knuth и др. 2025 PiAS.",
+  source="uap-scientific-publications/sources/vallee-1998-material-samples.md")
+
+E("p-villarroel-b", "Beatriz Villarroel", "person · external",
+  label_ru="Беатрис Виларроэль",
+  description="Astrophysicist, Nordita-KTH (Stockholm Observatory). Lead investigator of the VASCO program. Second author on Bruehl & Villarroel 2025 Sci. Rep. — the peer-reviewed POSS-I transients ↔ nuclear-testing + UAP-reports statistical analysis.",
+  description_ru="Астрофизик, Nordita-KTH (Стокгольмская обсерватория). Ведущий исследователь программы VASCO. Второй автор Bruehl & Villarroel 2025 Sci. Rep. — рецензируемого статистического анализа транзиенты POSS-I ↔ ядерные испытания + сообщения UAP.",
+  source="uap-scientific-publications/sources/bruehl-villarroel-2025-poss-nuclear.md")
+
+E("p-kirkpatrick-s", "Sean M. Kirkpatrick", "person · external",
+  label_ru="Шон М. Киркпатрик",
+  description="Physicist (DoD); founding director of the All-domain Anomaly Resolution Office (AARO) 2022-2023. Co-author of Medina / Brewer / Kirkpatrick 2023 Sci. Rep. environmental analysis of public UAP sightings — the only NUFORC-scale geospatial study with an active US-government UAP-office co-author. Track 9 cites the methodology, NOT the broader AARO political tenure.",
+  description_ru="Физик (DoD); учредительный директор All-domain Anomaly Resolution Office (AARO) 2022-2023. Соавтор Medina / Brewer / Kirkpatrick 2023 Sci. Rep. экологического анализа публичных сообщений UAP — единственного геопространственного исследования NUFORC-масштаба с действующим соавтором из правительственного UAP-офиса США. Трек 9 цитирует методологию, а НЕ более широкий политический срок AARO.",
+  source="uap-scientific-publications/sources/medina-brewer-kirkpatrick-2023-environmental.md")
+
+# ----- NEW SOURCES (17 HIGH + 2 adversarial-balance = 19) -------------
+
+E("src-knuth-2025-new-science-uap", "Knuth et al. 2025 — The New Science of UAP", "source",
+  label_ru="Knuth и др. 2025 — Новая наука о UAP",
+  description="33-author landmark synthesis in Elsevier Progress in Aerospace Sciences (Q1). First peer-reviewed multinational global synthesis of historical government UAP studies covering Scandinavia, WWII, US, Canada, France, Russia, China; arXiv 2502.06794.",
+  description_ru="33-авторский синтез-веха в Elsevier Progress in Aerospace Sciences (Q1). Первый рецензируемый мультинациональный глобальный синтез исторических правительственных исследований UAP, охватывающий Скандинавию, ВВ2, США, Канаду, Францию, Россию, Китай; arXiv 2502.06794.",
+  source="uap-scientific-publications/sources/knuth-2025-new-science-uap.md")
+
+E("src-watters-loeb-2023-multimodal-observatories", "Watters/Loeb/Laukien 2023 — Multimodal Ground-Based Observatories", "source",
+  label_ru="Watters/Loeb/Laukien 2023 — Мультимодальные наземные обсерватории",
+  description="Galileo Project methodology paper, Journal of Astronomical Instrumentation 2023, DOI 10.1142/S2251171723400068. Defines the canonical Science Traceability Matrix (STM) and six-modality sensor stack including quasistatic E/B field instrumentation.",
+  description_ru="Методологическая работа Galileo Project, Journal of Astronomical Instrumentation 2023, DOI 10.1142/S2251171723400068. Определяет канонический Science Traceability Matrix (STM) и шестимодальный сенсорный стек, включая инструментирование квазистатических E/B полей.",
+  source="uap-scientific-publications/sources/watters-loeb-2023-multimodal-observatories.md")
+
+E("src-domine-2025-galileo-allsky-ir", "Domine et al. 2025 — All-Sky IR Camera Array Commissioning", "source",
+  label_ru="Domine и др. 2025 — Ввод всенебесной ИК-камерной решётки",
+  description="MDPI Sensors 2025, DOI 10.3390/s25030783. First quantified end-to-end performance baseline of the Galileo 8-camera LWIR all-sky array; YOLO+SORT pipeline; likelihood-based outlier upper-limit framework reusable as Track 5 OSINT methodology template.",
+  description_ru="MDPI Sensors 2025, DOI 10.3390/s25030783. Первая количественная сквозная производительностная базовая линия 8-камерной LWIR-всенебесной решётки Galileo; конвейер YOLO+SORT; правдоподобно-статистическая рамка верхней границы выбросов, переиспользуемая как методологический шаблон Трека 5 OSINT.",
+  source="uap-scientific-publications/sources/domine-2025-galileo-allsky-ir.md")
+
+E("src-szydagis-uapx-2025", "Szydagis et al. 2025 — UAPx First Field Expedition", "source",
+  label_ru="Szydagis и др. 2025 — Первая полевая экспедиция UAPx",
+  description="Elsevier Progress in Aerospace Sciences 2025; arXiv preprint 2312.00558. First peer-reviewed write-up of an instrumented UAPx field expedition (Catalina Island July 2021); ~1 hr triggered visible + 600 hr untriggered IR + 55 hr radiation; proposed 3-5σ rule-set for hard-science UAP analysis.",
+  description_ru="Elsevier Progress in Aerospace Sciences 2025; arXiv-препринт 2312.00558. Первая рецензируемая работа по инструментированной полевой экспедиции UAPx (остров Каталина, июль 2021 г.); ~1 час триггерированного видимого + 600 часов нетриггерированного ИК + 55 часов радиации; предложенное правило 3-5σ для научно-строгого анализа UAP.",
+  source="uap-scientific-publications/sources/szydagis-uapx-2025.md")
+
+E("src-knuth-powell-reali-2019-nimitz-physics", "Knuth/Powell/Reali 2019 — Estimating Flight Characteristics of Anomalous UAVs", "source",
+  label_ru="Knuth/Powell/Reali 2019 — Оценка лётных характеристик аномальных UAV",
+  description="MDPI Entropy 2019, DOI 10.3390/e21100939; companion in MaxEnt 2019 proceedings (DOI 10.3390/proceedings2019033026). Bayesian / MaxEnt extraction of acceleration / velocity / energy bounds (~100g to thousands of g, Mach 40-60) for the 2004 Nimitz Tic-Tac and adjacent encounters.",
+  description_ru="MDPI Entropy 2019, DOI 10.3390/e21100939; компаньон в материалах MaxEnt 2019 (DOI 10.3390/proceedings2019033026). Байесовская / макс-энтропийная экстракция границ ускорения / скорости / энергии (~100g до тысяч g, Мах 40-60) для Tic-Tac Nimitz 2004 и смежных столкновений.",
+  source="uap-scientific-publications/sources/knuth-powell-reali-2019-nimitz-physics.md")
+
+E("src-bruehl-villarroel-2025-poss-nuclear", "Bruehl & Villarroel 2025 — POSS-I Transients ↔ Nuclear Testing + UAP Reports", "source",
+  label_ru="Bruehl & Villarroel 2025 — Транзиенты POSS-I ↔ ядерные испытания + сообщения UAP",
+  description="Springer Nature Scientific Reports 2025 (Sci. Rep. 15:34125). First peer-reviewed statistical test linking pre-Sputnik POSS-I sky-survey transients to above-ground nuclear weapons tests and contemporaneous UAP reports; nuclear↔transient p=0.008 (+45% within ±1 day). All-tests-pooled — NOT site-specific.",
+  description_ru="Springer Nature Scientific Reports 2025 (Sci. Rep. 15:34125). Первый рецензируемый статистический тест, связывающий пред-спутниковые транзиенты обзора неба POSS-I с надземными ядерными испытаниями и современными им сообщениями UAP; ядерные↔транзиент p=0.008 (+45% в окне ±1 день). Все-испытания-агрегированный — НЕ конкретно-сайтовый.",
+  source="uap-scientific-publications/sources/bruehl-villarroel-2025-poss-nuclear.md")
+
+E("src-medina-brewer-kirkpatrick-2023-environmental", "Medina/Brewer/Kirkpatrick 2023 — Environmental Analysis of Public UAP Sightings", "source",
+  label_ru="Medina/Brewer/Kirkpatrick 2023 — Экологический анализ публичных сообщений UAP",
+  description="Springer Nature Scientific Reports 2023, DOI 10.1038/s41598-023-49527-x. Bayesian-regression model of NUFORC sightings 2001-2020 (n≈98,000) across the conterminous US with environmental covariates; opportunity-to-see null model for any geospatial UAP cluster claim. Co-author Kirkpatrick = founding AARO director.",
+  description_ru="Springer Nature Scientific Reports 2023, DOI 10.1038/s41598-023-49527-x. Байесовско-регрессионная модель сообщений NUFORC 2001-2020 гг. (n≈98 000) по contiguous-территории США с экологическими ковариатами; null-модель «возможность увидеть» для любого геопространственного UAP-кластерного утверждения. Соавтор Kirkpatrick = учредительный директор AARO.",
+  source="uap-scientific-publications/sources/medina-brewer-kirkpatrick-2023-environmental.md")
+
+E("src-grosvenor-hancock-porritt-2025-atomic-complex", "Grosvenor/Hancock/Porritt 2025 — UAP Indications 1945-1975 US Atomic Warfare Complex", "source",
+  label_ru="Grosvenor/Hancock/Porritt 2025 — Индикации UAP 1945-1975, Атомно-вооружённый комплекс США",
+  description="Limina V2N1 (SCU journal, founded 2022), DOI 10.59661/001c.131854. Indications-analysis study (n=874) testing four intent scenarios over the US atomic-warfare complex 1945-1975; concludes 'Atomic Weapons Survey' scenario fits best. Methodology adapted from US IC threat-and-warnings doctrine (Grabo 2004).",
+  description_ru="Limina V2N1 (журнал SCU, основан 2022), DOI 10.59661/001c.131854. Анализ индикаций (n=874), тестирующий четыре интентных сценария по атомно-вооружённому комплексу США 1945-1975 гг.; делает вывод, что сценарий «Atomic Weapons Survey» подходит лучше всего. Методология адаптирована из доктрины indications-and-warnings IC США (Grabo 2004).",
+  source="uap-scientific-publications/sources/grosvenor-hancock-porritt-2025-atomic-complex.md")
+
+E("src-hancock-2023-scu-pattern-recognition", "Hancock et al. 2023 — UAP Pattern Recognition 1945-1975 Atomic Complex", "source",
+  label_ru="Hancock и др. 2023 — Паттерны UAP 1945-1975, атомный комплекс",
+  description="SCU/Zenodo grey-literature precursor (n=590) of the 2025 peer-reviewed Limina sequel. Pattern-recognition correlating UAP incidents with US atomic-warfare-complex installations: LANL, Sandia, Oak Ridge, Hanford, Pantex, Kirtland AFB, Manzano weapons-storage.",
+  description_ru="SCU/Zenodo «серо-литературный» предшественник (n=590) рецензируемого преемника Limina 2025 г. Паттерн-распознавание, коррелирующее инциденты UAP с объектами атомно-вооружённого комплекса США: LANL, Sandia, Oak Ridge, Hanford, Pantex, Kirtland AFB, склад вооружений Manzano.",
+  source="uap-scientific-publications/sources/hancock-2023-scu-pattern-recognition.md")
+
+E("src-vallee-1998-material-samples", "Vallée 1998 — Physical Analyses 10 Cases Material Samples", "source",
+  label_ru="Vallée 1998 — Физический анализ 10 случаев с материальными образцами",
+  description="Journal of Scientific Exploration Vol. 12 No. 3 (1998). Foundational catalog of UAP-material physical analyses with isotopic / metallurgical / chemical assay protocols (Ubatuba, Council Bluffs, Maury Island, etc.). Methodological precursor for Track 1 UAP-FRAG-001 chain-of-custody and assay-protocol documentation.",
+  description_ru="Journal of Scientific Exploration т. 12 № 3 (1998). Базовый каталог физических анализов UAP-материалов с изотопными / металлургическими / химическими протоколами (Ubatuba, Council Bluffs, Maury Island и др.). Методологический предшественник для документации цепочки кастоди и протоколов анализа Трека 1 UAP-FRAG-001.",
+  source="uap-scientific-publications/sources/vallee-1998-material-samples.md")
+
+E("src-powell-2022-ubatuba-isotope", "Powell et al. 2022 — 1957 Brazilian Ubatuba Fragment Isotope Ratios", "source",
+  label_ru="Powell и др. 2022 — Изотопные соотношения бразильского фрагмента Ubatuba 1957",
+  description="SCU 2022 high-resolution isotope-ratio mass-spectrometry (HR-ICPMS) and chemical-composition re-analysis of the 1957 Ubatuba fragment. Methodological precedent for Track 1 UAP-FRAG-001 isotopic analysis pipeline; companion to Nolan/Vallée 2022 PiAS peer-reviewed methodology frame. 65-year custody chain explicitly noted.",
+  description_ru="SCU 2022 г. высокоразрешающая масс-спектрометрия изотопных соотношений (HR-ICPMS) и химико-композиционный повторный анализ фрагмента Ubatuba 1957 г. Методологический прецедент для конвейера изотопного анализа Трека 1 UAP-FRAG-001; компаньон рецензируемому методологическому каркасу Nolan/Vallée 2022 PiAS. 65-летняя цепочка кастоди явно отмечена.",
+  source="uap-scientific-publications/sources/powell-2022-ubatuba-isotope.md")
+
+E("src-powell-2019-nimitz-csg11-forensic", "Powell et al. 2019 — Forensic Analysis Nimitz CSG-11 Encounter", "source",
+  label_ru="Powell и др. 2019 — Криминалистический анализ столкновения Nimitz CSG-11",
+  description="SCU 2019 forensic report integrating FLIR1/Gimbal/GoFast clips with Princeton/Higgins radar-track reconstructions and pilot-debrief witness chains (Fravor, Slaight, Day). Methodological centre of gravity for the entire Nimitz Tic-Tac literature.",
+  description_ru="SCU 2019 г. криминалистический отчёт, объединяющий клипы FLIR1/Gimbal/GoFast с реконструкциями радарных треков Princeton/Higgins и цепочками опросов пилотов (Fravor, Slaight, Day). Методологический центр тяжести всей литературы по Tic-Tac Nimitz.",
+  source="uap-scientific-publications/sources/powell-2019-nimitz-csg11-forensic.md")
+
+E("src-lomas-2025-uap-assessment-matrix", "Lomas et al. 2025 — UAP Assessment Matrix", "source",
+  label_ru="Lomas и др. 2025 — Матрица оценки UAP",
+  description="Elsevier Acta Astronautica 2025 (Q1 aerospace-engineering, IF≈2.5). Structured evidence-evaluation matrix for UAP cases — formal scoring rubric applicable to Track 5 OSINT signature-classification, Track 3 Chernobrov-USSR ranking, and Track 8 cross-archive case-comparison.",
+  description_ru="Elsevier Acta Astronautica 2025 (Q1 аэрокосмически-инженерный, IF≈2.5). Структурированная матрица оценки свидетельств для UAP-случаев — формальная оценочная рубрика, применимая к классификации сигнатур Трека 5 OSINT, ранжированию Чернобров-СССР Трека 3 и кросс-архивному сравнению случаев Трека 8.",
+  source="uap-scientific-publications/sources/lomas-2025-uap-assessment-matrix.md")
+
+E("src-nolan-vallee-2022-isotopic-aerospace-forensics", "Nolan/Vallée/Jiang/Lemke 2022 — Improved Instrumental Techniques + Isotopic Analysis", "source",
+  label_ru="Nolan/Vallée/Jiang/Lemke 2022 — Улучшенные инструментальные методики + изотопный анализ",
+  description="Elsevier Progress in Aerospace Sciences Vol. 128 (2022), DOI 10.1016/j.paerosci.2021.100788. Methodology-anchor citation for Track 1 isotopic-analysis pipeline. Stanford-domain (Nolan, Jiang) + ex-NASA-Ames (Lemke) + Vallée co-authorship in Q1 PiAS — establishes HR-ICPMS / SIMS / TIMS as legitimate aerospace-forensics technique.",
+  description_ru="Elsevier Progress in Aerospace Sciences т. 128 (2022), DOI 10.1016/j.paerosci.2021.100788. Методолого-якорная ссылка для конвейера изотопного анализа Трека 1. Stanford-домен (Nolan, Jiang) + ex-NASA-Ames (Lemke) + соавторство Vallée в Q1 PiAS — устанавливает HR-ICPMS / SIMS / TIMS как легитимную аэрокосмическо-криминалистическую методику.",
+  source="uap-scientific-publications/sources/nolan-vallee-2022-isotopic-aerospace-forensics.md")
+
+E("src-vallee-dini-mestchersky-2025-radiative-energy", "Vallée/Dini/Mestchersky 2025 — Radiative Energy Estimates Ground-Level UAP", "source",
+  label_ru="Vallée/Dini/Mestchersky 2025 — Оценки излучательной энергии наземного UAP",
+  description="Elsevier Progress in Aerospace Sciences 2025. Quantitative radiative-energy estimate for a ground-level UAP case. First peer-reviewed PiAS UAP-energy-budget paper. Fourth and most recent entry in the 25-year Vallée material-and-energy lineage (1998 → 2003 → 2022 → 2025).",
+  description_ru="Elsevier Progress in Aerospace Sciences 2025. Количественная оценка излучательной энергии для наземного UAP-случая. Первая рецензируемая PiAS-работа по энергетическому бюджету UAP. Четвёртая и наиболее недавняя запись в 25-летней линии Vallée по анализу материи и энергии (1998 → 2003 → 2022 → 2025).",
+  source="uap-scientific-publications/sources/vallee-dini-mestchersky-2025-radiative-energy.md")
+
+E("src-aaro-aui-2025-workshop", "DoD AARO + AUI 2025 — UAP Workshop: Narrative Data Infrastructures", "source",
+  label_ru="DoD AARO + AUI 2025 — Семинар по UAP: инфраструктуры нарративных данных",
+  description="DoD AARO + Associated Universities Inc. (AUI) 2025 workshop on UAP narrative-data infrastructures. First known explicit US-government convening on UAP narrative-data tooling. Hosted on aaro.mil / aui.edu.",
+  description_ru="Семинар DoD AARO + Associated Universities Inc. (AUI) 2025 г. по инфраструктурам нарративных данных по UAP. Первый известный явный правительственный созыв США по инструментарию нарративных данных по UAP. Размещение на aaro.mil / aui.edu.",
+  source="uap-scientific-publications/sources/aaro-aui-2025-workshop.md")
+
+E("src-geipan-cnes-database", "CNES / GEIPAN — Online UAP Cases Database (1977-present)", "source",
+  label_ru="CNES / GEIPAN — Онлайн-база данных UAP-случаев (с 1977 г.)",
+  description="The only national-government-curated UAP case database with structured A/B/C/D classification, public per-case dossiers, 3200+ entries continuous 1977-present. Subsumes GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005-present) institutional lineage and the CAIPAN 2014 workshop.",
+  description_ru="Единственная национальная правительственно-куратируемая база данных UAP-случаев со структурированной классификацией A/B/C/D, публичными покаждоисточниковыми досье, 3200+ записей непрерывно с 1977 г. по наст. вр. Включает институциональную линию GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005-наст. вр.) и семинар CAIPAN 2014.",
+  source="uap-scientific-publications/sources/geipan-cnes-database.md")
+
+E("src-condon-report-1968", "Condon Report 1968 — Scientific Study of UFOs", "source",
+  label_ru="Отчёт Кондона 1968 — Научное исследование НЛО",
+  description="University of Colorado UFO Project (Edward U. Condon, 1966-1968). ~1500 pages with appendices, 14,885 underlying record pages, 59 individually-investigated cases. Canonical scientific-establishment null-finding on UAP; basis for Project Blue Book termination 1969. Adversarial-balance pair with AARO Historical Record V1 (2024).",
+  description_ru="UFO Project Университета Колорадо (Edward U. Condon, 1966-1968). Около 1500 страниц с приложениями, 14 885 страниц лежащих в основе записей, 59 индивидуально расследованных случаев. Канонический научно-истеблишментальный null-вывод по UAP; основание для прекращения Project Blue Book 1969 г. Состязательно-балансирующая пара с AARO Historical Record V1 (2024).",
+  source="uap-scientific-publications/sources/condon-report-1968.md")
+
+E("src-blue-book-archives", "USAF Project Blue Book Archives 1952-1969 (NARA RG341)", "source",
+  label_ru="Архивы Project Blue Book ВВС США 1952-1969 (NARA RG341)",
+  description="12,618 reports collected by USAF 1952-1969, digitised at the National Archives (NARA Record Group 341). Subsumes predecessor sub-projects: Project SIGN (1947-1948), Project GRUDGE (1948-1949), Project Twinkle (1949-1951, green-fireballs LANL/SNL/White Sands cluster). Officially terminated 1969 on the basis of the Condon Report.",
+  description_ru="12 618 сообщений, собранных ВВС США 1952-1969 гг., дигитизированы в Национальных архивах (NARA Record Group 341). Включает предшественниковые подпроекты: Project SIGN (1947-1948), Project GRUDGE (1948-1949), Project Twinkle (1949-1951, кластер зелёных болидов LANL/SNL/Уайт-Сэндс). Официально прекращён в 1969 г. на основании Отчёта Кондона.",
+  source="uap-scientific-publications/sources/blue-book-archives.md")
+
+# ----- v6 CLUSTER MEMBERSHIP (all new sources + persons + inst) -------
+
+C("inst-cnes-geipan", "cluster-uap-publications", "member-of", direction="directed")
+
+C("p-knuth-k", "cluster-uap-publications", "member-of", direction="directed")
+C("p-powell-r", "cluster-uap-publications", "member-of", direction="directed")
+C("p-hancock-l", "cluster-uap-publications", "member-of", direction="directed")
+C("p-vallee-j", "cluster-uap-publications", "member-of", direction="directed")
+C("p-villarroel-b", "cluster-uap-publications", "member-of", direction="directed")
+C("p-kirkpatrick-s", "cluster-uap-publications", "member-of", direction="directed")
+
+C("src-knuth-2025-new-science-uap", "cluster-uap-publications", "member-of", direction="directed")
+C("src-watters-loeb-2023-multimodal-observatories", "cluster-uap-publications", "member-of", direction="directed")
+C("src-domine-2025-galileo-allsky-ir", "cluster-uap-publications", "member-of", direction="directed")
+C("src-szydagis-uapx-2025", "cluster-uap-publications", "member-of", direction="directed")
+C("src-knuth-powell-reali-2019-nimitz-physics", "cluster-uap-publications", "member-of", direction="directed")
+C("src-bruehl-villarroel-2025-poss-nuclear", "cluster-uap-publications", "member-of", direction="directed")
+C("src-medina-brewer-kirkpatrick-2023-environmental", "cluster-uap-publications", "member-of", direction="directed")
+C("src-grosvenor-hancock-porritt-2025-atomic-complex", "cluster-uap-publications", "member-of", direction="directed")
+C("src-hancock-2023-scu-pattern-recognition", "cluster-uap-publications", "member-of", direction="directed")
+C("src-vallee-1998-material-samples", "cluster-uap-publications", "member-of", direction="directed")
+C("src-powell-2022-ubatuba-isotope", "cluster-uap-publications", "member-of", direction="directed")
+C("src-powell-2019-nimitz-csg11-forensic", "cluster-uap-publications", "member-of", direction="directed")
+C("src-lomas-2025-uap-assessment-matrix", "cluster-uap-publications", "member-of", direction="directed")
+C("src-nolan-vallee-2022-isotopic-aerospace-forensics", "cluster-uap-publications", "member-of", direction="directed")
+C("src-vallee-dini-mestchersky-2025-radiative-energy", "cluster-uap-publications", "member-of", direction="directed")
+C("src-aaro-aui-2025-workshop", "cluster-uap-publications", "member-of", direction="directed")
+C("src-geipan-cnes-database", "cluster-uap-publications", "member-of", direction="directed")
+C("src-condon-report-1968", "cluster-uap-publications", "member-of", direction="directed")
+C("src-blue-book-archives", "cluster-uap-publications", "member-of", direction="directed")
+
+# ----- v6 AUTHOR-OF EDGES --------------------------------------------
+
+# Knuth — leads 3 papers + co-authors UAPx
+C("p-knuth-k", "src-knuth-2025-new-science-uap", "author-of", direction="directed")
+C("p-knuth-k", "src-knuth-powell-reali-2019-nimitz-physics", "author-of", direction="directed")
+C("p-knuth-k", "src-szydagis-uapx-2025", "author-of", direction="directed")
+
+# Powell — co-authors Nimitz physics + 3 SCU reports
+C("p-powell-r", "src-knuth-powell-reali-2019-nimitz-physics", "author-of", direction="directed")
+C("p-powell-r", "src-powell-2019-nimitz-csg11-forensic", "author-of", direction="directed")
+C("p-powell-r", "src-powell-2022-ubatuba-isotope", "author-of", direction="directed")
+
+# Hancock — leads SCU 2023 + co-authors Limina 2025
+C("p-hancock-l", "src-hancock-2023-scu-pattern-recognition", "author-of", direction="directed")
+C("p-hancock-l", "src-grosvenor-hancock-porritt-2025-atomic-complex", "author-of", direction="directed")
+
+# Vallée — 4 papers across 25-year lineage (1998 → 2022 → 2025) + Knuth 2025 co-author
+C("p-vallee-j", "src-vallee-1998-material-samples", "author-of", direction="directed")
+C("p-vallee-j", "src-nolan-vallee-2022-isotopic-aerospace-forensics", "author-of", direction="directed")
+C("p-vallee-j", "src-vallee-dini-mestchersky-2025-radiative-energy", "author-of", direction="directed")
+C("p-vallee-j", "src-knuth-2025-new-science-uap", "author-of", direction="directed")
+
+# Villarroel — Bruehl/Villarroel 2025 + Knuth 2025 co-author
+C("p-villarroel-b", "src-bruehl-villarroel-2025-poss-nuclear", "author-of", direction="directed")
+C("p-villarroel-b", "src-knuth-2025-new-science-uap", "author-of", direction="directed")
+
+# Kirkpatrick — Medina/Brewer/Kirkpatrick 2023
+C("p-kirkpatrick-s", "src-medina-brewer-kirkpatrick-2023-environmental", "author-of", direction="directed")
+
+# Loeb — Watters/Loeb/Laukien 2023 + Domine 2025 (already lead-of inst-galileo-project)
+C("p-loeb-a", "src-watters-loeb-2023-multimodal-observatories", "author-of", direction="directed")
+C("p-loeb-a", "src-domine-2025-galileo-allsky-ir", "author-of", direction="directed")
+
+# Nolan — Nolan/Vallée 2022 + Knuth 2025 co-author
+C("p-nolan-g", "src-nolan-vallee-2022-isotopic-aerospace-forensics", "author-of", direction="directed")
+C("p-nolan-g", "src-knuth-2025-new-science-uap", "author-of", direction="directed")
+
+# ----- v6 INSTITUTIONAL / PROGRAM / PEER-REVIEW EDGES -----------------
+
+# Galileo Project ↔ observation-program papers
+C("src-watters-loeb-2023-multimodal-observatories", "inst-galileo-project", "observation-program-of", direction="directed")
+C("src-domine-2025-galileo-allsky-ir", "inst-galileo-project", "observation-program-of", direction="directed")
+
+# SCU ↔ SCU-published reports
+C("src-powell-2019-nimitz-csg11-forensic", "inst-scu", "published-by", direction="directed")
+C("src-hancock-2023-scu-pattern-recognition", "inst-scu", "published-by", direction="directed")
+C("src-powell-2022-ubatuba-isotope", "inst-scu", "published-by", direction="directed")
+C("src-grosvenor-hancock-porritt-2025-atomic-complex", "inst-scu", "published-by", direction="directed")
+
+# Government convening / database edges
+C("src-aaro-aui-2025-workshop", "inst-aaro", "government-report-of", direction="directed")
+C("src-geipan-cnes-database", "inst-cnes-geipan", "government-report-of", direction="directed")
+
+# ----- v6 GREY-LIT PRECURSOR-OF EDGES (paired evolutions) -------------
+
+C("src-hancock-2023-scu-pattern-recognition", "src-grosvenor-hancock-porritt-2025-atomic-complex",
+  "grey-lit-precursor-of", direction="directed",
+  description="SCU/Zenodo 2023 grey-literature pattern-recognition study is the empirical-base precursor to the 2025 Limina V2N1 peer-reviewed indications-analysis sequel (same dataset, formalised methodology).")
+
+C("src-powell-2022-ubatuba-isotope", "src-nolan-vallee-2022-isotopic-aerospace-forensics",
+  "grey-lit-precursor-of", direction="directed",
+  description="SCU 2022 grey-literature Ubatuba isotope re-analysis is paired with the Nolan/Vallée 2022 PiAS peer-reviewed methodology frame for the same instrument-class isotopic workflow.")
+

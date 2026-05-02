@@ -30,6 +30,48 @@
 
 ---
 
+## Convenings and workshops line (v6) / Линия созывов и семинаров (v6)
+
+**EN:** The 2025 DoD AARO + Associated Universities Inc. (AUI) workshop on UAP narrative-data infrastructures ([`../sources/aaro-aui-2025-workshop.md`](../sources/aaro-aui-2025-workshop.md)) is the first known explicit US-government convening on UAP narrative-data tooling. Cataloged in this layer because it is a government-academic-consortium convening rather than a statutory annual report. As a citation target, it provides government-side endorsement that structured-narrative archive work has institutional research priority.
+
+**RU:** Семинар DoD AARO + Associated Universities Inc. (AUI) 2025 г. по инфраструктурам нарративных данных по UAP ([`../sources/aaro-aui-2025-workshop.md`](../sources/aaro-aui-2025-workshop.md)) — первый известный явный правительственный созыв США по инструментарию нарративных данных по UAP. Каталогизирован в этом слое, поскольку является правительственно-академическо-консорциумным созывом, а не статутным ежегодным отчётом. Как цель цитирования, он обеспечивает правительственное подтверждение, что работа по структурированному нарративному архиву имеет институциональный исследовательский приоритет.
+
+---
+
+## Foreign-government baseline — CNES / GEIPAN database (v6) / Базовая линия иностранного правительства — база данных CNES / GEIPAN (v6)
+
+**EN:** GEIPAN is the only national-government-curated UAP case database with structured case-resolution categories (A/B/C/D), public per-case dossiers, and continuous 1977-present coverage; subsumes the historical GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005-present) institutional lineage and the CAIPAN 2014 workshop precedent ([`../sources/geipan-cnes-database.md`](../sources/geipan-cnes-database.md)). As a *data source* it is the cleanest non-US baseline for the corpus: the A/B/C/D classification (A: identified / B: probably identified / C: insufficient data / D: unidentified after thorough investigation) is a usable methodological precedent for Track 5 anomaly-classification work, and the database supports cross-archive comparison with the Chernobrov / Kosmopoisk USSR case set in Track 3 (cross-archive integration scope-limited and lands as a graph edge in v7).
+
+**RU:** GEIPAN — единственная национальная правительственно-куратируемая база данных UAP-случаев со структурированными категориями разрешения дел (A/B/C/D), публичными покаждоисточниковыми досье и непрерывным охватом с 1977 г. по наст. вр.; включает историческую институциональную линию GEPAN (1977-1988) → SEPRA (1988-2004) → GEIPAN (2005 — наст. вр.) и прецедент семинара CAIPAN 2014 ([`../sources/geipan-cnes-database.md`](../sources/geipan-cnes-database.md)). Как *источник данных* — самая чистая немериканская базовая линия для корпуса: классификация A/B/C/D (A: идентифицирован / B: вероятно идентифицирован / C: недостаточно данных / D: неопознан после тщательного расследования) — пригодный методологический прецедент для классификации аномалий в Треке 5, и база поддерживает кросс-архивное сравнение с корпусом случаев Чернобров / Космопоиск-СССР в Треке 3 (кросс-архивная интеграция ограничена по области и приземляется как графовое ребро в v7).
+
+---
+
+## Historical USAF programs — SIGN / GRUDGE / Twinkle / Blue Book (v6) / Исторические программы ВВС США — SIGN / GRUDGE / Twinkle / Blue Book (v6)
+
+**EN:** The historical USAF UAP investigative programs — Project SIGN (1947-1948), Project GRUDGE (1948-1949), Project Twinkle (1949-1951), and the longest-running Project Blue Book (1952-1969) — are subsumed under a single provenance entry ([`../sources/blue-book-archives.md`](../sources/blue-book-archives.md)) covering the digitized 12,618-report Blue Book collection at NARA Record Group 341 plus the predecessor sub-projects. Project Twinkle's geographic clustering of green-fireball reports around Los Alamos / Sandia / White Sands overlaps with the Track 6 LANL/SNL site list, but Twinkle's official conclusion was that the reports were probably natural meteoritic phenomena — that null-finding must accompany any geographic-overlap cross-reference. Blue Book was officially terminated in 1969 on the basis of the Condon Report.
+
+**RU:** Исторические UAP-исследовательские программы ВВС США — Project SIGN (1947-1948), Project GRUDGE (1948-1949), Project Twinkle (1949-1951) и наиболее долгоживущий Project Blue Book (1952-1969) — включены в единую запись провенанса ([`../sources/blue-book-archives.md`](../sources/blue-book-archives.md)), охватывающую дигитизированное собрание Blue Book из 12 618 отчётов в NARA Record Group 341 плюс предшественниковые подпроекты. Географическая кластеризация Project Twinkle сообщений о зелёных болидах вокруг Лос-Аламоса / Сандии / Уайт-Сэндс пересекается с перечнем сайтов LANL/SNL Трека 6, но официальный вывод Twinkle состоял в том, что сообщения, вероятно, были природными метеоритными феноменами — этот null-вывод должен сопровождать любую кросс-ссылку географического пересечения. Blue Book был официально прекращён в 1969 г. на основании Отчёта Кондона.
+
+---
+
+## Adversarial-balance pair (v6) — AARO V1 ↔ Condon Report / Состязательно-балансирующая пара (v6) — AARO V1 ↔ Отчёт Кондона
+
+**EN:** Track 9 explicitly anchors the **adversarial-balance pair** required for any UAP reverse-engineering-themed article to survive review:
+
+- **AARO Historical Record Report Vol. I (March 2024)** — the current-era US-government negative finding: "AARO found no verifiable evidence of recovered extraterrestrial technology or active reverse-engineering programmes" within the records and interviews available to it. Cataloged at [`../sources/aaro-public-reports.md`](../sources/aaro-public-reports.md).
+- **The Condon Report (1968)** — the historical-era scientific-establishment null-finding from the University of Colorado UFO Project (Edward U. Condon), the basis for Blue Book's 1969 termination: "further extensive study of UFOs probably cannot be justified in the expectation that science will be advanced thereby." Cataloged at [`../sources/condon-report-1968.md`](../sources/condon-report-1968.md). Note: the Condon-paradox critique (mismatch between conclusion-summary and individual-case findings) is documented in the Condon provenance entry; both the conclusion and the documented critique should be cited.
+
+ANY article in this archive that touches reverse-engineering, recovered-materials, or active-programme claims must cite both. Track 9 records the adversarial-balance pair here as a single load-bearing convention.
+
+**RU:** Трек 9 явно закрепляет **состязательно-балансирующую пару**, необходимую для прохождения рецензии любой UAP-реверс-инжиниринговой статьёй:
+
+- **AARO Historical Record Report Vol. I (март 2024 г.)** — современная правительственно-США негативная находка: «AARO не нашло проверяемых свидетельств извлечённой внеземной технологии или активных программ реверс-инжиниринга» в доступных ему записях и интервью. Каталогизирован в [`../sources/aaro-public-reports.md`](../sources/aaro-public-reports.md).
+- **Отчёт Кондона (1968)** — исторически-эпохальный научно-истеблишментальный null-вывод из UFO Project Университета Колорадо (Edward U. Condon), основание для прекращения Blue Book в 1969 г.: «дальнейшее обширное изучение НЛО, по-видимому, не может быть оправдано в ожидании, что благодаря этому продвинется наука». Каталогизирован в [`../sources/condon-report-1968.md`](../sources/condon-report-1968.md). Замечание: критика парадокса Кондона (несоответствие между резюме выводов и находками по отдельным случаям) задокументирована в записи провенанса Кондона; следует цитировать и вывод, и задокументированную критику.
+
+ЛЮБАЯ статья в этом архиве, затрагивающая утверждения о реверс-инжиниринге, извлечённых материалах или активной программе, должна цитировать обе. Трек 9 фиксирует состязательно-балансирующую пару здесь как единую несущую конвенцию.
+
+---
+
 ## GAO referencing line / Линия ссылок GAO
 
 **EN:** The US Government Accountability Office (GAO) has published reports addressing DoD oversight of UAP-adjacent activity, typically in the context of broader defense / intelligence audit work rather than as standalone UAP reports. These referencing-line items are included in the layer description for completeness; their primary function is oversight rather than substantive UAP characterisation, and Track 9 catalogs them as a note-level reference rather than maintaining a dedicated source-provenance file at the v4 catalog stage.
@@ -43,6 +85,10 @@
 - [`../sources/dni-uap-reports-2021-2024.md`](../sources/dni-uap-reports-2021-2024.md) — ODNI / DNI annual reporting line provenance / Провенанс ежегодной отчётной линии ODNI / DNI.
 - [`../sources/aaro-public-reports.md`](../sources/aaro-public-reports.md) — AARO public-reports line provenance / Провенанс линии публичных отчётов AARO.
 - [`../sources/nasa-uap-study-2023.md`](../sources/nasa-uap-study-2023.md) — NASA UAP Independent Study Team report provenance / Провенанс отчёта независимой группы NASA по UAP.
+- [`../sources/aaro-aui-2025-workshop.md`](../sources/aaro-aui-2025-workshop.md) — DoD AARO + AUI 2025 UAP workshop on narrative-data infrastructures / Семинар DoD AARO + AUI 2025 г. по инфраструктурам нарративных данных по UAP.
+- [`../sources/geipan-cnes-database.md`](../sources/geipan-cnes-database.md) — CNES / GEIPAN online UAP cases database / Онлайн-база данных UAP-случаев CNES / GEIPAN.
+- [`../sources/condon-report-1968.md`](../sources/condon-report-1968.md) — Condon Report 1968 (adversarial-balance pair with AARO V1) / Отчёт Кондона 1968 (состязательно-балансирующая пара с AARO V1).
+- [`../sources/blue-book-archives.md`](../sources/blue-book-archives.md) — USAF Blue Book Archives 1952-1969 (NARA RG341, subsumes SIGN/GRUDGE/Twinkle predecessors) / Архивы Blue Book ВВС США 1952-1969 (NARA RG341, включают предшественников SIGN/GRUDGE/Twinkle).
 
 ---
 
