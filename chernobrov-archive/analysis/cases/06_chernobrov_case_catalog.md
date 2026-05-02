@@ -1,25 +1,29 @@
-# Case catalog — 06_SlediPutesh (SLEDY-55)
+# Case catalog — 06_SlediPutesh (SLEDY-55) / Каталог случаев — 06_SlediPutesh (SLEDY-55)
 
 **Source:** `transcripts/06_SlediPutesh_2h55.txt`
 **Lecture date:** 21 October 2015 (Narodnoye Slavyanskoye Radio)
 **Speaker:** Vadim Chernobrov
 **Code:** SLEDY-55
 
-Sortable research index. Verdicts are Chernobrov's stated or strongly implied evaluation.
+**EN:** This catalog is a sortable research index of the 17 distinct cases discussed by Vadim Chernobrov during the 21 October 2015 Narodnoye Slavyanskoye Radio lecture. Each case is presented as a structured record with label, date, place, description, verdict, evidence class, timestamp, chronological group, and (where relevant) notes. Verdicts represent Chernobrov's stated or strongly implied evaluation as read by the cataloguer; they are not always one-word labels uttered by Chernobrov himself. Two of the entries (#15 Pekran, #16 Sirius) are aggregate archives covering many sub-cases. Aggregate counts of verdict categories appear at the end of the file. Use the timestamps to navigate back to the source ASR transcript.
+
+**RU:** Этот каталог представляет собой сортируемый исследовательский индекс из 17 отдельных случаев, разобранных Вадимом Чернобровом в лекции на «Народном Славянском Радио» 21 октября 2015 г. Каждый случай оформлен как структурированная карточка: метка, дата, место, описание, вердикт, класс доказательств, временной маркер, хронологическая группа и (при необходимости) примечания. Вердикты отражают явную или косвенно подразумеваемую оценку Черноброва в прочтении составителя; они не всегда являются дословными ярлыками самого Черноброва. Две записи (№15 Пекран, №16 Сириус) — это агрегированные архивы по множеству под-случаев. Сводные подсчёты по категориям вердиктов приведены в конце файла. По временным маркерам можно вернуться к исходной ASR-расшифровке.
 
 ---
 
-## Field legend
+## Field legend / Легенда полей
 
 - **Verdict** ∈ { Authentic, Suspected-authentic, Legend-debunked, Cover-story-confirmed, Under-investigation, Reference-only }
 - **Evidence class** ∈ { Witness, Landing-site, Physical-damage, Video-capture-failure, Placename, Mass-sighting, Literary-reference, Cross-check-absent }
 - **Chronological group** ∈ { pre-1900, 1900-1960, 1960-2000, 2000-present, ongoing, scheduled, reference }
 
+**RU:** Поле **Verdict (Вердикт)** принимает значения: Authentic (подлинное), Suspected-authentic (предположительно подлинное), Legend-debunked (легенда опровергнута), Cover-story-confirmed (подтверждена легенда-прикрытие), Under-investigation (исследуется), Reference-only (только в качестве справки). Поле **Evidence class (Класс доказательств)**: Witness (свидетельство), Landing-site (место посадки), Physical-damage (физические повреждения), Video-capture-failure (сбой видеозаписи), Placename (топоним), Mass-sighting (массовое наблюдение), Literary-reference (литературная отсылка), Cross-check-absent (отсутствие перекрёстной проверки). Поле **Chronological group (Хронологическая группа)**: до 1900, 1900–1960, 1960–2000, 2000 — наст. время, по наст. время, запланировано, справочное.
+
 ---
 
-## Case 1 — Fátima apparitions
+## Case 1 — Fátima apparitions / Случай 1 — Фатимские явления
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Fátima 1917 |
 | Date | 13 May – 13 October 1917 (Chernobrov gives lecture-date diff: "98 years ago") |
@@ -33,9 +37,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 2 — M8 trucker match-striker
+## Case 2 — M8 trucker match-striker / Случай 2 — Дальнобойщик на М8 со спичкой
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | M8 highway match-striker |
 | Date | Undated, asserted **pre-1986** (pre-*Kin-dza-dza!*) |
@@ -49,9 +53,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 3 — Brezhnev Kremlin-green courier
+## Case 3 — Brezhnev Kremlin-green courier / Случай 3 — Курьер к Брежневу о зелёном Кремле
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Kremlin green-paint mission |
 | Date | Brezhnev era (1964–1982) |
@@ -64,9 +68,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 4 — Kursk Salient UFO legend
+## Case 4 — Kursk Salient UFO legend / Случай 4 — Легенда об НЛО на Курской дуге
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Kursk UFO frozen tanks |
 | Date | July 1943 |
@@ -80,9 +84,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 5 — Pavlovo-Posad forest object(s)
+## Case 5 — Pavlovo-Posad forest object(s) / Случай 5 — Лесные объекты в Павловском Посаде
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Pavlovo-Posad 2015 falling bodies |
 | Date | ~August 2015 (~2 months before broadcast); search expedition 24–25 October 2015 |
@@ -96,9 +100,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 6 — Medveditskaya Ridge blind-spot NLO
+## Case 6 — Medveditskaya Ridge blind-spot NLO / Случай 6 — НЛО в «слепой зоне» Медведицкой гряды
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Medveditskaya camera-blind-spot landings |
 | Date | Ongoing, prior few years |
@@ -112,9 +116,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 7 — Medveditskaya large stone discs
+## Case 7 — Medveditskaya large stone discs / Случай 7 — Крупные каменные диски на Медведицкой гряде
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Medveditskaya stone discs |
 | Date | Ongoing investigation |
@@ -128,9 +132,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 8 — "Name-name" evacuation-point village
+## Case 8 — "Name-name" evacuation-point village / Случай 8 — Деревня-«точка эвакуации» с «говорящим» названием
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Name-name village |
 | Date | Ongoing investigation |
@@ -144,9 +148,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 9 — Gaiduchok unplanned-arrival account
+## Case 9 — Gaiduchok unplanned-arrival account / Случай 9 — Рассказ о незапланированном прибытии Гайдучка
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Gaiduchok 20th-century arrival |
 | Date | Early 20th c. (exact year not given here) |
@@ -160,9 +164,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 10 — Kosmopoisk camp-8 "8.5-minute NLO"
+## Case 10 — Kosmopoisk camp-8 "8.5-minute NLO" / Случай 10 — «8,5-минутное НЛО» над лагерем-8 Космопоиска
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Camp-8 hover |
 | Date | Undated (within Kosmopoisk expedition history) |
@@ -176,9 +180,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 11 — Leonov 1965 landing
+## Case 11 — Leonov 1965 landing / Случай 11 — Посадка Леонова, 1965
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Leonov rescue delay |
 | Date | 19 March 1965 |
@@ -191,9 +195,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 12 — Hawking 1996 reversal
+## Case 12 — Hawking 1996 reversal / Случай 12 — Разворот позиции Хокинга, 1996
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Hawking pro-time-travel shift |
 | Date | 1996 |
@@ -206,9 +210,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 13 — Wells–Lenin meeting
+## Case 13 — Wells–Lenin meeting / Случай 13 — Встреча Уэллса с Лениным
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Wells meets Lenin |
 | Date | 1920 (historical; Chernobrov does not give year) |
@@ -220,9 +224,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 14 — Wells–Gaiduchok meeting
+## Case 14 — Wells–Gaiduchok meeting / Случай 14 — Встреча Уэллса с Гайдучком
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Wells meets Gaiduchok |
 | Date | ~late 1920s–early 1930s (implicit from Leningrad context) |
@@ -236,9 +240,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 15 — Pekran narrative archive (aggregate)
+## Case 15 — Pekran narrative archive (aggregate) / Случай 15 — Архив нарративов о Пекране (агрегат)
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Pekran 25-case archive |
 | Date | Aggregate |
@@ -251,9 +255,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 16 — Sirius narrative archive (aggregate)
+## Case 16 — Sirius narrative archive (aggregate) / Случай 16 — Архив нарративов о Сириусе (агрегат)
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Sirius 27-case archive |
 | Date | Aggregate |
@@ -265,9 +269,9 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Case 17 — "Ancient-war traces" Earth sites
+## Case 17 — "Ancient-war traces" Earth sites / Случай 17 — Земные участки со «следами древней войны»
 
-| Field | Value |
+| Field / Поле | Value / Значение |
 |-------|-------|
 | Label | Ancient-war traces report |
 | Date | Scheduled 31 October 2015 Kosmopoisk readings |
@@ -280,7 +284,7 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 
 ---
 
-## Aggregate counts
+## Aggregate counts / Сводные подсчёты
 
 - **Distinct cases catalogued in this lecture:** 17 (including two aggregate archives)
 - **Explicitly authentic or suspected-authentic:** 7 (#1, #5, #6, #8, #9, #10, #14)
@@ -290,4 +294,16 @@ Sortable research index. Verdicts are Chernobrov's stated or strongly implied ev
 - **Reference-only (historical or illustrative):** 5 (#11, #12, #13, #17, + parts of #10)
 - **Declared archive size overall (outside this lecture):** ≈ 10,000 total cases; ≈ 900 "home-planet narrative" cases
 
+**RU:**
+
+- **Отдельных случаев, каталогизированных в данной лекции:** 17 (включая два агрегированных архива)
+- **Явно подлинных или предположительно подлинных:** 7 (№1, №5, №6, №8, №9, №10, №14)
+- **С подтверждённой легендой-прикрытием:** 4 (№2, №3, №15, №16)
+- **Опровергнутых легенд:** 1 (№4)
+- **В стадии исследования:** 2 (пересечение с №5, №7)
+- **Только справочные (исторические или иллюстративные):** 5 (№11, №12, №13, №17, + частично №10)
+- **Заявленный общий размер архива (за пределами этой лекции):** ≈ 10 000 случаев в сумме; ≈ 900 случаев «нарратива о планете-доме»
+
 Note: Chernobrov gives verdicts more by implication than by explicit assertion; "authentic" here reads back his evaluation when he describes the case as fitting his protocol and not as a hoax. Verdicts above should be treated as the cataloguer's best reading of Chernobrov's tone, not his own one-word labels.
+
+Примечание: Чернобров выносит вердикты скорее косвенно, чем явным утверждением; «подлинное» здесь — это реконструкция его оценки в тех случаях, когда он описывает событие как соответствующее своему протоколу и не считает мистификацией. Приведённые выше вердикты следует воспринимать как наилучшее прочтение составителем интонации Черноброва, а не как его собственные однословные ярлыки.

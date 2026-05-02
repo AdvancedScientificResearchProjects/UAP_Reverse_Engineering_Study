@@ -1,15 +1,15 @@
-# Topical Digest — Chernobrov transcripts 03, 04, 05
+# Topical Digest — Chernobrov transcripts 03, 04, 05 / Тематический дайджест — расшифровки Черноброва 03, 04, 05
 
-Grouped by topic across three sources. Source codes:
+Grouped by topic across three sources. Source codes / Сгруппировано по темам через три источника. Коды источников:
 - `MV-41` = 03_Chernobrov_MashinaVremeni_41min.txt
 - `MV-ALT` = 04_Chernobrov_MashinaVremeni_1h46_alt.txt
 - `GAIDU-58` = 05_Gaiduchok_traveler_58min.txt
 
-All quotes are Chernobrov speaking on camera (except where marked as narrator voice-over).
+All quotes are Chernobrov speaking on camera (except where marked as narrator voice-over). / Все цитаты — это Чернобров, говорящий на камеру (кроме случаев, помеченных как закадровый голос диктора).
 
 ---
 
-## 1. Device architecture (generations, shells, dimensions, emitters)
+## 1. Device architecture (generations, shells, dimensions, emitters) / Архитектура устройства (поколения, оболочки, размеры, излучатели)
 
 - **Installation count: 9 (as of MV-41), plus "more than 10 models" in MV-ALT**
   - `MV-41 [00:38:15]` RU: «мы сделали первые пока девять установок, которые называются машинами времени... установки для искривления торможения времени»
@@ -42,7 +42,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 2. Operating principle (frequency, field geometry, wave type)
+## 2. Operating principle (frequency, field geometry, wave type) / Принцип работы (частота, геометрия поля, тип волны)
 
 - **Converging EM waves on a spherical surface** — fundamental principle.
   - `MV-41 [00:25:00]` RU: «сферические поверхности, на которых находятся электромагниты... создают вдоль всей поверхности сферы сходящиеся электромагнитные волны»
@@ -69,7 +69,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 3. Measurement methodology
+## 3. Measurement methodology / Методология измерений
 
 - **Chronometers + duplicated quartz generators on the human body**.
   - `MV-ALT [00:33:50]` RU: «с помощью хронометров, с помощью дублированных кварцевых генераторов, наложенных на тело человека, измерять скорость физического времени»
@@ -89,9 +89,9 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 4. Measured results (numeric values)
+## 4. Measured results (numeric values) / Измеренные результаты (числовые значения)
 
-### Numeric values actually stated in these three transcripts
+### Numeric values actually stated in these three transcripts / Числовые значения, фактически озвученные в этих трёх расшифровках
 
 | Value | Context | Source |
 |-------|---------|--------|
@@ -115,7 +115,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 | 4 response types | human stress-time reaction typology | `MV-ALT [00:47:30]` |
 | 600 M USD / year | alleged US government time-machine investment | `MV-41 [00:33:54]` |
 
-### NOT disclosed in these three
+### NOT disclosed in these three / НЕ раскрыто в этих трёх
 
 - No specific Hz / GHz / mm-wave frequency values
 - No explicit "3% time reduction"
@@ -123,14 +123,14 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 - No T-value magnet-field strength
 - No plant-growth multiplier (ref. expected prior finding)
 
-### Engine-stall asymmetry (direct observational datum)
+### Engine-stall asymmetry (direct observational datum) / Асимметрия отказа двигателей (прямое наблюдательное данное)
 
 - `MV-ALT [01:06:00]`: carburettor engines stalled inside triangular trace; diesel engines did NOT stall.
 - Time slowing INSIDE the trace; time ACCELERATION just OUTSIDE the trace (smaller in absolute value).
 
 ---
 
-## 5. Theory (Bartini 6D, Kozyrev, Einstein)
+## 5. Theory (Bartini 6D, Kozyrev, Einstein) / Теория (Бартини 6D, Козырев, Эйнштейн)
 
 - **Kozyrev framework**: 7 methods to act on time (partially experimentally confirmed).
   - `MV-ALT [00:09:00]` — Kozyrev's seven ways of acting on time, partially experimentally confirmed.
@@ -146,7 +146,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 6. Experimental history
+## 6. Experimental history / История экспериментов
 
 - **Origin in late 1980s**. `MV-41 [00:24:46]` RU: «с конца 80-х годов было сделано несколько установок». EN: "Since the late 1980s several installations have been built."
 - **MAI (Moscow Aviation Institute)** origin: government-funded UFO-flight-principle study.
@@ -164,7 +164,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 7. Safety incidents
+## 7. Safety incidents / Инциденты безопасности
 
 - **All mice in first two cohorts (40 total) died before parameters found**.
   - `MV-ALT [01:36:03]` RU: «все мыши погибали, к сожалению»
@@ -177,7 +177,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 8. UAP / crop circles / UFO-landing cross-references
+## 8. UAP / crop circles / UFO-landing cross-references / UAP / круги на полях / кросс-ссылки на посадки НЛО
 
 - **UFOs as potential time-travellers from our own future**: explicit hypothesis.
   - `MV-41 [00:13:01]` RU: «часть техногенных НЛО это, безусловно, машины времени»
@@ -194,7 +194,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## 9. Cross-references to other researchers (who is cited)
+## 9. Cross-references to other researchers (who is cited) / Кросс-ссылки на других исследователей (кто цитируется)
 
 - **Kozyrev N.A.** (extensive): 7-methods founder (`MV-ALT [00:09:00]`), Kozyrev mirrors (`MV-41 [00:19:33]`).
 - **H.G. Wells**: "Machine Time" term; conversed in English with Gaiduchok in Leningrad (`MV-ALT [00:06:09]`); visited USSR twice; met Lenin.
@@ -210,11 +210,11 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 
 ---
 
-## GAIDUCHOK CASE — special topical subsection
+## GAIDUCHOK CASE — special topical subsection / ДЕЛО ГАЙДУЧКА — особый тематический подраздел
 
-*(distinct case study; does not belong to device-lecture categories above)*
+*(distinct case study; does not belong to device-lecture categories above) / (отдельное case-study; не относится к категориям лекций об устройствах выше)*
 
-### Identity and alleged origin
+### Identity and alleged origin / Личность и заявленное происхождение
 
 - **Name**: Evgeny Iosifovich Gaiduchok (Евгений Иосифович Гайдучок). All three name-parts adoptive from foster family, except possibly the first name Evgeny (Chernobrov: "seems to be his real given name"). `GAIDU-58 [00:08:11]`
 - **Alleged origin**: 23rd century. `GAIDU-58 [00:02:53]`
@@ -224,7 +224,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 - **Died**: 1991. Chernobrov's interviews 1987/88–1991. `GAIDU-58 [00:05:49]`, `GAIDU-58 [00:47:02]`.
 - **Daughter**: Svetlana Gaiduchok, director-level at Dom Kultury in Zhirnovsk; no surviving children. `GAIDU-58 [00:47:32]`, `GAIDU-58 [00:54:23]`.
 
-### Alleged backstory
+### Alleged backstory / Заявленная предыстория
 
 - Time machine broke on arrival — could not return.
 - Machine could carry only one person on return trip → he sent the girl for help.
@@ -236,7 +236,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
   - `GAIDU-58 [00:10:23]` and `MV-ALT [00:06:09]`
 - **Claimed reading of Chernobrov's future book "Mashina Vremeni" as a child** (paradox — Chernobrov hadn't written it yet at time of meeting). `GAIDU-58 [00:04:20]`, `MV-ALT [00:16:19]`.
 
-### Chernobrov's investigation methodology
+### Chernobrov's investigation methodology / Методология расследования Черноброва
 
 - **Audio-cassette interview series** at Gaiduchok's home, multiple visits, 1987–1991.
 - **Many tapes degraded** — half "played out", rest needs professional restoration (`GAIDU-58 [00:00:55]`).
@@ -245,7 +245,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 - Chernobrov later re-evaluated role of Gaiduchok's wife: initially ignored as "random third party", now re-cast as possible same traveller (`GAIDU-58 [00:32:50]–[00:35:25]`).
 - Visits to Zhirnovsk museum and DK after Gaiduchok's 1991 death; follow-up interviews with daughter Svetlana.
 
-### Physical / documentary evidence (entirely testimonial / artefactual)
+### Physical / documentary evidence (entirely testimonial / artefactual) / Физическое / документальное свидетельство (полностью свидетельское / артефактное)
 
 - **The "Parcel for the 23rd century"**: large archive of 20th-century information Gaiduchok assembled, location to be mentioned in Chernobrov's book so 23rd-century descendants could find it. `GAIDU-58 [00:28:44]`.
 - **"Time Line" ("лента времени") painting series**: oil paintings in chronological sequence from prehistory through 23rd century. Gaiduchok's self-declared life's main achievement (more important than the parcel). `GAIDU-58 [00:43:40]`.
@@ -255,7 +255,7 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 - **1996 fire at the DK**: destroyed the room holding the "future" segment of the Time Line paintings. Fire localised to windows of a single room. `GAIDU-58 [00:55:10]`–`[00:58:00]`.
 - **Extinction of line**: all Gaiduchok descendants dead except Svetlana, who has no surviving children. `GAIDU-58 [00:54:14]`.
 
-### Predictions attributed to Gaiduchok
+### Predictions attributed to Gaiduchok / Предсказания, приписываемые Гайдучку
 
 - **USSR collapse, inter-republic wars** — confirmed post-mortem by Chernobrov. `GAIDU-58 [00:20:40]`.
 - **"War in Crimea and war in Ukraine"** — yes, mentioned in passing (Chernobrov's 2013/14+ recollection, questioned by audience). `GAIDU-58 [00:39:20]`.
@@ -265,14 +265,14 @@ All quotes are Chernobrov speaking on camera (except where marked as narrator vo
 - **Time machines ubiquitous in 23rd century** — "even a teenager could steal one". `GAIDU-58 [00:26:12]`.
 - **Strict time-police ("inspectors of movement in time")** — invoked as explanation for the 1996 fire and line-extinction. `GAIDU-58 [00:27:08]`, `[00:55:05]`.
 
-### Chernobrov's stance on authenticity
+### Chernobrov's stance on authenticity / Позиция Черноброва о подлинности
 
 - **Oscillating / partially credulous**: "I'd say it was a 'light version' adapted to my perception". `GAIDU-58 [00:18:42]`.
 - **Validates after the fact** on USSR/Crimea/Ukraine claims. `GAIDU-58 [00:20:40]`.
 - **Does not claim device-summoning**: Gaiduchok's arrival is presented as an **unplanned crash**, NOT caused by Chernobrov's device.
 - **No instrumental anomaly data** on Gaiduchok himself — purely testimonial + artefactual + circumstantial (fire, vanish, line extinction).
 
-### Link to Chernobrov's own device
+### Link to Chernobrov's own device / Связь с собственным устройством Черноброва
 
 - **None direct**. Gaiduchok case is used as **social/cultural priming** (Gaiduchok met Wells, read Chernobrov's future book) and as a **philosophical source** ("time police" hypothesis). It is not used as evidence for the device's operating principles.
 - **Thematic overlap only**: Gaiduchok↔Wells↔"Machine Time" term chain.

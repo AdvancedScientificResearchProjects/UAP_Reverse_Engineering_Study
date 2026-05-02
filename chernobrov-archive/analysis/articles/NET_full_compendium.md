@@ -1,10 +1,14 @@
-# NET (New Energy Technologies) — Full Compendium of 4 Issues
+# NET (New Energy Technologies) — Full Compendium of 4 Issues / NET («Новые энергетические технологии») — Полный сводный обзор 4 выпусков
 
-**Source code:** `B-NET-FULL` (merge of `NET-03-2001`, `NET-06-2002`, `NET-09-2003`, `NET-12-2003`)
-**Publisher:** Faraday Laboratories Ltd (ООО «Лаборатория Новых Технологий Фарадей»), St. Petersburg
-**Editor-in-chief:** Alexander V. Frolov
-**Languages:** English-translated from Russian (NET is bilingual; the extracted OCR is the EN edition)
-**Source files:**
+**EN:** This compendium consolidates four issues of the bilingual journal *New Energy Technologies* (NET) — `NET-03-2001`, `NET-06-2002`, `NET-09-2003`, `NET-12-2003` — published by Faraday Laboratories Ltd (St. Petersburg) under chief editor Alexander V. Frolov. The synthesis covers the full primary record of Vadim Chernobrov's Lovondatr-7 time-machine human experiment of August 26, 2001, the Faraday × Kosmopoisk contract of May 29, 2002, the canonical f = c/d frequency derivation (d = 7 mm → 4.28×10¹⁰ Hz) tied to Russian Federation patent claim #2003110067 of April 9, 2003, and the parallel vortex-drive patent #2002128658 of October 25, 2002. Particular attention is given to verifying the status of A.M. Mishin (consistently styled "Dr.", never "academician") and to mapping the April 12, 2003 "Time Machine" conference in Moscow.
+
+**RU:** Настоящий сводный обзор объединяет четыре выпуска двуязычного журнала «Новые энергетические технологии» (NET) — `NET-03-2001`, `NET-06-2002`, `NET-09-2003`, `NET-12-2003` — изданных ООО «Лаборатория Новых Технологий Фарадей» (Санкт-Петербург) под редакцией главного редактора Александра В. Фролова. Синтез охватывает полный первичный протокол эксперимента Вадима Черноброва «человек в машине времени Ловондатр-7» от 26 августа 2001 года, договор «Фарадей» × «Космопоиск» от 29 мая 2002 года, каноническое выведение формулы f = c/d (d = 7 мм → 4,28×10¹⁰ Гц), связанное с заявкой РФ на патент №2003110067 от 9 апреля 2003 года, а также параллельный патент на вихревой двигатель №2002128658 от 25 октября 2002 года. Особое внимание уделено проверке статуса А.М. Мишина (последовательно — «д-р», нигде — «академик») и составлению карты участников московской конференции «Машина Времени» 12 апреля 2003 года.
+
+**Source code / Код источника:** `B-NET-FULL` (merge of `NET-03-2001`, `NET-06-2002`, `NET-09-2003`, `NET-12-2003`)
+**Publisher / Издатель:** Faraday Laboratories Ltd (ООО «Лаборатория Новых Технологий Фарадей»), St. Petersburg / Санкт-Петербург
+**Editor-in-chief / Главный редактор:** Alexander V. Frolov / Александр В. Фролов
+**Languages / Языки:** English-translated from Russian (NET is bilingual; the extracted OCR is the EN edition) / Перевод с русского на английский (NET — двуязычное издание; извлечённый OCR — английская редакция)
+**Source files / Исходные файлы:**
 - `books/downloads/extracted_text/net_03_2001.txt` (442 KB, 4727 lines)
 - `books/downloads/extracted_text/net_06_2002.txt` (596 KB, 6198 lines)
 - `books/downloads/extracted_text/net_09_2003.txt` (458 KB, 4890 lines)
@@ -12,25 +16,25 @@
 
 ---
 
-## OVERVIEW & CROSS-FILE FINDINGS
+## OVERVIEW & CROSS-FILE FINDINGS / Обзор и сквозные находки
 
-### Mishin identity (USER-RES §17 verification)
+### Mishin identity (USER-RES §17 verification) / Идентификация Мишина (проверка USER-RES §17)
 
 In all four NET issues Alexander M. Mishin is consistently styled **"Dr. Alexander M. Mishin"** or simply **"A.M. Mishin"**. He is **NEVER** called «академик / academician» in any of these primary sources. The single use of the word "Academician" close to a Mishin name in NET-09-2003 line 2031 / 2051 / 2076 actually refers to **Academician A.F. Mitkevich** (a different person, on electromagnetic dynamics) — disambiguation confirmed by full-line context. In NET-12-2003 the only "academicians" named are **Vladimir Fortov** and **Gennady Mesyats** in the Global Energy Prize sidebar (line 2382, 2390) — neither is Mishin and neither is connected to the Faraday Lab time-machine work.
 
 → **USER-RES claim that Mishin is an "academician consultant" to the Faraday/Chernobrov circle is NOT supported by NET primary text.** Mishin is a peer contributor (separate articles on aetherodynamics) cited by Frolov as an aether-as-liquid analogy source (NET-03-2001 line 1330: "The analogy between ether and liquid is considered and experimentally proved by Dr. Alexander M. Mishin [7] and others").
 
-### f = c/d frequency formula — PRIMARY DERIVATION LOCATION
+### f = c/d frequency formula — PRIMARY DERIVATION LOCATION / Формула частоты f = c/d — место первичного выведения
 
 The formula **f = 1/T = c/d → 4.28×10¹⁰ Hz at d = 7 mm** appears verbatim in **NET-12-2003 lines 286–305** inside Frolov's article *"Method and Device to Control Temporal Parameters of Physical Processes by Means of Changing of Energy Density of Space"*. This is the canonical English-language derivation — same content as the F-12R Russian paper already analyzed in `analysis/articles/F-12R_faraday_patent_paper.md`. **No earlier or alternative derivation exists in NET-03-2001, NET-06-2002, or NET-09-2003.** The 2002 article *"Physical Principles of The Time Machine"* (NET-06-2002) is qualitative — it does NOT contain f = c/d.
 
-### Patent process — chronology
+### Patent process — chronology / Патентный процесс — хронология
 
 - **NET-06-2002**: Frolov (Time Machine Project, May 29 2002) — "All new aspects disclosed in this paper are the subject of a patent process. Faraday Labs Ltd organizes experimental program on the topic." → **patent intent declared, no application yet**.
 - **NET-09-2003**: Frolov (Some Experimental News, late 2002) — Russian Federation patent claim **#2002128658** of October 25, 2002 filed for **vortex drive** propulsion (NOT the time machine). Time-machine work still labelled "we have signed Contract with Dr. Chernobrov, Moscow, on the topic" (line 199–201).
 - **NET-12-2003**: Frolov — Russian Federation patent claim **#2003110067** filed **April 9, 2003** for the time-machine quasi-monopole device (NET-12-2003 line 387–388). This is the canonical patent application discussed in F-12R.
 
-### Lovondatr generation cross-references found
+### Lovondatr generation cross-references found / Перекрёстные ссылки на поколения «Ловондатр»
 
 - **NET-03-2001**: explicitly named "LOVONDATR-7" (line 281) — the 2001 Moscow human-experiment build.
 - **NET-12-2003**: implicit "7th model" reference (line 94: *"In all the earliest Machines (except the 7th model) this volume still has not exceeded the volume of a football"*) — confirms numbering. Diameters: outer 2.1 m, inner payload 1 m → matches Lovondatr-7 in `articles_and_patent.md`.
@@ -38,9 +42,9 @@ The formula **f = 1/T = c/d → 4.28×10¹⁰ Hz at d = 7 mm** appears verbatim 
 
 ---
 
-# SECTION 1 — NET #3, November–December 2001 (`NET-03-2001`)
+# SECTION 1 — NET #3, November–December 2001 (`NET-03-2001`) / Раздел 1 — NET №3, ноябрь–декабрь 2001
 
-## Table of contents (verbatim, lines 5–23)
+## Table of contents (verbatim, lines 5–23) / Содержание (дословно, строки 5–23)
 
 1. Time is a Mystery of the Universe — Dr. Lavrenty S. Shikhobalov, St. Petersburg
 2. **Experiments with a Man in the Time Machine** — Dr. Vadim Chernobrov, Moscow
@@ -60,11 +64,11 @@ The formula **f = 1/T = c/d → 4.28×10¹⁰ Hz at d = 7 mm** appears verbatim 
 16. On the Significance of Conical Shape of Rotor in Clem's Generator — A.V. Frolov
 17. On History of Cold Nuclear Fusion in Russia of 1960s — A.V. Frolov
 
-## §1.1 Lovondatr-7 protocol — VERBATIM (Chernobrov article, lines 248–423)
+## §1.1 Lovondatr-7 protocol — VERBATIM (Chernobrov article, lines 248–423) / §1.1 Протокол «Ловондатр-7» — дословно (статья Черноброва, строки 248–423)
 
 This is the **complete primary record** of the August 26, 2001 first-human-in-TM experiment.
 
-### Construction (lines 281–311)
+### Construction (lines 281–311) / Конструкция (строки 281–311)
 
 > **Construction of LOVONDATR-7**
 >
@@ -79,7 +83,7 @@ This is the **complete primary record** of the August 26, 2001 first-human-in-TM
 
 **Geometry summary:** Three nested spheres, **outer Ø 2.1 m (triple EWS) → middle Ø 1.0 m (double EWS, becomes payload bay for human) → inner Ø 0.30 m (double EWS, removed for human)**. Roughly 100 builders. Build time ≈ 3 months. EWS = solenoid emitters generating convergent electromagnetic waves.
 
-### Experiments with animals (lines 248–311)
+### Experiments with animals (lines 248–311) / Эксперименты с животными (строки 248–311)
 
 - **Mice batch 1:** 21 mice delivered from Moscow → most died (anomalous-zone influence + high temperature).
 - **Mice batch 2:** 10 lab mice → 25 of 31 total died across both batches; surviving 6 survived 2-hour exposure → cleared next stage.
@@ -87,20 +91,20 @@ This is the **complete primary record** of the August 26, 2001 first-human-in-TM
 - **Dog ("Lunokhod" — "Moon-buggy"):** Black male, white breast, unknown breed, appeared in forest after young Moon decline. Boarded with fear, released himself at minute 108 of planned 2-hour run. No health deviations observed in dog or final mouse batch.
 - **August 26, 2001, 7 p.m.:** Final medical examination of Lunokhod completed → decision to proceed with human.
 
-### First human flight — Ivan Konov (lines 332–354)
+### First human flight — Ivan Konov (lines 332–354) / Первый полёт человека — Иван Конов (строки 332–354)
 
 > The first man to take part in the experiment was **Ivan Konov**. Possibly this name will go down in history as a name of the first temporonaut… we can be absolutely sure that it was the first attempt to travel the man in Time by means of the technical device, and it is a real fact.
 >
 > The first flight of a man in Time took place from **7.30 p.m. till 8.00 p.m. (August 26, 2001)**. **Deceleration of the physical Time was registered during the half an hour of reference Time. The maximal decrease in the speed of Time constituted 3% regarding to the speed of reference Earth Time.** Dr. V. Chernobrov, Head of the experiments, made measurements and control of TM from the outside.
 
-### Subsequent volunteers (lines 356–360)
+### Subsequent volunteers (lines 356–360) / Последующие добровольцы (строки 356–360)
 
 > Since after the Konov's flight, in this day and the next days some more people took part in the experiments on deceleration of Time inside the TM. They were:
 > **Dr. V. Chernobrov, V. Fokeev, A. Gavritchenko, D. Kurkov, M. Lorenz, L. Kuleshova, E. Golovina and others.**
 
 **Total roster confirmed: 9 named individuals** (Konov + Chernobrov + 7 others).
 
-### Subjective effects (lines 362–397)
+### Subjective effects (lines 362–397) / Субъективные эффекты (строки 362–397)
 
 - 1 man among 9 felt nothing.
 - 5 of 6 men: slight pulse increase, easy giddiness, mild itch on skin.
@@ -108,7 +112,7 @@ This is the **complete primary record** of the August 26, 2001 first-human-in-TM
 - External observers: only headache.
 - **Pre-startup phenomena (most surprising):** ozone smell at hundreds of metres, sudden appearance and disappearance of radiation (instrument-detected), strange lighting effects (including repeated lighting effects in sky above the device), strange sounds from inside, before any apparatus inside could produce them.
 
-### Conclusions (lines 314–423)
+### Conclusions (lines 314–423) / Выводы (строки 314–423)
 
 - Deceleration vs acceleration are **distinctly different phenomena**: deceleration smooth and stable; acceleration with sharp jumps, dependent on time-of-day, Moon phase, operator presence near TM, mechanical vibration.
 - Deceleration "<1 hour per hour" cannot be considered travel to the Past.
@@ -119,11 +123,11 @@ This is the **complete primary record** of the August 26, 2001 first-human-in-TM
 - White-mist boundary visible between regions of different Time-rate — proposed as biological alarm signal.
 - "Inside of the laboratory setup it was also discovered that Time could be changed with some inertia. Areas of space having different Time rates have vague borders."
 
-## §1.2 Frolov — "Practical Application of Time Rate Control (TRC) Theory" (lines 1092–1376)
+## §1.2 Frolov — "Practical Application of Time Rate Control (TRC) Theory" (lines 1092–1376) / §1.2 Фролов — «Практическое применение теории управления скоростью времени (TRC)» (строки 1092–1376)
 
 Co-published companion to Chernobrov's protocol. Key derivations:
 
-### Speed-of-time-course formula (line ~1186, eq. F.1)
+### Speed-of-time-course formula (line ~1186, eq. F.1) / Формула скорости течения времени (строка ~1186, ур. F.1)
 
 > According to Kozyrev, the speed of the course of time (rate of cause-effect transformations) can be calculated as
 >
@@ -133,17 +137,17 @@ Co-published companion to Chernobrov's protocol. Key derivations:
 
 → This is **NOT** the f = c/d engineering formula (that comes only in 2003). This is a Kozyrev-derived velocity-of-causality identification with c/137.
 
-### Defense / weapon application
+### Defense / weapon application / Оборонное / военное применение
 
 Frolov develops causality-loop weapon concept: if system B can shrink the cause-effect interval such that effect arrives where cause was (with delay), the response action can hit the launching system A by exploiting "speed of time course" reduction in B's space → forcing macro-quantum behaviour. Aether-buoyancy analogy: "the area of slowed time is forced out in the corresponding direction, to the more dense ether. **It is a theoretical basis to create the teleportation systems.**"
 
-### Ether-buoyancy / Mishin reference (line 1330)
+### Ether-buoyancy / Mishin reference (line 1330) / Эфирная плавучесть / ссылка на Мишина (строка 1330)
 
 > The analogy between ether and liquid is considered and experimentally proved by **Dr. Alexander M. Mishin [7]** and others.
 
 Reference [7]: Mishin A.M. *The physical system of artificial biofield*, NET #1, p. 45; *Main principles of etherodynamics*, NET #2, p. 32. → **Mishin = peer-cited aether researcher, not consultant. Title: "Dr." not "Academician."**
 
-## §1.3 Chernobrov — "Experiments on Change of the Direction and the Rate of Time" (lines 873–918)
+## §1.3 Chernobrov — "Experiments on Change of the Direction and the Rate of Time" (lines 873–918) / §1.3 Чернобров — «Эксперименты по изменению направления и скорости времени» (строки 873–918)
 
 Second Chernobrov article in same issue (different framing — historical/methodological). Key technical claims:
 
@@ -153,7 +157,7 @@ Second Chernobrov article in same issue (different framing — historical/method
 - Single-experiment record deceleration: **−4 minutes per 8 hours = −30 sec/hour**; routine: −1.5 sec/h decel, +0.5 sec/h accel.
 - Maximum EWS Ø ≈ 1 m, minimum (internal) Ø = **115 mm** — sufficient for control equipment, detectors, insects, and lab mice.
 
-## §1.4 Other contributors of interest
+## §1.4 Other contributors of interest / §1.4 Прочие значимые авторы
 
 - **Butusov** — *Time is a Physical Substance* (lines 519–869): derives Hubble constant H ≈ δ_e ≈ 6.24·10⁻¹⁸ s⁻¹ ≈ 192.6 km/s/MPC from Yarkovsky-mass-growth hypothesis; explains red shift without expansion of Universe; introduces "physical substance-time" filling nuclei. Mathematical-physics ground for the Faraday Lab "aether density = time density" reform.
 - **Shikhobalov** (St. Petersburg, NIIM) — Editor-Frolov-annotated review of Kozyrev causal mechanics; introduces relational-vs-substantial time conceptions; positions N.A. Kozyrev as the founder of "active properties of time" doctrine.
@@ -161,9 +165,9 @@ Second Chernobrov article in same issue (different framing — historical/method
 
 ---
 
-# SECTION 2 — NET #3(6), May–June 2002 (`NET-06-2002`)
+# SECTION 2 — NET #3(6), May–June 2002 (`NET-06-2002`) / Раздел 2 — NET №3(6), май–июнь 2002
 
-## Table of contents (lines 5–25)
+## Table of contents (lines 5–25) / Содержание (строки 5–25)
 
 1. Large-Scale Sakharov Condition — D. Noever & C. Bremner (NASA Marshall)
 2. **Matter as a Resonance Longitudinal Wave Process** — A.V. Frolov
@@ -186,17 +190,17 @@ Second Chernobrov article in same issue (different framing — historical/method
 19. Antigravitation Force and Antigravitation of Matter — A.K. Gaponov
 20. The Capacitor Which Has Energy of Atomic Bomb — Review of Gaponov
 
-## §2.1 Frolov — "Physical Principles of The Time Machine" (lines 706–870)
+## §2.1 Frolov — "Physical Principles of The Time Machine" (lines 706–870) / §2.1 Фролов — «Физические принципы машины времени» (строки 706–870)
 
 **This is the article cited in the F-12R patent paper as reference [8].** It does NOT contain the f = c/d derivation — that comes one year later in NET-12-2003. NET-06-2002 article is the **conceptual / qualitative groundwork**.
 
-### Verbatim opening — Chernobrov endorsement (lines 706–768)
+### Verbatim opening — Chernobrov endorsement (lines 706–768) / Дословное вступление — поддержка Черноброва (строки 706–768)
 
 > Experimental success of research team headed by Dr. Vadim A. Chernobrov, Moscow was reported in [1]. The time course can be controlled as rate of any process in local space-time (inner space of the Time Machine). It can be decelerated or accelerated by means of special "converging electromagnetic waves"… In Chernobrov's design of the Time Machine this process is organized by means of several spherical envelops, which consist of several electromagnets. Electronic control unit controls the processes in this design. Dr. Chernobrov reported about 3% change of the time course in 4th version of the system, which was tested with a human inside. The goal of Dr. Chernobrov's work is to research the medical aspects and experimental investigation of the principles. Several important conclusions were obtained from the project: the time course can be controlled and character of the changes is different for acceleration and deceleration mode.
 
 **Note the discrepancy:** Frolov writes "4th version… tested with a human inside" — but the human run was actually on **Lovondatr-7** (per Chernobrov's own NET-03-2001 protocol). Either Frolov used an earlier numbering (counting only "main" generations) or this is editorial conflation. The 3% figure matches.
 
-### Aether-vortex and chronal-charge framework (lines 770–869)
+### Aether-vortex and chronal-charge framework (lines 770–869) / Эфирно-вихревая и хронально-зарядовая концепция (строки 770–869)
 
 - Time is "one of possible description of real physical properties of our Universe" (not abstract math).
 - Kozyrev's "time density" → **reinterpreted by Frolov as aether density** (the terminology reform later codified in F-12R).
@@ -207,7 +211,7 @@ Second Chernobrov article in same issue (different framing — historical/method
 - "It is necessary to create or to collect some chronal charge in a 'flux condenser' and then to accelerate it in space up to some velocity." — explicit *Back to the Future* analogy used by Frolov himself.
 - **Patent declaration:** *"All new aspects disclosed in this paper are the subject of a patent process. Faraday Labs Ltd organizes experimental program on the topic. Practical application of this technology is new energy systems and propulsion methods."*
 
-### References (line 862–869)
+### References (line 862–869) / Список литературы (строки 862–869)
 
 1. Chernobrov V.A. *Experiments with a man in the Time Machine*, NET #3 Nov–Dec 2001, p. 6.
 2. Kozyrev N.A. *Selected works*, Leningrad State University, 1991.
@@ -216,7 +220,7 @@ Second Chernobrov article in same issue (different framing — historical/method
 
 → Both NET-03-2001 articles cited; **no Mishin reference here** (Mishin appears in [2] of *Matter as a Resonance Longitudinal Wave Process*, the preceding article).
 
-## §2.2 Frolov — "Time Machine Project" / Faraday × Kosmopoisk contract (lines 913–942, dated May 29 2002)
+## §2.2 Frolov — "Time Machine Project" / Faraday × Kosmopoisk contract (lines 913–942, dated May 29 2002) / §2.2 Фролов — «Проект "Машина времени"» / Договор «Фарадей» × «Космопоиск» (строки 913–942, от 29 мая 2002)
 
 > **Faraday Labs Ltd and Dr. Vadim Chernobrov have signed the agreement on scientific-research work on investigation of active properties of time.**
 >
@@ -228,15 +232,15 @@ Second Chernobrov article in same issue (different framing — historical/method
 
 **Photo caption confirms:** "Alexander V. Frolov, General Director Faraday Labs Ltd and Ph.D. Dr. Vadim A. Chernobrov have just signed the Contract." → contract signing photographed, May 29, 2002.
 
-## §2.3 Frolov — "Matter as a Resonance Longitudinal Wave Process" (lines ~440–660)
+## §2.3 Frolov — "Matter as a Resonance Longitudinal Wave Process" (lines ~440–660) / §2.3 Фролов — «Материя как резонансный продольно-волновой процесс» (строки ~440–660)
 
 Theoretical groundwork for the longitudinal-wave / aether interpretation. Key claim: every element of matter is a resonance process of aether oscillations (longitudinal); de Broglie matter waves explainable as longitudinal aether waves; gradient of aether pressure → gravity control. References Mishin [2] and Butusov [3].
 
-## §2.4 Mishin — "Fundamental Properties of Aether" (around line 3080)
+## §2.4 Mishin — "Fundamental Properties of Aether" (around line 3080) / §2.4 Мишин — «Фундаментальные свойства эфира» (около строки 3080)
 
 Mishin's article in this issue (around line 3080 in the OCR; same text as referenced from the longitudinal-wave Frolov paper). Develops ether-as-viscous-gas with antigravitational forces between bodies of different temperature; "non-traditional nuclear processes where conditional reactions of decay and fusion occur at the usage of quasimatter". Self-references prior Mishin papers in NET #1 and #2. **No co-authorship with Chernobrov, no consultant role declared.**
 
-## §2.5 Other notable content
+## §2.5 Other notable content / §2.5 Прочие заметные материалы
 
 - **Shakhparonov** — *Kozyrev-Dirac Radiation*, *Effect of Magnetic Blow Wave on Wine* (lines 1270, 3239): claims MBW (magnetic blow wave) = magnetic monopole; tests on wine biological aging effect. Shakhparonov-style monopole work is conceptually adjacent to Chernobrov's quasi-monopole but methodologically separate.
 - **Ventura** — *The Evolution of Lifter Technology* (line ~2199): T.T. Brown patent history; NASA patent #6,317,310; lifter replication; Transdimensional Technologies; "UFO wreckage" anecdote on materials.
@@ -244,11 +248,11 @@ Mishin's article in this issue (around line 3080 in the OCR; same text as refere
 
 ---
 
-# SECTION 3 — NET #6, November–December 2002 (`NET-09-2003`)
+# SECTION 3 — NET #6, November–December 2002 (`NET-09-2003`) / Раздел 3 — NET №6, ноябрь–декабрь 2002
 
 (Filename `net_09_2003.txt` — but the masthead says "Issue #6 November–December 2002". The internal numbering is one version behind the filename. The four-issue user-provided codename `NET-09-2003` refers to this volume.)
 
-## Table of contents (lines 5–28)
+## Table of contents (lines 5–28) / Содержание (строки 5–28)
 
 1. **Some Experimental News** — A.V. Frolov
 2. On the Possibility of Controlling of the Course of Time — V.P. Oleinik, Yu.C. Borimsky, Yu.D. Arepjev
@@ -273,32 +277,32 @@ Mishin's article in this issue (around line 3080 in the OCR; same text as refere
 21. **Experimental Data on Time Control by Acad. A.I. Veinik**
 22. The Space Power Generator by P. Tewari (review)
 
-## §3.1 Frolov — "Some Experimental News" (lines 29–276)
+## §3.1 Frolov — "Some Experimental News" (lines 29–276) / §3.1 Фролов — «Некоторые экспериментальные новости» (строки 29–276)
 
 Status report on Faraday Lab Ltd 2002 R&D programme. **Critical for cross-referencing NET-12-2003.**
 
-### Vortex Drive (lines 49–82)
+### Vortex Drive (lines 49–82) / Вихревой двигатель (строки 49–82)
 
 - 2002 R&D summary: fuelless power generation, reaction-less propulsion, longitudinal wave generation.
 - **Russian Federation patent claim #2002128658** filed October 25, 2002 — *"Method and Device to Create Propulsion Force by Means of Transformation of Rotational Motion into Translational Motion"*. **This is the vortex-drive patent, NOT the time-machine patent.** Cone rotor with helical spiral; aluminum body; rotor outer Ø 80 mm, outlet Ø 20 mm; 12 V battery; 50 W input; balance accuracy 0.1 g.
 - Cites prior art: 8 USA patents (Woodward 5280864, Thornson 4631971, Shimshi 5427330, Booden 5782134, Claxton 5557988, Butka 5111087/5334060/5410198, Schnur 3979961) + Russian patent claim #589150 + RU useful-model #34 (Khrunichev Space Center / Menshikov / Akimov / Kachekan / Svetlichny).
 
-### High Efficiency Transformators (lines 134–161)
+### High Efficiency Transformators (lines 134–161) / Высокоэффективные трансформаторы (строки 134–161)
 
 - Standard transformer, 50×50 mm cross-section, electrotechnical steel, 500 W – 1 kW rating. Goal: over-unity self-running mode via permalloy + digital control unit.
 
-### Magnet Generator-Alternator (lines 162–187)
+### Magnet Generator-Alternator (lines 162–187) / Магнитный генератор-альтернатор (строки 162–187)
 
 - Ceramic Barium permanent magnets 50×50×10 mm, 1 Tesla, rotor Ø 400 mm, 12 VDC drive.
 - **Frolov's signature design idea:** "decrease of electric input power if useful load is connected to generator coils, i.e. the rotor is accelerated by load connection. This method was proposed by Alexander V. Frolov." Back-EMF as acceleration cause.
 - Notes USA-patent prior art with plasma rotor (very complicated).
 
-### Vacuum tube as power generation source (lines 178–187)
+### Vacuum tube as power generation source (lines 178–187) / Вакуумная лампа как источник генерации энергии (строки 178–187)
 
 - Increase electron kinetic energy via potential (scalar) field after thermionic emission.
 - Test bench: GU-74 vacuum tube, present output milliwatts; target kilowatts.
 
-### Longitudinal Wave Generation and Time Control (lines 190–272)
+### Longitudinal Wave Generation and Time Control (lines 190–272) / Генерация продольных волн и управление временем (строки 190–272)
 
 > Longitudinal wave is considered as wave of energy density in space that allows to develop productive aether experimental approach and corresponding technical methods for **space-time engineering, antigravitation and time control ideas**. We have signed Contract with Dr. Chernobrov, Moscow, on the topic and other authors are also involved in the project. **Special conference and workshop are planned (April 2003 in Moscow) to discuss this topic.** One of the systems is a spherical design, on the body there are placed several emitters of the longitudinal waves.
 >
@@ -306,15 +310,15 @@ Status report on Faraday Lab Ltd 2002 R&D programme. **Critical for cross-refere
 
 → This is the **first announcement of the April 2003 Moscow conference** that produces NET-12-2003. Frolov names "Special conference and workshop" as the planned venue. Frequency range "up to 1 MHz" significantly **lower** than the f = c/d 43 GHz target — confirms the f = c/d formula was a **theoretical / design upper limit**, not a measured operating frequency in 2002.
 
-### Processing of Radioactivity Wastes (lines 210–219)
+### Processing of Radioactivity Wastes (lines 210–219) / Переработка радиоактивных отходов (строки 210–219)
 
 R&D in collaboration with St.-Petersburg atom-smasher lab. Spectrum shift detected; total radioactivity unchanged in test. Continuing.
 
-### Asymmetrical Capacitors as Electrogravitics Propulsion (lines 221–230)
+### Asymmetrical Capacitors as Electrogravitics Propulsion (lines 221–230) / Асимметричные конденсаторы как электрогравитационный движитель (строки 221–230)
 
 - Replication of T.T. Brown USA patent #3187206 (1965). Solid-state dielectric of "gradiental permittivity" being developed with St.-Petersburg institutes.
 
-## §3.2 Conference announcement form (lines 785–807)
+## §3.2 Conference announcement form (lines 785–807) / §3.2 Форма анонса конференции (строки 785–807)
 
 > **Congress "The Time Machine"**
 >
@@ -325,7 +329,7 @@ R&D in collaboration with St.-Petersburg atom-smasher lab. Spectrum shift detect
 
 → **Co-chair structure of the conference confirmed: Chernobrov (Kosmopoisk) + Frolov (Faraday Labs).** Pre-registration form printed in the issue.
 
-## §3.3 Oleinik / Borimsky / Arepjev — "On the Possibility of the New Communication Method and Controlling of the Time Course" (lines 277–782)
+## §3.3 Oleinik / Borimsky / Arepjev — "On the Possibility of the New Communication Method and Controlling of the Time Course" (lines 277–782) / §3.3 Олейник / Боримский / Арепьев — «О возможности нового метода связи и управления течением времени» (строки 277–782)
 
 Kiev Polytechnic Institute + Institute of Semiconductor Physics, Ukraine. Report at VI International Conference *Material Science and Material Properties for Infrared Optoelectronics*, Kiev, May 22–24, 2002.
 
@@ -334,7 +338,7 @@ Kiev Polytechnic Institute + Institute of Semiconductor Physics, Ukraine. Report
 - **Alternative Chernobyl scenario** (line 681–688): rejects Urutskoev's hypothesis of magnetic-monopole reactor penetration; proposes free-electron pulse from electric subcircuit short circuit.
 - Cites Akimov, Lavrent'ev, Kozyrev's selected works. **No connection to Chernobrov or Frolov directly** but published as part of the time-control issue.
 
-## §3.4 Acad. A.I. Veinik — "Experimental Data on Time Control" (lines 4805–4823)
+## §3.4 Acad. A.I. Veinik — "Experimental Data on Time Control" (lines 4805–4823) / §3.4 Акад. А.И. Вейник — «Экспериментальные данные по управлению временем» (строки 4805–4823)
 
 Single-page note. **Critical detail for f = c/d cross-reference:**
 
@@ -344,23 +348,23 @@ Reference: Veinik A.I. *Thermodynamics of Real Processes*, Minsk 1991, p. 576, I
 
 → **The "7 mm" appears here as a ring thickness, NOT as an electromagnet axial offset d.** Veinik's chronal-matter device uses 70 plates around a 70 mm ring suspended at 2.66 m. This is an **independent Veinik design** — not Chernobrov-Frolov geometry, not connected to f = c/d. Mention here for completeness; Veinik is referenced as Acad. (academician) — he is the only "academician" actively on the time-control side in this issue.
 
-## §3.5 Mishin — "Matter, Space and Time in Conception of Aether Field" (lines 2252–2376)
+## §3.5 Mishin — "Matter, Space and Time in Conception of Aether Field" (lines 2252–2376) / §3.5 Мишин — «Материя, пространство и время в концепции эфирного поля» (строки 2252–2376)
 
 Mishin's third NET issue contribution. Develops aether-as-viscous-gas; secondary vortex-wave structures formed by matter; spectrum-energy cascades ("red" and "violet"). References his own NET prior contributions [1]–[6]. **No co-authorship with Chernobrov, no role described as consultant.**
 
-## §3.6 Sharov — "Patent Experts Now are Between a Rock and a Hard Place" (lines 2379+)
+## §3.6 Sharov — "Patent Experts Now are Between a Rock and a Hard Place" (lines 2379+) / §3.6 Шаров — «Патентные эксперты сейчас между молотом и наковальней» (строки 2379+)
 
 Russian Patent Office context piece — confirms patenting environment. Discusses Marsol (perished with family from oil-monopoly action), Latchinov hydrogen electrolysis 1888, Papaleksi 1948. Editor's note frames the legitimacy struggle for over-unity / time-control patents at Rospatent.
 
 ---
 
-# SECTION 4 — NET #3 (Issue #12), May–June 2003 (`NET-12-2003`)
+# SECTION 4 — NET #3 (Issue #12), May–June 2003 (`NET-12-2003`) / Раздел 4 — NET №3 (выпуск №12), май–июнь 2003
 
 This is the post-conference issue documenting the **April 12, 2003 "The Time Machine" conference in Moscow** organized by Faraday Laboratories Ltd. Internal masthead also numbers it "Issue #3 May–June 2003". The "Issue #12" label refers to its position in the cumulative NET sequence.
 
 (Note: this issue is the source for the F-12R Russian-language patent paper already analyzed in detail at `analysis/articles/F-12R_faraday_patent_paper.md`. The English content here is the parallel English edition.)
 
-## Table of contents (lines 3–29)
+## Table of contents (lines 3–29) / Содержание (строки 3–29)
 
 1. **Works on the Designing of Time Machines** — V.A. Chernobrov
 2. **Control of Temporal Parameters of Physical Processes** — A.V. Frolov ← **f = c/d derivation**
@@ -390,15 +394,15 @@ This is the post-conference issue documenting the **April 12, 2003 "The Time Mac
 26. I. Prigozin
 27. Letters
 
-### Editorial framing (lines 30–34)
+### Editorial framing (lines 30–34) / Редакторская преамбула (строки 30–34)
 
 > On April 12 of 2003 a scientific conference **"The Time Machine"** was organized by Faraday Laboratories Ltd in Moscow, Russia. It was devoted to the experiments on control of spacetime physical properties. At the conference there were discussed problems of time and gravitation in the context of etherodynamics, experiments and applied aspects of these technologies. Below we publish a review of the main reports presented at the conference.
 
-## §4.1 Chernobrov — "Works on the Designing of Time Machines" (lines 37–159)
+## §4.1 Chernobrov — "Works on the Designing of Time Machines" (lines 37–159) / §4.1 Чернобров — «Работы по проектированию машин времени» (строки 37–159)
 
 Conference opening report. Introduces the **quasi-monopole** terminology more rigorously than NET-03-2001.
 
-### Quasi-monopole definition (lines 41–78) — VERBATIM
+### Quasi-monopole definition (lines 41–78) — VERBATIM / Определение квазимонополя (строки 41–78) — дословно
 
 > To conduct the experiments on the influence upon physical Time (density of space energy) some special devices were used as a general method of such influence. These devices can create converging waves which can cause the appearance of **quasi-monopole** in the confined space. **Quasi-monopole is a part of space which has some parameters of hypothetical unitary monopole or bunch of such particles** (in particular, it allows registering one magnetic pole by means of measuring equipment from the outside at some distance from this pole).
 >
@@ -408,7 +412,7 @@ Conference opening report. Introduces the **quasi-monopole** terminology more ri
 
 → This last sentence is the **physical motivation** for the f = c/d formula derived by Frolov in §4.2: the period of pulsation T must not exceed d/c, where d is the device's geometric scale → ω ≥ c/d.
 
-### Devices and EWS layers (lines 65–94)
+### Devices and EWS layers (lines 65–94) / Устройства и слои ЭРП (строки 65–94)
 
 - Multi-layer "quasi-monopole" with **3 to 5 EWS** (electromagnetic work surfaces).
 - Series-and-parallel solenoid oscillators (simplest design).
@@ -416,7 +420,7 @@ Conference opening report. Introduces the **quasi-monopole** terminology more ri
 - "Payload" terminology adopted from cosmonautics; placed at center of symmetry.
 - "**In all the earliest Machines (except the 7th model) this volume still has not exceeded the volume of a football.** The device with an outer diameter of 2.1 m and inner payload section of 1 m has the maximum size. It allows making human-aided experiments." → confirms 7th = Lovondatr-7 = 2.1 m / 1 m human-bay.
 
-### TM as Time-jet propulsion (lines 90–136)
+### TM as Time-jet propulsion (lines 90–136) / Машина времени как реактивный движитель по времени (строки 90–136)
 
 - Bidirectional Time effect: TM affects payload AND environment; external effect ~×10 smaller, opposite sign, ∝ 1/cube of distance.
 - *"In other words, TM influences not only its inner part and pay load but also the environment. It bears a strong resemblance to jet propulsion but in Time and not in Space. It is a flight which is realized by rejection of Time instead of mass."* — original Chernobrov framing.
@@ -424,11 +428,11 @@ Conference opening report. Introduces the **quasi-monopole** terminology more ri
 - Time-rate inertia and residual effects in soil-after-exposure.
 - Reaffirms 6-D Earth model (length, width, height, age/date, History-variant, Time-rate).
 
-## §4.2 Frolov — "Method and Device to Control Temporal Parameters of Physical Processes by Means of Changing of Energy Density of Space" (lines 162–427)
+## §4.2 Frolov — "Method and Device to Control Temporal Parameters of Physical Processes by Means of Changing of Energy Density of Space" (lines 162–427) / §4.2 Фролов — «Способ и устройство управления темпоральными параметрами физических процессов путём изменения плотности энергии пространства» (строки 162–427)
 
 **Canonical English-language f = c/d derivation. Same content as F-12R Russian paper.** Verbatim segment:
 
-### Three-layered electromagnet — frequency formula (lines 279–315) — VERBATIM
+### Three-layered electromagnet — frequency formula (lines 279–315) — VERBATIM / Трёхслойный электромагнит — формула частоты (строки 279–315) — дословно
 
 > Fig. 1 represents a three-layered electromagnetic emitter. This electromagnetic emitter is designed according to the invention in which the directed radiation of wave of energy density is created along the axis of the device.
 >
@@ -454,7 +458,7 @@ Conference opening report. Introduces the **quasi-monopole** terminology more ri
 
 → **f = 1/T = c/d. d = 7 mm → T = 2.335×10⁻¹¹ s → f ≈ 4.28×10¹⁰ Hz ≈ 43 GHz (mm-wave EHF band). Idea attributed to Chernobrov; engineering realization by Frolov. No semiconductor required.**
 
-### Variants and patent claim (lines 312–423)
+### Variants and patent claim (lines 312–423) / Варианты и патентная заявка (строки 312–423)
 
 - **Fig. 2** — magnetostrictive ferrite-core variant (efficiency boost).
 - **Fig. 3** — spherical distribution of emitters on upper/lower hemispheres of openable frame.
@@ -467,7 +471,7 @@ Conference opening report. Introduces the **quasi-monopole** terminology more ri
 
 References [1]–[12] include Kozyrev, Prigozhin, Sakharov, Puthoff (*Can the vacuum be engineered for space flight applications?*), Butusov (Time as physical substance, 1990; Symmetrization of Maxwell-Lorenz, 1991), Belostotsky, Atsukovsky, **Frolov A.V., Physical Principles of The Time Machine, NET #3(6), pp. 8–10, SPb, 2002 [8]**, Faraday vol. 3, Polyakov, **V.A. Chernobrov, Mysteries of Time, M. 1999 [12]**.
 
-## §4.3 Conference participants (etherodynamics report list)
+## §4.3 Conference participants (etherodynamics report list) / §4.3 Участники конференции (список докладов по эфиродинамике)
 
 Per the editorial framing and TOC, the April 12 2003 Moscow "Time Machine" conference key reporters include:
 
@@ -479,11 +483,11 @@ Per the editorial framing and TOC, the April 12 2003 Moscow "Time Machine" confe
 - **D.Yu. Tsipenyuk** — Field transformation in extended space.
 - **A.M. Mishin** — *Aether as Unified Field* — sequel to his earlier NET aether work; aether vortex hierarchy / matreshka structure, energy-information barrier, biofield as topoharmonic part of physical body, yang/yin balance. (lines 2704–2941)
 
-### Mishin in NET-12-2003 — title verification (line 2704)
+### Mishin in NET-12-2003 — title verification (line 2704) / Мишин в NET-12-2003 — проверка титула (строка 2704)
 
 The byline reads **"Alexander M. Mishin, Russia"** with address Planernaya Str., 79-208, St. Petersburg. **No academician title given.** Mishin's references in this article cite his own earlier NET papers and his 1996/1999/2001/2003 RAS conference proceedings — he is a member of the same Faraday-publishing-orbit but presented as an independent peer researcher.
 
-## §4.4 Other content of interest
+## §4.4 Other content of interest / §4.4 Прочие материалы, представляющие интерес
 
 - **Atsukovsky's photo** appears at line 466 in the editorial layout (caption: "Report by Vladimir A. Atsukovsky").
 - **Kanarev** (Kuban State Agrarian University) — *Global Energy* and *Fusion Processes of Molecules*: claims 10× efficiency electrodynamic water destruction; cites *Yusmar*, *Termovikhr*, *Noteka* commercial cavitation heaters.
@@ -491,7 +495,7 @@ The byline reads **"Alexander M. Mishin, Russia"** with address Planernaya Str.,
 - **Ventura** — *The Marcus Device Controversy*: continuation of his lifter/electrogravitics coverage from NET-06-2002.
 - **Russian Patents on Alternative Energetics** (item 11) — collected patent abstracts.
 
-## §4.5 Patent process discussion
+## §4.5 Patent process discussion / §4.5 Обсуждение патентного процесса
 
 - Frolov's article ends with the explicit RU patent claim **#2003110067 / April 9, 2003** for the time-machine quasi-monopole device.
 - Editorial note (Kanarev section, line ~3001): *"It is known that a priority of results of theoretical investigations is their publication in press. Usually, such priority is a personal one. Generally a patent is a priority of the results of experimental investigations… A published patent is a genie released from a bottle. No finesse of the authors to hamper a reproduction of experimental data given in a patent without the participation of the authors can stop the process of their implementation."* — general patent-philosophy framing for the issue.
@@ -499,19 +503,19 @@ The byline reads **"Alexander M. Mishin, Russia"** with address Planernaya Str.,
 
 ---
 
-# CROSS-ISSUE INDEX
+# CROSS-ISSUE INDEX / Сквозной указатель по выпускам
 
-## Lovondatr generation map
+## Lovondatr generation map / Карта поколений «Ловондатр»
 
-| Generation | Source citation | Geometry | Year |
+| Generation / Поколение | Source citation / Ссылка на источник | Geometry / Геометрия | Year / Год |
 |---|---|---|---|
 | Lovondatr-1 | NET-03-2001 line 916–918 (implicit "first laboratory system since 1988"); NET-12-2003 line 82–84 | outer ≈ 0.9 m, inner ≈ 115 mm | 1988+ |
 | Lovondatr-4 | NET-06-2002 line 737–739 | (Frolov says "4th version… tested with a human inside" — 3% effect) | ~1996–2000 |
 | Lovondatr-7 | NET-03-2001 lines 281–311 (explicit naming), NET-12-2003 line 94 (implicit) | nested 2.1 m × 1.0 m × 0.30 m | summer–Aug 2001 |
 
-## Frolov's NET article timeline
+## Frolov's NET article timeline / Хронология статей Фролова в NET
 
-| Issue | Title | Key contribution |
+| Issue / Выпуск | Title / Заглавие | Key contribution / Ключевой вклад |
 |---|---|---|
 | NET-03-2001 | Practical Application of TRC Theory | υ = c·α ≈ c/137 (Kozyrev derivation) |
 | NET-06-2002 | Matter as Resonance Longitudinal Wave Process | de Broglie / longitudinal aether identification |
@@ -520,17 +524,17 @@ The byline reads **"Alexander M. Mishin, Russia"** with address Planernaya Str.,
 | NET-09-2003 | Some Experimental News | Vortex-drive RU patent #2002128658 (Oct 25 2002); April 2003 conference announcement |
 | NET-12-2003 | Method and Device to Control Temporal Parameters | **f = c/d derivation; RU patent #2003110067 (April 9 2003)** |
 
-## Chernobrov's NET article timeline
+## Chernobrov's NET article timeline / Хронология статей Черноброва в NET
 
-| Issue | Title | Key contribution |
+| Issue / Выпуск | Title / Заглавие | Key contribution / Ключевой вклад |
 |---|---|---|
 | NET-03-2001 | Experiments with a Man in the Time Machine | **Lovondatr-7 protocol; Ivan Konov; 9 named volunteers; 3% deceleration; Aug 26 2001** |
 | NET-03-2001 | Experiments on Change of the Direction and Rate of Time | Methodological/historical companion; ±1% Time envelope; doubled quartz generators |
 | NET-12-2003 | Works on the Designing of Time Machines | Conference report; **rigorous "quasi-monopole" definition**; pulsation period ≤ d/c motivation; 7th-model = 2.1 m / 1 m human bay |
 
-## Mishin's NET article timeline (relevant subset)
+## Mishin's NET article timeline (relevant subset) / Хронология статей Мишина в NET (релевантная часть)
 
-| Issue | Title | Position in Faraday-Chernobrov work |
+| Issue / Выпуск | Title / Заглавие | Position in Faraday-Chernobrov work / Положение в работе Фарадей–Чернобров |
 |---|---|---|
 | NET #1 (2001) | The Physical System of Artificial Biofield | Background reference for ether-as-liquid analogy |
 | NET #2 (2002) | Main Principles of Etherodynamics | Background reference |
@@ -540,7 +544,7 @@ The byline reads **"Alexander M. Mishin, Russia"** with address Planernaya Str.,
 
 → **Mishin published 5 articles across NET in 2001–2003. He is consistently styled "Dr. Alexander M. Mishin" (no academician). He is cited by Frolov as supportive theoretical-experimental backdrop on aether-as-viscous-gas, but he is NOT named as a consultant, co-author, contract party, or executive collaborator on the Chernobrov-Frolov time-machine project.**
 
-## Conference cross-reference (USER-RES §17 / §18)
+## Conference cross-reference (USER-RES §17 / §18) / Перекрёстная ссылка по конференции (USER-RES §17 / §18)
 
 The April 12 2003 "Time Machine" conference participants identified across NET-09-2003 (announcement) and NET-12-2003 (proceedings):
 
@@ -550,7 +554,7 @@ The April 12 2003 "Time Machine" conference participants identified across NET-0
 
 ---
 
-# DELTAS VS EXISTING ARCHIVE
+# DELTAS VS EXISTING ARCHIVE / Дельты по сравнению с существующим архивом
 
 Items here that are **NOT** in `analysis/articles/F-12R_faraday_patent_paper.md` or `analysis/articles/articles_and_patent.md`:
 
@@ -569,7 +573,7 @@ Items here that are **NOT** in `analysis/articles/F-12R_faraday_patent_paper.md`
 13. **Mishin authorship census** — 5 articles, never as academician, never as project consultant.
 14. **Patent-process editorial framing** — Sharov (NET-09-2003) on Russian Patent Office obstruction; Kanarev (NET-12-2003) on patent-as-priority philosophy.
 
-# OUTSTANDING / UNRESOLVED
+# OUTSTANDING / UNRESOLVED / Нерешённые / открытые вопросы
 
 - The Frolov-conflated "4th version… tested with a human inside" (NET-06-2002) vs Chernobrov's own "Lovondatr-7 = 2001 human run" (NET-03-2001) — likely an editorial slip; the actual human run was on the 7th machine. Worth noting in any narrative reconciliation.
 - USER-RES §18 names "А.Н. Солёный" and "Е.Д. Сорокодум" as conference speakers — not present in NET-published proceedings; either NET selected only a subset of presentations for publication, or the USER-RES conference roster derives from a different source (faraday.ru landing page archives?).

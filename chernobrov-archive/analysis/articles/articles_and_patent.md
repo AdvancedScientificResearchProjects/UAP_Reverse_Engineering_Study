@@ -1,9 +1,13 @@
-# Articles + Patent Analysis — Chernobrov Archive
+# Articles + Patent Analysis — Chernobrov Archive / Анализ статей и патента — архив Черноброва
 
-**Date:** 2026-04-18
-**Scope:** 9 HTML source files covering Chernobrov's magazine articles, Kosmopoisk pages, "Эксперименты по созданию МВ" (multi-mirror), Rex Research EN compilation, and the Frolov/Chernobrov patent application RU 2003110067.
-**Bilingual policy:** Russian-first, with English cross-references where REX provides them.
-**Methodology:** All HTML stripped with BeautifulSoup; Cyrillic re-extracted from UTF-8. Quotes are verbatim from the stripped text. Line numbers refer to `[chernobrov-tmp]/<name>.txt` (BS4-stripped text files).
+**EN:** Bilingual analytical digest of Chernobrov-related Russian-language popular-science magazine articles (Техника Молодёжи, Новая Энергетика) and the Russian-Federation patent application RU 2003110067A. Section headers preserve the original Russian magazine titles verbatim with English-language gloss; section bodies summarise the technical / device-engineering / experimental-history claims and cross-reference sister files in this Track 3 sub-archive. Read alongside `NET_full_compendium.md` (parallel Russian-source compendium) and `06_chernobrov_case_catalog.md` (case-by-case ledger).
+
+**RU:** Двуязычный аналитический дайджест русскоязычных научно-популярных журнальных статей, связанных с Чернобровым (Техника Молодёжи, Новая Энергетика), и заявки на патент Российской Федерации RU 2003110067A. Заголовки разделов сохраняют оригинальные русские названия журналов дословно с английским глоссом; тела разделов резюмируют технические / приборно-инженерные / экспериментально-исторические утверждения и кросс-ссылаются на соседние файлы в этом подархиве Трека 3. Читается совместно с `NET_full_compendium.md` (параллельный компендиум по русскоязычным источникам) и `06_chernobrov_case_catalog.md` (покаждокейсовый реестр).
+
+**Date / Дата:** 2026-04-18
+**Scope / Область:** 9 HTML source files covering Chernobrov's magazine articles, Kosmopoisk pages, "Эксперименты по созданию МВ" (multi-mirror), Rex Research EN compilation, and the Frolov/Chernobrov patent application RU 2003110067. / 9 HTML-файлов источников, охватывающих журнальные статьи Черноброва, страницы Космопоиска, «Эксперименты по созданию МВ» (мультизеркало), англоязычная компиляция Rex Research и заявка на патент Фролова/Черноброва RU 2003110067.
+**Bilingual policy / Политика двуязычия:** Russian-first, with English cross-references where REX provides them. / Русский первичен, с английскими кросс-ссылками там, где их даёт REX.
+**Methodology / Методология:** All HTML stripped with BeautifulSoup; Cyrillic re-extracted from UTF-8. Quotes are verbatim from the stripped text. Line numbers refer to `[chernobrov-tmp]/<name>.txt` (BS4-stripped text files). / Весь HTML очищен через BeautifulSoup; кириллица повторно извлечена из UTF-8. Цитаты дословны из очищенного текста. Номера строк ссылаются на `[chernobrov-tmp]/<name>.txt` (текстовые файлы, очищенные BS4).
 
 **Source codes:**
 - `TM-02` — Техника Молодёжи, Feb 2002 "Встретимся вчера!" (LiveJournal `science_freaks` rehost, 2006-03-16)
@@ -19,7 +23,7 @@
 
 ---
 
-## 1. TM-02 "Встретимся вчера!" — Техника Молодёжи, Feb 2002
+## 1. TM-02 "Встретимся вчера!" — Техника Молодёжи, Feb 2002 / TM-02 «See You Yesterday!» — Tekhnika Molodezhi, Feb 2002
 
 **Bibliographic frame (rehost):** Published Feb 2002 in "Техника – молодёжи", приложение II-VI стр. Rehosted by user `gromensky` in community `science_freaks` on LiveJournal, 2006-03-16. Byline: "Вадим ЧЕРНОБРОВ, координатор Исследовательского объединения «Космопоиск»".
 
@@ -183,7 +187,7 @@ Detected signatures (pre-ignition): ozone smell (hundreds of meters), transient 
 
 ---
 
-## 2. NE-03-PG "Дальнейшие планы по созданию машин времени" (Chernobrov, НЭ №3 май–июнь 2003)
+## 2. NE-03-PG "Дальнейшие планы по созданию машин времени" (Chernobrov, НЭ №3 май–июнь 2003) / NE-03-PG «Future Plans for Time-Machine Construction» (Chernobrov, Novaya Energetika no. 3, May–June 2003)
 
 **Publication frame:** "Новая Энергетика" №3, Май–Июнь 2003, ООО "Лаборатория Новых Технологий Фарадей", Санкт-Петербург; главный редактор А.В. Фролов; научный редактор К.П. Бутусов; тираж 500 экз. Presented at the "Машина Времени" conference, Moscow, 12 April 2003.
 
@@ -236,7 +240,7 @@ Cross-check: TM-02 says outer first = "около 90 см", inner first = "11,5 
 
 ---
 
-## 3. NE-03-FP "Способ и устройство управления темпоральными характеристиками физических процессов…" (Frolov, НЭ №3 2003)
+## 3. NE-03-FP "Способ и устройство управления темпоральными характеристиками физических процессов…" (Frolov, НЭ №3 2003) / NE-03-FP «Method and Apparatus for Controlling Temporal Characteristics of Physical Processes…» (Frolov, Novaya Energetika no. 3, 2003)
 
 **Author frame (line 200–201):** «Фролов А.В., Россия. Генеральный директор ООО «ЛНТФ» Тел./факс: 7-812-380-3844 Email: office@faraday.ru». This article is the patent description in journal-article form.
 
@@ -329,7 +333,7 @@ This is Frolov's own bibliography — it is the canonical reference frame for NE
 
 ---
 
-## 4. PAT-RF2003-GP — Russian Patent Application RU 2003110067A
+## 4. PAT-RF2003-GP — Russian Patent Application RU 2003110067A / PAT-RF2003-GP — Заявка на патент Российской Федерации RU 2003110067A
 
 **Bibliographic data (from Google Patents):**
 - **Publication number:** RU2003110067A
@@ -394,7 +398,7 @@ Application discontinued 2005-04-21 (FA92 — withdrawal for failure to submit s
 
 ---
 
-## 5. KP-TEM — Kosmopoisk "temporology" index
+## 5. KP-TEM — Kosmopoisk "temporology" index / KP-TEM — индекс «темпорологии» Космопоиска
 
 Thin index page; no full article text. Relevant indexed items:
 
@@ -411,7 +415,7 @@ No additional technical claims beyond pointers. KP-TEM functions as the Kosmopoi
 
 ---
 
-## 6. KP-EMV-OFF / EMV-RULIT / EMV-LIBKING / EMV-KNIGOCHET — "Эксперименты по созданию Машины Времени"
+## 6. KP-EMV-OFF / EMV-RULIT / EMV-LIBKING / EMV-KNIGOCHET — "Эксперименты по созданию Машины Времени" / «Experiments on the Construction of a Time Machine»
 
 ### 6.1 Bibliographic frame (verified)
 
@@ -486,7 +490,7 @@ This 400 g / 10 gf thrust number is **unique to EMV** (1996); NE-03 and TM-02 do
 
 ---
 
-## 7. REX — rexresearch.com English compilation
+## 7. REX — rexresearch.com English compilation / REX — англоязычная компиляция rexresearch.com
 
 Aggregates three sub-sources + 1996 Proceedings translation by A.V. Frolov.
 
@@ -539,7 +543,7 @@ Frolov editorial note acknowledges Chernobrov "said only several words about the
 
 ---
 
-## 8. Cross-source consistency table (main numerical claims)
+## 8. Cross-source consistency table (main numerical claims) / Таблица согласованности по источникам (основные числовые утверждения)
 
 | Claim | TM-02 | NE-03-PG | KP-EMV-OFF / rulit | REX (EN) | Patent | USER-RES |
 |---|---|---|---|---|---|---|
@@ -576,7 +580,7 @@ Frolov editorial note acknowledges Chernobrov "said only several words about the
 
 ---
 
-## 9. Compact engineering-claim ledger (Chernobrov corpus, articles + patent only)
+## 9. Compact engineering-claim ledger (Chernobrov corpus, articles + patent only) / Компактный реестр инженерных утверждений (корпус Черноброва, только статьи и патент)
 
 1. **Principle:** converging longitudinal EM (or electrostatic) wave inside nested spherical "matryoshka" ЭРП stack → quasi-monopole → local change in energy density ("plotnost vremeni" in Kozyrev terms) [TM-02-C4, NE-03-PG-C1, NE-03-FP-C3, PAT Claims 1–2].
 2. **ЭРП layer count:** 3–5 in experimental builds [TM-02-C7, NE-03-PG-C4, REX-C6].
@@ -601,7 +605,7 @@ Frolov editorial note acknowledges Chernobrov "said only several words about the
 
 ---
 
-## 10. Notable absences
+## 10. Notable absences / Заметные отсутствия
 
 - **Magnetic-field strength in tesla:** never given. Acknowledged in REX-C9 / Frolov editorial note.
 - **Power consumption in watts:** never given. Only "car batteries" descriptor (REX-C1).
