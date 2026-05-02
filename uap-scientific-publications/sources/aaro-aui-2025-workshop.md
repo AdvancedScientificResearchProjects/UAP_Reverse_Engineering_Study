@@ -36,7 +36,7 @@ Bilingual EN+RU provenance metadata for the 2025 DoD AARO + Associated Universit
 ## Adversarial flag / Состязательный флаг
 
 - **EN:** Verdict in the audit is contingent on workshop proceedings availability; if no public proceedings are produced, the citation drops to MEDIUM (workshop convening as institutional signal only). Verify against aaro.mil before any article-level citation.
-- **RU:** Верктид в аудите условен на доступности материалов семинара; если публичные материалы не выпущены, цитирование снижается до MEDIUM (созыв семинара как институциональный сигнал). Проверять по aaro.mil перед любым цитированием уровня статьи.
+- **RU:** Вердикт в аудите условен на доступности материалов семинара; если публичные материалы не выпущены, цитирование снижается до MEDIUM (созыв семинара как институциональный сигнал). Проверять по aaro.mil перед любым цитированием уровня статьи.
 
 ---
 
