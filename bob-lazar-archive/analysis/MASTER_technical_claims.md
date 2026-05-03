@@ -7,19 +7,19 @@ Cross-era synthesis organized by topic. Each topic shows how claims evolve from 
 
 | § | Section / Раздел | Jump / Перейти |
 |---|------------------|----------------|
-| 0.0 | Key Numerical Parameters / Ключевые числовые параметры | [↓](#00-key-numerical-parameters-quick-reference--ключевые-числовые-параметры-быстрый-справочник) |
-| 1 | Element 115 / Moscovium / Элемент 115 / Московий | [↓](#1-element-115--moscovium--элемент-115--московий) |
-| 2 | Antimatter Reactor / Антиматериальный реактор | [↓](#2-antimatter-reactor--2-антиматериальный-реактор) |
-| 3 | Gravity Physics / Гравитационная физика | [↓](#3-gravity-physics--3-гравитационная-физика) |
-| 4 | Propulsion / Craft Dynamics / Двигательная установка / динамика корабля | [↓](#4-propulsion--craft-dynamics--двигательная-установка--динамика-корабля) |
-| 5 | Sport Model Craft / Корабль Sport Model | [↓](#5-sport-model-craft--5-корабль-sport-model) |
-| 6 | S-4 Facility / Объект S-4 | [↓](#6-s-4-facility--6-объект-s-4) |
-| 7 | Named Projects / Названные проекты | [↓](#7-named-projects--7-названные-проекты) |
-| 8 | Biographical / Credentials / Биография / квалификация | [↓](#8-biographical--credentials--биография--квалификация) |
-| 9 | Briefing Documents / Alien Context / Инструктажные документы / контекст пришельцев | [↓](#9-briefing-documents--alien-context--инструктажные-документы--контекст-пришельцев) |
-| 10 | Known Contradictions / Evolution Flags / Известные противоречия / эволюция заявлений | [↓](#10-known-contradictions--evolution-flags--известные-противоречия--эволюция-заявлений) |
-| 11 | Misattributions to Watch For / Распространённые ошибочные атрибуции | [↓](#11-misattributions-to-watch-for--11-распространённые-ошибочные-атрибуции) |
-| 12 | Conclusions / Выводы | [↓](#12-conclusions--выводы) |
+| 0.0 | Key Numerical Parameters / Ключевые числовые параметры | [↓](#00-key-numerical-parameters-quick-reference-ключевые-числовые-параметры-быстрый-справочник) |
+| 1 | Element 115 / Moscovium / Элемент 115 / Московий | [↓](#1-element-115-moscovium-элемент-115-московий) |
+| 2 | Antimatter Reactor / Антиматериальный реактор | [↓](#2-antimatter-reactor-2-антиматериальный-реактор) |
+| 3 | Gravity Physics / Гравитационная физика | [↓](#3-gravity-physics-3-гравитационная-физика) |
+| 4 | Propulsion / Craft Dynamics / Двигательная установка / динамика корабля | [↓](#4-propulsion-craft-dynamics-двигательная-установка-динамика-корабля) |
+| 5 | Sport Model Craft / Корабль Sport Model | [↓](#5-sport-model-craft-5-корабль-sport-model) |
+| 6 | S-4 Facility / Объект S-4 | [↓](#6-s-4-facility-6-объект-s-4) |
+| 7 | Named Projects / Названные проекты | [↓](#7-named-projects-7-названные-проекты) |
+| 8 | Biographical / Credentials / Биография / квалификация | [↓](#8-biographical-credentials-биография-квалификация) |
+| 9 | Briefing Documents / Alien Context / Инструктажные документы / контекст пришельцев | [↓](#9-briefing-documents-alien-context-инструктажные-документы-контекст-пришельцев) |
+| 10 | Known Contradictions / Evolution Flags / Известные противоречия / эволюция заявлений | [↓](#10-known-contradictions-evolution-flags-известные-противоречия-эволюция-заявлений) |
+| 11 | Misattributions to Watch For / Распространённые ошибочные атрибуции | [↓](#11-misattributions-to-watch-for-11-распространённые-ошибочные-атрибуции) |
+| 12 | Conclusions / Выводы | [↓](#12-conclusions-выводы) |
 
 ## Source codes / Коды источников
 

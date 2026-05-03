@@ -38,26 +38,26 @@
 
 ## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
-1. [Overview / Обзор](#overview--обзор)
-2. [Research Tracks / Исследовательские треки](#research-tracks--исследовательские-треки)
-3. [Track 1 — Artifact Investigation (UAP-FRAG-001) / Трек 1 — Исследование артефакта](#track-1--artifact-investigation-uap-frag-001--трек-1--исследование-артефакта-uap-frag-001)
-4. [Track 2 — Bob Lazar Archive / Трек 2 — Архив Боба Лазара](#track-2--bob-lazar-archive--трек-2--архив-боба-лазара)
-5. [Track 3 — Vadim Chernobrov Archive / Трек 3 — Архив Вадима Черноброва](#track-3--vadim-chernobrov-archive--трек-3--архив-вадима-черноброва)
-6. [Track 4 — Dubna / Element 115 / Трек 4 — Дубна / Элемент 115](#track-4--dubna--element-115--трек-4--дубна--элемент-115)
-7. [Track 5 — OSINT + Intelligence Analysis / Трек 5 — OSINT и разведывательный анализ](#track-5--osint--intelligence-analysis--трек-5--osint-и-разведывательный-анализ)
-8. [Track 6 — People Analysis / Трек 6 — Анализ людей](#track-6--people-analysis--трек-6--анализ-людей)
-9. [Track 7 — Corporate / Economic Analysis / Трек 7 — Корпоративный / экономический анализ](#track-7--corporate--economic-analysis--трек-7--корпоративный--экономический-анализ)
-10. [Track 8 — Cross-archive Synthesis / Трек 8 — Кросс-архивный синтез](#track-8--cross-archive-synthesis--трек-8--кросс-архивный-синтез)
-11. [Track 9 — UAP Scientific Publications Corpus / Трек 9 — Корпус научных публикаций по UAP](#track-9--uap-scientific-publications-corpus--трек-9--корпус-научных-публикаций-по-uap)
-12. [Team / Команда](#research-team--исследовательская-команда)
-13. [Structure / Структура](#structure--структура)
-13. [Security / Безопасность](#security--безопасность)
-14. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
-15. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
-16. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
-17. [Contact / Контакты](#contact-information--контактная-информация)
-18. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
-19. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
+1. [Overview / Обзор](#overview-обзор)
+2. [Research Tracks / Исследовательские треки](#research-tracks-исследовательские-треки)
+3. [Track 1 — Artifact Investigation (UAP-FRAG-001) / Трек 1 — Исследование артефакта](#track-1-трек-1-artifact-investigation-uap-frag-001-исследование-артефакта-uap-frag-001)
+4. [Track 2 — Bob Lazar Archive / Трек 2 — Архив Боба Лазара](#track-2-трек-2-bob-lazar-archive-архив-боба-лазара)
+5. [Track 3 — Vadim Chernobrov Archive / Трек 3 — Архив Вадима Черноброва](#track-3-трек-3-vadim-chernobrov-archive-архив-вадима-черноброва)
+6. [Track 4 — Dubna / Element 115 / Трек 4 — Дубна / Элемент 115](#track-4-трек-4-dubna-element-115-дубна-элемент-115)
+7. [Track 5 — OSINT + Intelligence Analysis / Трек 5 — OSINT и разведывательный анализ](#track-5-трек-5-osint-intelligence-analysis-osint-и-разведывательный-анализ)
+8. [Track 6 — People Analysis / Трек 6 — Анализ людей](#track-6-трек-6-people-analysis-анализ-людей)
+9. [Track 7 — Corporate / Economic Analysis / Трек 7 — Корпоративный / экономический анализ](#track-7-трек-7-corporate-economic-analysis-корпоративный-экономический-анализ)
+10. [Track 8 — Cross-archive Synthesis / Трек 8 — Кросс-архивный синтез](#track-8-трек-8-cross-archive-synthesis-кросс-архивный-синтез)
+11. [Track 9 — UAP Scientific Publications Corpus / Трек 9 — Корпус научных публикаций по UAP](#track-9-трек-9-uap-scientific-publications-corpus-корпус-научных-публикаций-по-uap)
+12. [Team / Команда](#research-team-исследовательская-команда)
+13. [Structure / Структура](#structure-структура)
+13. [Security / Безопасность](#security-безопасность)
+14. [Research Pipelines / Исследовательские конвейеры](#research-pipelines-исследовательские-конвейеры)
+15. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration-предварительная-регистрация-osf)
+16. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem-экосистема-asrp)
+17. [Contact / Контакты](#contact-information-контактная-информация)
+18. [Disclaimer / Отказ от ответственности](#disclaimer-отказ-от-ответственности)
+19. [Navigation Index / Навигационный индекс](#navigation-index-навигационный-индекс)
 
 ---
 
@@ -115,13 +115,13 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 
 | Sub-section / Подраздел | Purpose / Назначение |
 |---|---|
-| [Research At a Glance / В цифрах](#research-at-a-glance--исследование-в-цифрах) | Numeric summary of UAP-FRAG-001 study / Числовая сводка по UAP-FRAG-001 |
-| [Research Overview / Обзор](#research-overview--обзор-исследования) | End-to-end pipeline map / Сквозная схема конвейеров |
-| [Key Metrics / Ключевые метрики](#key-metrics--ключевые-метрики) | Cross-percipient and reference metrics / Межперципиентные и референс-метрики |
-| [Working Hypotheses / Рабочие гипотезы](#working-hypotheses--рабочие-гипотезы) | Supported / partial / open hypotheses / Поддержанные / частичные / открытые |
-| [Visual Evidence / Визуализация](#visual-evidence--визуализация-данных) | Diagrams and matrices / Диаграммы и матрицы |
-| [AI / CV Analysis Results / Результаты ИИ / CV анализа](#ai--cv-analysis-results--результаты-ии--cv-анализа) | AI pipeline summary and key findings / Сводка ИИ-конвейера и ключевые находки |
-| [Timeline / Временная шкала](#timeline--временная-шкала) | Session and analysis chronology / Хронология сеанса и анализа |
+| [Research At a Glance / В цифрах](#research-at-a-glance-исследование-в-цифрах) | Numeric summary of UAP-FRAG-001 study / Числовая сводка по UAP-FRAG-001 |
+| [Research Overview / Обзор](#research-overview-обзор-исследования) | End-to-end pipeline map / Сквозная схема конвейеров |
+| [Key Metrics / Ключевые метрики](#key-metrics-ключевые-метрики) | Cross-percipient and reference metrics / Межперципиентные и референс-метрики |
+| [Working Hypotheses / Рабочие гипотезы](#working-hypotheses-рабочие-гипотезы) | Supported / partial / open hypotheses / Поддержанные / частичные / открытые |
+| [Visual Evidence / Визуализация](#visual-evidence-визуализация-данных) | Diagrams and matrices / Диаграммы и матрицы |
+| [AI / CV Analysis Results / Результаты ИИ / CV анализа](#ai-cv-analysis-results-результаты-ии-cv-анализа) | AI pipeline summary and key findings / Сводка ИИ-конвейера и ключевые находки |
+| [Timeline / Временная шкала](#timeline-временная-шкала) | Session and analysis chronology / Хронология сеанса и анализа |
 | [Cross Comparison / Сравнение ответов](analysis/cross_comparison.md) | Detailed descriptive overlap analysis / Детальный анализ пересечения ответов |
 | [Validation Report / Отчёт валидации](analysis/ecp_validation_report.md) | Parameter-level check against disclosed reference / Проверка по параметрам против раскрытого референса |
 | [Percipient Reports / Отчёты перципиентов](reports/percipient_reports/) | Primary session records / Первичные записи сеанса |
@@ -215,7 +215,7 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 | No surface anomalies detected / Поверхностные аномалии не обнаружены | Expected / Ожидаемо | EfficientAD + CLIP | [AI-2026-04-07-001](reports/ai_reports/AI-2026-04-07-001.md) |
 | Converges with ECP data ("coral-like") / Совпадает с КП ("коралловое") | Cross-method / Межметодное | AI + ECP | [Cross-comparison](analysis/cross_comparison.md) |
 
-> **Limitation / Ограничение:** RGB analysis cannot determine chemical composition, alloy type, or radioactivity. See [AI Protocol v3.1](experiments/protocol_ai.md#limitations--ограничения). / RGB-анализ не может определить химсостав, тип сплава или радиоактивность. См. [Протокол ИИ v3.1](experiments/protocol_ai.md#limitations--ограничения).
+> **Limitation / Ограничение:** RGB analysis cannot determine chemical composition, alloy type, or radioactivity. See [AI Protocol v3.1](experiments/protocol_ai.md#limitations-ограничения). / RGB-анализ не может определить химсостав, тип сплава или радиоактивность. См. [Протокол ИИ v3.1](experiments/protocol_ai.md#limitations-ограничения).
 
 ### Timeline / Временная шкала
 
@@ -606,4 +606,4 @@ This research operates at the boundary of known science, experimental methodolog
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Research Tracks / Треки](#research-tracks--исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1--artifact-investigation-uap-frag-001--трек-1--исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2--bob-lazar-archive--трек-2--архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3--vadim-chernobrov-archive--трек-3--архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4--dubna--element-115--трек-4--дубна--элемент-115) · [Track 5 — OSINT](#track-5--osint--intelligence-analysis--трек-5--osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6--people-analysis--трек-6--анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7--corporate--economic-analysis--трек-7--корпоративный--экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8--cross-archive-synthesis--трек-8--кросс-архивный-синтез) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
+[Overview / Обзор](#overview-обзор) · [Research Tracks / Треки](#research-tracks-исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1-трек-1-artifact-investigation-uap-frag-001-исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2-трек-2-bob-lazar-archive-архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3-трек-3-vadim-chernobrov-archive-архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4-трек-4-dubna-element-115-дубна-элемент-115) · [Track 5 — OSINT](#track-5-трек-5-osint-intelligence-analysis-osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6-трек-6-people-analysis-анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7-трек-7-corporate-economic-analysis-корпоративный-экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8-трек-8-cross-archive-synthesis-кросс-архивный-синтез) · [Team / Команда](#research-team-исследовательская-команда) · [Structure / Структура](#structure-структура) · [Pipelines / Конвейеры](#research-pipelines-исследовательские-конвейеры) · [Security / Безопасность](#security-безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem-экосистема-asrp) · [Contact / Контакты](#contact-information-контактная-информация) · [Disclaimer / Отказ](#disclaimer-отказ-от-ответственности)

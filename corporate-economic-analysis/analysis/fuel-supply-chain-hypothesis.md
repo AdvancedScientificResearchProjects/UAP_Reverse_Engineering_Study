@@ -63,7 +63,7 @@ The diagram of the closed loop is rendered in [`../diagrams/dubna_lazar_amentum_
 
 ### Layer 1 — Documented (high confidence) / Слой 1 — Задокументировано (высокая уверенность)
 
-- Bob Lazar publicly named EG&G as his S-4 employer-of-record on KLAS-TV, 1989. **Source:** `bob-lazar-archive/transcripts/01_1989_KLAS-TV_Bob_Lazar_Interview.txt`.
+- Bob Lazar publicly named EG&G as his S-4 employer-of-record on KLAS-TV, 1989. **Source:** `bob-lazar-archive/transcripts/01_1989-05-15_KLAS_Dennis_silhouette.txt`.
 - Element 115 (moscovium) was synthesised by JINR+LLNL in 2003-2004; LLNL contributed the ²⁴³Am target. **Source:** Phys. Rev. C 69 (2004); `dubna-element-115-analysis/sources/phys-rev-c-69-2004.md`.
 - LLNL is operated by LLNS LLC; AECOM (now Amentum) is a consortium member. **Source:** Public NNSA contract awards; `corporate-economic-analysis/companies/amentum.md`.
 - The EG&G → URS (2002) → AECOM (2014) → Amentum (2020) corporate genealogy is documented. **Source:** SEC filings; `corporate-economic-analysis/analysis/egng-amentum-succession.md`.
@@ -81,7 +81,7 @@ The diagram of the closed loop is rendered in [`../diagrams/dubna_lazar_amentum_
 
 ### Слой 1 — Задокументировано (высокая уверенность)
 
-- Боб Лазар публично назвал EG&G своим официальным работодателем на S-4 в эфире KLAS-TV 1989. **Источник:** `bob-lazar-archive/transcripts/01_1989_KLAS-TV_Bob_Lazar_Interview.txt`.
+- Боб Лазар публично назвал EG&G своим официальным работодателем на S-4 в эфире KLAS-TV 1989. **Источник:** `bob-lazar-archive/transcripts/01_1989-05-15_KLAS_Dennis_silhouette.txt`.
 - Элемент 115 (московий) синтезирован ОИЯИ+LLNL в 2003-2004 гг.; LLNL предоставила ²⁴³Am-мишень. **Источник:** Phys. Rev. C 69 (2004); `dubna-element-115-analysis/sources/phys-rev-c-69-2004.md`.
 - LLNL управляется LLNS LLC; AECOM (сейчас Amentum) — член консорциума. **Источник:** публичные контракты NNSA; `corporate-economic-analysis/companies/amentum.md`.
 - Корпоративная генеалогия EG&G → URS (2002) → AECOM (2014) → Amentum (2020) задокументирована. **Источник:** SEC-отчётность; `corporate-economic-analysis/analysis/egng-amentum-succession.md`.
@@ -102,7 +102,7 @@ The diagram of the closed loop is rendered in [`../diagrams/dubna_lazar_amentum_
 | Track / Трек | Anchor file / Опорный файл | Role in loop / Роль в контуре |
 |---|---|---|
 | Track 2 — Lazar | [`../../bob-lazar-archive/analysis/MASTER_technical_claims.md`](../../bob-lazar-archive/analysis/MASTER_technical_claims.md) | 115-as-fuel claim provenance / Провенанс утверждения 115-как-топливо |
-| Track 2 — Lazar | [`../../bob-lazar-archive/transcripts/01_1989_KLAS-TV_Bob_Lazar_Interview.txt`](../../bob-lazar-archive/transcripts/01_1989_KLAS-TV_Bob_Lazar_Interview.txt) | EG&G-as-employer testimony / Свидетельство EG&G-как-работодатель |
+| Track 2 — Lazar | [`../../bob-lazar-archive/transcripts/01_1989-05-15_KLAS_Dennis_silhouette.txt`](../../bob-lazar-archive/transcripts/01_1989-05-15_KLAS_Dennis_silhouette.txt) | EG&G-as-employer testimony / Свидетельство EG&G-как-работодатель |
 | Track 4 — Dubna | [`../../dubna-element-115-analysis/analysis/lazar-dubna-connection.md`](../../dubna-element-115-analysis/analysis/lazar-dubna-connection.md) | JINR+LLNL synthesis context / Контекст синтеза JINR+LLNL |
 | Track 4 — Dubna | [`../../dubna-element-115-analysis/diagrams/element_115_synthesis_flow.mmd`](../../dubna-element-115-analysis/diagrams/element_115_synthesis_flow.mmd) | LLNL ²⁴³Am target diagram / Диаграмма ²⁴³Am-мишени LLNL |
 | Track 7 — Corporate | [`./egng-amentum-succession.md`](./egng-amentum-succession.md) | EG&G → Amentum genealogy / Генеалогия EG&G → Amentum |

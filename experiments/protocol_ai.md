@@ -14,14 +14,14 @@
 
 ## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
-1. [Overview / Обзор](#overview--обзор)
-2. [Analysis Pipeline / Конвейер Анализа](#analysis-pipeline--конвейер-анализа)
-3. [Model Stack / Стек Моделей](#model-stack--стек-моделей)
-4. [Material Analysis / Анализ Материалов](#material-analysis--анализ-материалов)
-5. [Anomaly Detection / Обнаружение Аномалий](#anomaly-detection--обнаружение-аномалий)
-6. [3D Reconstruction / 3D Реконструкция](#3d-reconstruction--3d-реконструкция)
-7. [Limitations / Ограничения](#limitations--ограничения)
-8. [Output Format / Формат Вывода](#output-format--формат-вывода)
+1. [Overview / Обзор](#overview-обзор)
+2. [Analysis Pipeline / Конвейер Анализа](#analysis-pipeline-конвейер-анализа)
+3. [Model Stack / Стек Моделей](#model-stack-стек-моделей)
+4. [Material Analysis / Анализ Материалов](#material-analysis-анализ-материалов)
+5. [Anomaly Detection / Обнаружение Аномалий](#anomaly-detection-обнаружение-аномалий)
+6. [3D Reconstruction / 3D Реконструкция](#3d-reconstruction-3d-реконструкция)
+7. [Limitations / Ограничения](#limitations-ограничения)
+8. [Output Format / Формат Вывода](#output-format-формат-вывода)
 
 ---
 
@@ -57,7 +57,7 @@ The AI Visual & Material Analysis Protocol defines standardized procedures for a
 
 ![Diagram 1](../charts/mermaid/protocol_ai_1.png)
 
-> **Note / Примечание:** Target models shown; see [Implementation Note](#implementation-note--замечание-о-реализации) for fallback mapping. / Показаны целевые модели; см. раздел «Замечание о реализации» для маппинга fallback-моделей.
+> **Note / Примечание:** Target models shown; see [Implementation Note](#implementation-note-замечание-о-реализации) for fallback mapping. / Показаны целевые модели; см. раздел «Замечание о реализации» для маппинга fallback-моделей.
 
 ---
 

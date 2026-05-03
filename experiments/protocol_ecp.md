@@ -21,10 +21,10 @@
 
 ## TABLE OF CONTENTS / СОДЕРЖАНИЕ
 
-1. [Purpose / Назначение](#purpose--назначение)
-2. [Percipient Levels / Уровни Перципиентов](#percipient-levels--уровни-перципиентов)
-3. [Reporting Format / Формат Отчётности](#reporting-format--формат-отчётности)
-4. [Convergence Analysis / Анализ Конвергенции](#convergence-analysis--анализ-конвергенции)
+1. [Purpose / Назначение](#purpose-назначение)
+2. [Percipient Levels / Уровни Перципиентов](#percipient-levels-уровни-перципиентов)
+3. [Reporting Format / Формат Отчётности](#reporting-format-формат-отчётности)
+4. [Convergence Analysis / Анализ Конвергенции](#convergence-analysis-анализ-конвергенции)
 
 ---
 
