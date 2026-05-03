@@ -2364,8 +2364,8 @@
       "type": "source",
       "icon": "📜",
       "labelRu": "Рабочие заметки Банченко по OSINT-методологии (26.04.2026)",
-      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по методологии сигнатур, классификации аномалий и конвейеру валидации. Единственный источник четырёх OSINT-аналитических файлов. Составлены 26.04.2026. Сохранены дословно в raw/banchenko_2026-04-26_signature_methodology_notes.txt.",
-      "description": "Working analytical notes by Denis Banchenko on signature methodology, anomaly classification, and validation pipeline. Single source for all four OSINT analysis files. Authored 2026-04-26. Preserved verbatim in raw/banchenko_2026-04-26_signature_methodology_notes.txt.",
+      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по методологии сигнатур, классификации аномалий и конвейеру валидации. Источник четырёх OSINT-аналитических файлов. Составлены 26.04.2026.",
+      "description": "Working analytical notes by Denis Banchenko on signature methodology, anomaly classification, and validation pipeline. Source for the four OSINT analysis files. Authored 2026-04-26.",
       "tags": [
         "source"
       ]
@@ -2795,9 +2795,9 @@
       "label": "Denis Banchenko documents OSINT signature methodology",
       "type": "event",
       "icon": "📅",
-      "descriptionRu": "Денис Банченко (владелец проекта) составляет рабочие аналитические заметки по методологии сигнатур, классификации аномалий и конвейеру валидации. Сохранено в raw/banchenko_2026-04-26_signature_methodology_notes.txt. Основа четырёх OSINT-файлов анализа.",
+      "descriptionRu": "Денис Банченко (владелец проекта) составляет рабочие аналитические заметки по методологии сигнатур, классификации аномалий и конвейеру валидации. Основа четырёх OSINT-файлов анализа.",
       "date": "2026-04-26",
-      "description": "Denis Banchenko (project owner) authors working analytical notes on signature methodology, anomaly classification, and validation pipeline. Preserved at raw/banchenko_2026-04-26_signature_methodology_notes.txt. Basis of all four OSINT analysis files.",
+      "description": "Denis Banchenko (project owner) authors working analytical notes on signature methodology, anomaly classification, and validation pipeline. Basis of the four OSINT analysis files.",
       "labelRu": "Документирование OSINT-методологии сигнатур Банченко (26.04.2026)",
       "tags": [
         "event"
@@ -3040,7 +3040,7 @@
       "icon": "📜",
       "labelRu": "Пост Роберта Кардилло в LinkedIn — рамка «Gabriella Rev A» (апрель 2026)",
       "descriptionRu": "Публичный пост Роберта Кардилло (экс-директор NGA) в LinkedIn с представлением рамки «Gabriella Rev A» применительно к кластеру 11 учёных. Первичный OSINT-артефакт.",
-      "description": "Public LinkedIn post by Robert Cardillo (former NGA Director) introducing and applying the Gabriella Rev A analytical framework to the 11-scientist cluster. Primary OSINT artefact. Strategic-context analysis preserved in raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt (Banchenko working notes, 2026-04-26).",
+      "description": "Public LinkedIn post by Robert Cardillo (former NGA Director) introducing and applying the Gabriella Rev A analytical framework to the 11-scientist cluster. Primary OSINT artefact. Strategic-context analysis at people-analysis/analysis/cardillo-gabriella-framework.md.",
       "tags": [
         "source"
       ]
@@ -3954,8 +3954,8 @@
       "type": "source",
       "icon": "📜",
       "labelRu": "Бриф корпоративной сессии Банченко (26.04.2026)",
-      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по тезису корпоративной генеалогии EG&G → Amentum и инвентарю v1 Трека 7. Составлены 26.04.2026. Сохранены дословно в raw/denis_2026-04-26_egng_amentum_brief.md.",
-      "description": "Working analytical notes by Denis Banchenko on EG&G → Amentum corporate-genealogy thesis and Track 7 v1 inventory. Authored 2026-04-26. Preserved verbatim in raw/denis_2026-04-26_egng_amentum_brief.md.",
+      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по тезису корпоративной генеалогии EG&G → Amentum и инвентарю v1 Трека 7. Составлены 26.04.2026.",
+      "description": "Working analytical notes by Denis Banchenko on EG&G → Amentum corporate-genealogy thesis and Track 7 v1 inventory. Authored 2026-04-26.",
       "tags": [
         "source"
       ]
@@ -3966,8 +3966,8 @@
       "type": "source",
       "icon": "📜",
       "labelRu": "Бриф компаний и патентов Банченко (27.04.2026)",
-      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по рамке adversarial кросс-валидации по каждой компании, обзору патентных портфелей и forward-link к биоинженерному ответвлению. Составлены 27.04.2026. Сохранены дословно в raw/denis_2026-04-27_companies_patents_brief.md.",
-      "description": "Working analytical notes by Denis Banchenko on company-by-company adversarial cross-validation framing, patent-portfolio surfacing, and forward-link to bio-engineering carve-out. Authored 2026-04-27. Preserved verbatim in raw/denis_2026-04-27_companies_patents_brief.md.",
+      "descriptionRu": "Рабочие аналитические заметки Дениса Банченко по рамке adversarial кросс-валидации по каждой компании, обзору патентных портфелей и forward-link к биоинженерному ответвлению. Составлены 27.04.2026.",
+      "description": "Working analytical notes by Denis Banchenko on company-by-company adversarial cross-validation framing, patent-portfolio surfacing, and forward-link to bio-engineering carve-out. Authored 2026-04-27.",
       "tags": [
         "source"
       ]
@@ -4172,7 +4172,7 @@
       "icon": "•",
       "labelRu": "Конвенция опорного наименования цивилизации",
       "descriptionRu": "Методологическая конвенция, введённая в protocol_corporate_scan.md v1.2: рабочие наименования цивилизаций (напр. «Андромаги (сессионный фрейм B)») фиксируются как опорные точки для дальнейшего сканирования, никогда как подтверждённые идентификации. Хеджированная формулировка: коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются.",
-      "description": "Methodological convention introduced in protocol_corporate_scan.md v1.2: working civilization-naming designations (e.g. 'Andromagi (Андромаги, сессионный фрейм B)') recorded as anchor points for further scanning, never as confirmed identifications. Hedged formulation: collegial reading or single-source dissenting opinion, alternative interpretations not excluded.",
+      "description": "Methodological convention introduced in protocol_corporate_scan.md v1.2: working civilization-naming designations (e.g. 'Andromagi (Андромаги, session-frame B / сессионный фрейм B)') recorded as anchor points for further scanning, never as confirmed identifications. Hedged formulation: collegial reading or single-source dissenting opinion, alternative interpretations not excluded.",
       "source": "experiments/protocol_corporate_scan.md",
       "tags": [
         "methodology"
@@ -4198,7 +4198,7 @@
       "icon": "🧬",
       "labelRu": "Опорное наименование цивилизации — Андромаги",
       "descriptionRu": "Рабочее опорное наименование цивилизации, зафиксированное в досье HSP-сканирования (v1.2): Андромаги (сессионный фрейм B). Хеджированная формулировка — коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются. Якорь — для организации дальнейшего сканирования, не подтверждённая идентификация какой-либо цивилизации.",
-      "description": "Working civilization-naming anchor recorded in HSP scan dossiers (v1.2): Andromagi (Андромаги, сессионный фрейм B). Hedged formulation — collegial reading or single-source dissenting opinion, alternative interpretations not excluded. Anchor is for further scanning organization, not a confirmed identification of any civilization.",
+      "description": "Working civilization-naming anchor recorded in HSP scan dossiers (v1.2): Andromagi (Андромаги, session-frame B / сессионный фрейм B). Hedged formulation — collegial reading or single-source dissenting opinion, alternative interpretations not excluded. Anchor is for further scanning organization, not a confirmed identification of any civilization.",
       "source": "corporate-economic-analysis/people/_scan-targets/amentum-ceo-scan-target.md",
       "tags": [
         "hypothesis"

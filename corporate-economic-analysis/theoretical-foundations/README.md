@@ -16,9 +16,9 @@ Bilingual EN+RU literature catalog of public-source theoretical work that bears 
 
 ## Why this lives under Track 7 / Почему это под Треком 7
 
-**EN:** The theoretical material was surfaced during the 2026-04-29 Banchenko corporate working session (see `raw/2026-04-29_banchenko_theoretical_foundations_links.md`). The framing is methodological: the corporate-industrial layer (Track 7) operates within an **implicit physical hypothesis space**, and the cataloged theoretical works form one possible articulation of that space. Hosting the catalog adjacent to the corporate analysis preserves the analytical chain — corporate institutional layer → physical hypothesis space → theoretical literature provenance.
+**EN:** The theoretical material was surfaced during the 2026-04-29 corporate working session. The framing is methodological: the corporate-industrial layer (Track 7) operates within an **implicit physical hypothesis space**, and the cataloged theoretical works form one possible articulation of that space. Hosting the catalog adjacent to the corporate analysis preserves the analytical chain — corporate institutional layer → physical hypothesis space → theoretical literature provenance.
 
-**RU:** Теоретический материал был выведен в ходе рабочей корпоративной сессии Банченко 29.04.2026 (см. `raw/2026-04-29_banchenko_theoretical_foundations_links.md`). Рамка — методологическая: корпоративно-индустриальный слой (Трек 7) действует внутри **неявного пространства физических гипотез**, и каталогизированные теоретические работы образуют одну из возможных артикуляций этого пространства. Размещение каталога рядом с корпоративным анализом сохраняет аналитическую цепь — корпоративный институциональный слой → пространство физических гипотез → провенанс теоретической литературы.
+**RU:** Теоретический материал был выведен в ходе рабочей корпоративной сессии 29.04.2026. Рамка — методологическая: корпоративно-индустриальный слой (Трек 7) действует внутри **неявного пространства физических гипотез**, и каталогизированные теоретические работы образуют одну из возможных артикуляций этого пространства. Размещение каталога рядом с корпоративным анализом сохраняет аналитическую цепь — корпоративный институциональный слой → пространство физических гипотез → провенанс теоретической литературы.
 
 ---
 

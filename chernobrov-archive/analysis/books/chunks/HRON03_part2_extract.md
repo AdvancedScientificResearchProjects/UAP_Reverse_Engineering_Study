@@ -1,7 +1,7 @@
 # HRON03 Part 2 Extract — Chernobrov "Хроники визитов НЛО" (2003)
 
 **Source code:** `B-HRON03-p2` (merge with part 1 → `B-HRON03`)
-**Source file:** `[hron03-p2-tmp]` (702 KB, lines 8101–16169 of full book)
+**Source file:** `[tmp]/hron03_p2.txt` (702 KB, lines 8101–16169 of full book)
 **Period covered:** late 1983 (line 3) → August 2002 (line ~7734)
 **Primary era:** Kosmopoisk-era investigations (from 1988 on); emphasis on Medveditskaya Gryada (first appearance 1 July 1985), Dalnegorsk (26.01.1986), Molebka / M-ский треугольник (1990 on).
 **Extraction criteria met:** instrumentation, chrono-anomaly, physical traces with measurements, Kosmopoisk personally-investigated cases, named scientists/institutes, black-program mentions, instrumental photography.

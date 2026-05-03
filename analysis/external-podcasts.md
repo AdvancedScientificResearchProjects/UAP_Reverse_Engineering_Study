@@ -13,7 +13,7 @@
 - **Source / Источник:** Provided by Denis Banchenko, 2026-04-01 / Предоставлено Денисом Банченко, 01.04.2026
 - **Original file / Исходный файл:** `Джо_Роган_подкаст_#2416_с_Дэном_Фара_—_русский.mp4` (229 MB, 2h 24m)
 - **Transcript / Транскрипт:** [`../bob-lazar-archive/transcripts/external/jre_2416_dan_farah_RU.txt`](../bob-lazar-archive/transcripts/external/jre_2416_dan_farah_RU.txt) (Whisper large-v3 RU, 2 chunks)
-- **Audio not committed / Аудио не закоммичено:** the MP3 was extracted, transcribed, and deleted to save disk; raw video stayed in `/tmp/` only / MP3 был извлечён, транскрибирован и удалён для экономии диска; видео оставалось только в `/tmp/`
+- **Audio not committed / Аудио не закоммичено:** the MP3 was extracted, transcribed, and deleted to save disk; raw video stayed in `[tmp]/` only / MP3 был извлечён, транскрибирован и удалён для экономии диска; видео оставалось только в `[tmp]/`
 
 **EN:** Dan Farah is the producer of the 2025 documentary *The Age of Disclosure*. His 2025 appearance on the Joe Rogan Experience (#2416) is the long-form interview accompanying that documentary's release. Russian-dubbed version sent by Denis as the day-1 primary-source drop alongside the documentary itself.
 

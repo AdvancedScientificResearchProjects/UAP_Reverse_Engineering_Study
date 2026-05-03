@@ -348,7 +348,7 @@ All merged files cite their predecessor chunks by filename in the `## Source chu
    - 1 from each of 4 per-interview analyses (4 quotes)
    - Sampling tier weighted toward §1.x device-architecture, §2 operating-principles, §4 measured-results, §7 lethality, and §11 contradictions sections (the load-bearing claims).
 2. **Source mapping.** Each quote's stated source code (`B-TV99` → `81958_Tayny_Vremeni.txt`, `B-EUFO` → `ocr-pipeline/out/ufologii_FULL.md`, `TM-02` → `tm_feb2002_vstretimsya_vchera.html`, etc.) was looked up against the canonical FB2 / OCR / HTML file.
-3. **Substring search with normalisation.** A Python harness (`[verify-quotes-tmp]`) was used to search each quote against its declared source file with the following normalisation passes (in order):
+3. **Substring search with normalisation.** A Python harness (`[tmp]/verify_quotes.py`) was used to search each quote against its declared source file with the following normalisation passes (in order):
    - quote-character unification (`«»„""`'` → `"`); em/en/minus dash → ASCII `-`; NBSP/thin-space → space; soft hyphen `\xad` stripped; `ё → е`; Latin OCR substitutions `MB → МВ`, `HJI0/HJIO → НЛО`; OCR word-split `(\w)-\s+(\w) → \1\2`.
    - aggressive pass: also strip surviving quote chars and bracketed editor inserts (`[…]` ≤ 30 chars).
    - 60-char prefix and 30-char prefix fall-backs for OCR/PDF artefacts.

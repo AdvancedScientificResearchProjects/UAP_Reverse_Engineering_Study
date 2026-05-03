@@ -256,7 +256,7 @@ Not an interview diagram; not worth archiving.
 
 - HTML stripped with a Python regex pass: scripts and styles deleted, then
   `<[^>]+>` removed, HTML entities unescaped, whitespace collapsed.
-- Stripped output: 15 696 chars (`[rufors-tmp]`, ephemeral).
+- Stripped output: 15 696 chars (`[tmp]/rufors_text.txt`, ephemeral).
 - Mention frequency in raw HTML: `Чернобров` 28, `Субботин` 18, `RUFORS` 13,
   `Аркаим` 10, `Хара-Хора` 5, `Лабынкар` 5. All occurrences traced back to the
   `<meta name="description">` / `og:description` blocks (i.e. the same description

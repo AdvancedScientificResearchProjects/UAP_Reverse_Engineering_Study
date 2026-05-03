@@ -80,7 +80,6 @@
 - Wikipedia: Honeywell, Honeywell FM&T, Kansas City National Security Campus corporate-history pages.
 - US DOE / NNSA public contract awards (KCNSC operatorship, NTESS LLC, MSTS LLC).
 - NYSE listing record (HON).
-- Banchenko corporate-analysis working notes (2026-04-27) — `../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`.
 
 ## What this file does NOT claim / Чего этот файл НЕ утверждает
 

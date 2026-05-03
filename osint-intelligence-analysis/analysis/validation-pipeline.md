@@ -130,5 +130,4 @@ This is **not** an "anomaly". This is a **boundary of a model**. It is where exi
 - Signature methodology / Методология сигнатур: [`signature-methodology.md`](signature-methodology.md)
 - Anomaly classification / Классификация аномалий: [`anomaly-classification.md`](anomaly-classification.md)
 - UAP application / Применение к НАЯ: [`uap-application.md`](uap-application.md)
-- Source / Источник: [`../raw/banchenko_2026-04-26_signature_methodology_notes.txt`](../raw/banchenko_2026-04-26_signature_methodology_notes.txt)
 - Root README / Корневой README: [`../../README.md`](../../README.md)

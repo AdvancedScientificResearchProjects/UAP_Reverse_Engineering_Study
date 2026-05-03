@@ -86,7 +86,6 @@ A dedicated research sub-archive documenting, with public-source provenance only
 | [Cardillo / Gabriella Rev A framework / Рамка Кардилло «Gabriella Rev A»](analysis/cardillo-gabriella-framework.md) | Ex-NGA director's multifactor analytical framework / Мультифакторная аналитическая рамка экс-директора NGA |
 | [Per-person files / Файлы по фигурантам](people/) | One file per scientist / По одному файлу на учёного |
 | [Raw transcript (YouTube) / Сырой транскрипт (YouTube)](raw/youtube_q9VV_11_scientists_FBI_2026-04-22.txt) | Gera Sheriff video, RU, 16:27, 2026-04-22 / Видео Геры Шерифа, RU, 16:27, 22.04.2026 |
-| [Banchenko working notes (Cardillo) / Рабочие заметки Банченко (Кардилло)](raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt) | Strategic-context analysis of LinkedIn engagement / Анализ стратегического контекста LinkedIn-взаимодействия |
 
 ---
 
@@ -196,9 +195,8 @@ A dedicated research sub-archive documenting, with public-source provenance only
 |---|---|---|
 | YouTube video, Gera Sheriff (retired US sheriff turned RU-language YouTube commentator) — "Убиты или пропали 11 специалистов ядерной и космической сфер", published 2026-04-22, 16:27 / Видео YouTube, Гера Шериф (отставной шериф США, ставший RU-язычным комментатором), «Убиты или пропали 11 специалистов ядерной и космической сфер», опубликовано 22.04.2026, 16:27 | Primary recap of Patel announcement and per-person details / Первичная сводка заявления Пателя и подробностей по фигурантам | [`raw/youtube_q9VV_11_scientists_FBI_2026-04-22.txt`](raw/youtube_q9VV_11_scientists_FBI_2026-04-22.txt) |
 | Fox News *Sunday Morning Futures* with Maria Bartiromo, 19 April 2026 — Kash Patel statement / Fox News *Sunday Morning Futures* с Марией Бартиромо, 19 апреля 2026 г., заявление Кэша Пателя | Original FBI announcement (cited via transcript) / Первичное заявление ФБР (цитируется через транскрипт) | See [`analysis/fbi-cluster-investigation.md`](analysis/fbi-cluster-investigation.md) |
-| Banchenko working notes on Robert Cardillo's LinkedIn post on Gabriella Rev A, 2026-04-26 / Рабочие заметки Банченко по посту Роберта Кардилло в LinkedIn о «Gabriella Rev A», 26.04.2026 | Strategic-context analysis / Анализ стратегического контекста | [`raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt`](raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt) |
 
-**EN:** Provenance grade. The YouTube source is a single-author RU-language channel; Gera Sheriff identifies himself as a retired US sheriff (Broward County, Florida) turned commentator. Treat his recap as a structured digest of public reporting and the Patel/Bartiromo statement, not as primary law-enforcement record. The Cardillo LinkedIn post is a public OSINT artefact; the working notes analyse it as a working commentary, not a primary source.
+**EN:** Provenance grade. The YouTube source is a single-author RU-language channel; Gera Sheriff identifies himself as a retired US sheriff (Broward County, Florida) turned commentator. Treat his recap as a structured digest of public reporting and the Patel/Bartiromo statement, not as primary law-enforcement record. The Cardillo LinkedIn post is a public OSINT artefact analysed in `analysis/cardillo-gabriella-framework.md`.
 
 **RU:** Уровень провенанса. YouTube-источник — авторский RU-канал; Гера Шериф представляется отставным шерифом США (округ Бравард, Флорида), ставшим комментатором. Его сводку следует рассматривать как структурированный дайджест публичных сообщений и заявления Пателя/Бартиромо, а не как первичный полицейский документ. Пост Кардилло в LinkedIn — публичный OSINT-артефакт; рабочие заметки анализируют его как рабочий комментарий, а не первичный источник.
 

@@ -131,9 +131,6 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | [Per-executive scan dossiers / Досье сканирования руководителей](people/_scan-targets/) | HSP-scan output for Amentum CEO + CTO / Результат HSP-сканирования для CEO + CTO Amentum |
 | [Public scanning roster / Публичный реестр сканирования](people/_scan-targets/scanning-roster.md) | Session-organization tool: role-class candidates + LinkedIn URLs (no findings here) / Инструмент организации сессий: кандидаты ролевого класса + LinkedIn URL (результатов здесь нет) |
 | [Theoretical foundations / Теоретические основы](theoretical-foundations/README.md) | Literature catalog — Morgan / Frolov / scalar-vortex literature; theoretical-context only / Каталог литературы — Morgan / Фролов / литература скаляр-вихрь; только теоретический контекст |
-| [Banchenko corporate-session brief 2026-04-26 / Бриф корпоративной сессии Банченко 26.04.2026](raw/denis_2026-04-26_egng_amentum_brief.md) | Working-session notes that frame this archive / Рабочие заметки, формирующие данный архив |
-| [Banchenko legal-risks assessment 2026-04-26 / Оценка юридических рисков Банченко 26.04.2026](raw/banchenko_2026-04-26_legal_risks_assessment.md) | Source for the protocol's Legal posture section / Источник для раздела Legal posture протокола |
-| [Banchenko corporate-analysis full notes 2026-04-27 / Полные заметки корпоративного анализа Банченко 27.04.2026](raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) | Source for v2 entities (Honeywell, EG&G sub-units, patents inventory) / Источник для сущностей v2 (Honeywell, подразделения EG&G, инвентарь патентов) |
 
 ---
 
@@ -165,7 +162,7 @@ A research sub-archive documenting, with public-source provenance only, the **de
 | 22 | Sub-archive / Подархив | Theoretical foundations (Morgan / Frolov / scalar-vortex literature) | **v3 / +** — Theoretical-context register / Регистр теоретического контекста |
 | 23 | Roster / Реестр | Public scanning roster (27 entries) | **v3 / +** — Session-organization tool / Инструмент организации сессий |
 | 24 | Methodology / Методология | Pattern interpretation language (HSP, role-class) | **v3 / +** — Per protocol_corporate_scan.md v1.2 |
-| 25 | Anchor / Якорь | Andromagi (Андромаги, сессионный фрейм B) civilization-naming reference | **v3 / +** — Working anchor for further scanning / Рабочий якорь для дальнейшего сканирования |
+| 25 | Anchor / Якорь | Andromagi (Андромаги, session-frame B / сессионный фрейм B) civilization-naming reference | **v3 / +** — Working anchor for further scanning / Рабочий якорь для дальнейшего сканирования |
 | 26 | Hypothesis / Гипотеза | Fuel-supply-chain closed-loop reading (Tracks 2/4/7) | **v4 / +** — Lazar ↔ 115 ↔ JINR-LLNL ↔ Amentum ↔ EG&G / Лазар ↔ 115 ↔ JINR-LLNL ↔ Amentum ↔ EG&G |
 | 27 | Diagram / Диаграмма | Fuel-supply-chain closed-loop visualization | **v4 / +** |
 | 28 | Diagram / Диаграмма | Patents inventory network | **v4 / +** |
@@ -198,9 +195,6 @@ A research sub-archive documenting, with public-source provenance only, the **de
 
 | Source / Источник | Type / Тип | Reference / Ссылка |
 |---|---|---|
-| Banchenko corporate-session brief, 2026-04-26 / Бриф корпоративной сессии Банченко, 26.04.2026 | Working notes / Рабочие заметки | [`raw/denis_2026-04-26_egng_amentum_brief.md`](raw/denis_2026-04-26_egng_amentum_brief.md) |
-| Banchenko legal-risks assessment, 2026-04-26 / Оценка юридических рисков Банченко, 26.04.2026 | Working notes / Рабочие заметки | [`raw/banchenko_2026-04-26_legal_risks_assessment.md`](raw/banchenko_2026-04-26_legal_risks_assessment.md) |
-| Banchenko corporate-analysis full notes, 2026-04-27 / Полные заметки корпоративного анализа Банченко, 27.04.2026 | Working notes / Рабочие заметки | [`raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`](raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) |
 | SEC EDGAR 10-K filings (Amentum FY24, Leidos FY24, LMT FY24, BA FY24, RTX FY24, NOC FY24, Honeywell FY24) | Primary public filings / Первичная публичная отчётность | Per-company files in `companies/` / Файлы компаний в `companies/` |
 | Justia Patents (public USPTO mirror) / Justia Patents (публичное зеркало USPTO) | Patent-assignee OSINT / OSINT по правопреемникам | [`analysis/patents-inventory.md`](analysis/patents-inventory.md) |
 | LinkedIn — public C-level executive profiles / LinkedIn — публичные профили C-level руководителей | OSINT / OSINT | Per-person files in `people/_scan-targets/` / Файлы персон в `people/_scan-targets/` |

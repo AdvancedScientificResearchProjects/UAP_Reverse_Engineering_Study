@@ -125,9 +125,9 @@
 
 ## Sources / Источники
 
-**EN:** Single source: Banchenko working notes (2026-04-26), preserved verbatim at [`raw/banchenko_2026-04-26_signature_methodology_notes.txt`](raw/banchenko_2026-04-26_signature_methodology_notes.txt). Authored by Denis Banchenko, 2026-04-26.
+**EN:** Methodology authored by Denis Banchenko, 2026-04-26.
 
-**RU:** Единственный источник: рабочие заметки Дениса Банченко (26.04.2026), дословно сохранённые в [`raw/banchenko_2026-04-26_signature_methodology_notes.txt`](raw/banchenko_2026-04-26_signature_methodology_notes.txt). Автор — Денис Банченко, 26.04.2026.
+**RU:** Методология разработана Денисом Банченко, 26.04.2026.
 
 ---
 

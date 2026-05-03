@@ -31,8 +31,8 @@ E("meth-uap-application", "OSINT methodology application across UAP archive trac
 # Sources — OSINT methodology
 E("src-osint-methodology-notes", "Banchenko OSINT methodology working notes (2026-04-26)", "source",
   label_ru="Рабочие заметки Банченко по OSINT-методологии (26.04.2026)",
-  description="Working analytical notes by Denis Banchenko on signature methodology, anomaly classification, and validation pipeline. Single source for all four OSINT analysis files. Authored 2026-04-26. Preserved verbatim in raw/banchenko_2026-04-26_signature_methodology_notes.txt.",
-  description_ru="Рабочие аналитические заметки Дениса Банченко по методологии сигнатур, классификации аномалий и конвейеру валидации. Единственный источник четырёх OSINT-аналитических файлов. Составлены 26.04.2026. Сохранены дословно в raw/banchenko_2026-04-26_signature_methodology_notes.txt.")
+  description="Working analytical notes by Denis Banchenko on signature methodology, anomaly classification, and validation pipeline. Source for the four OSINT analysis files. Authored 2026-04-26.",
+  description_ru="Рабочие аналитические заметки Дениса Банченко по методологии сигнатур, классификации аномалий и конвейеру валидации. Источник четырёх OSINT-аналитических файлов. Составлены 26.04.2026.")
 
 # ════════════════════════════════════════════════════════════════════
 # PEOPLE-ANALYSIS — institutions
@@ -227,8 +227,8 @@ E("ev-db-linkedin-comment", "Denis Banchenko posts UAP study link under Cardillo
 
 E("ev-osint-methodology-captured", "Denis Banchenko documents OSINT signature methodology", "event",
   date="2026-04-26",
-  description="Denis Banchenko (project owner) authors working analytical notes on signature methodology, anomaly classification, and validation pipeline. Preserved at raw/banchenko_2026-04-26_signature_methodology_notes.txt. Basis of all four OSINT analysis files.",
-  description_ru="Денис Банченко (владелец проекта) составляет рабочие аналитические заметки по методологии сигнатур, классификации аномалий и конвейеру валидации. Сохранено в raw/banchenko_2026-04-26_signature_methodology_notes.txt. Основа четырёх OSINT-файлов анализа.")
+  description="Denis Banchenko (project owner) authors working analytical notes on signature methodology, anomaly classification, and validation pipeline. Basis of the four OSINT analysis files.",
+  description_ru="Денис Банченко (владелец проекта) составляет рабочие аналитические заметки по методологии сигнатур, классификации аномалий и конвейеру валидации. Основа четырёх OSINT-файлов анализа.")
 
 # ════════════════════════════════════════════════════════════════════
 # PEOPLE-ANALYSIS — facts about the cluster
@@ -344,7 +344,7 @@ E("src-fox-patel-2026", "Fox News Sunday Morning Futures — Kash Patel FBI stat
 
 E("src-cardillo-linkedin", "Robert Cardillo LinkedIn post — Gabriella Rev A framework (April 2026)", "source",
   label_ru="Пост Роберта Кардилло в LinkedIn — рамка «Gabriella Rev A» (апрель 2026)",
-  description="Public LinkedIn post by Robert Cardillo (former NGA Director) introducing and applying the Gabriella Rev A analytical framework to the 11-scientist cluster. Primary OSINT artefact. Strategic-context analysis preserved in raw/banchenko_2026-04-26_cardillo_gabriella_framework_notes.txt (Banchenko working notes, 2026-04-26).",
+  description="Public LinkedIn post by Robert Cardillo (former NGA Director) introducing and applying the Gabriella Rev A analytical framework to the 11-scientist cluster. Primary OSINT artefact. Strategic-context analysis at people-analysis/analysis/cardillo-gabriella-framework.md.",
   description_ru="Публичный пост Роберта Кардилло (экс-директор NGA) в LinkedIn с представлением рамки «Gabriella Rev A» применительно к кластеру 11 учёных. Первичный OSINT-артефакт.")
 
 E("src-jre-2416-farah", "Joe Rogan Experience #2416 — Dan Farah (Russian dub, 2025)", "source",

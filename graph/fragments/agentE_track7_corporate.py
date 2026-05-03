@@ -219,13 +219,13 @@ E("src-leidos-10k-fy24", "Leidos Holdings 10-K (FY24)", "source",
 
 E("src-banchenko-track7-2026-04-26", "Banchenko corporate-session brief (2026-04-26)", "source",
   label_ru="Бриф корпоративной сессии Банченко (26.04.2026)",
-  description="Working analytical notes by Denis Banchenko on EG&G → Amentum corporate-genealogy thesis and Track 7 v1 inventory. Authored 2026-04-26. Preserved verbatim in raw/denis_2026-04-26_egng_amentum_brief.md.",
-  description_ru="Рабочие аналитические заметки Дениса Банченко по тезису корпоративной генеалогии EG&G → Amentum и инвентарю v1 Трека 7. Составлены 26.04.2026. Сохранены дословно в raw/denis_2026-04-26_egng_amentum_brief.md.")
+  description="Working analytical notes by Denis Banchenko on EG&G → Amentum corporate-genealogy thesis and Track 7 v1 inventory. Authored 2026-04-26.",
+  description_ru="Рабочие аналитические заметки Дениса Банченко по тезису корпоративной генеалогии EG&G → Amentum и инвентарю v1 Трека 7. Составлены 26.04.2026.")
 
 E("src-banchenko-track7-2026-04-27", "Banchenko companies-and-patents brief (2026-04-27)", "source",
   label_ru="Бриф компаний и патентов Банченко (27.04.2026)",
-  description="Working analytical notes by Denis Banchenko on company-by-company adversarial cross-validation framing, patent-portfolio surfacing, and forward-link to bio-engineering carve-out. Authored 2026-04-27. Preserved verbatim in raw/denis_2026-04-27_companies_patents_brief.md.",
-  description_ru="Рабочие аналитические заметки Дениса Банченко по рамке adversarial кросс-валидации по каждой компании, обзору патентных портфелей и forward-link к биоинженерному ответвлению. Составлены 27.04.2026. Сохранены дословно в raw/denis_2026-04-27_companies_patents_brief.md.")
+  description="Working analytical notes by Denis Banchenko on company-by-company adversarial cross-validation framing, patent-portfolio surfacing, and forward-link to bio-engineering carve-out. Authored 2026-04-27.",
+  description_ru="Рабочие аналитические заметки Дениса Банченко по рамке adversarial кросс-валидации по каждой компании, обзору патентных портфелей и forward-link к биоинженерному ответвлению. Составлены 27.04.2026.")
 
 # ════════════════════════════════════════════════════════════════════
 # CONNECTIONS — Track 7 internal + cross-archive bridges
@@ -477,7 +477,7 @@ E("meth-pattern-interp", "Pattern interpretation language (HSP, role-class)", "m
 
 E("meth-civ-naming-convention", "Civilization-naming reference convention", "methodology",
   label_ru="Конвенция опорного наименования цивилизации",
-  description="Methodological convention introduced in protocol_corporate_scan.md v1.2: working civilization-naming designations (e.g. 'Andromagi (Андромаги, сессионный фрейм B)') recorded as anchor points for further scanning, never as confirmed identifications. Hedged formulation: collegial reading or single-source dissenting opinion, alternative interpretations not excluded.",
+  description="Methodological convention introduced in protocol_corporate_scan.md v1.2: working civilization-naming designations (e.g. 'Andromagi (Андромаги, session-frame B / сессионный фрейм B)') recorded as anchor points for further scanning, never as confirmed identifications. Hedged formulation: collegial reading or single-source dissenting opinion, alternative interpretations not excluded.",
   description_ru="Методологическая конвенция, введённая в protocol_corporate_scan.md v1.2: рабочие наименования цивилизаций (напр. «Андромаги (сессионный фрейм B)») фиксируются как опорные точки для дальнейшего сканирования, никогда как подтверждённые идентификации. Хеджированная формулировка: коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются.",
   source="experiments/protocol_corporate_scan.md")
 
@@ -489,7 +489,7 @@ E("th-upper-channel-modulation", "Upper-channel frequency-modulation framing", "
 
 E("th-andromagi-civ-anchor", "Andromagi civilization naming anchor", "hypothesis",
   label_ru="Опорное наименование цивилизации — Андромаги",
-  description="Working civilization-naming anchor recorded in HSP scan dossiers (v1.2): Andromagi (Андромаги, сессионный фрейм B). Hedged formulation — collegial reading or single-source dissenting opinion, alternative interpretations not excluded. Anchor is for further scanning organization, not a confirmed identification of any civilization.",
+  description="Working civilization-naming anchor recorded in HSP scan dossiers (v1.2): Andromagi (Андромаги, session-frame B / сессионный фрейм B). Hedged formulation — collegial reading or single-source dissenting opinion, alternative interpretations not excluded. Anchor is for further scanning organization, not a confirmed identification of any civilization.",
   description_ru="Рабочее опорное наименование цивилизации, зафиксированное в досье HSP-сканирования (v1.2): Андромаги (сессионный фрейм B). Хеджированная формулировка — коллегиальное прочтение либо особое мнение одного источника, альтернативные интерпретации не исключаются. Якорь — для организации дальнейшего сканирования, не подтверждённая идентификация какой-либо цивилизации.",
   source="corporate-economic-analysis/people/_scan-targets/amentum-ceo-scan-target.md")
 

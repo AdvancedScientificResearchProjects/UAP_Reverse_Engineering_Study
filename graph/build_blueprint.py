@@ -21,7 +21,7 @@ ASRP-internal reproducible-but-not-yet-peer-reviewed material is `confidence="me
 Output: uap_kumu.json — fed to preview.html for in-browser rendering, also drag-
 and-drop into Kumu.io for cloud rendering.
 
-ID compatibility: shared IDs with <asrp-marketing-repo>/
+ID compatibility: shared IDs with the ASRP ecosystem-marketing repo's
 graph/asrp_kumu.json (e.g. p-lazar, p-chernobrov, p-cardillo, p-db, p-vo, inst-jinr,
 inst-doe, pj-uap, th-temporal, th-3dt, th-hyperbolic, ev-ecp) — the two graphs
 can be merged into one property-graph DB later via UNWIND.

