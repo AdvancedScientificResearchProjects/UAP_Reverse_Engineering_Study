@@ -51,13 +51,13 @@
 11. [Track 9 — UAP Scientific Publications Corpus / Трек 9 — Корпус научных публикаций по UAP](#track-9--трек-9--uap-scientific-publications-corpus--корпус-научных-публикаций-по-uap)
 12. [Team / Команда](#research-team--исследовательская-команда)
 13. [Structure / Структура](#structure--структура)
-13. [Security / Безопасность](#security--безопасность)
-14. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
-15. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
-16. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
-17. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
-18. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
-19. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
+14. [Security / Безопасность](#security--безопасность)
+15. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
+16. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
+17. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
+18. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
+19. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
+20. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
 
 ---
 
