@@ -31,7 +31,7 @@ Bilingual EN+RU overview of the body of work published by Andrew Morgan and the 
 ## Linked sources / Связанные источники
 
 - [`../sources/morgan-2025-scalar-field-trans-medium-craft.md`](../sources/morgan-2025-scalar-field-trans-medium-craft.md) — ResearchGate publication 392011157.
-- [`../sources/morgan-internal-energy-transmedium-pdf.md`](../sources/morgan-internal-energy-transmedium-pdf.md) — PDF attached to Banchenko 2026-04-29 notes.
+- [`../sources/morgan-internal-energy-transmedium-pdf.md`](../sources/morgan-internal-energy-transmedium-pdf.md) — Morgan PDF (Internal Energy Generation and Control Systems for Trans-medium Craft Navigation).
 - [`../sources/nrgscapes-lab-collected-publications.md`](../sources/nrgscapes-lab-collected-publications.md) — full lab publications index.
 
 ---

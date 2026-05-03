@@ -16,9 +16,9 @@
 
 ## Provenance / Происхождение
 
-**EN:** The methodology presented here is a structured distillation of working notes by **Denis Banchenko** (project owner, working session 2026-04-26). It is a working analytical framework, not a peer-reviewed engineering manual. The primary working notes are preserved verbatim in `raw/` and are the single source for all four analysis files in this sub-archive.
+**EN:** The methodology presented here is a structured distillation of working notes by **Denis Banchenko** (project owner, working session 2026-04-26). It is a working analytical framework, not a peer-reviewed engineering manual. It is the single underlying source for all four analysis files in this sub-archive.
 
-**RU:** Методология, изложенная здесь, — структурированная дистилляция рабочих заметок **Дениса Банченко** (владелец проекта; рабочая сессия 26.04.2026). Это рабочая аналитическая рамка, а не рецензируемое инженерное руководство. Первичные рабочие заметки дословно сохранены в `raw/` и являются единственным источником всех четырёх аналитических файлов этого подархива.
+**RU:** Методология, изложенная здесь, — структурированная дистилляция рабочих заметок **Дениса Банченко** (владелец проекта; рабочая сессия 26.04.2026). Это рабочая аналитическая рамка, а не рецензируемое инженерное руководство. Это единственный источник, лежащий в основе всех четырёх аналитических файлов этого подархива.
 
 ---
 

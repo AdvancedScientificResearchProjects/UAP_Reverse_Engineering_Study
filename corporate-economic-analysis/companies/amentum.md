@@ -81,7 +81,6 @@
 - NYSE listing record (AMTM, 2024).
 - Wikipedia: Amentum corporate-history page.
 - US DOE / NNSA public records on LANL (Triad LLC) and LLNL (LLNS) consortium membership.
-- Banchenko working notes (2026-04-26).
 
 ## What this file does NOT claim / Чего этот файл НЕ утверждает
 

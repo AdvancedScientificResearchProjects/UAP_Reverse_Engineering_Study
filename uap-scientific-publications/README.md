@@ -107,7 +107,7 @@ A **seventh layer** (added v6) records the **adversarial-balance pair** in the g
 
 **EN:** Items tracked but not integrated in v6:
 - ~8 remaining Arcanum-12 cycle URLs from Banchenko's "Как я нашёл дорогу домой" cycle (4 of ~12 confirmed in v5).
-- eLibrary.ru aggregator pull (~5000 UAP / ~10000 НЛО publication candidates per Banchenko 2026-04-30 message).
+- eLibrary.ru aggregator pull (~5000 UAP / ~10000 НЛО publication candidates).
 - ResearchGate / Academia.edu / arXiv broader pull pass.
 - Mikhail / Andrey course-status confirmation for the Arcanum-12 UAP reverse-engineering course (educational program).
 - **Cross-archive integration** of the v6 HIGH-list with Track 1 (UAP-FRAG-001 isotope-pipeline anchored by P43 + S76) and Track 7 (fuel-supply-chain premise-layer extension with P20 + S74 + P07; cross-archive graph edges to `hyp-fuel-supply-chain`) — deferred to v7 per v6 plan-mode decision.

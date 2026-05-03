@@ -308,9 +308,9 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 
 **Status: Available / Статус: Доступно**
 
-**EN:** Public-source corporate-economic analysis of the defense-prime contractor constellation behind the UAP record. Anchor thesis: **EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024)** is the documented Lazar-S-4-contractor lineage, and Amentum is its present-day successor. Around it stand the four engineering primes (Lockheed Martin, Boeing, RTX, Northrop Grumman) and the services-prime ring (Amentum, Leidos, Jacobs, Parsons, BAH) operating the DoE national laboratories. v3 inventory: 8 companies (incl. Honeywell), 2 HSP-scanned Amentum executives (CEO + CTO, depersonalized) + public scanning roster of 27 entries, 7 mermaid diagrams (3 v1 + 4 v3), 6 analysis files, theoretical-foundations sub-archive (Morgan / Frolov / scalar-vortex literature), 3 Banchenko working briefs.
+**EN:** Public-source corporate-economic analysis of the defense-prime contractor constellation behind the UAP record. Anchor thesis: **EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024)** is the documented Lazar-S-4-contractor lineage, and Amentum is its present-day successor. Around it stand the four engineering primes (Lockheed Martin, Boeing, RTX, Northrop Grumman) and the services-prime ring (Amentum, Leidos, Jacobs, Parsons, BAH) operating the DoE national laboratories. v3 inventory: 8 companies (incl. Honeywell), 2 HSP-scanned Amentum executives (CEO + CTO, depersonalized) + public scanning roster of 27 entries, 7 mermaid diagrams (3 v1 + 4 v3), 6 analysis files, theoretical-foundations sub-archive (Morgan / Frolov / scalar-vortex literature).
 
-**RU:** Корпоративно-экономический анализ на публичных источниках созвездия prime-подрядчиков обороны за UAP-нарративом. Якорный тезис: **EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024)** — задокументированная линия подрядчика Lazar-S-4, и Amentum — её современный преемник. Вокруг — четыре инженерных prime (Lockheed Martin, Boeing, RTX, Northrop Grumman) и сервисное кольцо (Amentum, Leidos, Jacobs, Parsons, BAH), оперирующее национальными лабораториями DOE. Инвентарь v3: 8 компаний (включая Honeywell), 2 HSP-сканированных руководителя Amentum (CEO + CTO, деперсонализировано) + публичный реестр сканирования из 27 записей, 7 диаграмм mermaid (3 v1 + 4 v3), 6 аналитических файлов, подархив теоретических основ (Morgan / Фролов / скаляр-вихрь), 3 рабочих брифа Банченко.
+**RU:** Корпоративно-экономический анализ на публичных источниках созвездия prime-подрядчиков обороны за UAP-нарративом. Якорный тезис: **EG&G (1947) → URS (2002) → AECOM (2014) → Amentum (2020) → NYSE: AMTM (2024)** — задокументированная линия подрядчика Lazar-S-4, и Amentum — её современный преемник. Вокруг — четыре инженерных prime (Lockheed Martin, Boeing, RTX, Northrop Grumman) и сервисное кольцо (Amentum, Leidos, Jacobs, Parsons, BAH), оперирующее национальными лабораториями DOE. Инвентарь v3: 8 компаний (включая Honeywell), 2 HSP-сканированных руководителя Amentum (CEO + CTO, деперсонализировано) + публичный реестр сканирования из 27 записей, 7 диаграмм mermaid (3 v1 + 4 v3), 6 аналитических файлов, подархив теоретических основ (Morgan / Фролов / скаляр-вихрь).
 
 **Lead file / Главный файл:** [`corporate-economic-analysis/README.md`](corporate-economic-analysis/README.md)
 
@@ -428,15 +428,14 @@ UAP_Reverse_Engineering_Study/
 ├── osint-intelligence-analysis/       # Track 5 (methodology) / Трек 5 (методология)
 │   ├── README.md
 │   ├── analysis/                      # 4 analysis files / 4 аналитических файла
-│   ├── diagrams/rendered/             # 4 diagrams / 4 диаграммы
-│   └── raw/                           # Banchenko methodology working notes (primary)
+│   └── diagrams/rendered/             # 4 diagrams / 4 диаграммы
 │
 ├── people-analysis/                   # Track 6 (11 scientists cluster) / Трек 6 (кластер 11 учёных)
 │   ├── README.md
 │   ├── analysis/                      # 3 analysis files (Cardillo / FBI / cluster summary)
 │   ├── people/                        # 11 per-person files / 11 файлов по фигурантам
 │   ├── diagrams/rendered/             # 5 diagrams / 5 диаграмм
-│   └── raw/                           # YouTube transcript + Banchenko notes on Cardillo framework
+│   └── raw/                           # YouTube transcript (public) / Транскрипт YouTube (публичный)
 │
 ├── corporate-economic-analysis/       # Track 7 (defense-prime constellation) / Трек 7 (созвездие prime)
 │   ├── README.md
@@ -444,14 +443,13 @@ UAP_Reverse_Engineering_Study/
 │   ├── companies/                     # 8 company profiles + index (incl. Honeywell) / 8 профилей компаний + индекс
 │   ├── people/_scan-targets/          # 2 HSP scan dossiers (depersonalized) + public scanning roster (27 entries)
 │   ├── theoretical-foundations/       # v3 sub-archive — Morgan / Frolov / scalar-vortex literature catalog
-│   ├── diagrams/rendered/             # 9 diagrams (3 v1 + 4 v3 + 2 v4) / 9 диаграмм (3 v1 + 4 v3 + 2 v4)
-│   └── raw/                           # 3 Banchenko corporate-session briefs (2026-04-26, 2026-04-27)
+│   └── diagrams/rendered/             # 9 diagrams (3 v1 + 4 v3 + 2 v4) / 9 диаграмм (3 v1 + 4 v3 + 2 v4)
 │
 ├── uap-scientific-publications/       # Track 9 (UAP scientific publications corpus, v4) / Трек 9 (корпус научных публикаций по UAP)
 │   ├── README.md
 │   ├── analysis/                      # 6 analysis files (taxonomy / peer-reviewed physics / peer-reviewed social / grey lit / govt reports / observation programs)
 │   ├── sources/                       # 13 source-provenance files (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA, ODNI, AARO, Hessdalen, Nimitz, Galileo, SCU + 2 cross-refs)
-│   └── raw/                           # Banchenko 2026-04-30 publications-corpus request
+│   └── raw/                           # Perplexity research dumps (tool output) / Дампы Perplexity (вывод инструмента)
 │
 ├── charts/                            # Track 1 visual evidence / Визуализация Трека 1
 │   ├── ecp_response_agreement_matrix.svg

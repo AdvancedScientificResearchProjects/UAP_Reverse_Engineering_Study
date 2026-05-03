@@ -40,7 +40,7 @@ Bilingual EN+RU literature catalog of public-source theoretical work that bears 
 | # | Source / Источник | Author / Автор | Provenance file / Файл провенанса |
 |---|---|---|---|
 | 1 | "Scalar-Energized Field Architecture — Internal Energy Generation and Control Systems for Trans-medium Craft Navigation" (ResearchGate 392011157) | Andrew Morgan + NRGscapes-Lab | [`sources/morgan-2025-scalar-field-trans-medium-craft.md`](sources/morgan-2025-scalar-field-trans-medium-craft.md) |
-| 2 | "Internal Energy Generation and Control Systems for Trans-medium Craft Navigation" (PDF attached to Banchenko notes) | Andrew Morgan | [`sources/morgan-internal-energy-transmedium-pdf.md`](sources/morgan-internal-energy-transmedium-pdf.md) |
+| 2 | "Internal Energy Generation and Control Systems for Trans-medium Craft Navigation" (Morgan PDF) | Andrew Morgan | [`sources/morgan-internal-energy-transmedium-pdf.md`](sources/morgan-internal-energy-transmedium-pdf.md) |
 | 3 | NRGscapes-Lab full ResearchGate publications index | Andrew Morgan + NRGscapes-Lab | [`sources/nrgscapes-lab-collected-publications.md`](sources/nrgscapes-lab-collected-publications.md) |
 | 4 | "Александр Владимирович Фролов — Выдающийся физик" (PDF, vixri.ru) | Alexander V. Frolov / biographical | [`sources/frolov-vydajushijsja-fizik-pdf.md`](sources/frolov-vydajushijsja-fizik-pdf.md) |
 | 5 | alexfrolov.narod.ru/4d.html — 4D physics page | Alexander V. Frolov | [`sources/frolov-alexfrolov-narod-4d.md`](sources/frolov-alexfrolov-narod-4d.md) |
