@@ -5165,6 +5165,43 @@
       "tags": [
         "source"
       ]
+    },
+    {
+      "id": "p-cardillo-r-nswcihd",
+      "label": "Robert Cardillo (NSWCIHD)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Robert Cardillo (NSWCIHD)",
+      "descriptionRu": "Инженер Configuration Management в Naval Surface Warfare Center Indian Head Division (Conventional Ammunition Division W7). Выпускник Penn State, ~807 подписчиков LinkedIn. НЕ бывший директор NGA Robert Cardillo (graph p-cardillo, Track 6) — два разных человека с одинаковым именем. Автор LinkedIn-поста 2026-05-02 'Langley Investigation' грей-литературы.",
+      "description": "Configuration Management engineer at Naval Surface Warfare Center Indian Head Division (Conventional Ammunition Division W7). Penn State alum, ~807 LinkedIn followers. NOT the former NGA director Robert Cardillo (graph p-cardillo, Track 6) — two distinct individuals sharing a name. Author of 2026-05-02 LinkedIn 'Langley Investigation' grey-literature post.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "src-cardillo-2026-langley-investigation",
+      "label": "Cardillo (NSWCIHD) — Langley Investigation 2026",
+      "type": "source",
+      "icon": "📜",
+      "labelRu": "Cardillo (NSWCIHD) — Расследование Лэнгли 2026",
+      "descriptionRu": "LinkedIn-распространённое резюме in-house расследования (пост 2026-05-02 + упоминаемый 13-страничный PDF, PDF не приложен публично). Тема: 17-ночные воздушные вторжения над базой ВВС Лэнгли в декабре 2023 г. Методология: авторские Gabriella Meta-Architecture / UCE / TLFP. Теория: пропульсия SRMS / резонанс 4D вакуумной решётки. Единственный свидетель как первичный источник (Butner ~90 мин видео). Без рецензии; спекулятивная физика; авторские акронимы.",
+      "description": "LinkedIn-distributed in-house investigation summary (post 2026-05-02 + referenced 13-page PDF, PDF not publicly linked). Subject: 17-night Dec 2023 aerial incursions over Langley AFB. Methodology: author-coined Gabriella Meta-Architecture / UCE / TLFP. Theory: SRMS / 4D vacuum lattice resonance propulsion. Single-witness primary source (Butner ~90 min video). No peer review; speculative physics; self-coined acronyms.",
+      "source": "uap-scientific-publications/sources/cardillo-2026-langley-investigation.md",
+      "tags": [
+        "source"
+      ]
+    },
+    {
+      "id": "f-cardillo-langley-grey-lit",
+      "label": "Cardillo Langley = LinkedIn grey-lit, in-house acronyms, no peer review",
+      "type": "fact",
+      "icon": "🧪",
+      "labelRu": "Cardillo Langley = LinkedIn грей-лит, авторские акронимы, без рецензии",
+      "descriptionRu": "Состязательная оговорка-факт: расследование Cardillo NSWCIHD 2026 Langley — LinkedIn-распространённая грей-литература; лежащий в основе 13-страничный PDF упоминается, но не приложен публично; методологическая терминология (Gabriella Meta-Architecture, UCE, TLFP, SRMS, IFW) — авторская, отсутствует в установленной системно-инженерной/физической/разведывательной литературе; утверждение о пропульсии ('резонанс 4D вакуумной решётки') не имеет рецензируемого подтверждения в мейнстрим-физических журналах.",
+      "description": "Adversarial caveat fact: the Cardillo NSWCIHD 2026 Langley investigation is LinkedIn-distributed grey literature; the underlying 13-page PDF is referenced but not publicly linked; methodology terminology (Gabriella Meta-Architecture, UCE, TLFP, SRMS, IFW) is author-coined and absent from established systems-engineering / physics / intelligence-analysis literature; propulsion claim ('4D vacuum lattice resonance') has no peer-reviewed corroboration in mainstream physics journals.",
+      "tags": [
+        "fact"
+      ]
     }
   ],
   "connections": [
@@ -8858,6 +8895,30 @@
       "type": "grey-lit-precursor-of",
       "direction": "directed",
       "description": "SCU 2022 grey-literature Ubatuba isotope re-analysis is paired with the Nolan/Vallée 2022 PiAS peer-reviewed methodology frame for the same instrument-class isotopic workflow."
+    },
+    {
+      "from": "src-cardillo-2026-langley-investigation",
+      "to": "cluster-uap-publications",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "p-cardillo-r-nswcihd",
+      "to": "cluster-uap-publications",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "p-cardillo-r-nswcihd",
+      "to": "src-cardillo-2026-langley-investigation",
+      "type": "author-of",
+      "direction": "directed"
+    },
+    {
+      "from": "f-cardillo-langley-grey-lit",
+      "to": "src-cardillo-2026-langley-investigation",
+      "type": "caveats",
+      "direction": "directed"
     },
     {
       "from": "phen-mc115",

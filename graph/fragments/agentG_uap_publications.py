@@ -565,3 +565,30 @@ C("src-powell-2022-ubatuba-isotope", "src-nolan-vallee-2022-isotopic-aerospace-f
   "grey-lit-precursor-of", direction="directed",
   description="SCU 2022 grey-literature Ubatuba isotope re-analysis is paired with the Nolan/Vallée 2022 PiAS peer-reviewed methodology frame for the same instrument-class isotopic workflow.")
 
+# ----- v7-intake (2026-05-05) — Cardillo (NSWCIHD) Langley Investigation 2026 -----
+# DISAMBIGUATION: this is Robert Cardillo, Configuration Management engineer at
+# Naval Surface Warfare Center Indian Head Division. NOT the former NGA director
+# Robert Cardillo (graph p-cardillo, Track 6). Two distinct people sharing a name.
+# No edge between p-cardillo-r-nswcihd and p-cardillo — they are unrelated.
+
+E("p-cardillo-r-nswcihd", "Robert Cardillo (NSWCIHD)", "person · external",
+  label_ru="Robert Cardillo (NSWCIHD)",
+  description="Configuration Management engineer at Naval Surface Warfare Center Indian Head Division (Conventional Ammunition Division W7). Penn State alum, ~807 LinkedIn followers. NOT the former NGA director Robert Cardillo (graph p-cardillo, Track 6) — two distinct individuals sharing a name. Author of 2026-05-02 LinkedIn 'Langley Investigation' grey-literature post.",
+  description_ru="Инженер Configuration Management в Naval Surface Warfare Center Indian Head Division (Conventional Ammunition Division W7). Выпускник Penn State, ~807 подписчиков LinkedIn. НЕ бывший директор NGA Robert Cardillo (graph p-cardillo, Track 6) — два разных человека с одинаковым именем. Автор LinkedIn-поста 2026-05-02 'Langley Investigation' грей-литературы.")
+
+E("src-cardillo-2026-langley-investigation", "Cardillo (NSWCIHD) — Langley Investigation 2026", "source",
+  label_ru="Cardillo (NSWCIHD) — Расследование Лэнгли 2026",
+  description="LinkedIn-distributed in-house investigation summary (post 2026-05-02 + referenced 13-page PDF, PDF not publicly linked). Subject: 17-night Dec 2023 aerial incursions over Langley AFB. Methodology: author-coined Gabriella Meta-Architecture / UCE / TLFP. Theory: SRMS / 4D vacuum lattice resonance propulsion. Single-witness primary source (Butner ~90 min video). No peer review; speculative physics; self-coined acronyms.",
+  description_ru="LinkedIn-распространённое резюме in-house расследования (пост 2026-05-02 + упоминаемый 13-страничный PDF, PDF не приложен публично). Тема: 17-ночные воздушные вторжения над базой ВВС Лэнгли в декабре 2023 г. Методология: авторские Gabriella Meta-Architecture / UCE / TLFP. Теория: пропульсия SRMS / резонанс 4D вакуумной решётки. Единственный свидетель как первичный источник (Butner ~90 мин видео). Без рецензии; спекулятивная физика; авторские акронимы.",
+  source="uap-scientific-publications/sources/cardillo-2026-langley-investigation.md")
+
+E("f-cardillo-langley-grey-lit", "Cardillo Langley = LinkedIn grey-lit, in-house acronyms, no peer review", "fact",
+  label_ru="Cardillo Langley = LinkedIn грей-лит, авторские акронимы, без рецензии",
+  description="Adversarial caveat fact: the Cardillo NSWCIHD 2026 Langley investigation is LinkedIn-distributed grey literature; the underlying 13-page PDF is referenced but not publicly linked; methodology terminology (Gabriella Meta-Architecture, UCE, TLFP, SRMS, IFW) is author-coined and absent from established systems-engineering / physics / intelligence-analysis literature; propulsion claim ('4D vacuum lattice resonance') has no peer-reviewed corroboration in mainstream physics journals.",
+  description_ru="Состязательная оговорка-факт: расследование Cardillo NSWCIHD 2026 Langley — LinkedIn-распространённая грей-литература; лежащий в основе 13-страничный PDF упоминается, но не приложен публично; методологическая терминология (Gabriella Meta-Architecture, UCE, TLFP, SRMS, IFW) — авторская, отсутствует в установленной системно-инженерной/физической/разведывательной литературе; утверждение о пропульсии ('резонанс 4D вакуумной решётки') не имеет рецензируемого подтверждения в мейнстрим-физических журналах.")
+
+C("src-cardillo-2026-langley-investigation", "cluster-uap-publications", "member-of", direction="directed")
+C("p-cardillo-r-nswcihd", "cluster-uap-publications", "member-of", direction="directed")
+C("p-cardillo-r-nswcihd", "src-cardillo-2026-langley-investigation", "author-of", direction="directed")
+C("f-cardillo-langley-grey-lit", "src-cardillo-2026-langley-investigation", "caveats", direction="directed")
+

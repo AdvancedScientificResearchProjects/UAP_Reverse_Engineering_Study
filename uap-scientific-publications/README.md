@@ -100,6 +100,7 @@ A **seventh layer** (added v6) records the **adversarial-balance pair** in the g
 | 35 | CNES / GEIPAN — *Online UAP Cases Database* (1977-present, 3200+ cases; subsumes GEPAN/SEPRA institutional lineage and CAIPAN 2014 workshop) | Government database | [`sources/geipan-cnes-database.md`](sources/geipan-cnes-database.md) |
 | 36 | *Scientific Study of UAP* (Condon Report) — University of Colorado UFO Project 1968 | Government-commissioned report | [`sources/condon-report-1968.md`](sources/condon-report-1968.md) |
 | 37 | USAF Project Blue Book Archives 1952-1969 (NARA RG341, 12,618 cases; subsumes Project SIGN / GRUDGE / Twinkle predecessor sub-projects) | Government archive | [`sources/blue-book-archives.md`](sources/blue-book-archives.md) |
+| 38 | Cardillo R. (NSWCIHD) — *Langley Investigation* (LinkedIn 2026, 13-page in-house report referenced) | Grey literature — LinkedIn-distributed in-house | [`sources/cardillo-2026-langley-investigation.md`](sources/cardillo-2026-langley-investigation.md) |
 
 ---
 
@@ -130,7 +131,7 @@ A **seventh layer** (added v6) records the **adversarial-balance pair** in the g
   - Does **NOT** claim any cataloged author is correct in their hypotheses.
   - Does **NOT** reproduce copyrighted full text — only public abstracts and provenance metadata.
   - Does **NOT** advance a "secret-program" frame; the archive frames every entry by its public-source provenance.
-  - Does **NOT** claim the corpus is exhaustive; the catalog is **seed-level** (~13 entries v4, ~18 entries v5 incl. Banchenko Arcanum cycle, ~37 entries v6 incl. 17 HIGH-priority Perplexity-research-audit additions + 2 adversarial-balance entries Condon + Blue Book, with v7+ expansion planned).
+  - Does **NOT** claim the corpus is exhaustive; the catalog is **seed-level** (~13 entries v4, ~18 entries v5 incl. Banchenko Arcanum cycle, ~38 entries v6/v7-intake incl. 17 HIGH-priority Perplexity-research-audit additions + 2 adversarial-balance entries Condon + Blue Book, with v7+ expansion planned).
   - Does **NOT** assert that any cataloged publication directly informs any UAP-reverse-engineering programme.
 
 - **RU:**
@@ -138,7 +139,7 @@ A **seventh layer** (added v6) records the **adversarial-balance pair** in the g
   - **НЕ** утверждает, что какой-либо каталогизированный автор прав в своих гипотезах.
   - **НЕ** воспроизводит текст под авторским правом — только публичные аннотации и метаданные провенанса.
   - **НЕ** продвигает рамку «секретной программы»; архив оформляет каждую запись по её публично-источниковому провенансу.
-  - **НЕ** утверждает, что корпус исчерпывающий; каталог — **семенного уровня** (~13 записей v4, ~18 записей v5 включая цикл Банченко на Arcanum, ~37 записей v6 включая 17 HIGH-приоритетных добавлений из аудита Perplexity-исследования + 2 состязательно-балансирующих записи Condon + Blue Book, расширение в v7+ запланировано).
+  - **НЕ** утверждает, что корпус исчерпывающий; каталог — **семенного уровня** (~13 записей v4, ~18 записей v5 включая цикл Банченко на Arcanum, ~38 записей v6/v7-intake включая 17 HIGH-приоритетных добавлений из аудита Perplexity-исследования + 2 состязательно-балансирующих записи Condon + Blue Book + Cardillo NSWCIHD Langley investigation, расширение в v7+ запланировано).
   - **НЕ** утверждает, что какая-либо каталогизированная публикация напрямую информирует какую-либо UAP-реверс-инжиниринговую программу.
 
 ---

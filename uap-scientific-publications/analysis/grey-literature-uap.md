@@ -50,8 +50,23 @@
 
 ---
 
+## LinkedIn-distributed in-house investigations (2026-) / LinkedIn-распространённые in-house расследования (2026-)
+
+**EN:** A new sub-layer of grey literature has emerged in 2026 — investigation summaries authored by individual systems-engineering or defence-industry professionals and distributed exclusively through LinkedIn rather than peer-reviewed journals or institutional briefings. These reports are typically accompanied by referenced in-house PDF analyses (5–30 pages) that are mentioned in the post but not publicly linked. They tend to introduce author-coined methodology acronyms and speculative propulsion-physics terminology without peer-review corroboration. The archive catalogues them as **grey-lit signal**, not as physical or institutional confirmation, and pairs them where possible with mainstream-venue UAP-physics papers for adversarial balance.
+
+**RU:** В 2026 г. появился новый под-слой грей-литературы — резюме расследований, написанные отдельными специалистами в области системной инженерии или оборонной промышленности и распространяемые исключительно через LinkedIn, а не через рецензируемые журналы или институциональные брифинги. Эти отчёты обычно сопровождаются упоминаемыми in-house PDF-анализами (5–30 страниц), которые названы в посте, но не приложены публично. Они часто вводят авторские методологические акронимы и спекулятивную пропульсионно-физическую терминологию без рецензируемого подтверждения. Архив каталогизирует их как **грей-лит сигнал**, а не как физическое или институциональное подтверждение, и сопрягает их где возможно с мейнстрим-площадочными работами по физике UAP для состязательного баланса.
+
+| Author / Автор | Year / Год | Title / Название | Source / Источник | Adversarial flag / Состязательный флаг |
+|---|---|---|---|---|
+| Cardillo, Robert (NSWCIHD) | 2026 | Langley Investigation | LinkedIn post + 13-page in-house PDF (not publicly linked) / LinkedIn-пост + 13-страничный in-house PDF (не приложен) | Self-coined acronyms (Gabriella Meta-Architecture, UCE, TLFP, SRMS, IFW); speculative "4D vacuum lattice" propulsion physics; single-witness primary source (Butner ~90 min video); no peer review / Авторские акронимы; спекулятивная физика «4D вакуумной решётки»; единственный свидетель как первичный источник; без рецензии |
+
+**Disambiguation note / Различение:** This Cardillo (NSWCIHD engineer) is **NOT** the former NGA Director Robert Cardillo (2014–2019) catalogued in Track 6. See [`../sources/cardillo-2026-langley-investigation.md`](../sources/cardillo-2026-langley-investigation.md) for the disambiguation paragraph and full provenance metadata.
+
+---
+
 ## Reference list / Список ссылок
 
+- [`../sources/cardillo-2026-langley-investigation.md`](../sources/cardillo-2026-langley-investigation.md) — Cardillo (NSWCIHD) 2026 Langley investigation LinkedIn post / LinkedIn-пост Cardillo (NSWCIHD) 2026 о расследовании Лэнгли.
 - [`../sources/scu-uap-papers-collection.md`](../sources/scu-uap-papers-collection.md) — SCU collected papers (Layer 1 / Layer 4 overlap) / Собрание работ SCU (пересечение Слоёв 1 и 4).
 - [`../sources/nimitz-flir-analyses.md`](../sources/nimitz-flir-analyses.md) — Nimitz analytic bundle, including grey-literature skeptical line and AAWSAP-period government commentary / Аналитический пучок Nimitz, включая «серую» скептическую линию и правительственный комментарий периода AAWSAP.
 - [`../sources/kean-uap-history.md`](../sources/kean-uap-history.md) — Kean 2010, bridging investigative journalism and grey-literature briefings / Кин 2010, мост между журналистикой-расследованием и «серыми» брифингами.
