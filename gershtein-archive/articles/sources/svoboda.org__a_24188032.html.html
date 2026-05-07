@@ -1,0 +1,1031 @@
+
+<!DOCTYPE html>
+<html lang="ru" dir="ltr" class="no-js">
+<head>
+<link href="/Content/responsive/RFE/ru-RU/RFE-ru-RU.css?&amp;av=0.0.0.0&amp;cb=382" rel="stylesheet"/>
+<script src="https://tags.svoboda.org/rferl-pangea/prod/utag.sync.js"></script> <script type='text/javascript' src='https://www.youtube.com/iframe_api' async></script>
+<link rel="manifest" href="/manifest.json">
+<script type="text/javascript">
+//a general 'js' detection, must be on top level in <head>, due to CSS performance
+document.documentElement.className = "js";
+var cacheBuster = "382";
+var appBaseUrl = "/";
+var imgEnhancerBreakpoints = [0, 144, 256, 408, 650, 1023, 1597];
+var isLoggingEnabled = false;
+var isPreviewPage = false;
+var isLivePreviewPage = false;
+if (!isPreviewPage) {
+window.RFE = window.RFE || {};
+window.RFE.cacheEnabledByParam = window.location.href.indexOf('nocache=1') === -1;
+const url = new URL(window.location.href);
+const params = new URLSearchParams(url.search);
+// Remove the 'nocache' parameter
+params.delete('nocache');
+// Update the URL without the 'nocache' parameter
+url.search = params.toString();
+window.history.replaceState(null, '', url.toString());
+} else {
+window.addEventListener('load', function() {
+const links = window.document.links;
+for (let i = 0; i < links.length; i++) {
+links[i].href = '#';
+links[i].target = '_self';
+}
+})
+}
+// Iframe & Embed detection
+var embedProperties = {};
+try {
+// Reliable way to check if we are in an iframe.
+var isIframe = window.self !== window.top;
+embedProperties.is_iframe = isIframe;
+if (!isIframe) {
+embedProperties.embed_context = "main";
+} else {
+// We are in an iframe. Let's try to access the parent.
+// This access will only fail with strict cross-origin (without document.domain).
+var parentLocation = window.top.location;
+// The access succeeded. Now we explicitly compare the hostname.
+if (window.location.hostname === parentLocation.hostname) {
+embedProperties.embed_context = "embed_self";
+} else {
+// Hostname is different (e.g. different subdomain with document.domain)
+embedProperties.embed_context = "embed_cross";
+}
+// Since the access works, we can safely get the details.
+embedProperties.url_parent = parentLocation.href;
+embedProperties.title_parent = window.top.document.title;
+}
+} catch (err) {
+// We are in an iframe, and an error occurred, probably due to cross-origin restrictions.
+embedProperties.is_iframe = true;
+embedProperties.embed_context = "embed_cross";
+// We cannot access the properties of window.top.
+// `document.referrer` can sometimes provide the URL of the parent page.
+// It is not 100% reliable, but it is the best we can do in this situation.
+embedProperties.url_parent = document.referrer || null;
+embedProperties.title_parent = null; // We can't get to the title in a cross-origin scenario.
+}
+var pwaEnabled = false;
+var swCacheDisabled;
+</script>
+<meta charset="utf-8" />
+<title>Субботнее интервью. Михаил Герштейн</title>
+<meta name="description" content="Андрей Трухан: Гость нашей субботней программы Михаил Герштейн – председатель уфологической комиссии Русского географического общества, главный редактор электронного бюллетеня &quot;УфоНавигатор&quot; международного центра уфлогических исследований и академии безопасности России, автор книг о феномене НЛО..." />
+<meta name="keywords" content="Архив 1997-2004" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="max-image-preview:large"><meta name="yandex-verification" content="b0c9281571f3c335" /><meta name="yandex-verification" content="18b059b061a56c18" /><meta name="yandex-verification" content="467654ae30b15a06" /> <script type="text/javascript"> (function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "qwvj9hjuis"); </script>
+<link href="https://www.svoboda.org/a/24188032.html" rel="canonical" />
+<meta name="apple-mobile-web-app-title" content="RFE/RL" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-itunes-app" content="app-id=478861937, app-argument=//24188032.ltr" />
+<meta content="Субботнее интервью. Михаил Герштейн" property="og:title" />
+<meta content="Андрей Трухан: Гость нашей субботней программы Михаил Герштейн – председатель уфологической комиссии Русского географического общества, главный редактор электронного бюллетеня &quot;УфоНавигатор&quot; международного центра уфлогических исследований и академии безопасности России, автор книг о феномене НЛО..." property="og:description" />
+<meta content="article" property="og:type" />
+<meta content="https://www.svoboda.org/a/24188032.html" property="og:url" />
+<meta content="Радио Свобода" property="og:site_name" />
+<meta content="https://www.facebook.com/radiosvoboda" property="article:publisher" />
+<meta content="https://www.svoboda.org/Content/responsive/RFE/ru-RU/img/top_logo_news.png" property="og:image" />
+<meta content="1200" property="og:image:width" />
+<meta content="675" property="og:image:height" />
+<meta content="site logo" property="og:image:alt" />
+<meta content="322210431200953" property="fb:app_id" />
+<meta content="Андрей Трухан" name="Author" />
+<meta content="summary_large_image" name="twitter:card" />
+<meta content="@SvobodaRadio" name="twitter:site" />
+<meta content="https://www.svoboda.org/Content/responsive/RFE/ru-RU/img/top_logo_news.png" name="twitter:image" />
+<meta content="Субботнее интервью. Михаил Герштейн" name="twitter:title" />
+<meta content="Андрей Трухан: Гость нашей субботней программы Михаил Герштейн – председатель уфологической комиссии Русского географического общества, главный редактор электронного бюллетеня &quot;УфоНавигатор&quot; международного центра уфлогических исследований и академии безопасности России, автор книг о феномене НЛО..." name="twitter:description" />
+<link rel="amphtml" href="https://www.svoboda.org/amp/24188032.html" />
+<script type="application/ld+json">{"articleSection":"Архив 1997-2004","isAccessibleForFree":true,"headline":"Субботнее интервью. Михаил Герштейн","inLanguage":"ru-RU","keywords":"Архив 1997-2004","author":{"@type":"Person","url":"https://www.svoboda.org/author/андрей-трухан/rprmm","description":"","image":{"@type":"ImageObject","url":"https://gdb.rferl.org/27e94d79-6b55-4212-b878-b68f3624dfa3.jpg"},"name":"Андрей Трухан"},"datePublished":"2003-05-31 12:00:00Z","dateModified":"2011-05-23 15:23:03Z","publisher":{"logo":{"width":512,"height":220,"@type":"ImageObject","url":"https://www.svoboda.org/Content/responsive/RFE/ru-RU/img/logo.png"},"@type":"NewsMediaOrganization","url":"https://www.svoboda.org","sameAs":["https://www.facebook.com/radiosvoboda","https://twitter.com/SvobodaRadio","http://bit.ly/2vQLCnh","https://t.me/radiosvoboda","https://www.instagram.com/radiosvoboda/"],"name":"Радио Свобода","alternateName":"Радио Свобода"},"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":"https://www.svoboda.org/a/24188032.html","url":"https://www.svoboda.org/a/24188032.html","description":"Андрей Трухан: Гость нашей субботней программы Михаил Герштейн – председатель уфологической комиссии Русского географического общества, главный редактор электронного бюллетеня \u0022УфоНавигатор\u0022 международного центра уфлогических исследований и академии безопасности России, автор книг о феномене НЛО...","image":{"width":1080,"height":608,"@type":"ImageObject","url":"https://gdb.rferl.org/00000000-0000-0000-0000-000000000000_w1080_h608.gif"},"name":"Субботнее интервью. Михаил Герштейн"}</script>
+<script src="/Scripts/responsive/infographics.b?v=dVbZ-Cza7s4UoO3BqYSZdbxQZVF4BOLP5EfYDs4kqEo1&amp;av=0.0.0.0&amp;cb=382"></script>
+<script src="/Scripts/responsive/loader.b?v=-DFswp_EC2uZw3Oxn_v-cVTLINi_j28CeKgxsXcFnDw1?&amp;av=0.0.0.0&amp;cb=382"></script>
+<link rel="icon" type="image/svg+xml" href="/Content/responsive/RFE/img/webApp/favicon.svg" />
+<link rel="alternate icon" href="/Content/responsive/RFE/img/webApp/favicon.ico" />
+<link rel="mask-icon" color="#ea6903" href="/Content/responsive/RFE/img/webApp/favicon_safari.svg" />
+<link rel="apple-touch-icon" sizes="152x152" href="/Content/responsive/RFE/img/webApp/ico-152x152.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/Content/responsive/RFE/img/webApp/ico-144x144.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/Content/responsive/RFE/img/webApp/ico-114x114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/Content/responsive/RFE/img/webApp/ico-72x72.png" />
+<link rel="apple-touch-icon-precomposed" href="/Content/responsive/RFE/img/webApp/ico-57x57.png" />
+<link rel="icon" sizes="192x192" href="/Content/responsive/RFE/img/webApp/ico-192x192.png" />
+<link rel="icon" sizes="128x128" href="/Content/responsive/RFE/img/webApp/ico-128x128.png" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/Content/responsive/RFE/img/webApp/ico-144x144.png" />
+<link rel="preload" href="/Content/responsive/fonts/Skolar-Lt_Cyrl_v2.4.woff" type="font/woff" as="font" crossorigin="anonymous" />
+<link rel="alternate" type="application/rss+xml" title="RFE/RL - Top Stories [RSS]" href="/api/" />
+<link rel="sitemap" type="application/rss+xml" href="/sitemap.xml" />
+<script type="text/javascript">
+var analyticsData = Object.assign(embedProperties, {url:"https://www.svoboda.org/a/24188032.html",property_id:"414",article_uid:"24188032",page_title:"Субботнее интервью. Михаил Герштейн",page_type:"article",content_type:"article",subcontent_type:"article",last_modified:"2011-05-23 15:23:03Z",pub_datetime:"2003-05-31 12:00:00Z",section:"архив 1997-2004",english_section:"archive_1997_2004",byline:"Андрей Трухан",categories:"archive_1997_2004",domain:"www.svoboda.org",language:"Russian",language_service:"RFERL Russian",platform:"web",copied:"no",copied_article:"",copied_title:"",runs_js:"Yes",cms_release:"8.46.0.0.382",enviro_type:"prod",slug:"",entity:"RFE",short_language_service:"RU",platform_short:"W",page_name:"Субботнее интервью. Михаил Герштейн"});
+// Push Analytics data as GTM message (without "event" attribute and before GTM initialization)
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push(analyticsData);
+</script>
+<script type="text/javascript" data-cookiecategory="analytics">
+var gtmEventObject = {event: 'page_meta_ready'};window.dataLayer = window.dataLayer || [];window.dataLayer.push(gtmEventObject);
+var renderGtm = "true";
+if (renderGtm === "true") {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WXZBPZ');
+}
+</script>
+</head>
+<body class=" nav-no-loaded cc_theme pg-article pg-article--single-column print-lay-article use-sticky-share nojs-images ">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WXZBPZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script type="text/javascript" data-cookiecategory="analytics">
+var gtmEventObject = {event: 'page_meta_ready'};window.dataLayer = window.dataLayer || [];window.dataLayer.push(gtmEventObject);
+var renderGtm = "true";
+if (renderGtm === "true") {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WXZBPZ');
+}
+</script>
+<!--Analytics tag js version start-->
+<script type="text/javascript" data-cookiecategory="analytics">
+var utag_data = Object.assign({}, analyticsData, {pub_year:"2003",pub_month:"05",pub_day:"31",pub_hour:"12",pub_weekday:"Saturday"});
+if(typeof(TealiumTagFrom)==='function' && typeof(TealiumTagSearchKeyword)==='function') {
+var utag_from=TealiumTagFrom();var utag_searchKeyword=TealiumTagSearchKeyword();
+if(utag_searchKeyword!=null && utag_searchKeyword!=='' && utag_data["search_keyword"]==null) utag_data["search_keyword"]=utag_searchKeyword;if(utag_from!=null && utag_from!=='') utag_data["from"]=TealiumTagFrom();}
+if(window.top!== window.self&&utag_data.page_type==="snippet"){utag_data.page_type = 'iframe';}
+try{if(window.top!==window.self&&window.self.location.hostname===window.top.location.hostname){utag_data.platform = 'self-embed';utag_data.platform_short = 'se';}}catch(e){if(window.top!==window.self&&window.self.location.search.includes("platformType=self-embed")){utag_data.platform = 'cross-promo';utag_data.platform_short = 'cp';}}
+(function(a,b,c,d){ a="https://tags.svoboda.org/rferl-pangea/prod/utag.js"; b=document;c="script";d=b.createElement(c);d.src=a;d.type="text/java"+c;d.async=true; a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a); })();
+</script>
+<!--Analytics tag js version end-->
+<!-- Analytics tag management NoScript -->
+<noscript>
+<img style="position: absolute; border: none;" src="https://ssc.svoboda.org/b/ss/bbgprod,bbgentityrferl/1/G.4--NS/898694752?pageName=rfe%3aru%3aw%3aarticle%3a%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5%20%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.%20%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb%20%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd&amp;c6=%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5%20%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.%20%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb%20%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd&amp;v36=8.46.0.0.382&amp;v6=D=c6&amp;g=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;c1=D=g&amp;v1=D=g&amp;events=event1,event52&amp;c16=rferl%20russian&amp;v16=D=c16&amp;c5=archive_1997_2004&amp;v5=D=c5&amp;ch=%d0%90%d1%80%d1%85%d0%b8%d0%b2%201997-2004&amp;c15=russian&amp;v15=D=c15&amp;c4=article&amp;v4=D=c4&amp;c14=24188032&amp;v14=D=c14&amp;v20=no&amp;c17=web&amp;v17=D=c17&amp;mcorgid=518abc7455e462b97f000101%40adobeorg&amp;server=www.svoboda.org&amp;pageType=D=c4&amp;ns=bbg&amp;v29=D=server&amp;v25=rfe&amp;v30=414&amp;v105=D=User-Agent " alt="analytics" width="1" height="1" /></noscript>
+<!-- End of Analytics tag management NoScript -->
+<!--*** Accessibility links - For ScreenReaders only ***-->
+<section>
+<div class="sr-only">
+<h2>Ссылки для упрощенного доступа</h2>
+<ul>
+<li><a href="#content" data-disable-smooth-scroll="1">Вернуться к основному содержанию</a></li>
+<li><a href="#navigation" data-disable-smooth-scroll="1">Вернутся к главной навигации</a></li>
+<li><a href="#txtHeaderSearch" data-disable-smooth-scroll="1">Вернутся к поиску</a></li>
+</ul>
+</div>
+</section>
+<div class="fb-quote"></div>
+<div dir="ltr">
+<div id="page">
+<aside>
+<div class="c-lightbox overlay-modal">
+<div class="c-lightbox__intro">
+<h2 class="c-lightbox__intro-title"></h2>
+<button class="btn btn--rounded c-lightbox__btn c-lightbox__intro-next" title="Следующий">
+<span class="ico ico--rounded ico-chevron-forward"></span>
+<span class="sr-only">Следующий</span>
+</button>
+</div>
+<div class="c-lightbox__nav">
+<button class="btn btn--rounded c-lightbox__btn c-lightbox__btn--close" title="Закрыть">
+<span class="ico ico--rounded ico-close"></span>
+<span class="sr-only">Закрыть</span>
+</button>
+<button class="btn btn--rounded c-lightbox__btn c-lightbox__btn--prev" title="Предыдущий">
+<span class="ico ico--rounded ico-chevron-backward"></span>
+<span class="sr-only">Предыдущий</span>
+</button>
+<button class="btn btn--rounded c-lightbox__btn c-lightbox__btn--next" title="Следующий">
+<span class="ico ico--rounded ico-chevron-forward"></span>
+<span class="sr-only">Следующий</span>
+</button>
+</div>
+<div class="c-lightbox__content-wrap">
+<figure class="c-lightbox__content">
+<span class="c-spinner c-spinner--lightbox">
+<img src="/Content/responsive/img/player-spinner.png"
+alt="пожалуйста, подождите"
+title="пожалуйста, подождите" />
+</span>
+<div class="c-lightbox__img">
+<div class="thumb">
+<img src="" alt="" />
+</div>
+</div>
+<figcaption>
+<div class="c-lightbox__info c-lightbox__info--foot">
+<span class="c-lightbox__counter"></span>
+<span class="caption c-lightbox__caption"></span>
+</div>
+</figcaption>
+</figure>
+</div>
+<div class="hidden">
+<div class="content-advisory__box content-advisory__box--lightbox">
+<span class="content-advisory__box-text">На этом изображение содержится контент, который некоторые пользователи могут счесть шокирующим или оскорбительным</span>
+<button class="btn btn--transparent content-advisory__box-btn m-t-md" value="text" type="button">
+<span class="btn__text">
+Нажмите для просмотра
+</span>
+</button>
+</div>
+</div>
+</div>
+<div class="print-dialogue">
+<div class="container">
+<h3 class="print-dialogue__title section-head">Варианты печати:</h3>
+<div class="print-dialogue__opts">
+<ul class="print-dialogue__opt-group">
+<li class="form__group form__group--checkbox">
+<input class="form__check " id="checkboxImages" name="checkboxImages" type="checkbox" checked="checked" />
+<label for="checkboxImages" class="form__label m-t-md">Изображения</label>
+</li>
+<li class="form__group form__group--checkbox">
+<input class="form__check " id="checkboxMultimedia" name="checkboxMultimedia" type="checkbox" checked="checked" />
+<label for="checkboxMultimedia" class="form__label m-t-md">Мультимедиа</label>
+</li>
+</ul>
+<ul class="print-dialogue__opt-group">
+<li class="form__group form__group--checkbox">
+<input class="form__check " id="checkboxEmbedded" name="checkboxEmbedded" type="checkbox" checked="checked" />
+<label for="checkboxEmbedded" class="form__label m-t-md">Встроенный контент и реклама</label>
+</li>
+<li class="hidden">
+<input class="form__check " id="checkboxComments" name="checkboxComments" type="checkbox" />
+<label for="checkboxComments" class="form__label m-t-md">Комментарии</label>
+</li>
+</ul>
+</div>
+<div class="print-dialogue__buttons">
+<button class="btn btn--secondary close-button" type="button" title="Отменить">
+<span class="btn__text ">Отменить</span>
+</button>
+<button class="btn btn-cust-print m-l-sm" type="button" title="Распечатать">
+<span class="btn__text ">Распечатать</span>
+</button>
+</div>
+</div>
+</div>
+<div class="ctc-message pos-fix">
+<div class="ctc-message__inner">Ссылка была скопирована</div>
+</div>
+</aside>
+<div class="hdr-20 hdr-20--big">
+<div class="hdr-20__inner">
+<div class="hdr-20__max pos-rel">
+<div class="hdr-20__side hdr-20__side--primary d-flex">
+<label data-for="main-menu-ctrl" data-switcher-trigger="true" data-switch-target="main-menu-ctrl" class="burger hdr-trigger pos-rel trans-trigger" data-trans-evt="click" data-trans-id="menu">
+<span class="ico ico-close hdr-trigger__ico hdr-trigger__ico--close burger__ico burger__ico--close"></span>
+<span class="ico ico-menu hdr-trigger__ico hdr-trigger__ico--open burger__ico burger__ico--open"></span>
+<span class="burger__label">Проекты</span>
+</label>
+<div class="menu-pnl pos-fix trans-target" data-switch-target="main-menu-ctrl" data-trans-id="menu">
+<div class="menu-pnl__inner">
+<nav class="main-nav menu-pnl__item menu-pnl__item--first">
+<ul class="main-nav__list accordeon" data-analytics-tales="false" data-promo-name="link" data-location-name="nav,secnav">
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/programs" title="Программы" >Программы</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="https://www.svoboda.org/p/7451.html" title="Подкасты" >Подкасты</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/authors" title="Авторские проекты" data-item-name="responsive-authors" >Авторские проекты</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/quotations" title="Цитаты Свободы" data-item-name="quotes-of-liberty" >Цитаты Свободы</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/opinions" title="Мнения" data-item-name="opinions_resp" >Мнения</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/severrealii" title="Север.Реалии" data-item-name="sever.real" >Север.Реалии</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/sibreal" title="Сибирь.Реалии" data-item-name="sib.real" >Сибирь.Реалии</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/schedule/radio.html#live-now" title="Расписание вещания" >Расписание вещания</a>
+</li>
+<li class="main-nav__item">
+<a class="main-nav__item-name main-nav__item-name--link" href="/subscribe" title="Подпишитесь на рассылку" data-item-name="mail-list" >Подпишитесь на рассылку</a>
+</li>
+</ul>
+</nav>
+<div class="menu-pnl__item menu-pnl__item--social">
+<h5 class="menu-pnl__sub-head">Социальные сети</h5>
+<a href="https://www.facebook.com/radiosvoboda" title="Мы в Facebook" data-analytics-text="follow_on_facebook" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-facebook" target="_blank" rel="noopener">
+<span class="ico ico-facebook-alt ico--rounded"></span>
+</a>
+<a href="https://twitter.com/SvobodaRadio" title="Мы в Twitter" data-analytics-text="follow_on_twitter" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-twitter" target="_blank" rel="noopener">
+<span class="ico ico-twitter ico--rounded"></span>
+</a>
+<a href="http://bit.ly/2vQLCnh" title="Присоединяйтесь в Youtube" data-analytics-text="follow_on_youtube" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-youtube" target="_blank" rel="noopener">
+<span class="ico ico-youtube ico--rounded"></span>
+</a>
+<a href="https://t.me/radiosvoboda" title="Подпишитесь в Telegram" data-analytics-text="follow_on_telegram" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-telegram" target="_blank" rel="noopener">
+<span class="ico ico-telegram ico--rounded"></span>
+</a>
+<a href="https://www.instagram.com/radiosvoboda/" title="Подпишитесь на нашу страницу в Instagram" data-analytics-text="follow_on_instagram" class="btn btn--rounded btn--social-inverted menu-pnl__btn js-social-btn btn-instagram" target="_blank" rel="noopener">
+<span class="ico ico-instagram ico--rounded"></span>
+</a>
+</div>
+<div class="menu-pnl__item">
+<a href="/navigation/allsites" class="menu-pnl__item-link">
+<span class="ico ico-languages "></span>
+Все сайты РСЕ/РС
+</a>
+</div>
+</div>
+</div>
+<label data-for="top-search-ctrl" data-switcher-trigger="true" data-switch-target="top-search-ctrl" class="top-srch-trigger hdr-trigger">
+<span class="ico ico-close hdr-trigger__ico hdr-trigger__ico--close top-srch-trigger__ico top-srch-trigger__ico--close"></span>
+<span class="ico ico-search hdr-trigger__ico hdr-trigger__ico--open top-srch-trigger__ico top-srch-trigger__ico--open"></span>
+</label>
+<div class="srch-top srch-top--in-header" data-switch-target="top-search-ctrl">
+<div class="container">
+<form action="/s" class="srch-top__form srch-top__form--in-header" id="form-topSearchHeader" method="get" role="search"><label for="txtHeaderSearch" class="sr-only">Искать</label>
+<input type="text" id="txtHeaderSearch" name="k" placeholder="текст для поиска..." accesskey="s" value="" class="srch-top__input analyticstag-event" onkeydown="if (event.keyCode === 13) { FireAnalyticsTagEventOnSearch('search', $dom.get('#txtHeaderSearch')[0].value) }" />
+<button title="Искать" type="submit" class="btn btn--top-srch analyticstag-event" onclick="FireAnalyticsTagEventOnSearch('search', $dom.get('#txtHeaderSearch')[0].value) ">
+<span class="ico ico-search"></span>
+</button></form>
+</div>
+</div>
+<a href="/" class="main-logo-link">
+<img src="/Content/responsive/RFE/ru-RU/img/logo-compact.svg?cb=382" class="main-logo main-logo--comp" alt="site logo">
+<img src="/Content/responsive/RFE/ru-RU/img/logo.svg?cb=382" class="main-logo main-logo--big" alt="site logo">
+</a>
+</div>
+<div class="hdr-20__side hdr-20__side--secondary d-flex">
+<a href="/p/7451.html" title="подкасты" class="hdr-20__secondary-item" data-item-name="podcast">
+<span class="ico ico-podcast hdr-20__secondary-icon"></span>
+</a>
+<a href="/p/3022.html" title="Видео" class="hdr-20__secondary-item" data-item-name="video">
+<span class="ico ico-video hdr-20__secondary-icon"></span>
+</a>
+<a href="/s" title="Искать" class="hdr-20__secondary-item hdr-20__secondary-item--search" data-item-name="search">
+<span class="ico ico-search hdr-20__secondary-icon hdr-20__secondary-icon--search"></span>
+</a>
+<div class="hdr-20__secondary-item live-b-drop">
+<div class="live-b-drop__off">
+<a href="/live/audio/81" class="live-b-drop__link" title="Эфир" data-item-name="live">
+<span class="badge badge--live-btn badge--live">
+Эфир
+</span>
+</a>
+</div>
+<div class="live-b-drop__on hidden">
+<label data-for="live-ctrl" data-switcher-trigger="true" data-switch-target="live-ctrl" class="live-b-drop__label pos-rel">
+<span class="badge badge--live badge--live-btn">
+Эфир
+</span>
+<span class="ico ico-close live-b-drop__label-ico live-b-drop__label-ico--close"></span>
+</label>
+<div class="live-b-drop__panel" id="targetLivePanelDiv" data-switch-target="live-ctrl"></div>
+</div>
+</div>
+<div class="srch-bottom">
+<form action="/s" class="srch-bottom__form d-flex" id="form-bottomSearch" method="get" role="search"><label for="txtSearch" class="sr-only">Искать</label>
+<input type="search" id="txtSearch" name="k" placeholder="текст для поиска..." accesskey="s" value="" class="srch-bottom__input analyticstag-event" onkeydown="if (event.keyCode === 13) { FireAnalyticsTagEventOnSearch('search', $dom.get('#txtSearch')[0].value) }" />
+<button title="Искать" type="submit" class="btn btn--bottom-srch analyticstag-event" onclick="FireAnalyticsTagEventOnSearch('search', $dom.get('#txtSearch')[0].value) ">
+<span class="ico ico-search"></span>
+</button></form>
+</div>
+</div>
+<img src="/Content/responsive/RFE/ru-RU/img/logo-print.gif?cb=382" class="logo-print" loading="lazy" alt="site logo">
+<img src="/Content/responsive/RFE/ru-RU/img/logo-print_color.png?cb=382" class="logo-print logo-print--color" loading="lazy" alt="site logo">
+</div>
+</div>
+</div>
+<script>
+if (document.body.className.indexOf('pg-home') > -1) {
+var nav2In = document.querySelector('.hdr-20__inner');
+var nav2Sec = document.querySelector('.hdr-20__side--secondary');
+var secStyle = window.getComputedStyle(nav2Sec);
+if (nav2In && window.pageYOffset < 150 && secStyle['position'] !== 'fixed') {
+nav2In.classList.add('hdr-20__inner--big')
+}
+}
+</script>
+<div class="c-hlights c-hlights--breaking c-hlights--no-item" data-hlight-display="mobile,desktop">
+<div class="c-hlights__wrap container p-0">
+<div class="c-hlights__nav">
+<a role="button" href="#" title="Предыдущий">
+<span class="ico ico-chevron-backward m-0"></span>
+<span class="sr-only">Предыдущий</span>
+</a>
+<a role="button" href="#" title="Следующий">
+<span class="ico ico-chevron-forward m-0"></span>
+<span class="sr-only">Следующий</span>
+</a>
+</div>
+<span class="c-hlights__label">
+<span class="">Новость часа</span>
+<span class="switcher-trigger">
+<label data-for="more-less-1" data-switcher-trigger="true" class="switcher-trigger__label switcher-trigger__label--more p-b-0" title="Показать больше">
+<span class="ico ico-chevron-down"></span>
+</label>
+<label data-for="more-less-1" data-switcher-trigger="true" class="switcher-trigger__label switcher-trigger__label--less p-b-0" title="Свернуть">
+<span class="ico ico-chevron-up"></span>
+</label>
+</span>
+</span>
+<ul class="c-hlights__items switcher-target" data-switch-target="more-less-1">
+</ul>
+</div>
+</div> <div id="content">
+<main class="container">
+<div class="hdr-container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+<div class="row">
+<div class="col-category col-xs-12 col-md-8 col-md-offset-2"> <div class="category js-category">
+<a class="" href="/z/15463">Архив 1997-2004</a> </div>
+</div><div class="col-title col-xs-12 col-md-8 col-md-offset-2"> <h1 class="title pg-title">
+Субботнее интервью. Михаил Герштейн
+</h1>
+</div><div class="col-publishing-details col-xs-12 col-md-8 col-md-offset-2"> <div class="publishing-details ">
+<div class="links">
+<ul class="links__list">
+<li class="links__item">
+<a class="links__item-link" href="/author/андрей-трухан/rprmm" title="Андрей Трухан">Андрей Трухан</a>
+</li>
+</ul>
+</div>
+<div class="published">
+<span class="date" >
+<time pubdate="pubdate" datetime="2003-05-31T15:00:00+03:00">
+31 мая 2003
+</time>
+</span>
+</div>
+</div>
+</div><div class="col-xs-12 col-md-8 col-md-offset-2"> <div class="col-article-tools pos-rel article-share">
+<div class="col-article-tools__end">
+<div class="share--box">
+<div class="sticky-share-container" style="display:none">
+<div class="container">
+<a href="https://www.svoboda.org" id="logo-sticky-share">&nbsp;</a>
+<div class="pg-title pg-title--sticky-share">
+Субботнее интервью. Михаил Герштейн
+</div>
+<div class="sticked-nav-actions">
+<!--This part is for sticky navigation display-->
+<p class="buttons link-content-sharing p-0 ">
+<button class="btn btn--link btn-content-sharing p-t-0 " id="btnContentSharing" value="text" role="Button" type="" title="поделиться в других соцсетях">
+<span class="ico ico-share ico--l"></span>
+<span class="btn__text ">
+Поделиться
+</span>
+</button>
+</p>
+<aside class="content-sharing js-content-sharing js-content-sharing--apply-sticky content-sharing--sticky"
+role="complementary"
+data-share-url="https://www.svoboda.org/a/24188032.html" data-share-title="Субботнее интервью. Михаил Герштейн" data-share-text="">
+<div class="content-sharing__popover">
+<h6 class="content-sharing__title">Поделиться</h6>
+<button href="#close" id="btnCloseSharing" class="btn btn--text-like content-sharing__close-btn">
+<span class="ico ico-close ico--l"></span>
+</button>
+<ul class="content-sharing__list">
+<li class="content-sharing__item">
+<div class="ctc ">
+<input type="text" class="ctc__input" readonly="readonly">
+<a href="" js-href="https://www.svoboda.org/a/24188032.html" class="content-sharing__link ctc__button">
+<span class="ico ico-copy-link ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Скопировать ссылку</span>
+</a>
+</div>
+</li>
+<li class="content-sharing__item">
+<a href="https://facebook.com/sharer.php?u=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_facebook"
+title="Facebook" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-facebook ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Facebook</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://twitter.com/share?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;text=%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.+%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb+%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd"
+data-analytics-text="share_on_twitter"
+title="X (Twitter)" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-twitter ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">X (Twitter)</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://telegram.me/share/url?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_telegram"
+title="Telegram" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-telegram ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Telegram</span>
+</a>
+</li>
+<li class="content-sharing__item visible-xs-inline-block visible-sm-inline-block">
+<a href="whatsapp://send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item visible-md-inline-block visible-lg-inline-block">
+<a href="https://web.whatsapp.com/send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp_desktop"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="mailto:?body=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;subject=Субботнее интервью. Михаил Герштейн"
+title="Email"
+class="content-sharing__link ">
+<span class="ico ico-email ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Email</span>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="links">
+<p class="buttons link-content-sharing p-0 ">
+<button class="btn btn--link btn-content-sharing p-t-0 " id="btnContentSharing" value="text" role="Button" type="" title="поделиться в других соцсетях">
+<span class="ico ico-share ico--l"></span>
+<span class="btn__text ">
+Поделиться
+</span>
+</button>
+</p>
+<aside class="content-sharing js-content-sharing " role="complementary"
+data-share-url="https://www.svoboda.org/a/24188032.html" data-share-title="Субботнее интервью. Михаил Герштейн" data-share-text="">
+<div class="content-sharing__popover">
+<h6 class="content-sharing__title">Поделиться</h6>
+<button href="#close" id="btnCloseSharing" class="btn btn--text-like content-sharing__close-btn">
+<span class="ico ico-close ico--l"></span>
+</button>
+<ul class="content-sharing__list">
+<li class="content-sharing__item">
+<div class="ctc ">
+<input type="text" class="ctc__input" readonly="readonly">
+<a href="" js-href="https://www.svoboda.org/a/24188032.html" class="content-sharing__link ctc__button">
+<span class="ico ico-copy-link ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Скопировать ссылку</span>
+</a>
+</div>
+</li>
+<li class="content-sharing__item">
+<a href="https://facebook.com/sharer.php?u=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_facebook"
+title="Facebook" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-facebook ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Facebook</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://twitter.com/share?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;text=%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.+%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb+%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd"
+data-analytics-text="share_on_twitter"
+title="X (Twitter)" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-twitter ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">X (Twitter)</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://telegram.me/share/url?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_telegram"
+title="Telegram" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-telegram ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Telegram</span>
+</a>
+</li>
+<li class="content-sharing__item visible-xs-inline-block visible-sm-inline-block">
+<a href="whatsapp://send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item visible-md-inline-block visible-lg-inline-block">
+<a href="https://web.whatsapp.com/send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp_desktop"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="mailto:?body=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;subject=Субботнее интервью. Михаил Герштейн"
+title="Email"
+class="content-sharing__link ">
+<span class="ico ico-email ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Email</span>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<p class="link-print hidden-xs buttons p-0">
+<button class="btn btn--link btn-print p-t-0" onclick="if (typeof FireAnalyticsTagEvent === 'function') {FireAnalyticsTagEvent({ on_page_event: 'print_story' });}return false" title="(CTRL+P)">
+<span class="ico ico-print"></span>
+<span class="btn__text">Распечатать</span>
+</button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="body-container">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2">
+<div id="article-content" class="content-floated-wrap fb-quotable">
+<div class="wsw">
+<p /><em><strong>Андрей Трухан:</strong></em> Гость нашей субботней программы Михаил Герштейн – председатель уфологической комиссии Русского географического общества, главный редактор электронного бюллетеня &quot;УфоНавигатор&quot; международного центра уфлогических исследований и академии безопасности России, автор книг о феномене НЛО &quot;Заблудившиеся во времени&quot; и &quot;По ту сторону НЛО&quot;. С Михаилом Герштейном, главным уфологом России, беседует Ольга Писпанен.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Поводом к нашему сегодняшнему разговору послужили многократные сообщения в средствах массовой информации о том, что в Питере началось вторжение НЛО – буквально такие заголовки приводятся в газетах, также печатаются интервью сотнями очевидцев. Что говорят ученые по этому поводу?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> На самом деле ни один из ученых пока еще по этому поводу ничего не сказал. Потому что ученые, даже из Пулковской обсерватории предпочитают всех очевидцев отсылать к нам.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> В чем заключается ваша работа, ваше исследование?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> В первую очередь наше исследование заключается в том, чтобы как можно быстрее по горячим следам зафиксировать это самое явление, пока не выветрилось из памяти очевидцев. Если есть какие-то свидетельства материальные, то есть фотографии, видеозаписи, сделать копии. Все это дело как следует проанализировать, затем свериться с соответствующими службами – в первую очередь ПВО (туда тоже был послан запрос по поводу 28 марта), затем с аэропортом &quot;Пулково&quot;, где ведется радарная регистрация и сохраняются магнитные записи. В некоторых особо важных случаях нам приходится давать специальный запрос и когда появляется НЛО, всегда интересно, был ли он зафиксирован на радаре, потому что дает целую массу информации об объекте автоматически. Например, высота, дистанция до объекта от аэропорта &quot;Пулково&quot;, все это высчитывает пулковский радар автоматически.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Они с удовольствием с вами сотрудничают, дают вам всю информацию?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Они с нами сотрудничают, не скажу, что с большим удовольствием, потому что все-таки наши просьбы отвлекают от ежедневной работы в аэропорту. Но, тем не менее, начиная с 95-го года, у нас контакт налажен достаточно серьезно с аэропортом &quot;Пулково&quot;, с диспетчерским центром, с диспетчерской вышкой, есть телефон прямые. Так что если объект наблюдается, можно позвонить по мобильному телефону в аэропорт и специально посмотреть в ту сторону, радаром &quot;пощупать&quot;, что же это такое.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Возвращаясь к 28 марта, что это был за случай, почему так много очевидцев, и насколько часто это случается именно в этом районе?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Так много очевидцев данного случая, потому что, во-первых, объект был чрезвычайно яркий, а во-вторых, он висел на высоте три с половиной километра примерно, по приблизительным подсчетам. И поскольку его яркость была чрезвычайно велика, настолько, что, например, в одном из садоводств увидел это объект человек, который только что прошел операцию по зрению, у него глаукома, и он, несмотря на это, увидел этот объект, хотя практически ничего другого не видит. Можно по этому факту представить себе, какова была его яркость. Этот объект видели даже в Ломоносове, хотя он зависал над Карельским перешейком. Это порядка 80 километров по прямой, но, тем не менее, объект был увиден и там, причем настолько ярко, что все практически очевидцы, которые его видели, они его наблюдали. <br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> А в какое время суток обычно появляются неопознанные летающие объекты?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Обычное в темное время суток, но 28 марта этот объект появлялся трижды. Первое появление его было где-то примерно в 20 часов 25 минут. Затем он появился второй раз, но уже достаточно далеко – над Ладожским озером, в 9 часов с минутами, и третье его появление было в 23.07. И каждый раз он от получаса до 15 минут находился практически неподвижно, так, что его можно было совершенно спокойно рассмотреть, сбегать за видеокамерой. У нас есть в настоящий момент пять видеопленок, запечатлевших этот объект, и в ближайшее время, мы не сомневаемся, будет еще больше.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Чаще всего неопознанные летательные объекты появляются в районах нахождения ракетных установок, ядерных организаций, военных объектов. Этому есть какое-то объяснение?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Конечно, этому есть объяснение. В первую очередь потому, что это ключевые жизненно важные точки в любом обществе. И любая организация, любое общество, которое хочет изучить другое общество, должно в первую очередь контролировать вот эти точки жизненно важные. Так, кстати, было 28-го числа, потому что все места, где зависал этот объект, везде под ними были воинские части. Дело в том, что в первую чеченскую войну очень много сообщений приходило от людей, которые там воевали, от местных жителей, которые бежали из Грозного, что наблюдались неопознанные летающие объекты. Во время первого вторжения в Чечню наблюдались огненные шары, наблюдались объекты, причем, наблюдались они очень низко и, естественно, самые мрачные предположения рождали в головах очевидцев, что, дескать, появился красный шар, значит к большой крови. Фактически эти предположения оправдались в полной мере. К сожалению, после 97-го года мы перестали получать из Чечни сообщения, потому что там уже все разрушено, сообщать практически никому, все русскоязычное население оттуда бежало. Самое последнее письмо, которое мы получили, оно к нам пришло в 97-м году, точнее, его принесли родственники человека, который из-за инвалидности не смог из Чечни бежать. Он там остался один в полуразрушенной квартире, и когда он сидел в инвалидном кресле перед окном, ему пришлось дважды наблюдать пролет неопознанных летающих объектов над Грозным. Это его так потрясло, что он описал все это от руки, когда к нему приехали родственники в очередной раз вывозить его оттуда, он оттуда уезжать отказался, но передал письмо, чтобы его отправили к каким-нибудь уфологам. Поскольку они были из Петербурга, то уфологами, естественно, оказались мы.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Понятно, когда это массово, а когда единичный случай, приходит человек и говорит, что я видел летающую тарелку, как вы можете проверить его показания?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> На самом деле очень просто все это дело проверяется. Проще всего, когда есть независимые материальные свидетельства. То есть фотографии, видеозаписи и так далее, то есть есть возможность проверить, сопоставить. Во-вторых, существуют так называемые типичные признаки характерного НЛО, которые ни один серьезный уфолог не станет помещать в статье, чтобы они не стали руководством к действию для людей, которые хотят какую-то мистификацию устроить. И вот эти очень характерные черточки, если в описании свидетеля присутствуют, значит все в порядке, можно работать дальше. Если они отсутствуют или каким-то образом искажены, значит случай сомнительный, и его в лучшем случае положить в папку с надписью &quot;поискать других подтверждений&quot;.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Скажите, Михаил, а проводились ли исследования, как НЛО воздействует на человека, на живые организмы?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Такое исследование проводилось и, более того, сама тема изучения НЛО при советской власти по линии Академии наук и Министерства обороны она так и называлась: &quot;Изучение аномальных аэрокосмических объектов и их воздействие на технику, личный состав и так далее&quot;. То есть в первую очередь ученых и военных интересовало, какое воздействие оказывают эти объекты, физическое, психическое и так далее. В присутствии этих объектов выходят из строя двигатели автомобилей, гаснут лампочки, гаснут прожекторы. Кстати, в одной из военных частей был случай, когда пытались на НЛО навести прожектор, как только навели на него прожектор, он сразу погас. Полезли туда военные внутрь, перегорела лампа. Вывернули, вкрутили другую, опять направили прожектор на НЛО, лампа опять перегорает. И так шесть раз, пока им не надоело лампу менять, пока они не поняли, что еще так дальше и весь запас ламп к прожектору просто иссякнет. А НЛО висело спокойно в течение получаса. Они могли его достать в принципе чем угодно, если бы не побоялись стрелять. Хотя неизвестно, какой бы ответ последовал оттуда, если бы они попытались применить боевое оружие.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> А когда-нибудь пытались применить боевое оружие?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Да, пытались, но, как правило, все совершенно бесполезно было. В 84-м году, например, был случай на Каспии, когда пытались НЛО прижать к воде целое звено истребителей, а снизу этот объект подкарауливали вертолеты. Так он с такой легкостью уходил от истребителей на высоту, на которую они не могли летать, слишком низко к воде прижимался, а когда приближались вертолеты, наоборот, уходил свечой верх, так что не могли такой маневр повторить. В 89-м году, например, в Архангельской области был случай, когда неопознанный летающий объект приблизился к вышке одной из зон в поселке, и там по этому объекту пытались стрелять. Очевидцы из других вышек наблюдали как трассирующие пули, а в автомате у часового каждая десятая пуля была трассирующей, подлетали к этому объекту, делали зигзаг, возвращались на свою территорию и летели дальше. То есть защитное поле отклонило пулю от объекта и направило дальше, чтобы они не повредили никого, ничего.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Но если это летающий объект, это аппарат, это какая-то машина, она же должна терпеть аварии. Зафиксированы какие-то случаи крушения НЛО?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Безусловно, такие случаи были зафиксированы, и я бы даже сказал, что слухов о подобного рода историях чрезвычайно много. Настолько много, что они мне кажутся специально размноженными по определенному шаблону дезинформации. Чтобы забить историю о каком-то реальном крушении НЛО, просто выдумываются десятки ложных историй о крушениях НЛО и выбрасываются в обществе, в этой мешанине пойди найди тот единственный действительно реальный, который произошел. Могу сказать только то, что в конце 80-х годов очень сильно нашумел случай в Омской области, когда там упал некий неизвестный летательный аппарат, там оцепляли весь район, но что за аппарат упал, честно говоря, я не могу сказать, что это был инопланетный. Может это был какой-то секретный самолет, может быть ракета, но плотность сцепления, которая была там устроена, она впечатляла не только местных жителей, но и военных, которые случайно это наблюдали. Какой бы ни был секретный самолет, но такую массу военных нагнать туда для оцепления... Были случаи и в Соединенных Штатах, про них много слухов ходит, что были крушения НЛО. Но опять-таки это далеко, здесь ни пощупать, ни проверить. У нас в стране по крайней мере можно дотянуться до людей, которые хоть что-то видели, хоть что-то слышали, знают.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Ваши международные коллеги делятся с вами накопленным опытом, сведениями, которые они получили?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Безусловно, делятся, но в определенной степени. То есть уфология в принципе в очень многих западных странах является областью исследований, близко связанной с оборонкой. То есть они делятся только общедоступной информацией и той, которую можно совершенно спокойно почерпнуть, скажем, из западных газет, из западных журналов и так далее. А то, что накоплено действительно в ходе собственных исследований, а не из общедоступных источников, как правило, к нам не поступает.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Газеты пестрят интервью с контактерами, не только с очевидцами неопознанных летающих объектов, но и с людьми, которые, как они говорят, вступали в контакт с, как их называют, гуманоидами. Есть описания этих гуманоидов, как они выглядят, как они общаются. Российские уфологи имеют четко структурированные исследования по этой проблеме?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> На самом деле, если серьезно подходить к этой проблеме, то лично я за семь лет работы в газете &quot;Аномалия&quot; и в географическом обществе за десятилетие практических исследований с такими случаями сталкивался не более пяти раз. В очень многих случаях не было никаких ни дополнительных подтверждений, ни чего-либо еще, что могло бы позволить относиться к этим случаям достаточно серьезно. По крайней мере, сказать, что гуманоид просто в открытую прилетают, вступают в контакт и так далее, это было бы, мягко говоря, преждевременно. А что касается тех людей, которые получают телепатическую информацию откуда-то сверху, то я не встречал ни одного человека, к информации которого можно было бы относиться серьезно. Более того, у нас был опыт работы с привлечением независимого психиатра к подобного рода сообщениям. И ни один людей, который утверждал, что он общается с подобного рода существами телепатически, получают от них какие-то послания и так далее, ни один из них этого фильтра не прошел. На самом деле, когда происходит реальный контакт с НЛО, то на психику это фактически не воздействует, то есть человек остается нормальным, здравомыслящим и, более того, иногда не теряет своего скептицизма. Мне приходилось встречаться со случаями, когда человек продолжал не верить в НЛО, несмотря на то, что он его видел своими собственными глазами. Я ему говорю – а что же это тогда было? &quot;Ну не знаю, вертолет с огнями или какая-нибудь американская секретная машина или еще что-нибудь, а в вашего гуманоида все равно не верю&quot;.<br /><br /><p /><em><strong>Ольга Писпанен:</strong></em> Разработаны ли какие-то правила безопасности для общения с гуманоидами, либо для созерцания этих неопознанных летающих объектов?<br /><br /><p /><em><strong>Михаил Герштейн:</strong></em> Безусловно, правила безопасности существуют, и самое главное из них гласит, что к этим объектам приближаться, по крайней мере настолько, чтобы попасть в зону освещения, окружающее этот объект, не рекомендуется. Это то же самое, как подходить сзади к реактивному самолету с работающим мотором, то есть можно обжечься выхлопом очень здорово. И как в случае с реактивным самолетом пилот не замечает человека, подошедшего сзади к соплу очень неосторожно, точно так же и пилоты НЛО могут не заметить человека, и он может получить серьезные либо ожоги, либо травмы, либо ранения, может отбросить волной при старте. Может произойти практически все, что угодно. Но в большинстве этих случаев не было преднамеренного, злономнамеренного воздействия на человека. Это как несчастный случай, как дорожно-транспортное происшествие, как когда человек по собственной неосторожности палец в станок, и потом станок нечего винить – сам виноват.
+</div>
+<div class="footer-toolbar">
+<div class="share--box">
+<div class="sticky-share-container" style="display:none">
+<div class="container">
+<a href="https://www.svoboda.org" id="logo-sticky-share">&nbsp;</a>
+<div class="pg-title pg-title--sticky-share">
+Субботнее интервью. Михаил Герштейн
+</div>
+<div class="sticked-nav-actions">
+<!--This part is for sticky navigation display-->
+<p class="buttons link-content-sharing p-0 ">
+<button class="btn btn--link btn-content-sharing p-t-0 " id="btnContentSharing" value="text" role="Button" type="" title="поделиться в других соцсетях">
+<span class="ico ico-share ico--l"></span>
+<span class="btn__text ">
+Поделиться
+</span>
+</button>
+</p>
+<aside class="content-sharing js-content-sharing js-content-sharing--apply-sticky content-sharing--sticky"
+role="complementary"
+data-share-url="https://www.svoboda.org/a/24188032.html" data-share-title="Субботнее интервью. Михаил Герштейн" data-share-text="">
+<div class="content-sharing__popover">
+<h6 class="content-sharing__title">Поделиться</h6>
+<button href="#close" id="btnCloseSharing" class="btn btn--text-like content-sharing__close-btn">
+<span class="ico ico-close ico--l"></span>
+</button>
+<ul class="content-sharing__list">
+<li class="content-sharing__item">
+<div class="ctc ">
+<input type="text" class="ctc__input" readonly="readonly">
+<a href="" js-href="https://www.svoboda.org/a/24188032.html" class="content-sharing__link ctc__button">
+<span class="ico ico-copy-link ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Скопировать ссылку</span>
+</a>
+</div>
+</li>
+<li class="content-sharing__item">
+<a href="https://facebook.com/sharer.php?u=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_facebook"
+title="Facebook" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-facebook ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Facebook</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://twitter.com/share?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;text=%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.+%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb+%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd"
+data-analytics-text="share_on_twitter"
+title="X (Twitter)" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-twitter ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">X (Twitter)</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://telegram.me/share/url?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_telegram"
+title="Telegram" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-telegram ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Telegram</span>
+</a>
+</li>
+<li class="content-sharing__item visible-xs-inline-block visible-sm-inline-block">
+<a href="whatsapp://send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item visible-md-inline-block visible-lg-inline-block">
+<a href="https://web.whatsapp.com/send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp_desktop"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="mailto:?body=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;subject=Субботнее интервью. Михаил Герштейн"
+title="Email"
+class="content-sharing__link ">
+<span class="ico ico-email ico--rounded ico--s"></span>
+<span class="content-sharing__link-text">Email</span>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="links">
+<p class="buttons link-content-sharing p-0 ">
+<button class="btn btn--link btn-content-sharing p-t-0 " id="btnContentSharing" value="text" role="Button" type="" title="поделиться в других соцсетях">
+<span class="ico ico-share ico--l"></span>
+<span class="btn__text ">
+Поделиться
+</span>
+</button>
+</p>
+<aside class="content-sharing js-content-sharing " role="complementary"
+data-share-url="https://www.svoboda.org/a/24188032.html" data-share-title="Субботнее интервью. Михаил Герштейн" data-share-text="">
+<div class="content-sharing__popover">
+<h6 class="content-sharing__title">Поделиться</h6>
+<button href="#close" id="btnCloseSharing" class="btn btn--text-like content-sharing__close-btn">
+<span class="ico ico-close ico--l"></span>
+</button>
+<ul class="content-sharing__list">
+<li class="content-sharing__item">
+<div class="ctc ">
+<input type="text" class="ctc__input" readonly="readonly">
+<a href="" js-href="https://www.svoboda.org/a/24188032.html" class="content-sharing__link ctc__button">
+<span class="ico ico-copy-link ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Скопировать ссылку</span>
+</a>
+</div>
+</li>
+<li class="content-sharing__item">
+<a href="https://facebook.com/sharer.php?u=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_facebook"
+title="Facebook" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-facebook ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Facebook</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://twitter.com/share?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;text=%d0%a1%d1%83%d0%b1%d0%b1%d0%be%d1%82%d0%bd%d0%b5%d0%b5+%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e.+%d0%9c%d0%b8%d1%85%d0%b0%d0%b8%d0%bb+%d0%93%d0%b5%d1%80%d1%88%d1%82%d0%b5%d0%b9%d0%bd"
+data-analytics-text="share_on_twitter"
+title="X (Twitter)" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-twitter ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">X (Twitter)</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="https://telegram.me/share/url?url=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_telegram"
+title="Telegram" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-telegram ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Telegram</span>
+</a>
+</li>
+<li class="content-sharing__item visible-xs-inline-block visible-sm-inline-block">
+<a href="whatsapp://send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item visible-md-inline-block visible-lg-inline-block">
+<a href="https://web.whatsapp.com/send?text=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html"
+data-analytics-text="share_on_whatsapp_desktop"
+title="WhatsApp" target="_blank"
+class="content-sharing__link js-social-btn">
+<span class="ico ico-whatsapp ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">WhatsApp</span>
+</a>
+</li>
+<li class="content-sharing__item">
+<a href="mailto:?body=https%3a%2f%2fwww.svoboda.org%2fa%2f24188032.html&amp;subject=Субботнее интервью. Михаил Герштейн"
+title="Email"
+class="content-sharing__link ">
+<span class="ico ico-email ico--rounded ico--l"></span>
+<span class="content-sharing__link-text">Email</span>
+</a>
+</li>
+</ul>
+</div>
+</aside>
+<p class="link-print hidden-xs buttons p-0">
+<button class="btn btn--link btn-print p-t-0" onclick="if (typeof FireAnalyticsTagEvent === 'function') {FireAnalyticsTagEvent({ on_page_event: 'print_story' });}return false" title="(CTRL+P)">
+<span class="ico ico-print"></span>
+<span class="btn__text">Распечатать</span>
+</button>
+</p>
+</div>
+</div>
+</div>
+<ul class="authors-highlights">
+<li class="authors-highlights__item">
+<div class="c-author c-author--hlight">
+<div class="media-block d-flex">
+<a href="/author/андрей-трухан/rprmm" class="img-wrap img-wrap--xxs">
+<div class="thumb thumb1_1 rounded">
+<noscript class="nojs-img">
+<img src="https://gdb.rferl.org/27e94d79-6b55-4212-b878-b68f3624dfa3_cx0_cy38_cw0_w100_r5.jpg" alt="16x9 Image" class="avatar" />
+</noscript>
+<img alt="16x9 Image" class="avatar" data-src="https://gdb.rferl.org/27e94d79-6b55-4212-b878-b68f3624dfa3_cx0_cy38_cw0_w66_r5.jpg" src="" />
+</div>
+</a>
+<div class="c-author__content">
+<h4 class="media-block__title media-block__title--author">
+<a href="/author/андрей-трухан/rprmm">Андрей Трухан</a>
+</h4>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<footer role="contentinfo">
+<div id="foot" class="foot">
+<div class="container">
+<div class="foot-nav collapsed" id="foot-nav">
+<div class="menu">
+<ul class="items">
+<li class="socials block-socials">
+<span class="handler" id="socials-handler">
+Социальные сети
+</span>
+<div class="inner">
+<ul class="subitems follow">
+<li>
+<a href="https://www.facebook.com/radiosvoboda" title="Мы в Facebook" data-analytics-text="follow_on_facebook" class="btn btn--rounded js-social-btn btn-facebook" target="_blank" rel="noopener">
+<span class="ico ico-facebook-alt ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/SvobodaRadio" title="Мы в Twitter" data-analytics-text="follow_on_twitter" class="btn btn--rounded js-social-btn btn-twitter" target="_blank" rel="noopener">
+<span class="ico ico-twitter ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="http://bit.ly/2vQLCnh" title="Присоединяйтесь в Youtube" data-analytics-text="follow_on_youtube" class="btn btn--rounded js-social-btn btn-youtube" target="_blank" rel="noopener">
+<span class="ico ico-youtube ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="https://t.me/radiosvoboda" title="Подпишитесь в Telegram" data-analytics-text="follow_on_telegram" class="btn btn--rounded js-social-btn btn-telegram" target="_blank" rel="noopener">
+<span class="ico ico-telegram ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/radiosvoboda/" title="Подпишитесь на нашу страницу в Instagram" data-analytics-text="follow_on_instagram" class="btn btn--rounded js-social-btn btn-instagram" target="_blank" rel="noopener">
+<span class="ico ico-instagram ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="/rssfeeds" title="RSS" data-analytics-text="follow_on_rss" class="btn btn--rounded js-social-btn btn-rss" >
+<span class="ico ico-rss ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="/p/7451.html" title="Подкасты" data-analytics-text="follow_on_podcast" class="btn btn--rounded js-social-btn btn-podcast" >
+<span class="ico ico-podcast ico--rounded"></span>
+</a>
+</li>
+<li>
+<a href="/subscribe" title="подписаться" data-analytics-text="follow_on_subscribe" class="btn btn--rounded js-social-btn btn-email" >
+<span class="ico ico-email ico--rounded"></span>
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="block-primary collapsed collapsible item">
+<span class="handler">
+Радио Свобода
+<span title="close tab" class="ico ico-chevron-up"></span>
+<span title="open tab" class="ico ico-chevron-down"></span>
+<span title="add" class="ico ico-plus"></span>
+<span title="remove" class="ico ico-minus"></span>
+</span>
+<div class="inner">
+<ul class="subitems">
+<li class="subitem">
+<a class="handler" href="/a/28384275.html" title="Мобильное приложение" >Мобильное приложение</a>
+</li>
+<li class="subitem">
+<a class="handler" href="/a/28302488.html" title="Стипендия имени Петра Вайля" >Стипендия имени Петра Вайля</a>
+</li>
+<li class="subitem">
+<a class="handler" href="http://archive.svoboda.org" title="Архив 1997-2006" >Архив 1997-2006</a>
+</li>
+<li class="subitem">
+<a class="handler" href="/contact" title="Контакт" >Контакт</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="block-primary collapsed collapsible item">
+<span class="handler">
+Информация
+<span title="close tab" class="ico ico-chevron-up"></span>
+<span title="open tab" class="ico ico-chevron-down"></span>
+<span title="add" class="ico ico-plus"></span>
+<span title="remove" class="ico ico-minus"></span>
+</span>
+<div class="inner">
+<ul class="subitems">
+<li class="subitem">
+<a class="handler" href="/radio/" title="Как слушать" >Как слушать</a>
+</li>
+<li class="subitem">
+<a class="handler" href="/block" title="Как обойти блокировку" >Как обойти блокировку</a>
+</li>
+<li class="subitem">
+<a class="handler" href="/subscribe" title="Рассылка" >Рассылка</a>
+</li>
+<li class="subitem">
+<a class="handler" href="/copyright" title="Copyright" >Copyright</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="foot__item foot__item--copyrights">
+<p class="copyright">Радио Свобода © 2026 RFE/RL, Inc. | Все права защищены.</p>
+</div>
+</div>
+</div>
+</footer> </div>
+</div>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+if (!isPreviewPage) {
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(function(OneSignal) {
+OneSignal.init({
+appId: "c388ecc4-a620-4ca6-9bfa-2bee26973ff1",
+});
+});
+}
+</script>
+<script type="text/javascript">var narrationPlayer = document.querySelector('.narration-player');if (narrationPlayer) { window.clarity('event', 'narration_player_loaded');var mmp = narrationPlayer.querySelector('.aslp__mmp');if (mmp) {mmp.addEventListener('click', function() {var isPlay = narrationPlayer.querySelector('.aslp__control-ico--play.aslp__control-ico--swirl-in');if (isPlay) {window.clarity('event', 'narration_player_play_click');return;}window.clarity('event', 'narration_player_pause_click');});}}</script> <script defer src="/Scripts/responsive/serviceWorkerInstall.js?cb=382"></script>
+<script type="text/javascript">
+// opera mini - disable ico font
+if (navigator.userAgent.match(/Opera Mini/i)) {
+document.getElementsByTagName("body")[0].className += " can-not-ff";
+}
+// mobile browsers test
+if (typeof RFE !== 'undefined' && RFE.isMobile) {
+if (RFE.isMobile.any()) {
+document.getElementsByTagName("body")[0].className += " is-mobile";
+}
+else {
+document.getElementsByTagName("body")[0].className += " is-not-mobile";
+}
+}
+</script>
+<script src="/conf.js?x=382" type="text/javascript"></script>
+<div class="responsive-indicator">
+<div class="visible-xs-block">XS</div>
+<div class="visible-sm-block">SM</div>
+<div class="visible-md-block">MD</div>
+<div class="visible-lg-block">LG</div>
+</div>
+<script type="text/javascript">
+var bar_data = {
+"apiId": "24188032",
+"apiType": "1",
+"isEmbedded": "0",
+"culture": "ru-RU",
+"cookieName": "cmsLoggedIn",
+"cookieDomain": "www.svoboda.org"
+};
+</script>
+<div id="scriptLoaderTarget" style="display:none;contain:strict;"></div>
+</body>
+</html>

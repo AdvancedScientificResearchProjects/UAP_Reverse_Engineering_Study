@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Уникальность и повторяемость</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Уникальность и повторяемость" />
+<link href="/bitrix/templates/new/components/bitrix/news.detail/kolonka/style.css?17244404681474" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/new/components/bitrix/menu/new_ufocom_top/style.min.css?17244404684161" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/new/components/bitrix/news.line/left_menu/style.css?172444046836" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/new/components/bitrix/breadcrumb/new_hleb/style.min.css?1724440468448" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/new/template_styles.css?17780640549058" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script src="/bitrix/templates/new/components/bitrix/menu/new_ufocom_top/script.min.js?1724440468407"></script>
+
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/bitrix/templates/new/jscript/owl.carousel.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1F16RXM0HR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-1F16RXM0HR');
+    </script>
+</head>
+<body>
+<style>
+/* Верхнее меню: бургер и выезжающий рубрикатор */
+.topmenu-with-burger { display: flex; align-items: flex-start; flex-wrap: nowrap; width: 100%; }
+.topmenu-menu-wrap { flex: 1; min-width: 0; }
+#topmenu .topmenu-menu-wrap #horizontal-multilevel-menu { width: 100%; }
+.rubric-burger { flex-shrink: 0; display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 40px; height: 34px; margin: 0 10px 0 0; padding: 0; border: none; border-radius: 4px; background: rgba(0,0,0,.12); cursor: pointer; box-sizing: border-box; }
+.rubric-burger:hover { background: rgba(0,0,0,.2); }
+.rubric-burger__bar { display: block; height: 3px; margin: 0 8px; border-radius: 1px; background: #fff; transition: transform .2s ease, opacity .2s ease; }
+.rubric-burger.is-open .rubric-burger__bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+.rubric-burger.is-open .rubric-burger__bar:nth-child(2) { opacity: 0; }
+.rubric-burger.is-open .rubric-burger__bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+body.rubric-drawer-open { overflow: hidden; }
+.rubric-drawer-overlay { position: fixed; z-index: 10050; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,.4); visibility: hidden; opacity: 0; transition: opacity .25s ease, visibility .25s ease; }
+.rubric-drawer-overlay.is-open { visibility: visible; opacity: 1; }
+.rubric-drawer { position: fixed; z-index: 10051; top: 0; left: 0; box-sizing: border-box; width: min(360px,90vw); max-width: 100%; height: 100%; background: #fff; box-shadow: 4px 0 20px rgba(0,0,0,.18); transform: translateX(-100%); transition: transform .28s ease; display: flex; flex-direction: column; }
+.rubric-drawer.is-open { transform: translateX(0); }
+.rubric-drawer__head { display: flex; flex-shrink: 0; align-items: center; justify-content: space-between; padding: 12px 14px; border-bottom: 1px solid #ccc; background: #f0f0f0; }
+.rubric-drawer__title { font-family: Arial,sans-serif; font-size: 14px; font-weight: bold; text-transform: uppercase; color: #4f4f4f; }
+.rubric-drawer__close { margin: 0; padding: 0 8px; border: none; background: none; font-size: 26px; line-height: 1; color: #666; cursor: pointer; }
+.rubric-drawer__close:hover { color: #000; }
+.rubric-drawer__body { flex: 1; overflow-y: auto; padding-bottom: 16px; }
+</style>
+<header>
+    <div id="header">
+        <div class="central">
+            <div id="logo">
+                <a href="/">
+                    <img id="logopic" src="/bitrix/templates/new/images/logo.png" alt="логотип">
+                </a>
+            </div>
+            <div id="search">
+                <form action="/search.php" class="search_form" method="get">
+                    <input name="q" class="search" type="text" placeholder="поиск">
+                    <input type="submit" class="sbutton" value="поиск">
+                    <a href="http://www.kosmopoisk.ru">
+                        <img src="/bitrix/templates/new/images/logo_kosmopoisk.png" alt="космопоиск">
+                    </a>
+
+                </form>
+            </div>
+            <div class="clear"></div>
+            <nav id="topmenu" class="topmenu-with-burger">
+                <button type="button" id="rubric-menu-toggle" class="rubric-burger" aria-expanded="false"
+                        aria-controls="rubric-drawer" title="Разделы сайта" aria-label="Открыть меню разделов">
+                    <span class="rubric-burger__bar" aria-hidden="true"></span>
+                    <span class="rubric-burger__bar" aria-hidden="true"></span>
+                    <span class="rubric-burger__bar" aria-hidden="true"></span>
+                </button>
+                <div class="topmenu-menu-wrap">
+                
+    <ul id="horizontal-multilevel-menu">
+
+    
+    
+    
+        
+                            <li><a href="/"
+                       class="root-item">Главная</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/about2/"
+                       class="root-item">Проект</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/publications/"
+                       class="root-item">Публикации</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/ufolenta/"
+                       class="root-item">"Уфолента"</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/books/"
+                       class="root-item">Книги</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/kolonka/"
+                       class="root-item-selected">Колонка исследователя</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="/observes/"
+                       class="root-item">Наблюдения</a>
+                </li>
+            
+        
+    
+    
+
+    
+    
+        
+                            <li><a href="http://www.ufocomm.ru"
+                       class="root-item">Форум</a>
+                </li>
+            
+        
+    
+    
+
+        <li style="background-color: #B1B1B1; margin-left: 40px;position: relative;top: -2px;">
+        <a href="/observes/reagirovanie.php" class="em_button" >
+            <img style="height: 19px;float: left;margin-right: 5px;" src="/bitrix/templates/new/images/megaphone.png" alt="наблюдения">
+            я очевидец!
+        </a>
+    </li>
+    <li style="background-color: #B1B1B1; margin-left: 40px;position: relative;top: -2px;">
+        <a href="/support.php" class="em_button" >
+            <img style="height: 19px;float: left;margin-right: 5px;" src="/uploads/png.png" alt="поддержать">
+            поддержать
+        </a>
+    </li>
+    </ul>
+    <div class="menu-clear-left"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="borderline"></div>
+</header>
+<div id="rubric-drawer-overlay" class="rubric-drawer-overlay" aria-hidden="true"></div>
+<aside id="rubric-drawer" class="rubric-drawer" aria-hidden="true" aria-labelledby="rubric-drawer-title">
+    <div class="rubric-drawer__head">
+        <span id="rubric-drawer-title" class="rubric-drawer__title">Разделы</span>
+        <button type="button" class="rubric-drawer__close" id="rubric-drawer-close" aria-label="Закрыть меню">&times;</button>
+    </div>
+    <div class="rubric-drawer__body">
+        <div class="left_item">
+            <div class="news-line">
+    <h2 class="left_h2">О нас</h2>
+    <ul>
+                                <li id="bx_4665576_5215"><a
+                        href="/about2/info5215.html">Кто мы</a><br/></li>
+                                <li id="bx_4665576_5303"><a
+                        href="/about2/info5303.html">Присоединиться</a><br/></li>
+                                <li id="bx_4665576_10424"><a
+                        href="/about2/info10424.html">Проекты Уфокома</a><br/></li>
+                                <li id="bx_4665576_8979"><a
+                        href="/about2/info8979.html">Наши книги</a><br/></li>
+                                            <li id="bx_4665576_5307"><a
+                        href="/about2/info5307.html">ЧаВо</a><br/></li>
+            </ul>
+</div>
+        </div>
+        <div class="left_item">
+            <div class="news-line">    <h2 class="left_h2" id="bx_1847241719_222">
+                                    <a style="text-decoration: none; color: #9B9B9B;cursor: default"
+                   href="#" onclick="return false;">Направления</a>
+            
+            </h2>
+
+            <ul class="bx_catalog_line_ul">
+                            <li id="bx_1847241719_217">
+
+                    <a href="/publications/list-of-poltergeist.html">Полтергейст</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_223">
+
+                    <a href="/publications/list-of-cryptozoo.html">Криптозоология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_218">
+
+                    <a href="/publications/list-of-diggers.html">Диггеры</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_226">
+
+                    <a href="/publications/list-of-astroarcheology.html">Астроархеология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_269">
+
+                    <a href="/publications/list-of-vampire.html">Вампирология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_273">
+
+                    <a href="/publications/list-of-ethnoufo.html">Историческая уфология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_270">
+
+                    <a href="/publications/list-of-socral.html">Сакральная география</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_1847241719_274">
+
+                    <a href="/publications/list-of-balllightning.html">Шаровая молния</a>                    <div style="clear: both;"></div>
+                    </li>        </ul>
+        </div>        </div>
+        <div class="left_item">
+            <div class="news-line">    <h2 class="left_h2" id="bx_4145281613_221">
+                                    <a style="text-decoration: none; color: #9B9B9B"
+                   href="/publications/"> Публикации</a>
+            
+            </h2>
+
+            <ul class="bx_catalog_line_ul">
+                            <li id="bx_4145281613_204">
+
+                    <a href="/publications/list-of-analitika.html">Аналитика</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_284">
+
+                    <a href="/publications/list-of-abnormalfolklore.html">Аномальный фольклор</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_210">
+
+                    <a href="/publications/list-of-methodologia.html">Методология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_211">
+
+                    <a href="/publications/list-of-investignations.html">Расследования</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_212">
+
+                    <a href="/publications/list-of-interview.html">Интервью</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_213">
+
+                    <a href="/publications/list-of-diskuss.html">Дискуссионное</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_214">
+
+                    <a href="/publications/list-of-mystifications.html">Мистификации</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_215">
+
+                    <a href="/publications/list-of-expeditions.html">Экспедиции</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_224">
+
+                    <a href="/publications/list-of-actions.html">Мероприятия</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_4145281613_216">
+
+                    <a href="/publications/list-of-results.html">Итоги</a>                    <div style="clear: both;"></div>
+                    </li>        </ul>
+        </div>        </div>
+        <div class="left_item">
+            <div class="news-line">    <h2 class="left_h2" id="bx_2148846299_0">
+                    <a style="text-decoration: none; color: #9B9B9B;"
+               href="https://www.ufo-com.net/ufolenta/">Уфолента</a>
+            </h2>
+
+            <ul class="bx_catalog_line_ul">
+                            <li id="bx_2148846299_201">
+
+                    <a href="/ufolenta/?SECTION_ID=201">Астрономия</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_225">
+
+                    <a href="/ufolenta/?SECTION_ID=225">Криптозоология</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_203">
+
+                    <a href="/ufolenta/?SECTION_ID=203">Курьезы</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_198">
+
+                    <a href="/ufolenta/?SECTION_ID=198">Мероприятия</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_200">
+
+                    <a href="/ufolenta/?SECTION_ID=200">НЛО и АЯ</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_268">
+
+                    <a href="/ufolenta/?SECTION_ID=268">Обзоры</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_202">
+
+                    <a href="/ufolenta/?SECTION_ID=202">Проблемное</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_196">
+
+                    <a href="/ufolenta/?SECTION_ID=196">Проекты</a>                    <div style="clear: both;"></div>
+                    </li>                <li id="bx_2148846299_199">
+
+                    <a href="/ufolenta/?SECTION_ID=199">Экспедиции</a>                    <div style="clear: both;"></div>
+                    </li>        </ul>
+        </div>        </div>
+    </div>
+</aside>
+<div class="central">
+    <div id="left_block">
+        <div class="left_item">
+            <a href="/about2/info8979.html">
+                <img style="width: 100%" src="/book.jpg" alt="Книги">
+            </a>
+            
+    <div class="left_column_publications" style="margin-top: 15px;">
+        <h2 class="left_h2 left_column_publications__title">
+            <a href="/publications/list-of-publications.html">Публикации</a>
+        </h2>
+                    <a class="left_column_publications__item" href="/publications/art-15181-sekrety-neyiyazvimosti.html">
+                                    <img
+                        class="left_column_publications__img"
+                        src="/upload/iblock/818/g9bqr0lrqlupasc40pytj98e221n9md2.jpg"
+                        alt="Секреты неуязвимости"
+                    >
+                                <span class="left_column_publications__name">Секреты неуязвимости</span>
+                <span class="left_column_publications__text">В житиях святых постоянно встречаются упоминания о том, что их не брал огонь или холодное оружие. Ес...</span>
+            </a>
+                    <a class="left_column_publications__item" href="/publications/art-15169-specnaz-protiv-gnomov.html">
+                                    <img
+                        class="left_column_publications__img"
+                        src="/upload/iblock/9da/g93nynuwzolxktetahjp4dj2zuv893z7.jpg"
+                        alt="Спецназ против гномов"
+                    >
+                                <span class="left_column_publications__name">Спецназ против гномов</span>
+                <span class="left_column_publications__text">Бен Тимберлейк объясняет, как галлюцинации военных в лесах Уэльса побудили его рассмотреть гипотезу...</span>
+            </a>
+                    <a class="left_column_publications__item" href="/publications/art-15154-maloizvestnye-epizody-istorii-mediumizma.html">
+                                    <img
+                        class="left_column_publications__img"
+                        src="/upload/iblock/5ef/it9ra9cr7pv7i4hnzoigz741c868hbdn.jpg"
+                        alt="Связные призрачной страны: малоизвестные эпизоды истории медиумизма"
+                    >
+                                <span class="left_column_publications__name">Связные призрачной страны: малоизвестные эпизоды истории медиумизма</span>
+                <span class="left_column_publications__text">«Есть ли жизнь на Марсе?» – вопрошал лектор из фильма Эльдара Рязанова «Карнавальная ночь». А есть л...</span>
+            </a>
+                    <a class="left_column_publications__item" href="/publications/art-15143-taina-letaushego-manaha.html">
+                                    <img
+                        class="left_column_publications__img"
+                        src="/upload/iblock/5fc/crrttvzprdbg91w8o2arz7wawknqq2ui.jpg"
+                        alt="Тайна летающего монаха"
+                    >
+                                <span class="left_column_publications__name">Тайна летающего монаха</span>
+                <span class="left_column_publications__text">Многие святые обладали способностью подниматься в воздух без крыльев и прочих приспособлений, когда...</span>
+            </a>
+            </div>
+            <h2 class="left_h2" style="margin-bottom: 10px;">
+                <a style="text-decoration: none; color: #9B9B9B;" href="/observes/map.php">Наблюдения</a>
+            </h2>
+            <a href="/observes/map.php">
+                <img style="width: 100%" src="/bitrix/templates/new/images/nabl.png" alt="Наблюдения">
+            </a>
+        </div>
+        <div class="left_item">
+                    </div>
+    </div>
+    <div id="right_block">
+        <div class="reklama2">
+            <div class="reklama_inner">
+    <a href="">
+        <picture>
+            <source data-srcset="" srcset="" type="image/jpeg">
+            <img alt="" class="lazyload img-responsive" data-src="" src="">
+        </picture>
+    </a>
+</div>
+        </div>
+        <link href="/bitrix/css/main/font-awesome.css?172444046128777" type="text/css" rel="stylesheet" />
+<div class="bx-breadcrumb">
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemref="bx_breadcrumb_1">
+				
+				<a href="/" title="Главная" itemprop="url">
+					<span itemprop="title">Главная</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_1" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="bx_breadcrumb_2">
+				<i class="fa fa-angle-right"></i>
+				<a href="/kolonka/" title="Колонка исследователя" itemprop="url">
+					<span itemprop="title">Колонка исследователя</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_2" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child">
+				<i class="fa fa-angle-right"></i>
+				<a href="/kolonka/mikhail-gershtein/" title="Михаил Герштейн" itemprop="url">
+					<span itemprop="title">Михаил Герштейн</span>
+				</a>
+			</div>
+			<div class="bx-breadcrumb-item" style="display: none;">
+				<i class="fa fa-angle-right"></i>
+				<span>Уникальность и повторяемость</span>
+			</div><div style="clear:both"></div></div>        <div id="main_content" class="dp">
+<div class="kolonka_pre">
+    <div class="pre_img">
+        <img src="/upload/iblock/9e1/Gershtein-new.png" alt="Михаил Герштейн">
+    </div>
+    <div class="pre_text">
+        <strong style="cursor: pointer" onclick="window.location.href='/kolonka/mikhail-gershtein/'">Михаил Герштейн</strong><br>
+        <span class="kolonka_info">писатель, журналист, уфолог <br />
+E-mail: <a class="txttohtmllink" href="mailto:ufo_miger@mail.ru" title="Написать письмо">ufo_miger@mail.ru</a></span>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="news-detail">
+        		<h1>Уникальность и повторяемость</h1>
+    
+                <mark>В ходе исторического поиска часто имеет значение не только само сообщение о чем-то аномальном, но и насколько оно типично, распространено во времени и в пространстве.</mark>
+<p>
+	В ходе исторического поиска часто имеет значение не только само сообщение о чем-то аномальном, но и насколько оно типично, распространено во времени и в пространстве. Если истории о каком-либо феномене повторяются десятилетиями, если не веками, и имеют хождение во многих странах, это является очень веским аргументом в пользу его реального существования или наличия стимула, порождающего у очевидцев подобные представления. Стимул этот, конечно, может иметь вполне объяснимую природу. Мы уже знаем, что истории о сражениях в небе могут быть своеобразно описанными северными сияниями, а падения метеоритов описывались с применением зоологических образов («упал змий»), или военных терминов. Вот типичный пример такого сообщения из Швеции за 1679 год:
+</p>
+<blockquote>
+	Над обозом свейским видение было что облака розделились и множество гранатных ядер от толе на низ пали, и в то же время на воздухе трижды стреляно, будто ис пушек, и для того у короля свейского и в иных местах сполох великий учинился, а в городе Христианстате ис пушек стреляли, потому что им виделось в городе, будто несколько в красных епанчах немецких к городу приближаются, а сие видение многие веры достойные люди видя подлинно нам объявили (С. М. Шамин. Чудеса в курантах времени правления Федора Алексеевича // Древняя Русь. 2001. № 4. с. 104).
+</blockquote>
+<p>
+	Автор статьи не указал точную дату, но, как и в других случаях, подробности можно почерпнуть в журнале «Extraordinaires Maanedlige Relationer» за февраль 1679 года:
+</p>
+<blockquote>
+	В Кристианстадте, Швеция, и в шведском лагере 20 февраля видели следующее знамение: среди дня небо казалось открывшимся и оттуда на землю упало много огненных ядер и гранат. Сразу после этого слышали много громких звуков, похожих на стрельбу из пушек. Они, похоже, донеслись от города Фьялкинге, подняв по тревоге размещенный там батальон... Видели и несколько отрядов, одетых в нечто вроде красных накидок, которые потом исчезли. Об этом рассказывают многие люди из тех мест.
+</blockquote>
+<p style="text-align: center;">
+	<img alt="2.jpg" src="/upload/medialibrary/e6f/2.jpg" title="2.jpg" width="800" height="571">
+</p>
+<p style="text-align: center;">
+	<b>Так изобразили падение метеорита в Хартфорде, Британия, 9 апреля 1628 г. </b>
+</p>
+<p>
+	В случае с метеоритами у нас нет сомнений, что это явление существует, но в других случаях уверенности может и не быть. Поэтому все однотипные случаи лучше всего собирать в отдельные «досье», чтобы оценить их количество, распространенность, время проявления и прочие черты. Когда количество таких сообщений переваливает за один-два десятка, картина начинает в общих чертах вырисовываться. В моем архиве собраны «досье» на экзотические явления, известные только узкому кругу исследователей. Я думаю, что про «полосы смерти», где все живое необъяснимым образом погибает в пределах ровной полосы, или об остановке часов одновременно в целом доме, на корабле или даже во всем городе мало кто слышал. Тем не менее такие истории не единичны, и их список, скорее всего, со временем расширится.
+</p>
+<p>
+	Гораздо сложнее иметь дело с событиями уникальными, которые встречаются лишь в одном источнике и не имеют аналогов. Попытка их проанализировать похожа на построение графика по одной точке. За примером мы далеко ходить не будем и возьмем его из памфлета за тот же 1679 год. Явление произошло 15 (25) апреля близ города Лемстер (ныне Леминстер или Леоминстер) в английском графстве Херефордшир:
+</p>
+<blockquote>
+	Первым ужасное явление увидел некто Банистер из Лемстера, который 15-го числа сего апреля шел между двумя городками – Стокхеном и Кимертоном. К своему великому изумлению, он увидел, что перед ним в нескольких шагах раскрылась земля; он долго, потрясенный, смотрел на нее, и наконец, к еще большему его удивлению, из зияющей дыры в земле показался круглый предмет голубого цвета, по форме напоминающий шар; безотрывно глядя на него, он увидел, что предмет движется вверх и возносится в воздух до тех пор, пока не скрылся из виду в покрывающих небо облаках. Весьма удивленный и едва доверяя глазам и прочим чувствам, он начал размышлять о странном явлении, не заснул ли он и не было ли видение дурным последствием плохого пищеварения или мозга, охваченного меланхолией, каковая часто подвергает людей подобным диким фантазиям и экстравагантным идеям, нарушающими их покой. Но сомнения длились недолго, так как последовали новые чудеса, раскрывающие тайну, и с величайшей гарантией, какая только может быть дана любому из смертных, убедили, что он бодрствует и полностью владеет своими чувствами. Дело было за час до заката; когда он смотрел на место, где случилось первое удивившее его явление, он ясно и отчетливо увидел, как земля снова начала открываться, и из этой жуткой пасти показалась рука и часть плеча размером с таковые у человека, возносясь в небо. Эти части были черного, траурного цвета и казалось, делали угрожающий жест; кисть руки была наполовину сжата. Под присягой он рассказал, что земля открывалась семь раз, и каждый раз оттуда выходила рука такого же цвета и, как и предыдущая, возносилась в небо, пока не исчезала из вида. <br>
+	 Чудеснейшее зрелище наполнило его еще большим изумлением нежели первое, так что осознание странности видений заняло у него некоторое время, но ему не слишком долго довелось развлекать пытливый ум серьезными размышлениями по причине испуга. А именно, пока он смотрел, земля снова открылась, и из этого широкого отверстия вышла вещь насыщенного кровавого цвета, похожая на седло. Земля открывалась шесть раз, исторгая эти похожие на седла вещи, которые точно так же возносились вверх, пока не скрывались из вида. <br>
+	 Пока все происходило, он оставался в 20 ярдах и набрался некоторой смелости, видя, что земля открывается столь часто, не причиняя ему никакого вреда; наконец, он осмелел до того, что подошел поближе к видениям и, если бы захотел, мог коснуться их, но, будучи неспособным сделать это, приблизился так, что признал в них твердые тела, а не что-то мнимое или парообразное; он сказал, что, по его мнению, если бы он коснулся вещей, они были бы ощутимы. <br>
+	 Весьма замечательно, что когда Банистер, придя домой, рассказал нескольким соседям о странных вещах, которые видел, каким образом и при каких обстоятельствах, отчего все они стояли потрясенные, трое из них, более заинтересованные рассказом, чем остальные, попросили Бога, что если такое явление на самом деле видели вечером, пусть им будет позволено увидеть это на следующее утро, после чего попросили Банистера пойти с ними и показать то место, на что он согласился. С величайшим терпением они ждали до утра. Придя на поле, эти трое человек, которых звали Хэмфри Лоуренс, Самуил Шоурд и г-н Корнел, увидели, как земля открывалась несколько раз и оттуда вылетали такие же предметы, как их ранее описывал Банистер. <br>
+	 В качестве дальнейшего доказательства истинности этой истории сообщается, что нескольким джентльменам из вышеупомянутого города Лемстер и окрестностей пришло в голову поохотиться на следующий день; ничего не зная о дивном явлении, они охотились большую часть утра, пока не прибыли на поле, где недавно происходили столь чудесные видения. Там, к немалому удивлению, в их уши ворвался жуткий военный шум, словно выстрелы из пушек; они также увидели ужасные, пугающие вспышки огня, исходящие из земли, каковые повергли их в столь великое изумление, что они оставили развлечение и с немалым смущением разъехались со всей возможной скоростью по своим домам, чтобы рассказать друзьям и соседям об увиденных чудесах (Strange news from Lemster in Herefordshire... L., 1679).
+</blockquote>
+<p style="text-align: center;">
+	<img alt="1.jpg" src="/upload/medialibrary/6da/1.jpg" title="1.jpg" width="543" height="766">
+</p>
+<p style="text-align: center;">
+	<b>Обложка памфлета «Странные новости из Лемстера...» </b>
+</p>
+<p>
+	Мы можем найти сколько угодно историй о том, как кто-то провалился под землю и исчез, начиная с Библии (например, Чис. 16:31-34), о том, как земля открывается и обратно закрывается, поглощая людей и предметы, но о вылете предметов из-под земли больше никто и никогда не сообщал. Остается только надеяться, что со временем станут известны и другие истории такого рода, или же специалисты по символике смогут понять скрытый в ней смысл. В те годы случалось, что тонкие политические намеки, которые из-за цензуры нельзя было напечатать открыто, маскировали под описание «небесного знамения». Современники быстро понимали, в чем дело, а мы в отрыве от культурного и социального контекста лишены такой возможности. Наглядный пример подобной маскировки – рассказ о «небесном знамении» 25 сентября (5 октября) 1679 г. в Ротвелле, графство Нортгемптоншир:
+</p>
+<blockquote>
+	Черное облако разошлось, и в воздухе появились три человека; стоящий по правую руку был одет, как священник. Они продвигались к большому и черному облаку и, дойдя до него, открыли оное руками; там показались вперемешку кровь, люди и доспехи, после чего из того же черного облака вышло человек 20 в знатных одеяниях, на которых первые три человека как бы лили кровь полными пригоршнями. Затем пред нами предстал очень сильный и величественный человек; первые трое будто бы выказали ему почтение, и тот улыбнулся им, и все на несколько минут застыли в подобном положении. Потом один из троицы подошел к этому человеку и как бы беседовал с ним; двое в то время зашли ему за спину и начали пачкать таким же образом, каким поливали тех 20 человек, а он будто не обращал внимания на это. Потом мы услышали разные звуки в воздухе – сначала похожие на одобрительные выкрики, затем стоны, словно умирающих людей, после чего увидели хаотическую смесь различных образов, сменяющих друг друга в небе: то львов, то ягнят, то львов и ягнят вперемешку. Поднявшийся свежий восточный ветер рассеял все образы и вернул небу глубокий покой. <br>
+	 Мы подписываемся в том, что все это правда, и если надо, готовы дать показания под присягой: Джон Хейс, констебль; Мэтью Пондер, церковный староста; Уильям Корниш; Томас Блокли, священник; Джон Аллен, эсквайр; Генри Хилл из Ротвелла, эсквайр, и Томас Стивенс. (Цит. по: Bucks Herald, Buckinghamshire, Feb. 23, 1861).
+</blockquote>
+<p>
+	Полагаю, что не нужно быть глубоким знатоком истории Британии, чтобы увидеть здесь отголоски борьбы между тори и вигами, то есть сторонниками короля и парламента, а также религиозных преследований католиков. Символика здесь предельно ясна, хотя мы и не можем с уверенностью назвать, кого имели в виду составители памфлета. Лев – символ трона и короля, ягненок (агнец) – символ Христа или искупительной жертвы. Подобные приемы мы встречаем и в российской пропаганде XVII века. Вот «знамение», которое якобы наблюдал в Петров пост 1608 года близ Переславль-Залесского думский дьяк Василий Телепнев:
+</p>
+<blockquote>
+	Той предреченный толмач немецкий Григорий Крапольский рече ми на пути о полудни в пост верховных апостол Петра и Павла: «Зриши ли, что на облацех небесных прямо нас?» Аз же, по поречению его, возрех велие, чудное и ужасное знамение, и рече ему: «Зрю, господине мой». Он же рече ми: «Чего зриши? рцы ми». <br>
+	 Аз же глагола ему: «Страшно, господине, знамение вельми зрю: льва, зверя зело превелика и пречудна, одесную страну стояща, а ошуюю страну прямо его недалече змия прелюта и прегорда стоящи неподвижно, а хощет яко един единого возхитити и разтерзати. А окрест льва великого множество зверей различными образы; змия же прелютаго окрест множество змий малых. И по колику времени нача видение то миноватися: змий окружишася выспрь ногами и нача по малу изчезати; лев же припаде на чрево и нача по малу убывати; и потом ни един невидим бысть, и прочие звери и змии тако ж невидими быша, и облака паки устроишася во своем естестве». <br>
+	 Предреченный же Григорий рече ми: «Разумевши ли сего видения знамение?» Аз же рече: «Ни, господине мой, отнюдь недоумеюся, но токмо ужасаюся». Он же нача глаголати ми и разсуждати: «Разумей, – рече, – сие есть знамение: Лев превеликий – то есть наш благочестивый христианские веры поборник, царь и великий князь Василий. Окрест же его зверие – его подручники, православнии народи сынове Росийскии, поборая с ним по правоверии. Змий же прелютый и прегордый – Тушинской царь, коварственный лживый царевич Димитрий. А окрест его множество змий – то споборатели с ним окояннии они богоотметнии языцы. Оба изгибше, лев и змий, и прочие окрест зверие и змии такожде – то есть показует вскоре обоим царем будет изменение и прекращение, а ни един кождого не одолеет» (Платонов С.Ф. Древнерусские сказания и повести о Смутном времени XVII века, как исторический источник. 2-е изд. СПб., 1913. С. 423–424).
+</blockquote>
+<p>
+	Еще более примитивной была замаскированная под «небесные знамения» пропаганда времен религиозных войн в Европе. Эта тема слишком обширна, чтобы касаться ее мельком, и заслуживает отдельной колонки. Здесь же мы лишь заметим, что уникальные события, как правило, более сомнительны, чем широко распространенные. Это не значит, что они не могли произойти: в истории науки известно немало явлений, которые отмечаются не каждый век, а то и тысячелетие. Когда Тихо Браге в 1572 году увидел на небосклоне сверхновую звезду, он не знал, что в последний раз такое событие наблюдали невооруженным глазом в 1181 году, или почти 400 лет назад. Возможно, лет через сто наши потомки увидят, как у них на глазах открывается земля и оттуда что-то улетает в небо.
+</p>
+<div onclick='window.location.href="/publications/art-6328-issledovanie-stolbcovskoi-astroblemy.html"' class='kolonka_vrezka'>
+<div class='kolonka_text1'>Также по теме</div> 
+<div class='kolonka_picture'><img src='/upload/iblock/347/ogzmei.jpg'></div>
+<div class='kolonka_anons'>Падение метеорита под Челябинском оживило интерес к одному из самых интересных расследований за всю историю нашей группы. В течении ряда лет Уфоком пытался распутать клубок загадок, который оставил нам Владимир Короткевич в своем произведении «Хрыстос прызямлiўся ў Гароднi». Итак, все началось с того, что «весной той, ночью – а видели это жители Мира, и Несвижа, и Слуцка, и Слонима, всех тех городов и весей – с шипением и свистом промчал по небу огненный змей с длинным ярким хвостом»…</div>
+<div class='clear'></div>
+</div>    	<div style="clear:both"></div>
+	<br />
+        	<div style="width: 100%;text-align: right">
+                		<span class="news-date-time"> 30.05.2021</span>
+
+        	</div>
+	<div>&nbsp;</div>
+	<div style="font-style: italic">
+		Если у вас есть дополнительная информация по этой публикации,
+		пишите нам на <a href="mailto:ufo-com@yandex.ru">ufo-com@yandex.ru</a>
+		Подписывайтесь на наш
+		<a href="https://t.me/ufocomm">телеграмм</a>
+		канал,
+		чтобы всегда быть в курсе событий. Если вам понравилась статья, вы можете
+        <a href="/support.php">поддержать наш проект</a>.
+	</div>
+	<div>&nbsp;</div>
+    </div>
+<div class="niz_block">
+	<div id="forum_link">
+        			Обсудить
+			<a class="forum_img" href="http://www.ufocomm.ru/topic/5229/">
+				5			</a>
+        	</div>
+	<div id="print_ver">
+		<a href="#" onclick='window.open("/kolonka/mikhail-gershtein/unikalnost-i-povtoryaemost/&print=y", "PrintWindow", "height=800,width=800,scrollbars=1");return false;'>
+			<img height="25" src="/bitrix/templates/new/images/print.png">
+		</a>
+	</div>
+	<div id="pdf_ver">
+		<a href="/getpdf.php?u=%2Fkolonka%2Fmikhail-gershtein%2Funikalnost-i-povtoryaemost%2F" >
+			<img height="25" src="/bitrix/templates/new/images/pdf.png">
+		</a>
+	</div>
+	<div id="vk">
+		<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+		<script src="//yastatic.net/share2/share.js"></script>
+		<div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,twitter,telegram,viber" data-counter=""></div>
+		<script>
+
+			var my_timer=setInterval(my_check,500);
+
+			function my_check()
+			{
+				if ($("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge > span.ya-share2__icon").length)
+				{
+					clearInterval(my_timer);
+					preob();
+				}
+			}
+			function preob() {
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge > span.ya-share2__icon").html('<img src="/bitrix/templates/new/images/vk.png" style="padding-top:3px" width="20" height="20">');
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_facebook > a > span.ya-share2__badge > span.ya-share2__icon").html('<img src="/bitrix/templates/new/images/facebook2.png" style="padding-top:3px" width="20" height="20">');
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_odnoklassniki > a > span.ya-share2__badge > span.ya-share2__icon").html('<img src="/bitrix/templates/new/images/ok.png"  style="padding-top:3px" width="20" height="20">');
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_twitter > a > span.ya-share2__badge > span.ya-share2__icon").html('<img src="/bitrix/templates/new/images/twitter.png" style="padding-top:3px" width="20" height="20">');
+
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a").attr('title','В контакте');
+				$("#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_odnoklassniki > a").attr('title','В контакте');
+
+			}
+		</script>
+	</div>
+</div>
+<style>
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge > span.ya-share2__icon,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_facebook > a > span.ya-share2__badge > span.ya-share2__icon,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_facebook > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_odnoklassniki > a > span.ya-share2__badge > span.ya-share2__icon,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_odnoklassniki > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_twitter > a > span.ya-share2__badge > span.ya-share2__icon,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_twitter > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible
+	{
+		background-color: #fff !important;
+		color: #000 !important;
+	}
+
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_facebook > a > span.ya-share2__badge > span.ya-share2__counter.ya-share2__counter_visible
+	{
+		background-image: url("/bitrix/templates/new/images/ramka.png");
+		/*background-position-y: -3px;*/
+		width: 24px;
+		height: 26px;
+		text-align: center;
+		background-color: #fff;
+		background-repeat: no-repeat;
+	}
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_vkontakte > a > span.ya-share2__badge,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_facebook > a > span.ya-share2__badge
+	{
+		background-color: #ffffff;
+	}
+
+	.ya-share2__item_service_telegram .ya-share2__badge,
+	.ya-share2__item_service_viber .ya-share2__badge
+	{
+		background-color: #848484;
+	}
+
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_telegram > a,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_viber > a
+	{
+		padding-top: 2px;
+	}
+
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_telegram > a > span.ya-share2__badge,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_viber > a > span.ya-share2__badge
+	{
+		height: 22px;
+		width: 22px;
+	}
+
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_telegram > a > span.ya-share2__badge > span,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_viber > a > span.ya-share2__badge > span
+	{
+		background-position-x: -2px;
+		background-position-y: -2px;
+	}
+
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_telegram,
+	#vk > div > div > ul > li.ya-share2__item.ya-share2__item_service_viber
+	{
+		margin-left: 4px;
+	}
+</style>
+
+<div class="breaker">&nbsp;</div>
+<div id="main_content">
+	<div class="news_block2">
+		<div class="left_block2">
+            <div class="news-list">
+		<div class="news-item" id="bx_3218110189_15292">
+									<a href="https://www.ufo-com.net/publications/art-15292-opasnie-poltergeisty-solechnaia-aktivnost.html"><img
+						class="preview_picture"
+						src="/upload/iblock/42e/7jemp202zt2iinec39ejsp7xxjjvpdix.jpg"
+						alt="Опасные полтергейсты и минимумы солнечной активности: все сложнее, чем кажется на первый взгляд"
+						title="Опасные полтергейсты и минимумы солнечной активности: все сложнее, чем кажется на первый взгляд"
+						style="float:left; width: 100%;height: 220px;margin-bottom: 10px;"
+						/></a>
+						<div style="padding: 10px">
+		<span class="section_name">
+			Полтергейст		</span>
+		<span class="forum_count">
+						<a href="http://www.ufocomm.ru/topic/21122/">
+				<img src="/bitrix/templates/new/images/comment2.png">
+				11</a>
+					</span>
+		<div class="clear"></div>
+									<strong><a href="https://www.ufo-com.net/publications/art-15292-opasnie-poltergeisty-solechnaia-aktivnost.html" class="news_name">Опасные полтергейсты и минимумы солнечной активности: все сложнее, чем кажется на первый взгляд</a></strong>
+												<div class="preview_text">В статье анализируются верифицированные случаи литоболических и огненных проявлений полтергейста за 2024–2025 гг. в контексте гипотезы об их обратной корреляции с уровнем солнечной активности, сформулированной на основе ретроспективных данных 23-го и 24-го солнечных циклов. Показано, что новые эмпирические данные не выявляют однозначной зависимости от фаз солнечного цикла и указывают на необходимость пересмотра и корректировки предложенной модели.</div>
+		
+					<div style="clear:both"></div>
+							</div>
+	</div>
+</div>
+		</div>
+		<div class="right_block2">
+            <div class="news-list">
+                	<div class="news-item" id="bx_651765591_15266">
+                    				<a href="https://www.ufo-com.net/publications/art-15266-obnovlenie-ikon-roslavlskom-uezde.html"><img
+						class="preview_picture"
+						src="/upload/iblock/134/xwr6j75eylnn9dpjo6j9es724fwu384q.jpg"
+						alt="Обновление икон в Рославльском уезде в 1923 г. в документах государственных и партийных органов"
+						title="Обновление икон в Рославльском уезде в 1923 г. в документах государственных и партийных органов"
+						style="float:left; width: 100%;height: 220px;margin-bottom: 10px;"
+						/></a>
+                    	<div style="padding: 10px">
+		<span class="section_name">
+			Аномальный фольклор		</span>
+		<span class="forum_count">
+						<a href="http://www.ufocomm.ru/topic/21098/">
+				<img src="/bitrix/templates/new/images/comment2.png">
+				1</a>
+            		</span>
+		<div class="clear"></div>
+                    				<strong><a href="https://www.ufo-com.net/publications/art-15266-obnovlenie-ikon-roslavlskom-uezde.html" class="news_name">Обновление икон в Рославльском уезде в 1923 г. в документах государственных и партийных органов</a></strong>
+                                    			<div class="preview_text">Статья посвящена анализу документов, в которых нашли отражение события, произошедшие в 1923 г. в Рославльском уезде Смоленской губернии. В нескольких деревнях произошли «чудеса» обновления икон, вызвавшие волну слухов и подъем религиозности населения. События привлекли внимание государственных и партийных коммунистических структур, которые были вынуждены принять меры по борьбе с всплеском религиозных настроений.</div>
+        
+        			<div style="clear:both"></div>
+                        	</div>
+	</div>
+    </div>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+        </div>
+
+<div class="clear"></div>
+<div class="footer">
+    <div class="central">
+        <div id="footer_block1">
+                    </div>
+        <div id="footer_block2">
+            <div class="social">
+    <div style="float: left;margin-right: 5px">
+        <a target="_blank" href="https://vk.com/belarusya_kosmopoisk">
+            <img src="/images/icons/vk.png" alt="vk">
+        </a>
+    </div>
+    <div style="float: left;margin-right: 5px">
+        <a target="_blank" href="https://www.youtube.com/user/illiabutov">
+            <img src="/images/icons/yt.png" alt="youtube">
+        </a>
+    </div>
+    <div style="float: left;margin-right: 5px">
+        <a target="_blank" href="https://t.me/ufocomm">
+            <img src="/images/icons/tg.png" alt="telegram">
+        </a>
+    </div>
+    <div style="float: left;margin-right: 5px">
+        <a target="_blank" href="https://www.instagram.com/ufocom.by/">
+            <img src="/images/icons/inst.png" alt="instagram">
+        </a>
+    </div>
+    <div style="float: left">
+        <a target="_blank" href="https://dzen.ru/id/5a67499ead0f229f0584c33c">
+            <img src="/images/icons/dz.png" alt="dzen">
+        </a>
+    </div>
+    <div style="clear: both"></div>
+</div>
+<div class="clear"></div>
+<div>
+    <!-- Yandex.Metrika informer -->
+    <a href="https://metrika.yandex.ru/stat/?id=44241104&amp;from=informer"
+       target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/44241104/3_0_CCCCCCFF_ACACACFF_1_pageviews"
+                                           style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="44241104" data-lang="ru" /></a>
+    <!-- /Yandex.Metrika informer -->
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(44241104, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/44241104" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+<!--LiveInternet counter-->
+<script type="text/javascript"><!--
+document.write("<a href='https://www.liveinternet.ru/click' "+
+"target=_blank><img src='https://counter.yadro.ru/hit?t18.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border=0 width=88 height=31><\/a>");//--></script>
+<!--/LiveInternet-->
+</div>
+        </div>
+        <div id="footer_block3">
+            <div>
+	© 2005-2026 УфоКом, <a href="mailto:ufo-com@yandex.ru">ufo-com@yandex.ru</a>. <br>
+    <!--Связь по телефонам: <a href="viber://add?number=375297471315">+37529-7471315 (Илья)</a> <br-->
+	Перепечатка, цитирование и тиражирование возможно только при условии обязательной прямой ссылки (гиперссылки) на сайт <a href="https://www.ufo-com.net">www.ufo-com.net</a>. УфоКом не несет ответственности за содержание &nbsp;<a href="https://www.ufo-com.net/artpromo/" style="color:white;text-decoration:none">рекламных объявлений</a>.<br><a href="/news/">Архив новостей</a>
+</div>
+<br>        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<script>
+jQuery(function ($) {
+    var $body = $('body');
+    var $toggle = $('#rubric-menu-toggle');
+    var $drawer = $('#rubric-drawer');
+    var $overlay = $('#rubric-drawer-overlay');
+    var $close = $('#rubric-drawer-close');
+
+    function openDrawer() {
+        $drawer.addClass('is-open');
+        $overlay.addClass('is-open');
+        $toggle.addClass('is-open');
+        $body.addClass('rubric-drawer-open');
+        $toggle.attr('aria-expanded', 'true');
+        $drawer.attr('aria-hidden', 'false');
+        $overlay.attr('aria-hidden', 'false');
+    }
+
+    function closeDrawer() {
+        $drawer.removeClass('is-open');
+        $overlay.removeClass('is-open');
+        $toggle.removeClass('is-open');
+        $body.removeClass('rubric-drawer-open');
+        $toggle.attr('aria-expanded', 'false');
+        $drawer.attr('aria-hidden', 'true');
+        $overlay.attr('aria-hidden', 'true');
+    }
+
+    $toggle.on('click', function (e) {
+        e.preventDefault();
+        if ($drawer.hasClass('is-open')) {
+            closeDrawer();
+        } else {
+            openDrawer();
+        }
+    });
+    $overlay.on('click', closeDrawer);
+    $close.on('click', closeDrawer);
+    $drawer.on('click', 'a', function () {
+        closeDrawer();
+    });
+    $(document).on('keydown', function (e) {
+        if (e.key === 'Escape' || e.which === 27) {
+            closeDrawer();
+        }
+    });
+});
+</script>
+</body>
+</html>
