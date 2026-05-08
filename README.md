@@ -49,15 +49,16 @@
 9. [Track 7 — Corporate / Economic Analysis / Трек 7 — Корпоративный / экономический анализ](#track-7--трек-7--corporate--economic-analysis--корпоративный--экономический-анализ)
 10. [Track 8 — Cross-archive Synthesis / Трек 8 — Кросс-архивный синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез)
 11. [Track 9 — UAP Scientific Publications Corpus / Трек 9 — Корпус научных публикаций по UAP](#track-9--трек-9--uap-scientific-publications-corpus--корпус-научных-публикаций-по-uap)
-12. [Team / Команда](#research-team--исследовательская-команда)
-13. [Structure / Структура](#structure--структура)
-14. [Security / Безопасность](#security--безопасность)
-15. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
-16. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
-17. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
-18. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
-19. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
-20. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
+12. [Track 10 — Gershtein Archive / Трек 10 — Архив Герштейна](#track-10--трек-10--gershtein-archive--архив-герштейна)
+13. [Team / Команда](#research-team--исследовательская-команда)
+14. [Structure / Структура](#structure--структура)
+15. [Security / Безопасность](#security--безопасность)
+16. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
+17. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
+18. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
+19. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
+20. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
+21. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
 
 ---
 
@@ -85,7 +86,7 @@ README ниже — это **навигационный хаб**: индекс �
 
 | Track / Трек | Subject / Предмет | Status / Статус | Lead file / Главный файл |
 |---|---|---|---|
-| **1. Artifact investigation / Исследование артефакта** | UAP-FRAG-001 ECP+AI multi-pipeline / мульти-конвейер КП+ИИ для UAP-FRAG-001 | ACTIVE / АКТИВНО | (see Track 1 sections below / см. разделы Трека 1 ниже) |
+| **1. Artifact investigation / Исследование артефакта** | UAP-FRAG-001 ECP+AI multi-pipeline / мульти-конвейер КП+ИИ для UAP-FRAG-001 | Available / Доступно | (see Track 1 sections below / см. разделы Трека 1 ниже) |
 | **2. Bob Lazar archive / Архив Боба Лазара** | Lazar interview corpus 1989–2026 (S-4, element 115, gravity propulsion) / Корпус интервью Лазара 1989–2026 (S-4, элемент 115, гравитационная силовая установка) | Available / Доступно | [`bob-lazar-archive/README.md`](bob-lazar-archive/README.md) |
 | **3. Vadim Chernobrov archive / Архив Вадима Черноброва** | Kosmopoisk Russian field research 1988–2017 (time-machine, anomalous zones) / Космопоиск, российские полевые исследования 1988–2017 (машина времени, аномальные зоны) | Available / Доступно | [`chernobrov-archive/README.md`](chernobrov-archive/README.md) |
 | **4. Dubna / Element 115 / Дубна / Элемент 115** | ASRP.media JINR+LLNL interview, moscovium synthesis 2003 / Интервью ASRP.media с ОИЯИ+LLNL, синтез московия 2003 | Available / Доступно | [`dubna-element-115-analysis/README.md`](dubna-element-115-analysis/README.md) |
@@ -94,6 +95,7 @@ README ниже — это **навигационный хаб**: индекс �
 | **7. Corporate / economic analysis / Корпоративный / экономический анализ** | EG&G → Amentum corporate genealogy + 4 engineering primes + 2 HSP-scanned Amentum executives + Honeywell + EG&G historical sub-units + 11-inventor patents inventory + theoretical-foundations sub-archive (Morgan / Frolov / scalar-vortex literature) / Корпоративная генеалогия EG&G → Amentum + 4 инженерных prime + 2 HSP-сканированных руководителя Amentum + Honeywell + исторические подразделения EG&G + инвентарь патентов 11 изобретателей + подархив теоретических основ (Morgan / Фролов / скаляр-вихрь) | Available / Доступно | [`corporate-economic-analysis/README.md`](corporate-economic-analysis/README.md) |
 | **8. Cross-archive synthesis / Кросс-архивный синтез** | Themes spanning multiple tracks / Темы, охватывающие несколько треков | Available / Доступно | [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md) |
 | **9. UAP scientific publications corpus / Корпус научных публикаций по UAP** | Public-source literature catalog: peer-reviewed UAP physics + social-science + government reports + observation-program technical outputs / Публично-источниковый каталог литературы: рецензируемая физика UAP + социальные науки + правительственные отчёты + технические выходы программ наблюдений | Available / Доступно | [`uap-scientific-publications/README.md`](uap-scientific-publications/README.md) |
+| **10. Gershtein archive / Архив Герштейна** | Mikhail Gershtein interview corpus (~62 interviews), Soviet UAP research programs, plasma phenomena, NDE/UAP cross-references / Корпус интервью Михаила Герштейна (~62 интервью), советские UAP-программы, плазменные явления, кросс-ссылки NDE/UAP | Available / Доступно | [`gershtein-archive/README.md`](gershtein-archive/README.md) |
 
 **EN:** The tracks index above is the central navigation. Each track is independent — open the lead file to enter that track's primary material. All nine tracks are now active.
 
@@ -347,6 +349,19 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 **RU:** Публично-источниковый каталог литературы, консолидирующий рецензируемые работы по физике UAP + сенсорному анализу, рецензируемые социально-научные / историко-ufology работы, правительственные отчёты (ODNI/DNI, AARO, NASA), «серую литературу» (NIDS, AAWSAP/AATIP, собрание SCU), технические выходы программ наблюдений (Galileo Project, Hessdalen, UAPx). Инвентарь v6: **~37 записей провенанса** — 13 из v4-базовой линии (Kean, Pasulka, Eghigian, Wendt-Duvall, NASA UAP 2023, ODNI 2021-2024, публичные отчёты AARO, работы Hessdalen, FLIR-анализы Nimitz, опорные работы Galileo Project, собрание работ SCU, плюс 2 кросс-ссылки на Track 7 theoretical-foundations) + 5 добавлений v5 цикла Банченко на Arcanum-12 + **17 HIGH-приоритетных добавлений v6 из аудита Perplexity-исследования** (веха Knuth 2025 PiAS, мультимодальные обсерватории Watters/Loeb/Laukien 2023, всенебесная ИК Galileo Domine 2025, UAPx Szydagis 2025, физика Nimitz Knuth/Powell/Reali 2019, POSS-I + ядерные Bruehl/Villarroel 2025, экологический анализ Medina/Brewer/Kirkpatrick 2023, атомный комплекс Grosvenor/Hancock/Porritt 2025, паттерны SCU Hancock 2023, материальные образцы Vallée 1998, изотопы Ubatuba Powell 2022, криминалистика Nimitz Powell 2019, матрица оценки Lomas 2025, изотопы PiAS Nolan/Vallée 2022, излучательная энергия PiAS Vallée/Dini/Mestchersky 2025, семинар AARO/AUI 2025, база GEIPAN) + **2 состязательно-балансирующих добавления v6** (Отчёт Кондона 1968, Архивы Blue Book ВВС США, включающие предшественников SIGN/GRUDGE/Twinkle). Корпус — **семенного уровня**, расширение v7+ запланировано (расширенный пулл eLibrary.ru / ResearchGate / Academia.edu; кросс-архивная интеграция конвейера изотопного анализа Трека 1 и фуэл-supply-chain Трека 7). НЕ валидирует каталогизированные утверждения; консолидирует их так, чтобы более широкое исследование могло ссылаться на стабильный регистр провенанса.
 
 **Lead file / Главный файл:** [`uap-scientific-publications/README.md`](uap-scientific-publications/README.md)
+
+---
+
+## TRACK 10 / ТРЕК 10 — Gershtein Archive / Архив Герштейна
+
+**EN:** Interview corpus of **Mikhail Gershtein** — Russian UAP-researcher — covering Soviet UAP research programs, plasma phenomena, and cross-references between near-death experiences (NDE) and UAP encounters. The archive contains ~62 interviews with transcripts, topical analyses, and selected articles and books. It complements Track 3 (Chernobrov) on the Russian-side observational lineage and feeds into the cross-archive synthesis (Track 8) on Soviet UAP-program substrate.
+
+**RU:** Корпус интервью **Михаила Герштейна** — российского UAP-исследователя — охватывающий советские UAP-программы, плазменные явления и кросс-ссылки между околосмертным опытом (NDE) и UAP-контактами. Архив содержит ~62 интервью с транскриптами, тематический анализ, избранные статьи и книги. Он дополняет Трек 3 (Чернобров) по российской наблюдательной линии и входит в кросс-архивный синтез (Трек 8) по советской UAP-программной подложке.
+
+- Interviews / Интервью: ~62
+- Cross-references / Кросс-ссылки: Track 3 (Chernobrov / Russian field research), Track 8 (cross-archive synthesis)
+
+**Lead file / Главный файл:** [`gershtein-archive/README.md`](gershtein-archive/README.md)
 
 ---
 
@@ -604,4 +619,4 @@ This research operates at the boundary of known science, experimental methodolog
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Research Tracks / Треки](#research-tracks--исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1--трек-1--artifact-investigation-uap-frag-001--исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2--трек-2--bob-lazar-archive--архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3--трек-3--vadim-chernobrov-archive--архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4--трек-4--dubna--element-115--дубна--элемент-115) · [Track 5 — OSINT](#track-5--трек-5--osint--intelligence-analysis--osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6--трек-6--people-analysis--анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7--трек-7--corporate--economic-analysis--корпоративный--экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#corporate-contact--корпоративные-контакты) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
+[Overview / Обзор](#overview--обзор) · [Research Tracks / Треки](#research-tracks--исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1--трек-1--artifact-investigation-uap-frag-001--исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2--трек-2--bob-lazar-archive--архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3--трек-3--vadim-chernobrov-archive--архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4--трек-4--dubna--element-115--дубна--элемент-115) · [Track 5 — OSINT](#track-5--трек-5--osint--intelligence-analysis--osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6--трек-6--people-analysis--анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7--трек-7--corporate--economic-analysis--корпоративный--экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез) · [Track 10 — Gershtein](#track-10--трек-10--gershtein-archive--архив-герштейна) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#corporate-contact--корпоративные-контакты) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)

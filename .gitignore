@@ -19,6 +19,10 @@ chernobrov-archive/ocr-pipeline/.venv/
 # Private / non-archive research scratchpad
 chernobrov-archive-tg/
 
+# Inbox: staging for incoming materials (voice messages, raw transcripts,
+# task drafts) — local-only, not for public archive
+_inbox/
+
 # Chernobrov archive: scripts, logs, and OCR pipeline build artifacts
 chernobrov-archive/*.py
 chernobrov-archive/*.sh
@@ -53,3 +57,7 @@ gershtein-archive/logs/
 gershtein-archive/.venv/
 gershtein-archive/wav_tmp/
 gershtein-archive/audio_chunks/
+gershtein-archive/analysis/_batches.json
+gershtein-archive/analysis/_filter_*.md
+gershtein-archive/analysis/**/_filter_*.md
+gershtein-archive/analysis/_map/
