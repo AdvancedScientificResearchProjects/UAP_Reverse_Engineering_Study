@@ -1,4 +1,4 @@
-# Gershtein corpus — gather summary
+# Gershtein corpus — gather summary / Сводка по сбору корпуса Герштейна
 
 Source: https://www.perplexity.ai/search/3533ca17-d2ab-4213-ad76-12cf61ee2f5f
 Date: 2026-05-07

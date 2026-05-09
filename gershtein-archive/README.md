@@ -4,9 +4,9 @@ A research archive of **Mikhail Borisovich Gershtein** (b. 27 July 1972), Russia
 
 Полный исследовательский архив материалов **Михаила Борисовича Герштейна** (р. 27 июля 1972 г.), русского уфолога, журналиста и писателя; последнего председателя Уфологической комиссии РГО (Санкт-Петербургское отделение). Тематическое покрытие: институциональная история уфологии в СССР и России, секретные программы **«Сетка», «Галактика», НИТ-3, НИТ-54**, тезис о связи НЛО с околосмертным опытом, гипотеза параллельных миров / мультивселенной, тема реинкарнации, контактёры, полтергейст, криптозоология, религиозные интерпретации аномальных явлений и методологическая критика «академической уфологии».
 
-**EN:** 62 Whisper-large-v3-turbo transcripts (2016–2026), 21 articles + 3 PDFs (incl. one self-authored 1 MB UAP-archive compendium), 10 book bibliography pages, 2 full book texts, complete Perplexity-dialog provenance with sha256 manifest. Master synthesis available: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
+**EN:** 62 Whisper-large-v3-turbo transcripts (2016–2026), 21 articles + 3 PDFs (incl. one self-authored 1 MB UAP-archive compendium), 8 book bibliography pages, 2 full book texts, complete Perplexity-dialog provenance with sha256 manifest. Master synthesis available: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
 
-**RU:** 62 транскрипции Whisper-large-v3-turbo (2016–2026), 21 статья и 3 PDF (включая 1 МБ собственный «Глобальный архив UAP-исследований» Герштейна), 10 книжных библиографических страниц, 2 полных книжных текста, полная провенанс-цепочка от Perplexity-диалога с манифестом sha256. Мастер-синтез доступен: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
+**RU:** 62 транскрипции Whisper-large-v3-turbo (2016–2026), 21 статья и 3 PDF (включая 1 МБ собственный «Глобальный архив UAP-исследований» Герштейна), 8 книжных библиографических страниц, 2 полных книжных текста, полная провенанс-цепочка от Perplexity-диалога с манифестом sha256. Мастер-синтез доступен: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
 
 **Note on transcription pipeline / Примечание о транскрипции:** The corpus was originally to be transcribed via Groq's hosted `whisper-large-v3` API; the per-hour audio rate-limit (7200 sec ASPH) was hit on chunk 7 of the first file. The pipeline was migrated mid-flight to a self-hosted PC2 build of `voxtype` running `whisper-large-v3-turbo` on a Vulkan-accelerated NVIDIA RTX 3060 Laptop GPU; all 62 mp3 files transcribed successfully there with zero failures over a single 3-hour wall-clock pass.
 
@@ -26,7 +26,7 @@ A research archive of **Mikhail Borisovich Gershtein** (b. 27 July 1972), Russia
 | Articles & PDFs / Статьи и PDF | Reviews of 21 articles + 3 PDFs / Ревью 21 статей и 3 PDF | [`analysis/articles/`](analysis/articles/) | ✅ Available (12 files) / Доступно (12 файлов) |
 | Books Analysis / Анализ книг | Bibliography + 2 full-text book extracts / Библиография и 2 полнотекстовые книги | [`analysis/books/`](analysis/books/) | ✅ Available (4 files) / Доступно (4 файла) |
 | External Research / Внешние исследования | Perplexity-dialog provenance + cross-archive links / Провенанс Perplexity-диалога и кросс-архивные связи | [`analysis/external-research/`](analysis/external-research/) | ⏳ Reserved for v0.6.x / Зарезервировано для v0.6.x |
-| Visual Diagrams / Визуальные схемы | Mermaid sources + rendered SVG/PNG / Исходники Mermaid и SVG/PNG | [`diagrams/`](diagrams/) | ⏳ Reserved for v0.6.x / Зарезервировано для v0.6.x |
+| Visual Diagrams / Визуальные схемы | Mermaid sources + rendered SVG/PNG / Исходники Mermaid и SVG/PNG | [`diagrams/`](diagrams/) | ✅ Available (5 Mermaid + 3 SVG + 5 PNG) / Доступно (5 Mermaid + 3 SVG + 5 PNG) |
 | QA Review / QA-ревью | Hallucination + cross-source audit / Аудит галлюцинаций и кросс-источников | `analysis/_map/` | ✅ Available (internal) / Доступно (внутренний рабочий каталог) |
 
 ---

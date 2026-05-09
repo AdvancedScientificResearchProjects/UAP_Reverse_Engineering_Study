@@ -70,8 +70,8 @@ E("phen-mg-three-i-atlas", "3I/ATLAS interstellar visitor (Oct 2025)", "phenomen
 
 E("src-mg-master-claims", "MASTER_gershtein_claims.md (v0.5.0, 2026-05-08)", "source",
   label_ru="MASTER_gershtein_claims.md (v0.5.0, 08.05.2026)",
-  description="Internal synthesis of 45 canonical interview/lecture transcripts + 22 articles + 14 books · 2547 lines · §0 source codes (81 deduplicated) · §§1–13 thematic claims with verdicts ✅ STRONG / ⚠ DRIFTED / ❌ RETRACTED / ⚪ ADJACENT · §11 catalogues 31+ contradictions and self-corrections · §12 cross-archive references (KOSMOPOISK / Chernobrov + Lazar narrow intersection)",
-  description_ru="Внутренний синтез 45 канонических интервью/лекций + 22 статьи + 14 книг · 2547 строк · §0 коды источников (81 дедуплицированный) · §§1–13 тематические заявления с вердиктами ✅ STRONG / ⚠ DRIFTED / ❌ RETRACTED / ⚪ ADJACENT · §11 каталогизирует 31+ противоречий и самокоррекций · §12 перекрёстные ссылки (КОСМОПОИСК / Чернобров + узкое пересечение с Лазаром)",
+  description="Internal synthesis of 45 canonical interview/lecture transcripts + 22 articles + 14 books · 2547 lines · §0 source codes (81 deduplicated) · §§1–13 thematic claims with verdicts ✅ STRONG / ⚠ DRIFTED / ❌ RETRACTED / ⚪ ADJACENT · §11 catalogues 54 contradictions and self-corrections · §12 cross-archive references (KOSMOPOISK / Chernobrov + Lazar narrow intersection)",
+  description_ru="Внутренний синтез 45 канонических интервью/лекций + 22 статьи + 14 книг · 2547 строк · §0 коды источников (81 дедуплицированный) · §§1–13 тематические заявления с вердиктами ✅ STRONG / ⚠ DRIFTED / ❌ RETRACTED / ⚪ ADJACENT · §11 каталогизирует 54 противоречия и самокоррекций · §12 перекрёстные ссылки (КОСМОПОИСК / Чернобров + узкое пересечение с Лазаром)",
   url="gershtein-archive/analysis/MASTER_gershtein_claims.md")
 
 E("src-mg-b-nlo07", "Тайны НЛО и пришельцев (B-NLO07, 2007)", "source",

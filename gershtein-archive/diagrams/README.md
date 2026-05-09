@@ -65,6 +65,47 @@ Python (matplotlib + networkx + graphviz `dot`), не через Mermaid CLI —
   legend cells `#9ad17b` / `#f6c85f` / `#f29c99` / `#bfcfe7` / `#d9d9d9`,
   alternating row backgrounds `#f8fafc` / `#ffffff`, header bar `#1f2937`.
 
+### SVG column-header abbreviations / Аббревиатуры в заголовках столбцов SVG
+
+Column headers in `claim_corroboration.svg` are **visually abbreviated** to fit
+column width (e.g. `INT-NLO-PROBL`, `INT-2023-NDE`, `INT-2026-03`,
+`INT-MIDDLE-RUS`, `INT-POLT-VIK-2`, `F-UAPCHECK`, `B-GLOB13`, `B-RUSLIT`).
+The full canonical source codes (e.g. `INT-NLO-PROBLEMA-1`,
+`INT-2023-NDE-UFO-1`, `INT-2026-03-GIPOTEZY-1`,
+`INT-MIDDLE-RUSSIA-1`, `INT-POLTERGEIST-VIKTOR-2`, `F-UAPCHECK-2024-07`,
+`B-GLOB13-P3`) appear in cell text and are defined verbatim in MASTER §0.
+
+Заголовки столбцов в `claim_corroboration.svg` **визуально сокращены** под
+ширину столбца (например `INT-NLO-PROBL`, `INT-2023-NDE`, `INT-2026-03`,
+`INT-MIDDLE-RUS`, `INT-POLT-VIK-2`, `F-UAPCHECK`, `B-GLOB13`, `B-RUSLIT`).
+Полные канонические коды источников (`INT-NLO-PROBLEMA-1`,
+`INT-2023-NDE-UFO-1`, `INT-2026-03-GIPOTEZY-1`,
+`INT-MIDDLE-RUSSIA-1`, `INT-POLTERGEIST-VIKTOR-2`, `F-UAPCHECK-2024-07`,
+`B-GLOB13-P3`) указаны в ячейках и определены дословно в MASTER §0.
+
+Cell-status markers used across the three SVG tables / Метки статуса
+ячеек, общие для всех трёх SVG-таблиц:
+
+- `verbatim` / «дословно» — claim quoted word-for-word from the cited
+  source / утверждение цитируется дословно из указанного источника.
+- `partial` / «частично» — claim is paraphrased or only partly grounded /
+  утверждение перефразировано или подтверждено лишь частично.
+- `n/a` — source does not address this claim / источник не затрагивает
+  данное утверждение.
+- `STABLE` / «устойчиво» — quantitative parameter unchanged across the
+  corpus / количественный параметр не менялся по корпусу.
+- `DRIFTED` / «дрейф» — same parameter quoted with diverging numbers in
+  later sources / параметр приводится с расходящимися значениями в
+  более поздних источниках.
+
+Tier labels A→E in `source_credibility_matrix.svg` follow the universal
+ASRP tiering: A = primary verbatim text, B = primary audio/video, C =
+curated secondary, D = self-published / blog, E = paywalled-stub or
+unrecoverable. Метки уровней A→E в `source_credibility_matrix.svg`
+следуют универсальной градации ASRP: A — первичный дословный текст,
+B — первичное аудио/видео, C — отредактированный вторичный источник,
+D — самиздат/блог, E — заглушка платного источника или невосстановимый.
+
 ## Regeneration / Перегенерация
 
 Image artifacts (3 SVGs + 5 PNGs) are produced by `gershtein-archive/generate_diagrams.py`,

@@ -1,4 +1,4 @@
-# Filtered-out sources (irrelevant to Gershtein)
+# Filtered-out sources (irrelevant to Gershtein) / Отфильтрованные источники (нерелевантные Герштейну)
 
 Of the 55 URLs Perplexity returned, the 5 below were judged unrelated to Mikhail B.
 Gershtein himself or his work and were therefore excluded from the corpus. They are
