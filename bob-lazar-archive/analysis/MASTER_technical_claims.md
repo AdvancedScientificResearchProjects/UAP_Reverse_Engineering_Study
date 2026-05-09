@@ -1483,4 +1483,12 @@ Bilingual synthesis of the archive. Three short subsections, each presented side
 
 ---
 
+## §13 Cross-refs to other Russian-language archives / Перекрёстные связи с другими русскоязычными архивами
+
+Bob Lazar's claims are documented separately within this archive. For skeptical-empirical Russian-ufologist commentary on Lazar (NN 28 dismissal of the Element-115 thesis on quantitative grounds; ⚪ ADJACENT material in NN 23 routed through Anfalov), see `gershtein-archive/analysis/MASTER_gershtein_claims.md` §12.2. Gershtein's archive is the first cross-archive in this repository to engage Lazar's corpus from outside the US lecture-circuit tradition.
+
+Заявления Боба Лазара рассматриваются отдельно в данном архиве. Скептико-эмпирический комментарий к Лазару со стороны русскоязычной уфологии (отвержение тезиса об элементе 115 в NN 28 по количественным основаниям; материал ⚪ ADJACENT в NN 23 через А. Анфалова) см. `gershtein-archive/analysis/MASTER_gershtein_claims.md` §12.2. Архив Герштейна — первый параллельный архив в этом репозитории, который рассматривает корпус Лазара извне американской лекционной традиции.
+
+---
+
 END master technical claims reference.

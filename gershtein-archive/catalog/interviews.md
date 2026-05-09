@@ -1,9 +1,16 @@
-# Mikhail B. Gershtein — Interviews & Lectures Catalog
+# Михаил Б. Герштейн — Полный каталог интервью / Mikhail B. Gershtein — Complete Interview Catalog
 
-Chronological catalog of all 62 transcribed video sources. Each entry links to the
-normalized transcript file under `transcripts/` and the original YouTube URL.
+> **Навигация / Navigation:** [← README](../README.md) · [Мастер / Master](../analysis/MASTER_gershtein_claims.md) · [По интервью / Per-Interview](../analysis/per-interview/) · [Статьи / Articles](../analysis/articles/) · [Книги / Books](../analysis/books/) · [Каталог / Catalog](../catalog/)
 
-| # | Date | Duration | Uploader | Title | Source | Transcript |
+**RU:** Хронологический каталог всех 62 транскрибированных видео-источников (интервью и лекций Михаила Борисовича Герштейна, 2016–2026). Каждая запись связывает нормализованный файл транскрипта в `transcripts/` и оригинальный URL YouTube. Даты соответствуют дате загрузки на YouTube; фактические даты записи самих лекций встречаются в колонке `Заголовок` (например, серия загрузок UAP (UFO) 2025-12 — 2026-01 — это переиздания старых лекций с указанием исходных дат в названии).
+
+**EN:** Chronological catalog of all 62 transcribed video sources (Mikhail Borisovich Gershtein's interviews and lectures, 2016–2026). Each entry links the normalized transcript file under `transcripts/` to the original YouTube URL. Dates are YouTube upload dates; the original recording dates of re-uploaded lectures (notably the UAP (UFO) channel batch dated 2025-12 — 2026-01) appear inside the `Title` column.
+
+---
+
+## 2016–2023 — Раннее интервью / Early interviews
+
+| # | Дата / Date | Длительность / Duration | Загрузил / Uploader | Заголовок / Title | Источник / Source URL | Транскрипт / Transcript |
 |---|---|---|---|---|---|---|
 | 01 | 2016-09-25 | 0:49 | Фенист | Фенист-2016: аперитив. Михаил Герштейн о науке и воображении | [link](https://www.youtube.com/watch?v=-E4uLtcIuz0) | `transcripts/01_Fenist-2016_aperitiv_Mikhail_Gershteyn_o_nauke_i_voobrazheni_49s.txt` |
 | 02 | 2017-11-24 | 2:38:00 | UnionKOSMOPOISK | Михаил Герштейн. Геомантия, земные огни и уфология | [link](https://www.youtube.com/watch?v=bYl9Emd0Aww) | `transcripts/02_Mikhail_Gershteyn_Geomantiya_zemnye_ogni_i_ufologiya_2h38.txt` |
@@ -23,6 +30,13 @@ normalized transcript file under `transcripts/` and the original YouTube URL.
 | 16 | 2023-03-17 | 27:21 | UnionKOSMOPOISK | Михаил Герштейн отвечает на вопросы (2023) | [link](https://www.youtube.com/watch?v=mIHKNQw7m8k) | `transcripts/16_Mikhail_Gershteyn_otvechaet_na_voprosy_2023_27m.txt` |
 | 17 | 2023-10-16 | 1:04:22 | UnionKOSMOPOISK | Михаил Герштейн. НЛО и жизнь после смерти (2023) | [link](https://www.youtube.com/watch?v=AzIThQa4l8k) | `transcripts/17_Mikhail_Gershteyn_NLO_i_zhizn_posle_smerti_2023_1h04.txt` |
 | 18 | 2023-10-18 | 39:05 | UnionKOSMOPOISK | Михаил Герштейн. Ответы на вопросы (2023) | [link](https://www.youtube.com/watch?v=BhmtgSeCOU4) | `transcripts/18_Mikhail_Gershteyn_Otvety_na_voprosy_2023_39m.txt` |
+
+---
+
+## 2024–2025 — Расширенный корпус / Expanded corpus
+
+| # | Дата / Date | Длительность / Duration | Загрузил / Uploader | Заголовок / Title | Источник / Source URL | Транскрипт / Transcript |
+|---|---|---|---|---|---|---|
 | 19 | 2024-06-09 | 1:08:48 | UnionKOSMOPOISK | Михаил Герштейн. Автоматизация изучения НЛО (2024) | [link](https://www.youtube.com/watch?v=eNEuahbHlF8) | `transcripts/19_Mikhail_Gershteyn_Avtomatizatsiya_izucheniya_NLO_2024_1h08.txt` |
 | 20 | 2024-06-23 | 2:25:34 | NOZP | Новый период в уфологии? UFO и UAP, Михаил Герштейн | [link](https://www.youtube.com/watch?v=7X9AViFvYXA) | `transcripts/20_Novyy_period_v_ufologii_UFO_i_UAP_Mikhail_Gershteyn_2h25.txt` |
 | 21 | 2024-11-04 | 3:20:11 | `ПолтергейстПоиск` Исследовани | Уфолог Михаил Герштейн и исследователь полтергейста Виктор Фефелов, обсуждение А… | [link](https://www.youtube.com/watch?v=odqOtOgRHk8) | `transcripts/21_Ufolog_Mikhail_Gershteyn_i_issledovatel_poltergeysta_Viktor_3h20.txt` |
@@ -45,6 +59,13 @@ normalized transcript file under `transcripts/` and the original YouTube URL.
 | 38 | 2025-12-29 | 2:02:32 | UAP (UFO) | Взаимосвязи UFO объектов и аномальных зон, гипотезы взаимодействия этих явлений.… | [link](https://www.youtube.com/watch?v=JHyFEZFM6gY) | `transcripts/38_Vzaimosvyazi_UFO_obektov_i_anomalnykh_zon_gipotezy_vzaimodey_2h02.txt` |
 | 39 | 2025-12-30 | 1:18:18 | UAP (UFO) | Мифы, Легенды, Мистификации в Аномалистике. Герштейн М.Б. (уфолог). 11.11.2023 г… | [link](https://www.youtube.com/watch?v=uGezqo8MUs0) | `transcripts/39_Mify_Legendy_Mistifikatsii_v_Anomalistike_Gershteyn_M_B_ufol_1h18.txt` |
 | 40 | 2025-12-31 | 1:59:00 | UAP (UFO) | Уфология и Криптозоология: Неожиданные Взаимосвязи. Михаил Герштейн (уфолог) 08.… | [link](https://www.youtube.com/watch?v=i5Ml08McCWY) | `transcripts/40_Ufologiya_i_Kriptozoologiya_Neozhidannye_Vzaimosvyazi_Mikhai_1h59.txt` |
+
+---
+
+## 2026 — Современный период / Recent period
+
+| # | Дата / Date | Длительность / Duration | Загрузил / Uploader | Заголовок / Title | Источник / Source URL | Транскрипт / Transcript |
+|---|---|---|---|---|---|---|
 | 41 | 2026-01-01 | 1:04:22 | UAP (UFO) | Феномен НЛО, Околосмертный опыт и жизнь после смерти. Михаил Герштейн. 14.10.202… | [link](https://www.youtube.com/watch?v=3IFuXoOKmHc) | `transcripts/41_Fenomen_NLO_Okolosmertnyy_opyt_i_zhizn_posle_smerti_Mikhail_1h04.txt` |
 | 42 | 2026-01-01 | 39:05 | UAP (UFO) | Ответы на вопросы: Феномен НЛО, околосмертный опыт и жизнь после смерти. Герштей… | [link](https://www.youtube.com/watch?v=m7Ueh8jgvPs) | `transcripts/42_Otvety_na_voprosy_Fenomen_NLO_okolosmertnyy_opyt_i_zhizn_pos_39m.txt` |
 | 43 | 2026-01-02 | 2:22:23 | UAP (UFO) | Тайны Мирового Океана – Подлинные и Мнимые. Михаил Герштейн (уфолог). Презентаци… | [link](https://www.youtube.com/watch?v=rF_9-sxgNp8) | `transcripts/43_Tayny_Mirovogo_Okeana_Podlinnye_i_Mnimye_Mikhail_Gershteyn_u_2h22.txt` |

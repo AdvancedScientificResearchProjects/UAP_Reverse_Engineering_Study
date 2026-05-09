@@ -1128,6 +1128,18 @@ The two programmes converge on a surprisingly similar theoretical commitment (gr
 
 ---
 
+### 9.6 Cross-refs to Gershtein archive / Перекрёстные связи с архивом Герштейна
+
+The `gershtein-archive/` (sibling, v0.5.0, 2026-05-09) contains a much more skeptical-empirical Russian-ufologist commentary on the Kosmopoisk-era Russian UFO/anomalous-phenomena corpus, including direct disagreements with several Chernobrov claims. This is the **outside-Russian-ufology view of Chernobrov's work**. Three intersections worth noting:
+
+- **Petrozavodsk-1977 / Медведицкая гряда / KOSMOPOISK overlap** — Gershtein and Chernobrov both worked through KOSMOPOISK at adjacent periods; Gershtein documents direct disagreement on field-investigation methodology and on interpretation of specific Medveditskaya-Lovondatr-7 / Medveditskaya 2002 events. See `gershtein-archive/analysis/MASTER_gershtein_claims.md` §12.1 (KOSMOPOISK / Chernobrov-archive cross-archive citation map, ~15 rows).
+- **Lovondatr / time-machine framing** — Gershtein's archive treats the Lovondatr time-machine claim chain skeptically; relevant Gershtein source codes intersecting Chernobrov's work include `B-MG05` and several `INT-*` lectures discussing Russian time-experiment lore. Reading the two MASTERs side-by-side surfaces multi-perspective Russian ufologist views on the same physical events.
+- **Anfalov / Element-115 contactee material** — both archives engage Anfalov's commentary; Chernobrov routes it through `B-EUFO` §11 (single page); Gershtein routes it through `INT-UFO-CRYPTO-2` and `ADJ-ANFALOV-PODZEM-1`.
+
+**Tone note:** the cross-archive view is documentary (each researcher's claims preserved verbatim with verdict labels in their own archive); no archive is treated as authoritative over the other.
+
+---
+
 ## §10 Collaborations & Institutional Network / Сотрудничества и институциональная сеть
 
 ### 10.1 МАИ (Moscow Aviation Institute) — primary home

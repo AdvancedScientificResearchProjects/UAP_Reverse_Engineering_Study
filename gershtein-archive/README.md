@@ -4,9 +4,9 @@ A research archive of **Mikhail Borisovich Gershtein** (b. 27 July 1972), Russia
 
 Полный исследовательский архив материалов **Михаила Борисовича Герштейна** (р. 27 июля 1972 г.), русского уфолога, журналиста и писателя; последнего председателя Уфологической комиссии РГО (Санкт-Петербургское отделение). Тематическое покрытие: институциональная история уфологии в СССР и России, секретные программы **«Сетка», «Галактика», НИТ-3, НИТ-54**, тезис о связи НЛО с околосмертным опытом, гипотеза параллельных миров / мультивселенной, тема реинкарнации, контактёры, полтергейст, криптозоология, религиозные интерпретации аномальных явлений и методологическая критика «академической уфологии».
 
-**EN:** 62 Whisper-large-v3-turbo transcripts (2016–2026), 21 articles + 3 PDFs (incl. one self-authored 1 MB UAP-archive compendium), 10 book bibliography pages, 2 full book texts, complete Perplexity-dialog provenance with sha256 manifest. Master synthesis pending (v0.5.x).
+**EN:** 62 Whisper-large-v3-turbo transcripts (2016–2026), 21 articles + 3 PDFs (incl. one self-authored 1 MB UAP-archive compendium), 10 book bibliography pages, 2 full book texts, complete Perplexity-dialog provenance with sha256 manifest. Master synthesis available: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
 
-**RU:** 62 транскрипции Whisper-large-v3-turbo (2016–2026), 21 статья и 3 PDF (включая 1 МБ собственный «Глобальный архив UAP-исследований» Герштейна), 10 книжных библиографических страниц, 2 полных книжных текста, полная провенанс-цепочка от Perplexity-диалога с манифестом sha256. Мастер-синтез в работе (v0.5.x).
+**RU:** 62 транскрипции Whisper-large-v3-turbo (2016–2026), 21 статья и 3 PDF (включая 1 МБ собственный «Глобальный архив UAP-исследований» Герштейна), 10 книжных библиографических страниц, 2 полных книжных текста, полная провенанс-цепочка от Perplexity-диалога с манифестом sha256. Мастер-синтез доступен: `analysis/MASTER_gershtein_claims.md` (v0.5.0).
 
 **Note on transcription pipeline / Примечание о транскрипции:** The corpus was originally to be transcribed via Groq's hosted `whisper-large-v3` API; the per-hour audio rate-limit (7200 sec ASPH) was hit on chunk 7 of the first file. The pipeline was migrated mid-flight to a self-hosted PC2 build of `voxtype` running `whisper-large-v3-turbo` on a Vulkan-accelerated NVIDIA RTX 3060 Laptop GPU; all 62 mp3 files transcribed successfully there with zero failures over a single 3-hour wall-clock pass.
 
@@ -18,16 +18,16 @@ A research archive of **Mikhail Borisovich Gershtein** (b. 27 July 1972), Russia
 
 | Section / Раздел | Purpose / Назначение | File / Файл | Status / Статус |
 |---|---|---|---|
-| Main Technical Reference / Главный технический справочник | Unified bilingual claims synthesis / Единый двуязычный синтез утверждений | `analysis/MASTER_gershtein_claims.md` | ⏳ Pending v0.5.x / Ожидает v0.5.x |
+| Main Technical Reference / Главный технический справочник | Unified bilingual claims synthesis / Единый двуязычный синтез утверждений | [`analysis/MASTER_gershtein_claims.md`](analysis/MASTER_gershtein_claims.md) | ✅ Available / Доступно |
 | Appearances Catalog / Каталог выступлений | Chronological catalog 2016–2026 / Хронологический каталог 2016–2026 | [`catalog/interviews.md`](catalog/interviews.md) | ✅ Available / Доступно |
 | Raw Transcripts / Сырые транскрипты | 62 Whisper-large-v3-turbo RU transcriptions / 62 транскрипта Whisper-large-v3-turbo (RU) | [`transcripts/`](transcripts/) | ✅ Available / Доступно |
-| Per-Interview Analysis / Анализ по интервью | Per-transcript bilingual claim digests / Подробные двуязычные дайджесты по транскриптам | [`analysis/per-interview/`](analysis/per-interview/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| Topical Analysis / Тематический анализ | Same content grouped by topic / То же содержание по темам | [`analysis/topical/`](analysis/topical/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| Articles & PDFs / Статьи и PDF | Reviews of 21 articles + 3 PDFs / Ревью 21 статей и 3 PDF | [`analysis/articles/`](analysis/articles/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| Books Analysis / Анализ книг | Bibliography + 2 full-text book extracts / Библиография и 2 полнотекстовые книги | [`analysis/books/`](analysis/books/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| External Research / Внешние исследования | Perplexity-dialog provenance + cross-archive links / Провенанс Perplexity-диалога и кросс-архивные связи | [`analysis/external-research/`](analysis/external-research/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| Visual Diagrams / Визуальные схемы | Mermaid sources + rendered SVG/PNG / Исходники Mermaid и SVG/PNG | [`diagrams/`](diagrams/) | ⏳ Pending v0.5.x / Ожидает v0.5.x |
-| QA Review / QA-ревью | Hallucination + cross-source audit / Аудит галлюцинаций и кросс-источников | `analysis/QA_REVIEW.md` | ⏳ Pending v0.5.x / Ожидает v0.5.x |
+| Per-Interview Analysis / Анализ по интервью | Per-transcript bilingual claim digests / Подробные двуязычные дайджесты по транскриптам | [`analysis/per-interview/`](analysis/per-interview/) | ✅ Available (35 files) / Доступно (35 файлов) |
+| Topical Analysis / Тематический анализ | Same content grouped by topic / То же содержание по темам | [`analysis/topical/`](analysis/topical/) | ⏳ Reserved for v0.6.x / Зарезервировано для v0.6.x |
+| Articles & PDFs / Статьи и PDF | Reviews of 21 articles + 3 PDFs / Ревью 21 статей и 3 PDF | [`analysis/articles/`](analysis/articles/) | ✅ Available (12 files) / Доступно (12 файлов) |
+| Books Analysis / Анализ книг | Bibliography + 2 full-text book extracts / Библиография и 2 полнотекстовые книги | [`analysis/books/`](analysis/books/) | ✅ Available (4 files) / Доступно (4 файла) |
+| External Research / Внешние исследования | Perplexity-dialog provenance + cross-archive links / Провенанс Perplexity-диалога и кросс-архивные связи | [`analysis/external-research/`](analysis/external-research/) | ⏳ Reserved for v0.6.x / Зарезервировано для v0.6.x |
+| Visual Diagrams / Визуальные схемы | Mermaid sources + rendered SVG/PNG / Исходники Mermaid и SVG/PNG | [`diagrams/`](diagrams/) | ⏳ Reserved for v0.6.x / Зарезервировано для v0.6.x |
+| QA Review / QA-ревью | Hallucination + cross-source audit / Аудит галлюцинаций и кросс-источников | `analysis/_map/` | ✅ Available (internal) / Доступно (внутренний рабочий каталог) |
 
 ---
 
@@ -36,7 +36,6 @@ A research archive of **Mikhail Borisovich Gershtein** (b. 27 July 1972), Russia
 ```
 gershtein-archive/
 ├── README.md                                ← you are here / вы здесь
-├── CHANGELOG.md                             ← version history / история версий
 ├── manifest.json                            ← provenance, sha256, paths /
 │                                              провенанс, sha256, пути
 ├── SUMMARY.md                               ← gather-time corpus summary /
@@ -91,17 +90,18 @@ gershtein-archive/
 │   ├── *.mmd                                   визуальные компоненты
 │   └── rendered/*.png|svg
 │
-└── analysis/                                ← extracted technical content /
-    │                                          извлечённое содержание (v0.5.x)
-    ├── MASTER_gershtein_claims.md           ⭐ (pending) Unified bilingual synthesis
-    ├── QA_REVIEW.md                         (pending) Hallucination + cross-source audit
-    ├── FINAL_REVIEW.md                      (pending) Final review
+└── analysis/                                ← extracted technical content (v0.5.0) /
+    │                                          извлечённое содержание (v0.5.0)
+    ├── MASTER_gershtein_claims.md           ⭐ Unified bilingual synthesis (§0–§13 + Appendices A/B) /
+    │                                          ⭐ Единый двуязычный синтез (§0–§13 + Приложения A/B)
     │
-    ├── per-interview/                       Per-source detailed claim blocks
-    ├── topical/                             Same content grouped by topic
-    ├── articles/                            Article and PDF reviews
-    ├── books/                               Book reviews + bibliography master
-    └── external-research/                   Perplexity provenance + cross-archive links
+    ├── per-interview/                       35 per-source / per-pair / per-triple bilingual digests /
+    │                                          35 двуязычных дайджестов по источникам/парам/тройкам
+    ├── articles/                            12 article + PDF reviews / 12 ревью статей и PDF
+    ├── books/                               4 book reviews incl. bibliography master /
+    │                                          4 ревью книг, включая библиографический справочник
+    ├── topical/                             Reserved for v0.6.x / Зарезервировано для v0.6.x
+    └── external-research/                   Reserved for v0.6.x / Зарезервировано для v0.6.x
 ```
 
 Raw mp4 (24 GB) and mp3 (1.1 GB) are intentionally not committed; they live on `/mnt/data/uap-gershtein-raw/` and are referenced by absolute path in [`manifest.json`](manifest.json). See [`raw/README.md`](raw/README.md) and [`audio/README.md`](audio/README.md) for the pointer convention. This mirrors the `dubna-element-115-analysis/raw/` and `chernobrov-archive/audio/` pattern already used in this repository.
@@ -160,7 +160,7 @@ Original Perplexity URL: <https://www.perplexity.ai/search/3533ca17-d2ab-4213-ad
 
 ## Status / Статус
 
-- v0.1.0 (2026-05-07): Initial Perplexity ingest — raw data + catalog + manifest only. Analysis subtree contains skeleton folders awaiting the v0.5.x batched-agent pass.
-- v0.1.0 (2026-05-07): Первичная загрузка с Perplexity — только сырые данные, каталог и манифест. Папки анализа пустые в ожидании прогона батчей агентов в v0.5.x.
-
-See [`CHANGELOG.md`](CHANGELOG.md) for full version history.
+- **v0.5.0 — released 2026-05-09 / выпущено 2026-05-09.**
+- **EN:** Full per-source analysis available: `MASTER_gershtein_claims.md` (§0–§13 + Appendices A/B), 35 per-interview/per-pair/per-triple bilingual digests, 12 article-and-PDF reviews, 4 book reviews including the unified bibliography master. ⚪ ADJACENT verdict label introduced for material from another researcher's framework. Cross-archive references to Chernobrov (§12.1) and Lazar (§12.2) included.
+- **RU:** Полный анализ по источникам доступен: `MASTER_gershtein_claims.md` (§0–§13 + Приложения A/B), 35 двуязычных дайджестов по интервью/парам/тройкам, 12 ревью статей и PDF, 4 ревью книг, включая единый библиографический справочник. Введена метка ⚪ ADJACENT для материалов из чужой исследовательской рамки. Включены перекрёстные ссылки на архивы Черноброва (§12.1) и Лазара (§12.2).
+- **v0.1.0 (2026-05-07):** Initial Perplexity ingest — raw data + catalog + manifest only. / Первичная загрузка с Perplexity — только сырые данные, каталог и манифест.
