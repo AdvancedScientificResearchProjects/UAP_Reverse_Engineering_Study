@@ -1,0 +1,69 @@
+---
+title: "Soviet UFO programme institutional chain / Институциональная цепочка советских программ НЛО"
+---
+%% EN: Setka-AN/MO -> Galaktika -> Horizon -> NIT-3 -> NIT-54 institutional
+%% genealogy with KGB/MoD adjacencies and dossier-exfiltration branch.
+%% Source: F-UAPCHECK-2024-07 A.14, B-RUSLIT-TNLO-P1 §K1, INT-VOENNYE-1 §§1.6-1.7,
+%% INT-KNIGA-ZNAM-1, INT-POLTERGEIST-VIKTOR-2 §8.1, B-RUSLIT-TNLO-P2 §§5.4-5.6.
+%% RU: Институциональная генеалогия советских программ исследования НЛО.
+flowchart TB
+    subgraph PRE["1947-1977 Pre-Setka / До «Сетки»"]
+        CENS47["1947-1962 censorship / Цензура<br/>Pervukhin 1952, Artsimovich 1961"]
+        DOSAAF["17.05.1967 DOSAAF UFO Dept<br/>Stolyarov + Zigel; disbanded Nov 1967"]
+        PRAVDA68["29.02.1968 Pravda hit-piece<br/>Mustel/Martynov/Leshkovtsev<br/>= near-death of Soviet ufology"]
+    end
+
+    subgraph SETKA["1978-1985 Setka / «Сетка»"]
+        AN["Setka-AN (civil) / гражд.<br/>Распоряжение № 0172, 01.08.1978<br/>head: IZMIRAN / Migulin"]
+        MO["Setka-MO (military) / военная<br/>head: НИИ-22 Mytishchi<br/>ген.-лт. Балашов"]
+        VPK["Военно-промышленная комиссия<br/>Military-Industrial Commission<br/>(linkage / связь)"]
+        GLAVLIT["Главлит № 3-е, 11.01.1980<br/>only Migulin & Platov<br/>could authorise UFO publication"]
+    end
+
+    subgraph LATE["1985-1991 Galaktika -> Horizon"]
+        GAL["Галактика-АН + Галактика-МО<br/>Galaktika 5-yr plan rename<br/>(Брянск Особый отдел КГБ docs<br/>11-12 Dec 1983 / 2 Jan 1984)"]
+        HOR["Horizon / Горизонт<br/>late-1980s rename<br/>closed 1991"]
+        SIB["SibNCA Tomsk (1988-Jan 1992)<br/>Сибирский центр / cover<br/>funded by ГРУ; cutoff «Полундра»"]
+    end
+
+    subgraph POST["1991-2025 NIT / post-Soviet"]
+        NIT3["НИТ-3 (1991+)<br/>reverse-engineering programme<br/>Akimov, Shipov"]
+        NIT54["НИТ-54 (recent)<br/>multi-volume reports<br/>(NN 51 only)"]
+        NII["НИИ-22 (Mytishchi MO)<br/>+ НИИ-50 (Korolev MO)<br/>disbanded 2011/2013"]
+        IZMIRAN["IZMIRAN AP-Group<br/>cont. → discontinued 1996<br/>archives in wet basement"]
+    end
+
+    subgraph EXFIL["1993-1997 Exfiltration / Вывоз"]
+        SOKOL["Col. Б.А. Соколов (ВПК)<br/>stole Horizon-MoD archive<br/>~400 documents"]
+        KNAPP["Antonio Huneeus + George Knapp<br/>caviar-customs exfiltration<br/>(INT-VOENNYE-1 §1.9)"]
+        ALTAMIRA["Altamira Communications Group<br/>hypothesised CIA front<br/>(B.P. Шуринов)"]
+    end
+
+    PRAVDA68 --> AN
+    PRAVDA68 --> MO
+    AN --- VPK
+    MO --- VPK
+    GLAVLIT -.-> AN
+    GLAVLIT -.-> MO
+    AN ==> GAL
+    MO ==> GAL
+    SIB -.-> GAL
+    GAL ==> HOR
+    HOR ==> NIT3
+    NIT3 ==> NIT54
+    HOR -.archives.-> NII
+    HOR -.theft.-> SOKOL
+    SOKOL --> KNAPP
+    ALTAMIRA -.fund.-> KNAPP
+    NII -.-> IZMIRAN
+
+    classDef pre fill:#f5f5f5,stroke:#616161,color:#000
+    classDef civ fill:#bbdefb,stroke:#0d47a1,color:#000
+    classDef mil fill:#ffcdd2,stroke:#b71c1c,color:#000
+    classDef post fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef exfil fill:#ffe0b2,stroke:#e65100,color:#000
+
+    class CENS47,DOSAAF,PRAVDA68 pre
+    class AN,GAL,IZMIRAN civ
+    class MO,VPK,GLAVLIT,SIB,NII,HOR,NIT3,NIT54 mil
+    class SOKOL,KNAPP,ALTAMIRA exfil

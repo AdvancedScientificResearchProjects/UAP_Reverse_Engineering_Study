@@ -397,9 +397,14 @@ exec(Path(__file__).parent.joinpath("fragments/agentF_theoretical_foundations.py
 # ════════════════════════════════════════════════════════════════════════════
 exec(Path(__file__).parent.joinpath("fragments/agentG_uap_publications.py").read_text(encoding="utf-8"))
 
+# ════════════════════════════════════════════════════════════════════════════
+# 8. AGENT H — Track 11 Gershtein archive (Russian skeptical-empirical ufology)
+# ════════════════════════════════════════════════════════════════════════════
+exec(Path(__file__).parent.joinpath("fragments/agentH_gershtein.py").read_text(encoding="utf-8"))
+
 
 # ════════════════════════════════════════════════════════════════════════════
-# 8. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
+# 9. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
 # ════════════════════════════════════════════════════════════════════════════
 
 # Lazar ↔ Dubna: element 115 as the critical bridge
@@ -590,6 +595,19 @@ RU_LABEL_PATCHES = {
     "f-jpl-three-cases":                "NASA JPL: 3 фигуранта — крупнейший институциональный кластер",
     "f-cardillo-no-attribution":        "«Gabriella Rev A» Кардилло — без присвоения мотива (не конспирологична)",
     "f-coordinated-action-not-concluded":"Координированный мотив не доказан — disclaimer (high-confidence anti-вывод)",
+    # Gershtein archive (agent H)
+    "f-mg-birth-1972":                  "Герштейн родился 27 июля 1972 г. в Ленинграде",
+    "f-mg-14-books":                    "Герштейн — автор 14 книг (канонический счёт 2025–2026)",
+    "f-mg-rgs-expelled":                "Герштейн потерял членство РГО при шойгу-перерегистрации",
+    "f-mg-petrozavodsk-as-cosmos955":   "Петрозаводск-1977 = запуск «Космос-955» (Герштейн)",
+    "f-mg-knapp-30yr-claim-rejected":   "Герштейн отвергает заявление Кнаппа «СССР опередил США на 30 лет»",
+    "f-mg-lazar-dismissal-2sentence":   "Двухпредложенческое отвержение Лазара в NN 28 (Герштейн)",
+    "f-mg-residual-32pct":              "Остаток 32 % «представляющих интерес» на ленинградском подкорпусе писем по «Труду»-1984",
+    "f-mg-soviet-misid-rate":           "Советские данные НАЯ ≈ 85–90 % ошибочных идентификаций (Герштейн)",
+    "f-mg-sokolov-knapp-400-dossier":   "Соколов / Кнапп — кража 400-документного досье (1993–1997)",
+    "f-mg-1968-pravda-near-death":      "«Правда» 29.02.1968 (Мустель/Мартынов/Лешковцев) = почти-смерть советской уфологии",
+    "f-mg-faraday-cage-objection-condign":"Возражение Фарадеевой клетки против тотального CONDIGN-плазма-сведения",
+    "f-mg-nn62-4d-axiomatic":           "NN 62 — единая 4-мерная аксиоматика поверх постранее-2017 корпуса",
     # ev orphans potentially introduced by the new patches — pre-emptive coverage
 }
 for el in elements:

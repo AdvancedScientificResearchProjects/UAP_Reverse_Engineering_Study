@@ -1,0 +1,80 @@
+---
+title: "NDE↔UFO thesis / Тезис связи НЛО и околосмертного опыта"
+---
+%% EN: Gershtein's most distinctive thesis (NN 17, 14.10.2023):
+%% «UFOs are pulled to where death occurs». Maps inputs (>50 cases) ->
+%% mechanism (vital-energy harvest) -> cross-cultural pattern equivalences
+%% -> NN 62 (21.03.2026) refinement and the centrifuge counter-evidence.
+%% Sources: INT-2023-NDE-UFO-1, INT-OKEAN-2 §7, INT-2026-03-GIPOTEZY-1 §§11.2-11.5,
+%% INT-AUTOMAT-AI-2 §2.10 (counter), §11.4 internal contradiction.
+%% RU: Самый отличительный тезис Герштейна, оформленный 14.10.2023.
+flowchart LR
+    subgraph CORE["Core thesis (NN 17, 14.10.2023) / Ядро тезиса"]
+        T["«НЛО тянет туда,<br/>где происходит смерть»<br/>UFOs pulled to where death occurs<br/>(INT-2023-NDE-UFO-1 §2.15)"]
+    end
+
+    subgraph IN["Empirical inputs / Эмпирические входы"]
+        C50[">50 dead-aboard UFO cases<br/>>50 случаев узнанных мёртвых<br/>(INT-2023-NDE-UFO-1 §1.25)"]
+        MAL["Malyshev 1978 Moscow<br/>artist + deceased neighbour<br/>+ Ziegel-group landing trace"]
+        PEREZ["Juan Pérez 6.09.1978<br/>Venado Tuerto, age 12<br/>dead grandfather + black zone"]
+        CEM["Cemetery beams /<br/>Лучи на кладбищах<br/>Herrera 1977, Newkinhill 1967,<br/>Indonesia early-2000s"]
+        CRISIS["Yakima 1974 crisis-apparition<br/>(INT-VZAIMOSVYAZI-1 §§8.4-10.7)"]
+    end
+
+    subgraph CULT["Cross-cultural patterns / Кросс-культурные параллели"]
+        ZMIY["Огненный змей (Slavic)<br/>fireball from grave to relative<br/>→ chimney; black column inside"]
+        AZANDE["Azande Mbisimo Mangu<br/>(Evans-Pritchard) — witchcraft balls"]
+        WYE["US «Wye» county death tokens<br/>~100 premonitory fireballs"]
+        CZECH["Czech vampire-cemeteries<br/>decapitated/iron-nailed corpses<br/>→ post-autopsy lights rarer"]
+        WELSH["Welsh corpse-candles /<br/>knockers (J. Neal Ghana memoir)"]
+        SILVER["Silver Cliff CO cemetery<br/>+ Tabor-Esterhazy SK 1938"]
+    end
+
+    subgraph THEORY["Three-types-of-mind (NN 11/43) / Три типа разума"]
+        M1["(1) External technogenic<br/>UFO occupants / Внешние"]
+        M2["(2) Earthly disembodied<br/>огненный змей, vampirism<br/>astral-exit phenomena"]
+        M3["(3) Oceanic swarm/cloud mind<br/>Океанический рой"]
+    end
+
+    subgraph NN62["Watershed refinement (NN 62, 21.03.2026)"]
+        VITAL["Vital-energy harvest<br/>'Жизненная энергия' as substrate<br/>(INT-2026-03-GIPOTEZY-1 §§11.2-11.5)"]
+        SHELL["UFO craft = defensive shell,<br/>not propulsion vehicle<br/>(§7.5-7.6, §11.1)"]
+        GHOST["Ghost-ship spectacles =<br/>mass emotional-energy harvest<br/>(B-OGON substrate)"]
+    end
+
+    subgraph CONTRA["Internal contradiction (§11.4) / Контрдоказательство"]
+        CENTR["Centrifuge experiments produce<br/>classical NDE imagery in normal<br/>sane subjects without near-death<br/>(INT-AUTOMAT-AI-2 §2.10)<br/>= LARGEST INTERNAL TENSION"]
+    end
+
+    C50 --> T
+    MAL --> T
+    PEREZ --> T
+    CEM --> T
+    CRISIS --> T
+    T --> M1
+    T --> M2
+    T --> M3
+    M2 -.equivalence.- ZMIY
+    M2 -.equivalence.- AZANDE
+    M2 -.equivalence.- WYE
+    M2 -.equivalence.- WELSH
+    CEM -.- CZECH
+    CEM -.- SILVER
+    T ==>|2026 mechanism| VITAL
+    VITAL --> SHELL
+    VITAL --> GHOST
+    CENTR -.undermines.-> T
+
+    classDef core fill:#fff59d,stroke:#f57f17,color:#000
+    classDef input fill:#bbdefb,stroke:#0d47a1,color:#000
+    classDef cult fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef theory fill:#d1c4e9,stroke:#311b92,color:#000
+    classDef wat fill:#ffe0b2,stroke:#e65100,color:#000
+    classDef warn fill:#ffcdd2,stroke:#b71c1c,color:#000
+
+    class T core
+    class C50,MAL,PEREZ,CEM,CRISIS input
+    class ZMIY,AZANDE,WYE,CZECH,WELSH,SILVER cult
+    class M1,M2,M3 theory
+    class VITAL,SHELL,GHOST wat
+    class CENTR warn

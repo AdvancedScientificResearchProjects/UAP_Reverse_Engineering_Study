@@ -1,0 +1,1 @@
+External research (cross-archive linking notes, parallel-corpus references) reserved for future v0.6.x release. / Внешние исследования (кросс-архивные ссылки, ссылки на параллельные корпусы) зарезервированы для будущей v0.6.x.
