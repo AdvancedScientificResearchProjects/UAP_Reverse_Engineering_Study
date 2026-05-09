@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1292" viewBox="0 0 1320 1292" role="img" aria-labelledby="title desc">
+  <title id="title">Gershtein — Numerical Params Table / Числовые параметры</title>
+  <desc id="desc">20 key numerical claims from MASTER §0.0, source-coded, status-tagged.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .hdr-l { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; }
+    .hdr-l-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; font-style:italic; }
+    .row-code { font-family:Arial,Helvetica,sans-serif; font-size:12.5px; font-weight:700; fill:#0f172a; }
+    .row-date { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#6b7280; }
+    .claim { font-family:Arial,Helvetica,sans-serif; font-size:12.5px; fill:#0f172a; font-weight:600; }
+    .claim-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .cell-l { font-family:Arial,Helvetica,sans-serif; font-size:11.5px; fill:#0f172a; }
+    .cell-l-ru { font-family:Arial,Helvetica,sans-serif; font-size:9.5px; fill:#475569; font-style:italic; }
+    .verify { fill:#9ad17b; }
+    .partial { fill:#f6c85f; }
+    .contra { fill:#f29c99; }
+    .untest { fill:#bfcfe7; }
+    .na { fill:#d9d9d9; }
+    .yes { fill:#9ad17b; }
+    .mid { fill:#f6c85f; }
+    .no { fill:#f29c99; }
+    .low { fill:#e9a896; }
+    .tierA { fill:#7fc66a; }
+    .tierB { fill:#a4d089; }
+    .tierC { fill:#f6c85f; }
+    .tierD { fill:#f0a37a; }
+    .tierE { fill:#d97a6c; }
+    .stable { fill:#9ad17b; }
+    .drifted { fill:#f6c85f; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#888; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+</style>
+  <rect class="bg" width="1320" height="1292"/>
+  <text class="title" x="32" y="42">Numerical Parameters / Числовые параметры — Gershtein</text>
+  <text class="subtitle" x="32" y="64">20 key quantitative claims from MASTER §0.0 (Soviet programmes, NDE, methodology, multiverse, totals).</text>
+  <text class="subtitle-ru" x="32" y="82">20 ключевых количественных заявлений по MASTER §0.0 (сов. программы, ОСО, методология, мультиверс, итоги).</text>
+  <rect x="32" y="100" width="14" height="14" class="stable stroke"/>
+  <text class="legend" x="54" y="112">✅ STABLE / устойчиво (verbatim ≥2 sources)</text>
+  <rect x="380" y="100" width="14" height="14" class="drifted stroke"/>
+  <text class="legend" x="402" y="112">⚠ DRIFTED / дрейф (wording or value shift)</text>
+  <rect x="32" y="132" width="330" height="50" fill="#1f2937"/>
+  <text class="hdr" x="197.0" y="154">Parameter</text>
+  <text class="hdr-ru" x="197.0" y="170">Параметр</text>
+  <rect x="362" y="132" width="220" height="50" fill="#1f2937"/>
+  <text class="hdr" x="472.0" y="154">Value</text>
+  <text class="hdr-ru" x="472.0" y="170">Значение</text>
+  <rect x="582" y="132" width="240" height="50" fill="#1f2937"/>
+  <text class="hdr" x="702.0" y="154">Source code</text>
+  <text class="hdr-ru" x="702.0" y="170">Код источника</text>
+  <rect x="822" y="132" width="360" height="50" fill="#1f2937"/>
+  <text class="hdr" x="1002.0" y="154">Note</text>
+  <text class="hdr-ru" x="1002.0" y="170">Примечание</text>
+  <rect x="1182" y="132" width="106" height="50" fill="#1f2937"/>
+  <text class="hdr" x="1235.0" y="154">Status</text>
+  <text class="hdr-ru" x="1235.0" y="170">Статус</text>
+  <g class="stroke">
+  <rect x="32" y="182" width="330" height="50" class="rowA"/>
+  <rect x="362" y="182" width="220" height="50" class="rowA"/>
+  <rect x="582" y="182" width="240" height="50" class="rowA"/>
+  <rect x="822" y="182" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="182" width="106" height="50" class="stable"/>
+  <rect x="32" y="232" width="330" height="50" class="rowB"/>
+  <rect x="362" y="232" width="220" height="50" class="rowB"/>
+  <rect x="582" y="232" width="240" height="50" class="rowB"/>
+  <rect x="822" y="232" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="232" width="106" height="50" class="stable"/>
+  <rect x="32" y="282" width="330" height="50" class="rowA"/>
+  <rect x="362" y="282" width="220" height="50" class="rowA"/>
+  <rect x="582" y="282" width="240" height="50" class="rowA"/>
+  <rect x="822" y="282" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="282" width="106" height="50" class="stable"/>
+  <rect x="32" y="332" width="330" height="50" class="rowB"/>
+  <rect x="362" y="332" width="220" height="50" class="rowB"/>
+  <rect x="582" y="332" width="240" height="50" class="rowB"/>
+  <rect x="822" y="332" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="332" width="106" height="50" class="drifted"/>
+  <rect x="32" y="382" width="330" height="50" class="rowA"/>
+  <rect x="362" y="382" width="220" height="50" class="rowA"/>
+  <rect x="582" y="382" width="240" height="50" class="rowA"/>
+  <rect x="822" y="382" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="382" width="106" height="50" class="stable"/>
+  <rect x="32" y="432" width="330" height="50" class="rowB"/>
+  <rect x="362" y="432" width="220" height="50" class="rowB"/>
+  <rect x="582" y="432" width="240" height="50" class="rowB"/>
+  <rect x="822" y="432" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="432" width="106" height="50" class="stable"/>
+  <rect x="32" y="482" width="330" height="50" class="rowA"/>
+  <rect x="362" y="482" width="220" height="50" class="rowA"/>
+  <rect x="582" y="482" width="240" height="50" class="rowA"/>
+  <rect x="822" y="482" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="482" width="106" height="50" class="stable"/>
+  <rect x="32" y="532" width="330" height="50" class="rowB"/>
+  <rect x="362" y="532" width="220" height="50" class="rowB"/>
+  <rect x="582" y="532" width="240" height="50" class="rowB"/>
+  <rect x="822" y="532" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="532" width="106" height="50" class="stable"/>
+  <rect x="32" y="582" width="330" height="50" class="rowA"/>
+  <rect x="362" y="582" width="220" height="50" class="rowA"/>
+  <rect x="582" y="582" width="240" height="50" class="rowA"/>
+  <rect x="822" y="582" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="582" width="106" height="50" class="stable"/>
+  <rect x="32" y="632" width="330" height="50" class="rowB"/>
+  <rect x="362" y="632" width="220" height="50" class="rowB"/>
+  <rect x="582" y="632" width="240" height="50" class="rowB"/>
+  <rect x="822" y="632" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="632" width="106" height="50" class="stable"/>
+  <rect x="32" y="682" width="330" height="50" class="rowA"/>
+  <rect x="362" y="682" width="220" height="50" class="rowA"/>
+  <rect x="582" y="682" width="240" height="50" class="rowA"/>
+  <rect x="822" y="682" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="682" width="106" height="50" class="stable"/>
+  <rect x="32" y="732" width="330" height="50" class="rowB"/>
+  <rect x="362" y="732" width="220" height="50" class="rowB"/>
+  <rect x="582" y="732" width="240" height="50" class="rowB"/>
+  <rect x="822" y="732" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="732" width="106" height="50" class="stable"/>
+  <rect x="32" y="782" width="330" height="50" class="rowA"/>
+  <rect x="362" y="782" width="220" height="50" class="rowA"/>
+  <rect x="582" y="782" width="240" height="50" class="rowA"/>
+  <rect x="822" y="782" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="782" width="106" height="50" class="stable"/>
+  <rect x="32" y="832" width="330" height="50" class="rowB"/>
+  <rect x="362" y="832" width="220" height="50" class="rowB"/>
+  <rect x="582" y="832" width="240" height="50" class="rowB"/>
+  <rect x="822" y="832" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="832" width="106" height="50" class="stable"/>
+  <rect x="32" y="882" width="330" height="50" class="rowA"/>
+  <rect x="362" y="882" width="220" height="50" class="rowA"/>
+  <rect x="582" y="882" width="240" height="50" class="rowA"/>
+  <rect x="822" y="882" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="882" width="106" height="50" class="drifted"/>
+  <rect x="32" y="932" width="330" height="50" class="rowB"/>
+  <rect x="362" y="932" width="220" height="50" class="rowB"/>
+  <rect x="582" y="932" width="240" height="50" class="rowB"/>
+  <rect x="822" y="932" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="932" width="106" height="50" class="stable"/>
+  <rect x="32" y="982" width="330" height="50" class="rowA"/>
+  <rect x="362" y="982" width="220" height="50" class="rowA"/>
+  <rect x="582" y="982" width="240" height="50" class="rowA"/>
+  <rect x="822" y="982" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="982" width="106" height="50" class="stable"/>
+  <rect x="32" y="1032" width="330" height="50" class="rowB"/>
+  <rect x="362" y="1032" width="220" height="50" class="rowB"/>
+  <rect x="582" y="1032" width="240" height="50" class="rowB"/>
+  <rect x="822" y="1032" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="1032" width="106" height="50" class="stable"/>
+  <rect x="32" y="1082" width="330" height="50" class="rowA"/>
+  <rect x="362" y="1082" width="220" height="50" class="rowA"/>
+  <rect x="582" y="1082" width="240" height="50" class="rowA"/>
+  <rect x="822" y="1082" width="360" height="50" class="rowA"/>
+  <rect x="1182" y="1082" width="106" height="50" class="stable"/>
+  <rect x="32" y="1132" width="330" height="50" class="rowB"/>
+  <rect x="362" y="1132" width="220" height="50" class="rowB"/>
+  <rect x="582" y="1132" width="240" height="50" class="rowB"/>
+  <rect x="822" y="1132" width="360" height="50" class="rowB"/>
+  <rect x="1182" y="1132" width="106" height="50" class="drifted"/>
+  </g>
+  <g>
+    <text class="claim"    x="40" y="204">Recognised dead seen aboard UFOs</text>
+    <text class="claim-ru" x="40" y="220">Узнанные умершие на борту НЛО</text>
+    <text class="cell" x="472.0" y="212">&gt;50 cases</text>
+    <text class="cell-l"  x="590" y="212">INT-2023-NDE-UFO-1 §1.25</text>
+    <text class="cell-l"    x="830" y="204">Catalogued by NN 17 (14.10.2023). Distinguishing rule: …</text>
+    <text class="cell-l-ru" x="830" y="220">Зафиксировано к NN 17. Правило: известные умершие ходят…</text>
+    <text class="cell" x="1235.0" y="204">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="220">стаб.</text>
+    <text class="claim"    x="40" y="254">Sturgeon's Law applied to anomalistics</text>
+    <text class="claim-ru" x="40" y="270">«Закон Старджона» в аномалистике</text>
+    <text class="cell" x="472.0" y="262">90% rubbish</text>
+    <text class="cell-l"  x="590" y="262">INT-MIFY-1 §2.2; F-UFNEWS-2011-INTV §2.36</text>
+    <text class="cell-l"    x="830" y="254">Endorsed verbatim as one of three Western methodologica…</text>
+    <text class="cell-l-ru" x="830" y="270">Принят дословно как одно из трёх западных методологичес…</text>
+    <text class="cell" x="1235.0" y="254">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="270">стаб.</text>
+    <text class="claim"    x="40" y="304">Anomalistics «авгиевы конюшни» pollution</text>
+    <text class="claim-ru" x="40" y="320">«Авгиевы конюшни» аномалистики</text>
+    <text class="cell" x="472.0" y="312">90-98%</text>
+    <text class="cell-l"  x="590" y="312">INT-MIFY-1 §2.53</text>
+    <text class="cell-l"    x="830" y="304">Stronger framing of Sturgeon: 90-98% pollution; cleansi…</text>
+    <text class="cell-l-ru" x="830" y="320">Усиленная версия Старджона: 90-98% мусора; чистки нет, …</text>
+    <text class="cell" x="1235.0" y="304">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="320">стаб.</text>
+    <text class="claim"    x="40" y="354">Books published</text>
+    <text class="claim-ru" x="40" y="370">Опубликовано книг</text>
+    <text class="cell" x="472.0" y="362">14</text>
+    <text class="cell-l"  x="590" y="362">B-CATALOG-MASTER; F-ALPHA-VOENNYE</text>
+    <text class="cell-l"    x="830" y="354">Drift across recordings: 11 (NN 22) → 12 (NN 56) → 14 (…</text>
+    <text class="cell-l-ru" x="830" y="370">Дрейф по записям: 11 (NN 22) → 12 (NN 56) → 14 (NN 29 /…</text>
+    <text class="cell" x="1235.0" y="354">⚠ DRIFTED</text>
+    <text class="cell-l-ru" x="1217.0" y="370">дрейф</text>
+    <text class="claim"    x="40" y="404">Raw transcripts → canonical interviews</text>
+    <text class="claim-ru" x="40" y="420">Исходных транскриптов → канон. интервью</text>
+    <text class="cell" x="472.0" y="412">62 → 45</text>
+    <text class="cell-l"  x="590" y="412">MASTER §0.1; QA-dedup §A</text>
+    <text class="cell-l"    x="830" y="404">17 re-upload duplicate pairs collapsed; 45 canonical in…</text>
+    <text class="cell-l-ru" x="830" y="420">17 пар повторных загрузок свёрнуты; 45 канонических инт…</text>
+    <text class="cell" x="1235.0" y="404">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="420">стаб.</text>
+    <text class="claim"    x="40" y="454">Total deduplicated source codes</text>
+    <text class="claim-ru" x="40" y="470">Всего дедуплицированных кодов</text>
+    <text class="cell" x="472.0" y="462">81</text>
+    <text class="cell-l"  x="590" y="462">MASTER §0</text>
+    <text class="cell-l"    x="830" y="454">45 canonical interviews + 22 articles + 14 books = 81 c…</text>
+    <text class="cell-l-ru" x="830" y="470">45 канонич. интервью + 22 статьи + 14 книг = 81 код.</text>
+    <text class="cell" x="1235.0" y="454">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="470">стаб.</text>
+    <text class="claim"    x="40" y="504">Total deduplicated claims</text>
+    <text class="claim-ru" x="40" y="520">Всего дедуплиц. заявлений</text>
+    <text class="cell" x="472.0" y="512">424</text>
+    <text class="cell-l"  x="590" y="512">MASTER §0.0 (Part 1+2+3)</text>
+    <text class="cell-l"    x="830" y="504">Single deduplicated index across 11 source-set chunks v…</text>
+    <text class="cell-l-ru" x="830" y="520">Единый дедуплицированный индекс по 11 чанкам через QA-d…</text>
+    <text class="cell" x="1235.0" y="504">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="520">стаб.</text>
+    <text class="claim"    x="40" y="554">First Russian-Empire UFO flap</text>
+    <text class="claim-ru" x="40" y="570">Первая волна НЛО Российской Империи</text>
+    <text class="cell" x="472.0" y="562">spring 1892</text>
+    <text class="cell-l"  x="590" y="562">INT-MIDDLE-RUSSIA-1</text>
+    <text class="cell-l"    x="830" y="554">Investigated by IRTO 7th Aeronautical Section; Ivangoro…</text>
+    <text class="cell-l-ru" x="830" y="570">Расследовала 7-й воздухоплав. отдел ИРТО; Ивангород стр…</text>
+    <text class="cell" x="1235.0" y="554">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="570">стаб.</text>
+    <text class="claim"    x="40" y="604">Setka-AN establishment date</text>
+    <text class="claim-ru" x="40" y="620">Учреждение «Сетки-АН»</text>
+    <text class="cell" x="472.0" y="612">01.08.1978</text>
+    <text class="cell-l"  x="590" y="612">B-RUSLIT-TNLO-P1 §K1</text>
+    <text class="cell-l"    x="830" y="604">Распоряжение Президиума АН СССР № 0172; coordinator gro…</text>
+    <text class="cell-l-ru" x="830" y="620">Распоряжение Президиума АН СССР № 0172; координационная…</text>
+    <text class="cell" x="1235.0" y="604">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="620">стаб.</text>
+    <text class="claim"    x="40" y="654">Setka → Galaktika → Horizon programme run</text>
+    <text class="claim-ru" x="40" y="670">«Сетка» → «Галактика» → «Горизонт»</text>
+    <text class="cell" x="472.0" y="662">1978 - ~1991</text>
+    <text class="cell-l"  x="590" y="662">F-UAPCHECK-2024-07 A.14; INT-POLT-VIK-2 §8.1</text>
+    <text class="cell-l"    x="830" y="654">Three-name chain across 13 yrs; SibNCA Tomsk «Полундра»…</text>
+    <text class="cell-l-ru" x="830" y="670">Трёхименная цепочка ~13 лет; SibNCA Томск «Полундра» — …</text>
+    <text class="cell" x="1235.0" y="654">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="670">стаб.</text>
+    <text class="claim"    x="40" y="704">UK Project CONDIGN</text>
+    <text class="claim-ru" x="40" y="720">Проект CONDIGN (Великобритания)</text>
+    <text class="cell" x="472.0" y="712">2000-2006</text>
+    <text class="cell-l"  x="590" y="712">INT-CONDIGN-1; INT-SHAROVYE-MOLNII-1</text>
+    <text class="cell-l"    x="830" y="704">Completed Feb 2000; declassified May 2006; «CONDIGN» = …</text>
+    <text class="cell-l-ru" x="830" y="720">Завершён фев. 2000; рассекречен май 2006; «CONDIGN» = «…</text>
+    <text class="cell" x="1235.0" y="704">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="720">стаб.</text>
+    <text class="claim"    x="40" y="754">Sokolov / Knapp dossier exfiltrated</text>
+    <text class="claim-ru" x="40" y="770">Вывоз досье Соколов / Кнапп</text>
+    <text class="cell" x="472.0" y="762">~400 docs</text>
+    <text class="cell-l"  x="590" y="762">INT-NLO-PROBLEMA-1 §3.1; F-UAPCHECK A.24</text>
+    <text class="cell-l"    x="830" y="754">Col. B.A. Sokolov stole Horizon-MoD archive 1993-1997; …</text>
+    <text class="cell-l-ru" x="830" y="770">П-к Б.А. Соколов украл архив «Горизонт-МО» 1993-1997; п…</text>
+    <text class="cell" x="1235.0" y="754">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="770">стаб.</text>
+    <text class="claim"    x="40" y="804">Soviet UFO data misidentification rate</text>
+    <text class="claim-ru" x="40" y="820">Доля ложных классификаций в СССР</text>
+    <text class="cell" x="472.0" y="812">85-90%</text>
+    <text class="cell-l"  x="590" y="812">INT-2024-06-UAP-PERIOD-1 §6.3</text>
+    <text class="cell-l"    x="830" y="804">Rocket launches, returning craft. Tension with Plaksin'…</text>
+    <text class="cell-l-ru" x="830" y="820">Запуски ракет, возврат аппаратов. Напряжение с «20% неи…</text>
+    <text class="cell" x="1235.0" y="804">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="820">стаб.</text>
+    <text class="claim"    x="40" y="854">«Trud»-1984 Leningrad reader corpus residual</text>
+    <text class="claim-ru" x="40" y="870">Остаток корпуса писем «Труд»-1984 (Ленингр.)</text>
+    <text class="cell" x="472.0" y="862">~32% of interest</text>
+    <text class="cell-l"  x="590" y="862">F-UAPCHECK-2024-07 A.19</text>
+    <text class="cell-l"    x="830" y="854">From 12 000 letters: ~60% misid. + ~8% no value + ~32% …</text>
+    <text class="cell-l-ru" x="830" y="870">Из 12 000 писем: ~60% ложн. + ~8% бесполезные + ~32% «и…</text>
+    <text class="cell" x="1235.0" y="854">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="870">стаб.</text>
+    <text class="claim"    x="40" y="904">Plaksin: UFO sightings of unknown physical origin</text>
+    <text class="claim-ru" x="40" y="920">Плаксин: НЛО неизв. физ. природы</text>
+    <text class="cell" x="472.0" y="912">~20%</text>
+    <text class="cell-l"  x="590" y="912">F-UAPCHECK-2024-07 A.23</text>
+    <text class="cell-l"    x="830" y="904">May 2002 «Komsomolskaya Pravda»; cited not endorsed; de…</text>
+    <text class="cell-l-ru" x="830" y="920">Май 2002, «Комсомольская правда»; цитируется не разделя…</text>
+    <text class="cell" x="1235.0" y="904">⚠ DRIFTED</text>
+    <text class="cell-l-ru" x="1217.0" y="920">дрейф</text>
+    <text class="claim"    x="40" y="954">«УфоНавигатор» Gershtein-edited issues</text>
+    <text class="claim-ru" x="40" y="970">«УфоНавигатор» Г.: выпусков</text>
+    <text class="cell" x="472.0" y="962">90+ issues, ~4500 pp</text>
+    <text class="cell-l"  x="590" y="962">B-RUSLIT-TNLO-P2 §6; INT-VOENNYE-1</text>
+    <text class="cell-l"    x="830" y="954">Electronic bulletin chief editor 2001+; Russian-side fl…</text>
+    <text class="cell-l-ru" x="830" y="970">Электронный бюллетень, гл. ред. с 2001+; флагман русско…</text>
+    <text class="cell" x="1235.0" y="954">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="970">стаб.</text>
+    <text class="claim"    x="40" y="1004">«Аномалия» (СПб) Russian Nat. Library archive</text>
+    <text class="claim-ru" x="40" y="1020">«Аномалия» (СПб) в РНБ</text>
+    <text class="cell" x="472.0" y="1012">600+ issues</text>
+    <text class="cell-l"  x="590" y="1012">INT-ANOMAL-ZONES-1; INT-2024-06</text>
+    <text class="cell-l"    x="830" y="1004">Print run 100k → 3k over lifecycle; primary documentati…</text>
+    <text class="cell-l-ru" x="830" y="1020">Тираж 100k → 3k за весь цикл; первичный документац. кан…</text>
+    <text class="cell" x="1235.0" y="1004">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="1020">стаб.</text>
+    <text class="claim"    x="40" y="1054">11-D string-theory grounding</text>
+    <text class="claim-ru" x="40" y="1070">11-мерная струнная основа</text>
+    <text class="cell" x="472.0" y="1062">11 dimensions</text>
+    <text class="cell-l"  x="590" y="1062">INT-2026-03-GIPOTEZY-1 §§5.1, 5.2, 7.7</text>
+    <text class="cell-l"    x="830" y="1054">Brane separation drains specific particles back to home…</text>
+    <text class="cell-l-ru" x="830" y="1070">Разделение бран возвращает частицы к «своей» бране; объ…</text>
+    <text class="cell" x="1235.0" y="1054">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="1070">стаб.</text>
+    <text class="claim"    x="40" y="1104">Four types of parallel universes</text>
+    <text class="claim-ru" x="40" y="1120">Четыре типа параллельных вселенных</text>
+    <text class="cell" x="472.0" y="1112">4 (Quilted/Inflat./Brane/Many-Worlds)</text>
+    <text class="cell-l"  x="590" y="1112">INT-2026-03-GIPOTEZY-1 §§4.1-4.5</text>
+    <text class="cell-l"    x="830" y="1104">NN 62 systematisation: Blanqui-1872 priority claim for …</text>
+    <text class="cell-l-ru" x="830" y="1120">Систематизация NN 62: приоритет Бланки 1872 для Quilted…</text>
+    <text class="cell" x="1235.0" y="1104">✅ STABLE</text>
+    <text class="cell-l-ru" x="1217.0" y="1120">стаб.</text>
+    <text class="claim"    x="40" y="1154">Vital-energy harvesting (NN 62 mechanism)</text>
+    <text class="claim-ru" x="40" y="1170">Сбор жизн. энергии (механизм NN 62)</text>
+    <text class="cell" x="472.0" y="1162">1 unifying substrate</text>
+    <text class="cell-l"  x="590" y="1162">INT-2026-03-GIPOTEZY-1 §§11.2-11.5</text>
+    <text class="cell-l"    x="830" y="1154">Cemetery-hovering re-mechanized; ghost-ship spectacles …</text>
+    <text class="cell-l-ru" x="830" y="1170">Кладбищенские зависания пересмотрены; призрачные корабл…</text>
+    <text class="cell" x="1235.0" y="1154">⚠ DRIFTED</text>
+    <text class="cell-l-ru" x="1217.0" y="1170">дрейф</text>
+  </g>
+  <text class="footer"    x="32" y="1210">All values verbatim from MASTER §0.0; status per §11 cross-source consistency rubric.</text>
+  <text class="footer-ru" x="32" y="1228">Все значения дословно из MASTER §0.0; статус — по правилу кросс-источниковой согласованности §11.</text>
+  <text class="footer-ru" x="32" y="1246">DRIFTED rows = book-count progressed across recordings (11→12→14); Plaksin «20%» cited not endorsed; vital-energy figure is qualitative.</text>
+</svg>
