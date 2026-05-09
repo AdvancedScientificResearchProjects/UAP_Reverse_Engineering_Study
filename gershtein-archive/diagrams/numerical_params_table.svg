@@ -329,5 +329,6 @@
   </g>
   <text class="footer"    x="32" y="1210">All values verbatim from MASTER §0.0; status per §11 cross-source consistency rubric.</text>
   <text class="footer-ru" x="32" y="1228">Все значения дословно из MASTER §0.0; статус — по правилу кросс-источниковой согласованности §11.</text>
-  <text class="footer-ru" x="32" y="1246">DRIFTED rows = book-count progressed across recordings (11→12→14); Plaksin «20%» cited not endorsed; vital-energy figure is qualitative.</text>
+  <text class="footer"    x="32" y="1250">DRIFTED rows = book-count progressed across recordings (11→12→14); Plaksin «20%» cited not endorsed; vital-energy figure is qualitative.</text>
+  <text class="footer-ru" x="32" y="1268">Строки DRIFTED = счёт книг рос по записям (11→12→14); «20%» Плаксина цитируется не разделяясь; показатель жизн. энергии качественный.</text>
 </svg>
