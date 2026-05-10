@@ -1,0 +1,464 @@
+# dow-uap-d62-mission-report-strait-of-hormuz-september-2020
+# Source: raw/native/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf
+
+                                                                             Declassified by MG Richard A. Hanison
+                                                                             USCENTCOM Chief of Staff
+                                                                             Declassified or: 22 January 2026
+
+
+
+
+ Misrep 4782130
+ Narrative
+         AT 2302Zn::iil]TOOK OFF FROM OK.AS. Af 2313Z,~        HANDED OVER FROM Tl:iE
+ LRE, FROM 23462 TO l902Z,G1a:JCOLLECi ED SIGINT VIA AIRHANDLER. FROM 03182 TO
+ 1s29zr::;::;J suPPORTEt> NAVCENT FOR 01>ERAT10NI         1.4a         hvo ARABIAN
+GULF, STRAI'l OF HORMUZ AND GULF OF OMAN, SEE ISR!LINE 1. AT 04082.! 1.4a !
+'RECEIVED A GUARD CALL SEE GUARD CALL LINE 1. AT 042 IZ,[ii;JRECEIVED A GUARD
+CALL. SE'E GUARD CALL LINE 2. AT l 141Z.~      RECEIVED A GUARD CALL SEE GUARD
+CALL LINE 3. AT 1248Z,~       LOST LINK SEE EMJ LINE 1. AT 14142:J 1.4a !LOST LINK. SEE
+ EMl LINE 2. AT 1732ZJ 1.4a !OBSERVED A UAP. SE'E OBS LINE L Af I829Z,~      WAS
+CLEARED TO RTB, AT 19232,G:;]BANDf:D BACK TO TliS LRE. AT l 958Z,~            LANDED AT
+OK.AS. FMV WAS EXPLOITtD BY DGSI. 20.9 MlSSION 1-IO~S. 15.2 IMlNT HOURS. I JMTNT
+TASKING PROSECUTED, 19.3 S1GTNT HOURS, 1 SIGINT TAS ING PROSECUTED. 2 TOTAL
+TASK1NGS PROSECUTED
+
+
+
+
+Admln
+
+
+ CLASSIFICATION
+• Classification:
+• Associated Caveats:
+• Classification Source (MS ot Classification Guide ID): MUL11IPLE SOURCES
+• Declassification Date (YYYYMMDD): 20450301
+
+
+ OPERATION
+
+• Operation~,___ _ _ 1.4a
+                       ______,
+• Domain: AIR
+• Operations Center: 609th
+• Majo:r -Command (MAJ COM): ACC
+• Combatant Command (COCOl\'I): USCENTCOM
+
+
+MSGID
+
+• Repo:rt Type: IvllSREP
+• Originator (Unit or Squadron): 482ATKS
+• Submit Date (Auto-generated):
+
+
+
+
+USCENTCOM MOR 26-0019               Approved for Release to MRI                       01/26/26 001
+                                                                                       Declassified by I\ G R1cha d A Harr so
+                                                                                       USCENTCOM Chi f o' St ff
+                                                                                       D class1fed on 22 J u ry 2026
+
+
+
+
+  MSNID
+  • Tasking Order (ATOE;]
+  • Mission Type: AREC
+  • ATO Mission Number:j 1.4a                      I
+  • Country Tasked: US - UNITED STATES
+  • Service Tasked: A - AIR FORCE
+
+  Poe
+
+
+  POC
+  • Rank: SSgt
+  • Full Nam«,...~c-,-(b-)(3_)_
+                             , 1-3-0b-,-(b--,)~)
+  • Unit: 482ATKS
+  • Wing: 432 AEW
+  • Phone Number: -3-.5-c-.,-bl-(6-l~
+                            -1
+
+
+
+  • Email:~!_ _ _ _ _ _ _3_.5c~(b~)(~6>~-----~
+  • Service: Air Force
+  • Operations Center: 609 CAOC
+
+
+  QC
+  • Rank: Ctr
+  • Full Name:! 3.Sc, (bl(6l
+  • Unit: 12AF, Det 3, PAROC
+  • Wing: Other
+  • Phone Number:! 3.Sc, fbl{6\
+  • Email:!                                            3.Sc, (b}(6)
+  • Service: Air Force
+  • Operations Center: Other
+
+
+  APPROVER
+  • Rank: SrA
+  • Full Name~c. (b)(3), 130b, (bis)
+  • Unit: 609th AOC
+  • Wing: Other
+  • Phone Number:! 3.5c.(b}(6)
+  • Email:~1_ _ _ _3___.sc_....
+                          __ ,(.__b),. _(6. . _)_ _ ____,
+  • Service: Air Force
+  • Operations Center: 609 CAOC
+
+
+
+                                                                      3 Sc, lb}{§}
+
+USCENTCOM MOR 26-0019                                    Approved for Release to MRO             01/26/26 002
+                                                                Deel ., ed by MG Richard A Harr so
+                                                                USCE'NTCOM C'l1ef o'St ff
+                                                                Declass ed or 22 Ja uary 2026
+
+
+
+
+ INGEST
+ • Rank:
+ • FuUName:
+ • Unit:
+ • Wing:
+ • Phone Number:
+ • Email:
+ • Service:
+ • Operations Center:
+
+ ACEQUIP
+
+
+ACEQUIP
+• Aircraft Callsign~     1.4a
+• Radar Name or Destination: -
+• Radar Software Load or Mission Data: -
+• Radar Warning Receiver (RWR) Name or Designator: -
+• RWR Software Load or Mission Data: -
+• MWS Name or Designator: -
+• MWS Software Load or Mission Data: -
+• IRCM Name or Designator: -
+• IRCM Software Load or Mission Data: -
+• ECM Name or Designator: -
+• ECM Software Load or Mission Data: -
+• CMD Name or Designator: -
+• Chaff Designator: -
+• Num Chaff or Cartridges: -
+• Flare Designator: -
+• Num Flares: -
+• Towed Decoy Name or Designator: -
+• Towed Decoy Software Load or Mission Data: -
+• Num Towed Decoys: -
+• Type of Radar-Guided AAM: -
+• Num Radar-Guided AAM: -
+• Type of IR-Guided AAM: -
+• Num IR-Guided AAM: -
+• Gun Name or Designator: -
+• Num Guo Rounds: -
+• Air-to-Ground Wpn to Include Num of Each: 1.4(a)
+• TGT Pod Name or Designator: ANDAS4
+• Additional Avionics: AH_GMESH
+
+
+                                         3.5c b 6
+
+
+USCENTCOM MOR 26-0019             Approved for Release to M R            01/26/26 003
+                                                                         Declassified by MG R.1cl'ard A. Harnsor,
+                                                                         USCENTCOM Cl' ef of Staff
+                                                                         Declass fled on 22 Jam,ary 2026
+
+
+
+
+  • Data Link: -
+  • Gentext: -
+
+  Timeline
+
+
+  Landing
+  • Last Land Location (ICAO Code): OKAS
+  • Last Land Time: 161958:00ZSEP20
+  • Last Engine Shutdown Time: 162008:00ZSEP20
+  • Total Mission Time: 20 hours 56 minutes
+  • Gentext/Additional Details: -
+
+
+  Takeoff
+  • Callsign:!     1.4a
+  • Number of Aircraft: I
+                            ---
+  • Asset Type (Aircraft) 1.4a, 1.4g
+  • Aircraft Tail Number(s)      1.4a
+  • Takeoff Location (ICAO Code): OK.AS
+  • Takeoff Time DTG: l 52302:00ZSEP20
+  • Mode 3 (IFF Codes): -
+  • Gentext/Additioual Details: -
+  • Mission Canceled:
+
+
+  On Station
+  • Time On Station DTG: 152313:00ZSEP20
+  • Callsign:!      1.4a    I
+  • JTAR Number: -
+  • Killbox (Location): -
+  • Mission Type: AREC
+  • JTAC Callsign: -
+  • Gen text/ Additional Details: -
+  • Did not Arrive On Station:
+
+
+  JSR
+
+  • Time-on Station DTG: 160318:00ZSEP20
+  • Time-off Station DTG: 161829:00ZSEP20
+  • Aircraft Callsign:._!_ ___,;_;
+                              1.4 ..;.;a;;.______,!
+  • Msn Type: AREC
+
+
+
+                                                      3.5c, (b)(6)
+
+
+USCENTCOM MOR 26-0019                      Approved for Release to MRO             01/26/26 004
+ • Primary Sensor: ANDAS4
+ • Sensors Available: AH\GMESH
+ • Tasking Type: PLANNED
+ • Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC# : -
+ • BE Number (ifNTISR): -
+ • Tasked Start Point: 40RCQ3@}~1 .4a!
+ • Activity Description: ISR
+ • FMV or Image File Name (ifNTISR): -
+
+
+ GENTEXTIISR
+ • Geotext: (3il i2 JI    1.4a     !COORDINATED       NAVCENT 24 HOURS PRIOR
+ TO TAKE OFF. PRECOORD WAS SATISFACTORY. AT 03182, 1.4a ARRNED ON STATION ISO
+ NAVCENT FOR OPERATIC~         1.4a       ~O CH.AR1CTERIZE IRIN\IRGCN VESSELS,
+ UAS ACTIVITY, ACTIVITY OUTSIDE OF PORTS, AND TO E~TABLISH PATTERN OF LIFE.
+ FROM 03182 TO 18292,~CONDUCTED SCANS IAW Tl-Ir TARGET DECK IN THE
+ ARABIAN GULF (AG). AT 0930Z~OBSERVED AN IR-!t-5 LAUNCHER IVO
+ 40RCPo:rn~oN ABU MUSA ISLAND. AT 1321Z,I 1.4a ;IBS;ERVED 2X POSSIBLE
+ HOUDONG WPTG IVO (39RXL6~~ DOCKED PIERSI E. AT 04082,~RECEIVED A
+ GUARD CALL. SEE GUARD CALL LINE 1. AT 04212,0]i] C~IVED A GUARD CALL. SEE
+ GUARD CALL LINE 2. AT l 141Z~RECEIVED A GUAR.Ip CALL. SEE GUARD CALL LINE 3.
+ AT 17322,~OBSERVED NOTEWORTHY ACTMTY. SEEIOBS LINE 1. AT 18292, ~ A S
+ CLEAR.ED OFF TASKING AND RETURNED TO BASE (RTB)
+
+
+ JSR ASSET UTILIZATION
+ • Supported Unit: NAVCENT
+ • Supported Operation: OPERATIOl'i         1.4a
+ • Precoord Time: 24 HOURS
+ • Precoord Effectiveness: SATISFACTORY
+
+
+ WEATHER
+ • Weather: (U) WEATHER WAS NOT A FACTOR
+
+
+ EFFECTIVENESS
+ • Tasker:
+ • Intel Gap Filled?: No
+ • Gentext: -
+
+
+ Off Station
+
+
+
+
+USCENTCOM MOR 26-0019              Approved for Release to MRO]         01/26/26 005
+                                                                                    Declassified by MG Richard A. Harrsor
+                                                                                    USCENTCOM Chief of Staff
+                                                                                    Deciassmed or. 22 Jtnuary 2026
+
+
+
+
+  • Time Off Station DTG: I 6 I923:00ZSEP20
+  • Tota] Time On Station: 20 hours 10 minutes
+
+
+  GUARDCALL
+  • GUARDCALL DTG: 160408:00ZSEP20
+  • Aircraft Callsign:!    1.4e    I
+  • Ground Station CalJsign: IRANIAN AIR DEFENSE
+  • Aircraft Location: 40RCP7~(jw
+  • Aircraft Heading: 360T
+  • Aircraft Altitude: FL180
+  • Aircraft Airspeed: -
+  • Number of Calls Noted from the Same Agency: 1
+  • Guardcall Tone: DIRECTIVE
+
+
+  GENTEXT/GUARDCALL
+  • Gentext: --■ AT 0408Z,~WAS HAILED ON G U ~ R E Q BY IRANlAN AIR
+  DEFENSE. STANDARD ORDERS GIVEN.~RESPONDED WITH THE STANDARD
+  RESPONSE. NO IMPACT TO MISSION
+
+
+  GUARDCALL
+  • GUARDCALL DTG: 160421:00ZSEP20
+  • Aircraft CaUsign:!     1.4a    I
+  • Ground Station CaUsign: IRANIAN AIR DEFENSE
+  • Aircraft Location: 40RCP7~tl1.4a!
+  • Aircraft Heading: 0I0M
+  • Aircraft Altitude: FLl80
+  • Aircraft Airspeed: -
+  • Number of Calls Noted from the Same Agency: I
+  • Guardc.all Tone: DrRECTIVE
+
+
+  GENTEXTIGUARDC'ALL
+  • Gentext:      AT 042 lZ,~  WAS HAILED ON G U ~ F R E Q BY IRANIAN AIR
+  DEFENSE. STANDARD ORDERS GIVEN.~RESPONDED             STANDARD     WJ'ri::fTitE
+  RESPONSE. NO IMPACT TO MISSION
+
+
+  GUARDCALL
+  • GUARDCALL DTG: 161141:00ZSEP20
+  • Aircraft Callsign:j 1.4a       I
+
+                                                 3.5c. (1>)(6)
+
+
+USCENTCOM MOR 26-0019                  Approved for Release to MRO                           01/26/26 006
+• Ground Station Callsign: IRANIAN AIR DEFENSE
+• Aircraft Location: 40RCP2l1.4aBOual
+• Aircraft Heading: 277 T
+• Aircraft Altitude: FL040
+• Aircraft Airspeed: -
+• Number of Calls Noted from the Same Agency: 1
+• Guardcall Tone: PROFESSIONAL
+
+
+GENTEXT/GUARDCALL
+• Gentext: - - · AT l 141Z,~WAS HAILED ON GU                      243.000 FREQ BY IRANIAN AIR
+DEFENSE. STANDARD ORDERS GIVEN.~RESPONDE                         WITH STANDARD RESPONSE. NO
+IMPACT TO MISSION
+
+
+EM/
+• EMI Start DTG: 161248:00ZSEP20
+• EMI End DTG: 161259:00ZSEP20
+• Aircraft Callsign~     1.4a  I
+• Type of EMI: UNKNOWN
+• EMI Duration: 11 minutes
+• Aircraft Location: 39RXK0filalS({w
+• Aircraft Heading: 290 T
+• Aircraft Altitude: FL180
+ • Aircraft Airspeed: 89 KIAS
+ • Mission Changed: Flight Path Deviation
+ • EMI Impact to System: Complete
+ • EMI Location: 39RXK0~~
+ • Affected System~
+ • Frequency Affec~--:.,._1_.4_g_,
+ • Mission Impact: MEDIUM
+
+
+GENTEXTIEMI
+• Gentext: - - - AT 12482,w;JEXPERIENCED LOST L      TO POSSIBLE!   1.4g                  1.4a
+REGAINED LINK AT 12592. THIS RESULTED IN A MEDIUM IMPACT TO TIIE MISSION
+
+JSIR ID330412
+
+
+EM/
+ • EMI Start DTG: 161414:00ZSEP20
+ • EMI End DTG: 161441:16ZSEP20
+
+
+                                              3.5c b 6
+
+
+USCENTCOM MOR 26-0019                 Approved for Release to MROI                     01/26/26 007
+                                                                              Declassified by MG R.1cl'ard A. Harnsor,
+                                                                              USCENTCOM Cl' ef of Staff
+                                                                              Declass fled on 22 Jam,ary 2026
+
+
+
+
+  • Aircraft CaUsign: !     1.4a
+  • Type of EMI: UNKNO\VN
+  • EMI Duration: 27 minutes
+  • Aircraft Location: 39RVM9~~
+  • Aircraft Heading: 264 T
+  • Aircraft Altitude: FLI 80
+  • Aircraft Airspeed: 120:KIAS
+  • Mission Changed: Flight Path Deviation
+  • EMI Impact to System: Complete
+  • EMI Location: 39RVM9~ ~1.4a!
+  • Affected System ~
+  • Frequency Affectecif
+                    .__
+                     ed.,....___1.49
+                                  _ _ _,
+  • Mission Impact: MEDIUM
+
+
+  GENTEXTIEMI
+  • Gentext: --■ AT 1414Z, ~EXPERIENCED LOST LINK TO POSSIBL~L____:1.::..;.
+                                                                     .49= ----_,_-
+                                                                                1.4_a­
+  REGAINED 14412. THIS RESULTED IN A MEDIUM IMPACT TO THE MISSION
+
+
+
+  JSIR ID3304 l 4
+
+
+  OBSERVATION
+  • Observation DTG: 161732:00ZSEP20
+  • Aircraft Callsign: !    1.4a    I
+  • Aircraft Location: 39RVM5J[iAal?(@
+                                                                         ,
+  • Aircraft Heading: -
+  • Aircraft Altitude: FL 180
+  • Aircraft Airspeed: 90 KIAS
+  • Relative Bearing or Clock Position: -
+  • Range: -
+  • KiJlbox & Keypad: -
+  • Observed Activity Location : 39RVMs r na1.4al
+  • Observed Activity Description: UAP
+  • Method of Observation: FMV
+
+
+  GENTEXTIOBSERVATION
+  • Gentext:            AT 17322, ~OBSERVED A UAP rvo 39RVM51~        %.4al
+
+
+  WEATHER
+
+
+                                                 3,§c l b}(§}
+
+
+USCENTCOM MOR 26-0019                   Approved for Release to MRO                     01/26/26 008
+                                                              Declassr ied by MG Richard A. Harrsor
+                                                              USCENTCOM Chief of Staff
+                                                              Deciassmed or. 22 Jtnuary 2026
+
+
+
+
+ • Weather: (U) WEATiffiR WAS NOT A FACTOR
+
+
+
+
+                                        3.5c b 6
+
+
+USCENTCOM MOR 26-0019           Approved for Release to MRI            01/26/26 009
+

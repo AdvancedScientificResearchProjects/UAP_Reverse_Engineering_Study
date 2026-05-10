@@ -1,0 +1,510 @@
+# dow-uap-d74-mission-report-syria-november-2023
+# Source: raw/native/dow-uap-d74-mission-report-syria-november-2023.pdf
+
+                                                                    Recommendation by MG Brandon R. Tegtmeier
+                                        SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                    Recommended on: 2 June 2025
+                                                                    FOUO / Privacy Act applies
+Misrep 9381202
+Narrative
+(SECRET//NOFORN)
+AT 0217Z,         1.4a        TOOK OFF FROM 1.4a AT 0229Z, 1.4a HANDED OVER
+FROM THE     1.4a      PROCEEDED TO FRAGGED TASKING TO SUPPORT DATA MASKED.
+
+AT 0217Z, 1.4a WAS 7-LINED TO SUPPORT DATA MASKED. 1.4a DID NOT ARRIVE
+ONSTATION AT 38S MB 48 1.4a 86 1.4a (SEE ON/OFF-STATION 1).
+
+AT 0355Z, 1.4a WAS 7-LINED TO SUPPORT DATA MASKED. 1.4a ARRIVED ON-STATION AT
+0431Z, CHECKED IN WITH DATA MASKED, AND PERFORMED FMV/SIGINT COLLECTION AT
+37S FU 81 1.4a 06 1.4a (SEE ISR 2).
+
+AT 0539Z, 1.4a WAS 7-LINED TO SUPPORT DATA MASKED. 1.4a ARRIVED ON-STATION AT
+0805Z, CHECKED IN WITH DATA MASKED, AND PERFORMED FMV/SIGINT COLLECTION AT
+38S MB 48 1.4a 86 1.4a (SEE ISR 3).
+
+AT 2153Z, 1.4a OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON AT 37D ST 69 1.4a
+07 1.4a (SEE UAP 1).
+
+AT 1933Z, 1.4a RETURNED TO BASE. AT 2254Z, 1.4a HANDED BACK TO THE 1.4a AT 2319Z,
+ 1.4a LANDED AT 1.4a FULL MOTION VIDEO WAS EXPLOITED BY           1.4a
+             1.4a
+(SECRET//NOFORN)
+
+
+
+
+(S/RELIDO) Mission Narrative
+(SECRET//REL TO USA, FVEY)
+AT 0217Z,         1.4a        TOOK OFF FROM 1.4a AT 0229Z, 1.4a HANDED OVER
+FROM THE     1.4a      PROCEEDED TO FRAGGED TASKING TO SUPPORT DATA MASKED.
+
+AT 0217Z, 1.4a WAS 7-LINED TO SUPPORT DATA MASKED. 1.4a DID NOT ARRIVE
+ONSTATION AT 38S MB 48 1.4a 86 1.4a (SEE ON/OFF-STATION 1).
+
+AT 0355Z, 1.4a WAS 7-LINED TO SUPPORT DATA MASKED. 1.4a ARRIVED ON-STATION AT
+0431Z, CHECKED IN WITH DATA MASKED, AND PERFORMED FMV/SIGINT COLLECTION AT
+37S FU 81 1.4a 06 1.4a (SEE ISR 2).
+
+AT 0539Z,   1.4a    WAS 7-LINED TO SUPPORT DATA MASKED.             1.4a   ARRIVED ON-STATION AT
+
+
+                                              3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                   SECRET//NOFORN                               06/02/2025 000001
+
+                                 Approved for Release to AARO - FOUO/PA
+                                                                      Recommendation by MG Brandon R. Tegtmeier
+                                           SECRET//NOFORN             USCENTCOM Chief of Staff
+                                                                      Recommended on: 2 June 2025
+                                                                      FOUO / Privacy Act applies
+0805Z, CHECKED IN WITH DATA MASKED, AND PERFORMED FMV/SIGINT COLLECTION AT
+38S MB 48 1.4a 86 1.4a (SEE ISR 3).
+
+AT 1933Z, 1.4a RETURNED TO BASE. AT 2254Z, 1.4a HANDED BACK TO THE 1.4a AT 2319Z,
+ 1.4a LANDED AT 1.4a FULL MOTION VIDEO WAS EXPLOITED BY           1.4a
+            1.4a
+(SECRET//REL TO USA, FVEY)
+
+
+
+
+Admin
+
+
+CLASSIFICATION
+• Classification: SECRET
+• Associated Caveats: NOFORN
+• Classification Source (MS or Classification Guide ID): MS
+• Declassification Date (YYYYMMDD): 20481109
+
+
+OPERATION
+• Operation: INHERENT RESOLVE
+• Domain: AIR
+• Operations Center: 609th
+• Major Command (MAJCOM): 1.4a
+• Combatant Command (COCOM): USCENTCOM
+
+
+MSGID
+• Report Type: MISREP
+• Originator (Unit or Squadron):    1.4a
+• Submit Date:
+
+
+MSNID
+• Tasking Order (ATO): 1.4a
+• Mission Type: ISR
+• ATO Mission Number: 1.4a
+• Country Tasked: US - UNITED STATES
+• Service Tasked: A - AIR FORCE
+
+Poc
+
+
+                                                3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                      SECRET//NOFORN                              06/02/2025 000002
+
+                                   Approved for Release to AARO - FOUO/PA
+                                                                               Recommendation by MG Brandon R. Tegtmeier
+                                                   SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                               Recommended on: 2 June 2025
+                                                                               FOUO / Privacy Act applies
+POC
+• Rank:3.5c,(b)(6)
+• Full Name:3.5c, (b)(3)130b, (b)(6)
+• Unit: Unavailable
+• Wing: 3.5c, (b)(6)
+• Phone Number: 3.5c, (b)(6)
+• Email:                  3.5c, (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+QC
+• Rank:3.5c,(b)(6)
+• Full Name:   3.5c, (b)(3)130b, (b)(6)
+• Unit: 3.5c, (b)(6)
+• Wing: 3.5c, (b)(6)
+• Phone Number: 3.5c, (b)(6)
+• Email:                      3.5c,(b)(6)
+• Service: Air Force
+• Operations Center: Other
+
+
+APPROVER
+• Rank:3.5c, (b)(6)
+• Full Name:3.5c, (b)(3)130b, (b)(6)
+• Unit: Unavailable
+• Wing: 3.5c,(b)(6)
+• Phone Number: 3.5c,(b)(6)
+• Email:                 3.5c, (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+INGEST
+• Rank:
+• Full Name:
+• Unit:
+• Wing:
+• Phone Number:
+• Email:
+• Service:
+• Operations Center:
+
+
+
+                                                         3.5c,(b)(6)
+
+USCENTCOM MDR 25-0072                              SECRET//NOFORN                               06/02/2025 000003
+
+                                            Approved for Release to AARO - FOUO/PA
+                                                                         Recommendation by MG Brandon R. Tegtmeier
+                                             SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                         Recommended on: 2 June 2025
+                                                                         FOUO / Privacy Act applies
+ACEQUIP
+
+
+ACEQUIP
+• Aircraft Callsign:        1.4a
+
+
+
+
+                            1.4g
+
+
+
+
+• Gentext:
+
+Timeline
+
+
+Takeoff
+• Callsign:      1.4a
+• Number of Aircraft: 1
+• Asset Type (Aircraft): 1.4a, 1.4g
+
+
+                                                   3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                        SECRET//NOFORN                               06/02/2025 000004
+
+                                      Approved for Release to AARO - FOUO/PA
+                                                                     Recommendation by MG Brandon R. Tegtmeier
+                                         SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                     Recommended on: 2 June 2025
+                                                                     FOUO / Privacy Act applies
+• Aircraft Tail Number(s): 1.4a
+• Takeoff Location (ICAO Code): 1.4a
+• Takeoff Time DTG: 090217:00ZNOV23
+• Mode 3 (IFF Codes): 1.4a
+• Gentext/Additional Details:
+• Mission Canceled:
+
+
+Landing
+• Last Land Location (ICAO Code):     1.4a
+• Last Land Time:         1.4a
+• Last Engine Shutdown Time:            1.4a
+• Total Mission Time:         1.4a
+• Gentext/Additional Details:
+
+
+On Station
+• Time On Station DTG:
+• Callsign:      1.4a
+• JTAR Number: -
+• Killbox (Location): -
+• Mission Type: ISR
+• JTAC Callsign:        1.4a
+• Gentext/Additional Details:
+• Did not Arrive On Station: On
+
+
+Off Station
+• Time Off Station DTG:
+• Total Time On Station:
+• Gentext/Additional Details:
+
+
+On Station
+• Time On Station DTG: 090431:00ZNOV23
+• Callsign:      1.4a
+• JTAR Number: -
+• Killbox (Location): -
+• Mission Type: ISR
+• JTAC Callsign:        1.4a
+• Gentext/Additional Details:
+• Did not Arrive On Station:
+
+
+
+
+                                               3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                    SECRET//NOFORN                               06/02/2025 000005
+
+                                  Approved for Release to AARO - FOUO/PA
+                                                                   Recommendation by MG Brandon R. Tegtmeier
+                                       SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                   Recommended on: 2 June 2025
+                                                                   FOUO / Privacy Act applies
+Off Station
+• Time Off Station DTG: 090554:00ZNOV23
+• Total Time On Station: 1 hour 23 minutes
+• Gentext/Additional Details:
+
+
+ISR
+• Time-on Station DTG: 090431:00ZNOV23
+• Time-off Station DTG: 090554:00ZNOV23
+• Aircraft Callsign:       1.4a
+• Msn Type: 1.4a
+• Primary Sensor: FMV
+• Sensors Available:     1.4g
+• Tasking Type: Dynamic
+• Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): DATA MASKED
+• BE Number (if NTISR): -
+• Tasked Start Point: 37S FU 81 1.4a 06 1.4a
+• Activity Description: TARGET DEVELOPMENT
+• FMV or Image File Name (if NTISR): -
+• EEIs Observed: Yes
+• Number of EEIs: 1
+• Global Campaign Plan: GCP - VEO (violent extremist group)
+
+
+GENTEXT/ISR
+• Gentext: (SECRET//REL TO USA, FVEY)
+UPON ARRIVAL TO THE SP AT 0431Z, 1.4a OBSERVED NO EEI RELATED ACTIVITY. AT
+0528Z, IT WAS 1X VEHICLE PARKED E OF COI WAS ASSESSED AS A PROB IMINT MATCH TO
+VOI. AT 0539Z, 1.4a RECEIVED A NEW TASKING. 1.4a REMAINED ONTGT UNTIL PUSHING
+TO NEW COORDS AT 0554Z.
+(SECRET//REL TO USA, FVEY)
+
+
+ISR ASSET UTILIZATION
+• Supported Unit:        1.4g
+• Supported Operation: INHERENT RESOLVE
+• Precoord Time: -
+• Precoord Effectiveness: SATISFACTORY
+
+
+WEATHER
+• Weather: (UNCLASSIFIED)
+
+
+
+                                             3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                  SECRET//NOFORN                               06/02/2025 000006
+
+                                Approved for Release to AARO - FOUO/PA
+                                                                    Recommendation by MG Brandon R. Tegtmeier
+                                        SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                    Recommended on: 2 June 2025
+                                                                    FOUO / Privacy Act applies
+CLEAR WX
+(UNCLASSIFIED)
+
+
+EFFECTIVENESS
+• Tasker:
+• Intel Gap Filled?: Yes
+• Gentext: (UNCLASSIFIED)
+SATISFACTORY
+(UNCLASSIFIED)
+
+
+On Station
+• Time On Station DTG: 090805:00ZNOV23
+• Callsign:      1.4a
+• JTAR Number: -
+• Killbox (Location): -
+• Mission Type: ISR
+• JTAC Callsign:        1.4a
+• Gentext/Additional Details:
+• Did not Arrive On Station:
+
+
+Off Station
+• Time Off Station DTG: 091933:00ZNOV23
+• Total Time On Station: 11 hours 28 minutes
+• Gentext/Additional Details:
+
+
+ISR
+• Time-on Station DTG: 090805:00ZNOV23
+• Time-off Station DTG: 091933:00ZNOV23
+• Aircraft Callsign:       1.4a
+• Msn Type: 1.4a
+• Primary Sensor: FMV
+• Sensors Available:     1.4g
+• Tasking Type: Dynamic
+• Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): DATA MASKED
+• BE Number (if NTISR): -
+• Tasked Start Point: 38S MB 48 1.4a 86 1.4a
+• Activity Description: TARGET DEVELOPMENT
+• FMV or Image File Name (if NTISR): -
+• EEIs Observed: Yes
+
+
+                                               3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                   SECRET//NOFORN                               06/02/2025 000007
+
+                                 Approved for Release to AARO - FOUO/PA
+                                                                    Recommendation by MG Brandon R. Tegtmeier
+                                        SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                    Recommended on: 2 June 2025
+                                                                    FOUO / Privacy Act applies
+• Number of EEIs: 2
+• Global Campaign Plan: GCP - VEO (violent extremist group)
+
+
+GENTEXT/ISR
+• Gentext: (SECRET//REL TO USA, FVEY)
+UPON ARRIVAL TO THE BUILDING AT 0805Z, 1.4a OBSERVED 1X WHITE SUV WITH A
+REAR MOUNTED TIRE, ASSESSED TO BE PROB VOI WAS PARK ON THE N SIDE. 1X ADM
+ASSESSED TO BE PROB POI WAS INTERNAL TO THE BUILDING. ASSESSMENT, SLANT AND
+DISPOSITION DERIVED FROM 1.4a S2. FROM 0805Z - 1552Z, 1.4a CONDUCTED A 6X STOP
+FOLLOW ON PROB VOI AND POI REULTING IN EEI RELATED ACTIVITY. DURING STOP 2, AT
+0926Z, PROB POI AND 1X ADM EXITED THE S SIDE OF RESIDENCE AND ENTERED THE
+FRONT LEFT AND RIGHT OF THE PROB VOI. AT 0939Z, 1.4a RECIVIED A PROB MATCH TO
+THE 1X ADM WHO EXITED THE S SIDE OF THE RESIDENCE AND ENTERED THE FRONT
+RIGHT OF THE PROB VOI. UPON LOST OF PID, 1.4a RESET BACK TO 1.4aAT 1632Z AND
+OBSERVED NO EEI RELATED ACTIVITY. AT 1719Z, 2X PREV OBSERVED ADMS WAS
+ASSESSED TO BE POSS IMINT MATCH TO POI AND PROB TO POI. AT 1933Z, 1.4a RTB
+WITHOUT ADDITIONAL EEI TO REPORT.
+(SECRET//REL TO USA, FVEY)
+
+
+ISR ASSET UTILIZATION
+• Supported Unit:        1.4g
+• Supported Operation: INHERENT RESOLVE
+• Precoord Time: -
+• Precoord Effectiveness: SATISFACTORY
+
+
+WEATHER
+• Weather: (UNCLASSIFIED)
+CLEAR WX
+(UNCLASSIFIED)
+
+
+EFFECTIVENESS
+• Tasker:
+• Intel Gap Filled?: Yes
+• Gentext: (UNCLASSIFIED)
+SATISFACTORY
+(UNCLASSIFIED)
+
+
+UAP
+
+
+
+                                              3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                   SECRET//NOFORN                               06/02/2025 000008
+
+                                 Approved for Release to AARO - FOUO/PA
+                                                                   Recommendation by MG Brandon R. Tegtmeier
+                                       SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                   Recommended on: 2 June 2025
+                                                                   FOUO / Privacy Act applies
+• Initial Contact DTG: 092153:00ZNOV23
+• UAP Event Type: UAP Incident
+• UAP Maneuverability Observations: NONE
+• UAP Response to Observer Actions: NO
+• MDS Type / Asset Type: 1.4a, 1.4g
+• Tail Number: 1.4a
+• Friendly Aircraft Location: 37S ET 34 1.4a 09 1.4a
+• Friendly Aircraft Altitude/Depth: 1.4g
+• Friendly Aircraft Trajectory: SOUTHEAST
+• Observer Assessment of UAP: Benign
+• Friendly Aircraft Speed:
+• Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: NO
+• Third-party Observers and/or Reporters: NONE
+• Friendly Aircraft State:
+• Training Range (If applicable):
+• Operational Range:
+• UAP Physical State: Solid
+• Number of UAP Sighted:
+• UAP Propulsion Means: UNK
+• UAP Payload:
+• UAP Under Intelligent Control (yes/no; if yes, describe): NO
+• UAP Signatures:                  1.4g
+• UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): YES, TRAVELED
+~424KN CONSISTANTLY FOR AT LEAST 7MINS IN THE SHAPE OF A BOUNCY BALL.
+• UAP RF Frequency: NONE
+• UAP RF Duration: N/A
+• UAP Event Serial Number: 092153ZNOV2023-CENTCOM
+• UAP Effects on Persons: NO
+• UAP Objects/Material Recovered (yes/no; if yes, describe): NO
+• UAP Effects on Equipment: NONE
+• Full Name: 3.5c,(b)(3)130b, (b)(6)
+• Rank/Grade: 3.5c,(b)(6)
+• Email:              3.5c,(b)(6)
+• Phone Number (VOSIP/STE): 3.5c,(b)(6)
+• Observer Engagement of UAP (yes/no; if yes, describe): NO
+• First Coordinate: 37DST69 1.4a 7 1.4a
+• First Seen Radius: 5
+• Last Accuracy: Estimated
+• Last Coordinate: 37SFT28 1.4a 3 1.4a
+• Last Seen Radius: 10
+• Kinetic Altitude Accuracy: Estimated
+• Kinetic Altitude: 170
+• Kinetic Depth Accuracy: Estimated
+
+
+                                             3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                  SECRET//NOFORN                               06/02/2025 000009
+
+                                Approved for Release to AARO - FOUO/PA
+                                                                    Recommendation by MG Brandon R. Tegtmeier
+                                        SECRET//NOFORN              USCENTCOM Chief of Staff
+                                                                    Recommended on: 2 June 2025
+                                                                    FOUO / Privacy Act applies
+• Kinetic Depth:
+• Kinetic Velocity Accuracy: Estimated
+• Kinetic Velocity: 424KN
+• Kinetic Trajectory Accuracy: Estimated
+• Kinetic Trajectory:
+• UAP Date of DoD Acquisition: 092153:00ZNOV23
+• UAP Reaction to Observation, Interrogation, Engagement (yes/no; if yes, describe): NO
+• UAP Anomalous Characteristics/ Behaviors: N/A
+• First Accuracy: Estimated
+• Call Sign:       1.4a
+• UAP First Seen Location:
+• UAP Last Seen Location:
+• UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured):
+
+
+GENTEXT/UAP
+• UAP Description (e.g., size, shape, color, markings, recognizable features): SHOWED AS      1.4g
+      1.4g
+• Gentext (UAP Event Description): (SECRET//NOFORN)
+WHILE RTB AT 2153Z, 1.4a OBSERVED 1X PROB HC UAP SHAPED AS A BOUNCY BALL
+COME FROM THE SOUTH AT NEAR CO-ALT. 1.4a OBSERVED THE PROB UAP DROP
+ALTITUDE AND SAFELY PASS THEIR AIRCRAFT WHILE CONSISTANTLY MAINTAINING
+~424KN. AFTER 7MIN OF WATCHING, THE PROB UAP BECAME OUT OF RANGE AND 1.4a
+CARRIED ON THEIR RTB. NO EMISSIONS CAME FROM THE PROB UAP, UAP WAS NOT
+CONSIDERED A THREAT TO THE AIRCRAFT OR PUBLIC SAFETY, AND THE UAP HAD NO
+EFFECTS ON THE AIRCREW.
+(SECRET//NOFORN)
+
+
+
+
+                                              3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                   SECRET//NOFORN                               06/02/2025 000010
+
+                                 Approved for Release to AARO - FOUO/PA
+

@@ -50,15 +50,16 @@
 10. [Track 8 — Cross-archive Synthesis / Трек 8 — Кросс-архивный синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез)
 11. [Track 9 — UAP Scientific Publications Corpus / Трек 9 — Корпус научных публикаций по UAP](#track-9--трек-9--uap-scientific-publications-corpus--корпус-научных-публикаций-по-uap)
 12. [Track 10 — Gershtein Archive / Трек 10 — Архив Герштейна](#track-10--трек-10--gershtein-archive--архив-герштейна)
-13. [Team / Команда](#research-team--исследовательская-команда)
-14. [Structure / Структура](#structure--структура)
-15. [Security / Безопасность](#security--безопасность)
-16. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
-17. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
-18. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
-19. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
-20. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
-21. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
+13. [Track 11 — PURSUE Declassification / Трек 11 — Рассекречивание PURSUE](#track-11--трек-11--pursue-declassification--рассекречивание-pursue)
+14. [Team / Команда](#research-team--исследовательская-команда)
+15. [Structure / Структура](#structure--структура)
+16. [Security / Безопасность](#security--безопасность)
+17. [Research Pipelines / Исследовательские конвейеры](#research-pipelines--исследовательские-конвейеры)
+18. [OSF Preregistration / Предварительная регистрация OSF](#osf-preregistration--предварительная-регистрация-osf)
+19. [ASRP Ecosystem / Экосистема ASRP](#asrp-ecosystem--экосистема-asrp)
+20. [Contact / Контакты](#corporate-contact--корпоративные-контакты)
+21. [Disclaimer / Отказ от ответственности](#disclaimer--отказ-от-ответственности)
+22. [Navigation Index / Навигационный индекс](#navigation-index--навигационный-индекс)
 
 ---
 
@@ -96,10 +97,11 @@ README ниже — это **навигационный хаб**: индекс �
 | **8. Cross-archive synthesis / Кросс-архивный синтез** | Themes spanning multiple tracks / Темы, охватывающие несколько треков | Available / Доступно | [`analysis/cross-archive-synthesis.md`](analysis/cross-archive-synthesis.md) |
 | **9. UAP scientific publications corpus / Корпус научных публикаций по UAP** | Public-source literature catalog: peer-reviewed UAP physics + social-science + government reports + observation-program technical outputs / Публично-источниковый каталог литературы: рецензируемая физика UAP + социальные науки + правительственные отчёты + технические выходы программ наблюдений | Available / Доступно | [`uap-scientific-publications/README.md`](uap-scientific-publications/README.md) |
 | **10. Gershtein archive / Архив Герштейна** | Mikhail Gershtein interview corpus (~62 interviews), Soviet UAP research programs, plasma phenomena, NDE/UAP cross-references / Корпус интервью Михаила Герштейна (~62 интервью), советские UAP-программы, плазменные явления, кросс-ссылки NDE/UAP | Available / Доступно | [`gershtein-archive/README.md`](gershtein-archive/README.md) |
+| **11. PURSUE Declassification / Рассекречивание PURSUE** | DoW/FBI/NASA/State UAP records — PURSUE Release 01 (161 records, war.gov 2026-05-08): 121 PDFs + 28 mp4 + 14 jpg, 158 per-doc cards, 7 topical syntheses, 6362-line MASTER, QA-certified / Записи DoW/ФБР/NASA/Госдеп — PURSUE Релиз 01 (161 запись, war.gov 8 мая 2026): 121 PDF + 28 mp4 + 14 jpg, 158 карточек по документам, 7 тематических синтезов, MASTER на 6362 строки, заверено QA | Available / Доступно | [`war-gov-pursue-archive/README.md`](war-gov-pursue-archive/README.md) |
 
-**EN:** The tracks index above is the central navigation. Each track is independent — open the lead file to enter that track's primary material. All nine tracks are now active.
+**EN:** The tracks index above is the central navigation. Each track is independent — open the lead file to enter that track's primary material. All eleven tracks are now available.
 
-**RU:** Индекс треков выше — центральная навигация. Каждый трек самостоятелен — откройте главный файл, чтобы войти в первичный материал трека. Все девять треков теперь активны.
+**RU:** Индекс треков выше — центральная навигация. Каждый трек самостоятелен — откройте главный файл, чтобы войти в первичный материал трека. Все десять активных треков теперь доступны (трек 10 зарезервирован).
 
 ---
 
@@ -362,6 +364,20 @@ Multi-layered scientific study of UAP fragment **UAP-FRAG-001** through 3 analyt
 - Cross-references / Кросс-ссылки: Track 3 (Chernobrov / Russian field research), Track 8 (cross-archive synthesis)
 
 **Lead file / Главный файл:** [`gershtein-archive/README.md`](gershtein-archive/README.md)
+
+---
+
+## TRACK 11 / ТРЕК 11 — PURSUE Declassification / Рассекречивание PURSUE
+
+**Status: Available / Статус: Доступно**
+
+**EN:** US Department of War **PURSUE Release 01** (8 May 2026, war.gov/UFO) — 161 declassified UAP records from DoW, FBI, NASA, and the Department of State, made public under the Presidential Unsealing and Reporting System for UAP Encounters. Spans 82 years (1944 foo-fighters → 2025 FBI Western US IR cluster) and includes the FBI Case 62-HQ-83894 master file (1947–1976), the September 2023 bronze-ellipsoid case (FBI ELLIPSE Sr3/4/5 + AI-composite sketch), Apollo / Skylab / Gemini transcripts and imagery (NASA-D series + VM6 active-investigation photograph), modern military mission reports (CENTCOM / INDOPACOM / AFRICOM 2013–2026 with structured-field MISREP forms), and Department-of-State diplomatic cables (1952 SECRET memo through 2004 Turkmenistan), plus the COMETA 1999 report as the only civilian / foreign source. The `war-gov-pursue-archive/` sub-archive structures the corpus into **158 per-document analytical cards**, **7 topical syntheses**, a **6362-line MASTER claims document** with EN-primary content and RU synopsis, and a **Stage-9 QA review** certifying 100 percent record coverage and clean cross-link integrity. Verdict-marker distribution across 1522 per-document claims: **74.6% CORROBORATED**, 10.6% PARTIAL, 7.1% UNRESOLVED, 4.6% REDACTED, 1.6% ANALYTICAL FLAG, 1.5% EXPLAINED. Per archive policy, **claims are not imported** between PURSUE and the sibling archives — cross-references are pointers only.
+
+**RU:** **PURSUE Релиз 01** Министерства войны США (8 мая 2026, war.gov/UFO) — 161 рассекреченная запись по НАЯ от DoW, ФБР, NASA и Госдепартамента, обнародованная в рамках программы Presidential Unsealing and Reporting System for UAP Encounters. Охватывает 82 года (foo-fighters 1944 → ИК-кластер ФБР Western US 2025) и включает мастер-файл дела ФБР 62-HQ-83894 (1947–1976), дело бронзового эллипсоида сентября 2023 (FBI ELLIPSE Sr3/4/5 + ИИ-композит-набросок), транскрипты и снимки Apollo / Skylab / Gemini (NASA-D серия + фотография активного расследования VM6), современные военные mission reports (CENTCOM / INDOPACOM / AFRICOM 2013–2026 со структурированными формами MISREP), дипломатические телеграммы Госдепа (от секретной памятки 1952 до Туркменистана 2004), плюс отчёт COMETA 1999 как единственный гражданский / иностранный источник. Подархив `war-gov-pursue-archive/` структурирует корпус в **158 аналитических карточек по документам**, **7 тематических синтезов**, **MASTER-документ заявлений на 6362 строки** с основным контентом на EN и русским синопсисом, а также **QA-обзор Этапа 9** с подтверждением 100% покрытия записей и чистой целостности перекрёстных ссылок. Распределение меток вердиктов по 1522 заявлениям per-document: **74.6% CORROBORATED**, 10.6% PARTIAL, 7.1% UNRESOLVED, 4.6% REDACTED, 1.6% ANALYTICAL FLAG, 1.5% EXPLAINED. По политике архива **заявления между PURSUE и смежными архивами не импортируются** — перекрёстные ссылки служат только указателями.
+
+**Lead file / Главный файл:** [`war-gov-pursue-archive/README.md`](war-gov-pursue-archive/README.md)
+
+**Cross-references / Кросс-ссылки:** Track 8 cross-archive synthesis Theme 4 (US federal disclosure lineage); thematic adjacency to Track 2 (Lazar element 115 / propulsion), Track 4 (Dubna / Element 115), and Track 3 (Chernobrov / Soviet aerospace lineage).
 
 ---
 

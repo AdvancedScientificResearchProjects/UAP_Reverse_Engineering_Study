@@ -1,0 +1,440 @@
+# dow-uap-d27-mission-report-united-arab-emirates-october-2023
+# Source: raw/native/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf
+
+                                                                             Declassified by MG Richard A. Harrison
+                                                                             USCENTCOM Chief of Staff
+                                              SECRET//NOFORN                 Declassified on: 24 October 2025
+
+
+
+
+Misrep undefined-10055709
+Narrative
+(SECRET//NOFORN)
+AT 2100Z, (b)(1)1.4a                TOOK OFF FROM OMAM VIA SLR. (b)(1)1.4a PROCEEDED TO
+FRAGGED TASKING.
+
+AT 1822Z, (b)(1)1.4a WAS 7-LINED. (b)(1)1.4a DID NOT ARRIVE ON-STATION DUE TO WX RTB (SEE
+ON/OFF STATION 1).
+
+AT 2256Z, (b)(1)1.4a CONDUCTED A NON-INTERFERENCE BASIS TASKING (SEE NIB 1).
+
+AT 0444Z, (b)(1)1.4a CONDUCTED A NON-INTERFERENCE BASIS TASKING (SEE NIB 2).
+
+AT 0457Z, DURING RTB (b)(1)1.4a DETECTED 1X UAP (SEE UAP 1).
+
+AT 0405Z, (b)(1)1.4a RETURNED TO BASE. AT 0713Z, (b)(1)1.4a CONDUCTED SLR AND LANDED AT
+OMAM. 10:13 MISSION HOURS.
+(SECRET//NOFORN)
+
+
+
+
+(S/RELIDO) Mission Narrative
+
+
+
+Admin
+
+
+CLASSIFICATION
+• Classification: SECRET
+• Associated Caveats: NOFORN
+• Classification Source (MS or Classification Guide ID): MS
+• Declassification Date (YYYYMMDD): 20490606
+
+
+OPERATION
+• Operation: ENDURING SENTINEL
+• Domain: AIR
+• Operations Center: 609th
+
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                   10/28/25 001
+                                          Approved for Release to AARO
+                                                                                 Declassified by MG Richard A. Harrison
+                                                                                 USCENTCOM Chief of Staff
+                                                     SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+• Major Command (MAJCOM): AFSOC
+• Combatant Command (COCOM): USCENTCOM
+
+
+MSGID
+• Report Type: MISREP
+• Originator (Unit or Squadron): 3 SOS
+• Submit Date:
+
+
+MSNID
+• Tasking Order (ATO): DK
+• Mission Type: ISR
+• ATO Mission Number: (b)(1)1.4a
+• Country Tasked: US - UNITED STATES
+• Service Tasked: A - AIR FORCE
+
+Poc
+
+
+POC
+• Rank: SrA
+• Full3.5c,
+       Name:FOIA Exemptions (b)(3), 130b, (b)(6)
+• Unit: Unavailable
+• Wing: 27 SOW
+• Phone Number:
+              3.5c, FOIA Exemption (b)(6)
+• Email:            3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+QC
+• Rank: A1C
+• Full3.5c,
+        Name:
+            FOIA Exemptions (b)(3), 130b, (b)(6)
+• Unit: 56 SOIS
+• Wing: 27 SOW
+• Phone Number:3.5c, FOIA Exemption (b)(6)
+• Email:             3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 609 AOC Det 1
+
+
+APPROVER
+
+
+                                                   3.5c, FOIA Exemption (b)(6)
+
+                                                     SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                       10/28/25 002
+                                          Approved for Release to AARO
+                                                                                 Declassified by MG Richard A. Harrison
+                                                                                 USCENTCOM Chief of Staff
+                                                     SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+• Rank: SrA
+• Full3.5c,
+        Name:
+            FOIA Exemptions (b)(3), 130b, (b)(6)
+• Unit: Unavailable
+• Wing: 379 AEW
+• Phone Number:   3.5c, FOIA Exemption (b)(6)
+• Email:             3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+INGEST
+• Rank:
+• Full Name:
+• Unit:
+• Wing:
+• Phone Number:
+• Email:
+• Service:
+• Operations Center:
+
+ACEQUIP
+
+
+ACEQUIP
+                        (b)(1)1.4a
+• Aircraft Callsign:
+• Radar Name or Destination:
+• Radar Software Load or Mission Data:
+• Radar Warning Receiver (RWR) Name or Designator:
+• RWR Software Load or Mission Data:
+• MWS Name or Designator:
+• MWS Software Load or Mission Data:
+• IRCM Name or Designator:
+• IRCM Software Load or Mission Data:
+• ECM Name or Designator:
+• ECM Software Load or Mission Data:
+• CMD Name or Designator:
+• Chaff Designator:
+• Num Chaff or Cartridges:
+• Flare Designator:
+• Num Flares:
+• Towed Decoy Name or Designator:
+• Towed Decoy Software Load or Mission Data:
+
+
+
+                                                   3.5c, FOIA Exemption (b)(6)
+
+                                                     SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                       10/28/25 003
+                                          Approved for Release to AARO
+                                                                          Declassified by MG Richard A. Harrison
+                                                                          USCENTCOM Chief of Staff
+                                              SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+• Num Towed Decoys:
+• Type of Radar-Guided AAM:
+• Num Radar-Guided AAM:
+• Type of IR-Guided AAM:
+• Num IR-Guided AAM:
+• Gun Name or Designator:
+• Num Gun Rounds:
+• Air-to-Ground Wpn to Include Num of Each:
+• TGT Pod Name or Designator: AN/DAS-1
+• Additional Avionics: AH/GMESH/SF
+• Data Link: LINK 16
+• Gentext:
+
+Timeline
+
+
+Takeoff
+• Callsign: (b)(1)1.4a
+• Number of Aircraft: 1
+• Asset Type (Aircraft):
+                     (b)(1)1.4a, (b)(1)1.4g
+• Aircraft Tail Number(s):
+                      (b)(1)1.4a, (b)(1)1.4g
+• Takeoff Location (ICAO Code): OMAM
+• Takeoff Time DTG: 062100:00ZJUN24
+• Mode 3 (IFF Codes): 34563
+• Gentext/Additional Details:
+• Mission Canceled:
+
+
+Landing
+• Last Land Location (ICAO Code): OMAM
+• Last Land Time: 070713:00ZJUN24
+• Last Engine Shutdown Time: 070723:00ZJUN24
+• Total Mission Time: 10 hours 13 minutes
+• Gentext/Additional Details:
+
+
+On Station
+• Time On Station DTG:
+• Callsign: (b)(1)1.4a
+• JTAR Number: -
+• Killbox (Location): -
+• Mission Type: ISR
+
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                10/28/25 004
+                                          Approved for Release to AARO
+                                                                          Declassified by MG Richard A. Harrison
+                                                                          USCENTCOM Chief of Staff
+                                              SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+• JTAC Callsign: ITC
+• Gentext/Additional Details: (SECRET//REL TO USA, FVEY)
+AT 1822Z, (b)(1)1.4a WAS 7-LINED. DID NOT ARRIVE ON-STATION DUE TO WX RTB AT 0405Z.
+(SECRET//REL TO USA, FVEY)
+• Did not Arrive On Station: On
+
+
+Off Station
+• Time Off Station DTG:
+• Total Time On Station:
+• Gentext/Additional Details:
+
+
+NIB
+• Earliest Time Intelligence of Value: 062256:00ZJUN24
+• Latest Time Intelligence of Value: 062330:00ZJUN24
+• NIB ID: -
+• ISR Support or Effect: FMV
+• Target Name:              (b)(1)1.4a
+• Location of Interest (LOI): -
+• Location (MGRS): 40RGM85               1
+                                (b)(1)1.4a
+                                        (b)(1)1.4a
+• Requested Classification of Reports: SECRET//REL TO USA, FVEY
+• Dissemination POCs or Common File: -
+• EEIs: (SECRET//REL TO USA, FVEY)
+A. BEGIN SCANS AT 75NM WEST, NORTH, AND EAST OF SP FOR DHOWS TRANSITING IN
+THE DIRECTION OF SP
+B. PROVIDE SITREP WITH FLAG STATUS, FLAG, OR NO FLAG VISIBLE AND COUNTRY OF
+FLAG (IF POSSIBLE), COORDINATES AND OBSERVED ACTIVITY.
+C. CALL OUT ANY IDENTIFIABLE EQUIPMENT, COMMS EQUIPMENT, PERSONS WEAPONS,
+CARGO ON BOARD TO INCLUDE CANCAS COVERED ITEMS
+(SECRET//REL TO USA, FVEY)
+
+
+GENTEXT/NIB
+• Gentext: (SECRET//REL TO USA, FVEY)
+UPON ARRIVAL TO SP AT 2256Z, (b)(1)1.4a OBSERVED NO PERSONNEL OR VEHICLE ACTIVITY.
+BETWEEN 2257Z-2330Z, (b)(1)1.4a CONDUCTED SCANS IVO THE SP AND PROVIDED CALLS ON
+ANY DHOW ACTIVITY. ITC INTENT MET.
+(SECRET//REL TO USA, FVEY)
+
+
+UAP
+• Initial Contact DTG: 070457:00ZJUN24
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                10/28/25 005
+                                          Approved for Release to AARO
+                                                                          Declassified by MG Richard A. Harrison
+                                                                          USCENTCOM Chief of Staff
+                                              SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+• UAP Event Type: UAP Incident
+• UAP Maneuverability Observations: FLYING STRAIGHT JUST OVER THE WATER AT SPEED
+OF 140KNOTS
+• UAP Response to Observer Actions: NO CHANGE
+• MDS Type / Asset Type:   (b)(1)1.4a, (b)(1)1.4g
+• Tail Number:
+             (b)(1)1.4a, (b)(1)1.4g
+• Friendly Aircraft Location: 40RFM60                     74
+                                                  (b)(1)1.4a
+                                                          (b)(1)1.4a
+• Friendly Aircraft Altitude/Depth: 23,999FT
+• Friendly Aircraft Trajectory: 294
+• Observer Assessment of UAP: Benign
+• Friendly Aircraft Speed: 163 KNOTS
+• Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: NO
+• Third-party Observers and/or Reporters: -
+• Friendly Aircraft State:
+• Training Range (If applicable): N/A
+• Operational Range: -
+• UAP Physical State: Solid
+• Number of UAP Sighted:
+• UAP Propulsion Means: UNKNOWN
+• UAP Payload:
+• UAP Under Intelligent Control (yes/no; if yes, describe):
+• UAP Signatures: -
+• UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): NO
+• UAP RF Frequency: -
+• UAP RF Duration: -
+• UAP Event Serial Number: 060457ZJUN2024-CENTCOM
+• UAP Effects on Persons: NO
+• UAP Objects/Material Recovered (yes/no; if yes, describe): NO
+• UAP Effects on Equipment: -
+• Full Name:
+          3.5c, FOIA Exemptions (b)(3), 130b, (b)(6)
+• Rank/Grade: E-4
+• Email:        3.5c, FOIA Exemption (b)(6)
+• Phone Number (VOSIP/STE):       3.5c, FOIA Exemption (b)(6)
+• Observer Engagement of UAP (yes/no; if yes, describe): NO
+• First Coordinate: 40RFM60        (b)(1)1.4a2
+                                            (b)(1)1.4a
+• First Seen Radius:
+• Last Accuracy: Estimated
+• Last Coordinate: 40QFM92         (b)(1)1.4a1
+                                           (b)(1)1.4a
+• Last Seen Radius: 5
+• Kinetic Altitude Accuracy: Estimated
+• Kinetic Altitude: -
+• Kinetic Depth Accuracy: Estimated
+• Kinetic Depth: -
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                10/28/25 006
+                                          Approved for Release to AARO
+                                                                                Declassified by MG Richard A. Harrison
+                                                                                USCENTCOM Chief of Staff
+                                              SECRET//NOFORN                    Declassified on: 24 October 2025
+
+
+
+• Kinetic Velocity Accuracy: Estimated
+• Kinetic Velocity: 140 KNOTS
+• Kinetic Trajectory Accuracy: Estimated
+• Kinetic Trajectory: -
+• UAP Date of DoD Acquisition: 070457:00ZJUN24
+• UAP Reaction to Observation, Interrogation, Engagement (yes/no; if yes, describe): NO
+• UAP Anomalous Characteristics/ Behaviors:
+• First Accuracy: Precise
+• Call Sign: (b)(1)1.4a
+• UAP First Seen Location:
+• UAP Last Seen Location:
+• UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured):
+
+
+GENTEXT/UAP
+• UAP Description (e.g., size, shape, color, markings, recognizable features): (SECRET//NOFORN)
+GLOWING HOT SPHERICAL UNIDENTIFIED OBJECT WITH A VERTICAL UNWAVERING
+CYLINDRICAL POLE/BAR ATTACHED ON THE BOTTOM OF THE OBJECT POSS REFLECTION
+FROM THE OBJECT IN THE WATER, MOVING AT 140KNOTS
+(SECRET//NOFORN)
+• Gentext (UAP Event Description): (SECRET//NOFORN)
+DURING RTB AT 0457Z, (b)(1)1.4a OBSERVED 1X UAP WHILE TRANSITING OVER
+40RFM60         2
+       (b)(1)1.4a      FLYING AT AN ALTITUDE OF 23,999FT MSL AND SPEED OF 163KTS.
+               (b)(1)1.4a
+(SECRET//NOFORN)
+
+
+NIB
+• Earliest Time Intelligence of Value: 070444:00ZJUN24
+• Latest Time Intelligence of Value: 070548:00ZJUN24
+• NIB ID: -
+• ISR Support or Effect: FMV
+• Target Name:              (b)(1)1.4a
+• Location of Interest (LOI): -
+• Location (MGRS): 40RFM63              2
+                               (b)(1)1.4a
+                                       (b)(1)1.4a
+• Requested Classification of Reports: SECRET//REL TO USA, FVEY
+• Dissemination POCs or Common File: -
+• EEIs: (SECRET//REL TO USA, FVEY)
+A. BEGIN SCANS AT 75NM WEST, NORTH, AND EAST OF SP FOR DHOWS TRANSITING IN
+THE DIRECTION OF SP
+B. PROVIDE SITREP WITH FLAG STATUS, FLAG, OR NO FLAG VISIBLE AND COUNTRY OF
+FLAG (IF POSSIBLE), COORDINATES AND OBSERVED ACTIVITY.
+C. CALL OUT ANY IDENTIFIABLE EQUIPMENT, COMMS EQUIPMENT, PERSONS WEAPONS,
+CARGO ON BOARD TO INCLUDE CANCAS COVERED ITEMS
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                       10/28/25 007
+                                          Approved for Release to AARO
+                                                                          Declassified by MG Richard A. Harrison
+                                                                          USCENTCOM Chief of Staff
+                                              SECRET//NOFORN              Declassified on: 24 October 2025
+
+
+
+(SECRET//REL TO USA, FVEY)
+
+
+GENTEXT/NIB
+• Gentext: (SECRET//REL TO USA, FVEY)
+UPON ARRIVAL TO SP AT 0444Z, (b)(1)1.4a OBSERVED NO PERSONNEL OR VEHICLE ACTIVITY.
+BETWEEN 0445Z-0548Z, (b)(1)1.4a CONDUCTED SCANS IVO THE SP AND PROVIDED CALLS ON
+ANY DHOW ACTIVITY. ITC INTENT MET.
+(SECRET//REL TO USA, FVEY)
+
+
+
+
+                                            3.5c, FOIA Exemption (b)(6)
+
+                                              SECRET//NOFORN
+USCENTCOM MDR 25-0100 thru 25-0103 / JS-250710-TM8S                                10/28/25 008
+                                          Approved for Release to AARO
+

@@ -1,0 +1,392 @@
+# dow-uap-d35-mission-report-greece-october-2023
+# Source: raw/native/dow-uap-d35-mission-report-greece-october-2023.pdf
+
+                                                                     Declassified by MG Richard A. Hamson
+                                                                     USCENTCOM Chief of Staff
+                                                                     Declassified on : 22 January 2026
+
+
+
+
+Misrep 9337873
+Narrative
+
+AT 15042,I     1.4a  ITOOK OFF FROM LGLR. AT 151$2,~HANDED OVER FROM
+THE LRE.(l;:]PROCEEDED TO FRAGGED TASKING TO SUPPORT DATA MASKED.
+
+ AT 16182,~WAS 7-LINED TO SUPPORT DATA MASKEI),.~ARRIVED <?N-STATION AT
+ 20182, CHECKED IN WITH DATA MASKED, AND PERFO D FMV/SIGINT COLLECTION AT
+ 36S YC 401.4a!5~ (SEE ISR 1).
+
+ AT 081 lZ,~BSERVED IX POSS UAP (SEE UAP 1).
+
+AT 0542Z~RETURNED TO BASE. AT 10352,~           ED BACK TO THE LRE. AT 11052,
+~LANDED AT LGLR. FULL MOTION VIDEO WAS EXPLOITED BY GET. 20:01 MISSION
+HOURS, 09:24 FMV HOURS, IX FMV TASKING$ PROSECU D.
+
+
+
+
+                 Mission Narrative
+
+
+
+ Admin
+
+
+ CLASSIFICATION
+ • Classification:
+ • Associated Caveats:
+ • Classification Source (MS or Classification Guide ID): MS
+ • Declassification Date (YYYYMMDD): 20481028
+
+
+ OPERATION
+ • Operation1       1.4a
+ • Domain: AIR
+ • Operations Center: 603rd
+ • Major Command (MAJCOM): AFSOC
+ • Combatant Command (COCOM): USCENTCOM
+
+
+
+                                              3.5c, (b )(6)
+
+
+USCENTCOM MDR 26-0019                 Approved for Release to AARO            01/26/26 001
+                                                                                        Declassified by MG Richard A. Harrison
+                                                                                        USCENTCOM Chief of Staff
+                                                                                        Declassified on: 22 January 2026
+
+
+
+
+  MSGID
+  • Report Type: MISREP
+  • Originator (Unit or Squadron): 33 SOS
+  • Submit Date:
+
+
+  MSNID
+
+  • Tasking Order (ATO)~ 1.4a
+  • Mission Type: ISR
+  • ATO Mission Number~
+  • Country Tasked: US - UNITED STATES
+  • Service Tasked: A -AIR FORCE
+
+
+  Poe
+
+
+  POC
+  • Rank: AlC
+  • Full Name~.5c, (b)(3), 130b, (b)(§)
+  • Unit: 56 SOIS
+  • Wing: 27 SOW
+  • Phone Number:~!-3-.5-c.-l-b}-,6-}~
+  • Email:I             3.5c, (b)(6)
+  • Service: Air Force
+  • Operations Center: 609 AOC Det l
+
+
+  QC
+  • Rank: SrA
+  • Full Naml3.bc, (b)(3), 130b, (bl$)
+  • Unit: Unavailable
+  • Wing: 27 SOW
+  • Phone Number:~b.-5c-.-,b-}(6~~
+  • Email:I            3.5c, (b)(6)
+  • Service: Air Force
+  • Operations Center: 609 CAOC
+
+
+  APPROVER
+  • Rank: AlC
+  • Full Name:p
+              ...._-5c-,-(b-)(3_)_,1-30-b-,(-b-)(6-,)I
+  • Unit: Unavailable
+
+
+                                                                  3.5c, (b)(6)
+
+
+USCENTCOM MDR 26-0019                                    Approved for Release to AARO            01/26/26 002
+                                                                                  Declassified by MG Richard A. Hamson
+                                                                                  USCENTCOM Chief of Staff
+                                                                                  Declassified on: 22 January 2026
+
+
+
+
+ • Wing: Other
+ • Phone Number:!J.5c, (b)(6)!'...._
+ • Email:!
+                                      ____            _,
+                       3.5c, .1.::Cb:.Ll)(.::.,6)~------l
+ • Service: Air Force
+ • Operations Center: 603 AOC
+
+
+ INGEST
+ • Rank:
+ • FuUName:
+ • Unit:
+ • Wing:
+ • Phone Number:
+ • Email:
+ • Service:
+ • Operations Center:
+
+ ACEQUIP
+
+
+ ACEQVJP
+ • Aircraft Callsign:! 1.4a__,
+ • Radar Name or Destination:
+ • Radar Software Load or Mission Data:
+ • Radar Warning Receiver (RWR) Name or Designator:
+ • RWR Software Load or Mission Data:
+ • MWS Name or Designator:
+ • MWS Software Load or Mission Data:
+ • IRCM Name or Designator:
+ • IRCM Software Load or Mission Data:
+ • ECM Name or Designator:
+ • ECM Software Load or Mission Data:
+ • CMD Name or Designator:
+ • Chaff Designator:
+ • Num Chaff or Cartridges:
+ • Flare Designator:
+ • Num Flares:
+ • Towed Decoy Name or Designator:
+ • Towed Decoy Software Load or Mission Data:
+ • Num Towed Decoys:
+ • Type of Radar-Guided AAM:
+ • Num Radar-Guided AAM:
+
+
+
+                                                        3.5c fb)f6)           I
+
+USCENTCOM MDR 26-0019                          Approved for Release to AARO                01/26/26 003
+                                                                           Declassified by MG R chard A Ha•rison
+                                                                           USCE=NTCOM Chief of Staff
+                                                                           Declassified o'l· 22 January 2026
+
+
+
+
+  • Type of IR-Guided AAM:
+  • Num IR-Guided AAM:
+  • Gun Name or Designator:
+  • Num Gun Rounds:
+  • Air-to-Ground Wpn to Include Num of Each: 2XAGM-l 14R9E 2XAGM-l 14R2
+  • TGT Pod Name or Designator: AN/DAS-4
+  • Additional Avionics: AH/GMESH
+  • Data Link: LINK 16
+  • Gentext:
+
+
+  Timeline
+
+
+  Takeoff
+
+  • Callsign:I   1.4a
+  • Number of Aircraft: 1
+  • Asset Type (Aircraft): .4a, 1.4
+  • Aircraft Tail Number(s) 1.4a
+  • Takeoff Location (ICAO Code): LGLR
+  • Takeoff Time DTG: 281504:00ZOCT23
+  • Mode 3 (IFF Codes): 34055
+  • Gentext/ Additional Details:
+  • Mission Canceled:
+
+
+  Landing
+  • Last Land Location (ICAO Code): LGLR
+  • Last Land Time: 291105:00ZOCT23
+  • Last Engine Shutdown Time: 291115:00ZOCT23
+  • Total Mission Time: 20 hours 1 minute
+  • Gen text/ Additional Details:
+
+
+  On Station
+  • Time On Station DTG: 282018:00ZOCT23
+  • Callsign:I  1.4a    I
+  • JTAR Number: -
+  • Killbox (Location): -
+  • Mission Type: ISR
+  • JTAC Callsign:l~-1-.4-a~
+  • Gen text/ Additional Details:
+  • Did not Arrive On Station: On
+
+
+
+                                             3.5c, (b )(6)
+
+USCENTCOM MDR 26-0019               Approved for Release to AARO                     01/26/26 004
+                                                                         Declassified by MG Richard A. He rison
+                                                                         USCENTCOM Chief of Staff
+                                                                         Declassified on 22 January 2026
+
+
+
+
+ Of/Station
+
+ • Time Off Station DTG: 290542:00ZOCT23
+ • Total Time On Station: 9 hours 24 minutes
+ • Gentext/Additional Details:
+
+
+ JSR
+
+ • Time-on Station DTG: 282018:00ZOCT23
+ • Time-off Station DTG: 290542:00ZOCT23
+ • Aircraft Callsign:! 1.4a   I
+ • Msn Type: AREC
+ • Primary Sensor: FMV
+ • Sensors Available: G-MESH
+ • Tasking Type: Planned
+ • Tasking or Request Number (JTAR#, AEM#, PRJ#, or TIC# : DATA MASKED
+ • BE Number (ifNTISR): -
+ • Tasked Start Point: 36S YC 4~511.4a!
+ • Activity Description: TARGET DEVELOPMENT
+ • FMV or Image File Name (ifNTISR): -
+ • EEis Observed: No
+ • Number of EEis:
+ • Global Campaign Plan:
+
+
+ GENTEXT/ISR
+ • Gentext:
+ UPON ARRIVAL TO THE SP AT 2018Z,~OBSERVED N EEi RELATED ACTVITY. FROM
+ 2019Z TO 2243Z,~CONDUCTED POL ON SEVERAL AS~OCIATED COIS, NO EEi RELATED
+ ACTIVITY OBSERVED. AT 2244Zf':"7OBSERVED 6X VE«ICLES ON PARKING GARAGE
+ ROOFTOP AND NO PERSONNEL.~CONDUCTED POL I N COi UNTIL RTB AT 0542Z.
+
+
+
+ JSR ASSET UTILIZATION
+ • Supported Unit: DATA MASKED
+ • Supported Operation~      1.4a
+ • Precoord Time: -
+ • Precoord Effectiveness: -
+
+
+ WEATHER
+ • Weather: (UNCLASSIFIED)
+
+
+
+                                               3.5c b 6
+
+
+USCENTCOM MDR 26-0019                Approved for Release to AARO                 01/26/26 005
+                                                                                       Declassified by MG Richard A. Ha•rison
+                                                                                       USCENTCOM Chief of Staf'
+                                                                                       Declassified O"l . 22 January 2026
+
+
+
+
+  CLEAR WX
+  (UNCLASSIFIED)
+
+
+  EFFECTIVENESS
+  • Tasker:
+  • Intel Gap Filled?: Yes
+  • Gentext: (UNCLASSIFIED)
+  SATISFACTORY
+  (UNCLASSIFIED)
+
+
+  UAP
+  • Initial Contact DTG: 290811 :00ZOCT23
+  • UAP Event Type: UAP Incident
+  • UAP Maneuverability Observations: NONE
+  • UAP Response to Observer Actions: NONE
+  • MDS Type / Asset Type~ 1.4a, 1.4gI
+  • Tail Number~
+  • Friendly Aircraft Location: 35SMV3~~1.4a!
+  • Friendly Aircraft Altitude/Depth: -
+  • Friendly Aircraft Trajectory: -
+  • Observer Assessment of UAP: Benign
+  • Friendly Aircraft Speed: -
+  • Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: -
+  • Third-party Observers and/or Reporters: -
+  • Friendly Aircraft State:
+  • Training Range (If applicable): -
+  • Operational Range:
+  • UAP Physical State: Solid
+  • Number of UAP Sighted:
+  • UAP Propulsion Means: UNK
+  • UAP Payload:
+  • UAP Under Intelligent Control (yes/no; if yes, describe): NO
+  • UAP Signatures: NONE
+  • UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): UNK
+  • UAP RF Frequency: UNK
+  • UAP RF Duration: UNK
+  • UAP Event Serial Number: -
+  • UAP Effects on Persons: NO
+  • UAP Objects/Material Recovered (yes/no; if yes, describe): NO
+  • UAP Effects on Equipment: NONE
+  • Full Name: -
+
+
+                                                  3.5c, (b)(6)
+
+
+USCENTCOM MDR 26-0019                    Approved for Release to AARO                           01/26/26 006
+                                                                                  Declass,fed by MG Ricrard A. Har•1sor
+                                                                                  USCE:N-rCOM Cti ef of Staff
+                                                                                  Declass-fied on 22 Jant.ary 2026
+
+
+
+
+ • Rank/Grade: -
+ • Email: -
+ • Phone Number (VOSIP/STE): -
+ • Observer Engagement of UAP (yes/no; if yes, describe): NO
+ • First Coordinate: 35SMV3~~
+ • First Seen Radius: 5
+ • Last Accuracy: Estimated
+ • Last Coordinate: 35SMV3~41.4a!
+ • Last Seen Radius: 5
+ • Kinetic Altitude Accuracy: Estimated
+ • Kinetic Altitude: -
+ • Kinetic Depth Accuracy: Estimated
+ • Kinetic Depth: -
+ • Kinetic Velocity Accuracy: Estimated
+ • Kinetic Velocity: 30 MPH
+ • Kinetic Trajectory Accuracy: Estimated
+ • Kinetic Trajectory: -
+ • UAP Date ofDoD Acquisition: 290811:00ZOCT23
+ • UAP Reaction to Observation, Interrogation, Engagement (y s/no; if yes, describe): UNK
+ • UAP Anomalous Characteristics/ Behaviors: -
+ • First Accuracy: Estimated
+ • Call Sign:!   1.4a I
+ • UAP First Seen Location:
+ • UAP Last Seen Location:
+ • UAP Altitude, Depth, Velocity, and Trajectory (indicate esti ated or measured):
+
+
+ GENTEXT/UAP
+ • UAP Description (e.g., size, shape, color, markings, recogniz le features): SEEMINGLY
+ CIRCULAR, TOO SMALL TO MAKE OUT DETAILS
+ • Gentext (UAP Event Description):
+ AT 081 IZ,!     1.4a         !WAS RIB WHEN THEY SPOTTE A UAP FLYING JUST ABOVE
+ THE SURFACE OF THE OCEAN WATER. THE UAP FLEWS                     IGHT ABOVE THE OCEAN
+ TOWARDS LANDS. AT 081 IZ,~LOST THE UAP FROM HEIR FEED.
+
+
+
+
+                                              3.Sc b 6
+
+
+USCENTCOM MDR 26-0019                 Approved for Release to AARO                          01/26/26 007
+

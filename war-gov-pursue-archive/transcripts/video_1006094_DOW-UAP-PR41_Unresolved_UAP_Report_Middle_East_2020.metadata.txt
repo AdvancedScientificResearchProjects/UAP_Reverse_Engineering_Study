@@ -1,0 +1,34 @@
+# video_1006094_DOW-UAP-PR41_Unresolved_UAP_Report_Middle_East_2020
+# Source: raw/video/video_1006094_DOW-UAP-PR41_Unresolved_UAP_Report_Middle_East_2020.mp4
+# (binary asset; this transcript carries metadata only)
+
+# DOW-UAP-PR41, Unresolved UAP Report, Middle East, 2020
+
+- **Agency:** Department of War
+- **Kind:** vid
+- **Release Date:** 
+- **Incident Date:** 2020-01-01
+- **Incident Location:** UL
+- **Document Type:** 
+- **Length:** 00:01:34
+- **Category:** B-Roll
+- **Slug:** `dow-uap-pr41, unresolved uap report, middle east, 2020`
+
+## Description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon to the All-domain Anomaly Resolution Office (AARO) consisting of one minute and 34 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2020. The reporter did not provide any oral or written description of the observation.
+
+Video Description:
+
+00:01: An area of contrast enters the sensor field-of-view from the bottom third of the left side of the screen.
+
+00:02-01:34: The sensor pans from left to right, tracking the area of contrast and keeping it generally centered within the field-of-view.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+Redactions have been made to protect the identity of eyewitnesses, the location of government facilities, or potentially sensitive information about military sites not related to UAP. No redactions have been made to any files released under President Trump's directive concerning information about the nature or existence of any encounter reported as a UAP or related phenomena.
+
+## Source URLs
+
+- Portal page: https://www.war.gov/UFO/
+- Track src (subtitles): 

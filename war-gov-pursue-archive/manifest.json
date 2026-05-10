@@ -1,0 +1,1260 @@
+{
+  "repo_layout_version": 1,
+  "archive": "war-gov-pursue-archive",
+  "subject": "PURSUE Release 01 (DoW/FBI/NASA/State UAP records)",
+  "release_label": "Release 1",
+  "released_on": "2026-05-08",
+  "gathered_on": "2026-05-08",
+  "source": {
+    "portal": "https://www.war.gov/UFO/",
+    "tool": "Zen Browser via Assistant Bridge WebExtension (port 3456) + DOM/page-world scraping",
+    "video_resolution": "DVIDS API (api.dvidshub.net) — page-world fetch hook for asset_id capture",
+    "scrape_notes": "downloads.download API used for bulk fetch after <a download> clicks were Zen-rate-limited; DOM scraping with pagination for 17 pages × ~10 records"
+  },
+  "pipeline": {
+    "ocr_engine": "EasyOCR (PyTorch CUDA)",
+    "ocr_runner": "PC2: NVIDIA RTX 3060 Laptop GPU, .venv via uv on /home/liker/...",
+    "ocr_render": "pdf2image @ 200 DPI",
+    "ocr_threshold": 0.3,
+    "ocr_pdf_writer": "reportlab Canvas with invisible text (TextRenderMode 3) + pikepdf merge",
+    "ocr_status": "67/68 OCR-needing PDFs successful; 1 corrupted at source (see anomalies)"
+  },
+  "storage": {
+    "raw_path": "war-gov-pursue-archive/raw/  (symlinks into _inbox/2026-05-08-war-gov-pursue/)",
+    "git_status": "raw/ excluded via .gitignore (16+ GB). transcripts/ committed for full-text search."
+  },
+  "counts": {
+    "pdf": 121,
+    "video": 28,
+    "img": 14,
+    "ocr_processed": 67,
+    "ocr_failed": 1,
+    "metadata_md_in_inbox": 158,
+    "total_records_per_index": 161
+  },
+  "anomalies": {
+    "corrupted_at_source": [
+      {
+        "file": "raw/pdf/331_120752_numeric_files_1944_E2_80_931945_37153_german_armament_equipment_documents.pdf",
+        "issue": "Broken xref-table; not openable by qpdf, ghostscript, pikepdf, or pdf2image. PDF root has no /Kids array.",
+        "earliest_record_in_release": true,
+        "topic": "Foo-fighters / 415th Night Fighter Squadron / SHAEF cables 1944-1945",
+        "recovery_attempts": [
+          "qpdf reconstruct",
+          "ghostscript repair",
+          "pikepdf open"
+        ],
+        "recovery_status": "all failed; document irrecoverable from source artifact",
+        "next_action": "retry download from war.gov in 2-4 weeks; check web.archive.org Wayback for earlier capture"
+      }
+    ],
+    "url_encoding_duplicates_in_pdf_corpus": [
+      [
+        "raw/pdf/18_100754_ general 1946-7_vol_2.pdf",
+        "raw/pdf/18_100754__20general_201946-7_vol_2.pdf"
+      ],
+      [
+        "raw/pdf/dow-uap-d23-mission-report-arabian-gulf-october-2023.pdf",
+        "raw/pdf/dow-uap-d23-mission-report-arabian-gulf-october-2023(1).pdf"
+      ],
+      [
+        "raw/pdf/dow-uap-d32-mission-report-strait-of-hormuz-may-2023.pdf",
+        "raw/pdf/dow-uap-d32-mission-report-strait-of-hormuz-may-2023(1).pdf",
+        "raw/pdf/dow-uap-d32-mission-report-strait-of-hormuz-may-2023(2).pdf"
+      ]
+    ],
+    "duplicate_sha256_groups": [
+      {
+        "sha256": "85d659d6b2208610ac55e6c82cfed0315002f4b6d43963a29fb8e973258bfdd2",
+        "paths": [
+          "raw/pdf/18_100754_ general 1946-7_vol_2.pdf",
+          "raw/pdf/18_100754__20general_201946-7_vol_2.pdf"
+        ]
+      },
+      {
+        "sha256": "aba3ec3b8ef0240364308cf046ccbfcd252c5a5d7ef470d696b72c1f41b2502d",
+        "paths": [
+          "raw/pdf/59_214434_sp_16_7.18.1963.pdf",
+          "raw/pdf/59_214434_sp_16_[7.18.1963].pdf"
+        ]
+      },
+      {
+        "sha256": "ea1cd5296143f378db533066b524c32c1ecfbfd43d74ec6be7d832c20fa271bb",
+        "paths": [
+          "raw/pdf/dow-uap-d23-mission-report-united-arab-emirates-october-2023(1).pdf",
+          "raw/pdf/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+        ]
+      },
+      {
+        "sha256": "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df",
+        "paths": [
+          "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024(1).pdf",
+          "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024(2).pdf",
+          "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+        ]
+      }
+    ],
+    "metadata_slug_collisions_inbox": "3 collisions caused 158 metadata files for 161 records (e.g. 59_214434_sp_16 between 1952 memo and 1963 EOP/NASA Council memo)"
+  },
+  "files": {
+    "pdf": [
+      {
+        "path": "raw/pdf/059uap00011.pdf",
+        "bytes": 830359,
+        "sha256": "df5874d4b68d17f996da1af0026bf701c627a6e21c244cabf6fd53689369beca"
+      },
+      {
+        "path": "raw/pdf/059uap00012.pdf",
+        "bytes": 656720,
+        "sha256": "a289d6a9d8286514343ac3be8a793f0e1d297b400ccc0a417485cba385fd9230"
+      },
+      {
+        "path": "raw/pdf/059uap00013.pdf",
+        "bytes": 1221743,
+        "sha256": "022b27728e86e291e078cac1d4fd5dcf225b2f6700175db9ea8ada19147318d8"
+      },
+      {
+        "path": "raw/pdf/18_100754_ general 1946-7_vol_2.pdf",
+        "bytes": 61464225,
+        "sha256": "85d659d6b2208610ac55e6c82cfed0315002f4b6d43963a29fb8e973258bfdd2"
+      },
+      {
+        "path": "raw/pdf/18_100754__20general_201946-7_vol_2.pdf",
+        "bytes": 61464225,
+        "sha256": "85d659d6b2208610ac55e6c82cfed0315002f4b6d43963a29fb8e973258bfdd2"
+      },
+      {
+        "path": "raw/pdf/18_6369445_general_1948_vol_1.pdf",
+        "bytes": 65878977,
+        "sha256": "34d59dc7578ffe7e072a6164c6050f45cff30b634313a87141c0886aa93d15c7"
+      },
+      {
+        "path": "raw/pdf/2024-04-30-composite-sketch.pdf",
+        "bytes": 109275,
+        "sha256": "7768268e837325333be0ea00ce5c00f571de3190e0c390f33e098f183cbf19a5"
+      },
+      {
+        "path": "raw/pdf/255_413270_ufo's_and_defense_what_should_we_prepare_for.pdf",
+        "bytes": 33457869,
+        "sha256": "2af37a8e08174de45b12ee3acc628736a3a36c5d95edd6c2c17f0bf6ccf1431e"
+      },
+      {
+        "path": "raw/pdf/255_t_763_r1b_transcripts.pdf",
+        "bytes": 328211,
+        "sha256": "73cb8f0dc879a38811d9d745c11771263e112ec12a0e6bbabc27b9f781ddb74b"
+      },
+      {
+        "path": "raw/pdf/331_120752_numeric_files_1944_E2_80_931945_37153_german_armament_equipment_documents.pdf",
+        "bytes": 2734064,
+        "sha256": "b32d783de8f857344c5a2721c262e878319c8e7645c73b108c6eadc7e21d61ff"
+      },
+      {
+        "path": "raw/pdf/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf",
+        "bytes": 15892720,
+        "sha256": "cc709f89f3f3de832ee3979817a3c716727dd03c2f4fe26a545f1904b29fd467"
+      },
+      {
+        "path": "raw/pdf/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf",
+        "bytes": 9888054,
+        "sha256": "45b2fdb6c919cd8ed9c4406f4d60c7add073669dff5a5497595d4ecf08d72073"
+      },
+      {
+        "path": "raw/pdf/341_110677_numerical_file_5-2500.pdf",
+        "bytes": 57343984,
+        "sha256": "2cbbb33f9917d45c8b6009ee6ec5b958bc9c7d28b4a0f04edd261e7bf2f3d2f6"
+      },
+      {
+        "path": "raw/pdf/342_hs1-416511228_box186_319.1-flying-discs-1949.pdf",
+        "bytes": 123253043,
+        "sha256": "707639e26003ce0c4f317b379626092d56af0f5a73db52cd91d4af184009c515"
+      },
+      {
+        "path": "raw/pdf/38_143685_box7_incident_summaries_1-100.pdf",
+        "bytes": 247087612,
+        "sha256": "13d1805bd1725b38174a328ddf34db564228163768a9082ddd59bca3780fc10e"
+      },
+      {
+        "path": "raw/pdf/38_143685_box7_incident_summaries_101-172.pdf",
+        "bytes": 242733260,
+        "sha256": "f4b5cf6a93fe47c09123ce53706e430c814229ed688a49a96244a90b4bcf3e05"
+      },
+      {
+        "path": "raw/pdf/38_143685_box7_incident_summaries_173-233.pdf",
+        "bytes": 49382924,
+        "sha256": "1d9722f764878359c73135f82b12608f1267eaf90d274c7d5775ab43bc9a289c"
+      },
+      {
+        "path": "raw/pdf/59_214434_sp_16_7.18.1963.pdf",
+        "bytes": 1598931,
+        "sha256": "aba3ec3b8ef0240364308cf046ccbfcd252c5a5d7ef470d696b72c1f41b2502d"
+      },
+      {
+        "path": "raw/pdf/59_214434_sp_16_[7.18.1963].pdf",
+        "bytes": 1598931,
+        "sha256": "aba3ec3b8ef0240364308cf046ccbfcd252c5a5d7ef470d696b72c1f41b2502d"
+      },
+      {
+        "path": "raw/pdf/65_hs1-101634279_100-de-18221_serial_844.pdf",
+        "bytes": 677153,
+        "sha256": "17e13c53b0cc0c3122b4d14d5b74a6cf8fda907179a9f8f8fea506c90c8fe09c"
+      },
+      {
+        "path": "raw/pdf/65_hs1-101634279_100-de-26505.pdf",
+        "bytes": 12990300,
+        "sha256": "d71c2f57a9f173b56220eb6a7f5b867a6d0ed296a0c997cd4997e26fc895f29b"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_1.pdf",
+        "bytes": 108961866,
+        "sha256": "47e9d92b03cd96e2af3510ae7b583ce03c6a89acc21a3cc75c0cae3773c19c35"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_10.pdf",
+        "bytes": 106167501,
+        "sha256": "06f96d67fa825b5aefe41bd60e6f3860d71320e2aa436a2bf30240e12c33d0f0"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_2.pdf",
+        "bytes": 118380300,
+        "sha256": "e196678aefbf9d1239524925838250d452ac3155789d226d6ebe0158b915070e"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_3.pdf",
+        "bytes": 50907255,
+        "sha256": "1a9e21457d266c408a9982485034fed73ebdbede94b3c8322ee024eaa60cfe57"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_4.pdf",
+        "bytes": 92073029,
+        "sha256": "1ddb6ef944239c55b86c1089246cd77aadd1d3d391238a1feeab700f7b773d7b"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_5.pdf",
+        "bytes": 58041955,
+        "sha256": "8bac3aeb023a716259510a74b1264cc38f16b3a012e420e1551a163e4df57573"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_6.pdf",
+        "bytes": 370571478,
+        "sha256": "3df0935cf48e6847d0a5df77a987f8a446e545cc1dda20cad60f79d966516568"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_7.pdf",
+        "bytes": 62687106,
+        "sha256": "d1cc1285f2af2229df0f6a50dae11e72b943d94e95fb7effb34ba3433c12d82e"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_8.pdf",
+        "bytes": 120391107,
+        "sha256": "29f187bce011d5e4eaad979e179dfb746d7dbe6a0701ed6cb6b32199080ffd55"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_section_9.pdf",
+        "bytes": 91452111,
+        "sha256": "ca1684b554c662851028c03a8861028e04f1d813e5621ffbb888b8eac87e9fce"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_130.pdf",
+        "bytes": 106690293,
+        "sha256": "6446322736ff970386c35f5d305a9d245e632e80f53594ca948718cefd8669a9"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_153.pdf",
+        "bytes": 5546075,
+        "sha256": "fbb76ffa1aad67e53d98e189b557ee3f893d2374ca28ae93862a79db20908db6"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_164.pdf",
+        "bytes": 30938461,
+        "sha256": "879e35dffa0b4a126fc114f6f402a2ca398bd0b6e4718e12f377e7a65e1a3170"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_220.pdf",
+        "bytes": 8421314,
+        "sha256": "7899c7229a9c410bcc2ca0164c5a229c89c4ec9a31ead8824cdb8f5f501a605b"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_403.pdf",
+        "bytes": 5745008,
+        "sha256": "5cb3c74eecbafa0fb9d961ab173a1de54a89cbf430b55bdf144475c341413acf"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_438.pdf",
+        "bytes": 15143657,
+        "sha256": "9a98bf803016c9a2252c03ea960d61d0e35652c88a9098018ebf8f953141c9a8"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_serial_449.pdf",
+        "bytes": 12499481,
+        "sha256": "beab1e97edc095b41bac00f3da2909e9fe252a6a3c623f46a83496bf7f4ed13b"
+      },
+      {
+        "path": "raw/pdf/65_hs1-834228961_62-hq-83894_sub_a.pdf",
+        "bytes": 49325139,
+        "sha256": "35995afc0d3986fffe9ca48b82d7712fcc7942e3e13ce554aac845302b5b1862"
+      },
+      {
+        "path": "raw/pdf/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf",
+        "bytes": 301285,
+        "sha256": "74032ed145b1badbb1049005b4b77ba95351cb573c3cf6578a77ca25f4033220"
+      },
+      {
+        "path": "raw/pdf/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf",
+        "bytes": 370719,
+        "sha256": "64847feac6a309a847a39689ed2036e556f35a253189c7b9b33bd9d40b26b239"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+        "bytes": 663290,
+        "sha256": "f9deed9063306b0c45a5a0f6b754db6967f7dc3a0ed66097f154be4b0f033399"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d12-mission-report-iraq-may-2022.pdf",
+        "bytes": 670302,
+        "sha256": "00afb60938d05101a62d0af41fdfc6749612fcea806d90d5a1035a9dc874afb5"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d14-mission-report-iraq-may-2022.pdf",
+        "bytes": 7463660,
+        "sha256": "1822564fbae08f152ad4541c8d067a6ec3b6014c4b4eb8209604e1facb5e1bb3"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d16-mission-report-syria-july-2022.pdf",
+        "bytes": 6999240,
+        "sha256": "b3b3f023d70bcce3178de9fe6a019ea6db5e5145bc7e28a49308442e190ef817"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d18-mission-report-iraq-december-2022.pdf",
+        "bytes": 3673697,
+        "sha256": "4752dd830144b21c3055a2fea8b44c551445b41622c27db64fb0fa07c2dcd93d"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d19-mission-report-syria-february-21-2023.pdf",
+        "bytes": 5885305,
+        "sha256": "46701a48cefa62a834941f073aa47234bcd5358b1ecc53bfa58cfc7cb5aeec41"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d20-mission-report-southern-united-states-2023.pdf",
+        "bytes": 3698245,
+        "sha256": "71ca8826db94d61583083ef8465a6902564532dcab7d49d0d2db3e86aaf85b2f"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d23-mission-report-united-arab-emirates-october-2023(1).pdf",
+        "bytes": 1324277,
+        "sha256": "ea1cd5296143f378db533066b524c32c1ecfbfd43d74ec6be7d832c20fa271bb"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+        "bytes": 1324277,
+        "sha256": "ea1cd5296143f378db533066b524c32c1ecfbfd43d74ec6be7d832c20fa271bb"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d25-mission-report-greece-january-2024.pdf",
+        "bytes": 680054,
+        "sha256": "bd5478d2e420f6ff46fb06014e39027e1caa415f55efdc9bd70a849ff6990356"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf",
+        "bytes": 689226,
+        "sha256": "86275421f64583566fcc32b7422c5d991b35dd7d3700e01d3fcf24b279fff243"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d28-mission-report-east-china-sea-2024.pdf",
+        "bytes": 633172,
+        "sha256": "e12c00b3e2d64e35eef5623499e6eb23b1bc21d304523c75d28d3f474d91d77e"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d3-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 101111,
+        "sha256": "58219b8000454aa27424ead9530bf80420365a587b95d4c770a5dce916783b45"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024(1).pdf",
+        "bytes": 651740,
+        "sha256": "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024(2).pdf",
+        "bytes": 651740,
+        "sha256": "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+        "bytes": 651740,
+        "sha256": "fd4deb1e48fcfa7fd2370b6459877882e6d6fdd0226ecaa881a45fba690172df"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d33-mission-report-greece-october-2023.pdf",
+        "bytes": 897434,
+        "sha256": "7078d96f334dbf396e0e0a141f943009fe2191cd20842e16ee381bcbc2776c43"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d35-mission-report-greece-october-2023.pdf",
+        "bytes": 1415369,
+        "sha256": "b4f4f4ce6dc7687a543905990671f999cd6c5a9e579159bfda501bf6d04f4445"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf",
+        "bytes": 342668,
+        "sha256": "90b353682ba2181149054d0911b7553e58e959438dd4de531a06fc387a332f85"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d4-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 29121,
+        "sha256": "857deb5a9363aad6e7604c828574d1f44caa0128b3ee0cb5a69204cbcd95d269"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
+        "bytes": 295621,
+        "sha256": "d52431b354af55b1e86cb454e61fd61993af3b023a38f2d9e014a9c9d18d16b4"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
+        "bytes": 297873,
+        "sha256": "c5cfbc8bacca29db64346aaa03846a6e36eab01ac09e1e93d8d50028593cf3f9"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d48-report-september-1996.pdf",
+        "bytes": 22495083,
+        "sha256": "0dc72877cdf9cc3a1645c3c9d282928922b00e8fd9ffd7b1daf66f46c72b2071"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d49-launch-summary-february-2000.pdf",
+        "bytes": 9090715,
+        "sha256": "0dd7855ac3c69e39a9752c53fe6ba3e851d617e28adfcbf07c3ec93907877cf7"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d5-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 30588,
+        "sha256": "af150a6b5139abc632446c9d5999fd5abc4f3c476c6245f173faabb6e2132d10"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf",
+        "bytes": 312451,
+        "sha256": "10c11e9bf4d6686159da48e3d9388e7d3afe4ae8b1e79725ec6c63ccc491e537"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf",
+        "bytes": 76470,
+        "sha256": "f21f4ae91e51810bfa8a6fce6c422f2bbf99c6277871846c642f987954c042f6"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d52-email-correspondance-na-august-2024.pdf",
+        "bytes": 66874,
+        "sha256": "90570293e61c9b228e557b2e83f6e32821f5cf13879b0c5b83c1b8b58153f510"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d54-mission-report-mediterranean-sea-na.pdf",
+        "bytes": 20095,
+        "sha256": "03b730443d7be1c67478fc26da8ed664cb48b97acdb817caca3b04fd9b9b82a8"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d55-mission-report-syria-november-2016.pdf",
+        "bytes": 207227,
+        "sha256": "f5885b95b57a81c08f0595c02950a07c250db050562520c52fb74f2195787166"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf",
+        "bytes": 1849972,
+        "sha256": "9127fb5a81efacf030df4dc6290d02bcdf4c8512cf1809b6eccfe6cf16a77f31"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf",
+        "bytes": 295447,
+        "sha256": "2565433b0ac938d6123c611be75b30ec6cf99c192e71dbf4ef53c40a6852ca00"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf",
+        "bytes": 301419,
+        "sha256": "c2bd370cdadc2f17649830713d55731aa22ceb76940fd64ae7ffc86fc0559261"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d6-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 26847,
+        "sha256": "0f898352417d0447b3720c6eda131ac0cbe7e4cf90b8d1ceab60a431fa835457"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf",
+        "bytes": 2412310,
+        "sha256": "39126406547c89dbc81112c5638612858fcfe7e38179dd89e6d725dc6cee13b1"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf",
+        "bytes": 877324,
+        "sha256": "4ce20fc566edf4a3dcb8a8abd7a5dcd91046069f9e35f83912ad757c8c8be1b9"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf",
+        "bytes": 1045437,
+        "sha256": "36708d3c6121b00c55394ac4a648fbcbe5411c8b2c00ea8f42f9ca0e502c6b13"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d63-mission-report-strait-of-hormuz-october-2020.pdf",
+        "bytes": 3311583,
+        "sha256": "ad3b37eb9fbd20e6dc75152e486514e58ff8a1edde3d32615887ea0d19727884"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d64-mission-report-iran-november-2020.pdf",
+        "bytes": 860506,
+        "sha256": "8422fceb10b2eafcab525690cc9aff6827fc78d5ae5e34b44174d9cc78abbb7c"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf",
+        "bytes": 3043075,
+        "sha256": "bfbc281190a14c522d854c0cf2699f82de419e8f8a455949871ccdc9175bf423"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d7-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 27337,
+        "sha256": "c4cae44b6ac7b4f4916ddff140d47b1e2a6ddc80ed72985877c07401d17fd76a"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d74-mission-report-syria-november-2023.pdf",
+        "bytes": 719044,
+        "sha256": "30708df4aa8484c668d3c3694560f5b57d5a10b6b3da1cfb826a925d9cc806e1"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf",
+        "bytes": 792150,
+        "sha256": "672b79390fe6595828c71e1f3df8cb0a2290f0658c36ed724e17ea167233b771"
+      },
+      {
+        "path": "raw/pdf/dow-uap-d8-mission-report-djibouti-2025.pdf",
+        "bytes": 29154,
+        "sha256": "0a8548a845c3b45f90ee512bdfd8eac1af073072228e7e4d24e779d12025886c"
+      },
+      {
+        "path": "raw/pdf/dow-uap-pr20.pdf",
+        "bytes": 2292342,
+        "sha256": "1ff8c16256579734969188915ad0e80062e1d5639bc424c6a207340e892c6dc6"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b1.pdf",
+        "bytes": 613116,
+        "sha256": "6c47098b047b4cce59129072df1a7eeb5b6602da7ef209fa9dc1299e13622199"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b10.pdf",
+        "bytes": 601748,
+        "sha256": "1594af0628fa9ae782b86bb3721ae2c1233a0bf0e03e6b45dd82a9badc642aa8"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b11.pdf",
+        "bytes": 582514,
+        "sha256": "ff3909ff0fa5f99ee6da291d9241b9cd57b24f2889fcead89d8ae37a753d6c1c"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b12.pdf",
+        "bytes": 574722,
+        "sha256": "c440872bb730cae896ce618a3b9d4c4d57553e1910ad218b41c0be01f8801694"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b13.pdf",
+        "bytes": 434067,
+        "sha256": "92555935e35bf99584a41d4433d9b53fd5e9eeff02656e86f7f3456c6f798984"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b14.pdf",
+        "bytes": 448290,
+        "sha256": "54f36aa547dd25b7c099a66b2c5f52c951315906a704d6b215cb1651e7dc92f2"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b15.pdf",
+        "bytes": 427316,
+        "sha256": "0c6fe7a96a68e8440cd405bb92519fce639079a00ed6b6193863a39fa5a86c14"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b16.pdf",
+        "bytes": 433987,
+        "sha256": "76bc12588922fca7ef9019f1c809a07e3a159cb1d789013f6acbfcd893935b6a"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b17.pdf",
+        "bytes": 435400,
+        "sha256": "60418c8bf9ed18d064ebb7a6e378814ca24438614855b4e626d4375855f57e8d"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b18.pdf",
+        "bytes": 429941,
+        "sha256": "5e8801ee956ccb3aed9c605cd9e1d097b2abfd379d3d6e84d4c09a080aa570fd"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b19.pdf",
+        "bytes": 600310,
+        "sha256": "29dc410fc55141b34ee1a7bc42f41a1fa388ccba7086a3dba5774aaec27cf8b0"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b2.pdf",
+        "bytes": 583544,
+        "sha256": "e55d5cab5063153c6f2f27314c47b9e4a7f4938f2cefc6bfecf7eb6264b0a07b"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b20.pdf",
+        "bytes": 577784,
+        "sha256": "d5f7a811de98462378fb4b61beeeb107bd2aa58d32b0a0d3a7788e1457b3593f"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b21.pdf",
+        "bytes": 592551,
+        "sha256": "52b81ee21a3bfc5ecce1777d6e91d85aabe8bb905dab1963a793dd4787005214"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b22.pdf",
+        "bytes": 434482,
+        "sha256": "932c53d8d8031325459c479e54a6c44ea9408faa26344f2a983417ed437d0dc5"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b23.pdf",
+        "bytes": 423857,
+        "sha256": "ddd839e52ad4d98986a25a760d0040c475d4c43fb7a52cf4c817aa87f51d9271"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b24.pdf",
+        "bytes": 440280,
+        "sha256": "3dab0652bc49b11624234042e65b3340a1146586ed9521f15731517ce042f8e1"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b3.pdf",
+        "bytes": 167999,
+        "sha256": "4a23e128950c1c45cf2f9e32c588088155e63e056d96f09ec94ddaa73ff0cccb"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b4.pdf",
+        "bytes": 593683,
+        "sha256": "d5dd840f008b10fcd88bcab731f07b56fb614aa16048ced9672c9b40a9c9bc69"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b5.pdf",
+        "bytes": 580719,
+        "sha256": "032b86473fefc250def77d3904c381dad010e34390d58de54fd560054127936c"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b6.pdf",
+        "bytes": 608164,
+        "sha256": "09444e6501f05a4030120db174a1841e891814464fd7ce6f325178d3c09cdf1a"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b7.pdf",
+        "bytes": 607218,
+        "sha256": "4f3122c323c6c0b6ef1bb12cefc623d7488b03fe1c5161f4ea4e111b91347684"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b8.pdf",
+        "bytes": 585686,
+        "sha256": "cae6a62245153fd16acd8c4ff995d19c49fdadf7be152a85c8fe5d714fc3f423"
+      },
+      {
+        "path": "raw/pdf/fbi-photo-b9.pdf",
+        "bytes": 588086,
+        "sha256": "e61a49212bb82cfc9a6e7627a2291c9159bbbb2272fb995e45411a48e44eb0b1"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d1-apollo-12-transcript-1969.pdf",
+        "bytes": 1030644,
+        "sha256": "ab911622b7d4203d9d54914f03d1662cf561b7f943afe9d17f9617cfaea06585"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d2-apollo-17-transcript-1972.pdf",
+        "bytes": 463669,
+        "sha256": "9d041c8799a0124dc440c05cacd790a43d9e063e399aaa5cd3ee777b14146d03"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
+        "bytes": 29286242,
+        "sha256": "aacc41814dd16583bbeabe068026bf286cd9b0e464ff097c5c7b97b00d308443"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf",
+        "bytes": 212585,
+        "sha256": "5d7db3870de8c01a1c39b7e8a4185dd026fe132f01d1cd5ded60f10866722f7e"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
+        "bytes": 513402,
+        "sha256": "2c874c40c55505f2348177ddde77c9fd015bf971e6e059c43508a92bc9ee6b30"
+      },
+      {
+        "path": "raw/pdf/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf",
+        "bytes": 659470,
+        "sha256": "49e232c72a77f16f7e06593789a36882d614888d882a74d71eabcc7d2ce94fb6"
+      },
+      {
+        "path": "raw/pdf/serial 5 redacted_redacted.pdf",
+        "bytes": 227126,
+        "sha256": "c38d267441b19350df557d9f3bfbd689fb5ba0619366373a7b9e6f8dce84bb8c"
+      },
+      {
+        "path": "raw/pdf/serial-3_redacted.pdf",
+        "bytes": 275673,
+        "sha256": "4f462fefe8f38e6445f652067ff0ba418e6b0d4f38ce73b5c8190e857fe352ed"
+      },
+      {
+        "path": "raw/pdf/serial-4-redacted_redacted.pdf",
+        "bytes": 237155,
+        "sha256": "29ed0fb7cbe0be3c23965212bb83c58d3890a0de9253938ee4e9c9bb2349d5fe"
+      },
+      {
+        "path": "raw/pdf/usper-statement-redacted.pdf",
+        "bytes": 786792,
+        "sha256": "63deae172b2bd4923696ed097c0c25d1286f116be1efb313d14c0630ac0a1786"
+      },
+      {
+        "path": "raw/pdf/western_us_event_slides_5.08.2026.pdf",
+        "bytes": 63463,
+        "sha256": "6a4e6ee6111eec24d28aa9b4b9d72beafe0be5a480972683fbce82f758e6be35"
+      }
+    ],
+    "video": [
+      {
+        "path": "raw/video/video_1006056_DOW-UAP-PR19_Unresolved_UAP_Report_Middle_East_May_2022.mp4",
+        "bytes": 6814452,
+        "sha256": "a38432ae56298abadf50de06103a6fbd591ea539e124ab1db25a4a511468cfb6"
+      },
+      {
+        "path": "raw/video/video_1006059_DOW-UAP-PR21_Unresolved_UAP_Report_Iraq_May_2022.mp4",
+        "bytes": 12752210,
+        "sha256": "af62b4e40a2eb0fd39f98093be2a6ae50271a011e7d5caca2119b26aaabc1212"
+      },
+      {
+        "path": "raw/video/video_1006060_DOW-UAP-PR22_Unresolved_UAP_Report_Syria_July_2022.mp4",
+        "bytes": 3982264,
+        "sha256": "17106a65c823fb0c4c55f41be31f863f18300bd858f536726ea6f9f3cf35ac8c"
+      },
+      {
+        "path": "raw/video/video_1006062_DOW-UAP-PR23_Unresolved_UAP_Report_Iraq_December_2022.mp4",
+        "bytes": 5300653,
+        "sha256": "d6a177a7004837546b8e3ea12ad0e632d9c31eabca427e05ae6eb9d4e4493f47"
+      },
+      {
+        "path": "raw/video/video_1006063_DOW-UAP-PR26_Unresolved_UAP_Report_United_Arab_Emirates_October_2023.mp4",
+        "bytes": 27493716,
+        "sha256": "46fdeec860cdaa6b27b6fcc51d0b7e045347d494832cdc65f2038e702eaa58aa"
+      },
+      {
+        "path": "raw/video/video_1006067_DOW-UAP-PR27_Unresolved_UAP_Report_United_Arab_Emirates_October_2023.mp4",
+        "bytes": 155885289,
+        "sha256": "3c510fe34677a0784c656105b9653ce3039d83de46f929f1ee6d6fb820ce3b8c"
+      },
+      {
+        "path": "raw/video/video_1006073_DOW-UAP-PR28_Unresolved_UAP_Report_Greece_January_2024.mp4",
+        "bytes": 15992674,
+        "sha256": "9aa868828e0b7be178604162a8abc1e11f0ee6e27d9c48eabbee4d032a50fd72"
+      },
+      {
+        "path": "raw/video/video_1006074_DOW-UAP-PR29_Unresolved_UAP_Report_United_Arab_Emirates_June_2024.mp4",
+        "bytes": 15445575,
+        "sha256": "4e1882dcb2a3bd0253a29fce2bb415fdb2f1196e694a3185c31a82e3a8127ba8"
+      },
+      {
+        "path": "raw/video/video_1006076_DOW-UAP-PR31_Unresolved_UAP_Report_Syria_October_2024.mp4",
+        "bytes": 644525,
+        "sha256": "8f8b4857ef6e4f46f54a90f15877c793c6cdb0d94b0c4f5de28868be0004dfd0"
+      },
+      {
+        "path": "raw/video/video_1006078_DOW-UAP-PR32_Unresolved_UAP_Report_Syria_October_2024.mp4",
+        "bytes": 1834659,
+        "sha256": "74bd47f0b608c19367b673ba186071db725719eebc7c7b251b8ef2b944c6427e"
+      },
+      {
+        "path": "raw/video/video_1006079_DOW-UAP-PR33_Unresolved_UAP_Report_Syria_October_2024.mp4",
+        "bytes": 426911,
+        "sha256": "5bdc888fd25014c5519d625764233f66ee0214bfa48c1670aff5d7c00029a5d9"
+      },
+      {
+        "path": "raw/video/video_1006080_DOW-UAP-PR34_Unresolved_UAP_Report_Greece_October_2023.mp4",
+        "bytes": 198248609,
+        "sha256": "34eb85ab42bb6ce5d376c02fd2db4eee0211864ed3bcd8a8247a08fe0da8c99e"
+      },
+      {
+        "path": "raw/video/video_1006082_DOW-UAP-PR35_Unresolved_UAP_Report_Greece_October_2023.mp4",
+        "bytes": 6625380,
+        "sha256": "05fd161a5155daf49e14e99c517cdb1b35e7491611f448ddb026d9fa0df63d42"
+      },
+      {
+        "path": "raw/video/video_1006083_DOW-UAP-PR36_Unresolved_UAP_Report_Middle_East_May_2020.mp4",
+        "bytes": 142686223,
+        "sha256": "5f32ce0126de2c9571f2af368b2629c15b4f1cb3582700641ef31c1d1a8ceac8"
+      },
+      {
+        "path": "raw/video/video_1006087_DOW-UAP-PR37_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 8543893,
+        "sha256": "5d60cc99eda2223d7509c9ac801aa1b66200ac24572256d306b1cdb754c0ad8a"
+      },
+      {
+        "path": "raw/video/video_1006088_DOW-UAP-PR38_Unresolved_UAP_Report_Middle_East_2013.mp4",
+        "bytes": 30707537,
+        "sha256": "bd3f5269c3f123b90db76c9496f8ddbb145184c66b0c11cd3cfd9e54f5b683b6"
+      },
+      {
+        "path": "raw/video/video_1006089_DOW-UAP-PR39_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 1708179,
+        "sha256": "b0975d88681b2d0afb31cf83c43d4e63fedef67fec5687795bdec257decb0825"
+      },
+      {
+        "path": "raw/video/video_1006093_DOW-UAP-PR40_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 29392078,
+        "sha256": "e91f12de19cadaa3af6c324bc3caa83af2ce47c80fefbceeb5e038f5c1866dac"
+      },
+      {
+        "path": "raw/video/video_1006094_DOW-UAP-PR41_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 116787147,
+        "sha256": "ea6b86de5ec070a789e515456fb7ed2ef0bfbe536b30025117ef47cefa59c503"
+      },
+      {
+        "path": "raw/video/video_1006097_DOW-UAP-PR42_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 274712045,
+        "sha256": "049ce64e1dcd06c0b054e74c196d339b8fd2778091d82ff9d230e5c83253c0d6"
+      },
+      {
+        "path": "raw/video/video_1006104_DOW-UAP-PR44_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 86775527,
+        "sha256": "9db22223a0384d0439235fe6583cb5be5e7fd38f0d040fec8402ba2edbedd883"
+      },
+      {
+        "path": "raw/video/video_1006105_DOW-UAP-PR45_Unresolved_UAP_Report_Middle_East_2020.mp4",
+        "bytes": 14908599,
+        "sha256": "30d4ecc8af56475042a65e52e5910be9d95e3cb08e397293fb52885ba23e9b6e"
+      },
+      {
+        "path": "raw/video/video_1006106_DOW-UAP-PR46_Unresolved_UAP_Report_INDOPACOM_2024.mp4",
+        "bytes": 3005135,
+        "sha256": "34ffb5ae5fe4f85871d41579767e4e37bc5c8cbba47fb63a40b8a4e4f39d613d"
+      },
+      {
+        "path": "raw/video/video_1006107_DOW-UAP-PR47_Unresolved_UAP_Report_INDOPACOM_2023.mp4",
+        "bytes": 15963093,
+        "sha256": "5d4d87441b6ed4527bfd563900b1534817a751d7897e03e1c61b51b46b95a610"
+      },
+      {
+        "path": "raw/video/video_1006110_DOW-UAP-PR48_Unresolved_UAP_Report_INDOPACOM_2024.mp4",
+        "bytes": 116761162,
+        "sha256": "bd1f002f45052b12ee067455a0a4b589b0bdaed40d75874d8da8fbf64eae8dd1"
+      },
+      {
+        "path": "raw/video/video_1006111_DOW-UAP-PR49_Unresolved_UAP_Report_Department_of_the_Army_2026.mp4",
+        "bytes": 17266193,
+        "sha256": "dbf0b1a061cc741f88818ac9c938d6752fb5d1c0a3e729b1e6b42f4e859f472f"
+      },
+      {
+        "path": "raw/video/video_1006119_NASA_Audio_12_5_1965_Low_Earth_Orbit.mp4",
+        "bytes": 19126276,
+        "sha256": "4965639958d9a9dde9c98a17357f1b9818bf2bd36c9e857b69e1d8990fdd095f"
+      },
+      {
+        "path": "raw/video/video_1006159_DOW-UAP-PR43_Unresolved_UAP_Report_Africa_2025.mp4",
+        "bytes": 9089058,
+        "sha256": "1847cfc831b0a2299b070c958234a1679ebc719489a0eabe032b667eac65588f"
+      }
+    ],
+    "img": [
+      {
+        "path": "raw/img/fbi-photo-a1.jpg",
+        "bytes": 121792,
+        "sha256": "66d20f3e3f1bc9732b53451facdb9ed391906480b9a9b74cd6df69145b6b823c"
+      },
+      {
+        "path": "raw/img/fbi-photo-a2.jpg",
+        "bytes": 159215,
+        "sha256": "afd53424a0270ea9d030f3ba9bfc6d227a4cb02d65af8496b2a6405e2f408e49"
+      },
+      {
+        "path": "raw/img/fbi-photo-a3.jpg",
+        "bytes": 166276,
+        "sha256": "24f12368ff538952e91b8e460351aa1eb2230240d13e715e8a68b0fe9b1291a6"
+      },
+      {
+        "path": "raw/img/fbi-photo-a4.jpg",
+        "bytes": 165677,
+        "sha256": "aeb11ee871780386a62e9b42d410cf3b1148f6e1c6c156d066dd3c4976576a18"
+      },
+      {
+        "path": "raw/img/fbi-photo-a5.jpg",
+        "bytes": 140411,
+        "sha256": "6cbe2bac1b260f0e8a20e5e11b558abd2cbd8a3b5af89bd3eb6b40d354716a64"
+      },
+      {
+        "path": "raw/img/fbi-photo-a6.jpg",
+        "bytes": 130500,
+        "sha256": "bef4c9558a04f56984b017457d83cd7a621220ac052b9d1bb4ea092fc8892dc5"
+      },
+      {
+        "path": "raw/img/fbi-photo-a7.jpg",
+        "bytes": 131645,
+        "sha256": "eae960e0e1b7c71e528e099bc3cb76f5ee06f9c220207978c36941761dd4431e"
+      },
+      {
+        "path": "raw/img/fbi-photo-a8.jpg",
+        "bytes": 134858,
+        "sha256": "132a3f676bebddaae8c71c9c1eeeae398131fed57c6e4748e4a558e011a17ee4"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm1-apollo-12-1969.jpg",
+        "bytes": 248459,
+        "sha256": "cb0c06c78fb7e7c993a537ad15ff8e9a5b02c4fc6f959a2a5137cb32ac7d8b86"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm2-apollo-12-1969.jpg",
+        "bytes": 272707,
+        "sha256": "7e1837e7ce9da69bbddc42881e508bf0a02ab0122909e39edbd2063ed6a2ec6c"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm3-apollo-12-1969.jpg",
+        "bytes": 244678,
+        "sha256": "2ea7673048f5a42afb8ed9c41121baf3d30b7ec791a8dcefb9659d87cf049813"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm4-apollo-12-1969.jpg",
+        "bytes": 242090,
+        "sha256": "01a649640cb75903182c381211b1a189b22e2fc1028c908de4880f2504ffa4cf"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm5-apollo-12-1969.jpg",
+        "bytes": 282938,
+        "sha256": "dd3458f378608e9c37d495df263f31ef69a54dc1b048a1eb22078222352cfc1c"
+      },
+      {
+        "path": "raw/img/nasa-uap-vm6-apollo-17-1972.jpg",
+        "bytes": 188864,
+        "sha256": "d393aad2c4134594074bf9b89a45fe04a700e593b30db6234fc6d0c7a169cae7"
+      }
+    ],
+    "ocr": [
+      {
+        "path": "raw/ocr/18_100754_ general 1946-7_vol_2.pdf",
+        "bytes": 144173079,
+        "sha256": "83734396d1ae0148899d7e6adeda50d97e4c7c14d2412c311f7aebebe48a3ee8"
+      },
+      {
+        "path": "raw/ocr/18_100754__20general_201946-7_vol_2.pdf",
+        "bytes": 144173079,
+        "sha256": "ff3eace6c4c97c7e1a7b78ee7de079e690c2197bf2c6635daaae1c2755c2f9e7"
+      },
+      {
+        "path": "raw/ocr/18_6369445_general_1948_vol_1.pdf",
+        "bytes": 153365251,
+        "sha256": "6a723bb236ac78f78549f2cee04994d3db911e252b5760ab8c10eadeb792587c"
+      },
+      {
+        "path": "raw/ocr/2024-04-30-composite-sketch.pdf",
+        "bytes": 5910687,
+        "sha256": "33bbadefc460e9f95e0170376205de893cffe61ea763118e9ba4694697c75fb6"
+      },
+      {
+        "path": "raw/ocr/255_413270_ufo's_and_defense_what_should_we_prepare_for.pdf",
+        "bytes": 312307832,
+        "sha256": "b9c599213fb64905ff9b1445ca3468dc428a210694ebec13df66519cb6063a13"
+      },
+      {
+        "path": "raw/ocr/255_t_763_r1b_transcripts.pdf",
+        "bytes": 797861,
+        "sha256": "b7377c555a63448c7011995b408f023e528dfad109beba07366962d2113170cd"
+      },
+      {
+        "path": "raw/ocr/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf",
+        "bytes": 73598310,
+        "sha256": "74b443f750b01405a9ae7acbfdca2283eaa181923b4f844648bc475874599fb7"
+      },
+      {
+        "path": "raw/ocr/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf",
+        "bytes": 10571294,
+        "sha256": "a59056253ae316d949ea92824a83d9536f93d8fe29228f59736a7f3517d68843"
+      },
+      {
+        "path": "raw/ocr/341_110677_numerical_file_5-2500.pdf",
+        "bytes": 33422929,
+        "sha256": "4bc7663ee9a6050228a372532173587b10cac65c898f727c32b95644bc7841b8"
+      },
+      {
+        "path": "raw/ocr/342_hs1-416511228_box186_319.1-flying-discs-1949.pdf",
+        "bytes": 797043884,
+        "sha256": "76aded75ff0de27e72a66a07e04525921bd79a697b19763e307603baa52641fe"
+      },
+      {
+        "path": "raw/ocr/38_143685_box7_incident_summaries_1-100.pdf",
+        "bytes": 1028058947,
+        "sha256": "ab13164c1df8d0a6565b564ade86fb1b9a0540fc4174c853c0364317e9467f4b"
+      },
+      {
+        "path": "raw/ocr/38_143685_box7_incident_summaries_101-172.pdf",
+        "bytes": 906657964,
+        "sha256": "170f43e758e05f221f1ed3d99019a06b449be5b33391a7f9923dee058e0539dd"
+      },
+      {
+        "path": "raw/ocr/38_143685_box7_incident_summaries_173-233.pdf",
+        "bytes": 512783502,
+        "sha256": "e57640696dae250c415b0896602f9b74cc3df46bf03a63739f8616371d655bea"
+      },
+      {
+        "path": "raw/ocr/59_214434_sp_16_7.18.1963.pdf",
+        "bytes": 19081734,
+        "sha256": "8b6d5f6fa19b4e6831c165903a8e5df0600ffe3ecf8e5db901fc3d3e8c5ef011"
+      },
+      {
+        "path": "raw/ocr/59_214434_sp_16_[7.18.1963].pdf",
+        "bytes": 19081734,
+        "sha256": "139ae338eca0607d5789a9172c3f4a7b661e89aa8085ddca736c68d69e7f4b81"
+      },
+      {
+        "path": "raw/ocr/65_hs1-101634279_100-de-18221_serial_844.pdf",
+        "bytes": 5615043,
+        "sha256": "7b7a784ac017a1d810137092125f73b3c34eea6fd84d4429c800a344bc5ad347"
+      },
+      {
+        "path": "raw/ocr/65_hs1-101634279_100-de-26505.pdf",
+        "bytes": 20868964,
+        "sha256": "d6840b8993c58a8ba446681fbfcf007cd576df39bf60d598e127f334ea04036f"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_1.pdf",
+        "bytes": 841821151,
+        "sha256": "77a4da741435dd109b8d57be2a9f397673018a3e23f5a395c01827e6126f1ef6"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_10.pdf",
+        "bytes": 907923738,
+        "sha256": "b2348e7f3d12766ec23959ed0f676fae09c669cf440759694a179122a51d3bda"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_2.pdf",
+        "bytes": 877315460,
+        "sha256": "3bf8a27921ab42fbb83fc4833daffa5cadf0d84f2016b999946ee0387539ff21"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_3.pdf",
+        "bytes": 907444491,
+        "sha256": "22222e0767be183d5b0a685aab1d8e706e01c77251a745fd33c8a7425a77fe30"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_4.pdf",
+        "bytes": 1020271667,
+        "sha256": "cfefd8f82464ded3bd95a6bfe5a7120bf55f992bfc2235ddd8f3d821ddbe6a96"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_5.pdf",
+        "bytes": 985679002,
+        "sha256": "6a0083f6635192d4dad9e4fb0d831060a58c36c1cb503352aab96e0987639d5e"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_6.pdf",
+        "bytes": 1509954936,
+        "sha256": "073c94e4e7d7c2c22f0c77d42236f3753d90c83b26f5119cfbdfd338f4daf499"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_7.pdf",
+        "bytes": 1035765562,
+        "sha256": "016350427d73b1108c2b3fb5d073555ac5838a467ee4aef9a1ec838cca429df6"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_8.pdf",
+        "bytes": 1044202512,
+        "sha256": "ef2edfe6292cfa29d4500f51f354fe0a79bd080238a18927e2205058adf8d9f9"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_section_9.pdf",
+        "bytes": 1464774259,
+        "sha256": "8cb9a7c9c8f4f6a823ff7de352c1481f5776599a974d7be7a907349802364ff5"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_130.pdf",
+        "bytes": 490012490,
+        "sha256": "ae2fae1d255a899bb54abf34f664f526b7c4da9c4c825ef3952af0d141d50318"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_153.pdf",
+        "bytes": 31739593,
+        "sha256": "c3f34ad923987ef8295c88d92740d211fb12c853d7db2c88ea2e2f3ad8078600"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_164.pdf",
+        "bytes": 445164380,
+        "sha256": "9f9c995a6955cfb1154ce86bcc9dc96f73a94289b2c362c75557dc9f659d837f"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_220.pdf",
+        "bytes": 78490708,
+        "sha256": "5f73b22523f9f968b2ee158a08ca18cdd1a21a19ed0e3cfcebf4f82c941efd18"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_403.pdf",
+        "bytes": 20065019,
+        "sha256": "c63676c22dee0f8e638f4c9e4afb772ad5f1abe1c6452a4fb1e973bfa217372d"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_438.pdf",
+        "bytes": 181331990,
+        "sha256": "2c7d629a0f8d073b6c355f3f9a0ab5f4269c2a8b0888a19884e3de9d9792bbcf"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_serial_449.pdf",
+        "bytes": 106657890,
+        "sha256": "2d57692196ef0327bdb8cf7891bce1c46b7703f15c9438878fee4edf09827b23"
+      },
+      {
+        "path": "raw/ocr/65_hs1-834228961_62-hq-83894_sub_a.pdf",
+        "bytes": 760238731,
+        "sha256": "259f194cf4231d9eb5c7742f6ea45577eb6b97d28b94199345c62ca65e2a94e6"
+      },
+      {
+        "path": "raw/ocr/dow-uap-d6-mission-report-arabian-gulf-2020.pdf",
+        "bytes": 289292,
+        "sha256": "bd074fa705f84813948e3f611c602bc560e7e0b9accffe70ca317ceb3badca3c"
+      },
+      {
+        "path": "raw/ocr/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf",
+        "bytes": 6075752,
+        "sha256": "2516ddd434ace7db82b3133c617650ebaebf7cdfc743689b2f71bf66fcca0b9b"
+      },
+      {
+        "path": "raw/ocr/dow-uap-d63-mission-report-strait-of-hormuz-october-2020.pdf",
+        "bytes": 8269586,
+        "sha256": "fe1042c1d9bc7006f27e422de765917a977f6747101ca5755d7231e9ae10b4cd"
+      },
+      {
+        "path": "raw/ocr/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf",
+        "bytes": 7585108,
+        "sha256": "4e64361073400e8850a59d79a05508e8d1cc7c291810aadccdd355c6cf830454"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b1.pdf",
+        "bytes": 1531807,
+        "sha256": "5efc3f93aee2382418e96ea10316c19ac6bbead94c122c7e81a6a46b9af758d8"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b10.pdf",
+        "bytes": 1502079,
+        "sha256": "32b9a6aea2c46a9e0849cc61ec42db17899ed2c5c5a43f295ae0138112da5cd0"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b11.pdf",
+        "bytes": 1454637,
+        "sha256": "00052b858ff0152701c2290c18f9baed28f3529c0776901841b4c82536a7beae"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b12.pdf",
+        "bytes": 1434059,
+        "sha256": "5c73622118cf3f1ea79a1116f342235b8ea81c1bf3f5119ad4e82be1d43ff328"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b13.pdf",
+        "bytes": 707399,
+        "sha256": "182a5e1483fa585d6b224f3c1348397ca9cc620b2317272b85ca8cebe06d1663"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b14.pdf",
+        "bytes": 751559,
+        "sha256": "7783786eed8e1490512c32859058a9135f04cdf943ebc855c417db309b5a23df"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b15.pdf",
+        "bytes": 699843,
+        "sha256": "c23bb4d7952a01c6f0479f4e6568bd97c16ba4e5f993689e4e398e0a7363ee49"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b16.pdf",
+        "bytes": 708594,
+        "sha256": "f51cd31cdc602df1e2a9d9d356778e58a27c507424fd06dbc4386d2578c927a3"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b17.pdf",
+        "bytes": 713864,
+        "sha256": "fb24712412cb839d5efdd02214e9dab1a57835f3ef3cd5ab90cafe83adacf4a7"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b18.pdf",
+        "bytes": 699481,
+        "sha256": "31d9139b82bfb8bf976901e3e3c4efbb890800c271a0e3e4bee95e9705f93dbf"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b19.pdf",
+        "bytes": 1507352,
+        "sha256": "e0cca1f39c4c183acb3240acfc400fa1b7599b9280b3f6fd9acf2b473bdf70c7"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b2.pdf",
+        "bytes": 1456691,
+        "sha256": "8caa96d7206fa7d40367e57d586da5dcc184a17274949e95327e609929ad8547"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b20.pdf",
+        "bytes": 1448617,
+        "sha256": "3bf53e8d768c234d6ea8a0db695d65e06902aefb79016aa7e49937e762b5dd4f"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b21.pdf",
+        "bytes": 1489341,
+        "sha256": "975f32b274f7f1b23884972a1841245d8ed540a0e467cd399ea4f6a40469d3e4"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b22.pdf",
+        "bytes": 712674,
+        "sha256": "00d3d6f27fd6e534d6a25976143e6e4ee063768635bb41f112aed4b9a928f10c"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b23.pdf",
+        "bytes": 695430,
+        "sha256": "cb811850f109014942c94d3e7330dddb7a8f55cc363d7603f9eb2c937415283b"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b24.pdf",
+        "bytes": 724101,
+        "sha256": "52c903d0a2816d891c4e0b293f2cfa80ac7756eb8b1ea328a73d7e230b11e771"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b3.pdf",
+        "bytes": 1938859,
+        "sha256": "079502f69176025729d3c8226bf15151c9d708747a50ed3d1bf2104dcafbecbb"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b4.pdf",
+        "bytes": 1482684,
+        "sha256": "65f6591eaff8a946bbe8f900d090793ff6d667f0c5849b7ffca42a5ca612362a"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b5.pdf",
+        "bytes": 1445201,
+        "sha256": "d3cc94b28cd7633eb00b3248db87010f90c0195f20784859a7e611bbbacba8b1"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b6.pdf",
+        "bytes": 1515481,
+        "sha256": "683defa165df840c4e1b701e3db07231998e725a8ab54fa4a3fddb6afacea601"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b7.pdf",
+        "bytes": 1510916,
+        "sha256": "5c0fd17fe1547de09bf62217a0677eeed642978bee494bc7206acfaf3fd410dd"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b8.pdf",
+        "bytes": 1456325,
+        "sha256": "fd108dab93e43e18feeeb5262e83be8fa31928a9b37bba31a838872cdeaa3dce"
+      },
+      {
+        "path": "raw/ocr/fbi-photo-b9.pdf",
+        "bytes": 1462108,
+        "sha256": "89599f2b9d6869c2820c48fdcb183b118da267c92d68368a5b59a82bd2e10a49"
+      },
+      {
+        "path": "raw/ocr/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
+        "bytes": 50062743,
+        "sha256": "be933df658d6d2f59b3a93a20480002293f7cff3858e294a14df9fdc5d6bc01d"
+      },
+      {
+        "path": "raw/ocr/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
+        "bytes": 1375547,
+        "sha256": "d48e227499bef37918301ccd8a12d11815bf51e30ff72c2d2153b55b5b6fcdf7"
+      },
+      {
+        "path": "raw/ocr/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf",
+        "bytes": 981156,
+        "sha256": "24622c4a14774ad45509911058bf5e8d20d9bac24d41b714c33aff56327394a8"
+      },
+      {
+        "path": "raw/ocr/serial-3_redacted.pdf",
+        "bytes": 1471234,
+        "sha256": "8ef3259939ca4b0c8e3199aa399903c06bddbe7f5b19eb0db01c1483aa23d5e8"
+      }
+    ]
+  },
+  "reproducibility_note": "Raw files are gitignored. Their sha256 is recorded here to allow integrity verification if the archive is reconstructed from war.gov downloads."
+}

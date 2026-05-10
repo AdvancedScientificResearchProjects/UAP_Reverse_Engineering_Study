@@ -1,0 +1,25 @@
+# nasa-uap-vm1-apollo-12-1969
+# Source: raw/img/nasa-uap-vm1-apollo-12-1969.jpg
+# (binary asset; this transcript carries metadata only)
+
+# NASA-UAP-VM1, Apollo 12, 1969
+
+- **Agency:** NASA
+- **Kind:** img
+- **Release Date:** 5/8/26
+- **Incident Date:** 1969
+- **Incident Location:** Moon
+- **Document Type:** .img
+- **Asset File Name:** NASA-UAP-VM1, Apollo 12, 1969
+- **Slug:** `nasa-uap-vm1-apollo-12-1969`
+
+## Description
+
+This archival photograph depicts the lunar surface as viewed from the landing site of Apollo 12. This image features a highlighted area of interest slightly to the right of the vertical axis of the frame, above the horizon, in which unidentified phenomena are visible.
+
+This image has been modified from its original state to assist viewers in identifying specific areas of interest. These highlights are provided for contextual purposes only. Such alterations do not constitute an analytical judgment, investigative conclusion, or factual determination regarding the nature or significance of the subject matter.
+
+## Source URLs
+
+- Portal page: https://www.war.gov/UFO/
+- Thumbnail: https://www.war.gov/medialink/ufo/release_1/thumbnail/nasa-uap-vm1-apollo-12-1969.jpg

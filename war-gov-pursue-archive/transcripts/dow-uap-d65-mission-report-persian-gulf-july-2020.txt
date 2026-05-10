@@ -1,0 +1,434 @@
+# dow-uap-d65-mission-report-persian-gulf-july-2020
+# Source: raw/ocr/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf
+
+                                                                            Declassified by MG Richard A. Harriso
+                                                                            USCENTCOM Chief of Staff
+                                                                            Declassified on: 16 March 2026
+
+
+
+Misrep 4472514
+ Narrative
+          AT 04432      1Aa   FTOOK OFF FROM OKAS. AT 05042|
+                                                       1.4a HANDED OVER FROM THE
+                                                     1.40                        FROM 05522 TO
+ 00122   1.4a   FUPPORTED NAVCENT TO OPERATION                                 VQARABIAN
+GULF, STRAIT OF HORMUZ AND GULF OF OMAN. SEEJSR LINE1,.4a
+                                                     1, AT  0615,
+                                                          RECEIVED
+ A GUARD CALL. SEE GUARD CALL LINE
+                                 AT] 1830                          JOBSERVED AN UNIDENTIFIED
+ AERIAL PHENOMENON. SEE OBS LINE 1. AT [9202                1.40   BSERVED AN UNIDENTIFIED
+ AERIAL PHENOMENON. SEE OBS LINE 2. AT 23452                       BSERVED AN UNDENTIFIED
+ AERIAL PHENOMENON. SEE OBS LINE 3, AT 0012Z     JAS CLEARED TO RTB. AT 01242 ,
+  1.4a HANDED BACK TO THE LRE. AT 02002
+                                      1,4a LANDED AT OKAS. FMV WAS
+
+EXPLOITED BY DGS-L20 3 MISSION HOURS, 18.3 IMINT HOURS   ,
+                                                   IMINT TASKING
+PROSECUTED, 18.3}
+               1.4a HOURS , 1.4a TASKING PROSECUTED, 2 TOTAL TASKINGS
+PROSECUTED
+
+
+
+
+ Admin
+
+
+
+ CLASSIFICATION
+  Classilication:
+  Associated Caveats:
+  Classification Source (MS or Classification Guide ID): MULTIPLE SOURCES
+  Declassification Date (YYYYMMDD): 20450301
+
+
+ OPERATION
+
+  Operation;
+  Domain: AIR
+  Operations Center: 609th
+  Major Command (MAJCOM): ACC
+  Combatant Command (COCOM): USCENTCOM
+
+
+ MSGID
+
+  Report Type: MISREP
+  Originator (Unit or Squadron): 482ATKS
+  Submit Date (Auto-generated):
+
+
+
+
+USCENTCOM MDR 26-0028                                    FOUO YPA applies
+                                Approved for Release to AARO                             03/16/26 000001
+                                                                                   Declassified by MG Richard A: Harriso
+                                                                                   USCENTCOM Chief of Staff
+                                                                                   Declassified on: 16 March 2026
+
+
+  MSNID
+
+   Tasking Order (ATO): AS
+    Mission Type: AREC
+
+   Country Tasked: USUNITED STATES
+   Service Tasked: A          AIR FORCE
+
+
+  Poc
+
+
+  POC
+
+   Rank: 2d Lt
+
+   Unit: 482 ATKS
+   Wing: 432 AEW
+   Phone Number:
+   Email:
+   Service: Air Force
+   Operations Center: 609 AOC Det 1
+
+  QC
+   Rank: Ctr
+   Full Name:           356   (bkG)
+   Unit: 12 AF PAROC
+   Wing:Other
+   Phone Number:
+   Email:
+   Service: Air Force
+   Operations Center: Other
+
+  APPROVER
+
+   Rank: Capt
+
+   Unit: 609 AOC ISRD Unit Support
+   Wing:Other
+   Phone Number:
+   Email:
+   Service: Air Force
+
+   Operations Center: 609 CAOC
+
+
+
+                                                      3.5c, (bJG)
+
+
+
+USCENTCOM MDR 26-0028                                            FOUOHPA applies
+                                      Approved for Release to AARO                              03/16/26 000002
+                                                                         Declassified by MG Richard A: Harrison
+                                                                         USCENTCOM Chiel 0l Staff
+                                                                         Declassifled on: 16 March 2026
+
+
+INGEST
+  Rank:
+  Ful Name;
+  Unit:
+  Wing:
+  Phonc Number:
+  Email:
+  Service:
+  Operations Center:
+
+ACEQUIP
+
+
+ACEQUIP
+  Aircraft Callsign]      1.4a
+
+
+  Radar Software Load or Mission Data;
+  Radar   Warning Receiver (RWR) Namc or Designator:
+  RWR Software Load or Mission Data;
+  MWS Name or Designator:
+  MWS Software Load or Mission Data:
+  IRCM Name or Designator:
+  IRCM Software Load 0r Mission Data:
+  ECM Name or Designator:
+  ECM Software Load or Mission Data:
+  CMD Name or Designator:
+  ChalTl Designator:
+  Num Chalfor Cartridges:
+  Flare Designator:
+  Num Flares:
+  Towed DecoyName Or Designator:
+
+  Towed Decoy Software Load or Mission Data:
+  Num Towed Decoys:
+  Type of Radar-Guided AAM:
+  Vum Radar-Guided AAM:
+  Type of IR-Guided AAM:
+  Num IR-Guided AAM:
+  Gun Namc or Designator:
+  Num Gun Rounds:
+  Air-to-Ground Wpnto Include Num of Each: 1.4(a)
+  TGT Pod Name or Designator: ANDAS4
+  Additional Avionics: AH_GMESH
+
+
+
+
+USCENTCOM MDR 26-0028        Approved for Release to AARO
+                                                       FOUOHPA applies                03/16/26 000003
+                                                                                Declassified by MG Richard A. Harriso
+                                                                                USCENTCOM Chief of Staff
+                                                                                Declassified on: 16 March 2026
+
+
+   Data Link:
+   Gentext:
+
+  Timeline
+
+
+  On Station
+
+    Time On Station DTG: 160504.OOZJUL2O
+   Callsign:|         1.4a
+   JTAR Number:
+    Killbox (Location):
+   Mission Type: AREC
+   JTAC Callsign:
+   Gentext/Additional Details:
+    Did not Arrive On Station:
+
+
+  ISR
+
+    Time-on Station DTG: 160552.OOZJULZO
+    Time-off Station DTG: 170012:OOZJULZO
+    Aircraft Callsign:       1.4a
+   Msn Type: AREC
+   Primary Sensor: ANDAS4
+    Sensors Avuiluble: AHIGMESH
+   Tssking
+         Type:PLANNED
+   Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#):
+    BE Number (if NTISR):
+   Tasked Start Point: 39RVNIBuTua
+   Activity Description: ISR
+    FMV or Image File Name (if NTISR}:
+
+  GENTEXT/ISR
+   Gentert:             14a       cOORDINATED WITH NAVCENT 24 HOURS PRIOR
+  TO TAKE OFF, PRECOORD WAS SATTSTACTORY, AT 05522 1.4a ARRIVED ON STATION ISO
+  NAVCENT TO OPERATION                 TO CONDUCT SCANS FOR IDENTIFIED
+          NESSELS TO ESTABLISH PATTERN OF LIFE, UAS ACTIVITY_AN
+    1.4a, 1.4g
+  CHARACTERIZE ACTIVITY OUTSIDE OF PORTS. FROM 05522 TO 00124
+                                                          1.4a
+                                                               FONDUCTED
+  SCANS IAW THE TARGET DECK IN THE ARABIAN GULF (AG) AT 0615,                             ECEIVED A
+  GUARD CALL: SEE GUARD CALL LINE 1. AT 06452                1.4a pBSERVED 1X PROB NA SER WAP
+  AT 19322,|1,a
+  21402/   1.4a   pBSERVED 1X POSS HOUDONG AND IX POSS NASER DOCKED AT BUSHEHR
+
+
+
+
+USCENTCOM MDR 26-0028            Approved for Release to AARO
+                                                            FOUO I PA applies                03/16/26 000004
+                                                                              Declassified by MG Richard A: Harrison
+                                                                              USCENTCOM Chief 0l Staff
+                                                                              Declassified on: 16 March 2026
+
+
+                                                1.40   WAS CLEARED OFF TASKING AND RETURNED
+ TO BASE (RTB)
+
+
+ ISR ASSET UTILIZATION
+
+  Supported Unit: NAVCENT
+  Supported Operation: OPERATION
+  Precoord Time: 24 HOURS
+  Precoord Effectiveness: SATISFACTORY
+
+
+ WEATHER
+
+   Weather: EXPLAIN WEATHERS EFFECT ON THE MISSION or WEATHER WAS NOT A
+ FACTOR
+
+
+ EFFECTIVENESS
+
+  Tasker:
+  Intel Gap Filled?: No
+  Gentext:
+
+
+
+ Off Station
+  Time OfT Station DTG: 170124:00ZJULZO
+  Total Time On Station: 20 hours 20 minutes
+
+
+ GUARDCALL
+
+
+  Aircraft
+             Cellsign;|       14a
+
+  Ground Station Callsig                1,4a, 1.4g
+
+  Aircraft Heading: 13M
+  Aircraft Altitude: FL 480
+  Aircraft Airspecd:
+  Number of Calls Noted from the Samc Agency: 1
+  Guardcall Tone: Professional
+
+
+ GENTEXTIGUARDCALL
+  Gentext:                          1,.4a
+                           IAS HAILED ON GUARD
+ DEFENSE. ORDERS GIVEN; STANDARD CALL1,4a JRESPONDED WITH THE STANDARD
+ RESPONSE: NO IMPACT TO MISSION
+
+
+                                                 350
+
+
+
+
+USCENTCOM MDR 26-0028            Approved for Release to AARO
+                                                            FOUOHPA applies               03/16/26 000005
+                                                                             Declassified by MG Richard A: Harrison
+                                                                             USCENTCOM Chief 0l Staff
+
+
+
+  OBSERVATION
+
+   Observation DTG: 161830 Q0ZJL20
+   Aircraft Callsign: [ 1.49
+   Aircraft    Hegding: 152 M
+   Aircraft Altitude: FL 200
+   Aircraft Airspeed: 98 KIAS
+   Relative Bearing or Clock Position:
+   Range:
+   Killbox & Kcypad:
+   Observed
+   Observed Activity Description: UAP
+   Method of Observation: FMV
+
+
+  GENTEXTIOBSERVATION
+   Gentext:              AT 18302   1.4a   OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON
+
+
+
+
+  WEATHER
+
+    Weather: WEATHER WAS NOT 4 FACTOR
+
+
+  OBSERVATION
+    Observation DTG: 161920-OOZJUL2O
+    AircrattCallsign;|
+    Aircralt Location; 39RUN QTzka
+    Aircraft   Heading: 34 M
+    Aircraft Altitude: FL 190
+    Aircraft Airspeed: 90 KIAS
+    Relativc Bearing or Clock Position:
+   Rangc:
+   Killbox & Keypad:
+   Observed Activity Location: 39RUN?Ku Auzka
+   Observed Activity Description: UAP
+    Mcthod of Obscrvation: FMV
+
+
+  GENTEXTIOBSERVATION
+    Gentext:             AT 19202, 1.4a DBSERVED AN UNIDENTIFIED AERIAL PHENOMENON
+  IVO 39RUNWD A a
+
+
+
+
+USCENTCOM MDR 26-0028                                      FOUOHPA applies
+                                Approved for Release to AARO                             03/16/26 000006
+                                                                              Declassified by MG Richard A: Harrison
+                                                                              USCENTCOM Chief 0l Staff
+                                                                              Declassified on:' 16 March 2026
+
+
+ WEATHER
+
+  Weather: WEATHER WAS NOT A FACTOR
+
+
+Landing
+  Last Land Location (ICAO Code): OKAS
+  Last Land Time: 1 70200.O0ZJULZO
+  Last Enginc Shutdown Time: [70210.O0ZJUL2O
+  Total Mission Time: 21 hours [ 7 minutes
+  Gentext/Additional Details:
+
+
+ Takeoff
+  Callsign]         1.49
+
+  Number 0f Aircraft: 1
+
+
+  Aircraft Tail Numberteh[iAa (bd)14g
+  TakeolT Location (ICAO Code): OKAS
+  Takeoff' Time DTG: 160443.O0ZJULZO
+  Mode 3 (IFF Codes):
+  Gentext/Additional Details:
+  Mission Canceled:
+
+
+ OBSERVATION
+
+  Observation DTG: 162345.O0ZJULZO
+  Aircraft Callsign:|           1Aa
+
+
+  Aircraft    Heuding: 331 M
+   Aircraft Altitude: FL [91
+   Aircraft Airspeed: 115 KIAS
+  Relative Bearing or Clock Position:
+  Range:
+   Killbox & Keypad:
+
+  Observed Activity Description: UAP
+   Method of Observation: FMV
+
+
+ GENTEXTIOBSERVATION
+   Gentext:       AT 23452/ 1.4a OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON
+ IVO 39RUN6234236874
+
+
+
+
+USCENTCOM MDR 26-0028                                       FOUOHPA applies
+                                 Approved for Release to AARO                              03/16/26 000007
+                                                                     Declassified by MG Richard A: Harrison
+                                                                     USCENTCOM Chief 0l Staff
+                                                                     Declassified on: 16 March 2026
+
+
+  WEATHER
+
+   Wcather: WEATHER WAS NOT A FACTOR
+
+
+
+
+                                        3.5c,(b)(6)
+
+
+
+USCENTCOM MDR 26-0028                              FOUOHPA applies
+                        Approved for Release to AARO                              03/16/26 000008
+

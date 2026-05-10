@@ -398,13 +398,18 @@ exec(Path(__file__).parent.joinpath("fragments/agentF_theoretical_foundations.py
 exec(Path(__file__).parent.joinpath("fragments/agentG_uap_publications.py").read_text(encoding="utf-8"))
 
 # ════════════════════════════════════════════════════════════════════════════
-# 8. AGENT H — Track 11 Gershtein archive (Russian skeptical-empirical ufology)
+# 8. AGENT H — Track 10 Gershtein archive (Russian skeptical-empirical ufology)
 # ════════════════════════════════════════════════════════════════════════════
 exec(Path(__file__).parent.joinpath("fragments/agentH_gershtein.py").read_text(encoding="utf-8"))
 
+# ════════════════════════════════════════════════════════════════════════════
+# 9. AGENT I — Track 11 PURSUE Declassification archive (war.gov 2026-05-08)
+# ════════════════════════════════════════════════════════════════════════════
+exec(Path(__file__).parent.joinpath("fragments/agentI_war_gov_pursue.py").read_text(encoding="utf-8"))
+
 
 # ════════════════════════════════════════════════════════════════════════════
-# 9. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
+# 10. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs
 # ════════════════════════════════════════════════════════════════════════════
 
 # Lazar ↔ Dubna: element 115 as the critical bridge

@@ -52,11 +52,64 @@
 
 ## Convergence vs. divergence table / Таблица сходимости и расхождения
 
-| Theme / Тема | Lazar / Лазар | Chernobrov / Чернобров | Dubna / Дубна | Convergence / Расхождение |
-|---|---|---|---|---|
-| Element 115 / Элемент 115 | Stable isotope, fuel for Sport Model (1989) / Стабильный изотоп, топливо для Sport Model (1989) | No direct claim; UAP material samples via field expeditions / Нет прямого утверждения; образцы UAP-материала из полевых экспедиций | 2003 synthesis + LLNL co-authorship; SHEF 2020 / Синтез 2003 + соавторство LLNL; SHEF 2020 | Same target object class; Lazar's "stable" property contradicted by Dubna's sub-second lifetimes / Один класс целевого объекта; «стабильность» Лазара противоречит зафиксированным в Дубне субсекундным временам жизни |
-| Time / space-time / Время / пространство-время | Gravity-A/B distortion of space-time (propulsion) / Искажение пространства-времени Gravity-A/B (двигатель) | «Lovondatr» micro-temporal experiments via gravitational anomalies / Микро-темпоральные эксперименты «Ловондатр» через гравитационные аномалии | Out of scope (not addressed in interview) / Вне области (в интервью не затрагивается) | Conceptual overlap (gravitational distortion); independent programs / Концептуальное пересечение (гравитационное искажение); независимые программы |
-| Soviet aerospace lineage / Советская аэрокосмическая линия | References USSR–USA pre-1991 cooperation in 1989 testimony / Упоминает сотрудничество СССР–США до 1991 г. в показаниях 1989 г. | MAI-trained, RKK Energia ties, founded Kosmopoisk (1980 / 1988) / МАИ, связи с РКК «Энергия», основал «Космопоиск» (1980 / 1988) | JINR (1956) co-authored 2003 synthesis with LLNL; ²⁴³Am from DOE / ОИЯИ (1956) — соавтор синтеза 2003 с LLNL; ²⁴³Am из DOE | All three sit on the same historical substrate, entered from different angles / Все три на одном историческом субстрате, вход с разных сторон |
+| Theme / Тема | Lazar / Лазар | Chernobrov / Чернобров | Dubna / Дубна | PURSUE | Convergence / Расхождение |
+|---|---|---|---|---|---|
+| Element 115 / Элемент 115 | Stable isotope, fuel for Sport Model (1989) / Стабильный изотоп, топливо для Sport Model (1989) | No direct claim; UAP material samples via field expeditions / Нет прямого утверждения; образцы UAP-материала из полевых экспедиций | 2003 synthesis + LLNL co-authorship; SHEF 2020 / Синтез 2003 + соавторство LLNL; SHEF 2020 | FBI 62-HQ-83894 propulsion-form taxonomy (1949 Cabell Memo #4) — no element-115 mention; COMETA 1999 endorses MHD (no 115) / Таксономия двигательных форм ФБР (Cabell 1949) — без 115; COMETA 1999 поддерживает МГД (без 115) | Same target object class; PURSUE adds the *form-side* infrastructure (1949 Cabell taxonomy) absent in Lazar/Chernobrov/Dubna / Один класс целевого объекта; PURSUE добавляет *форменную* инфраструктуру (таксономия Cabell 1949), отсутствующую у Лазара/Черноброва/Дубны |
+| Time / space-time / Время / пространство-время | Gravity-A/B distortion of space-time (propulsion) / Искажение пространства-времени Gravity-A/B (двигатель) | «Lovondatr» micro-temporal experiments via gravitational anomalies / Микро-темпоральные эксперименты «Ловондатр» через гравитационные аномалии | Out of scope (not addressed in interview) / Вне области (в интервью не затрагивается) | Out of scope; PURSUE corpus contains no propulsion-mechanism claims (only witness-form taxonomy) / Вне области; в корпусе PURSUE нет утверждений о механизме двигателя (только свидетельская форменная таксономия) | Conceptual overlap on Lazar/Chernobrov; PURSUE has no concept-level overlap (form-only) / Концептуальное пересечение Лазар/Чернобров; PURSUE без концептуального пересечения (только форма) |
+| Soviet aerospace lineage / Советская аэрокосмическая линия | References USSR–USA pre-1991 cooperation in 1989 testimony / Упоминает сотрудничество СССР–США до 1991 г. в показаниях 1989 г. | MAI-trained, RKK Energia ties, founded Kosmopoisk (1980 / 1988) / МАИ, связи с РКК «Энергия», основал «Космопоиск» (1980 / 1988) | JINR (1956) co-authored 2003 synthesis with LLNL; ²⁴³Am from DOE / ОИЯИ (1956) — соавтор синтеза 2003 с LLNL; ²⁴³Am из DOE | DOS-PNG-1985 (PNG 1985, Cold-War Pacific); DOS-KAZ-1994 (Tajik Air B747SP); DOW-1948-NETHERLANDS-INTEL (Holland intercept + Swedish lake-crash, USAFE TT 1524) / DOS-PNG-1985 (PNG 1985, Тихоокеанский фронт холодной войны); DOS-KAZ-1994 (Tajik Air B747SP); DOW-1948-NETHERLANDS-INTEL (голландский перехват + катастрофа на шведском озере, USAFE TT 1524) | Four archives on same Cold-War / post-Cold-War substrate; PURSUE contributes the *diplomatic-cable* dimension absent in the others / Четыре архива на одном холодновоенном / постхолодновоенном субстрате; PURSUE добавляет *дипломатически-кабельное* измерение, отсутствующее в других |
+| Federal disclosure lineage / Линия федерального раскрытия | Out of scope (single-witness testimony, not federal-record release) / Вне области (свидетельство одного человека, не выпуск федеральных документов) | Out of scope (Russian civilian field research) / Вне области (российские гражданские полевые исследования) | Out of scope (institutional science, not declassification) / Вне области (институциональная наука, не рассекречивание) | **The corpus itself** — 161 records spanning 1944–2026 from 4 US federal agencies, MDR-released between 2024–2026, with 86 percent CORROBORATED-at-observation-level / **Сам корпус** — 161 запись 1944–2026 от 4 федеральных агентств США, рассекречено через MDR в 2024–2026, с 86% CORROBORATED на уровне наблюдения | PURSUE is the only sibling archive whose archival posture is *release-confirmation* rather than *single-witness testimony* or *institutional science* / PURSUE — единственный смежный архив, чья архивная позиция — *подтверждение через релиз*, а не *свидетельство одного человека* или *институциональная наука* |
+
+---
+
+## Theme 4. US federal disclosure lineage (1944–2026) / Тема 4. Линия федерального раскрытия США (1944–2026)
+
+**EN:** On 8 May 2026 the US Department of War (DoW) published **PURSUE Release 01** — 161 declassified UAP records from DoW, FBI, NASA, and the Department of State, made public via [https://www.war.gov/UFO/](https://www.war.gov/UFO/) under the **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**. The corpus spans 82 years (1944 foo-fighters → 2025 FBI Western US IR cluster) and includes the FBI Case 62-HQ-83894 master file (1947–1976), the September 2023 bronze-ellipsoid case (FBI ELLIPSE Sr3/4/5 + AI-composite sketch), Apollo / Skylab / Gemini transcripts and imagery (NASA-D series + VM6 active-investigation photograph), modern military mission reports (CENTCOM / INDOPACOM / AFRICOM 2013–2026 with structured-field MISREP forms), and Department-of-State diplomatic cables (1952 SECRET memo through 2004 Turkmenistan), plus the COMETA 1999 report as the only civilian / foreign source. The `war-gov-pursue-archive/` sub-archive in this repository structures the corpus into 158 per-document analytical cards, 7 topical syntheses, a 6362-line MASTER claims document with EN-primary content and RU synopsis, and a Stage-9 QA review certifying 100% record coverage and clean cross-link integrity. Per the archive's policy, **claims are not imported** between PURSUE and the sibling archives — cross-references are pointers only.
+
+**RU:** 8 мая 2026 г. Министерство войны США (Department of War, DoW) опубликовало **PURSUE Релиз 01** — 161 рассекреченную запись по НАЯ от DoW, ФБР, NASA и Госдепартамента, обнародованную на [https://www.war.gov/UFO/](https://www.war.gov/UFO/) в рамках программы **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**. Корпус охватывает 82 года (foo-fighters 1944 → ИК-кластер ФБР Western US 2025) и включает мастер-файл дела ФБР 62-HQ-83894 (1947–1976), дело бронзового эллипсоида сентября 2023 (FBI ELLIPSE Sr3/4/5 + ИИ-композит-набросок), транскрипты и снимки Apollo / Skylab / Gemini (NASA-D серия + фотография активного расследования VM6), современные военные mission reports (CENTCOM / INDOPACOM / AFRICOM 2013–2026 со структурированными формами MISREP) и дипломатические телеграммы Госдепа (от секретной памятки 1952 до Туркменистана 2004), плюс отчёт COMETA 1999 как единственный гражданский / иностранный источник. Подархив `war-gov-pursue-archive/` в этом репозитории структурирует корпус в 158 аналитических карточек по документам, 7 тематических синтезов, MASTER-документ заявлений на 6362 строки с основным контентом на EN и русским синопсисом, а также QA-обзор Этапа 9 с подтверждением 100% покрытия записей и чистой целостности перекрёстных ссылок. По политике архива **заявления между PURSUE и смежными архивами не импортируются** — перекрёстные ссылки служат только указателями.
+
+**Cross-links / Перекрёстные ссылки:**
+- [`../war-gov-pursue-archive/README.md`](../war-gov-pursue-archive/README.md) — bilingual archive entry-point / двуязычная точка входа архива
+- [`../war-gov-pursue-archive/analysis/MASTER_pursue_claims.md`](../war-gov-pursue-archive/analysis/MASTER_pursue_claims.md) — 35-claim key index in §0.0 + RU synopsis §0.RU
+- [`../war-gov-pursue-archive/analysis/per-document/FBI-62HQ-Sr164.md`](../war-gov-pursue-archive/analysis/per-document/FBI-62HQ-Sr164.md) — 1949 Cabell Memorandum #4 propulsion taxonomy (anchor for 75-year stagnation finding)
+- [`../war-gov-pursue-archive/analysis/per-document/DOW-1948-NETHERLANDS-INTEL.md`](../war-gov-pursue-archive/analysis/per-document/DOW-1948-NETHERLANDS-INTEL.md) — 1948 USAFE TT 1524 first-tier ETH text at General-Cabell level
+- [`../war-gov-pursue-archive/analysis/per-document/DOS-1963-EOP-NASA.md`](../war-gov-pursue-archive/analysis/per-document/DOS-1963-EOP-NASA.md) — 1963 Hunter EOP/NASC "Space Alien Race Question" memo
+- [`../war-gov-pursue-archive/analysis/per-document/COMETA-1999.md`](../war-gov-pursue-archive/analysis/per-document/COMETA-1999.md) — bridges to Theme 1 (propulsion / MHD)
+
+**Theme 4 in convergence/divergence terms / Тема 4 в терминах сходимости/расхождения:**
+
+The 1948 USAFE TT 1524 reference to a Swedish-lake-crash episode and the 1949 Cabell Memorandum #4 propulsion-form taxonomy together establish that the formal infrastructure to record an ETH-positive answer existed at general-officer level in 1948–1949 and was structurally bounded the same way for 75 years (modern AARO MISREP forms still use "UAP Propulsion Means: UNK" by default). This sits adjacent to **Theme 1** (Lazar's stable-115 fuel claim) on the propulsion thread, and to **Theme 3** (Soviet aerospace lineage) on the diplomatic / Cold War thread (PNG 1985 Air Niugini overflight, KAZ 1994 Tajik Air B747SP, the 1948 Holland intercept routed through USAFE). PURSUE's archival posture is **release-only**: it confirms what was already in the historical-document record; it does not introduce new physical claims. Cross-archive integration is therefore *navigational*, not *evidentiary*.
+
+В сумме: упоминание шведской катастрофы на озере в USAFE TT 1524 1948 г. и таксономия двигательных установок Cabell Memorandum #4 1949 г. вместе показывают, что формальная инфраструктура для записи ETH-позитивного ответа существовала на уровне генерала уже в 1948–1949 гг. и была структурно ограничена так же на протяжении 75 лет (в современных формах MISREP AARO до сих пор по умолчанию ставится «UAP Propulsion Means: UNK»). Это соседствует с **Темой 1** (заявление Лазара о стабильном-115 как топливе) на линии двигательной установки и с **Темой 3** (советская аэрокосмическая линия) на дипломатически-холодновоенной линии (полёты над PNG 1985, Tajik Air B747SP в KAZ 1994, голландский перехват 1948 через USAFE). PURSUE по своей архивной позиции — **только опубликованное**: подтверждает то, что уже было в исторических документах; новые физические утверждения не вносит. Поэтому интеграция с другими архивами — *навигационная*, а не *доказательная*.
+
+---
+
+## Verdict-marker disambiguation across archives / Дезамбигуация меток вердиктов между архивами
+
+**EN:** The two main archives with verdict-marker conventions use the **same `❌` glyph for opposite meanings**, which downstream readers must disambiguate per-archive:
+
+| Glyph | bob-lazar-archive | war-gov-pursue-archive |
+|-------|-------------------|------------------------|
+| ❌ | **CONTRADICTED** — claim contradicted by independent sources | **EXPLAINED** — claim has a documented mundane explanation |
+| ✅ | verified / corroborated | CORROBORATED — verbatim primary source or ≥2-source corroboration |
+| ⚠ | disputed / qualified | PARTIAL — qualified, inferential, or partial coverage |
+| ⬜ | (not used) | UNRESOLVED — AARO status pending |
+| ⬛ | (not used) | REDACTED — material redaction or page missing |
+| 🟧 | (not used) | ANALYTICAL FLAG — AARO metadata inconsistency OR plausible analyst interpretation |
+
+**The `❌` collision is real**: in bob-lazar `❌` is a *negative-evidence* marker (the claim is wrong); in PURSUE `❌` is a *closure* marker (the case is solved, no anomaly remains). Verdict-markers do **not** transfer across archive boundaries; always read the archive's own `catalog/source_codes.md` (or equivalent) before importing a marker semantically.
+
+**RU:** Два основных архива с конвенциями меток вердиктов используют **один и тот же глиф `❌` с противоположными значениями**, что требует пер-архивной дезамбигуации читателями:
+
+| Глиф | bob-lazar-archive | war-gov-pursue-archive |
+|------|-------------------|------------------------|
+| ❌ | **CONTRADICTED** — заявление опровергнуто независимыми источниками | **EXPLAINED** — для заявления документально зафиксировано обыденное объяснение |
+| ✅ | верифицировано / подтверждено | CORROBORATED — дословный первичный источник или ≥2-источниковое подтверждение |
+| ⚠ | оспаривается / условное | PARTIAL — условное, выводное или частичное покрытие |
+| ⬜ | (не используется) | UNRESOLVED — статус AARO не определён |
+| ⬛ | (не используется) | REDACTED — существенная редакция или пропущенная страница |
+| 🟧 | (не используется) | ANALYTICAL FLAG — несоответствие метаданных AARO ИЛИ обоснованная аналитическая интерпретация |
+
+**Коллизия `❌` реальная**: в bob-lazar `❌` — маркер *негативного свидетельства* (заявление неверно); в PURSUE `❌` — маркер *закрытия* (дело объяснено, аномалии нет). Метки вердиктов **не переносимы** через границы архивов; всегда читайте `catalog/source_codes.md` (или эквивалент) самого архива перед семантической интерпретацией метки.
 
 ---
 
@@ -89,6 +142,7 @@
 - **Dubna / Element 115 analysis (Track 4) / Анализ Дубна / Элемент 115 (Трек 4):** [`../dubna-element-115-analysis/README.md`](../dubna-element-115-analysis/README.md)
 - **OSINT + Intelligence Analysis (Track 5) / OSINT и разведывательный анализ (Трек 5):** [`../osint-intelligence-analysis/README.md`](../osint-intelligence-analysis/README.md)
 - **People analysis (Track 6) / Анализ людей (Трек 6):** [`../people-analysis/README.md`](../people-analysis/README.md)
+- **PURSUE Declassification archive (Track 11) / Архив рассекречивания PURSUE (Трек 11):** [`../war-gov-pursue-archive/README.md`](../war-gov-pursue-archive/README.md)
 - **UAP origin taxonomy / Таксономия происхождения НАЯ:** [`uap-taxonomy.md`](uap-taxonomy.md)
 - **External podcasts / Внешние подкасты:** [`external-podcasts.md`](external-podcasts.md)
 - **Cross-archive links diagram / Диаграмма межархивных связей:** [`../charts/mermaid/cross_archive_links.mmd`](../charts/mermaid/cross_archive_links.mmd)

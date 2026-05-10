@@ -1,0 +1,66 @@
+---
+title: "PURSUE Release 01 — agency record distribution + DoW sub-clusters / Распределение записей по ведомствам + субкластеры DoW"
+---
+%% EN: Decomposition of the 161-record corpus by originating agency
+%% (Department of War 82, FBI 57, NASA 14 + COMETA 1 = 15, DOS 7), and inside DoW
+%% by sub-cluster (MISREP D-series 45, PR-videos 28, historical pre-1956 6,
+%% Incident Summaries 3). Counts from README.md "By cluster" table; DoW share
+%% = 82 (45+28+6+3 = 82). RU: Декомпозиция корпуса 161 записи по
+%% агентству-источнику и внутри DoW — по субкластерам.
+flowchart TB
+    PURSUE["<b>PURSUE Release 01</b><br/>161 records<br/>war.gov/UFO 2026-05-08<br/>121 PDF + 28 mp4 + 14 jpg"]
+
+    subgraph AGENCIES["By originating agency / По агентству-источнику"]
+        direction LR
+        DOW["<b>Department of War</b><br/>82 records (50.9%)<br/>Министерство войны"]
+        FBI["<b>FBI</b><br/>57 records (35.4%)<br/>ФБР"]
+        NASA["<b>NASA + COMETA</b><br/>15 records (9.3%)<br/><i>14 NASA + 1 civ. (COMETA)<br/>filed under NASA banner</i>"]
+        DOS["<b>Department of State</b><br/>7 records (4.3%)<br/>Госдеп<br/><i>4 missing PDFs (57% gap)</i>"]
+    end
+
+    subgraph DOW_SUB["DoW sub-clusters (82 total) / Субкластеры DoW (всего 82)"]
+        direction TB
+        DOW_D["<b>D-series MISREPs</b><br/>45 records<br/>D3..D75 with gaps<br/><i>2013–2026 modern military<br/>Современная военная серия</i>"]
+        DOW_PR["<b>PR-videos (unresolved)</b><br/>28 records<br/>PR19..PR49<br/><i>AARO 'area of contrast'<br/>video clips, mostly orphans</i>"]
+        DOW_HIST["<b>Historical pre-1956</b><br/>6 records<br/>FOO-1944, AMC-MEMO 1947,<br/>Netherlands-Intel, Flying-Discs,<br/>FSR 200-4, Azerbaijan 1955<br/><i>1 corrupted at source</i>"]
+        DOW_IS["<b>Incident Summaries</b><br/>3 records<br/>Project Sign / Blue Book era<br/>1948–1949"]
+    end
+
+    subgraph FBI_SUB["FBI sub-clusters (57 total) / Субкластеры ФБР (всего 57)"]
+        direction TB
+        FBI_62["<b>Case 62-HQ-83894 master</b><br/>18 records<br/>S01..S10 + Sr3,Sr130,Sr153,Sr164,Sr438,Sr449<br/><i>1947–1976 historical</i>"]
+        FBI_IRA["<b>IR A-series (jpg)</b><br/>8 records<br/>FBI-IR-A01..A08<br/><i>Western US Late 2025</i>"]
+        FBI_IRB["<b>IR B-series (PDF)</b><br/>24 records<br/>FBI-IR-B01..B24<br/><i>Western US Late 2025<br/>two ~3-min bursts</i>"]
+        FBI_ELL["<b>ELLIPSE (Sept 2023)</b><br/>4 records<br/>SKETCH + Sr3 + Sr4 + Sr5<br/><i>'Most compelling' tier</i>"]
+        FBI_USP["<b>USPER-302 (Late 2025)</b><br/>1 record<br/><i>Federal-LE pursuit</i>"]
+        FBI_LEG["<b>FBI 100-DE legacy</b><br/>2 records<br/>1949 + 1958"]
+    end
+
+    subgraph NASA_SUB["NASA cluster (15 total) / Кластер NASA (всего 15)"]
+        direction LR
+        NASA_AP["<b>Apollo missions</b><br/>11 records<br/>D1+VM1..VM5 (A12),<br/>D2+VM6+D5+D6 (A17),<br/>D4 (A11)"]
+        NASA_GEM["<b>Gemini 7</b><br/>2 records<br/>D3 + GEMINI-AUDIO"]
+        NASA_SKY["<b>Skylab 3</b><br/>1 record<br/>D7 (Garriott)"]
+        NASA_COM["<b>COMETA 1999</b><br/>1 record<br/><i>Only civilian / foreign</i>"]
+    end
+
+    PURSUE --> AGENCIES
+    DOW --> DOW_SUB
+    FBI --> FBI_SUB
+    NASA --> NASA_SUB
+
+    classDef root fill:#fff,stroke:#000,stroke-width:2.5px,color:#000
+    classDef dow fill:#fbe6c8,stroke:#b87333,stroke-width:1.5px,color:#000
+    classDef fbi fill:#cfe6ff,stroke:#1f4e8a,stroke-width:1.5px,color:#000
+    classDef nasa fill:#e2dafd,stroke:#5b4ad0,stroke-width:1.5px,color:#000
+    classDef dos fill:#f5cccc,stroke:#a64141,stroke-width:1.5px,color:#000
+    classDef sub fill:#fafafa,stroke:#555,stroke-width:1px,color:#000
+
+    class PURSUE root
+    class DOW,DOW_D,DOW_PR,DOW_HIST,DOW_IS dow
+    class FBI,FBI_62,FBI_IRA,FBI_IRB,FBI_ELL,FBI_USP,FBI_LEG fbi
+    class NASA,NASA_AP,NASA_GEM,NASA_SKY,NASA_COM nasa
+    class DOS dos
+
+    %% Source / Источник: README.md "By cluster" table, MASTER §0 source codes index.
+    %% PURSUE archive · ASRP v2.1

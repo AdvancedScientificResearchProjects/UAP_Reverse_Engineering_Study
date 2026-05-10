@@ -1,0 +1,397 @@
+# dow-uap-d16-mission-report-syria-july-2022
+# Source: raw/native/dow-uap-d16-mission-report-syria-july-2022.pdf
+
+                                                                            Declassified by MG Richard A. Harrison
+                                                                            USCENTCOM Chief of Staff
+                                               Bf!Jltl!l't'if!C'Mfflffli    Declassified on: 8 October 2025
+
+
+
+
+Misrep undefined-7816710
+
+Narrative
+eSECR-JS'f//ftffl.:; 'fBtfflff; P"Ylf'f) AT 301639ZJUL22, TF CHOSIN TASKED! 1.4a !
+WITH IMINT VIA 7 LINE. AT 301822ZJUL22, [:ii]DEPARTED MUWAFFAQ SALTI AB (OJMS).
+AT 301829ZJUL22,~HANDED OVER FROM THE LRE. AT 301925ZJUL22, I 1.4a !BEGAN
+SIGINT COLLECT. AT 302028ZJUL22~VED ON STATION AND CHECKED IN WITH
+TF CHOSIN STA TO PERFORM IMINT IVO 37SFU3~1~ (SEE ISR 1). AT 310239ZJUL22,
+~OBSERVED AN UNIDENTIFIED AERIAL PHENOMENON IVO 37SFU271w'7~(SEE UAP
+1). AT 311343ZJUL22,~RETURNED TO BASE. AT 311409ZJUL22J 1.4a [ERMINATED
+SIGINT COLLECT. AT 311458ZJUL22,~HANDED BACK TO THE LRE. AT 311519ZJUL22,
+~LANDED AT OJMS. FULL MOTION VIDEO WAS EXPLOITED BY DGSl. 20.9 MISSION
+HOURS, 17 .2 IMINT HOURS, 1 IMINT TA SKINGS PROSECUTED, 18. 7 SIGINT HOURS, 1 SIGINT
+TASKINGSPROSECUTED,2TOTALTASKINGSPROSECUTED
+
+
+
+
+(SJRELIBO, l\Iission Narrative
+
+
+
+
+Admin
+
+
+CLASSIFICATION
+• Classificatiom f!ffle'IHH'
+• Associated Caveats3 l'i0P0Rli
+• Classification Source (MS or Classification Guide ID): MULTIPLE SOURCES
+• Declassification Date (YYYYMMDD): 20470731
+
+
+OPERATION
+
+• Operation: INHERENT RESOLVE
+• Domain: AIR
+• Operations Center: 609th
+• Major Command (MAJCOM): AFCENT
+• Combatant Command (COCOM): USCENTCOM
+
+
+MSGID
+
+
+
+                                             asc f 918 Exemptjgn (b)(§l
+                                               Sli@:lfMlil/JffiHiOM
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                        10/17/25 001
+                                            Approved for Release to AARO
+                                                                                                 Declassified by MG Richard A. Harrison
+                                                                                                 USCENTCOM Chief of Staff
+                                                                                                 Declassified on: 8 October 2025
+
+
+
+• Report Type: MISREP
+• Originator (Unit or Squadron): 89 ATKS
+• Submit Date:
+
+
+MSNID
+• Tasking Order (ATO): DI
+• Mission Type: ARMED RECCE
+• ATO Mission Number b .4a, 1.4gl
+• Country Tasked: US - UNITED STATES
+• Service Tasked: A - AIR FORCE
+
+Poe
+
+
+POC
+• Rank: Arnn
+• Full JS.3~....IA_E_x_em-p-ti-on_s_(b_)_(3-),-13....,4b, (b)(6)
+• Unit: 89 ATKS
+• Wing: 432 AEW
+• Phone Num1'.m:;f=....o-1A-Ex_e_m-pt-io....,nkb)(6)
+• Email:I     3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 603 AOC
+
+
+QC
+• Rank: 2dLt
+• F e l l ~ 130b, (b)(6)
+• Unit: 89 ATKS
+• Wing: 432 AEW
+• Phone Num1'.ere;t....O-IA-Ex_e_m_pt-io....,n!(b)(6)
+• Email      I3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+APPROVER
+• Rank: SrA
+• Full.Nill~ Exemptions (b)(3), j30b, (b)(6)
+• Unit: 609th AOC
+• Wing: Other
+
+
+                                                                   3.5c, FOIA Exemption (b)(6)
+
+
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                                             10/17/25 002
+                                            Approved for Release to AARO
+                                                                           Declassified by MG Richard A. Harrison
+                                                                           USCENTCOM Chief of Staff
+                                                                           Declassified on: 8 October 2025
+
+
+
+• Phone Number:►.sc, FOIA Exemption (b}(6I
+• Email:!      3.5c, FOIA Exemption (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+INGEST
+• Rank:
+• Full Name:
+• Unit:
+• Wing:
+• Phone Number:
+• Email:
+• Service:
+• Operations Center:
+
+ACEQUIP
+
+
+ACEQUIP
+• Aircraft Callsign: I 1.4a
+• Radar Name or Destination:
+• Radar Software Load or Mission Data:
+• Radar Warning Receiver (RWR) Name or Designator:
+• RWR Software Load or Mission Data:
+• MWS Name or Designator:
+• MWS Software Load or Mission Data:
+• IRCM Name or Designator:
+• IRCM Software Load or Mission Data:
+• ECM Name or Designator:
+• ECM Software Load or Mission Data:
+• CMD Name or Designator:
+• Chaff Designator:
+• Num Chaff or Cartridges:
+• Flare Designator:
+• Num Flares:
+• Towed Decoy Name or Designator:
+• Towed Decoy Software Load or Mission Data:
+• Num Towed Decoys:
+• Type of Radar-Guided AAM:
+• Num Radar-Guided AAM:
+• Type of IR-Guided AAM:
+
+
+                                             3.5c, FOIA Exemption (b)(6)
+
+                                               81ll811BrtWlii&POM
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                       10/17/25 003
+                                            Approved for Release to AARO
+                                                                                  Declassified by MG Richard A. Harrison
+                                                                                  USCENTCOM Chief of Staff
+                                                  tfflf!ltl'PifN81'8Nf            Declassified on: 8 October 2025
+
+
+
+• Num IR-Guided AAM:
+• Gun Name or Designator:
+• Num Gun Rounds:
+• Air-to-Ground Wpn to Include Num of Each~                                1.4a
+
+                              1.4c
+• DataLink:
+• Gentext:
+
+Timeline
+
+
+Takeoff
+
+• Callsign:I     1.4a
+• Number of Aircraft: 1
+• Asset Type (Aircraft):l....1-.4a-,-1-.4g...,I
+• Aircraft Tail Number(s):! 1.4a, 1.4g!
+• Takeoff Location (ICAO Code): OJMS
+• Takeoff Time DTG: 301822:00ZJUL22
+• Mode 3 (IFF Codes):
+• Gentext/Additional Details: -
+• Mission Canceled:
+
+
+On Station
+• Time On Station DTG: 301925:00ZJUL22
+• Callsign:!    1.4a   I
+• JTAR Number:
+• Killbox (Location):
+• Mission Type: AREC
+• JTAC Callsign:
+• Gentext/Additional Details: -
+• Did not Arrive On Station:
+
+
+Off Station
+• Time Off Station DTG: 311409:00ZJUL22
+• Total Time On Station: 18 hours 44 minutes
+• Gentext/Additional Details:
+
+
+Landing
+
+
+
+                                             3.5c, FOIA Exemption (b)(6)
+
+
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                              10/17/25 004
+                                            Approved for Release to AARO
+                                                                           Declassified by MG Richard A. Harrison
+                                                                           USCENTCOM Chief of Staff
+                                               ftlelffl'l'h!(MONlf         Declassified on: 8 October 2025
+
+
+
+• Last Land Location (ICAO Code): OJMS
+• Last Land Time: 311519:00ZJUL22
+• Last Engine Shutdown Time: 311529:00ZJUL22
+• Total Mission Time: 20 hours 57 minutes
+• Gentext/Additional Details: -
+
+
+JSR
+• Time-on Station DTG: 302028:00ZJUL22
+• Time-off Station DTG: 310000 :00ZJUL22
+• Aircraft Callsign:I  1.4a     I
+• Msn Type: AREC
+
+
+
+• Tasking Type: Planned
+• Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): -
+• BE Number (if NTISR): -
+• Tasked Start Point: 37SFU3~1[4iil
+• Activity Description: ISR
+• FMV or Image File Name (ifNTISR):
+• EEis Observed:
+• Number of EEis:
+
+
+GENTEXT/ISR
+• Gentext: ~~:rHIUil W 'G]jit, JZW3.~!    1.4a     I COORDINATED WITH TF
+CHOSIN 103 MINUTES PRIOR TO TAKE OFF. COORDINATION WAS SATISFACTORY DUE TO
+QUALITY OF PRODUCTS. PLEASE SEE ATTACHED 7-LINE FOR MISSION ESSENTIAL
+ELEMENTS OF INFORMATION (EEIS). AT 2028Z,~ARRIVED ON OP SPECTRE DAGGER,
+FORCE PRO ISO TF CHOSIN AND TF CHOSIN SENSOR TASKING AUTHORITY (STA)
+DIRECTED~TO PROVIDE !MINT IVO 37SFU3~1~. FROM 2028Z TO 2100Z,~
+SCANNED IVO SP (37SFU3~1~) FOR EEI RELATED ACTIVITY. AT 2029Z,~
+OBSERVED lX ADM SITTING ON TOP OF CARGO TRUCK PARKED BEHIND TREE IVO
+37SFU3~81~ FROM 210oz TO 2136Z,~SCANNED COI 1 AND RUNWAY IVO
+37SFU2~3!1.4a!FOR EEI RELATED ACTIVITY, NSTR. FROM 2136Z TO 2210Z, ~
+CONDUCTED RUNAWAY SCANS IVO 37SFU2~31:ualFOR EEI RELATED ACTIVITY. AT
+2210Z lX POSS TECHINCAL OBS IVO 37SFU2!uial73[w FROM 2210Z TO 0037Z, ~
+SCANNED IVO COI 1 (37SFU2~~ FOR EEI RELATED ACTIVITY. AT 2252Z, ~
+SCANNED IVO 37SFU3.fia76Q1FOR EEI RELATED ACTIVITY, NSTR. AT 0023Z, ~ OBS lX
+ADM ON A MOTO AND CONDUCTED A FOLLOW. FROM 0023Z TO 0030Z, THE ADM MADE 1
+STOP IVO 37SFU3~~ FROM 0037Z TO 0315Z,~SCANNED IVO 37SFU3~~
+37SFU3lw,~ 37SFU33~91ud, 37SFU3 l~~ 37SFU3~4~ 37SFU2'71w7lual,
+AND 37SFU3~~FOR EEI RELATED ACTIVITY, NSTR. AT 0245Z,~OBSERVED lX
+
+
+                                             3.5c, FOIA Exemption (b)(6)
+
+                                               illHilIUii:Fi!~ORJI
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                       10/17/25 005
+                                            Approved for Release to AARO
+                                                                           Declassified by MG Richard A. Harrison
+                                                                           USCENTCOM Chief of Staff
+                                                                           Declassified on: 8 October 2025
+
+
+
+ADM IVO 37SFU2~~ AT 02562, ~BSERVED lX REINFORCED STRUCTURE IVO
+37SFU3~<iLiil FROM 03152 TO 05212,~SCANNED IVO 37SFU3~~
+37SFU2~~ FOR EEI RELATED ACTIVITY, NSTR. AT 05212,~OBSERVED lX WHITE
+PUT, lX BLACK PUT, AND 2X WHITE BONGOS CARRYING APPROX 30 ADMS, WHICH THEN
+~CONDUCTED A FOLLOW. FROM 05212 TO 07152,~FOLLOWED THE VEHICLES
+AND OBSERVED 2X STOPS IVO 37SFU2a::ua:17]1.4a! 37SFU 2 ~ 7 ~ AT 05232,~
+OBSERVED lX PROB TECHNICAL IVO 37SFU2~lua] AT 05282, THE CONVOY STOPPED N
+OF AN OVERHANG AND ALL ADMS EXITED THE VEHICLES, WALKING UNDER THE
+OVERHAND. lX ADM SLUNG A RILE OVER HIS RIGHT SHOULDER. AREA ASSESSED TO BE
+A POSS SHOOTING RANGE. AT 06332, THE ADMS REENTERED THE VEHICLES CONSISTING
+OF lX WHITE JEEP, lX BLACK PUT, 2X WHITE BONGOS AND DEPARTED. AT 06482, THE
+CONVOY STOPPED IVO 37SFU3 ~(@APPROX 5X ADMS DISMOUNTED AND THE lX
+WHITE JEEP LEFT THE CONVOY BEFORE THE CONVOY DEPARTED AGAIN. AT 06552 lX
+WHITE BONGO LEFT THE CONVOY AND FOV IVO 37SFU3rn~1.4a! AT 07102, THE CONVOY
+STOPPED IVO 37SFU4(~?a1.4a!AND THE ADMS DISMOUNTED AND LOITERED AND lX
+TECHNICAL WAS OBSERVED. AT 07152 THE FOLLOW WAS ENDED AT A COMPOUND IVO
+37SFU4~~ FROM 07152 TO 08182, ~SCANNED AROUND THE COMPOUND IVO
+37SFU40~~FOR EEI RELATED ACTIVITY. AT 07212, lX TECHNICAL AND lX QUAD
+CAB PUT WERE OBSERVED. AT 07252, 2X ADM DEPARTED THE COMPOUND ON A MOTO.
+FROM 07552 TO 08182, ~SCANNED COI 1 IVO 37SFU2~liia]FOR EEI RELATED
+ACTIVITY. AT 07532, lX WHITE PUT WITH UI OBJECT, POSS ARTILLERY SYSTEM, IN THE
+BED AND lX ADM WERE OBSERVED. FROM 08182 TO 08542,~ERFORMED A FOLLOW
+ON THE PUT WITH THE UI OBJECT IN THE BED, SLANT 2/0/0. AT 08232, THE 2X ADMS AND
+lX ADDITIONAL ADM ENTERED THE TRUCK AND DEPARTED. SLANT 3/0/0. AT 08322, A
+SECOND TRUCK WITH POSS MOUNTED AAA WAS OBSERVED IVO 37SFU2~~ FROM
+08542 TO 09422 ~PERFORMED A FOLLOW ON lX BONGO WITH 2X POSS BARRELS IN
+THE BACK FOR 6 STOPS, SLANT 2/0/0. AT 09062, THE BONGO STOPPED IVO
+37SFU271w7~WHERE 2X ADDITIONAL ADMS CAME FROM A COMPOUND AND
+INTERACTED WITH THE BONGO BEFORE 2X ADM LEFT IN THE BONGO. AT 091 lZ, THE
+BONGO STOPPED IVO 37SFU27liAal]~WHERE A PREVIOUSLY ONOBSERVED ADM
+EXITED THE BACK OF THE BONGO AND INTERACTED WITH A PASSENGER BEFORE THE
+BONGO DEPARTED. AT 09212, THE BONGO STOPPED AT A RESIDENCE IVO
+37SFU2~~ THE 2X ADMS FROM THE BONGO AND 3X ADMS FROM THE RESIDENCE
+INTERACTED WITH THE 2X BARRELS IN THE BACK AND THE BONGO DEPARTED AT 09232.
+FROM 09422 TO 10072, ~TRANSITED TO NEXT POINT. FROM 10072 TO 11222,~
+SCANNED IVO COI 2 (37SEV98~~ FOR EEI RELATED ACTIVITY, NSTR. FROM 11222 TO
+11372, ~SCANNED IVO DAYR AZ ZAR PARKING AFLD (37SFV0~~ FOR EEI
+RELATED ACTIVITY. AT 11342, 2X TELARS WITH 3 ROCKETS LOADED WERE INACTIVE.
+FROM 11372 TO 12432, ~SCANNED IVO COI 2 (37SEV9aiial151Tia] FOR EEI RELATED
+ACTIVITY, NSTR. AT 12432, TF CHOSIN STA CLEARED ~OFF TASKING AND~
+RETURNED TO BASE
+
+
+JSR ASSET UTILIZATION
+
+                                             3.5c. FOIA Exemption (b)(6)
+
+                                              • Sll!E!Hrt.¥f:Neli6M
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                       10/17/25 006
+                                            Approved for Release to AARO
+                                                                                      Declassified by MG Richard A. Harrison
+                                                                                      USCENTCOM Chief of Staff
+                                                                                      Declassified on: 8 October 2025
+
+
+
+• Supported Unit: TF CHOSIN
+• Supported Operation~----1.-4a_ _ __
+• Precoord Time: 103 MINUTES
+• Precoord Effectiveness: SATISFACTORY
+
+
+WEATHER
+• Weather. (:fflCM'f;'J'J.tBt: 'P0 M&li:, Fl/~7I) WEATHER WAS NOT A FACTOR
+
+
+EFFECTIVENESS
+• Tasker:
+• Intel Gap Filled?:
+• Gentext: -
+
+
+UAP
+• Initial Contact DTG: 310239:00ZJUL22
+• MDS Type/ Asset Type: -
+• Tail Number~ 1.4a, 1.4g  I
+• Friendly Aircraft Location: 37SFU4~81ua
+• Friendly Aircraft Altitude/Depth: 19,359 FT
+• Friendly Aircraft Speed: 116 KTS
+• Friendly Aircraft State: -
+• Training Range (If applicable): -
+• Operational Range: -
+• UAP Physical State: -
+• Number of UAP Sighted:
+• UAP Signatures: No
+• UAP RF Frequency: -
+• UAP RF Duration: -
+• UAP Effects on Persons:
+• Full Name:
+• Email:
+• Phone Number (VOSIP/STE):
+• UAP First Seen Location: 37SFU2~~
+• UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured): -
+
+
+GENTEXTIUAP
+• UAP Description (e.g., size, shape, color, markings, recognizable features): fMlE!ft:B51'/lN0F8ftili'
+AT 310239Z,!        1.4a          IOBSERVED AN UAP EVENT IYO 37SFU2~~IN KP 9.
+THE UAP OCCURED IN LESS THAN A MINUTE, WITH THE UAP MOVING FROM N TO S.
+
+
+                                             3.5c, FOIA Exemption (b)(6)
+
+
+MDR 25-0094 thru MDR 25-0099 / JS-250710-TM8S                                                  10/17/25 007
+                                            Approved for Release to AARO
+

@@ -61,3 +61,15 @@ gershtein-archive/analysis/_batches.json
 gershtein-archive/analysis/_filter_*.md
 gershtein-archive/analysis/**/_filter_*.md
 gershtein-archive/analysis/_map/
+
+# Inbox: staging for incoming materials (voice messages, raw transcripts,
+# task drafts) — local-only, not for public archive
+_inbox/
+
+# war-gov-pursue archive: raw/ symlinks into _inbox (16+ GB, not for git)
+war-gov-pursue-archive/raw/
+# war-gov-pursue archive: machine-local mmdc puppeteer config
+war-gov-pursue-archive/diagrams/.puppeteer-config.json
+war-gov-pursue-archive/.venv-svg2png/
+# war-gov-pursue archive: local QA notes (not for public archive)
+war-gov-pursue-archive/analysis/QA_REVIEW.md

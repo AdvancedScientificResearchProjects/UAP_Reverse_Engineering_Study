@@ -1,0 +1,369 @@
+# dow-uap-d64-mission-report-iran-november-2020
+# Source: raw/native/dow-uap-d64-mission-report-iran-november-2020.pdf
+
+                                                                               Declassified by MG Richard A. Harrison
+                                                                               USCENTCOM Chief of Staff
+                                                                               Declassified on 16 March 2026
+                                                                               FOUO / Privacy Act applies
+
+ Misrep 5039166
+
+ Narrative
+         AT 0608Z~OOK OFF FROM OK.AS. AT 0618Z .I 1.4a J.rANDED OVER FROM THE
+ LRE. F~939Z~3Zj                           1.4a                   !FROM 1015Z TO
+ Ol 12Z~UPPORTED NAVCENT FOR OPERATION I            lb}{1}14a    UVO ARABIAN
+ GULF, STRAIT OF HORMUZ AND GULF OF OMAN. SEE JSR LINE 1. AT 1012~ 1.4a                       I
+ RECEIVED A GUARDCALL SEE GUARDCALL LINE 1. AT 2!143z80BSERVED A UAP.
+ SEE OBS LINE 1. AT 2148Z~SERVED A UAP. SEE OBS LINE 2. AT 0112Z 1.4a WAS
+ CLEARED TO RTB. AT 0 2 1 ~ HANDED BACK TO Ill$ LRE. AT 02502, 1.4a LANDED AT
+ OKAS. FMV WAS EXPLOITED BY DOSI. 20.42 MISSION HOURS, 18.55 IMINT HOURS, 1 IMINT
+ TASKING PROSECUTED, 16.21 1.4a ~OURS, t 1.4a      I         f
+                                                 ASKING PROSECUTED, 2 TOTAL
+ TASK.INGSPROSECUTED
+
+
+
+
+ Admin
+
+
+ CLASSIFICATION
+
+ • Classification:
+ • Associated Caveats:
+ • Classification Source {MS or Classification Guide ID): MUL IPLE SOURCES
+ • Declassification Date (YYYYMMDD): 2045030 I
+
+
+ OPERATION
+
+ • Operation: I     {bl(1}1,4a
+ • Domain: AIR
+ • Operations Center: 609th
+ • Major Command {MAJCOM): ACC
+ • Combatant Command (COCOM): USCENTCOM
+
+
+ MSGID
+ • Report Type: MISREP
+ • Originator (Unit or Squadron): 482ATKS
+ • Submit Date (Auto-generated):
+
+
+ MSNJD
+
+
+
+
+USCENTCOM MOR 26-0028       Approved for Release to MRO - FOUO / IPA applies                03/16/26 000001
+                                                                                             Declassified by MG Richard A. Harrison
+                                                                                             USCENTCOM Chief of Staff
+                                                                                             Declassified on 16 March 2026
+                                                                                             FOUO / Privacy Act applies
+
+  • Tasking Order (ATO): EX
+  • Mission Type: AREC
+  • ATO Mission Number;dgJ(Ul.4~
+  • Country Tasked: US - UNITED STATES
+  • Service Tasked; A - AlR FORCE
+
+  Poe
+
+
+  POC
+  • Rank: SrA
+  • Full Nam~.lic. (b)(3l. 130b. C'2)(~}
+  • Unit: 482 ATKS
+  • Wing: 432 AEW
+  • Phone Number: -3-Sc-fb-}(6-)-
+                            -1
+
+
+
+  • Email: ._I_______...,3...,§...G...{..b...,}(6..,.},__ _ _ _ _ ___,
+  • Service: Air Force
+  • Operations Center: Other
+
+
+  QC
+
+  • Rank: Ctr
+  • Full Name: I     3 sc (b}l6)
+  • Unit: 12 AF PAROC
+  • Wing: Other
+  • Phune Number: I 3,5c /bl(§)
+  • Email: I...__________,.3...  ,5_..c...fb""}.,.(6. _J_ _.....,.._ _ _ _ ___,
+  • Service: Air Force
+  • Operations Center: Other
+
+
+  APPROVER
+
+  • Rank: TSgt
+  • Full ~amea~[§c-.-(R-lrn-i,-1-3Q-~-.{-l!l~Cdl
+  • Unit: Unavailable
+  • Wing: 379 AEW
+  • Phone Num• -FO_I_A_E-xe-m-pt-io~n!lb)(6}
+  • Email: I                      a5c lb){6l
+  • Service: Air Force
+  • Operations Center: 609 CAOC
+
+
+  INGEST
+
+
+                                                              3 5G (b)(fi)
+
+
+USCENTCOM MOR 26-0028                      Approved for Release to MRO - FOUO / PA applies                03/16/26 000002
+                                                                               Declassified by MG Richard A. Harrison
+                                                                               USCENTCOM Chief of Staff
+                                                                               Declassified on 16 March 2026
+                                                                               FOUO / Privacy Act applies
+
+ • Rank:
+ • Full Name:
+ • Unit:
+ • Wing:
+ • Phone Number:
+ • Email:
+ • Service:
+ • Operations Center:
+
+ ACEQUIP
+
+
+ ACEQUIP
+ • Aircraft Callsignl     1.4a
+ • Radar Name or Destination: -
+ • Radar Software Load or Mission Data: -
+ • Radar Warning Receiver (RWR) Name or Designator: -
+ • RWR Software Load or Mission Data: -
+ • MWS Name or Designator: -
+ • MWS Software Load or Mission Data: -
+ • IRCM Name or Designator: -
+ • IRCM Software Load or Mission Data: -
+ • ECM Name or Designator: -
+ • ECM Software Load or Mission Data: -
+ • CMD Name or Designator: -
+ • Chaff Designator: -
+ • Num Chaff or Cartridges: -
+ • Flare Designator: -
+ • Num Flares: -
+ • Towed Decoy Name or Designator: -
+ • Towed Decoy Software Load or Mission Data: -
+ • Num Towed Decoys: -
+ • Type of Radar-Guided AAM: •
+ • Num Radar-Guided AAM: -
+ • Type of IR-Guided AAM: •
+ • Num IR-Guided AAM: -
+ • Gun Name or Designator: -
+ • Num Gun Rounds: -
+ • Air-to-Ground Wpn to lndudeNum of Each: 1.4(a)
+ • TGT Pod Name or Designator; ANDAS4
+ • Additional Avionics: AH_GMESH_VORTEX
+ • Data Link: -
+
+
+
+
+USCENTCOM MOR 26-0028       Approved for Release to MRO - FOUO / IPA applies                03/1 6/26 000003
+                                                                                Declassified by MG Richard A. Harrison
+                                                                                USCENTCOM Chief of Staff
+                                                                                Declassified on 16 March 2026
+                                                                                FOUO / Privacy Act applies
+
+  • Gcntext: -
+
+  Timeline
+
+
+  Landing
+  • Last Land Location (ICAO Code): OK.AS
+  • Last Land Time: 030250:00ZNOV20
+  • Last Engine Shutdown Time: 030J00:00ZNOV20
+  • Total Mission Time: 20 hours 42 minutes
+  • Gentext/Additional Details:.
+
+
+  Takt1off
+  • CalJsign ~      1.4a
+  • Number of Aircraft: 1
+  • Asset Type (Aircr~~fl't1.4a. (bH1)1.4g
+  • Aircraft Tail Number~~j1,4a, !b}(1)1.4g
+  • Takeoff Location (ICAO Code): OK.AS
+  • Takeoff Time DTG: 020608:00ZNOV20
+  • Mode 3 (IFF Codes): •
+  • Gentext/ Additional Details: -
+  • Mission Canceled:
+
+
+  On Station
+
+  • Time On Station DTG: 020618:00ZNOV20
+  • Callsign:I      1.4a     I
+  • JTAR Number: -
+  • Killbox (Location): -
+  • Mission Type: AREC
+  • JTAC Callsign: •
+  • Gentext/Additional Details: -
+  • Did not Arrive On Station:
+
+
+  JSR
+  • Time-on Station DTG: 021015:00ZNOV20
+  • Time-off Station DTG: 030115:00ZNOV20
+  • Aircraft CaUsign:I     1.4a
+  • Msn Type: AREC.___ _ _ __,
+                                     I
+  • Primary Sensor: ANDAS4
+
+
+
+
+USCENTCOM MOR 26-0028         Approved for Release to MRO - FOUO / PA applies                03/16/26 000004
+                                                                                   Declassrfi d by MG Richard A. Hamson
+                                                                                   USCENTCOM Chi for Sta
+                                                                                   Declass1fi don 16 Marcil 2026
+                                                                                   FOUO / Pnvacy Act applies
+
+ • Sensors Available: AH\GMESH
+ • Tasking Type: PLANNED
+ • Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): ~
+ • BE Number (ifNTISR): -
+ • Tasked Start Point: 3 9 R U P ~ a
+ • Activity Description: ISR
+ • FMV or Image File Name (ifNTISR): -
+
+
+ GENTEXTIISR
+• Gentext:     ••■I      1.4a          ~OORDINATED W 'TH NAVCENT 24 HOURS PRIOR
+TO TAKE OFF. PRECOORD WAS SATISFACTORY. AT 1015Z~ 1.4a ~RRJVED ON STATION ISO
+ NAVCENT FOR OPERATION!        fb)(1)1,4a    tlO CHAR'4CTERlZE TRTN\IRGCN VESSELS,
+ UAS ACTIVITY, ACTIVITY OUTSIDE OF PORTS, AND TO ESTABLISH PATTERN OF LIFE. AT
+ 1012ZJ 1.4a ~ECEIVED A GUARDCALL. SEE GUARDCALLlLINE l. FROM 10152 TO 19I0Z,
+~CONDUCTED SCANS [AW THE TARGET DECK IN                           cl
+                                                        ARABIAN GULF (AG). AT 2143Z,
+L.:'.:JOBSERVED A UAP. SEE OBS LINE LAT 2148Zj 1.4a ~BSERVED A SECOND UAP. SEE
+OBS LINE 2. FROM 19102 TO 22102,I 1.4a ~ONDUCTED OPpN WATER SCANS ISO UUV, NO
+IDENTIFICATION OF UUVWAS FOUND. FROM 221oz TO 0~132,~0NDUCTED SCANS
+IAW THE TARGET DECK lN THE ARABIAN GULF (AG). AT l l2Z~AS CLEARED OFF
+TASKING AND RETURNED TO BASE (RTB)
+
+
+ JSR ASSET UTILIZATION
+ • Snpported Unit: NAVCENT
+ • Supported Operation: OPERATION._!_ _..Cb....
+                                            )C....
+                                                l)...,14'""'a,____,
+ • Precoord Time: 24 HOURS
+ • Precoord Effectiveness: SATISFACTORY
+
+
+ WEATHER
+ • Weather: (U) HAZE PRECLUDED !MINT COLLECTION
+
+
+ EFFECTIVENESS
+ • Tasker:
+ • Intel Gap Filled?: No
+ " Gentext: -
+
+
+ Off Station
+ • Time Off Station DTG: 030113 :002NOV20
+ • Total Time On Station: 18 hours 55 minutes
+
+
+
+
+USCENTCOM MOR 26-0028             Approved for Release to MRO- FOUO / PA applies               03/16/26 000005
+                                                                                     Declassrfi d by MG Richard A. Hamson
+                                                                                     USCENTCOM Chief or Sta
+                                                                                     Declass1fi don 16 Maret, 2026
+                                                                                     FOUO / Pnvacy Act applies
+
+  GUARDCALL
+  • GUARDCALL D,A.:..r..t...l.Lo..u.i..r.......1c,u.,,~'lov20
+  • Aircraft Callsign
+                      ..___-4
+  • Ground Station Callsign                        1.4g, 1.4a
+  • Aircraft Location: 39RUN~a
+  • Aircraft Heading: M 068
+  • Aircraft Altitude: FL 210
+  • Aircraft Airspeed: -
+  • Number of Calls Noted from the Same Agency: l
+  • Guardcall Tone: PROFESSSIONAL
+
+
+  GENTEXTIGUARDCALL
+  • Gentext: --■ AT 1012ZJ 1.4a ~AS HAILED ON GUARI) ilb}<1>J 4a!f REQ BY IRANIAN AIR
+  DEFENSE. ORDERS GIVEN: STANDARD CALL~RESPONDED WITH STANDARD
+  RESPONSE l. NO IMPACT TO THE MISSION
+
+
+  OBSERVATION
+  • Observation DTG: 022143:00ZNOV20
+  • Aircraft CaJJsignj       1.4a           I
+  • Aircraft Location: 39RWK12~
+  • Aircraft Heading: 110 T
+  • Aircraft Altitude: FL220
+  • Aircraft Airspeed: I 05 K.IAS
+  • Relative Bearing or Clock Position: •
+  • Range: -
+  • Killbox & Keypad: -
+  • Observed Activity Location: 39RWK~~a
+  • Observed Activity Desuiption: UAP
+  • Method of Observation: FMV
+
+
+  GENTEXTIOBSERVATION
+  • Gentext: --■ AT 2143Z~ 1.4a pBSERVED IX UNIDENTIFIED AERIAL PHENOMENON
+  lVO 39RWK~~TITUDE UNKNOWN WITH A BEARING OF 080 T.
+
+
+  WEATHER
+  • Weather:
+
+
+  OBSERVATION
+
+
+                                                       3 sc (b)/6)
+
+
+
+USCENTCOM MOR 26-0028              Approved for Release to MRO - FOUO / PA applies               03/16/26 000006
+                                                                         Declass fi d by MG Richard A. Hamson
+                                                                         USCENTCOM Chief or Sta
+                                                                         Declass1fi don 16 Marc!, 2026
+                                                                         FOUO / Pnvacy Act applies
+
+ • Observation DTG: 022l48:00ZNOV20
+ • Aircraft Callsign:I        I
+                           1.4a
+ • Aircraft Location: 39RWKq~a
+ • Aircraft Heading: 110 T
+ • Aircraft Altitude: FL220
+ • Aircraft Airspeed: 107 KlAS
+ • Relative Bearing or Clock "Position: -
+ • Range: -
+ • Killbox. & Keypad: -
+ • Observed Activity Location: 39RWK1~
+ • Observed Activity Description: UAP
+ • Method of Observation: FMV
+
+
+ GENTEXTIOBSERVATJON
+ • Gente::d: •-■ AT 2148Z,EfBSERVED AN ADDITI NAL UAP TRAVELING NW lVO
+ 39RWK~~a
+
+
+ WEATHER
+ • Weather:
+
+
+
+
+USCENTCOM MOR 26-0028   Approved for Release to MRO- FOUO I PA applies               03/16/26 000007
+

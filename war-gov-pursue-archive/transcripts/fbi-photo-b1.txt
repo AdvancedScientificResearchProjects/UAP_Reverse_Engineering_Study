@@ -1,0 +1,25 @@
+# fbi-photo-b1
+# Source: raw/ocr/fbi-photo-b1.pdf
+
+          15        15
+
+
+
+
+12/31/99 18:11:19
+
+
+## AARO metadata description (mirrored from _inbox)
+
+## Description
+
+The Federal Bureau of Investigation (FBI) submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of a still image derived from a U.S. military system in 2025. The original imagery was altered with redactions before being submitted to AARO. An accompanying mission report was not provided. The operator reported that they were unable to positively identify the UAP. The date in the image is incorrect due to system date/time not being set.
+
+Narrative Description: The monochrome image displays a grainy texture with a central crosshair reticle. A small, dark, circular object is visible in the upper right quadrant, near the center of the frame. The background appears to show an indistinct mountain range or cloud formation.This narrative description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+Redactions have been made to protect the identity of eyewitnesses, the location of government facilities, or potentially sensitive information about military sites not related to UAP. No redactions have been made to any files released under President Trump's directive concerning information about the nature or existence of any encounter reported as a UAP or related phenomena.
+
+## Source URLs
+
+- Portal page: https://www.war.gov/UFO/
+- Direct PDF: https://www.war.gov/medialink/ufo/release_1/fbi-photo-b1.pdf

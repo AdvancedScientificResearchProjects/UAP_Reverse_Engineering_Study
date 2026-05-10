@@ -1,0 +1,448 @@
+# dow-uap-d75-mission-report-gulf-of-aden-july-2024
+# Source: raw/native/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf
+
+                                                                    Recommendation by MG Brandon R. Tegtmeier
+                                   SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                    Recommended on: 2 June 2025
+                                                                    FOUO / Privacy Act applies
+Misrep 10194673
+Narrative
+(S//REL TO USA, FVEY) TAIL NUMBER 1.4a                         1.4a        TOOK OFF FROM
+           1.4a          AT 140222ZJUL24 VIA 1.4a AND ARRIVED ON STATION AT
+140300ZJUL24. 1.4a UTILIZED 1.4a THROUGHOUT MISSION BETWEEN HANDOVER
+AND HANDBACK. FROM 140334ZJUL24 TO 140925ZJUL24 1.4a CONDUCTED TARGET
+DEVELOPMENT ISO NAVCENT IVO 38P MT 51DD                           c=J
+                                                  1.4a 11 1.4a (SEE ISR 1). 1.4a OBSERVED 1X
+UAP AT 140517ZJUL24 IVO 38P MT 53DD                                         c=J
+                                      1.4a 17 1.4a (SEE UAP1). FROM 141041ZJUL24       TO
+142130ZJUL24, c=J 1.4a CONDUCTED TARGET DEVELOPMENT ISO AFCENT IVO 38P MV 24D               1.4a
+                      1.4a CALLED OFF STATION AT 142142ZJUL24, D
+81 1.4a (SEE ISR 2). c=J                                                 1.4a HANDED BACK TO
+THE 1.4a AT 142238ZJUL24 AND LANDED AT 142259ZJUL24 VIA . FULL MOTION VIDEO WAS
+EXPLOITED BY 1.4a MISSION HOURS: 1.4a IMINT HOURS:                                1.4a
+, - -1.4a~ cTARGETS
+                  = J PROSECUTED: 1,
+                I                                                       1.4a
+
+
+
+
+RETASKED: FROM 141041ZJUL24 TO 142130ZJUL24, c=J
+                                              1.4a CONDUCTED TARGET
+DEVELOPMENT ISO OP         1.4a       IVO 38P MV 24DD1.4a 81 1.4a (SEE ISR 2).
+
+
+
+
+(S/RELIDO) Mission Narrative
+
+
+
+Admin
+
+
+CLASSIFICATION
+• Classification: SECRET
+• Associated Caveats: REL TO USA, FVEY
+• Classification Source (MS or Classification Guide ID): MULTIPLE SOURCES
+• Declassification Date (YYYYMMDD): 20490714
+
+
+OPERATION
+• Operation: OPERATION             1.4a
+• Domain: AIR
+• Operations Center: 609th
+
+
+
+                                              3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072              SECRET//REL TO USA, FVEY                          06/02/2025 000001
+
+                                 Approved for Release to AARO - FOUO/PA
+                                                                             Recommendation by MG Brandon R. Tegtmeier
+                                            SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                             Recommended on: 2 June 2025
+                                                                             FOUO / Privacy Act applies
+• Major Command (MAJCOM): ACC
+• Combatant Command (COCOM): USCENTCOM
+
+
+MSGID
+• Report Type: MISREP
+• Originator (Unit or Squadron): 124 ATKS
+• Submit Date:
+
+
+MSNID
+• Tasking Order (ATO): D 1.4a
+• Mission Type:        1.4a
+• ATO Mission Number: 1.4a
+• Country Tasked: US - UNITED STATES
+• Service Tasked: A - AIR FORCE
+
+Poc
+
+
+POC
+• Rank:3.5c, (b)(6)
+• Full Name: 3.5c, (b)(3), 130b, (b)(6)
+• Unit: 124 ATKS
+• Wing: 132 Wing
+• Phone Number: 3.5c, (b)(6)
+• Email:                3.5c, (b)(6)
+• Service: Air Force
+• Operations Center: Other
+
+
+QC
+• Rank:   D(b)(6)
+       3.5c,
+• Full Name:         3.5c, (b)(6)
+• Unit: 1.4a
+• Wing: 432 AEW
+• Phone Number: 3.5c, (b)(6)
+• Email:               3.5c, (b)(6)
+• Service: Air Force
+• Operations Center: Other
+
+
+APPROVER
+
+
+                                                       3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                       SECRET//REL TO USA, FVEY                          06/02/2025 000002
+
+                                          Approved for Release to AARO - FOUO/PA
+                                                                              Recommendation by MG Brandon R. Tegtmeier
+                                             SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                              Recommended on: 2 June 2025
+                                                                              FOUO / Privacy Act applies
+• Rank:   D(b)(6)
+       3.5c,
+• Full Name:3.5c, (b)(3), 130b, (b)(6)
+• Unit: Unavailable
+• Wing: 379 AEW
+• Phone Number: 3.5c, (b)(6)
+• Email:                    3.5c, (b)(6)
+• Service: Air Force
+• Operations Center: 609 CAOC
+
+
+INGEST
+• Rank:
+• Full Name:
+• Unit:
+• Wing:
+• Phone Number:
+• Email:
+• Service:
+• Operations Center:
+
+ACEQUIP
+
+
+ACEQUIP
+• Aircraft Callsign:           1.4a
+
+
+
+
+                                1.4g
+
+
+
+
+                                                        3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                        SECRET//REL TO USA, FVEY                          06/02/2025 000003
+
+                                           Approved for Release to AARO - FOUO/PA
+                                                                          Recommendation by MG Brandon R. Tegtmeier
+                                          SECRET//REL TO USA, FVEY        USCENTCOM Chief of Staff
+                                                                          Recommended on: 2 June 2025
+                                                                          FOUO / Privacy Act applies
+
+
+
+
+               1.4g
+
+
+
+
+• Air-to-Ground Wpn to Include Num of Each:                             1.4a
+
+
+
+                      1.4g
+
+
+
+
+Timeline
+
+
+Takeoff
+• Callsign:       1.4a
+• Number of Aircraft: 1
+                         c=J
+• Asset Type (Aircraft):1.4a, 1.4g
+• Aircraft Tail Number(s): 1.4a
+• Takeoff Location (ICAO Code):          1.4a
+• Takeoff Time DTG:             1.4a
+•             1.4g
+• Gentext/Additional Details:
+• Mission Canceled:
+
+
+Landing
+• Last Land Location (ICAO Code):           1.4a
+• Last Land Time:         1.4a
+• Last Engine Shutdown Time:                1.4a
+• Total Mission Time:          1.4g
+• Gentext/Additional Details:
+
+
+ISR
+• Time-on Station DTG:            1.4a
+• Time-off Station DTG:            1.4a
+• Aircraft Callsign:    1.4a
+• Msn Type: 1.4a
+• Primary Sensor: FMV
+
+
+
+                                                    3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072                     SECRET//REL TO USA, FVEY                         06/02/2025 000004
+
+                                       Approved for Release to AARO - FOUO/PA
+                                                                     Recommendation by MG Brandon R. Tegtmeier
+                                    SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                     Recommended on: 2 June 2025
+                                                                     FOUO / Privacy Act applies
+• Sensors Available: D
+                     1.4g
+• Tasking Type: Planned
+• Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): NAVCENT / OPERATION
+         1.4a
+• BE Number (if NTISR):
+• Tasked Start Point: 38P MT 51DD
+                               1.4a 11 1.4a
+• Activity Description: ISR
+• FMV or Image File Name (if NTISR):
+• EEIs Observed:
+• Number of EEIs:
+• Global Campaign Plan:
+
+
+GENTEXT/ISR
+• Gentext: (S//REL TO USA, FVEY)     1.4a       COORDINATED WITH NAVCENT 124
+MINUTES PRIOR TO TAKE OFF. PRECOORDINATION WAS EXCELLENT DUE TO RECEIVING
+MISSION PRODUCTS 124 MINUTES BEFORE TAKE OFF. c=J  1.4a ARRIVED ON TARGET AT
+140334ZJUL24 FOR OPERATION         1.4a       IVO 38P MT 51D   1.4a 11Dc=J
+                                                                       1.4a   1.4a
+OBSERVED 1X UAP AT 140517ZJUL24 IVO 38P MT 53DD
+                                             1.4a 17 1.4a (SEE UAP   1).  AT 140925ZJUL24
+ 1.4a WAS CLEARED OFF TARGET AND PROCEEDED TO NEXT TASKING.
+
+
+
+ISR ASSET UTILIZATION
+• Supported Unit: NAVCENT
+• Supported Operation: OPERATION                 1.4a
+• Precoord Time: 124 MINUTES
+• Precoord Effectiveness: EXCELLENT
+
+
+WEATHER
+• Weather: (S//REL TO USA, FVEY) WEATHER WAS NOT A FACTOR
+
+
+EFFECTIVENESS
+• Tasker:
+• Intel Gap Filled?:
+• Gentext: (S//REL)                                           1.4a
+
+
+
+On Station
+• Time On Station DTG: 140300:00ZJUL24
+• Callsign:     1.4a
+• JTAR Number:
+
+
+                                               3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072               SECRET//REL TO USA, FVEY                          06/02/2025 000005
+
+                                  Approved for Release to AARO - FOUO/PA
+                                                                     Recommendation by MG Brandon R. Tegtmeier
+                                    SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                     Recommended on: 2 June 2025
+                                                                     FOUO / Privacy Act applies
+• Killbox (Location):
+• Mission Type:       1.4a
+• JTAC Callsign:
+• Gentext/Additional Details:
+• Did not Arrive On Station:
+
+
+Off Station
+• Time Off Station DTG:         1.4a
+• Total Time On Station:         1.4g
+• Gentext/Additional Details:
+
+
+ISR
+• Time-on Station DTG:         1.4a
+• Time-off Station DTG:        1.4a
+• Aircraft Callsign:      1.4a
+• Msn Type: 1.4a
+• Primary Sensor: FMV
+• Sensors Available: D
+                     1.4a
+• Tasking Type: Dynamic
+• Tasking or Request Number (JTAR#, AEM#, PRI#, or TIC#): AFCENT / OPERATION
+         1.4a
+• BE Number (if NTISR):
+• Tasked Start Point: 38P MV 24D     D
+                               1.4a 81 1.4a
+• Activity Description: ISR
+• FMV or Image File Name (if NTISR):
+• EEIs Observed:
+• Number of EEIs:
+• Global Campaign Plan:
+
+
+GENTEXT/ISR
+• Gentext: (S//REL TO USA, FVEY)       1.4a       COORDINATED WITH AFCENT 30
+MINUTES PRIOR TO RETASKING. PRECOORDINATION WAS EXCELLENT DUE TO
+RECEIVING MISSION PRODUCTS 30 MINUTES BEFORE RETASKING. c=J    1.4a ARRIVED ON
+TARGET AT         1.4a    FOR  OPERATION        1.4a      IVO 38P MV 24D     D
+                                                                       1.4a 81 1.4a
+NSTR. AT 142130ZJUL24, c=J1.4a WAS CLEARED OFF TARGET AND RETURNED TO BASE.
+
+
+
+ISR ASSET UTILIZATION
+• Supported Unit: AFCENT
+• Supported Operation: OPERATION                 1.4a
+
+
+
+                                               3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072               SECRET//REL TO USA, FVEY                          06/02/2025 000006
+
+                                  Approved for Release to AARO - FOUO/PA
+                                                                  Recommendation by MG Brandon R. Tegtmeier
+                                 SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                  Recommended on: 2 June 2025
+                                                                  FOUO / Privacy Act applies
+• Precoord Time: 30 MINUTES
+• Precoord Effectiveness: EXCELLENT
+
+
+WEATHER
+• Weather: (S//REL TO USA, FVEY) WEATHER DID NOT PREVENTED IMINT
+
+
+EFFECTIVENESS
+• Tasker:
+• Intel Gap Filled?:
+• Gentext:
+
+
+UAP
+• Initial Contact DTG: 140517:00ZJUL24
+• UAP Event Type: UAP Incident
+• UAP Maneuverability Observations: STRAIGHT FLIGHT PATH AT SAME ALTI
+• UAP Response to Observer Actions: UNKNOWN
+• MDS Type / Asset Type:1.4a, 1.4g
+• Tail Number: 1.4a
+• Friendly Aircraft Location: 38P MT 64D1.4a 53D1.4a
+• Friendly Aircraft Altitude/Depth:   1.4g
+• Friendly Aircraft Trajectory: ALL
+• Observer Assessment of UAP: Benign
+• Friendly Aircraft Speed: 1.4g
+• Observation Interrogation of UAP (yes/no; if yes list sensor(s) and returns):: NO
+• Third-party Observers and/or Reporters:
+• Friendly Aircraft State:
+• Training Range (If applicable):
+• Operational Range: I 1.4g I
+• UAP Physical State: CJ1.4g
+• Number of UAP Sighted:
+• UAP Propulsion Means: UNKNOWN
+• UAP Payload:
+• UAP Under Intelligent Control (yes/no; if yes, describe): UNKNOWN
+• UAP Signatures:            1.4g
+• UAP Advanced Capabilities And/Or Materials (yes/no; if yes, describe): UNKNOWN ABOUT
+ADVANCED CAPABILITIES AND/OR MATERIALS
+• UAP RF Frequency:
+• UAP RF Duration:
+• UAP Event Serial Number:                1.4a
+• UAP Effects on Persons: NO
+
+
+                                            3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072            SECRET//REL TO USA, FVEY                          06/02/2025 000007
+
+                               Approved for Release to AARO - FOUO/PA
+                                                                     Recommendation by MG Brandon R. Tegtmeier
+                                    SECRET//REL TO USA, FVEY         USCENTCOM Chief of Staff
+                                                                     Recommended on: 2 June 2025
+                                                                     FOUO / Privacy Act applies
+• UAP Objects/Material Recovered (yes/no; if yes, describe): NO
+• UAP Effects on Equipment: NONE
+• Full Name:
+         3.5c, (b)(3)130b, (b)(6)
+• Rank/Grade: TSGT/E-5
+• Email:                          3.5c, (b)(6)
+• Phone Number (VOSIP/STE): 3.5c, (b)(6)
+• Observer Engagement of UAP (yes/no; if yes, describe): NO
+• First Coordinate: 38P MT 53DD        1.4a 17 1.4a
+• First Seen Radius: 5
+• Last Accuracy: Estimated
+• Last Coordinate: 38P MT 22DD        1.4a 49 1.4a
+• Last Seen Radius: 5
+• Kinetic Altitude Accuracy: Estimated
+• Kinetic Altitude: LOW
+• Kinetic Depth Accuracy: Estimated
+• Kinetic Depth: UNKNOWN
+• Kinetic Velocity Accuracy: Estimated
+• Kinetic Velocity: 1.4a
+• Kinetic Trajectory Accuracy: Estimated
+• Kinetic Trajectory: NW
+• UAP Date of DoD Acquisition: 140517:00ZJUL24
+• UAP Reaction to Observation, Interrogation, Engagement (yes/no; if yes, describe): 1.4a
+FOLLOWED THE UAP TILL THE DISTANCE BECAME TOO FAR TO FOLLOW
+• UAP Anomalous Characteristics/ Behaviors: UAP'S SPEED WAS FASTER THAN THE 1.4a, 1.4g
+FLYING SPEED
+• First Accuracy: Estimated
+• Call Sign:          1.4a
+• UAP First Seen Location:
+• UAP Last Seen Location:
+• UAP Altitude, Depth, Velocity, and Trajectory (indicate estimated or measured):
+
+
+GENTEXT/UAP
+• UAP Description (e.g., size, shape, color, markings, recognizable features): UAP HAD
+• Gentext (UAP Event Description): (S//REL TO USA, FVEY)                         1.4a
+
+
+
+                                                1.4a
+
+
+
+
+                                               3.5c, (b)(6)
+
+USCENTCOM MDR 25-0072               SECRET//REL TO USA, FVEY                          06/02/2025 000008
+
+                                  Approved for Release to AARO - FOUO/PA
+

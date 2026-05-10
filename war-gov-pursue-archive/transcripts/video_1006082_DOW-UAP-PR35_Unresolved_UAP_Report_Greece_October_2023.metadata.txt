@@ -1,0 +1,36 @@
+# video_1006082_DOW-UAP-PR35_Unresolved_UAP_Report_Greece_October_2023
+# Source: raw/video/video_1006082_DOW-UAP-PR35_Unresolved_UAP_Report_Greece_October_2023.mp4
+# (binary asset; this transcript carries metadata only)
+
+# DOW-UAP-PR35, Unresolved UAP Report, Greece, October 2023
+
+- **Agency:** Department of War
+- **Kind:** vid
+- **Release Date:** 
+- **Incident Date:** 2023-10-01
+- **Incident Location:** GR
+- **Document Type:** 
+- **Length:** 00:00:24
+- **Category:** B-Roll
+- **Slug:** `dow-uap-pr35, unresolved uap report, greece, october 2023`
+
+## Description
+
+The United States Central Command submitted a report of an unidentified anomalous phenomenon (UAP) to the All-domain Anomaly Resolution Office (AARO) consisting of 24 seconds of video footage from an infrared sensor aboard a U.S. military platform in 2023. An accompanying mission report, DoW-UAP-D35, described the UAP as small and circular, flying near the surface of the ocean toward land.
+
+Video Description:
+
+00:02: The sensor narrows its field-of-view to zoom in on an area of contrast near the center of the screen.
+
+00:03-00:19: The sensor tracks the area of contrast as it moves against the ocean background.
+
+00:20: As the background scene transitions from being predominantly water to land, the area of contrast becomes indistinguishable.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+Redactions have been made to protect the identity of eyewitnesses, the location of government facilities, or potentially sensitive information about military sites not related to UAP. No redactions have been made to any files released under President Trump's directive concerning information about the nature or existence of any encounter reported as a UAP or related phenomena.
+
+## Source URLs
+
+- Portal page: https://www.war.gov/UFO/
+- Track src (subtitles): 

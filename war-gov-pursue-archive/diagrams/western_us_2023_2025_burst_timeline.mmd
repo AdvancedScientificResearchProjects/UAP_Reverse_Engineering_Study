@@ -1,0 +1,84 @@
+---
+title: "FBI Western US Late-2025 IR-photo cluster — two ~3-min bursts / Кластер IR-фото FBI Western US конец 2025 — два всплеска ~3 мин"
+---
+%% EN: Visualizes the FBI-IR B-series two-burst structure (Late 2025) reconstructed
+%% via timestamp ordering despite the bogus 12/31/99 RTC placeholder. Burst 1 at
+%% ~18:10:00 → 18:12:16 contains 10 frames; Burst 2 at ~18:18:53 → 18:21:02 contains
+%% 12 frames; inter-burst gap = ~6m37s. B5 has no usable timestamp ('no distinct
+%% objects visible') — possibly between-burst null. B7 (helicopter + smaller object,
+%% 18:10:02) is the visual anchor mapped to FBI-USPER-302 narrative ('[CALL SIGN 1]
+%% pursuing an orb that broke into multiple objects'). Sensor-RTC offset from 302
+%% narrative ≈ 3h52m, consistent with PST → unset-RTC displacement.
+%% RU: Реконструкция структуры двух всплесков B-серии FBI-IR (конец 2025) по
+%% порядку timestamps, несмотря на фиктивное значение RTC 12/31/99.
+flowchart LR
+    subgraph CONTEXT["Context — Late 2025 / Контекст — конец 2025"]
+        direction TB
+        USPER["<b>FBI-USPER-302</b><br/>Senior US intelligence official<br/>multi-hour orb pursuit<br/>~22:02 local arrival of [CALL SIGN 1]<br/><i>RTC offset ≈ 3h52m</i>"]
+        RTC["<b>Sensor RTC unset</b><br/>All B-series timestamps default to<br/>12/31/99 — only time-of-day preserved<br/>Sensor RTC сброшен"]
+    end
+
+    subgraph BURST1["Burst 1 — ~18:10:00 → 18:12:16 (10 frames, 2m16s) / Всплеск 1"]
+        direction TB
+        B6["<b>B6 — 18:10:00</b><br/>dark structured object<br/>+ appendage on left side<br/>+ smaller dark circular object"]
+        B7["<b>B7 — 18:10:02</b> ★ ANCHOR<br/>HELICOPTER + smaller object<br/>below reticle<br/><i>= [CALL SIGN 1] arrival<br/>+ orb being pursued</i>"]
+        B8["B8 — 18:10:18<br/>circular object, top right"]
+        B9["B9 — 18:10:26<br/>circular object, below-left"]
+        B10["B10 — 18:10:50<br/>circular object, top-right"]
+        B11["B11 — 18:11:06<br/>circular object, upper-right"]
+        B12["B12 — 18:11:12<br/>circular object, upper-right"]
+        B1["B1 — 18:11:19<br/>circular object, near center"]
+        B3["B3 — 18:11:34<br/>circular object, mountain bg"]
+        B4["B4 — 18:12:16<br/>circular object, natural lndscp"]
+
+        B6 --> B7 --> B8 --> B9 --> B10 --> B11 --> B12 --> B1 --> B3 --> B4
+    end
+
+    subgraph GAP["Inter-burst gap ~6m37s / Промежуток между всплесками"]
+        B5["<b>B5 — no usable timestamp</b><br/>'no distinct objects visible'<br/>— possibly between-burst null frame<br/>возможно — промежуточный нуль-кадр"]
+    end
+
+    subgraph BURST2["Burst 2 — ~18:18:53 → 18:21:02 (12 frames, 2m9s) / Всплеск 2"]
+        direction TB
+        B19["<b>B19 — 18:18:53</b> ★ BOUNDARY<br/>cluster of dark pixels<br/>at exact center of reticle<br/><i>burst-boundary transition</i>"]
+        B20["B20 — 18:18:58<br/>1–2 small dark objects"]
+        B21["B21 — 18:19:06<br/>1–2 small dark objects"]
+        B22["B22 — 18:19:19<br/><b>2</b> dark elongated objects, upper-right"]
+        B23["B23 — 18:19:33<br/><b>1</b> dark elongated object, near reticle"]
+        B24["B24 — 18:19:40<br/><b>1</b> dark irregular-shape object"]
+        B13["B13 — 18:19:54<br/><b>2</b> dark elongated objects, bottom-right"]
+        B14_18["B14..B18 — 18:20:00 → 18:21:02<br/>(continuation, 5 frames)"]
+
+        B19 --> B20 --> B21 --> B22 --> B23 --> B24 --> B13 --> B14_18
+    end
+
+    USPER -.->|narrates same event| B7
+    RTC -.->|RTC defective; ordering preserved| BURST1
+    RTC -.->|RTC defective; ordering preserved| BURST2
+    B4 -.->|"~6m37s gap<br/>flare-up cycle"| B5
+    B5 -.->|"resumes activity"| B19
+
+    BURST1 -.->|"Burst 1 = formation flare-up #1<br/>Всплеск 1 = вспышка формации №1"| FLARE1["consistent with USPER-302<br/>flare-up cluster ~2227–2228<br/>and ~2233 local"]
+    BURST2 -.->|"Burst 2 = formation flare-up #2<br/>Всплеск 2 = вспышка формации №2"| FLARE2["consistent with USPER-302<br/>flare-up cluster ~2241 / ~2249<br/>~2252 / ~2257 local"]
+
+    classDef context fill:#e3f2fd,stroke:#0d47a1,color:#000
+    classDef burst1 fill:#fff3e0,stroke:#e65100,color:#000
+    classDef burst2 fill:#e8f5e9,stroke:#1b5e20,color:#000
+    classDef gap fill:#f5f5f5,stroke:#757575,stroke-dasharray: 5 3,color:#000
+    classDef anchor fill:#ffe0b2,stroke:#bf360c,stroke-width:3px,color:#000
+    classDef boundary fill:#c8e6c9,stroke:#1b5e20,stroke-width:3px,color:#000
+    classDef rtc fill:#ffebee,stroke:#b71c1c,color:#000
+    classDef flare fill:#fff8e1,stroke:#f57f17,color:#000
+
+    class USPER context
+    class RTC rtc
+    class B6,B8,B9,B10,B11,B12,B1,B3,B4 burst1
+    class B7 anchor
+    class B5 gap
+    class B19 boundary
+    class B20,B21,B22,B23,B24,B13,B14_18 burst2
+    class FLARE1,FLARE2 flare
+
+    %% Source / Источник: analysis/topical/region-fbi-western-us-2023-2025.md §B-series
+    %% timestamp reconstruction; FBI-IR-B01..B24, FBI-USPER-302.
+    %% PURSUE archive · ASRP v2.1

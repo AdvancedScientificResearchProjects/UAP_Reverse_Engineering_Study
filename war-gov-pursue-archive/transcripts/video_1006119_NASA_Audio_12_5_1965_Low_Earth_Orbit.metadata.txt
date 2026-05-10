@@ -1,0 +1,5 @@
+# video_1006119_NASA_Audio_12_5_1965_Low_Earth_Orbit
+# Source: raw/video/video_1006119_NASA_Audio_12_5_1965_Low_Earth_Orbit.mp4
+# (binary asset; this transcript carries metadata only)
+
+(no metadata file matched basename 'video_1006119_NASA_Audio_12_5_1965_Low_Earth_Orbit')

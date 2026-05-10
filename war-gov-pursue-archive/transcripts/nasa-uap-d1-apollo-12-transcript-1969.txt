@@ -1,0 +1,219 @@
+# nasa-uap-d1-apollo-12-transcript-1969
+# Source: raw/native/nasa-uap-d1-apollo-12-transcript-1969.pdf
+
+                                                                        Tape 90/3
+                                                                        Page 742
+
+    05 19 14 58     cc        That's affirmative.    We're ready for the E-MOD.
+
+    05 19 16 31     CC        Intrepid, Houston.
+
+    05 19 16 35     CDR-I.M   Go.
+
+    05 19 16 37     CC        If you will give us PO0 and ACCEPI', we'll give
+                              you a CSM state vector and RLS update.
+
+    05 19 16 45     CDR-I.M   You have POO and ACCEPT.
+
+    05 19 20 05     CMP       Hello, Houston; Yankee Clipper.
+
+    05 19 20 09     cc        Yankee Clipper, Houston.    Loud and clear.
+
+    05 19 20 14     CMP       Well, hello there, stranger.     How are you?
+
+    05 19 20 22     cc        Morning, Dick.    We are fine.   How are you?
+
+    05 19 20 27     CMP       Well, pretty good. I hope you would like to have
+                              some company for a change.
+
+    05 19 21.J 31   cc        Roger.   Go~ the house clean?
+
+    05 19 20 36     CMP       As a matter of fact, I Just finished that. I
+                              sure do; got everything in order; ready to go
+                              towards the IM and bring back . . . That's quite
+                              a chore; keeping this thing clean.
+
+    05 19 20 53     cc        Roger. You got a couple of coal miners coming
+                              up to see you.
+
+    05 19 20 59     CMP       That's okay.     I'll be glad to see them.
+
+    05 19 21 10     CC        Intrepid, Houston. The computer is yours.
+                              Break. Yankee Clipper, if you will go P00 and
+                              ACCEPI', we have an uplink.
+
+    05 19 21 20     CMP       All yours .
+
+    05 19 23 14     CDR-I.M   Houston, you got the lift-off time for me?
+
+    05 19 23 20     CC        Stand by.
+
+    05 19 23 39     cc        Intrepid, Houston.     Your lift-off time is
+                              142:03:47,
+
+    05 19 23 52     CDR-LM    I copy 142:03:47.00.
+
+    05 19 23 57     C~        Affirmative.
+
+    05 19 24 05     cc        Clipper, Houston.     Computer's yours.
+)
+                                                              Tape 90/4
+                                                              Page 743
+
+05 19 24 11   CMP        Okay. And Jerry, will you find out what they
+                         want to do about this battery charge, be~~use
+                       . I'm using the bus tics during the rendezvous?
+
+05 19 24 23   cc       Roger.
+
+05 19 24 43   cc       Yankee Clipper, Houston. Why don't you figure
+                       on terminating the battery charge at LOS?
+
+05 19 24 52   CMP      All right; I could let it go until I    just
+                       before lift-off. That way it might take it
+                       all the way up.
+
+05 19 25 33   cc        Clipper, Houston. We prefer that you terminate
+                        at LOS on this pass.
+
+05 19 25 40   CMP       Roger.
+
+05 19 25 41   cc        Roger. That would be one less thing for us to
+                        keep track of prior to lift-off.
+
+05 19 25 48   CMP       Okey.
+
+05 19 27 17   CDR-IM    Say, Houston, Intrepid.
+
+05 19 27 20   cc        Intrepid, Houston.   Go.
+05 19 27 25   IMP-LM    Roger. When you look out the AOT in the dark
+                        quadrant? You can see these lights - particles
+                        of light. flash~s of light just seem to come
+                        from - in this case, I'm looking in quadrant 1
+                        which is the left one. It's coming :from behind
+                        me, the left, and they're just sailing off in
+                        space. I was thinking they're dropping from my
+                        water boiler. but it looks like some of those
+                        things are escaping the Moon. They really haul
+                        out of here and just press off at the stars.
+
+05 19 27 56   cc        Roger.
+
+05 19 28 25   cc        Yankee Clipper~ Houston with a P22 tracking PAD.
+
+05 19 28 42   CMP       Go ahead.
+05 19 28 44   cc        Roger.   Your target is LM; T1 is 139: 57:39;
+                        T is 140:02:38; ~outh 05; latitude is
+                         2
+                        minus 3
+
+05 19 29 10   CMP       Hoger.   T 112 -
+                                                                         Tape 90/9
+                                                                         Page 748
+                                                                                                             _)
+    05 20 08 23   cc         Clipper, Houston. We'll give that data a good
+                             evaluation before we do anything with it.
+
+    05 20 09 25   LMP-IM     Houston, Intrepid.
+
+    05 20 09 30   cc         Intrepid, Houston.   GO.
+
+    05 20 09 34   IMP-1..M   Got sort of an interesting thing going on AGS
+                             right now. I didn't notice earlier, but it may
+                             just be because the lights i:,.re brighter now.
+                             I'm getting an all 8 1 s flash on both the address
+                             and the information registers at about one-
+                             fifth the brilliance of the normal numbers. And
+                             a - It's pulsing every second.
+
+    05 20 10 00   CC         Roger, Al.
+
+    05 20 10 06   LMP-IM     If I turn dmm the illumination level just a
+                             little bit, it's not noticeable.
+
+    05 20 10 52   LMP-LM     Hello, Houston ; Intrepid.     You ready for my RCS
+                             hot fire?
+
+    05 20 10 59   CC         Intrepid, Houston.    Roger.    Fire aw~.
+)
+    05 20 11 03   CDR-LM     Okay.
+
+    05 20 11 32   CC         Intrepid, Houston.
+
+    05 20 11 37   LMP-LM     Go.
+
+    05 20 11 39   cc         Roger, Al. Fredo is here. He and I have both
+                             seen that phenomena on your DEDA during t estin :',
+                             of most a.11 the spacecrafts up at Bethpage, and
+                             it's probably an EMI.
+
+    05 20 11 56   CDR-LM     That's what ve' ve been talking about, but we
+                             thought we'd just tcucb in on it.
+
+    05 20 11 59   IMP-IM     When you go to your roll rate, roll lef't, pitch
+                             up - -
+    05 20 12 01   cc         Roger. I think TRW's got a v0rkup on this
+                             problem.
+
+    05 20 12 08   CDR-IM     Okay?
+
+    05 20 12 11   CDR-IM     Here yo~ go, Houston, with roll, pit ch, and
+                             yav.
+
+    05 20 12 14   cc         Roger, Pete.
+
+)
+
+
+                                                  -~---·- ··•···•- · -------- ----   ---.--·- -- --···----- -·- -··---·-
+                                                                  Tape 93/8
+    .                                                             Page 778
+
+        06 00 21 42    CMP       But I don't have you in the sextant, That's
+                                 okay. Your blinking light's Just not blinking,
+                                 that's all.
+
+        06 co 21 51    CDR-IM    Hey, Houston. It looks like our tracking
+                                 llght's burned out. Dick hasn't been able to
+                                 find us in this sextant. And on the first
+                                 nightside pass we had little bits and pieces
+                                 floating along vith us and we could tell that
+                                 the tracking light va.; flashing on them. And
+                                 we still have, I've presumed to think, bits
+                                 and pieces floating along and nothing' s flashing
+                                 on them, so I'm pretty sure it burned out.
+
+        06 00 22 11    CC         Roger, Pete.
+
+        06 00 22 22    LMP-LM     Yes, sir.   Okay.
+        06 00 22 26    CC         Hi, Intrepid.
+
+        06 00 22 27    LMP-LM     Okay.
+
+        06 00 22 28    cc         This is Houston.    How'd your sweepdown fore
+    (                             and aft go?
+
+        06 00 22 33    CDR-LM     It's getting much cleaner in here running this
+                                  way; and, also, Yankee Clipper informs me he
+                                  bas the television all set up. When we come
+                                  around the hor~1, ·we' 11 come around with the
+                                  television on in VOX.
+
+        06 00 22 47    CC         Roger .
+
+        .06 00 22 53   CDR-IM     Who knows, you may get to see the first
+                                  wbiffer<l.ill.
+
+        06 00 22 59    CC         Roger, Pete. Our electrical watchers say that
+                                  the current indicates that your tracking light
+                                  is on.
+        06 00 23 11    CDR-IM     Okay. Now ve just turned it off.     How does the
+                                  current show that?
+        06 00 23 19    cc         It - It sure does, Pete.
+        06 00 23 26    CMP        You're - they're - You're flying thr0ugh the
+                                  air b~ckward3, then, Pete, because I don't see
+                                  it.
+
+        06 00 23 33    CDR-LM     Well, my ball tells me I'm pointed at you, Dick,
+)                               • and so does my radar.
+

@@ -2,6 +2,7 @@ graph TB
     classDef lazar fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
     classDef cherno fill:#fff8e1,stroke:#f57f17,stroke-width:2px,color:#000
     classDef dubna fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef pursue fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
     classDef theme fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
 
     subgraph L[Lazar archive / Архив Лазара]
@@ -27,9 +28,18 @@ graph TB
         D5["Moscovium 2016<br/>(IUPAC name)<br/>Московий 2016<br/>(имя ИЮПАК)"]:::dubna
     end
 
+    subgraph P[PURSUE archive / Архив PURSUE]
+        P1["PURSUE Release 01<br/>(war.gov 2026-05-08)<br/>PURSUE Релиз 01<br/>(war.gov 8 мая 2026)"]:::pursue
+        P2["FBI 62-HQ-83894 +<br/>1949 Cabell Memo #4<br/>(propulsion taxonomy)<br/>ФБР 62-HQ-83894 +<br/>Cabell 1949 (форменная таксономия)"]:::pursue
+        P3["DOW-1948-NL-INTEL +<br/>1963 EOP/NASC memo<br/>(ETH question lineage)<br/>DOW-1948-NL-INTEL +<br/>EOP/NASC 1963 (линия ETH)"]:::pursue
+        P4["DOS cables 1985 / 1994<br/>(PNG / Tajik Air B747SP)<br/>Кабели Госдепа 1985 / 1994<br/>(PNG / Tajik Air B747SP)"]:::pursue
+        P5["COMETA 1999<br/>(MHD propulsion endorsement)<br/>COMETA 1999<br/>(поддержка МГД)"]:::pursue
+    end
+
     T1["Theme 1<br/>Element 115 / Moscovium<br/>Тема 1<br/>Элемент 115 / Московий"]:::theme
     T2["Theme 2<br/>Time / space-time<br/>Тема 2<br/>Время / пространство-время"]:::theme
     T3["Theme 3<br/>Soviet aerospace lineage<br/>Тема 3<br/>Советская аэрокосмическая линия"]:::theme
+    T4["Theme 4<br/>US federal disclosure lineage<br/>Тема 4<br/>Линия федерального раскрытия США"]:::theme
 
     L1 ==> L2
     L1 ==> L3
@@ -57,6 +67,19 @@ graph TB
     C4 -.->|"thematic link<br/>тематическая связь"| T3
     D1 -.->|"institutional link<br/>институциональная связь"| T3
 
+    P1 ==> P2
+    P1 ==> P3
+    P1 ==> P4
+    P1 ==> P5
+
+    P2 -.->|"propulsion-form link<br/>форменная связь"| T1
+    P5 -.->|"MHD propulsion link<br/>связь МГД"| T1
+    P3 -.->|"ETH-question link<br/>связь вопроса ETH"| T4
+    P4 -.->|"diplomatic-cable link<br/>дипломатически-кабельная связь"| T3
+    P1 -.->|"federal-disclosure anchor<br/>якорь федерального раскрытия"| T4
+
+    L3 -.->|"shared propulsion topic<br/>общая тема двигателя"| P5
+
     linkStyle 0 stroke:#c2185b,stroke-width:3px
     linkStyle 1 stroke:#c2185b,stroke-width:3px
     linkStyle 2 stroke:#c2185b,stroke-width:3px
@@ -69,3 +92,7 @@ graph TB
     linkStyle 9 stroke:#1565c0,stroke-width:3px
     linkStyle 10 stroke:#1565c0,stroke-width:3px
     linkStyle 11 stroke:#1565c0,stroke-width:3px
+    linkStyle 12 stroke:#2e7d32,stroke-width:3px
+    linkStyle 13 stroke:#2e7d32,stroke-width:3px
+    linkStyle 14 stroke:#2e7d32,stroke-width:3px
+    linkStyle 15 stroke:#2e7d32,stroke-width:3px

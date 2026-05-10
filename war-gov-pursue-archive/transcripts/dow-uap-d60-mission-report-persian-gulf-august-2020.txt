@@ -1,0 +1,348 @@
+# dow-uap-d60-mission-report-persian-gulf-august-2020
+# Source: raw/ocr/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf
+
+                                                                        Declassified by MG Richard A. Harrison
+                                                                        USCENTCOM Chief of Staff
+                                                                        Declassified on; 20 March 2026
+
+
+
+Misrep 4592219
+ Narrative
+
+           AT 03372      14a    TOOK OFF FROM OKAS. AT 03592   1Aa   HANDED OVER FROM THE
+ LRE: FROM 0434Z TO 23002,5
+                         1Aa COLLECTED SIGINT VIA AIRHANDLER. FROM 05132 TO
+ 22562 1Aa SUPPORTED NAVCENT TO OPERATIONI       1.4a     IVO ARABIAN
+ GULF, STRAIT OF HORMUZ AND GULF OF OMAN. SEE ISR LINE 1,
+                                                       14aAT 07262 [
+ OBSERVED NOTEWORTHY ACTIVITY SEE OBS LINE 1, AT 22S62_
+                                                     1.4a WAS CLEARED TO
+ RTB. AT 00172L 1.48 ]HANDED BACK TO THE LRE AT 00452,0
+                                                1.4a LANDED AT OKAS, FMV
+ WAS EXPLOITED BY DGSI. 20.3 MISSION HOURS, 17.7 LMINT HOURS, 1 IMINT TASKING
+ PROSECUTED, 18.4 SIGNNT HOURS, 1 SIGINT TASKING PROSECUTED. 2 TOTAL TASKINGS
+ PROSECUTED
+
+
+
+
+ Admin
+
+
+ CLASSIFICATION
+   Classification:
+   Associated Caveats:
+  Classification Source (MS or Classification Guide ID): MULTIPLE SOURCES
+  Declassification Date (YYYYMMDD): 20450301
+
+ OPERATION
+
+  Operation:[             14a
+  Domain: ARR
+  Operations Center: 609th
+  Major Command (MAJCOM): ACC
+  Combatant Command (COCOM): USCENTCOM
+
+
+ MSGID
+
+  Report Type: MISREP
+  Originator (Unit or Sqnadron): 482ATKS
+  Submit Date (Auto-generated):
+
+ MSNID
+
+  Tasking Order (ATO): BP
+
+
+
+USCENTCOM MDR 26-0038 to MDR 26-0046 Approved for Release to AARO                    03/27/26 000001
+                                                                                  Declassified by MG Richard A. Harrison
+                                                                                  USCENTCOM Cnief of Staff
+                                                                                  Declassified on; 20 March 2026
+
+
+    Mission Type: AREC
+    ATO Mission Number:              1.4a
+                     UNITED STATES
+    Country Tasked: US
+    Service Tasked: A        AIR FORCE
+
+
+  Poc
+
+
+
+  POC
+
+    Rank: ScA
+    Full Name:           {b3L{bk6}
+    Unit: 482ATKS
+    Wing:432 AEW
+    Phone Nunber:
+    Email:                                  (b6}
+    Service: Air Force
+    Operations Center: 603 AOC
+
+
+  QC
+    Rank: Ctr
+    Full Name:
+    Unit: PAROC IDAT
+    Wing:Other
+    Phone Number:
+    Email:|                                        (b)8)
+    Service: Air Force
+    Operations Center: Other
+
+
+  APPROVER
+    Rank: Ist Lt
+    Full Name:      (bX3L (b)6)
+    Unit: 609th AOC
+    Wing;Other
+    Phone Number;
+    Email:                     (b)6)
+    Service: Air
+              Force
+    Operations Center: 609 CAOC
+
+  INGEST
+
+
+
+                                                               (bX6)
+
+USCENTCOM MDR 26-0038 to MDR 26-0046               Approved for Release to AARO                03/27/26   000002
+                                                                         Declassified by MG Richard A: Harrison
+                                                                         USCENTCOM Chief of Staff
+                                                                         Declassified on; 20 March 2026
+
+
+   Rank:
+   Full Name;:
+   Unit:
+   Wing:
+   Phone Number;
+   Email:
+   Service:
+   Operations Center:
+
+ ACEQUIP
+
+ ACEQUIP
+   Aircralt Callsign:     1Aa
+   Radar Name or Destination:
+   Radar Software Load or Mission Data;
+   Radar   Warning Receiver (RWR) Nare or Designator:
+   RWR Software Load or Mission Data:
+   MWS Name or Designator:
+   MWS Software Load or Mission Data:
+   IRCM Name or Designator:
+   IRCM Software Load or Mission Data:
+   ECM Name or Designator:
+   ECM Software Load or Mission Data:
+   CMD Name or Designator:
+   Chaff Designator:
+   Num Chaff or Cartridges:
+   Flare Designator:
+   Num Flares:
+   Towed Decoy Name or Designator:
+   Towed Decoy Software Load or Mission Data:
+   Num Towed Decoys:
+   Type of Radar-Guided AAM:
+   Num Radar-Guided AAM:
+   Type of IR-Guided AAM:
+   Num IR-Guided AAM:
+   Gun Name or Designator:
+   Num Gun Rounds:
+   Air-to-Ground Wpnto Include Num of Each: 1.4(a)
+   TGT Pod Name or Designator: ANDAS4
+   Additional Avionics: AH_GMESH
+   Data Link:
+
+
+
+                                                   (b6)
+
+
+USCENTCOM MDR 26-0038 to MDR 26-0046      Approved for Release to AARO                03/27/26 000003
+                                                                          Declassified by MG Richard A. Harriso
+                                                                          USCENTCOM Chief 0f Stamf
+                                                                          Declassified 0n; 20 Marcn 2026
+
+
+    Gentert;
+
+
+  Timeline
+
+
+  Landing
+    Last Land Location (ICAO Code): OKAS
+    Last Land Time: 090045.OOZAUG2O
+    Last Eugine Shutdown Time: 0900SS OOZAUG2O
+    Total Mission Time: 2 [ bours 8 minutes
+    GentertlAdditional Details:
+
+
+  GUARDCALL
+    GUARDCALL DTG: 081250.OOZAUG2O
+    Aircraft Callsign:  14a
+    Ground Station Callsign: RRANIAN AIR DEFENSE GUARD
+
+    Aircraft Heading: HDG 200
+    Aircraft Altitude: FL 170
+    Aircraft Airspeed: 110 KIAS
+    Number of Calls Noted from the Same Agency: 1
+    Guardcall Tone: PROFESSIONAL
+
+
+  GENTEXTIGUARDCALL
+
+    Gentext:             AT 12502,[14a WAS HAILED ON GUARDI         140        BY IRANIAN AIR
+  DEFENSE. ORDERS GIVEN: STANDARD CALL               14a   RESPONDED STANDARD RESPONSE.
+  NO IMPACT TO THE MISSION
+
+
+  OBSERVATION
+    Observation DTG: 080726.OOZAUG2O
+    Aircraft Callsign:[         1da
+
+    Aircraft Location: 39RWK9 431
+    Aircraft   Heading:
+    Aircraft Altitude:
+    Aircraft Airspeed:
+    Relative Bearing or Clock Position:
+    Range:
+    Killbox & Keypad:
+    Observed Activity Location: 39RVL9iAah.a
+
+
+
+
+USCENTCOM MDR 26-0038 to MDR 26-0046 Approved for Release to AARO                      03/27/26   000004
+                                                                      Declessified by MG Richard A. Harriso
+                                                                      USCENTCOM Chief 0f Stalf
+                                                                      Declassified on; 20 Marcn 2026
+
+
+   Observed Activity Description: TRANSITTING
+   Method of Observation: FMV
+
+
+ GENTEXTIOBSERVATION
+
+   Gentext:               AT 07262,C
+                                  14a JOBSERVED IX UAP IVG 39RWLO87344 NO IMPACT
+ TO MISSION.
+
+
+ WEATHER
+
+   Weather: WEATHER WAS NOT A FACTOR
+
+
+ Takeoff
+   Callsign:|      1.4a
+   Number 0f Aircraft:
+
+
+   Aircraft Tail Number(s):
+                        14a149
+   TakeofT Location (ICAO Code): OKAS
+   Takeoff Time DTG: 080337:O0ZAUG2O
+   Mode 3 (IFF Codes):
+   Gentextl Additional Details:
+   Mission Canceled:
+
+
+ On Station
+
+   Time On Station DTG: 080359.00ZAUG20
+   Callsign:
+   JTAR Number:
+   Killbox (Location):
+   Mission Type: AREC
+   JTAC Callsign:
+   GentextAdditional Details:
+   Did not Arrive On Station:
+
+
+ ISR
+
+   Time-on Station DTG: 080513 OOZAUGZO
+   Time-off Station DTG: 082256.OOZAUG2O
+   Aircraft Callsigo:[       142
+
+   Msn Type: AREC
+   Primary Sensor: ANDAS4
+   Sensors Available: AHIGMESH
+
+
+
+                                                 (bJ8)
+
+
+USCENTCOM MDR 26-0038 to MDR 26-0046   Approved for Release to AARO                03/27/26   000005
+                                                                      Declassified by MG Richard A: Harrison
+                                                                      USCENTCOM Chief 0f Stalf
+                                                                      Declassified on; 20 March 2026
+
+
+
+    Tasking Type: PLANNED
+    Tasking
+          or
+             Request Number (JTAR#, AEM#, PRI#, or TIC#):
+    BE Number (if NTISR):
+
+    Activity Description: ISR
+    FMV or Image File Name (if NTISR):
+
+
+
+  GENTEXTIISR
+    Gentext:!                 1.Aa           COORDINATED WITH NAVCENT 24 HOURS PRIOR
+  TO TAKE OFF: PRECOORD WAS SATISFACTORY14a
+                                         AT 05132,[
+                                            ARRIVED ON STATION ISO
+  NAVCENT TO OPERATION                 142          TO CONDUCT SCANS FOR IDENTIFIED
+  IRINURGCN VESSELS TO ESTABLISH PATTERN OF LIFE, UAS ACTIVITY AND
+  CHARACTERIZE ACTIVITY OUTSIDE OF PORTS, FROM 05132 TO140 22562,[
+                                                            CONDUCTED
+                                                              1.4a JOBSERVED
+  SCANS IAW THE TARGET DECK IN THE ARABIAN GULF (AG) AT 07262,L
+  NOTEWORTHY ACTIVITY, SEE OBS LINE 1. AT 22562,|
+                                             1.4  WAS CLEARED OFF TASKING
+  AND RETURNED TO BASE (RTB)
+
+  ISR ASSET UTILIZATION
+
+    Supported Unit: NAVCENT
+    Supported Operation: OPERATION               144a
+    Precoord Time: 24 HOURS
+    Precoord Effectiveness: SATISFACTORY
+
+
+  WEATHER
+
+    Weather: DENSE CLOUD COVERAGE INTERMITTANTLY IMPACTED FMV COLLECTION
+
+
+  EFFECTIVENESS
+    Tasker:
+    Intel Gap Filled?: No
+    Gentext:
+
+
+  Off Station
+    Time OTf Station DTG: 090017:OOZAUG2O
+    Total Time On Station: 20 hours 18 minutes
+
+
+
+
+USCENTCOM MDR 26-0038 to MDR 26-0046   Approved for Release to AARO                03/27/26 000006
+
