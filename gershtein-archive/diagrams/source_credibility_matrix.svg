@@ -1,0 +1,376 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1318" viewBox="0 0 1280 1318" role="img" aria-labelledby="title desc">
+  <title id="title">Gershtein — Source Credibility Matrix / Матрица достоверности источников</title>
+  <desc id="desc">27 representative source codes from Gershtein corpus tiered A→E by evidentiary strength.</desc>
+  <style>
+    .bg { fill:#fbfbf8; }
+    .title { font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; fill:#1f2937; }
+    .subtitle { font-family:Arial,Helvetica,sans-serif; font-size:13px; fill:#4b5563; }
+    .subtitle-ru { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#6b7280; font-style:italic; }
+    .legend { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#334155; }
+    .hdr { font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; fill:#ffffff; text-anchor:middle; }
+    .hdr-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; text-anchor:middle; font-style:italic; }
+    .hdr-l { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#ffffff; }
+    .hdr-l-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#cbd5e1; font-style:italic; }
+    .row-code { font-family:Arial,Helvetica,sans-serif; font-size:12.5px; font-weight:700; fill:#0f172a; }
+    .row-date { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#6b7280; }
+    .claim { font-family:Arial,Helvetica,sans-serif; font-size:12.5px; fill:#0f172a; font-weight:600; }
+    .claim-ru { font-family:Arial,Helvetica,sans-serif; font-size:10px; fill:#64748b; font-style:italic; }
+    .cell { font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; fill:#0f172a; text-anchor:middle; }
+    .cell-l { font-family:Arial,Helvetica,sans-serif; font-size:11.5px; fill:#0f172a; }
+    .cell-l-ru { font-family:Arial,Helvetica,sans-serif; font-size:9.5px; fill:#475569; font-style:italic; }
+    .verify { fill:#9ad17b; }
+    .partial { fill:#f6c85f; }
+    .contra { fill:#f29c99; }
+    .untest { fill:#bfcfe7; }
+    .na { fill:#d9d9d9; }
+    .yes { fill:#9ad17b; }
+    .mid { fill:#f6c85f; }
+    .no { fill:#f29c99; }
+    .low { fill:#e9a896; }
+    .tierA { fill:#7fc66a; }
+    .tierB { fill:#a4d089; }
+    .tierC { fill:#f6c85f; }
+    .tierD { fill:#f0a37a; }
+    .tierE { fill:#d97a6c; }
+    .stable { fill:#9ad17b; }
+    .drifted { fill:#f6c85f; }
+    .rowA { fill:#f8fafc; }
+    .rowB { fill:#ffffff; }
+    .stroke { stroke:#888; stroke-width:1; }
+    .footer { font-family:Arial,Helvetica,sans-serif; font-size:12px; fill:#475569; }
+    .footer-ru { font-family:Arial,Helvetica,sans-serif; font-size:11px; fill:#6b7280; font-style:italic; }
+</style>
+  <rect class="bg" width="1280" height="1318"/>
+  <text class="title" x="32" y="42">Source Credibility Matrix / Матрица достоверности источников — Gershtein</text>
+  <text class="subtitle" x="32" y="64">27 representative source codes (of 81 deduplicated) tiered A→E by evidentiary strength; verbatim from MASTER §0.</text>
+  <text class="subtitle-ru" x="32" y="82">27 представительных кодов источников (из 81 дедуплицированного), уровни A→E по силе свидетельств; дословно из MASTER §0.</text>
+  <rect x="32" y="100" width="14" height="14" class="tierA stroke"/>
+  <text class="legend" x="54" y="112">A — Tier 1 / Уровень 1 (книги Герштейна)</text>
+  <rect x="300" y="100" width="14" height="14" class="tierB stroke"/>
+  <text class="legend" x="322" y="112">B — long-form lectures / длинные лекции</text>
+  <rect x="610" y="100" width="14" height="14" class="tierC stroke"/>
+  <text class="legend" x="632" y="112">C — mid-length / средние интервью</text>
+  <rect x="820" y="100" width="14" height="14" class="tierD stroke"/>
+  <text class="legend" x="842" y="112">D — short / тертирные / третичные</text>
+  <rect x="1060" y="100" width="14" height="14" class="tierE stroke"/>
+  <text class="legend" x="1082" y="112">E — failed / неудачные</text>
+  <rect x="32" y="132" width="68" height="50" fill="#1f2937"/>
+  <text class="hdr" x="66.0" y="154">Tier</text>
+  <text class="hdr-ru" x="66.0" y="170">Уровень</text>
+  <rect x="100" y="132" width="220" height="50" fill="#1f2937"/>
+  <text class="hdr" x="210.0" y="154">Source code</text>
+  <text class="hdr-ru" x="210.0" y="170">Код источника</text>
+  <rect x="320" y="132" width="180" height="50" fill="#1f2937"/>
+  <text class="hdr" x="410.0" y="154">Type</text>
+  <text class="hdr-ru" x="410.0" y="170">Тип</text>
+  <rect x="500" y="132" width="340" height="50" fill="#1f2937"/>
+  <text class="hdr" x="670.0" y="154">Reasoning EN</text>
+  <text class="hdr-ru" x="670.0" y="170">обоснование (EN)</text>
+  <rect x="840" y="132" width="408" height="50" fill="#1f2937"/>
+  <text class="hdr" x="1044.0" y="154">Reasoning RU</text>
+  <text class="hdr-ru" x="1044.0" y="170">обоснование (RU)</text>
+  <g class="stroke">
+  <rect x="32" y="182" width="68" height="38" class="tierA"/>
+  <rect x="100" y="182" width="220" height="38" class="rowA"/>
+  <rect x="320" y="182" width="180" height="38" class="rowA"/>
+  <rect x="500" y="182" width="340" height="38" class="rowA"/>
+  <rect x="840" y="182" width="408" height="38" class="rowA"/>
+  <rect x="32" y="220" width="68" height="38" class="tierA"/>
+  <rect x="100" y="220" width="220" height="38" class="rowB"/>
+  <rect x="320" y="220" width="180" height="38" class="rowB"/>
+  <rect x="500" y="220" width="340" height="38" class="rowB"/>
+  <rect x="840" y="220" width="408" height="38" class="rowB"/>
+  <rect x="32" y="258" width="68" height="38" class="tierA"/>
+  <rect x="100" y="258" width="220" height="38" class="rowA"/>
+  <rect x="320" y="258" width="180" height="38" class="rowA"/>
+  <rect x="500" y="258" width="340" height="38" class="rowA"/>
+  <rect x="840" y="258" width="408" height="38" class="rowA"/>
+  <rect x="32" y="296" width="68" height="38" class="tierB"/>
+  <rect x="100" y="296" width="220" height="38" class="rowB"/>
+  <rect x="320" y="296" width="180" height="38" class="rowB"/>
+  <rect x="500" y="296" width="340" height="38" class="rowB"/>
+  <rect x="840" y="296" width="408" height="38" class="rowB"/>
+  <rect x="32" y="334" width="68" height="38" class="tierB"/>
+  <rect x="100" y="334" width="220" height="38" class="rowA"/>
+  <rect x="320" y="334" width="180" height="38" class="rowA"/>
+  <rect x="500" y="334" width="340" height="38" class="rowA"/>
+  <rect x="840" y="334" width="408" height="38" class="rowA"/>
+  <rect x="32" y="372" width="68" height="38" class="tierB"/>
+  <rect x="100" y="372" width="220" height="38" class="rowB"/>
+  <rect x="320" y="372" width="180" height="38" class="rowB"/>
+  <rect x="500" y="372" width="340" height="38" class="rowB"/>
+  <rect x="840" y="372" width="408" height="38" class="rowB"/>
+  <rect x="32" y="410" width="68" height="38" class="tierB"/>
+  <rect x="100" y="410" width="220" height="38" class="rowA"/>
+  <rect x="320" y="410" width="180" height="38" class="rowA"/>
+  <rect x="500" y="410" width="340" height="38" class="rowA"/>
+  <rect x="840" y="410" width="408" height="38" class="rowA"/>
+  <rect x="32" y="448" width="68" height="38" class="tierB"/>
+  <rect x="100" y="448" width="220" height="38" class="rowB"/>
+  <rect x="320" y="448" width="180" height="38" class="rowB"/>
+  <rect x="500" y="448" width="340" height="38" class="rowB"/>
+  <rect x="840" y="448" width="408" height="38" class="rowB"/>
+  <rect x="32" y="486" width="68" height="38" class="tierB"/>
+  <rect x="100" y="486" width="220" height="38" class="rowA"/>
+  <rect x="320" y="486" width="180" height="38" class="rowA"/>
+  <rect x="500" y="486" width="340" height="38" class="rowA"/>
+  <rect x="840" y="486" width="408" height="38" class="rowA"/>
+  <rect x="32" y="524" width="68" height="38" class="tierB"/>
+  <rect x="100" y="524" width="220" height="38" class="rowB"/>
+  <rect x="320" y="524" width="180" height="38" class="rowB"/>
+  <rect x="500" y="524" width="340" height="38" class="rowB"/>
+  <rect x="840" y="524" width="408" height="38" class="rowB"/>
+  <rect x="32" y="562" width="68" height="38" class="tierB"/>
+  <rect x="100" y="562" width="220" height="38" class="rowA"/>
+  <rect x="320" y="562" width="180" height="38" class="rowA"/>
+  <rect x="500" y="562" width="340" height="38" class="rowA"/>
+  <rect x="840" y="562" width="408" height="38" class="rowA"/>
+  <rect x="32" y="600" width="68" height="38" class="tierC"/>
+  <rect x="100" y="600" width="220" height="38" class="rowB"/>
+  <rect x="320" y="600" width="180" height="38" class="rowB"/>
+  <rect x="500" y="600" width="340" height="38" class="rowB"/>
+  <rect x="840" y="600" width="408" height="38" class="rowB"/>
+  <rect x="32" y="638" width="68" height="38" class="tierC"/>
+  <rect x="100" y="638" width="220" height="38" class="rowA"/>
+  <rect x="320" y="638" width="180" height="38" class="rowA"/>
+  <rect x="500" y="638" width="340" height="38" class="rowA"/>
+  <rect x="840" y="638" width="408" height="38" class="rowA"/>
+  <rect x="32" y="676" width="68" height="38" class="tierC"/>
+  <rect x="100" y="676" width="220" height="38" class="rowB"/>
+  <rect x="320" y="676" width="180" height="38" class="rowB"/>
+  <rect x="500" y="676" width="340" height="38" class="rowB"/>
+  <rect x="840" y="676" width="408" height="38" class="rowB"/>
+  <rect x="32" y="714" width="68" height="38" class="tierC"/>
+  <rect x="100" y="714" width="220" height="38" class="rowA"/>
+  <rect x="320" y="714" width="180" height="38" class="rowA"/>
+  <rect x="500" y="714" width="340" height="38" class="rowA"/>
+  <rect x="840" y="714" width="408" height="38" class="rowA"/>
+  <rect x="32" y="752" width="68" height="38" class="tierC"/>
+  <rect x="100" y="752" width="220" height="38" class="rowB"/>
+  <rect x="320" y="752" width="180" height="38" class="rowB"/>
+  <rect x="500" y="752" width="340" height="38" class="rowB"/>
+  <rect x="840" y="752" width="408" height="38" class="rowB"/>
+  <rect x="32" y="790" width="68" height="38" class="tierC"/>
+  <rect x="100" y="790" width="220" height="38" class="rowA"/>
+  <rect x="320" y="790" width="180" height="38" class="rowA"/>
+  <rect x="500" y="790" width="340" height="38" class="rowA"/>
+  <rect x="840" y="790" width="408" height="38" class="rowA"/>
+  <rect x="32" y="828" width="68" height="38" class="tierD"/>
+  <rect x="100" y="828" width="220" height="38" class="rowB"/>
+  <rect x="320" y="828" width="180" height="38" class="rowB"/>
+  <rect x="500" y="828" width="340" height="38" class="rowB"/>
+  <rect x="840" y="828" width="408" height="38" class="rowB"/>
+  <rect x="32" y="866" width="68" height="38" class="tierD"/>
+  <rect x="100" y="866" width="220" height="38" class="rowA"/>
+  <rect x="320" y="866" width="180" height="38" class="rowA"/>
+  <rect x="500" y="866" width="340" height="38" class="rowA"/>
+  <rect x="840" y="866" width="408" height="38" class="rowA"/>
+  <rect x="32" y="904" width="68" height="38" class="tierD"/>
+  <rect x="100" y="904" width="220" height="38" class="rowB"/>
+  <rect x="320" y="904" width="180" height="38" class="rowB"/>
+  <rect x="500" y="904" width="340" height="38" class="rowB"/>
+  <rect x="840" y="904" width="408" height="38" class="rowB"/>
+  <rect x="32" y="942" width="68" height="38" class="tierD"/>
+  <rect x="100" y="942" width="220" height="38" class="rowA"/>
+  <rect x="320" y="942" width="180" height="38" class="rowA"/>
+  <rect x="500" y="942" width="340" height="38" class="rowA"/>
+  <rect x="840" y="942" width="408" height="38" class="rowA"/>
+  <rect x="32" y="980" width="68" height="38" class="tierD"/>
+  <rect x="100" y="980" width="220" height="38" class="rowB"/>
+  <rect x="320" y="980" width="180" height="38" class="rowB"/>
+  <rect x="500" y="980" width="340" height="38" class="rowB"/>
+  <rect x="840" y="980" width="408" height="38" class="rowB"/>
+  <rect x="32" y="1018" width="68" height="38" class="tierE"/>
+  <rect x="100" y="1018" width="220" height="38" class="rowA"/>
+  <rect x="320" y="1018" width="180" height="38" class="rowA"/>
+  <rect x="500" y="1018" width="340" height="38" class="rowA"/>
+  <rect x="840" y="1018" width="408" height="38" class="rowA"/>
+  <rect x="32" y="1056" width="68" height="38" class="tierE"/>
+  <rect x="100" y="1056" width="220" height="38" class="rowB"/>
+  <rect x="320" y="1056" width="180" height="38" class="rowB"/>
+  <rect x="500" y="1056" width="340" height="38" class="rowB"/>
+  <rect x="840" y="1056" width="408" height="38" class="rowB"/>
+  <rect x="32" y="1094" width="68" height="38" class="tierE"/>
+  <rect x="100" y="1094" width="220" height="38" class="rowA"/>
+  <rect x="320" y="1094" width="180" height="38" class="rowA"/>
+  <rect x="500" y="1094" width="340" height="38" class="rowA"/>
+  <rect x="840" y="1094" width="408" height="38" class="rowA"/>
+  <rect x="32" y="1132" width="68" height="38" class="tierE"/>
+  <rect x="100" y="1132" width="220" height="38" class="rowB"/>
+  <rect x="320" y="1132" width="180" height="38" class="rowB"/>
+  <rect x="500" y="1132" width="340" height="38" class="rowB"/>
+  <rect x="840" y="1132" width="408" height="38" class="rowB"/>
+  <rect x="32" y="1170" width="68" height="38" class="tierE"/>
+  <rect x="100" y="1170" width="220" height="38" class="rowA"/>
+  <rect x="320" y="1170" width="180" height="38" class="rowA"/>
+  <rect x="500" y="1170" width="340" height="38" class="rowA"/>
+  <rect x="840" y="1170" width="408" height="38" class="rowA"/>
+  </g>
+  <g>
+    <text class="cell" x="66.0" y="206">A</text>
+    <text class="row-code" x="108" y="205">B-GLOB13-P1/P2/P3</text>
+    <text class="cell-l"    x="328" y="200">Self-authored book</text>
+    <text class="cell-l-ru" x="328" y="213">Авторская книга</text>
+    <text class="cell-l"    x="508" y="205">Global Archive UAP-Study v.1.3 (3 parts) — Gershtein-autho…</text>
+    <text class="cell-l-ru" x="848" y="205">Глобальный архив UAP-Study v.1.3, 3 части — авторский PDF; ~80 юрисдик…</text>
+    <text class="cell" x="66.0" y="244">A</text>
+    <text class="row-code" x="108" y="243">B-RUSLIT-TNLO-P1/P2</text>
+    <text class="cell-l"    x="328" y="238">Book preview</text>
+    <text class="cell-l-ru" x="328" y="251">Превью книги</text>
+    <text class="cell-l"    x="508" y="243">«Тайны НЛО и пришельцев» (2007) — only book with substanti…</text>
+    <text class="cell-l-ru" x="848" y="243">«Тайны НЛО и пришельцев» (2007) — единственная книга с содержательным …</text>
+    <text class="cell" x="66.0" y="282">A</text>
+    <text class="row-code" x="108" y="281">B-CATALOG-MASTER</text>
+    <text class="cell-l"    x="328" y="276">Bibliography</text>
+    <text class="cell-l-ru" x="328" y="289">Библиография</text>
+    <text class="cell-l"    x="508" y="281">8-source aggregation of all 14 monographs; metadata-only b…</text>
+    <text class="cell-l-ru" x="848" y="281">Свод 8 источников по 14 монографиям; metadata-only, но канонический сп…</text>
+    <text class="cell" x="66.0" y="320">B</text>
+    <text class="row-code" x="108" y="319">INT-2026-03-GIPOTEZY-1</text>
+    <text class="cell-l"    x="328" y="314">Watershed lecture</text>
+    <text class="cell-l-ru" x="328" y="327">Каноническая лекция</text>
+    <text class="cell-l"    x="508" y="319">21.03.2026 «Гипотезы об НЛО…» 1h36m — most recent canonica…</text>
+    <text class="cell-l-ru" x="848" y="319">21.03.2026, 1ч36м — каноническое теоретическое заявление; 11D + жизн. …</text>
+    <text class="cell" x="66.0" y="358">B</text>
+    <text class="row-code" x="108" y="357">INT-70LET-ERY-NLO-1</text>
+    <text class="cell-l"    x="328" y="352">Long lecture 1h29m</text>
+    <text class="cell-l-ru" x="328" y="365">Длинная лекция</text>
+    <text class="cell-l"    x="508" y="357">«70 лет эры НЛО» — survey of post-1947 ufology field; high…</text>
+    <text class="cell-l-ru" x="848" y="357">«70 лет эры НЛО» — обзор уфологии с 1947 г.; высокая историч. плотность.</text>
+    <text class="cell" x="66.0" y="396">B</text>
+    <text class="row-code" x="108" y="395">INT-2023-NDE-UFO-1</text>
+    <text class="cell-l"    x="328" y="390">Long lecture 1h04m</text>
+    <text class="cell-l-ru" x="328" y="403">Длинная лекция</text>
+    <text class="cell-l"    x="508" y="395">14.10.2023 «Связь НЛО↔ОСО» — canonical statement of Gersht…</text>
+    <text class="cell-l-ru" x="848" y="395">14.10.2023 «Связь НЛО↔ОСО» — каноническое изложение тезиса; &gt;50 случаев.</text>
+    <text class="cell" x="66.0" y="434">B</text>
+    <text class="row-code" x="108" y="433">INT-PARALL-MIRY-2</text>
+    <text class="cell-l"    x="328" y="428">Long lecture 1h06m</text>
+    <text class="cell-l-ru" x="328" y="441">Длинная лекция</text>
+    <text class="cell-l"    x="508" y="433">Body of «Параллельные миры с иным ходом времени» — empiric…</text>
+    <text class="cell-l-ru" x="848" y="433">Тело лекции «Параллельные миры…» — эмпирич. якоря для мультиверса.</text>
+    <text class="cell" x="66.0" y="472">B</text>
+    <text class="row-code" x="108" y="471">INT-NLO-PROBLEMA-1</text>
+    <text class="cell-l"    x="328" y="466">Long lecture 2h39m</text>
+    <text class="cell-l-ru" x="328" y="479">Длинная лекция</text>
+    <text class="cell-l"    x="508" y="471">29.11.2019 «Необъяснимая встреча №13» — Sokolov/Knapp pipe…</text>
+    <text class="cell-l-ru" x="848" y="471">29.11.2019 — конвейер Соколов/Кнапп + Петрозаводск + РГО.</text>
+    <text class="cell" x="66.0" y="510">B</text>
+    <text class="row-code" x="108" y="509">INT-VOENNYE-1</text>
+    <text class="cell-l"    x="328" y="504">Podcast 1h20m</text>
+    <text class="cell-l-ru" x="328" y="517">Подкаст</text>
+    <text class="cell-l"    x="508" y="509">02.11.2025 «ВОЕННЫЕ СКРЫВАЛИ…» — most-recent NIIs disbandm…</text>
+    <text class="cell-l-ru" x="848" y="509">02.11.2025 — закрытие НИИ + анекдот о таможне-икре.</text>
+    <text class="cell" x="66.0" y="548">B</text>
+    <text class="row-code" x="108" y="547">INT-POLTERGEIST-VIKTOR-2</text>
+    <text class="cell-l"    x="328" y="542">Dual-interview 3h20m</text>
+    <text class="cell-l-ru" x="328" y="555">Двойное интервью</text>
+    <text class="cell-l"    x="508" y="547">04.11.2024 with V.N. Fefelov; KGB Galaktika archives; very…</text>
+    <text class="cell-l-ru" x="848" y="547">04.11.2024 с В.Н. Фефеловым; архивы «Галактика-КГБ»; очень высокая пло…</text>
+    <text class="cell" x="66.0" y="586">B</text>
+    <text class="row-code" x="108" y="585">B-GLOB13-P3</text>
+    <text class="cell-l"    x="328" y="580">Book part</text>
+    <text class="cell-l-ru" x="328" y="593">Часть книги</text>
+    <text class="cell-l"    x="508" y="585">USA + Zimbabwe section; **explicit Lazar dismissal NN 28**…</text>
+    <text class="cell-l-ru" x="848" y="585">США + Зимбабве; **отказ от Лазара (NN 28)**; ключ к кросс-архивам.</text>
+    <text class="cell" x="66.0" y="624">C</text>
+    <text class="row-code" x="108" y="623">INT-2025-10-3I-ATLAS-1</text>
+    <text class="cell-l"    x="328" y="618">Livestream 1h29m</text>
+    <text class="cell-l-ru" x="328" y="631">Стрим</text>
+    <text class="cell-l"    x="508" y="623">24.10.2025 «К нам летит нечто» — recent context for Knapp …</text>
+    <text class="cell-l-ru" x="848" y="623">24.10.2025 — контекст Кнапп / НИИ / преддверие лекции 2026.</text>
+    <text class="cell" x="66.0" y="662">C</text>
+    <text class="row-code" x="108" y="661">INT-OKEAN-2</text>
+    <text class="cell-l"    x="328" y="656">Lecture 2h22m</text>
+    <text class="cell-l-ru" x="328" y="669">Лекция</text>
+    <text class="cell-l"    x="508" y="661">«Тайны Мирового Океана» canonical of pair (NN 11 retained …</text>
+    <text class="cell-l-ru" x="848" y="661">«Тайны Мирового Океана» — каноническая из пары; якорь «трёх типов разу…</text>
+    <text class="cell" x="66.0" y="700">C</text>
+    <text class="row-code" x="108" y="699">INT-AUTOMAT-AI-1/2/3</text>
+    <text class="cell-l"    x="328" y="694">Methodology cluster</text>
+    <text class="cell-l-ru" x="328" y="707">Кластер методологии</text>
+    <text class="cell-l"    x="508" y="699">Three NN bundle: AI/automation in ufology; **centrifuge-ND…</text>
+    <text class="cell-l-ru" x="848" y="699">Кластер из 3 NN: ИИ/автоматизация; **здесь поднимается контрдоказатель…</text>
+    <text class="cell" x="66.0" y="738">C</text>
+    <text class="row-code" x="108" y="737">INT-MIFY-1</text>
+    <text class="cell-l"    x="328" y="732">Lecture 1h18m</text>
+    <text class="cell-l-ru" x="328" y="745">Лекция</text>
+    <text class="cell-l"    x="508" y="737">«Мифы, легенды, мистификации» — substantive primary critiq…</text>
+    <text class="cell-l-ru" x="848" y="737">«Мифы, легенды, мистификации» — содержательная критика академической у…</text>
+    <text class="cell" x="66.0" y="776">C</text>
+    <text class="row-code" x="108" y="775">F-UFOKOM-AKADEMICHESKOE</text>
+    <text class="cell-l"    x="328" y="770">Article</text>
+    <text class="cell-l-ru" x="328" y="783">Статья</text>
+    <text class="cell-l"    x="508" y="775">11.01.2023 «Академическое — не значит лучшее» — editorial …</text>
+    <text class="cell-l-ru" x="848" y="775">11.01.2023 — редакторский хребет методологии; кейс «acies».</text>
+    <text class="cell" x="66.0" y="814">C</text>
+    <text class="row-code" x="108" y="813">F-UAPCHECK-2024-07</text>
+    <text class="cell-l"    x="328" y="808">Eng. article</text>
+    <text class="cell-l-ru" x="328" y="821">Англ. статья</text>
+    <text class="cell-l"    x="508" y="813">Bilyk-2015 KhPI chapter republished 2024; English-language…</text>
+    <text class="cell-l-ru" x="848" y="813">Глава Билык 2015 (ХПИ), переизд. 2024; англоязычный обзор.</text>
+    <text class="cell" x="66.0" y="852">D</text>
+    <text class="row-code" x="108" y="851">INT-2017-11-GEOMANT-1</text>
+    <text class="cell-l"    x="328" y="846">Lecture 2h38m</text>
+    <text class="cell-l-ru" x="328" y="859">Лекция</text>
+    <text class="cell-l"    x="508" y="851">Geomantia anchor — but Hessdalen counter-example surfaced …</text>
+    <text class="cell-l-ru" x="848" y="851">Якорь по геомантии — но контрпример Хессдалена подрывает базовый механ…</text>
+    <text class="cell" x="66.0" y="890">D</text>
+    <text class="row-code" x="108" y="889">F-PRAVDA-TAGS</text>
+    <text class="cell-l"    x="328" y="884">Tag landing page</text>
+    <text class="cell-l-ru" x="328" y="897">Тег-страница</text>
+    <text class="cell-l"    x="508" y="889">pravda.ru tag «Михаил Герштейн» — tertiary; reception-grad…</text>
+    <text class="cell-l-ru" x="848" y="889">pravda.ru тег «Михаил Герштейн» — третичный; приём; подтверждает 1972 …</text>
+    <text class="cell" x="66.0" y="928">D</text>
+    <text class="row-code" x="108" y="927">F-SVOBODA-2011</text>
+    <text class="cell-l"    x="328" y="922">RFE/RL interview</text>
+    <text class="cell-l-ru" x="328" y="935">Интервью RFE/RL</text>
+    <text class="cell-l"    x="508" y="927">31.05.2003 (NOT 2011 as labelled) — broadcaster framing «г…</text>
+    <text class="cell-l-ru" x="848" y="927">31.05.2003 (не 2011 по метке) — формулировка вещателя «главный уфолог»…</text>
+    <text class="cell" x="66.0" y="966">D</text>
+    <text class="row-code" x="108" y="965">F-ALPHA-VOENNYE</text>
+    <text class="cell-l"    x="328" y="960">Video index</text>
+    <text class="cell-l-ru" x="328" y="973">Видеоиндекс</text>
+    <text class="cell-l"    x="508" y="965">thealphacentauri.net 14.11.2025 — chapter-labels are edito…</text>
+    <text class="cell-l-ru" x="848" y="965">thealphacentauri.net 14.11.2025 — заголовки глав — редактор, не Г. дос…</text>
+    <text class="cell" x="66.0" y="1004">D</text>
+    <text class="row-code" x="108" y="1003">F-TVI-KNAPP-RUS-FILES</text>
+    <text class="cell-l"    x="328" y="998">SEO summary</text>
+    <text class="cell-l-ru" x="328" y="1011">SEO-сводка</text>
+    <text class="cell-l"    x="508" y="1003">tvi.show derivative — names mangled («Mel Gersin», «Valent…</text>
+    <text class="cell-l-ru" x="848" y="1003">tvi.show — имена искажены («Mel Gersin», «Валентин Мельгушев»); произв…</text>
+    <text class="cell" x="66.0" y="1042">E</text>
+    <text class="row-code" x="108" y="1041">F-REDDIT-STONEHILL</text>
+    <text class="cell-l"    x="328" y="1036">Failed source</text>
+    <text class="cell-l-ru" x="328" y="1049">Неудачный источник</text>
+    <text class="cell-l"    x="508" y="1041">Cloudflare interstitial only — NO content extracted; appen…</text>
+    <text class="cell-l-ru" x="848" y="1041">Только Cloudflare-заглушка — содержимое не извлечено; приложение A.</text>
+    <text class="cell" x="66.0" y="1080">E</text>
+    <text class="row-code" x="108" y="1079">F-ZVEZDA02</text>
+    <text class="cell-l"    x="328" y="1074">Failed source</text>
+    <text class="cell-l-ru" x="328" y="1087">Неудачный источник</text>
+    <text class="cell-l"    x="508" y="1079">Literary novel namesake; 0 Gershtein content; appendix A.</text>
+    <text class="cell-l-ru" x="848" y="1079">Литературный роман-однофамилец; 0 содержания по Герштейну; приложение A.</text>
+    <text class="cell" x="66.0" y="1118">E</text>
+    <text class="row-code" x="108" y="1117">F-FILTER-ROII</text>
+    <text class="cell-l"    x="328" y="1112">Filtered negative</text>
+    <text class="cell-l-ru" x="328" y="1125">Отриц. фильтр</text>
+    <text class="cell-l"    x="508" y="1117">Academic-anthology namesake (E.B. Gerstein, memory-politic…</text>
+    <text class="cell-l-ru" x="848" y="1117">Однофамилец из академической антологии (Е.Б. Герштейн) — не уфолог; пр…</text>
+    <text class="cell" x="66.0" y="1156">E</text>
+    <text class="row-code" x="108" y="1155">F-FILTER-IVANOVO</text>
+    <text class="cell-l"    x="328" y="1150">Filtered negative</text>
+    <text class="cell-l-ru" x="328" y="1163">Отриц. фильтр</text>
+    <text class="cell-l"    x="508" y="1155">Aleksandr Gershtein, Apatity artist — NOT the ufologist; a…</text>
+    <text class="cell-l-ru" x="848" y="1155">Александр Герштейн, художник из Апатит — не уфолог; приложение A.</text>
+    <text class="cell" x="66.0" y="1194">E</text>
+    <text class="row-code" x="108" y="1193">F-BERKOVICH-GUESTBOOK</text>
+    <text class="cell-l"    x="328" y="1188">Filtered negative</text>
+    <text class="cell-l-ru" x="328" y="1201">Отриц. фильтр</text>
+    <text class="cell-l"    x="508" y="1193">Larisa Iosifovna Gershtein only — NOT Mikhail B.; appendix…</text>
+    <text class="cell-l-ru" x="848" y="1193">Только Лариса Иосифовна Герштейн — не Михаил Б.; приложение A.</text>
+  </g>
+  <text class="footer"    x="32" y="1236">Total deduplicated: 81 codes (45 canonical INT + 22 F + 14 B). 17 re-uploads collapsed per QA-dedup §A; 5 negative-result codes (E) per Appendix A.</text>
+  <text class="footer-ru" x="32" y="1254">Всего дедуплицировано: 81 код (45 INT + 22 F + 14 B). 17 повторных загрузок свёрнуты по QA-dedup §A; 5 кодов отриц. результатов (E) по Приложению A.</text>
+  <text class="footer-ru" x="32" y="1272">Tier-A = primary self-authored corpora; Tier-E = failed / namesake-only / inaccessible.</text>
+</svg>

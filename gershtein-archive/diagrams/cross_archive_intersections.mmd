@@ -1,0 +1,68 @@
+---
+title: "Cross-archive intersections / Перекрёстные связи между архивами"
+---
+%% EN: Edges from Gershtein corpus to chernobrov-archive and bob-lazar-archive.
+%% Solid edge = direct citation; dashed edge = methodological-prior disagreement;
+%% dotted edge = adjacent / curatorial-scope only.
+%% Source: §12 of MASTER (CROSS_chernobrov.md, CROSS_lazar.md citation maps).
+%% RU: Связи корпуса Герштейна с архивами Черноброва и Лазара.
+graph LR
+    subgraph G["Gershtein archive / Архив Герштейна"]
+        GS[("M.B. Gershtein<br/>1972-, RGS UFO Commission<br/>14 books, 81 sources")]
+        OCCAM["Occam-residual rule<br/>(F-UFOKOM-AKADEMICHESKOE C.12)"]
+        NN62["NN 62 watershed lecture<br/>21.03.2026"]
+        NN17["NN 17 NDE↔UFO lecture<br/>14.10.2023"]
+    end
+
+    subgraph C["chernobrov-archive / Архив Черноброва"]
+        CB[("V.A. Chernobrov<br/>1965-2021, KOSMOPOISK<br/>Lovondatr, MG expeditions")]
+        DAL["Dalnegorsk Hill 611, 1986<br/>Дальнегорск, выс. 611"]
+        PETR["Petrozavodsk 20.09.1977<br/>Петрозаводск"]
+        ALYO["Кaштym dwarf «Алёшенька»"]
+        MG["Медведицкая гряда (MG)"]
+        TIME["Time-axis-shift mechanism<br/>(theoretical reference)<br/>Сдвиг оси времени"]
+        ENC["Энциклопедия загадочных мест России<br/>Encyclopedia of mysterious places"]
+    end
+
+    subgraph L["bob-lazar-archive / Архив Лазара"]
+        BL[("Bob Lazar<br/>1959-, S-4 / Area-51<br/>Element 115 / Sport Model")]
+        S4["S-4 / 9 hangar bays<br/>Объект S-4<br/>(B-GLOB13-P3: no row)"]
+        E115["Element 115 reactor<br/>Реактор на элементе 115"]
+    end
+
+    subgraph A["Adjacent (Anfalov NN 23) / Сопряжённое"]
+        ANF[("A.A. Anfalov<br/>SPPK ZNTs framework<br/>NOT Gershtein content")]
+    end
+
+    GS --- OCCAM
+    GS --- NN62
+    GS --- NN17
+
+    OCCAM -. methodological-prior .- CB
+    PETR -. ETH-vs-mundane .-> GS
+    GS -.disagrees: Cosmos-955 launch.- PETR
+    GS -.disagrees: balloon+Pb match.- DAL
+    GS -.disagrees: deformed miscarriage.- ALYO
+    GS ==>|Hisar zone shared| MG
+    GS ==>|cites Chernobrov| TIME
+    NN62 ==>|reinterprets «Гайдучок»| CB
+    GS -.critiques generosity.- ENC
+
+    NN62 -. 11-D / multiverse .- TIME
+
+    GS ==>|NN 28 dismissal: «практически<br/>полностью ложными»| BL
+    GS -.no row in Global Archive.- S4
+    GS -.no engagement.- E115
+
+    ANF -. extensively treats Lazar .-> BL
+    GS -.endorses only «Смерть фашистов МНЛО».- ANF
+
+    classDef ger fill:#bbdefb,stroke:#0d47a1,color:#000
+    classDef chr fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef laz fill:#ffe0b2,stroke:#e65100,color:#000
+    classDef adj fill:#f5f5f5,stroke:#616161,color:#000
+
+    class GS,OCCAM,NN62,NN17 ger
+    class CB,DAL,PETR,ALYO,MG,TIME,ENC chr
+    class BL,S4,E115 laz
+    class ANF adj

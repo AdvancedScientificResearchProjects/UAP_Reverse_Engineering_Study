@@ -19,6 +19,10 @@ chernobrov-archive/ocr-pipeline/.venv/
 # Private / non-archive research scratchpad
 chernobrov-archive-tg/
 
+# Inbox: staging for incoming materials (voice messages, raw transcripts,
+# task drafts) — local-only, not for public archive
+_inbox/
+
 # Chernobrov archive: scripts, logs, and OCR pipeline build artifacts
 chernobrov-archive/*.py
 chernobrov-archive/*.sh
@@ -32,3 +36,28 @@ dubna-element-115-analysis/raw/*.mp4
 dubna-element-115-analysis/raw/*.wav
 dubna-element-115-analysis/raw/external/*.mp3
 dubna-element-115-analysis/raw/external/*.mp4
+
+# Gershtein archive: exclude raw binaries + transient pipeline outputs
+gershtein-archive/raw/videos/
+gershtein-archive/audio/
+gershtein-archive/raw/*.mp4
+gershtein-archive/raw/*.mp3
+gershtein-archive/raw/*.webp
+!gershtein-archive/raw/.gitkeep
+!gershtein-archive/raw/videos/.gitkeep
+!gershtein-archive/raw/README.md
+!gershtein-archive/audio/.gitkeep
+!gershtein-archive/audio/README.md
+
+# Gershtein archive: pipeline scripts and logs stay local
+gershtein-archive/*.py
+gershtein-archive/*.sh
+gershtein-archive/*.log
+gershtein-archive/logs/
+gershtein-archive/.venv/
+gershtein-archive/wav_tmp/
+gershtein-archive/audio_chunks/
+gershtein-archive/analysis/_batches.json
+gershtein-archive/analysis/_filter_*.md
+gershtein-archive/analysis/**/_filter_*.md
+gershtein-archive/analysis/_map/

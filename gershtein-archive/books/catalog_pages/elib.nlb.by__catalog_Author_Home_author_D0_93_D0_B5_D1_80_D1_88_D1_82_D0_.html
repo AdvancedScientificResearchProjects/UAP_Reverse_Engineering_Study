@@ -1,0 +1,1039 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<!--    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://elib-proxy-nginx.nlb.by 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' https://elib-proxy-nginx.nlb.by 'unsafe-inline' 'unsafe-eval';** ">-->
+    <meta http-equiv="Content-Type" content="text&#x2F;html&#x3B;&#x20;charset&#x3D;UTF-8">
+<meta name="Generator" content="VuFind&#x20;9.0.3">    
+    <title>Электронный каталог Национальной библиотеки Беларуси :: Национальная Библиотека РБ</title>        <link href="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;css&#x2F;daterangepicker.css&#x3F;_&#x3D;1706277903" media="all" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;css&#x2F;compiled.css&#x3F;_&#x3D;1748259911" media="all" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;css&#x2F;print.css&#x3F;_&#x3D;1705927720" media="print" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;css&#x2F;help.css&#x3F;_&#x3D;1706166496" media="all" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;catalog&#x2F;themes&#x2F;root&#x2F;images&#x2F;vufind-favicon.ico&#x3F;_&#x3D;1689797039" rel="shortcut&#x20;icon" type="image&#x2F;x-icon">
+<link href="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;css&#x2F;&#x3F;_&#x3D;1706277903" media="screen" rel="stylesheet" type="text&#x2F;css">
+<link href="&#x2F;catalog&#x2F;Search&#x2F;OpenSearch&#x3F;method&#x3D;describe" rel="search" type="application&#x2F;opensearchdescription&#x2B;xml" title="&#x041F;&#x043E;&#x0438;&#x0441;&#x043A;&#x0430;&#x20;&#x0432;&#x20;&#x0431;&#x0438;&#x0431;&#x043B;&#x0438;&#x043E;&#x0442;&#x0435;&#x0447;&#x043D;&#x043E;&#x043C;&#x20;&#x043A;&#x0430;&#x0442;&#x0430;&#x043B;&#x043E;&#x0433;&#x0435;">                <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    var userIsLoggedIn = false;
+    //-->
+</script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;jquery.min.js&#x3F;_&#x3D;1698408372" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;bootstrap.min.js&#x3F;_&#x3D;1698399500" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;bootstrap-accessibility.min.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;validator.min.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;jquery.form.js&#x3F;_&#x3D;1698408519" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;oauth.js&#x3F;_&#x3D;1767875226" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;vendor&#x2F;autocomplete.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;lib&#x2F;ajax_request_queue.js&#x3F;_&#x3D;1698388770" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;common.js&#x3F;_&#x3D;1713250387" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;lightbox.js&#x3F;_&#x3D;1704810416" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;truncate.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;trigger_print.js&#x3F;_&#x3D;1705933318" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;observer_manager.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;detect.js&#x3F;_&#x3D;1707211748" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;detect.min.js&#x3F;_&#x3D;1707211761" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;covers.js&#x3F;_&#x3D;1747993655" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;statistic.js&#x3F;_&#x3D;1733306857" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;moment.js&#x3F;_&#x3D;1701242804" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;moment.min.js&#x3F;_&#x3D;1706277966" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;daterangepicker.js&#x3F;_&#x3D;1706277970" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;yandex.js&#x3F;_&#x3D;1731763651" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;check_item_statuses.js&#x3F;_&#x3D;1702282699" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;check_save_statuses.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;record_versions.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;combined-search.js&#x3F;_&#x3D;1698388771" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  src="&#x2F;catalog&#x2F;themes&#x2F;nlb&#x2F;js&#x2F;account_ajax.js&#x3F;_&#x3D;1698740738" nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;"></script>
+<script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    VuFind.path = '/catalog';
+VuFind.defaultSearchBackend = 'Solr';
+VuFind.addTranslations({"add_tag_success":"\u041c\u0435\u0442\u043a\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u044b","bulk_email_success":"\u0412\u0430\u0448\u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u044b \u043f\u043e Email","bulk_noitems_advice":"\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u043d\u0435 \u0432\u044b\u0431\u0440\u0430\u043d\u044b. \u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0444\u043b\u0430\u0436\u043e\u043a \u0440\u044f\u0434\u043e\u043c \u0441 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u043c \u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043f\u043e\u043f\u044b\u0442\u043a\u0443.","bulk_save_success":"\u0412\u0430\u0448\u0438 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u044b","close":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","collection_empty":"\u041d\u0435\u0442 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432 \u0434\u043b\u044f \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f.","eol_ellipsis":"eol_ellipsis","error_occurred":"\u041e\u0448\u0438\u0431\u043a\u0430","go_to_list":"\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043a \u0441\u043f\u0438\u0441\u043a\u0443","hold_available":"\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u044f\u0447\u0435\u0439\u043a\u0430 \u043f\u043e\u0434\u0445\u0432\u0430\u0442\u0430","less_ellipsis":"\u043c\u0435\u043d\u044c\u0448\u0435","libphonenumber_invalid":"\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","libphonenumber_invalidcountry":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0449\u0435\u0433\u043e \u043a\u043e\u0434\u0430","libphonenumber_invalidregion":"\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0434 \u0440\u0435\u0433\u0438\u043e\u043d\u0430:","libphonenumber_notanumber":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","libphonenumber_toolong":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u0430\u044f \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","libphonenumber_tooshort":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043a\u043e\u0440\u043e\u0442\u043a\u0430\u044f \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","libphonenumber_tooshortidd":"\u041d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043a\u043e\u0440\u043e\u0442\u043e\u043a \u043f\u043e\u0441\u043b\u0435 IDD","loading_ellipsis":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430","more_ellipsis":"\u0431\u043e\u043b\u044c\u0448\u0435","number_thousands_separator":",","sms_success":"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e.","No pickup locations available":"No pickup locations available","Phone number invalid":"\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","Invalid country calling code":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0441\u0442\u0440\u0430\u043d\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0449\u0435\u0433\u043e \u043a\u043e\u0434\u0430","Invalid region code":"\u041d\u0435\u0432\u0435\u0440\u043d\u044b\u0439 \u043a\u043e\u0434 \u0440\u0435\u0433\u0438\u043e\u043d\u0430:","The string supplied did not seem to be a phone number":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","The string supplied is too long to be a phone number":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u0430\u044f \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","The string supplied is too short to be a phone number":"\u041f\u043e\u0445\u043e\u0436\u0435, \u0447\u0442\u043e \u043f\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043a\u043e\u0440\u043e\u0442\u043a\u0430\u044f \u0438 \u043d\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430","Phone number too short after IDD":"\u041d\u043e\u043c\u0435\u0440 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043a\u043e\u0440\u043e\u0442\u043e\u043a \u043f\u043e\u0441\u043b\u0435 IDD","account_checkouts_due":"account_checkouts_due","account_checkouts_overdue":"account_checkouts_overdue","account_has_alerts":"account_has_alerts","account_normal_checkouts":"account_normal_checkouts","account_requests_available":"account_requests_available","account_requests_in_transit":"account_requests_in_transit","account_requests_other":"account_requests_other","doc_access_close":"\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u0437\u0430\u043a\u0440\u044b\u0442\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430","doc_access_open":"\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043e\u0442\u043a\u0440\u044b\u0442\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430","doc_access_limited":"\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430"});
+VuFind.addIcons({"spinner":"<span class=\"icon icon--font fa&#x20;fa-spinner icon--spin\" role=\"img\" aria-hidden=\"true\"><\/span>","ui-dots-menu":"<span class=\"icon icon--font fa&#x20;fa-ellipsis-h\" role=\"img\" aria-hidden=\"true\"><\/span>","facet-checked":"<span class=\"icon icon--font fa&#x20;fa-check-square-o\" role=\"img\" aria-hidden=\"true\"><\/span>","facet-exclude":"<span class=\"icon icon--font fa&#x20;fa-times\" role=\"img\" aria-hidden=\"true\"><\/span>","facet-unchecked":"<span class=\"icon icon--font fa&#x20;fa-square-o\" role=\"img\" aria-hidden=\"true\"><\/span>","format-file":"<span class=\"icon icon--font fa&#x20;fa-file-o\" role=\"img\" aria-hidden=\"true\"><\/span>","format-folder":"<span class=\"icon icon--font fa&#x20;fa-folder\" role=\"img\" aria-hidden=\"true\"><\/span>","my-account":"<span class=\"icon icon--font fa&#x20;fa-user-circle-o\" role=\"img\" aria-hidden=\"true\"><\/span>","my-account-notification":"<span class=\"icon icon--font fa&#x20;fa-bell\" role=\"img\" aria-hidden=\"true\"><\/span>","my-account-warning":"<span class=\"icon icon--font fa&#x20;fa-exclamation-triangle\" role=\"img\" aria-hidden=\"true\"><\/span>","place-hold":"<span class=\"icon icon--font fa&#x20;fa-flag\" role=\"img\" aria-hidden=\"true\"><\/span>","place-ill-request":"<span class=\"icon icon--font fa&#x20;fa-exchange\" role=\"img\" aria-hidden=\"true\"><\/span>","place-storage-retrieval":"<span class=\"icon icon--font fa&#x20;fa-truck\" role=\"img\" aria-hidden=\"true\"><\/span>","status-available":"<span class=\"icon icon--font fa&#x20;fa-check\" role=\"img\" aria-hidden=\"true\"><\/span>","status-pending":"<span class=\"icon icon--font fa&#x20;fa-clock-o\" role=\"img\" aria-hidden=\"true\"><\/span>","status-ready":"<span class=\"icon icon--font fa&#x20;fa-bell\" role=\"img\" aria-hidden=\"true\"><\/span>","status-unavailable":"<span class=\"icon icon--font fa&#x20;fa-times\" role=\"img\" aria-hidden=\"true\"><\/span>","status-unknown":"<span class=\"icon icon--font fa&#x20;fa-circle\" role=\"img\" aria-hidden=\"true\"><\/span>","ui-failure":"<span class=\"icon icon--font fa&#x20;fa-times\" role=\"img\" aria-hidden=\"true\"><\/span>","ui-success":"<span class=\"icon icon--font fa&#x20;fa-check\" role=\"img\" aria-hidden=\"true\"><\/span>","truncate-less":"<span class=\"icon icon--font fa&#x20;fa-arrow-up\" role=\"img\" aria-hidden=\"true\"><\/span>","truncate-more":"<span class=\"icon icon--font fa&#x20;fa-arrow-down\" role=\"img\" aria-hidden=\"true\"><\/span>"});
+VuFind.setCspNonce('dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4=');
+VuFind.setCurrentSearchId(107019763);
+    //-->
+</script>
+
+</head>
+
+<body class="template-dir-author template-name-results ">
+<header class="hidden-print">
+            <span class="sr-only" role="heading" aria-level="1">По количеству</span>
+        <a class="sr-only" href="#content">Пропуск в контексте</a>
+    
+<div class="banner container navbar">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-collapse"
+                aria-hidden="true">
+            <span class="icon icon--font fa&#x20;fa-bars" role="img" aria-hidden="true"></span>        </button>
+        <div class="flex" style="width: inherit; padding-bottom: 30px">
+            <div>
+                <a href="/catalog/" class="logo svg-logo--open"
+                   style="display: flex; width: 100%; padding-top: 13px; padding-left: 8px">
+                                            <div style="padding-top: 4px">
+                            <svg class="svg-logo-animate" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="95px"
+                                 height="79px"
+                                 style="width: 95px; height: 79px"
+                                 viewBox="11 -1 300 220" enable-background="new 0 0 293.75 211.67"
+                                 xml:space="preserve">
+            <line fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10" x1="0" y1="207.35" x2="293.75"
+                  y2="207.35"></line>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M152.51,207.6 c-7.51-15.03-17.53-26.29-41.82-26.29c-12.09,0-27.93,7.03-44.42,12.83c-16.63,5.85-50.35,6.69-50.35,6.69l1.47,6.28"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.76,207.35 c0,0,7.45-11.78,7.45-31.47c0-19.69-20.77-53.39-12.94-89.8c7.82-36.41,30.74-49.89,38.55-78.07c1.01,0.94,9.73,23.01,7.56,44.36"
+                                      class="sh-1"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.76,207.35 c0,0,9.61-11.24,9.61-30.93s-12.14-40.99-6.47-72.54c5.79-32.28,44.19-48.11,56.36-74.7c1.36,1.84,5.58,25.71,1.62,45.31"
+                                      class="sh-2"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.74,207.33 c0,0,10.02-10.25,12.05-29.83c2.03-19.58-10.52-41.53,2.16-69.58c13.74-30.4,59.05-27.39,73.89-52.59 c0.73,1.72,2.08,20.69-6.47,38.29"
+                                      class="sh-3"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c0,0,10.59-9.66,13.73-29.1c3.14-19.43-7.33-37.16,6.96-58.19c17.34-25.52,65.6-17.91,85.76-39.1c0.28,2.62-3.23,26.26-16.45,41.8"
+                                      class="sh-4"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c24.2-22.84,10.18-56.28,29.32-73.27c19.15-16.99,67.96,0.81,89.26-25.35c0.61,1.84-0.99,24.68-12.67,38.56"
+                                      class="sh-5"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c23.66-19.6,11.79-50.34,32.56-61.94c20.76-11.6,72,13.75,98.16-3.78c-0.19,2.17-5.05,19.75-16.18,30.47"
+                                      class="sh-6"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c22.58-20.95,10.89-38.78,33.53-49.65c25.78-12.38,65.26,22.34,98.99,10.95c-0.22,1.83-5.02,15.09-13.39,22.61"
+                                      class="sh-7"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c17.46-13.4,15.21-32.53,36.81-38.27c24.75-6.57,56.5,28.47,94.83,20.59c-0.05,1.35-4.78,11-10.09,15.34"
+                                      class="sh-8"></path>
+                                <path fill="none" stroke="#019875" stroke-width="8.63" stroke-miterlimit="10"
+                                      d="M151.73,207.35 c17.46-13.4,15.94-21.15,35.79-25.26c22.11-4.58,52.59,26.16,93.58,22.92"
+                                      class="sh-9"></path>
+        </svg>
+                        </div>
+                                                                <span class="visible-lg visible-md visible-sm"
+                              style="font-size: 14pt; width: auto">Электронный каталог<br/>Национальной библиотеки<br/>Беларуси</span>
+                                    </a>
+            </div>
+        </div>
+
+    </div>
+
+            <div class="collapse navbar-collapse" id="header-collapse">
+            <nav>
+                <ul class="nav navbar-nav navbar-right flip">
+                                        
+                    
+                    
+                                                    <li id="loginOptions">
+                                                                    <a href="/catalog/MyResearch/Login"
+                                       data-lightbox
+                                       class="js-login-link"
+                                    >
+                                        <i class="fa fa-sign-in" aria-hidden="true" style="padding-top: 4px"></i>
+                                        Вход                                    </a>
+                                                            </li>
+                                            
+                                                                
+                        <script>
+                            $(function () {
+                                window.addEventListener('load', (e) => {
+                                                                        visitStatistic(null);
+                                    
+                                });
+
+                                var oauth = new OAuth();
+
+                                oauth.url__info = '/catalog/MyResearch/Info';
+                                oauth.userLogin = '';
+                                // oauth.getInfo();
+                                                                oauth.getInfo();
+                                //in case of login page
+                                oauth.initLoginForm();
+                                                            });
+                        </script>
+                                                                
+
+<li class="language&#x20;dropdown">  <ul class="dropdown-menu">
+          <li class="dropdown__item  active">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;ru" rel="nofollow">
+          Русский        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;by" rel="nofollow">
+          Белорусский        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;en" rel="nofollow">
+          Английский        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;de" rel="nofollow">
+          Deutsch        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;es" rel="nofollow">
+          Español        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;fr" rel="nofollow">
+          Français        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;zh" rel="nofollow">
+          中文（繁體）        </a>
+      </li>
+          <li class="dropdown__item ">
+        <a class="dropdown__link" href="&#x2F;catalog&#x2F;Author&#x2F;Home&#x3F;author&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x25;20&#x25;D0&#x25;9C.&#x25;20&#x25;D0&#x25;91.&#x25;20&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x25;201972&#x25;29&amp;lng&#x3D;pl" rel="nofollow">
+          polski        </a>
+      </li>
+      </ul>
+
+  <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Язык<span class="icon icon--font fa&#x20;fa-caret-down" role="img" aria-hidden="true"></span></button></li>                                    </ul>
+            </nav>
+        </div>
+    </div>
+<div class="container">
+    <div style="padding-bottom: 15px; width: 100%; display: flex; justify-content: center">
+                    <span class="nlb-title"
+                  style="font-size: 19pt; width: auto; font-weight: 700; text-align: center">Электронный каталог Национальной библиотеки Беларуси находится в тестовом режиме</span>
+            </div>
+</div>
+    <div class="search container navbar">
+
+        <div class="nav searchbox hidden-print" role="search">
+            <div class="well well-lg clearfix">
+                
+
+    <div>
+        <ul class="breadcrumb hidden-print gradient" style="height: 35px"></ul>
+    </div>
+    <form id="searchForm" class="searchForm navbar-form navbar-left  flip" style="width: 100%" method="get"
+          action="/catalog/Author/Home" name="searchForm" autocomplete="off">
+        <!--        -->        
+        <div class="flex flex-wrap" style="justify-content: end; padding-bottom: 10px">
+            <div style="" class="flex ">
+                <div style="padding-top: 10px;">
+                                            <button type="button"
+                                onclick="search(true, )" style="background-color: #7a00ff"
+                                class="btn btn-primary">Перейти в электронную библиотеку                        </button>
+                        <input value="false"
+                               checked="checked"
+                               style="display: none"
+                               type="radio"
+                               name="isElib"
+                        >
+                                    </div>
+            </div>
+        </div>
+        <div>
+            <input id="searchForm_lookfor" style="width: 100%"
+                   class="searchForm_lookfor form-control search-query autocomplete searcher:SolrAuthor ac-auto-submit"
+                   type="search" name="lookfor"
+                   value=""                   aria-label="search_terms">
+                            <select id="searchForm_type" class="searchForm_type form-control" name="type" data-native-menu="false"
+                        aria-label="Search&#x20;type">
+                                        
+                        
+                        <option value="AllFields">Все поля записи</option>
+                    
+                        
+                        <option value="Title">Заглавие</option>
+                    
+                        
+                        <option value="Author">Автор/Создатель</option>
+                    
+                        
+                        <option value="Subject">Предмет</option>
+                    
+                        
+                        <option value="ISN">ISBN/ISSN/...</option>
+                                                        </select>
+                        <button type="submit" id="search-btn"
+                    class="search-btn btn btn-primary"><span class="icon icon--font fa&#x20;fa-search" role="img" aria-hidden="true"></span> Найти</button>
+            <input class="clear-btn btn btn-default" style="background: #959595; color: white" type="button" onclick="clearSearchForm()"
+                   value="&#x041E;&#x0447;&#x0438;&#x0441;&#x0442;&#x0438;&#x0442;&#x044C;">
+                                            <a href="/catalog/Search/Advanced?edit=107019763" class="advanced-search-link btn btn-link"
+                   rel="nofollow">Расширенный поиск</a>
+                    </div>
+
+
+        
+                                <input type="hidden" name="limit" value="20"><input type="hidden" name="sort" value="relevance"><!--        --><!--        -->        
+<!--        -->    </form>
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+    <div class="container">
+                    <ul class="breadcrumb hidden-print gradient"><li><a href="/catalog/Author/Home">Автор/Создатель</a></li><li class="active">Герштейн, М. Б. (род. 1972)</li></ul>
+            </div>
+</nav>
+<div role="main" class="main">
+    <div id="content" class="container">
+
+        <!--        <ul class="breadcrumb hidden-print gradient" style="height: 35px"></ul>-->
+
+        <div class="row">
+<div class="mainbody left">
+                        <div class="hidden-print search-controls row">
+        <div class="col-sm-6 text-right" >
+                            Отображение                <strong>1</strong> - <strong>7</strong>
+                                                        из <strong>7</strong>
+                                                    для поиска: <strong>'Герштейн, М. Б. (род. 1972)'</strong>,
+                                                    время запроса: 0.01сек.                                <!-- 1) -->
+                    </div>
+
+          <div class="search-controls col-sm-6">
+          <form class="form-inline search-result-limit" style="justify-content: end" action="/catalog/Author/Home?author=%22%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29%22&amp;type=Author" method="get">
+    <input type="hidden" name="author" value="&quot;Герштейн, М. Б. (род. 1972)&quot;"><input type="hidden" name="type" value="Author">          <label for="limit">Результаты на странице</label>
+    <select id="limit" name="limit" class="jumpMenu form-control">
+              <option value="20" selected="selected">20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+          </select>
+    <noscript><input type="submit" value="&#x041F;&#x0440;&#x0438;&#x043C;&#x0435;&#x043D;&#x0438;&#x0442;&#x044C;"></noscript>
+  </form>
+          <form class="search-sort" action="/catalog/Author/Home" method="get" name="sort" style="justify-content: end">
+    <input type="hidden" name="author" value="&quot;Герштейн, М. Б. (род. 1972)&quot;"><input type="hidden" name="type" value="Author">          <label for="sort_options_1">Сортировка</label>
+    <select id="sort_options_1" name="sort" class="jumpMenu form-control" style="width: auto;">
+              <option value="relevance" selected="selected">Релевантность</option>
+              <option value="year">Дата (по убыванию)</option>
+              <option value="year&#x20;asc">Дата (по возрастанию)</option>
+              <option value="author">Автор</option>
+              <option value="title">Заглавие</option>
+          </select>
+    <noscript><input type="submit" class="btn btn-default" value="&#x041F;&#x0440;&#x0438;&#x043C;&#x0435;&#x043D;&#x0438;&#x0442;&#x044C;"></noscript>
+  </form>
+        <div class="view-buttons hidden-xs">
+  </div>
+      </div>
+      </div>
+  
+      <form id="search-cart-form" method="post" name="bulkActionForm" action="/catalog/Cart/SearchResultsBulk" data-lightbox data-lightbox-onsubmit="bulkFormHandler">
+        <nav class="bulkActionButtons">
+    <div class="bulk-checkbox">
+      <input type="checkbox" class="checkbox-select-all" name="selectAll" id="addFormCheckboxSelectAll">
+      <label for="addFormCheckboxSelectAll">
+        Выбрать все        &#124; снять выделение:
+      </label>
+        &nbsp;&nbsp;<b>Выбранные записи:</b>
+    </div>
+    <ul class="action-toolbar">
+              <li><button id="ribbon-email" class="toolbar-btn" type="submit" name="email" value="1" title="&#x041E;&#x0442;&#x043F;&#x0440;&#x0430;&#x0432;&#x0438;&#x0442;&#x044C;&#x20;&#x043F;&#x043E;&#x20;Email&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;"><span class="icon icon--font fa&#x20;fa-envelope" role="img" aria-hidden="true"></span> Email</button></li>
+                  <li><button id="ribbon-export" class="toolbar-btn" type="submit" name="export" value="1" title="&#x042D;&#x043A;&#x0441;&#x043F;&#x043E;&#x0440;&#x0442;&#x0438;&#x0440;&#x043E;&#x0432;&#x0430;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;"><span class="icon icon--font fa&#x20;fa-external-link" role="img" aria-hidden="true"></span> Экспорт</button></li>
+                <li><button id="ribbon-print" class="toolbar-btn" type="submit" name="print" value="1" title="&#x041F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0430;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;"><span class="icon icon--font fa&#x20;fa-print" role="img" aria-hidden="true"></span> Печать списка</button></li>
+                  <li><button id="ribbon-save" class="toolbar-btn" type="submit" name="saveCart" value="1" title="&#x0421;&#x043E;&#x0445;&#x0440;&#x0430;&#x043D;&#x0438;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;"><span class="icon icon--font fa&#x20;fa-bookmark-o" role="img" aria-hidden="true"></span> Сохранить в личный каталог</button></li>
+                        </ul>
+  </nav>
+   
+    <ol class="record-list&#x20;search-results-solr-author" start="1">
+              <li id="result0" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0000036059" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0000036059" form="search-cart-form">
+            <div class="record-number hidden-print">
+        1      </div>
+      <input type="hidden" value="BY-NLB-br0000036059" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0000036059 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0000036059')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000036059&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0000036059')" class="title getFull"
+                       data-view="full">
+                        Что скрывают уфологи: полтергейст, вампиризм, исчезновение людей / М. Б. Герштейн. - Москва : Тверь : АСТ : Санкт-Петербург, Сова, 2007. - 414, [1] с. -  (Книга-сенсация)                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0000036059 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000036059&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0000036059">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;A7&#x25;D1&#x25;82&#x25;D0&#x25;BE&#x2B;&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D1&#x25;80&#x25;D1&#x25;8B&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;D1&#x25;8E&#x25;D1&#x25;82&#x2B;&#x25;D1&#x25;83&#x25;D1&#x25;84&#x25;D0&#x25;BE&#x25;D0&#x25;BB&#x25;D0&#x25;BE&#x25;D0&#x25;B3&#x25;D0&#x25;B8&#x25;3A&#x2B;&#x25;D0&#x25;BF&#x25;D0&#x25;BE&#x25;D0&#x25;BB&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D1&#x25;81&#x25;D1&#x25;82&#x25;2C&#x2B;&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;D0&#x25;BC&#x25;D0&#x25;BF&#x25;D0&#x25;B8&#x25;D1&#x25;80&#x25;D0&#x25;B8&#x25;D0&#x25;B7&#x25;D0&#x25;BC&#x25;2C&#x2B;&#x25;D0&#x25;B8&#x25;D1&#x25;81&#x25;D1&#x25;87&#x25;D0&#x25;B5&#x25;D0&#x25;B7&#x25;D0&#x25;BD&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D0&#x25;B8&#x25;D0&#x25;B5&#x2B;&#x25;D0&#x25;BB&#x25;D1&#x25;8E&#x25;D0&#x25;B4&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A2&#x25;D0&#x25;B2&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;8C&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;BA&#x25;D1&#x25;82-&#x25;D0&#x25;9F&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B1&#x25;D1&#x25;83&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;2C&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;2C&#x2B;2007.&#x2B;-&#x2B;414&#x25;2C&#x2B;&#x25;5B1&#x25;5D&#x2B;&#x25;D1&#x25;81.&#x2B;-&#x2B;&#x2B;&#x25;28&#x25;D0&#x25;9A&#x25;D0&#x25;BD&#x25;D0&#x25;B8&#x25;D0&#x25;B3&#x25;D0&#x25;B0-&#x25;D1&#x25;81&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D0&#x25;B0&#x25;D1&#x25;86&#x25;D0&#x25;B8&#x25;D1&#x25;8F&#x25;29&amp;rft.date&#x3D;2007&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result1" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0000055213" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0000055213" form="search-cart-form">
+            <div class="record-number hidden-print">
+        2      </div>
+      <input type="hidden" value="BY-NLB-br0000055213" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0000055213 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0000055213')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000055213&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0000055213')" class="title getFull"
+                       data-view="full">
+                        Тайны крушений НЛО / Михаил Герштейн. - Москва : Тверь : АСТ : Санкт-Петербург, Сова, 2007. - 412, [3] с. -  (Все тайны Земли)                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0000055213 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000055213&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0000055213">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;A2&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;BA&#x25;D1&#x25;80&#x25;D1&#x25;83&#x25;D1&#x25;88&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D0&#x25;B8&#x25;D0&#x25;B9&#x2B;&#x25;D0&#x25;9D&#x25;D0&#x25;9B&#x25;D0&#x25;9E&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A2&#x25;D0&#x25;B2&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;8C&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;BA&#x25;D1&#x25;82-&#x25;D0&#x25;9F&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B1&#x25;D1&#x25;83&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;2C&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;2C&#x2B;2007.&#x2B;-&#x2B;412&#x25;2C&#x2B;&#x25;5B3&#x25;5D&#x2B;&#x25;D1&#x25;81.&#x2B;-&#x2B;&#x2B;&#x25;28&#x25;D0&#x25;92&#x25;D1&#x25;81&#x25;D0&#x25;B5&#x2B;&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;97&#x25;D0&#x25;B5&#x25;D0&#x25;BC&#x25;D0&#x25;BB&#x25;D0&#x25;B8&#x25;29&amp;rft.date&#x3D;2007&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result2" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0000135158" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0000135158" form="search-cart-form">
+            <div class="record-number hidden-print">
+        3      </div>
+      <input type="hidden" value="BY-NLB-br0000135158" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0000135158 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0000135158')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000135158&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0000135158')" class="title getFull"
+                       data-view="full">
+                        Тайны крушений НЛО / Михаил Герштейн. - Москва : Тверь : АСТ : Санкт-Петербург, Сова, 2007. - 412, [3] c. -  (Все тайны Земли)                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0000135158 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000135158&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0000135158">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;A2&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;BA&#x25;D1&#x25;80&#x25;D1&#x25;83&#x25;D1&#x25;88&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D0&#x25;B8&#x25;D0&#x25;B9&#x2B;&#x25;D0&#x25;9D&#x25;D0&#x25;9B&#x25;D0&#x25;9E&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A2&#x25;D0&#x25;B2&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;8C&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;BA&#x25;D1&#x25;82-&#x25;D0&#x25;9F&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B1&#x25;D1&#x25;83&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;2C&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;2C&#x2B;2007.&#x2B;-&#x2B;412&#x25;2C&#x2B;&#x25;5B3&#x25;5D&#x2B;c.&#x2B;-&#x2B;&#x2B;&#x25;28&#x25;D0&#x25;92&#x25;D1&#x25;81&#x25;D0&#x25;B5&#x2B;&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;97&#x25;D0&#x25;B5&#x25;D0&#x25;BC&#x25;D0&#x25;BB&#x25;D0&#x25;B8&#x25;29&amp;rft.date&#x3D;2007&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result3" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0000531427" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0000531427" form="search-cart-form">
+            <div class="record-number hidden-print">
+        4      </div>
+      <input type="hidden" value="BY-NLB-br0000531427" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0000531427 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0000531427')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000531427&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0000531427')" class="title getFull"
+                       data-view="full">
+                        Тайны НЛО и пришельцев / Михаил Герштейн. - Москва : АСТ : Санкт-Петербург, Сова, 2007. - 413, [2] с. -  (Все тайны Земли)                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0000531427 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0000531427&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0000531427">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;A2&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;9D&#x25;D0&#x25;9B&#x25;D0&#x25;9E&#x2B;&#x25;D0&#x25;B8&#x2B;&#x25;D0&#x25;BF&#x25;D1&#x25;80&#x25;D0&#x25;B8&#x25;D1&#x25;88&#x25;D0&#x25;B5&#x25;D0&#x25;BB&#x25;D1&#x25;8C&#x25;D1&#x25;86&#x25;D0&#x25;B5&#x25;D0&#x25;B2&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;BA&#x25;D1&#x25;82-&#x25;D0&#x25;9F&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B1&#x25;D1&#x25;83&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;2C&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;2C&#x2B;2007.&#x2B;-&#x2B;413&#x25;2C&#x2B;&#x25;5B2&#x25;5D&#x2B;&#x25;D1&#x25;81.&#x2B;-&#x2B;&#x2B;&#x25;28&#x25;D0&#x25;92&#x25;D1&#x25;81&#x25;D0&#x25;B5&#x2B;&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;97&#x25;D0&#x25;B5&#x25;D0&#x25;BC&#x25;D0&#x25;BB&#x25;D0&#x25;B8&#x25;29&amp;rft.date&#x3D;2007&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;90&#x25;D0&#x25;A1&#x25;D0&#x25;A2&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;B0&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result4" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0001178324" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0001178324" form="search-cart-form">
+            <div class="record-number hidden-print">
+        5      </div>
+      <input type="hidden" value="BY-NLB-br0001178324" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0001178324 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0001178324')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001178324&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0001178324')" class="title getFull"
+                       data-view="full">
+                        Нежить, или Таинственные существа: что скрывается за порогом нашей реальности? / Михаил Герштейн, Вадим Деружинский. - Минск : ФУАинформ, 2015. - 526, [1] с.                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0001178324 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001178324&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0001178324">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;9D&#x25;D0&#x25;B5&#x25;D0&#x25;B6&#x25;D0&#x25;B8&#x25;D1&#x25;82&#x25;D1&#x25;8C&#x25;2C&#x2B;&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x25;D0&#x25;B8&#x2B;&#x25;D0&#x25;A2&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D1&#x25;82&#x25;D0&#x25;B2&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x25;D0&#x25;B5&#x2B;&#x25;D1&#x25;81&#x25;D1&#x25;83&#x25;D1&#x25;89&#x25;D0&#x25;B5&#x25;D1&#x25;81&#x25;D1&#x25;82&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;3A&#x2B;&#x25;D1&#x25;87&#x25;D1&#x25;82&#x25;D0&#x25;BE&#x2B;&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D1&#x25;80&#x25;D1&#x25;8B&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D1&#x25;81&#x25;D1&#x25;8F&#x2B;&#x25;D0&#x25;B7&#x25;D0&#x25;B0&#x2B;&#x25;D0&#x25;BF&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B3&#x25;D0&#x25;BE&#x25;D0&#x25;BC&#x2B;&#x25;D0&#x25;BD&#x25;D0&#x25;B0&#x25;D1&#x25;88&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x2B;&#x25;D1&#x25;80&#x25;D0&#x25;B5&#x25;D0&#x25;B0&#x25;D0&#x25;BB&#x25;D1&#x25;8C&#x25;D0&#x25;BD&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D1&#x25;82&#x25;D0&#x25;B8&#x25;3F&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;92&#x25;D0&#x25;B0&#x25;D0&#x25;B4&#x25;D0&#x25;B8&#x25;D0&#x25;BC&#x2B;&#x25;D0&#x25;94&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;83&#x25;D0&#x25;B6&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B8&#x25;D0&#x25;B9.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;A4&#x25;D0&#x25;A3&#x25;D0&#x25;90&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;84&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;BC&#x25;2C&#x2B;2015.&#x2B;-&#x2B;526&#x25;2C&#x2B;&#x25;5B1&#x25;5D&#x2B;&#x25;D1&#x25;81.&amp;rft.date&#x3D;2015&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;A4&#x25;D0&#x25;A3&#x25;D0&#x25;90&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;84&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;BC&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result5" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0001475046" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0001475046" form="search-cart-form">
+            <div class="record-number hidden-print">
+        6      </div>
+      <input type="hidden" value="BY-NLB-br0001475046" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0001475046 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0001475046')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001475046&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0001475046')" class="title getFull"
+                       data-view="full">
+                        Легенды аномального мира: от &quot;летающих тарелок&quot; до Бермуд / Михаил Герштейн. - Москва : Вече, 2018. - 319 с. -  (Тайны. Загадки. Сенсации)                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29&amp;"
+                            class="result-author"><mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                                <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>) Михаил Борисович...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0001475046 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001475046&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0001475046">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;9B&#x25;D0&#x25;B5&#x25;D0&#x25;B3&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D0&#x25;B4&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;BE&#x25;D0&#x25;BC&#x25;D0&#x25;B0&#x25;D0&#x25;BB&#x25;D1&#x25;8C&#x25;D0&#x25;BD&#x25;D0&#x25;BE&#x25;D0&#x25;B3&#x25;D0&#x25;BE&#x2B;&#x25;D0&#x25;BC&#x25;D0&#x25;B8&#x25;D1&#x25;80&#x25;D0&#x25;B0&#x25;3A&#x2B;&#x25;D0&#x25;BE&#x25;D1&#x25;82&#x2B;&#x25;22&#x25;D0&#x25;BB&#x25;D0&#x25;B5&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D1&#x25;8E&#x25;D1&#x25;89&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x2B;&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D1&#x25;80&#x25;D0&#x25;B5&#x25;D0&#x25;BB&#x25;D0&#x25;BE&#x25;D0&#x25;BA&#x25;22&#x2B;&#x25;D0&#x25;B4&#x25;D0&#x25;BE&#x2B;&#x25;D0&#x25;91&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;BC&#x25;D1&#x25;83&#x25;D0&#x25;B4&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D1&#x25;85&#x25;D0&#x25;B0&#x25;D0&#x25;B8&#x25;D0&#x25;BB&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;BE&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x25;D0&#x25;B2&#x25;D0&#x25;B0&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;92&#x25;D0&#x25;B5&#x25;D1&#x25;87&#x25;D0&#x25;B5&#x25;2C&#x2B;2018.&#x2B;-&#x2B;319&#x2B;&#x25;D1&#x25;81.&#x2B;-&#x2B;&#x2B;&#x25;28&#x25;D0&#x25;A2&#x25;D0&#x25;B0&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B.&#x2B;&#x25;D0&#x25;97&#x25;D0&#x25;B0&#x25;D0&#x25;B3&#x25;D0&#x25;B0&#x25;D0&#x25;B4&#x25;D0&#x25;BA&#x25;D0&#x25;B8.&#x2B;&#x25;D0&#x25;A1&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D0&#x25;B0&#x25;D1&#x25;86&#x25;D0&#x25;B8&#x25;D0&#x25;B8&#x25;29&amp;rft.date&#x3D;2018&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1972&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;92&#x25;D0&#x25;B5&#x25;D1&#x25;87&#x25;D0&#x25;B5&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+                  <li id="result6" class="result ajaxItem" data-record-number="0">
+              <label class="record-checkbox hidden-print">
+  <input class="checkbox-select-item" type="checkbox" name="ids[]" value="Solr&#x7C;BY-NLB-br0001741836" form="search-cart-form">
+  <span class="checkbox-icon"></span>
+  <span class="sr-only">result_checkbox_label</span></label>
+<input type="hidden" name="idsAll[]" value="Solr&#x7C;BY-NLB-br0001741836" form="search-cart-form">
+            <div class="record-number hidden-print">
+        7      </div>
+      <input type="hidden" value="BY-NLB-br0001741836" class="hiddenId">
+<input type="hidden" value="Solr" class="hiddenSource">
+<div class="media">
+            
+    <div style="width: 130px"
+         class="hidden-print thumbnail_BY-NLB-br0001741836 media-left medium">
+        <div>
+            <div>
+                                                            <img height="120" src="/themes/root/images/default-cover.png"/>
+                    
+                                </div>
+
+        </div>
+    </div>
+
+    <script  nonce="dUEbcFQMLP3lkiQWvefIg7geYjuJgQczqkVUX3WumL4&#x3D;">
+    //<!--
+    loadThumbnail('BY-NLB-br0001741836')
+    //-->
+</script>
+            <div class="media-body">
+        <div class="result-body col-sm-8">
+            <div>
+                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001741836&#x3F;sid&#x3D;107019763"
+                       onclick="onClickDoc('BY-NLB-br0001741836')" class="title getFull"
+                       data-view="full">
+                        Большая охота на призрачных авиаторов: забытые страницы Первой мировой войны в документах 1914―1916 годов / И. С. Бутов, М. Б. Герштейн. - Минск : Колорград, 2022. - 469, [2] с., [8] л. цв. ил.                    </a>
+                                            </div>
+
+            <div class="hidden-print">
+                                                            Автор                                                    <a
+                            href="/catalog/Author/Home?author=%D0%91%D1%83%D1%82%D0%BE%D0%B2%2C+%D0%98.+%D0%A1.+%28%D1%80%D0%BE%D0%B4.+1983%29&amp;"
+                            class="result-author">Бутов, И. С. (род. 1983)</a>                                            
+                    <!--                    --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        --><!--                        <a href="--><!--">--><!--</a>-->
+<!--                        --><!--                    --><!--                        --><!--                        --><!--                    -->                                                </div>
+
+
+                                                <strong>Другие авторы/ответственные:</strong> ';
+                                                    <span class="quotestart">&#8220;</span>...<mark>Герштейн</mark>, <mark>М</mark>. <mark>Б</mark>. (<mark>род</mark>. <mark>1972</mark>)...<span
+                            class="quoteend">&#8221;</span><br/>
+                                        
+            
+
+                                                            
+            <div class="result-formats">
+
+                      <span class="format hidden-print formatbook">Книги</span>
+  
+                
+            </div>
+
+            <div class="result-previews">
+                            </div>
+            <div class="hidden-print" style="display: flex">
+                <div style=" padding-left: 2px">
+                    <img width="30" height="30" class="img_BY-NLB-br0001741836 ">
+                </div>
+                            </div>
+        </div>
+        <div class="result-links hidden-print">
+            
+            
+                                                                    <a href="&#x2F;catalog&#x2F;Record&#x2F;BY-NLB-br0001741836&#x2F;Save&#x3F;sid&#x3D;107019763"
+                       data-lightbox class="save-record result-link icon-link"
+                       data-id="BY-NLB-br0001741836">
+                        <span class="icon icon--font fa&#x20;fa-star icon-link__icon" role="img" aria-hidden="true"></span>                        <span class="result-link-label icon-link__label">Добавить в Избранное</span>
+                    </a><br>
+                                                <div class="savedLists">
+                    <strong>Сохранено в:</strong>
+                </div>
+                                    
+            <span class="Z3988" title="url_ver&#x3D;Z39.88-2004&amp;ctx_ver&#x3D;Z39.88-2004&amp;ctx_enc&#x3D;info&#x25;3Aofi&#x25;2Fenc&#x25;3AUTF-8&amp;rfr_id&#x3D;info&#x25;3Asid&#x25;2Fvufind.svn.sourceforge.net&#x25;3Agenerator&amp;rft.title&#x3D;&#x25;D0&#x25;91&#x25;D0&#x25;BE&#x25;D0&#x25;BB&#x25;D1&#x25;8C&#x25;D1&#x25;88&#x25;D0&#x25;B0&#x25;D1&#x25;8F&#x2B;&#x25;D0&#x25;BE&#x25;D1&#x25;85&#x25;D0&#x25;BE&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x2B;&#x25;D0&#x25;BD&#x25;D0&#x25;B0&#x2B;&#x25;D0&#x25;BF&#x25;D1&#x25;80&#x25;D0&#x25;B8&#x25;D0&#x25;B7&#x25;D1&#x25;80&#x25;D0&#x25;B0&#x25;D1&#x25;87&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x25;D1&#x25;85&#x2B;&#x25;D0&#x25;B0&#x25;D0&#x25;B2&#x25;D0&#x25;B8&#x25;D0&#x25;B0&#x25;D1&#x25;82&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;3A&#x2B;&#x25;D0&#x25;B7&#x25;D0&#x25;B0&#x25;D0&#x25;B1&#x25;D1&#x25;8B&#x25;D1&#x25;82&#x25;D1&#x25;8B&#x25;D0&#x25;B5&#x2B;&#x25;D1&#x25;81&#x25;D1&#x25;82&#x25;D1&#x25;80&#x25;D0&#x25;B0&#x25;D0&#x25;BD&#x25;D0&#x25;B8&#x25;D1&#x25;86&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;9F&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D0&#x25;B2&#x25;D0&#x25;BE&#x25;D0&#x25;B9&#x2B;&#x25;D0&#x25;BC&#x25;D0&#x25;B8&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;D0&#x25;BE&#x25;D0&#x25;B9&#x2B;&#x25;D0&#x25;B2&#x25;D0&#x25;BE&#x25;D0&#x25;B9&#x25;D0&#x25;BD&#x25;D1&#x25;8B&#x2B;&#x25;D0&#x25;B2&#x2B;&#x25;D0&#x25;B4&#x25;D0&#x25;BE&#x25;D0&#x25;BA&#x25;D1&#x25;83&#x25;D0&#x25;BC&#x25;D0&#x25;B5&#x25;D0&#x25;BD&#x25;D1&#x25;82&#x25;D0&#x25;B0&#x25;D1&#x25;85&#x2B;1914&#x25;E2&#x25;80&#x25;951916&#x2B;&#x25;D0&#x25;B3&#x25;D0&#x25;BE&#x25;D0&#x25;B4&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x2B;&#x25;2F&#x2B;&#x25;D0&#x25;98.&#x2B;&#x25;D0&#x25;A1.&#x2B;&#x25;D0&#x25;91&#x25;D1&#x25;83&#x25;D1&#x25;82&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;2C&#x2B;&#x25;D0&#x25;9C.&#x2B;&#x25;D0&#x25;91.&#x2B;&#x25;D0&#x25;93&#x25;D0&#x25;B5&#x25;D1&#x25;80&#x25;D1&#x25;88&#x25;D1&#x25;82&#x25;D0&#x25;B5&#x25;D0&#x25;B9&#x25;D0&#x25;BD.&#x2B;-&#x2B;&#x25;D0&#x25;9C&#x25;D0&#x25;B8&#x25;D0&#x25;BD&#x25;D1&#x25;81&#x25;D0&#x25;BA&#x2B;&#x25;3A&#x2B;&#x25;D0&#x25;9A&#x25;D0&#x25;BE&#x25;D0&#x25;BB&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;D1&#x25;80&#x25;D0&#x25;B0&#x25;D0&#x25;B4&#x25;2C&#x2B;2022.&#x2B;-&#x2B;469&#x25;2C&#x2B;&#x25;5B2&#x25;5D&#x2B;&#x25;D1&#x25;81.&#x25;2C&#x2B;&#x25;5B8&#x25;5D&#x2B;&#x25;D0&#x25;BB.&#x2B;&#x25;D1&#x25;86&#x25;D0&#x25;B2.&#x2B;&#x25;D0&#x25;B8&#x25;D0&#x25;BB.&amp;rft.date&#x3D;2022&amp;rft_val_fmt&#x3D;info&#x25;3Aofi&#x25;2Ffmt&#x25;3Akev&#x25;3Amtx&#x25;3Adc&amp;rft.creator&#x3D;&#x25;D0&#x25;91&#x25;D1&#x25;83&#x25;D1&#x25;82&#x25;D0&#x25;BE&#x25;D0&#x25;B2&#x25;2C&#x2B;&#x25;D0&#x25;98.&#x2B;&#x25;D0&#x25;A1.&#x2B;&#x25;28&#x25;D1&#x25;80&#x25;D0&#x25;BE&#x25;D0&#x25;B4.&#x2B;1983&#x25;29&amp;rft.pub&#x3D;&#x25;D0&#x25;9A&#x25;D0&#x25;BE&#x25;D0&#x25;BB&#x25;D0&#x25;BE&#x25;D1&#x25;80&#x25;D0&#x25;B3&#x25;D1&#x25;80&#x25;D0&#x25;B0&#x25;D0&#x25;B4&amp;rft.format&#x3D;Format_Book&amp;rft.language&#x3D;rus"></span>        </div>
+    </div>
+    </div>
+    </li>
+      </ol>
+      <nav class="bulkActionButtons">
+    <div class="bulk-checkbox">
+      <input type="checkbox" class="checkbox-select-all" name="selectAll" id="bottom_addFormCheckboxSelectAll" form="search-cart-form">
+      <label for="bottom_addFormCheckboxSelectAll">
+        Выбрать все        &#124; снять выделение:
+      </label>
+        &nbsp;&nbsp;<b>Выбранные записи:</b>
+    </div>
+    <ul class="action-toolbar">
+              <li><button id="bottom_ribbon-email" class="toolbar-btn" type="submit" name="email" value="1" title="&#x041E;&#x0442;&#x043F;&#x0440;&#x0430;&#x0432;&#x0438;&#x0442;&#x044C;&#x20;&#x043F;&#x043E;&#x20;Email&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;" form="search-cart-form"><span class="icon icon--font fa&#x20;fa-envelope" role="img" aria-hidden="true"></span> Email</button></li>
+                  <li><button id="bottom_ribbon-export" class="toolbar-btn" type="submit" name="export" value="1" title="&#x042D;&#x043A;&#x0441;&#x043F;&#x043E;&#x0440;&#x0442;&#x0438;&#x0440;&#x043E;&#x0432;&#x0430;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;" form="search-cart-form"><span class="icon icon--font fa&#x20;fa-external-link" role="img" aria-hidden="true"></span> Экспорт</button></li>
+                <li><button id="bottom_ribbon-print" class="toolbar-btn" type="submit" name="print" value="1" title="&#x041F;&#x0435;&#x0447;&#x0430;&#x0442;&#x0430;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;" form="search-cart-form"><span class="icon icon--font fa&#x20;fa-print" role="img" aria-hidden="true"></span> Печать списка</button></li>
+                  <li><button id="bottom_ribbon-save" class="toolbar-btn" type="submit" name="saveCart" value="1" title="&#x0421;&#x043E;&#x0445;&#x0440;&#x0430;&#x043D;&#x0438;&#x0442;&#x044C;&#x20;&#x0432;&#x044B;&#x0431;&#x0440;&#x0430;&#x043D;&#x043D;&#x044B;&#x0435;" form="search-cart-form"><span class="icon icon--font fa&#x20;fa-bookmark-o" role="img" aria-hidden="true"></span> Сохранить в личный каталог</button></li>
+                        </ul>
+  </nav>
+      <nav aria-label="pagination_label">
+    <ul class="pagination">
+      
+      
+          </ul>
+  </nav>
+    <div class="searchtools hidden-print">
+  <strong>Инструменты поиска:</strong>
+  <a class="icon-link" href="?author=%22%D0%93%D0%B5%D1%80%D1%88%D1%82%D0%B5%D0%B9%D0%BD%2C+%D0%9C.+%D0%91.+%28%D1%80%D0%BE%D0%B4.+1972%29%22&amp;type=Author&amp;view=rss">
+    <span class="icon icon--font fa&#x20;fa-rss icon-link__icon" role="img" aria-hidden="true"></span>    <span class="icon-link__label">RSS-поток</span>
+  </a>
+  &ndash;
+  <a class="icon-link mailSearch" href="/catalog/Search/Email" data-lightbox id="mailSearch107019763">
+    <span class="icon icon--font fa&#x20;fa-envelope icon-link__icon" role="img" aria-hidden="true"></span>    <span class="icon-link__label">Отправить результаты поиска по Email</span>
+  </a>
+      &ndash;
+          <a class="icon-link" href="/catalog/MyResearch/SaveSearch?save=107019763">
+        <span class="icon icon--font fa&#x20;fa-floppy-o icon-link__icon" role="img" aria-hidden="true"></span>        <span class="icon-link__label">Сохранить запрос</span>
+      </a>
+          </div>
+    </form>
+  </div>
+
+<div class="sidebar right hidden-print" id="search-sidebar">
+        <div class="sidegroup">
+     <h4>Связанные темы</h4>
+    <div class="list-group">
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9D%D0%95%D0%9E%D0%91%D0%AA%D0%AF%D0%A1%D0%9D%D0%98%D0%9C%D0%AB%D0%95+%D0%AF%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%AF%22">НЕОБЪЯСНИМЫЕ ЯВЛЕНИЯ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9D%D0%95%D0%9E%D0%9F%D0%9E%D0%97%D0%9D%D0%90%D0%9D%D0%9D%D0%AB%D0%95+%D0%9B%D0%95%D0%A2%D0%90%D0%AE%D0%A9%D0%98%D0%95+%D0%9E%D0%91%D0%AA%D0%95%D0%9A%D0%A2%D0%AB%22">НЕОПОЗНАННЫЕ ЛЕТАЮЩИЕ ОБЪЕКТЫ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%A3%D0%A4%D0%9E%D0%9B%D0%9E%D0%93%D0%98%D0%AF%22">УФОЛОГИЯ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%92%D0%9D%D0%95%D0%97%D0%95%D0%9C%D0%9D%D0%AB%D0%95+%D0%A6%D0%98%D0%92%D0%98%D0%9B%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%98%22">ВНЕЗЕМНЫЕ ЦИВИЛИЗАЦИИ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%98%D0%9D%D0%9E%D0%9F%D0%9B%D0%90%D0%9D%D0%95%D0%A2%D0%AF%D0%9D%D0%95%22">ИНОПЛАНЕТЯНЕ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%90%D0%A0%D0%A5%D0%98%D0%92%D0%9D%D0%AB%D0%95+%D0%9C%D0%90%D0%A2%D0%95%D0%A0%D0%98%D0%90%D0%9B%D0%AB%22">АРХИВНЫЕ МАТЕРИАЛЫ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%22">Беларусь</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%92%D0%90%D0%9C%D0%9F%D0%98%D0%A0%D0%98%D0%97%D0%9C+%28%D0%BF%D0%B0%D1%80%D0%B0%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB.%29%22">ВАМПИРИЗМ (парапсихол.)</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%92%D0%9E%D0%95%D0%9D%D0%9D%D0%90%D0%AF+%D0%98%D0%A1%D0%A2%D0%9E%D0%A0%D0%98%D0%AF%22">ВОЕННАЯ ИСТОРИЯ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%94%D0%98%D0%A0%D0%98%D0%96%D0%90%D0%91%D0%9B%D0%98%22">ДИРИЖАБЛИ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9B%D0%95%D0%A2%D0%90%D0%A2%D0%95%D0%9B%D0%AC%D0%9D%D0%AB%D0%95+%D0%90%D0%9F%D0%9F%D0%90%D0%A0%D0%90%D0%A2%D0%AB%22">ЛЕТАТЕЛЬНЫЕ АППАРАТЫ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9F%D0%95%D0%A0%D0%92%D0%90%D0%AF+%D0%9C%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%AF+%D0%92%D0%9E%D0%99%D0%9D%D0%90+1914%E2%80%941918%22">ПЕРВАЯ МИРОВАЯ ВОЙНА 1914—1918</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9F%D0%9E%D0%9B%D0%A2%D0%95%D0%A0%D0%93%D0%95%D0%99%D0%A1%D0%A2%22">ПОЛТЕРГЕЙСТ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9F%D0%A0%D0%98%D0%92%D0%98%D0%94%D0%95%D0%9D%D0%98%D0%AF%22">ПРИВИДЕНИЯ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%9F%D0%A1%D0%98-%D0%A4%D0%95%D0%9D%D0%9E%D0%9C%D0%95%D0%9D%D0%AB%22">ПСИ-ФЕНОМЕНЫ</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F+%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D1%8F%22">Российская империя</a>
+              <a class="list-group-item" href="/catalog/Search/Results?filter%5B%5D=topic_facet%3A%22%D0%A1%D0%90%D0%9C%D0%9E%D0%9B%D0%95%D0%A2%D0%AB%22">САМОЛЕТЫ</a>
+          </div>
+   </div>
+  </div>
+</div>    </div>
+</div>
+<div class="container ">
+    </div>
+<footer class="hidden-print">
+    <div class="container">
+        <div class="row">
+            <div class="footer-column">
+                                <h2>Опции поиска</h2>
+                <ul>
+                    <li><a href="/catalog/Search/History">История поисков</a></li>
+                    <li><a href="/catalog/Search/Advanced">Расширенный поиск</a>
+                    </li>
+                    <li><a href="/catalog/Search/NewItem">Новые документы НББ</a></li>
+                </ul>
+                            </div>
+
+            <div class="footer-column">
+                                <h2>Нужна справка? Она ниже. Помощь</h2>
+                <ul>
+                    <li><a href="/catalog/Help/Home?topic=search&amp;_=1778145478" data-lightbox
+                           class="help-link">Советы для поиска</a></li>
+                    <li><a href="https://spravka.nlb.by/" target="_blank">Обратитесь к библиотекарю</a>
+                    </li>
+                    <li><a href="https://www.nlb.by/content/chitatelyu/chasto-zadavaemye-voprosy/test.php"
+                           target="_blank">Помощь по работе в Электронном каталоге</a></li>
+                    <li><a href="https://www.nlb.by/content/chitatelyu/videouroki/Veb-kataloh-NBB-1.mp4"
+                           target="_blank">Видеоурок: Поиск по фондам библиотеки</a></li>
+                </ul>
+                            </div>
+        </div>
+    </div>
+    <div class="poweredby">
+            </div>
+</footer>
+<!-- MODAL IN CASE WE NEED ONE -->
+
+
+<div id="modal" class="modal fade hidden-print" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal">
+                <span class="icon icon--font fa&#x20;fa-times" aria-label="Close" role="img" aria-hidden="true"></span>            </button>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="offcanvas-overlay" data-toggle="offcanvas"></div>
+
+
+
+<div class="hidden-print" style="position: fixed; right: 20px; bottom: 20px"
+     title="Форма обратной связи">
+    <a href="/catalog/MyResearch/Feedback" data-lightbox>
+        <i class="feedback-icon-nlb"
+           aria-hidden="true" style="display: block; width: 55px; height: 55px"></i>
+    </a>
+</div>
+
+<noscript><div><img src="https://mc.yandex.ru/watch/98943022" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Google tag (gtag.js) -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-9PL163EYQL"></script>-->
+
+</body>
+</html>

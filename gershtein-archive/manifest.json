@@ -1,0 +1,800 @@
+{
+  "repo_layout_version": 1,
+  "archive": "gershtein-archive",
+  "subject": "Mikhail B. Gershtein (Михаил Борисович Герштейн)",
+  "subject_dob": "1972-07-27",
+  "gathered_on": "2026-05-07",
+  "source": {
+    "tool": "Perplexity Library dialog",
+    "perplexity_url": "https://www.perplexity.ai/search/3533ca17-d2ab-4213-ad76-12cf61ee2f5f",
+    "query": "найди все интервью Михаила Герштейна, статьи связанные с UAP, НЛО, реинкорнацией сознаний и так далее",
+    "links_extracted": 55
+  },
+  "pipeline": {
+    "video_download": "yt-dlp 2026.03.17 (best <=720p, mp4)",
+    "audio_extraction": "ffmpeg libmp3lame q=7, mono, 16 kHz",
+    "transcription_primary": "Groq Whisper-large-v3 (hit ASPH rate limit after ~7 chunks)",
+    "transcription_actual": "voxtype on PC2 (Whisper-large-v3-turbo, Vulkan/RTX 3060)",
+    "transcription_date": "2026-05-07"
+  },
+  "storage": {
+    "raw_videos_path": "/mnt/data/uap-gershtein-raw/videos/   (24 GB, NOT in git)",
+    "raw_audio_path": "/mnt/data/uap-gershtein-raw/audio/    (1.1 GB, NOT in git)",
+    "srt_subtitles_path": "/mnt/data/uap-gershtein-raw/videos/*.srt   (NOT in git; can be regenerated)",
+    "thumbnails_path": "/mnt/data/uap-gershtein-raw/videos/*.webp  (NOT in git)"
+  },
+  "counts": {
+    "transcripts": 62,
+    "video_metadata_info_json": 62,
+    "mp4_on_mnt_data": 62,
+    "mp3_on_mnt_data": 62,
+    "articles_committed": 21,
+    "articles_extracted_text": 5,
+    "books_catalog_pages": 8,
+    "books_full_texts": 2,
+    "irrelevant_filtered": 5,
+    "unavailable_youtube": 1,
+    "paywalled_skipped": 2
+  },
+  "transcript_renames": {
+    "_--E4uLtcIuz0-2016_-_..txt": "transcripts/01_Fenist-2016_aperitiv_Mikhail_Gershteyn_o_nauke_i_voobrazheni_49s.txt",
+    "UnionKOSMOPOISK-bYl9Emd0Aww-..txt": "transcripts/02_Mikhail_Gershteyn_Geomantiya_zemnye_ogni_i_ufologiya_2h38.txt",
+    "UnionKOSMOPOISK-UgoPZB7TWis-._._70_..txt": "transcripts/03_M_Gershteyn_70_let_ery_NLO_Perspektivy_ufologii_chto_sdelano_1h29.txt",
+    "UnionKOSMOPOISK-6tXQhZ02Ys8-._._-_._1.txt": "transcripts/04_M_Gershteyn_Podvodnye_NLO_korabli-prizraki_i_svetyaschiesya_1h19.txt",
+    "UnionKOSMOPOISK-2Zb4M7hvmtk-._._70.txt": "transcripts/05_Gershteyn_M_B_70_let_ufologii_kratkie_itogi_puti_i_perspekti_1h11.txt",
+    "UnionKOSMOPOISK-QC4P9EAW7aY-._..txt": "transcripts/06_Gershteyn_M_B_Po_sledam_tainstvennykh_ischeznoveniy_28m.txt",
+    "UnionKOSMOPOISK-LupNBSxcpBA-..txt": "transcripts/07_Mikhail_Gershteyn_SHarovye_molnii_NLO_i_atmosfernaya_plazma_57m.txt",
+    "NOZP-LixOewlU4T8-13.txt": "transcripts/08_NLO_problema_bez_granits_Mikhail_Gershteyn_Neobyasnimaya_vst_2h39.txt",
+    "TV_Extra-yzM86t19N-s-1_3.txt": "transcripts/09_Intervyu_s_ufologom_Mikhailom_Gershteynom_o_NLO_kontakterakh_34m.txt",
+    "TV_Extra-upGfoU5PBDs-._III.txt": "transcripts/10_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_31m.txt",
+    "UnionKOSMOPOISK-QwuJCnr1ReM-._..txt": "transcripts/11_M_Gershteyn_Tayny_okeanov_podlinnye_i_mnimye_2h22.txt",
+    "UnionKOSMOPOISK-OOoJuL7K-f8-..txt": "transcripts/12_Mikhail_Gershteyn_Nablyudeniya_NLO_do_poyavleniya_aviatsii_1h50.txt",
+    "UnionKOSMOPOISK-ZG00j0zeUTg-._2022.txt": "transcripts/13_Mikhail_Gershteyn_Ufologiya_cherez_vzaimodeystvie_cheloveka_1h00.txt",
+    "UnionKOSMOPOISK-uppHXhc9VH0-._-_2022.txt": "transcripts/14_Mikhail_Gershteyn_Ufologiya_i_kriptozoologiya_neozhidannye_v_1h58.txt",
+    "_-5NrfaUPWOEM-2023.txt": "transcripts/15_Svyaz_NLO_i_anomalnykh_zon_lektsiya_ufologa_Mikhaila_Gershte_2h57.txt",
+    "UnionKOSMOPOISK-mIHKNQw7m8k-2023.txt": "transcripts/16_Mikhail_Gershteyn_otvechaet_na_voprosy_2023_27m.txt",
+    "UnionKOSMOPOISK-AzIThQa4l8k-._2023.txt": "transcripts/17_Mikhail_Gershteyn_NLO_i_zhizn_posle_smerti_2023_1h04.txt",
+    "UnionKOSMOPOISK-BhmtgSeCOU4-._2023.txt": "transcripts/18_Mikhail_Gershteyn_Otvety_na_voprosy_2023_39m.txt",
+    "UnionKOSMOPOISK-eNEuahbHlF8-._2024.txt": "transcripts/19_Mikhail_Gershteyn_Avtomatizatsiya_izucheniya_NLO_2024_1h08.txt",
+    "NOZP-7X9AViFvYXA-UFO_UAP.txt": "transcripts/20_Novyy_period_v_ufologii_UFO_i_UAP_Mikhail_Gershteyn_2h25.txt",
+    "_-odqOtOgRHk8-_.txt": "transcripts/21_Ufolog_Mikhail_Gershteyn_i_issledovatel_poltergeysta_Viktor_3h20.txt",
+    "_-sDNTXOO_pWA-._..txt": "transcripts/22_Problema_NLO_v_sredney_polose_Istoriya_nablyudeniy_nebesnykh_22m.txt",
+    "Gloria_-_The_path_to_yourself-GnRxnKpOaf0-..txt": "transcripts/23_Anton_Anfalov_o_podzemnykh_tsivilizatsiyakh_nlo_podzemnye_pr_2h19.txt",
+    "_-_0E7-Mb8l80-..txt": "transcripts/24_Zachem_NLO_po_nocham_priletayut_na_kladbischa_Mikhail_Gersht_22m.txt",
+    "UnionKOSMOPOISK-G96VkWxR9Rg-..txt": "transcripts/25_Mikhail_Gershteyn_Energetika_anomalnykh_yavleniy_1h40.txt",
+    "UnionKOSMOPOISK-TgK2sbzWAw4-._._2.txt": "transcripts/26_Mikhail_Gershteyn_Energetika_anomalnykh_yavleniy_CHast_2_vop_26m.txt",
+    "UnionKOSMOPOISK-B0hiT-wqKuc-._._1.txt": "transcripts/27_Mikhail_Gershteyn_Novye_metody_izucheniya_NLO_i_AYA_CHast_1_38m.txt",
+    "UnionKOSMOPOISK-q6IS4LvbEfk-._._2.txt": "transcripts/28_Mikhail_Gershteyn_Novye_metody_izucheniya_NLO_i_AYA_CHast_2_44m.txt",
+    "VLAD_205-UpRCbmWZkFg-_.txt": "transcripts/29_VOENNYE_SKRYVALI_KONTAKTY_S_NLO_Byvshiy_glava_Ufologicheskoy_1h20.txt",
+    "UAP_UFO-yvsRnHwZYOs-13.12.2025_..txt": "transcripts/30_Gershteyn_Mikhail_Borisovich_Ufolog_Religioznye_chudesa_i_an_1h45.txt",
+    "UAP_UFO-n3EPxyf4XGk-12.09.2025_..txt": "transcripts/31_Gershteyn_Mikhail_Borisovich_ufolog_Spiritizm_Poltergeyst_i_1h23.txt",
+    "UAP_UFO-uAetZaqR9eM-_.txt": "transcripts/32_Gershteyn_Mikhail_ufolog_Parallelnye_miry_s_inym_khodom_vrem_37m.txt",
+    "UAP_UFO-xxd3N_2TTIg-._2.txt": "transcripts/33_Gershteyn_Mikhail_B_ufolog_Parallelnye_miry_s_inym_khodom_vr_1h06.txt",
+    "UAP_UFO-gbIVYHcnXf0-._._17.02.2017.txt": "transcripts/34_Gershteyn_M_B_Noveyshie_rassekrechennye_dokumenty_ob_NLO_v_S_2h27.txt",
+    "UAP_UFO-2px4-GLjurY-._21.10.2017_..txt": "transcripts/35_Geomantiya_Zemnye_Ogni_i_Ufologiya_Gershteyn_Mikhail_Borisov_2h48.txt",
+    "UAP_UFO-hyl3pmFcTsg-._._._20.10.2018_._1.txt": "transcripts/36_Podvodnye_NLO_korabli_prizraki_i_svetyaschiesya_kolesa_Gersh_1h19.txt",
+    "UAP_UFO-LtT26XLv5Pc-15.01.2022_..txt": "transcripts/37_Nablyudeniya_NLO_i_Anomalnykh_YAvleniy_na_Zemle_i_v_Nebe_do_1h50.txt",
+    "UAP_UFO-JHyFEZFM6gY-UFO_._._._1.txt": "transcripts/38_Vzaimosvyazi_UFO_obektov_i_anomalnykh_zon_gipotezy_vzaimodey_2h02.txt",
+    "UAP_UFO-uGezqo8MUs0-._._._._11.11.2023_..txt": "transcripts/39_Mify_Legendy_Mistifikatsii_v_Anomalistike_Gershteyn_M_B_ufol_1h18.txt",
+    "UAP_UFO-i5Ml08McCWY-._08.10.2022_..txt": "transcripts/40_Ufologiya_i_Kriptozoologiya_Neozhidannye_Vzaimosvyazi_Mikhai_1h59.txt",
+    "UAP_UFO-3IFuXoOKmHc-._._14.10.2023_._1.txt": "transcripts/41_Fenomen_NLO_Okolosmertnyy_opyt_i_zhizn_posle_smerti_Mikhail_1h04.txt",
+    "UAP_UFO-m7Ueh8jgvPs-._._._2.txt": "transcripts/42_Otvety_na_voprosy_Fenomen_NLO_okolosmertnyy_opyt_i_zhizn_pos_39m.txt",
+    "UAP_UFO-rF_9-sxgNp8-._._._20.11.2020.txt": "transcripts/43_Tayny_Mirovogo_Okeana_Podlinnye_i_Mnimye_Mikhail_Gershteyn_u_2h22.txt",
+    "UAP_UFO--z7-G-D5HjY-.11_2024._1.txt": "transcripts/44_Novye_Metody_Izucheniya_NLO_i_Anomalnykh_YAvleniy_11_2024_Mi_38m.txt",
+    "UAP_UFO-jj65-gGlIM0-._1.txt": "transcripts/45_Avtomatizatsiya_Izucheniya_NLO_AYA_II_CHelovecheskiy_Razum_M_1h08.txt",
+    "UAP_UFO-mR32PnZwGEY-._2.txt": "transcripts/46_Avtomatizatsiya_Izucheniya_NLO_AYA_II_CHelovecheskiy_Razum_M_32m.txt",
+    "UAP_UFO-xm-2Kd8KrmQ-15.03._2025.txt": "transcripts/47_OTVETy_na_VOPROSy_ENERGETIKA_ANOMALNYKH_YAVLENIY_15_03_2025_26m.txt",
+    "UAP_UFO-vkmeY1djs8E-._02.01.2025..txt": "transcripts/48_Zachem_NLO_po_nocham_priletayut_na_kladbischa_fragment_02_01_21m.txt",
+    "UAP_UFO-nuqix4zMpew-CONDIGN_._31.08.2019.txt": "transcripts/49_NLO_Atmosfernaya_Plazma_i_Proekt_CONDIGN_Mikhail_Gershteyn_3_57m.txt",
+    "UAP_UFO-2HswWv_wDC8-._2022_..txt": "transcripts/50_Ufologiya_cherez_vzaimodeystvie_cheloveka_i_NLO_Mikhail_Gers_1h00.txt",
+    "UAP_UFO-na8SJVuRHd4-._._2025.txt": "transcripts/51_NLO_-_Kniga_nebesnykh_znameniy_Mikhail_Borisovich_Gershteyn_8m.txt",
+    "UAP_UFO-fbPjx3vNV3Q-X-Files_-_._._10.11.2018.txt": "transcripts/52_Nastoyaschie_X-Files_kak_FBR_izuchalo_NLO_i_anomalnye_yavlen_1h11.txt",
+    "UAP_UFO-Aq6svaPgSMg-._01.12.2024_..txt": "transcripts/53_Problema_NLO_v_sredney_polose_fragment_Mikhail_Gershteyn_ufo_22m.txt",
+    "UAP_UFO-IoN6Newd6PY-UFO_UAP._23.06.24..txt": "transcripts/54_Novyy_period_v_ufologii_UFO_UAP_Zapis_Strima_23_06_24_Mikhai_2h25.txt",
+    "UAP_UFO-v75bULrWgfg-._._02.11.2025.txt": "transcripts/55_VOENNYE_SKRYVALI_KONTAKTY_S_NLO_Mikhail_Gershteyn_ufolog_02_1h20.txt",
+    "UAP_UFO-SJzXqSzloIE-._No13_29.11.2019.txt": "transcripts/56_NLO_problema_bez_granits_Mikhail_Gershteyn_ufolog_Neobyasnim_2h39.txt",
+    "UAP_UFO-z4A6vgAx110-3I_ATLAS_24.10.2025..txt": "transcripts/57_K_nam_letit_nechto_3I_ATLAS_Zapis_Strima_24_10_2025_Mikhail_1h29.txt",
+    "UAP_UFO-tTKS-K7IOXY-._1_3.txt": "transcripts/58_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_34m.txt",
+    "UAP_UFO-k0xBwb_80dI-._2_2.txt": "transcripts/59_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_28m.txt",
+    "UAP_UFO-55B_odFOzFI-._3_3.txt": "transcripts/60_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_31m.txt",
+    "UAP_UFO-m83d7rOxU6M-._04.11.2024.txt": "transcripts/61_Ufolog_Mikhail_Gershteyn_i_issledovatel_poltergeysta_Viktor_3h20.txt",
+    "UAP_UFO-wYiclrJra2E-21.03.2026_-_._._..txt": "transcripts/62_21_03_2026_Gipotezy_ob_NLO_i_anomalnykh_yavleniyakh_vzaimosv_1h36.txt"
+  },
+  "gathered_pipeline_logs": "/mnt/data/uap-gershtein-raw/logs/   (verbose; NOT in git)",
+  "gather_scripts": "/mnt/data/uap-gershtein-raw/scripts/   (NOT in git)",
+  "sha256": {
+    "transcripts": {
+      "01_Fenist-2016_aperitiv_Mikhail_Gershteyn_o_nauke_i_voobrazheni_49s.txt": {
+        "sha256": "4a277b0daf87fa0076dc6fd07d95326415051c4c4e87a7ac6818b724990121a1",
+        "bytes": 1242
+      },
+      "02_Mikhail_Gershteyn_Geomantiya_zemnye_ogni_i_ufologiya_2h38.txt": {
+        "sha256": "03770bb950d4d4c1699725dc2b8263e11aa35caa3899ff97d8ac7615cb085005",
+        "bytes": 214757
+      },
+      "03_M_Gershteyn_70_let_ery_NLO_Perspektivy_ufologii_chto_sdelano_1h29.txt": {
+        "sha256": "e5966b0054d8d0d4a66bd2c0db5a71cf2e616620e7f4a8376c0a79c690608581",
+        "bytes": 122235
+      },
+      "04_M_Gershteyn_Podvodnye_NLO_korabli-prizraki_i_svetyaschiesya_1h19.txt": {
+        "sha256": "501341caa45a2bb435eec6bba60880da8b4c7fdddc4c96b230a8261cfb861ddf",
+        "bytes": 132116
+      },
+      "05_Gershteyn_M_B_70_let_ufologii_kratkie_itogi_puti_i_perspekti_1h11.txt": {
+        "sha256": "20603a5e676567e3620a15791edb9dfc9d9551d551a79c36b6f16b769ce24169",
+        "bytes": 119561
+      },
+      "06_Gershteyn_M_B_Po_sledam_tainstvennykh_ischeznoveniy_28m.txt": {
+        "sha256": "3513fa64ea269569eeda228806d956fb02ae0db4989b60e3f5cc091d32b2a02a",
+        "bytes": 43760
+      },
+      "07_Mikhail_Gershteyn_SHarovye_molnii_NLO_i_atmosfernaya_plazma_57m.txt": {
+        "sha256": "af44586630aeb71709a60d0bdf6b5fe2b1a1490a0843d14937ebe667326480e0",
+        "bytes": 84402
+      },
+      "08_NLO_problema_bez_granits_Mikhail_Gershteyn_Neobyasnimaya_vst_2h39.txt": {
+        "sha256": "2ceddc0c09ec2e4c27f3abc592f129df8df3501adfe601a300a1e20b2c72e067",
+        "bytes": 231088
+      },
+      "09_Intervyu_s_ufologom_Mikhailom_Gershteynom_o_NLO_kontakterakh_34m.txt": {
+        "sha256": "f3175120ea3ad6dc6a292a2cc4596689c2e540adcf2afe20d0aea660f5a20e26",
+        "bytes": 48124
+      },
+      "10_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_31m.txt": {
+        "sha256": "b33678e78ff15c8a1c3932d7fe43dc62da9dabf78b7a5c1172f0e500f296ab26",
+        "bytes": 45732
+      },
+      "11_M_Gershteyn_Tayny_okeanov_podlinnye_i_mnimye_2h22.txt": {
+        "sha256": "8de83a2660068f3895fdc58e017123f0ee06906594708f15ce5ab9e1e81d2ff7",
+        "bytes": 194012
+      },
+      "12_Mikhail_Gershteyn_Nablyudeniya_NLO_do_poyavleniya_aviatsii_1h50.txt": {
+        "sha256": "0bb2bcdd9fbb128fc7370fa0f7159d275b7888e51ee7359b722c1f70fd4ea86a",
+        "bytes": 171710
+      },
+      "13_Mikhail_Gershteyn_Ufologiya_cherez_vzaimodeystvie_cheloveka_1h00.txt": {
+        "sha256": "d3aed71200bfa1502dfefcaf473cf1ab831b47ad7de94294facd478f46702e0b",
+        "bytes": 95980
+      },
+      "14_Mikhail_Gershteyn_Ufologiya_i_kriptozoologiya_neozhidannye_v_1h58.txt": {
+        "sha256": "dac018d2cec1d43486d829a388aed0abb7cde383208b01482bc61fbc02447cf7",
+        "bytes": 199506
+      },
+      "15_Svyaz_NLO_i_anomalnykh_zon_lektsiya_ufologa_Mikhaila_Gershte_2h57.txt": {
+        "sha256": "06b9e0df00dde13aa5ab0451b16e5e4f0f386fd8bb882eb7fca363a6083121fa",
+        "bytes": 228259
+      },
+      "16_Mikhail_Gershteyn_otvechaet_na_voprosy_2023_27m.txt": {
+        "sha256": "068944538476928355929b4a2a223c40c2f5e7babd3403d2a59059fe545e3760",
+        "bytes": 49162
+      },
+      "17_Mikhail_Gershteyn_NLO_i_zhizn_posle_smerti_2023_1h04.txt": {
+        "sha256": "9ae9b15982a3c77b35dd41ccfd0a2d9bf8a1b1f7e38c1d9dfcf5b0c201ccb51b",
+        "bytes": 100748
+      },
+      "18_Mikhail_Gershteyn_Otvety_na_voprosy_2023_39m.txt": {
+        "sha256": "d302585ed7e582e67768b3459e8dfdc5d6bdc90f12636491920fafaf51b1ee0b",
+        "bytes": 66714
+      },
+      "19_Mikhail_Gershteyn_Avtomatizatsiya_izucheniya_NLO_2024_1h08.txt": {
+        "sha256": "168768acc6ab8cf94be5a9c4d1944f95c8fb25a3e88be4bbcf69745a39be7e33",
+        "bytes": 111524
+      },
+      "20_Novyy_period_v_ufologii_UFO_i_UAP_Mikhail_Gershteyn_2h25.txt": {
+        "sha256": "ad00e3e62c763cb23570da79905fb6b51effca1e227c3d0cdcd9e1d76b349ed6",
+        "bytes": 188894
+      },
+      "21_Ufolog_Mikhail_Gershteyn_i_issledovatel_poltergeysta_Viktor_3h20.txt": {
+        "sha256": "b24e359770adf0f773585cd5d8aba6470c6c6dd957a14b1ec9b1ef0cc01d241c",
+        "bytes": 291722
+      },
+      "22_Problema_NLO_v_sredney_polose_Istoriya_nablyudeniy_nebesnykh_22m.txt": {
+        "sha256": "2b2da51b07e22ed3e6baaf04050534f658fb8501292acdce2b92f3dd7ffb2185",
+        "bytes": 34815
+      },
+      "23_Anton_Anfalov_o_podzemnykh_tsivilizatsiyakh_nlo_podzemnye_pr_2h19.txt": {
+        "sha256": "ade549953fbb404999d95bad420b56b477c237caa1867d27bdb413414b5e9fdd",
+        "bytes": 216404
+      },
+      "24_Zachem_NLO_po_nocham_priletayut_na_kladbischa_Mikhail_Gersht_22m.txt": {
+        "sha256": "a935bb4ca2d12b555cc475e46d5359879d34b306c333b46fb43db7713ccfbff6",
+        "bytes": 29402
+      },
+      "25_Mikhail_Gershteyn_Energetika_anomalnykh_yavleniy_1h40.txt": {
+        "sha256": "ae610fbafb3ae2b28118e0c8bd5b5995957d7886dfa3b06e3db33595cdac9836",
+        "bytes": 151814
+      },
+      "26_Mikhail_Gershteyn_Energetika_anomalnykh_yavleniy_CHast_2_vop_26m.txt": {
+        "sha256": "f0cb0f301fc68ac49a6f7297d5ef0c3e491bb679a9c358dffd4ee97e0bed3e26",
+        "bytes": 45190
+      },
+      "27_Mikhail_Gershteyn_Novye_metody_izucheniya_NLO_i_AYA_CHast_1_38m.txt": {
+        "sha256": "da60dd56041cf28e3542bed4552e6f78e6ba415d4e97baaca6f3fe23c0444ee0",
+        "bytes": 63458
+      },
+      "28_Mikhail_Gershteyn_Novye_metody_izucheniya_NLO_i_AYA_CHast_2_44m.txt": {
+        "sha256": "203a5c7d95c6642dc791a05c44420e7aedbf4c81485efcd0b258294337636f84",
+        "bytes": 75895
+      },
+      "29_VOENNYE_SKRYVALI_KONTAKTY_S_NLO_Byvshiy_glava_Ufologicheskoy_1h20.txt": {
+        "sha256": "2ae74909a1bd18020ff9fa55a113c82130eb1cf9e3fcaa01a3bddf6f2d2f6bb2",
+        "bytes": 130264
+      },
+      "30_Gershteyn_Mikhail_Borisovich_Ufolog_Religioznye_chudesa_i_an_1h45.txt": {
+        "sha256": "72efcf7b9a8172f960f84ffa84139edefcae632529c1720abe7b103e19fa1fdd",
+        "bytes": 177764
+      },
+      "31_Gershteyn_Mikhail_Borisovich_ufolog_Spiritizm_Poltergeyst_i_1h23.txt": {
+        "sha256": "eca718a93ec7f654060ad25e45b8eaa68c2f5d7d9b36735be6b00dac2f29ae73",
+        "bytes": 136528
+      },
+      "32_Gershteyn_Mikhail_ufolog_Parallelnye_miry_s_inym_khodom_vrem_37m.txt": {
+        "sha256": "54490e272f9fe79d6a593b4fa20ef34f9879e4fbdef15d8c02464da71a9722a1",
+        "bytes": 53288
+      },
+      "33_Gershteyn_Mikhail_B_ufolog_Parallelnye_miry_s_inym_khodom_vr_1h06.txt": {
+        "sha256": "2d4cc42aab154eb703c4565aa1f88d9696fdf630484259f278c104c5db332c86",
+        "bytes": 89072
+      },
+      "34_Gershteyn_M_B_Noveyshie_rassekrechennye_dokumenty_ob_NLO_v_S_2h27.txt": {
+        "sha256": "d638b78d58136daa62eafaf52329980ba9f0032885cde0e510daa5057b4f3e5b",
+        "bytes": 190623
+      },
+      "35_Geomantiya_Zemnye_Ogni_i_Ufologiya_Gershteyn_Mikhail_Borisov_2h48.txt": {
+        "sha256": "acb670c36ad0c3f2b05860e0ea8890e9965e80ea460a4570fa1594502573ccde",
+        "bytes": 213866
+      },
+      "36_Podvodnye_NLO_korabli_prizraki_i_svetyaschiesya_kolesa_Gersh_1h19.txt": {
+        "sha256": "09eb54fb10f8a996cdcc24b0f9d9859102a52f07a50621ff218d61dfcad9a69b",
+        "bytes": 113078
+      },
+      "37_Nablyudeniya_NLO_i_Anomalnykh_YAvleniy_na_Zemle_i_v_Nebe_do_1h50.txt": {
+        "sha256": "775da623137c98587af6ed60e9b1ad967a1f159d814735f3f802e3ed6fc9b58a",
+        "bytes": 171866
+      },
+      "38_Vzaimosvyazi_UFO_obektov_i_anomalnykh_zon_gipotezy_vzaimodey_2h02.txt": {
+        "sha256": "6b991c605dcb2617d30190d9c5bd0a441522c5da37c66f9d03cb935404d10f12",
+        "bytes": 188334
+      },
+      "39_Mify_Legendy_Mistifikatsii_v_Anomalistike_Gershteyn_M_B_ufol_1h18.txt": {
+        "sha256": "aab434c06b3c243546ff7b31cb6e5b9bf882e42b166dc028726cd6b931ff47c7",
+        "bytes": 121683
+      },
+      "40_Ufologiya_i_Kriptozoologiya_Neozhidannye_Vzaimosvyazi_Mikhai_1h59.txt": {
+        "sha256": "83ee5f3a23152ac8016dd7bc15a1da0b38e48b85ae93fd90db9e81c896728b56",
+        "bytes": 199152
+      },
+      "41_Fenomen_NLO_Okolosmertnyy_opyt_i_zhizn_posle_smerti_Mikhail_1h04.txt": {
+        "sha256": "6bd6892083a563f05226cae19eab7cf690e49bce4e877c82282d380ebc06df25",
+        "bytes": 101734
+      },
+      "42_Otvety_na_voprosy_Fenomen_NLO_okolosmertnyy_opyt_i_zhizn_pos_39m.txt": {
+        "sha256": "98315a8f6f02954ed8b8491bf0fd4a69da343caf4669c495c41e677418de1c26",
+        "bytes": 65176
+      },
+      "43_Tayny_Mirovogo_Okeana_Podlinnye_i_Mnimye_Mikhail_Gershteyn_u_2h22.txt": {
+        "sha256": "d2d0089b8b069df7cd6198633c3a412cd70cbc6ae0af3e2cfb1a667f99c443cd",
+        "bytes": 192479
+      },
+      "44_Novye_Metody_Izucheniya_NLO_i_Anomalnykh_YAvleniy_11_2024_Mi_38m.txt": {
+        "sha256": "404098da48f3dd7523b96b5cdba6550b6e85209ba5dee9c19a419edadd87ba80",
+        "bytes": 62613
+      },
+      "45_Avtomatizatsiya_Izucheniya_NLO_AYA_II_CHelovecheskiy_Razum_M_1h08.txt": {
+        "sha256": "6c4100b10a7b924cd6473c4ae7a5a7ccb7bb6c76037cc4b21d2ba513c434df63",
+        "bytes": 110995
+      },
+      "46_Avtomatizatsiya_Izucheniya_NLO_AYA_II_CHelovecheskiy_Razum_M_32m.txt": {
+        "sha256": "293b6de226111fa080a684406ed662b4e348620fe4942e9f7d676f871c02a8a9",
+        "bytes": 55250
+      },
+      "47_OTVETy_na_VOPROSy_ENERGETIKA_ANOMALNYKH_YAVLENIY_15_03_2025_26m.txt": {
+        "sha256": "9fcb4e4e0a3a5b00e44d79366dbe71887be3e55c80c0584ff280c3ff2d60d75b",
+        "bytes": 44621
+      },
+      "48_Zachem_NLO_po_nocham_priletayut_na_kladbischa_fragment_02_01_21m.txt": {
+        "sha256": "60e45377f3aa27c273d23b90349d3a7cb06edf19d0813e371f822b1dec14bbcd",
+        "bytes": 27828
+      },
+      "49_NLO_Atmosfernaya_Plazma_i_Proekt_CONDIGN_Mikhail_Gershteyn_3_57m.txt": {
+        "sha256": "7f3b6afd0987fe5fe757842b3e78d29e2c31b9f0c6c8b50d14b18103e38091b1",
+        "bytes": 84879
+      },
+      "50_Ufologiya_cherez_vzaimodeystvie_cheloveka_i_NLO_Mikhail_Gers_1h00.txt": {
+        "sha256": "90f6f05357507b624b3cef75d8ee7ba1ed9e23428e481e7805bc3c3d17963132",
+        "bytes": 96036
+      },
+      "51_NLO_-_Kniga_nebesnykh_znameniy_Mikhail_Borisovich_Gershteyn_8m.txt": {
+        "sha256": "6847b7156417047093ce1cc6f5b71be672e1e31549aa1548714c6f374eda5aa6",
+        "bytes": 10703
+      },
+      "52_Nastoyaschie_X-Files_kak_FBR_izuchalo_NLO_i_anomalnye_yavlen_1h11.txt": {
+        "sha256": "657bf6ed8f6e74fac2e87acd366d022e9118eb951218011737ceae760f3f6b91",
+        "bytes": 100621
+      },
+      "53_Problema_NLO_v_sredney_polose_fragment_Mikhail_Gershteyn_ufo_22m.txt": {
+        "sha256": "f2fe0d87047890549a9f9eebd012e37b20cc4405d19c9364148b08481d18cfcb",
+        "bytes": 33966
+      },
+      "54_Novyy_period_v_ufologii_UFO_UAP_Zapis_Strima_23_06_24_Mikhai_2h25.txt": {
+        "sha256": "220012e4a45bcadb25b949cf1c15ab14559394dc4181fffe3c886c64c292d37f",
+        "bytes": 187684
+      },
+      "55_VOENNYE_SKRYVALI_KONTAKTY_S_NLO_Mikhail_Gershteyn_ufolog_02_1h20.txt": {
+        "sha256": "1c18c0958e121c363fda6eeefb583f4d196c789b281ae5af37dafdd036c14220",
+        "bytes": 129840
+      },
+      "56_NLO_problema_bez_granits_Mikhail_Gershteyn_ufolog_Neobyasnim_2h39.txt": {
+        "sha256": "b0a0f33faf679fa701aaa25240973a3083e11f702d426ebe2702ad78bc432c1a",
+        "bytes": 233698
+      },
+      "57_K_nam_letit_nechto_3I_ATLAS_Zapis_Strima_24_10_2025_Mikhail_1h29.txt": {
+        "sha256": "2f76ebc7b5e6347a773a17683be3b3285a564b8cb959f85674cf07915347fa85",
+        "bytes": 117184
+      },
+      "58_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_34m.txt": {
+        "sha256": "e4706f53a285a3df4c3a6fefa62df3d847aafb7b4982a8de7ca95562dbc964bb",
+        "bytes": 47873
+      },
+      "59_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_28m.txt": {
+        "sha256": "4462293d773c17ae00a10405049e5090ab1382f138fd41e239e5e9a433a1f687",
+        "bytes": 42062
+      },
+      "60_Intervyu_s_ufologom_Mikhail_Gershteyn_o_poltergeyste_NLO_kon_31m.txt": {
+        "sha256": "e1151f68eb7a89f735b6f0cfebe0d48d7b2629bef25a8cf14116a7bb477c8d99",
+        "bytes": 45218
+      },
+      "61_Ufolog_Mikhail_Gershteyn_i_issledovatel_poltergeysta_Viktor_3h20.txt": {
+        "sha256": "f3de4606eeaabe1a42ca6bad065eeb29e7e332365a02ef0b90f1ebbb6d10435c",
+        "bytes": 300721
+      },
+      "62_21_03_2026_Gipotezy_ob_NLO_i_anomalnykh_yavleniyakh_vzaimosv_1h36.txt": {
+        "sha256": "90d93e22067ed3d5606f8d1c2d0a9e97ddcc5d456f9a18ac4ed1e28dcc0072c5",
+        "bytes": 155496
+      }
+    },
+    "articles/sources": {
+      "berkovich-zametki.com__Guestbook_Gbookarchive_Oct2024_testGbook27Oct2024.html.html": {
+        "sha256": "b7de828779b65b695edb12425fd4c156208668cdb3c4fd89e2a2deef6dbf11d8",
+        "bytes": 1947643
+      },
+      "ivanovo.ac.ru__upload_medialibrary_7f9_7f965c9e4ebc83929894b3aa6c738632.pdf.pdf": {
+        "sha256": "bc7285dcfd1dedbe234fd0c3f00eb6a0206dcfafa97ccfc984a4bc9e1a39e086",
+        "bytes": 11712139
+      },
+      "magazines.gorky.media__zvezda_2002_5_veshhie-sny-tihogo-psiha.html.html": {
+        "sha256": "ab10b6bc093d7ba6c555994c8704ad44a804bc17cbdcd259a87e6acb7989b378",
+        "bytes": 642225
+      },
+      "pravda.ru__tags_mikhail-gershtejjn.html": {
+        "sha256": "779fe9365df59634080acd8d7c0811c6cb25c07d529764d87b8915b734cb9ccc",
+        "bytes": 52801
+      },
+      "reddit.com__r_aliens_comments_nsyt6y_hi_im_paul_stonehill_lecturer_and_a.html": {
+        "sha256": "9e168271bf91645a3966d36c323edd5e8731f83416315ad9d5968fc90b5aae78",
+        "bytes": 8498
+      },
+      "roii.ru__dialogue_roii-dialogue-88.pdf.pdf": {
+        "sha256": "8c6ef77214786775df4cc511d6a4bcfaf20640cf099cc7532d41880b6a2e72fa",
+        "bytes": 20069374
+      },
+      "svoboda.org__a_24188032.html.html": {
+        "sha256": "bfbb98b2fa2c6bd4940d0a96d41573608fafe586d39ad61e2f67335f5c3709db",
+        "bytes": 82548
+      },
+      "thealphacentauri.net__163377-d0b2d0bed0b5d0bdd0bdd18bd0b5-d181d0bad180d18bd0b2d0b0.html": {
+        "sha256": "453e50688a25bed486c65cf372110460af5fa80570745b287305ffc554e37e36",
+        "bytes": 144074
+      },
+      "tvi.show__nexus_russian-ufo-files-exposed-george-knapps-secret-soviet-.html": {
+        "sha256": "4ede98bcd9802dc376ba6e9473ad10158f0425fb002bcd87aafe23345bea3198",
+        "bytes": 171559
+      },
+      "uapcheck.com__news_id_2024-07-06-a-short-history-of-ufo-research-in-the-fo.html": {
+        "sha256": "0b120d150ad7063c1f922faca4aae131e9006397680eb8aa24d6cd3876443b49",
+        "bytes": 53408
+      },
+      "ufo-com.net__kolonka.html": {
+        "sha256": "b18f6f8b912086369159a9e50cb088b1979885888d4043092f00c17efe667fc1",
+        "bytes": 230542
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_akademicheskoe-ne-znachit-luchshee.html": {
+        "sha256": "dac97a3fbf98522fcec89e051c36622652ead874b6523ae1cff3ad4c7f06b62f",
+        "bytes": 72927
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_astrologiya-i-ufologiya.html": {
+        "sha256": "7265fd1f2a15dccf9b653f4963131351df88869eda5989a4b1ee2548b59f4b6f",
+        "bytes": 63627
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_koe-chto-o-vremeni-i-terpenii.html": {
+        "sha256": "40539c3662bf672373c1dada3fb3f0e273292eadc9d85c31d43c547b7a7bd138",
+        "bytes": 60603
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_nebo-glazami-lyudey-proshlogo.html": {
+        "sha256": "386dcc56da854ee431bb249ea40806f33c0d939f64ddb8934e4acf26d1d40393",
+        "bytes": 62699
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_unikalnost-i-povtoryaemost.html": {
+        "sha256": "3721cf8ed87c94254bc30e140f513f98379d7a46adc741de406e4dc9ff79d3c2",
+        "bytes": 65073
+      },
+      "ufo-com.net__kolonka_mikhail-gershtein_vatikan-i-inoplanetyane.html": {
+        "sha256": "20380eedad6b10dbf355dcc157fb8afd67b46fbea23b08e03626871b426fd937",
+        "bytes": 37087
+      },
+      "ufo-com.net__publications_art-14049-reinkarnacionnye-videnia.html.html": {
+        "sha256": "c45e57fcf40e41b70a67c48d2959a6a6aaa5eb8fef58c03088ad5819ad4a2c4b",
+        "bytes": 194575
+      },
+      "ufo-com.net__ufolenta_detail.php_ELEMENT_ID_11264.html": {
+        "sha256": "a52008908703fa4953ef6b1c8c090f2eef9826cc881b57422a5b4b98027ec819",
+        "bytes": 52237
+      },
+      "ufology-news.com__novosti_intervyu-s-mixailom-gershtejnom.html.html": {
+        "sha256": "ed1903f039348fe28fd9f7596a51f5e64878d1591da33e53627d62c5332febdd",
+        "bytes": 90598
+      },
+      "ufology-news.com__u_18672430_Ufology_News_Global_archive_UAP-study_and_UFO-ide.pdf": {
+        "sha256": "0548bef188f62e8aa1f8596b4dd0014cff02d02625d60c6d49b50b0735bdf2cf",
+        "bytes": 1011105
+      }
+    },
+    "articles/extracted_text": {
+      "berkovich-zametki.com_Guestbook_Gbookarchive_Oct2024_testGbook27Oct2024.txt": {
+        "sha256": "ea047c3677ecd7592a00da9df3af31fdb35859c35859ed4b82c7bdb6baf112ba",
+        "bytes": 1429543
+      },
+      "ivanovo.ac.ru_upload_medialibrary_7f9_7f965c9e4ebc83929894b3aa6c738632.txt": {
+        "sha256": "367aff1219c327e7ffc5a972d34af00c3061441bcd80c7c28e07206d732acee7",
+        "bytes": 2238491
+      },
+      "magazines.gorky.media_zvezda_2002_5_veshhie-sny-tihogo-psiha.txt": {
+        "sha256": "b9e5b03df4826854fa858801afc3f7b8ff62a7eb4d0bb0c5437265c50254ff8e",
+        "bytes": 2806
+      },
+      "roii.ru_dialogue_roii-dialogue-88.txt": {
+        "sha256": "b32b451492df49ec3dac6fff6a6dbe963a2e2109bc72ecaae554666b28b264ab",
+        "bytes": 2291498
+      },
+      "ufology-news.com_u_18672430_Ufology_News_Global_archive_UAP-study_and_UFO-ide.txt": {
+        "sha256": "5c197061c574df4291f3a62f3f50fc92e65f8616a3536d22cab6d00e4a62e8c3",
+        "bytes": 137468
+      }
+    },
+    "books/catalog_pages": {
+      "ast.ru__authors_gershteyn-mikhail-borisovich-ast005968_books.html": {
+        "sha256": "e64ce364c731f3ed78560df758d3d135415f720392f9a859ec8e2db323216d55",
+        "bytes": 66077
+      },
+      "ast.ru_authors_gershteyn-mikhail-borisovich-ast005968_books.txt": {
+        "sha256": "1abad0aff877b0bcef6f021a43d231f0df2954a3ef4eced09062aa6102a71328",
+        "bytes": 4544
+      },
+      "ast_ru__search_gershtein.html": {
+        "sha256": "abb95721acc976ef998c9d44c494358a858bf96a1fac063e6292c84957084484",
+        "bytes": 163553
+      },
+      "ast_ru_search_gershtein.txt": {
+        "sha256": "d257e3a03db6c1e1558b07979154722ae2d5ca2d25d76dd24139c3cf665f0e8c",
+        "bytes": 11151
+      },
+      "bookvoed.ru__author_gershteyn-mihail-439315.html": {
+        "sha256": "ca9da81a3deb5a08fd7aac82e8d04738cb6b56b90217b1731742a75278624709",
+        "bytes": 198275
+      },
+      "bookvoed.ru_author_gershteyn-mihail-439315.txt": {
+        "sha256": "4c4ea486f20389b4028dee8ddc6acdc00188195b2da7354db355866f4bff640e",
+        "bytes": 2682
+      },
+      "elib.nlb.by__catalog_Author_Home_author_D0_93_D0_B5_D1_80_D1_88_D1_82_D0_.html": {
+        "sha256": "b808f2db1ef5752c66cf4d53cd75ecc5c9d946695f8abf41c3bd2b9a6f1ffded",
+        "bytes": 99055
+      },
+      "elib.nlb.by_catalog_Author_Home_author_D0_93_D0_B5_D1_80_D1_88_D1_82_D0.txt": {
+        "sha256": "daa4739365c60972e30c97bde42b3efbdfd0759adc985eef9ad3b121b959dc6d",
+        "bytes": 7500
+      },
+      "klex.ru__razdel_unknown.html": {
+        "sha256": "df0b06e029f3a7ab54218bd097f4a5691eb3b02012a3707ccd702beacff2fcb5",
+        "bytes": 69718
+      },
+      "klex.ru_razdel_unknown.txt": {
+        "sha256": "662cad2d4565302a9bb7102fb7c199221eadccfb9368ffe7221e86ce952a5d73",
+        "bytes": 6336
+      },
+      "lib-dpr__exp_520_book_5791.html": {
+        "sha256": "edef3ddbd96cb5be69142a73e79df4b0e920f1571ce33f5f3c714090368e9df3",
+        "bytes": 23003
+      },
+      "lib-dpr_exp_520_book_5791.txt": {
+        "sha256": "268ce4119829ac9acaba75b4598a491b05e69b05ce44d9589dc744d61c7b22b3",
+        "bytes": 4500
+      },
+      "livelib.ru__author_192089-mihail-gershtejn.html": {
+        "sha256": "ab0c5dfdc38714bd670b0e0248ed87eb830560b072a0a8a8fd6f2650e9c1a773",
+        "bytes": 121948
+      },
+      "livelib.ru_author_192089-mihail-gershtejn.txt": {
+        "sha256": "7653d3e6ac8b3f38802b6844313247b157afbb7ce765ca4f1f16ea4192759b85",
+        "bytes": 9678
+      },
+      "ufo-com.net__books_detail.php_ELEMENT_ID_3456.html": {
+        "sha256": "2ad0023b87d8d0fa44eb56d4e50be5c6e070391fccb6336f7076bca1fedb6f34",
+        "bytes": 37829
+      },
+      "ufo-com.net_books_detail.php_ELEMENT_ID_3456.txt": {
+        "sha256": "c8d63b04b2aa2e6907ed20c0cfadf769f30d4a977028934a617c301b324c39fd",
+        "bytes": 6482
+      }
+    },
+    "books/full_texts": {
+      "ru.scribd.com__document_814073381_D0_93_D0_B5_D1_80_D1_88_D1_82_D0_B5_D0_B9.html": {
+        "sha256": "ebb8041903cebd614830f9561d6217c1d09c123ba8e9876d6552b0f07b149ace",
+        "bytes": 1174169
+      },
+      "ru.scribd.com_document_814073381_D0_93_D0_B5_D1_80_D1_88_D1_82_D0_B5_D0_B9.txt": {
+        "sha256": "659c14d301de246358d93c3fcc9181862cda5c92e4537ae873bede5a1f532bc2",
+        "bytes": 5078
+      },
+      "ruslit.net__preview.php_path_042D0437043E0442043504400438043A0430_2F0413.html": {
+        "sha256": "df77b165b8167a1880ecaff80c239a7d8d7c3b4180129e25e961c83aa187b2a6",
+        "bytes": 717625
+      },
+      "ruslit.net_preview.php_path_042D0437043E0442043504400438043A0430_2F0413.txt": {
+        "sha256": "71189853a97d25bd1ba57728fb4e43f3102968c3818ae19db0005f497c8d9b9b",
+        "bytes": 1140340
+      }
+    },
+    "videos/INFO_JSON": {
+      "Gloria_-_The_path_to_yourself-GnRxnKpOaf0-..info.json": {
+        "sha256": "18187c677e833187d20d741d9cf30168cf27ecdd330fd14ee96c4920e531370d",
+        "bytes": 539618
+      },
+      "NOZP-7X9AViFvYXA-UFO_UAP.info.json": {
+        "sha256": "55d1e22feec57bc0337c0c365203147ec6489c9bea6e58c48373f018ac4b26ac",
+        "bytes": 561493
+      },
+      "NOZP-LixOewlU4T8-13.info.json": {
+        "sha256": "12bf43f60dcbae085a53b6746bf85a42c31b7b1fb37c01bc32d07a7eecff2b26",
+        "bytes": 528900
+      },
+      "TV_Extra-upGfoU5PBDs-._III.info.json": {
+        "sha256": "71ad0fe3da0ffac960fb67aa58a9f6f9c0d71ddb3695ff29b7c6988ed8d66eb9",
+        "bytes": 495819
+      },
+      "TV_Extra-yzM86t19N-s-1_3.info.json": {
+        "sha256": "208d389ffa3121073597b473934db87816fb46165d86b3dadb369d9e4595c037",
+        "bytes": 497669
+      },
+      "UAP_UFO--z7-G-D5HjY-.11_2024._1.info.json": {
+        "sha256": "945d8d0c2f378d4098452b9b5112ff7d106344459e3b458cb6fd3606255d7f46",
+        "bytes": 531226
+      },
+      "UAP_UFO-2HswWv_wDC8-._2022_..info.json": {
+        "sha256": "1453a096fbd3f08fb413b09a12fb8361b5a02dbdda99d9e603621cea30979fbe",
+        "bytes": 539245
+      },
+      "UAP_UFO-2px4-GLjurY-._21.10.2017_..info.json": {
+        "sha256": "aa29d4336a5f4370ff32db13545dc48d7eccc4f55e60511395b3fab2798a6572",
+        "bytes": 589800
+      },
+      "UAP_UFO-3IFuXoOKmHc-._._14.10.2023_._1.info.json": {
+        "sha256": "caceba498fd9aab00c9d85b581942c388633d1d394552e65522e94fa9cf61fce",
+        "bytes": 539124
+      },
+      "UAP_UFO-55B_odFOzFI-._3_3.info.json": {
+        "sha256": "b0581c3c1a002a8f207a03339d39da9657eade1b716f074cf5d973a58130cf06",
+        "bytes": 544921
+      },
+      "UAP_UFO-Aq6svaPgSMg-._01.12.2024_..info.json": {
+        "sha256": "6b437bd5ca196b899620c2d1cac6285456477cf7957ffbfd7517b6aa50667b0e",
+        "bytes": 527980
+      },
+      "UAP_UFO-IoN6Newd6PY-UFO_UAP._23.06.24..info.json": {
+        "sha256": "7ce77c2b98d06cd344be493d1c5e611d3204226beca9d9d65fae7cd96e5403fd",
+        "bytes": 587641
+      },
+      "UAP_UFO-JHyFEZFM6gY-UFO_._._._1.info.json": {
+        "sha256": "3ca43260b14f0b65e83e7dec14a428101fc78cbe2d6e205f68c44d98f0d4a848",
+        "bytes": 561926
+      },
+      "UAP_UFO-LtT26XLv5Pc-15.01.2022_..info.json": {
+        "sha256": "3805abdb7af2dfa3b5434e12657e13efccc083941e430f4ef8772ff7b89f1869",
+        "bytes": 567935
+      },
+      "UAP_UFO-SJzXqSzloIE-._No13_29.11.2019.info.json": {
+        "sha256": "9b0dc0253112695a7b5c6d046257042c30941d3f6cdb80ca5f3fc3fb705dedd0",
+        "bytes": 578679
+      },
+      "UAP_UFO-fbPjx3vNV3Q-X-Files_-_._._10.11.2018.info.json": {
+        "sha256": "2ec6e872429fc6d81561c4b91ab3ce69b65c4bc54e24a53a6ceedd7e07dcf35a",
+        "bytes": 554593
+      },
+      "UAP_UFO-gbIVYHcnXf0-._._17.02.2017.info.json": {
+        "sha256": "5c12aa47299798869d687de45bb032ae953836cffff1b8694628d599d06fb89c",
+        "bytes": 570544
+      },
+      "UAP_UFO-hyl3pmFcTsg-._._._20.10.2018_._1.info.json": {
+        "sha256": "663e06c6b76990c81f554f7efa888f5beab72d3584704e3e4bc7a391ca50675d",
+        "bytes": 555781
+      },
+      "UAP_UFO-i5Ml08McCWY-._08.10.2022_..info.json": {
+        "sha256": "bb859a2aee25f56903d23121bec6f78d2cdf0124f82f59f1ec1808354f3ac9bc",
+        "bytes": 571611
+      },
+      "UAP_UFO-jj65-gGlIM0-._1.info.json": {
+        "sha256": "318178bb1b4a73e4cffc537920c060cedba68e9785d2282b81b11d60e3b9139c",
+        "bytes": 552811
+      },
+      "UAP_UFO-k0xBwb_80dI-._2_2.info.json": {
+        "sha256": "bfb25b1cd99d8cbc8db6141e38389f7f4ec8a8889b25fb0e4131e28ebf4f8650",
+        "bytes": 543372
+      },
+      "UAP_UFO-m7Ueh8jgvPs-._._._2.info.json": {
+        "sha256": "e25f50f9868f4dc5b4dab262a413651cdda5e45cf789d5a85d8a439303d1f2b8",
+        "bytes": 541141
+      },
+      "UAP_UFO-m83d7rOxU6M-._04.11.2024.info.json": {
+        "sha256": "4b50a61afb0e51a6a140552581395a922c8186d2431f5ff9938ce65c4adb24b4",
+        "bytes": 602821
+      },
+      "UAP_UFO-mR32PnZwGEY-._2.info.json": {
+        "sha256": "ce92a5ab92257b12d46b38c22cc1ac7c2508a056258f40619ce0c2df0fad8791",
+        "bytes": 538654
+      },
+      "UAP_UFO-n3EPxyf4XGk-12.09.2025_..info.json": {
+        "sha256": "035150a8f40b1af9d1cfb0d0836d280bd7a8dee76f4e38dc875aafc2fd7676a9",
+        "bytes": 552238
+      },
+      "UAP_UFO-na8SJVuRHd4-._._2025.info.json": {
+        "sha256": "94f31013c3abcb5637c91ace01188b466a5817e0abe6af96fd29f7276e2e1eab",
+        "bytes": 539208
+      },
+      "UAP_UFO-nuqix4zMpew-CONDIGN_._31.08.2019.info.json": {
+        "sha256": "3ea236f0b7737e4314d20048707cf21e4c19438ebd54cd25e41c44d4f6481b42",
+        "bytes": 549631
+      },
+      "UAP_UFO-rF_9-sxgNp8-._._._20.11.2020.info.json": {
+        "sha256": "bae9277b41069eef6b6b0867cf1eca2480d20dbc5a7d0213cbd4619d39b7a01c",
+        "bytes": 570574
+      },
+      "UAP_UFO-tTKS-K7IOXY-._1_3.info.json": {
+        "sha256": "e03b640d6c87f9e4778559e7517ab386b9d54cea3df960f87251c621a9305f87",
+        "bytes": 545987
+      },
+      "UAP_UFO-uAetZaqR9eM-_.info.json": {
+        "sha256": "1ad64059288406516ed6f1dc89d10ccbd76fbaa6cc41229646a2120820222193",
+        "bytes": 530126
+      },
+      "UAP_UFO-uGezqo8MUs0-._._._._11.11.2023_..info.json": {
+        "sha256": "806338557e9ca565606db4fbb307e9a2fc7cd92e4366b6c305e0523692d372b0",
+        "bytes": 555201
+      },
+      "UAP_UFO-v75bULrWgfg-._._02.11.2025.info.json": {
+        "sha256": "f49c85df74ba9add43b17b73308ac1a468dd8cc68ade2fe62161378779718592",
+        "bytes": 563799
+      },
+      "UAP_UFO-vkmeY1djs8E-._02.01.2025..info.json": {
+        "sha256": "cdaaa328b7c7a266caa6eafd8781d939b39e4fcc43c905a65bceb960506c6b74",
+        "bytes": 534964
+      },
+      "UAP_UFO-wYiclrJra2E-21.03.2026_-_._._..info.json": {
+        "sha256": "06d8a9b25de632220af8cafd5cc458fff47fb0f4983330dce695828b86096caa",
+        "bytes": 562965
+      },
+      "UAP_UFO-xm-2Kd8KrmQ-15.03._2025.info.json": {
+        "sha256": "911fb7e655d27012e3c5e9ab9aa275ff0d94a149b8881e567538c35a1c0fb7a6",
+        "bytes": 536413
+      },
+      "UAP_UFO-xxd3N_2TTIg-._2.info.json": {
+        "sha256": "7633f95890c8dd11e660587e2fadcaa1d656482830093cd7cd635b37eb153e32",
+        "bytes": 539907
+      },
+      "UAP_UFO-yvsRnHwZYOs-13.12.2025_..info.json": {
+        "sha256": "a0507efddb015d78114dc14546a6969495a197687fe591d467149f23e9f39682",
+        "bytes": 565594
+      },
+      "UAP_UFO-z4A6vgAx110-3I_ATLAS_24.10.2025..info.json": {
+        "sha256": "08994bb54e2f0ed80d04ff43aa3b47b52c59cdba99f3c3e9c29f1e40c799af1c",
+        "bytes": 561488
+      },
+      "UnionKOSMOPOISK-2Zb4M7hvmtk-._._70.info.json": {
+        "sha256": "4c156fb37e74d2ca2aac736dc6ebb4c8274ed4c3c244c11aa67c7c9db1922877",
+        "bytes": 34817
+      },
+      "UnionKOSMOPOISK-6tXQhZ02Ys8-._._-_._1.info.json": {
+        "sha256": "b11805f770b6fe7688cbd92d6db93683baa1d8d7662563018d6284f696138d76",
+        "bytes": 36057
+      },
+      "UnionKOSMOPOISK-AzIThQa4l8k-._2023.info.json": {
+        "sha256": "9af864cee44724912c017fd5b28fabb001f304d074e63ece1dca64a958cae507",
+        "bytes": 51311
+      },
+      "UnionKOSMOPOISK-B0hiT-wqKuc-._._1.info.json": {
+        "sha256": "455512c56454ef342ff5febd8fc3c46efee8ce63a3835ed23fba1ae5a1c4efb6",
+        "bytes": 58887
+      },
+      "UnionKOSMOPOISK-BhmtgSeCOU4-._2023.info.json": {
+        "sha256": "951ebf344f65a07040ec5c336bab33d707d8d78fe2afb8740ac4bb0ade4b4318",
+        "bytes": 42552
+      },
+      "UnionKOSMOPOISK-G96VkWxR9Rg-..info.json": {
+        "sha256": "fe641cb7144f84730d8b72c00a00c6ec0585b9f82ebc34ea0953e3e27fd13550",
+        "bytes": 65745
+      },
+      "UnionKOSMOPOISK-LupNBSxcpBA-..info.json": {
+        "sha256": "8a8217a5237abba1e8a977c7bf9ae02bccb7f03b5bea31ebf37254351a229a10",
+        "bytes": 33083
+      },
+      "UnionKOSMOPOISK-OOoJuL7K-f8-..info.json": {
+        "sha256": "75844a07d6e0f165d8cb4ca97cb47cfa99b5c956e6fe43e8e64ec907897fb579",
+        "bytes": 39209
+      },
+      "UnionKOSMOPOISK-QC4P9EAW7aY-._..info.json": {
+        "sha256": "00c919bd2fecba8695936b3f5d25d304cc735d9c25d826ca005dd41b2d126b68",
+        "bytes": 38251
+      },
+      "UnionKOSMOPOISK-QwuJCnr1ReM-._..info.json": {
+        "sha256": "dc2b8ce4c8cbdf37a43df80182190d1e22722789a307f919da70271eb6ca3143",
+        "bytes": 43461
+      },
+      "UnionKOSMOPOISK-TgK2sbzWAw4-._._2.info.json": {
+        "sha256": "d75cfda4bc622bd7d9b73eb00a3494ea7375311b74bcb66f4aac4764a1500eb6",
+        "bytes": 37771
+      },
+      "UnionKOSMOPOISK-UgoPZB7TWis-._._70_..info.json": {
+        "sha256": "412775a9fb35429564f14026bc32174eb993808cfdf7d01e9fd5897b6879fa29",
+        "bytes": 36338
+      },
+      "UnionKOSMOPOISK-ZG00j0zeUTg-._2022.info.json": {
+        "sha256": "50c20099df1033a4f893dc085b3fddf01e4d00e4e20be43924ac9096f32c40c8",
+        "bytes": 33842
+      },
+      "UnionKOSMOPOISK-bYl9Emd0Aww-..info.json": {
+        "sha256": "3816e07f66050197419479d6340decae43245635f6887ccbb0b078dc3639083b",
+        "bytes": 60654
+      },
+      "UnionKOSMOPOISK-eNEuahbHlF8-._2024.info.json": {
+        "sha256": "06a696bc100398ea6f233494d1d3a70863fd7b674f8c236b7ee22e908eb9915f",
+        "bytes": 54206
+      },
+      "UnionKOSMOPOISK-mIHKNQw7m8k-2023.info.json": {
+        "sha256": "469f68397b8c0f5a87953eb5f6ce7f7ec70111ead0936f33209ffd2c95387c37",
+        "bytes": 29769
+      },
+      "UnionKOSMOPOISK-q6IS4LvbEfk-._._2.info.json": {
+        "sha256": "06d1764fc942eca84297935953fa6a377ad1b9c6c7eb09985729c393552c5230",
+        "bytes": 61035
+      },
+      "UnionKOSMOPOISK-uppHXhc9VH0-._-_2022.info.json": {
+        "sha256": "7da7b31f60734b3ae208f427b8dc4713c6fac0cca03c97d8f52bdebc3c4baaf7",
+        "bytes": 40870
+      },
+      "VLAD_205-UpRCbmWZkFg-_.info.json": {
+        "sha256": "479c84b4d16cc8ec2ac5354963c751fb7ef862037283385b7ce531b2e9864d0b",
+        "bytes": 580467
+      },
+      "_--E4uLtcIuz0-2016_-_..info.json": {
+        "sha256": "aef0485a672032c51ec6dcbec1cdb70c55d3698a99cca579633018228e85d7fa",
+        "bytes": 490833
+      },
+      "_-5NrfaUPWOEM-2023.info.json": {
+        "sha256": "098d8082e4aa1ac6859208389e522ff2ed43390ebca46827fd25d28003450490",
+        "bytes": 534440
+      },
+      "_-_0E7-Mb8l80-..info.json": {
+        "sha256": "1288d1a6369949fc76e03a0de5894ddcea551ca57cd50c75174f52fe9fe689fc",
+        "bytes": 501251
+      },
+      "_-odqOtOgRHk8-_.info.json": {
+        "sha256": "088ce578493e747117a873494175e7a1a508ad9ca71739885f23516f87884f04",
+        "bytes": 565830
+      },
+      "_-sDNTXOO_pWA-._..info.json": {
+        "sha256": "c5ce175bf3dc66b3c022c18663781054a0764ae0791272c16455c5f42270e706",
+        "bytes": 502623
+      }
+    }
+  },
+  "reproducibility_note": "Original gather-time manifest with sha256 of every download is preserved at /mnt/data/uap-gershtein-raw/manifest.json; this file is the committed counterpart with paths rewritten for repo navigation. The `sha256` block above lists per-file SHA-256 digests of the 170 in-repo content files (62 transcripts, 21 article HTML/PDF sources, 5 article extracted-text files, 16 book catalog-page files = 8 sources × 2 formats, 4 book full-text files = 2 sources × 2 formats, 62 video info_json files), computed against the v0.5.3 working tree."
+}
