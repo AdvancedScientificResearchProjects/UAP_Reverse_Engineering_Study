@@ -1,0 +1,33 @@
+flowchart LR
+    classDef step fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef gate fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef pass fill:#c8e6c9,stroke:#1b5e20,stroke-width:3px,color:#000
+    classDef fail fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+
+    S1["1. Parameter isolation<br/>Изоляция параметров<br/><i>change one variable<br/>at a time</i>"]:::step
+    S2["2. Threshold search<br/>Поиск порога<br/><i>sharp transition at<br/>specific value?</i>"]:::step
+    S3["3. Temporal structure<br/>Временная структура<br/><i>stable signature?</i>"]:::step
+    S4["4. Multi-channel verification<br/>Мультиканальная проверка<br/><i>EM · optics · current<br/>· mechanics</i>"]:::step
+    S5["5. Scaling<br/>Масштабирование<br/><i>structure preserved as<br/>energy/size grows?</i>"]:::step
+    S6["6. Modelling<br/>Моделирование<br/><i>plasma / EM /<br/>nonlinear dynamics</i>"]:::step
+    S7["7. Hypothesis crash-test<br/>Краш-тест гипотезы<br/><i>change medium /<br/>material / frequency</i>"]:::step
+
+    G["⚖ 5 acceptance criteria gate<br/>Критерии приёмки"]:::gate
+
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> G
+
+    G --> R1["✅ Reproducible / Воспроизводится"]:::pass
+    G --> R2["✅ Has threshold / Имеет порог"]:::pass
+    G --> R3["✅ Has signature / Имеет сигнатуру"]:::pass
+    G --> R4["✅ Scales / Масштабируется"]:::pass
+    G --> R5["❗ Does NOT fit existing model<br/>НЕ укладывается в модель"]:::pass
+
+    R1 --> NEW["🚀 New physical regime<br/>Новый физический режим"]:::pass
+    R2 --> NEW
+    R3 --> NEW
+    R4 --> NEW
+    R5 --> NEW
+
+    G -.-> ER1["❌ Single strange signal<br/>Одиночный странный сигнал"]:::fail
+    G -.-> ER2["❌ Ignored noise/artifacts<br/>Шум/артефакты не учтены"]:::fail
+    G -.-> ER3["❌ Mixed processes<br/>Смешение процессов"]:::fail

@@ -1,0 +1,37 @@
+flowchart LR
+    classDef lazar fill:#fce4ec,stroke:#880e4f,stroke-width:2px,color:#000
+    classDef reality fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef contradict fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+    classDef agree fill:#c8e6c9,stroke:#1b5e20,stroke-width:3px,color:#000
+
+    subgraph LZ[Lazar's claim / Заявление Лазара — 1989+]
+        L1["Element 115 exists<br/>Элемент 115 существует"]:::lazar
+        L2["Stable isotope<br/>Стабильный изотоп"]:::lazar
+        L3["Half-gram quantity<br/>Пол-грамма количество"]:::lazar
+        L4["Used as craft fuel<br/>Используется как топливо"]:::lazar
+        L5["Anti-gravity behaviour<br/>Антигравитационное поведение"]:::lazar
+        L6["Sourced at S-4<br/>Получен в S-4"]:::lazar
+    end
+
+    subgraph RE[Reality / Реальность — JINR + LLNL, 2003–2020]
+        R1["Z=115 synthesized<br/>Z=115 синтезирован"]:::reality
+        R2["All isotopes < 1 sec<br/>Все изотопы < 1 сек"]:::reality
+        R3["Single atoms<br/>Единичные атомы"]:::reality
+        R4["No practical application<br/>Нет практического применения"]:::reality
+        R5["No anomalous gravity<br/>Никакой аномальной гравитации"]:::reality
+        R6["Synthesized ²⁴³Am + ⁴⁸Ca<br/>JINR + LLNL, Dubna<br/>Синтез в Дубне"]:::reality
+    end
+
+    L1 ==>|CONFIRMED<br/>ПОДТВЕРЖДЕНО| R1
+    L2 -->|CONTRADICTED<br/>ОПРОВЕРГНУТО| R2
+    L3 -->|CONTRADICTED<br/>ОПРОВЕРГНУТО| R3
+    L4 -->|CONTRADICTED<br/>ОПРОВЕРГНУТО| R4
+    L5 -->|NOT OBSERVED<br/>НЕ НАБЛЮДАЛОСЬ| R5
+    L6 -->|REPLACED BY<br/>ЗАМЕНЕНО| R6
+
+    linkStyle 0 stroke:#1b5e20,stroke-width:5px
+    linkStyle 1 stroke:#b71c1c,stroke-width:3px
+    linkStyle 2 stroke:#b71c1c,stroke-width:3px
+    linkStyle 3 stroke:#b71c1c,stroke-width:3px
+    linkStyle 4 stroke:#b71c1c,stroke-width:3px
+    linkStyle 5 stroke:#b71c1c,stroke-width:3px

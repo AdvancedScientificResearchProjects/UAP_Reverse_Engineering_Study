@@ -1,0 +1,99 @@
+---
+title: "Cabell propulsion taxonomy 1949 → AARO MISREP 2026 (75 yr lexical horizon) / Таксономия двигателей Кэбелла 1949 → AARO MISREP 2026 (лексический горизонт 75 лет)"
+---
+%% EN: Visualizes §7.1 of MASTER_pursue_claims — the 75-year persistence of the
+%% Cabell-1949 propulsion taxonomy across U.S. government UFO reporting forms.
+%% Anchors: 1948 USAFE TT 1524 ETH text → 1949 Cabell Memo #4 (FBI-62HQ-Sr164,
+%% FSR 200-4) → 1952 Robertson era (absent in PURSUE) → 1963 Hunter "Space Alien
+%% Race" memo (DOS-1963-EOP-NASA) → modern AARO MISREP "UAP Propulsion Means: UNK"
+%% (DOW-D32, D33, D55, D8). The form's lexical horizon never expanded.
+%% RU: §7.1 MASTER — 75-летняя устойчивость таксономии Кэбелла-1949 в формах
+%% правительственных отчётов США об НЛО. Лексический горизонт формы не расширился.
+flowchart TB
+    subgraph PRECURSOR["1948 — USAFE precursor / Предтеча USAFE"]
+        TT1524["USAFE TT 1524 — Holland intercept<br/>Голландский перехват / Swedish lake-crash<br/>DOW-1948-NETHERLANDS-INTEL<br/><i>First major in-corpus ETH text<br/>Первый крупный ETH-текст</i>"]
+        FLY_DISCS["Cabell vs Anderson<br/>'flying discs' exchange<br/>DOW-1948-FLYING-DISCS<br/><i>Defines policy-level question<br/>Формулирует вопрос на уровне политики</i>"]
+    end
+
+    subgraph CABELL["1949 — Cabell Memorandum #4 (FBI-62HQ-Sr164) / Меморандум Кэбелла #4"]
+        direction TB
+        MEMO["Air Intelligence Requirements Memo #4<br/>Maj Gen C.P. Cabell, USAF Dir Intel<br/>15 Feb 1949<br/><i>4 duplicate copies in single FBI serial<br/>4 копии в одном серийнике ФБР</i>"]
+        subgraph SECT15["Section 15 — 'Propulsion' / Секция 15 — 'Двигатель'"]
+            S15_1["1. Propeller or jet<br/>Винт или реактивный"]
+            S15_2["2. Rotor / Ротор"]
+            S15_3["3. Aerodynamic vanes flapping/oscillating<br/>'Katz Mayer effect'<br/><i>(Knoller-Betz / Katzmayr 1920s)</i>"]
+            S15_4["4. Visible exhaust or jet openings<br/>Видимый выхлоп / реактивные сопла"]
+            S15_OTHER["Other / Другое<br/><i>(unstructured free text)</i>"]
+        end
+        subgraph SECT14["Section 14 — 'Support' (lift) / Секция 14 — 'Подъём'"]
+            S14_W["Wings / Крылья"]
+            S14_L["Aerodynamic lift of fuselage<br/>Подъём фюзеляжа"]
+            S14_VJ["Vertical jet / Вертикальный реактивный"]
+            S14_RC["Rotating cylinder or cone<br/>Вращающийся цилиндр / конус"]
+            S14_AS["Aerostatic (balloon / dirigible)<br/>Аэростатический"]
+        end
+        FSR["FSR 200-4 reports (parallel<br/>domestic flight-service-center regime)<br/>DOW-1949-FSR-200-4"]
+    end
+
+    subgraph LACK["What the 1949 form lacks / Чего нет в форме 1949"]
+        L1["Plasma propulsion<br/>Плазменный двигатель"]
+        L2["Field propulsion / gravity manipulation<br/>Полевая двигательная установка / гравитация"]
+        L3["MHD drive / МГД-привод"]
+        L4["Antimatter / Антиматерия"]
+        L5["Zero-point / vacuum-energy<br/>Нулевая точка / вакуумная энергия"]
+        L6["Anti-gravity / inertia cancelation<br/>Антигравитация / гашение инерции"]
+        L7["'No visible mechanism'<br/>Нет видимого механизма"]
+        L8["Zero-inertia hover<br/>Безынерционное зависание"]
+    end
+
+    subgraph TRANSMISSION["1949 → 1969 transmission / Передача 1949–1969"]
+        SIGN["Project Sign / Grudge / Blue Book pipeline<br/>Конвейер Sign / Grudge / Blue Book"]
+        ROBERT["1952 Robertson Panel era<br/>(absent from PURSUE corpus)<br/>Эра Robertson Panel<br/>(в корпусе PURSUE отсутствует)"]
+        HUNTER["1963 — Hunter EOP/NASC<br/>'Space Alien Race Question'<br/>DOS-1963-EOP-NASA<br/><i>'Grand panic' note from §1<br/>Заметка «гранд-паника» из §1</i>"]
+    end
+
+    subgraph MODERN["2013–2026 — Modern AARO MISREP form / Современная форма MISREP AARO"]
+        direction TB
+        MISREP["DoW MISREP D-series structured fields<br/>Структурированные поля D-серии<br/><i>UAP Propulsion Means: UNK<br/>(default; no other categorical option<br/>has measurably more usage)</i>"]
+        D32["DOW-D32 (Syria 2024)<br/>UAP Physical State: <b>Plasma</b><br/><i>only non-default in batch<br/>единственный нон-дефолт в батче</i>"]
+        D33["DOW-D33 (Aegean 2023)<br/>Propulsion Means: UNK"]
+        D55["DOW-D55 (Latakia 2016)<br/>Propulsion Means: UNK"]
+        D8["DOW-D8 (Eastern Med 2025)<br/>Propulsion Means: UNK"]
+    end
+
+    TT1524 --> MEMO
+    FLY_DISCS --> MEMO
+    MEMO --> SECT15
+    MEMO --> SECT14
+    MEMO --> FSR
+    MEMO -.->|drives reporting through| SIGN
+    SIGN --> ROBERT
+    ROBERT -.-> HUNTER
+    HUNTER -.->|"taxonomy frozen<br/>таксономия заморожена<br/>~50 years"| MISREP
+    MISREP --> D32
+    MISREP --> D33
+    MISREP --> D55
+    MISREP --> D8
+
+    SECT15 -.->|"75 years unchanged<br/>75 лет без изменений"| MISREP
+    LACK -.->|"witnesses observing<br/>'anomalous propulsion'<br/>have no slot →<br/>'Other' or UNK"| MISREP
+
+    classDef precursor fill:#e3f2fd,stroke:#0d47a1,color:#000
+    classDef cabell fill:#fff3e0,stroke:#e65100,color:#000
+    classDef sect fill:#ffe0b2,stroke:#bf360c,color:#000
+    classDef lack fill:#ffebee,stroke:#b71c1c,stroke-dasharray: 4 3,color:#000
+    classDef trans fill:#f3e5f5,stroke:#4a148c,color:#000
+    classDef modern fill:#e8f5e9,stroke:#1b5e20,color:#000
+    classDef d32 fill:#c8e6c9,stroke:#1b5e20,stroke-width:2px,color:#000
+
+    class TT1524,FLY_DISCS precursor
+    class MEMO,FSR cabell
+    class S15_1,S15_2,S15_3,S15_4,S15_OTHER,S14_W,S14_L,S14_VJ,S14_RC,S14_AS sect
+    class L1,L2,L3,L4,L5,L6,L7,L8 lack
+    class SIGN,ROBERT,HUNTER trans
+    class MISREP,D33,D55,D8 modern
+    class D32 d32
+
+    %% Source / Источник: MASTER_pursue_claims §7.1, §1.2; FBI-62HQ-Sr164, DOW-1949-FSR-200-4,
+    %% DOW-1948-NETHERLANDS-INTEL, DOW-1948-FLYING-DISCS, DOS-1963-EOP-NASA, DOW-D32, D33, D55, D8.
+    %% PURSUE archive · ASRP v2.1

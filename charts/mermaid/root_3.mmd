@@ -1,0 +1,10 @@
+%% Source: README.md section "Evidence Synthesis Flow / Схема синтеза доказательств"
+%% Inlined originally; replaced by charts/mermaid/root_3.png in commit 5d5b7f1 (2026-04-14)
+%% Recovered from git: git show 5d5b7f1^:README.md
+flowchart LR
+    A[Raw percipient statements<br/>Необработанные утверждения перципиентов] --> B[Normalized themes<br/>Нормализованные темы]
+    B --> C[Cross-response agreement<br/>Согласованность ответов]
+    C --> D[Reference validation<br/>Валидация по референсу]
+    D --> E[Repository-level hypotheses<br/>Гипотезы на уровне репозитория]
+    A --> F[Primary reports<br/>Первичные отчёты]
+    F --> C

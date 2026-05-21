@@ -1,0 +1,62 @@
+graph LR
+    classDef ua fill:#fff9c4,stroke:#f57f17,color:#000
+    classDef kz fill:#c8e6c9,stroke:#2e7d32,color:#000
+    classDef ru fill:#bbdefb,stroke:#1565c0,color:#000
+    classDef by fill:#f8bbd0,stroke:#ad1457,color:#000
+    classDef center fill:#ffccbc,stroke:#bf360c,color:#000
+    classDef external fill:#d1c4e9,stroke:#4527a0,color:#000
+
+    USSR["USSR integrated programs<br/>Объединённая программа СССР<br/>1956–1991"]:::center
+
+    subgraph UA[Ukrainian SSR / Украинская ССР]
+        UA1["Yuzhmash / Южмаш<br/>Dnepropetrovsk"]:::ua
+        UA2["Yuzhnoye Design Bureau<br/>КБ Южное"]:::ua
+        UA3["Antonov / Антонов<br/>Kyiv / Киев"]:::ua
+        UA4["Zenit rocket / Ракета Зенит"]:::ua
+        UA5["SS-18 Satan ICBM / МБР"]:::ua
+    end
+
+    subgraph KZ[Kazakh SSR / Казахская ССР]
+        KZ1["KazAtomProm / КазАтомПром<br/>uranium mining / добыча урана"]:::kz
+        KZ2["Baikonur Cosmodrome<br/>Космодром Байконур"]:::kz
+        KZ3["Semipalatinsk test site<br/>Семипалатинский полигон"]:::kz
+        KZ4["Kapustin Yar extension<br/>Расширение Капустина Яра"]:::kz
+        KZ5["Sary-Ozek / Сары-Озек<br/>1960 CIA report"]:::kz
+    end
+
+    subgraph RU[Russian SFSR / РСФСР]
+        RU1["JINR Dubna / ОИЯИ Дубна<br/>Moscow Oblast"]:::ru
+        RU2["IZMIRAN / ИЗМИРАН<br/>SETKA-AN host"]:::ru
+        RU3["Rosatom / Росатом<br/>predecessor orgs / предшественники"]:::ru
+        RU4["RSC Energia / РКК Энергия<br/>Kaliningrad → Korolyov"]:::ru
+        RU5["Ministry of Defence / МО<br/>SETKA-MO host"]:::ru
+    end
+
+    subgraph BY[Belarusian SSR / Белорусская ССР]
+        BY1["Electronics, optics / Электроника, оптика"]:::by
+    end
+
+    subgraph EXT[External collaborations / Внешние коллаборации]
+        EXT1["LLNL USA<br/>²⁴³Am target / мишень ²⁴³Am"]:::external
+        EXT2["GSI Darmstadt<br/>independent replication / независ. репликация"]:::external
+        EXT3["Oak Ridge USA<br/>Z=117 tennessine / теннессин"]:::external
+    end
+
+    USSR --> UA
+    USSR --> KZ
+    USSR --> RU
+    USSR --> BY
+
+    UA1 --> UA4
+    UA2 --> UA4
+    UA2 --> UA5
+
+    KZ1 -->|"uranium supply<br/>поставка урана"| RU3
+    KZ2 -->|"launch operations<br/>пусковые операции"| RU4
+
+    RU1 -->|"2003 element 115<br/>элемент 115"| EXT1
+    RU1 -.->|"Aug 2013 confirmation<br/>подтверждение авг. 2013"| EXT2
+    RU1 -.->|"Z=117 collaboration"| EXT3
+
+    RU2 -->|"SETKA-AN reports<br/>репорты SETKA-AN"| KZ
+    RU5 -->|"SETKA-MO reports<br/>репорты SETKA-MO"| KZ

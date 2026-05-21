@@ -1,0 +1,10 @@
+%% Source: README.md section "AI Pipeline Summary / Сводка конвейера ИИ"
+%% Inlined originally; replaced by charts/mermaid/root_4.png in commit 5d5b7f1 (2026-04-14)
+%% Recovered from git: git show 5d5b7f1^:README.md
+flowchart LR
+    A[UAP-FRAG-001<br/>Input photo<br/>Входное фото] --> B[Segmentation<br/>Сегментация<br/>IoU 0.977]
+    B --> C[SigLIP2<br/>coral/sea urchin fossil<br/>коралл/окаменелость<br/>0.98 sigmoid]
+    B --> D[EfficientAD<br/>No surface anomalies<br/>Аномалий не обнаружено]
+    B --> E[Depth Anything<br/>Relative depth map<br/>Карта глубины]
+    C --> F[LLM Visual<br/>Cidaridae match<br/>Совпадение Cidaridae]
+    F --> G[Cross-method convergence<br/>Межметодная конвергенция<br/>AI + ECP: coral-like]

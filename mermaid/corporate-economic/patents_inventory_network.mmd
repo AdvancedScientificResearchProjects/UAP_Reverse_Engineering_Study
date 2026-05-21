@@ -1,0 +1,65 @@
+graph LR
+    classDef justia fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef subunit fill:#bfdbfe,stroke:#1e3a8a,stroke-width:2px,color:#000
+    classDef topic fill:#bbf7d0,stroke:#14532d,stroke-width:2px,color:#000
+    classDef inventor fill:#e9d5ff,stroke:#581c87,stroke-width:1px,color:#000
+
+    JUSTIA["📄 Justia Patents<br/>(public USPTO mirror)<br/>Justia Patents (зеркало USPTO)"]:::justia
+
+    PS["🏛 EG&G Pressure Science<br/>(historical sub-unit)"]:::subunit
+    SE["🏛 EG&G Sealol<br/>(historical sub-unit)"]:::subunit
+    OPT["🏛 EG&G Optoelectronics<br/>(historical sub-unit)"]:::subunit
+    DE["🏛 EG&G defense-electronics<br/>(historical sub-unit)"]:::subunit
+    SP["🏛 EG&G Special Projects<br/>(historical sub-unit)"]:::subunit
+
+    T_HERMETIC["⚙️ Hermetic systems / pressure<br/>Герметические системы / давление"]:::topic
+    T_OPTICAL["⚙️ Spectral lamps / optical<br/>Спектральные лампы / оптика"]:::topic
+    T_FREQ["⚙️ Frequency stabilization<br/>Частотная стабилизация"]:::topic
+    T_POWER["⚙️ Power systems / discharge<br/>Силовые системы / разряд"]:::topic
+    T_SHAPED["⚙️ Shaped charges<br/>Кумулятивные заряды"]:::topic
+    T_ULTRA["⚙️ Ultrasonic material analysis<br/>Ультразвуковой анализ материалов"]:::topic
+    T_PRESSENG["⚙️ Pressure engineering<br/>Прессовая инженерия"]:::topic
+
+    INV1["Riley Jr.<br/>spectral lamps"]:::inventor
+    INV2["Smartt<br/>optical systems"]:::inventor
+    INV3["Neyer<br/>shaped charges"]:::inventor
+    INV4["Yetman<br/>power systems"]:::inventor
+    INV5["Clifford<br/>power systems"]:::inventor
+    INV6["Goldberg<br/>frequency stabilization"]:::inventor
+    INV7["Lynch<br/>frequency stabilization"]:::inventor
+    INV8["Swensen<br/>hermetic systems"]:::inventor
+    INV9["Halling<br/>pressure systems"]:::inventor
+    INV10["Gardner<br/>pressure engineering"]:::inventor
+    INV11["Manning<br/>ultrasonic analysis"]:::inventor
+
+    INV1 --> OPT
+    INV2 --> OPT
+    INV3 --> SP
+    INV4 --> DE
+    INV5 --> DE
+    INV6 --> DE
+    INV7 --> DE
+    INV8 --> SE
+    INV8 --> PS
+    INV9 --> SE
+    INV9 --> PS
+    INV10 --> PS
+    INV11 --> DE
+
+    INV1 --> T_OPTICAL
+    INV2 --> T_OPTICAL
+    INV3 --> T_SHAPED
+    INV4 --> T_POWER
+    INV5 --> T_POWER
+    INV6 --> T_FREQ
+    INV7 --> T_FREQ
+    INV8 --> T_HERMETIC
+    INV9 --> T_HERMETIC
+    INV10 --> T_PRESSENG
+    INV11 --> T_ULTRA
+
+    PS --> JUSTIA
+    SE --> JUSTIA
+    OPT --> JUSTIA
+    DE --> JUSTIA
+    SP --> JUSTIA

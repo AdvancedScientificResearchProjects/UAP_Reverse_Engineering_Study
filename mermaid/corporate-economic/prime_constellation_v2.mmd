@@ -1,0 +1,89 @@
+flowchart TB
+    classDef engineering fill:#bfdbfe,stroke:#1e3a8a,stroke-width:3px,color:#000
+    classDef services fill:#bbf7d0,stroke:#14532d,stroke-width:2px,color:#000
+    classDef anchor fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef lab fill:#e9d5ff,stroke:#5b21b6,stroke-width:2px,color:#000
+    classDef historical fill:#fecaca,stroke:#7f1d1d,stroke-width:2px,color:#000
+    classDef logistics fill:#fed7aa,stroke:#9a3412,stroke-width:2px,color:#000
+    classDef inventor fill:#d1fae5,stroke:#065f46,stroke-width:1px,color:#000
+
+    subgraph ENG["⚙️ Engineering primes / Инженерные prime"]
+        LMT["Lockheed Martin (LMT)<br/>Skunk Works"]:::engineering
+        BA["Boeing (BA)<br/>Phantom Works"]:::engineering
+        RTX["RTX Corp (RTX)<br/>sensors / radar"]:::engineering
+        NOC["Northrop Grumman (NOC)<br/>B-2 / B-21"]:::engineering
+    end
+
+    subgraph SVC["🛠 Services prime ring / Сервисное кольцо"]
+        AMTM["Amentum (AMTM)<br/>EG&G successor<br/>преемник EG&G"]:::anchor
+        LDOS["Leidos (LDOS)"]:::services
+        SAIC["SAIC"]:::services
+        JCS["Jacobs Solutions"]:::services
+        PSN["Parsons"]:::services
+        BAH["Booz Allen Hamilton"]:::services
+        BTL["Battelle"]:::services
+        BNI["Bechtel National"]:::services
+        HON["Honeywell Intl. (HON)"]:::services
+        HONFMT["Honeywell FM&T"]:::services
+    end
+
+    subgraph LABS["🏢 DoE national labs / Национальные лаборатории DOE"]
+        LANL["LANL (Triad LLC)"]:::lab
+        LLNL["LLNL (LLNS LLC)"]:::lab
+        SNL["SNL (NTESS LLC)"]:::lab
+        Y12["Y-12 / Pantex (CNS LLC)"]:::lab
+        NNSS["NNSS (MSTS LLC)"]:::lab
+        KCNSC["KCNSC (FM&T-operated)"]:::lab
+    end
+
+    subgraph HIST["🏛 EG&G historical sub-units / Исторические подразделения EG&G"]
+        EGNG["EG&G Inc. (1947)"]:::historical
+        EGNGSP["EG&G Special Projects<br/>NTS логистика"]:::historical
+        EGNGPS["EG&G Pressure Science"]:::historical
+        EGNGSE["EG&G Sealol"]:::historical
+        EGNGOPT["EG&G Optoelectronics"]:::historical
+    end
+
+    subgraph LOG["✈️ NTS logistics / Логистика NTS"]
+        JANET["Janet Airlines<br/>(Boeing-operated)"]:::logistics
+    end
+
+    subgraph PAT["⚙️ Patent assignees / Патентные правопреемники"]
+        INVPS["EG&G Pressure Science assignees<br/>(Swensen / Halling / Gardner)"]:::inventor
+        INVOPT["EG&G Optoelectronics assignees<br/>(Riley Jr / Smartt)"]:::inventor
+        INVDEF["EG&G defense-electronics assignees<br/>(Goldberg / Lynch / Yetman / Clifford)"]:::inventor
+        INVSP["EG&G Special Projects assignees<br/>(Neyer)"]:::inventor
+    end
+
+    AMTM -- "Triad LLC member" --> LANL
+    BTL -- "Triad LLC member" --> LANL
+    BNI -- "LLNS member" --> LLNL
+    AMTM -- "LLNS member" --> LLNL
+    BTL -- "LLNS member" --> LLNL
+    BNI -- "CNS member" --> Y12
+    LDOS -- "CNS member" --> Y12
+    JCS -- "MSTS member" --> NNSS
+    AMTM -- "MSTS member" --> NNSS
+    HONFMT -- "MSTS prime" --> NNSS
+    HONFMT -- "NTESS prime" --> SNL
+    HONFMT -- "operates" --> KCNSC
+    HON --> HONFMT
+
+    EGNG --> EGNGSP
+    EGNG --> EGNGPS
+    EGNG --> EGNGSE
+    EGNG --> EGNGOPT
+    EGNG -- "succeeded by" --> AMTM
+
+    EGNGPS --> INVPS
+    EGNGOPT --> INVOPT
+    EGNG --> INVDEF
+    EGNGSP --> INVSP
+
+    BA --> JANET
+    JANET -- "NTS logistics overlap" --> EGNGSP
+
+    LMT -- "engineering supplier" --> AMTM
+    BA -- "engineering supplier" --> AMTM
+    RTX -- "sensor / radar supplier" --> AMTM
+    NOC -- "engineering supplier" --> AMTM

@@ -1,0 +1,90 @@
+---
+title: "PURSUE Release 01 — redaction patterns by mechanism / Паттерны редакций по механизму"
+---
+%% EN: Visualizes §8 of MASTER — the six major redaction / data-suppression patterns
+%% in the PURSUE corpus. Complements verdict_distribution.mmd from a different angle:
+%% verdict_distribution shows the EFFECT of redactions on claim-level verdicts;
+%% this diagram shows the MECHANISMS that produced those redactions, the records
+%% affected, and whether the loss is recoverable.
+%% RU: §8 MASTER — шесть основных паттернов редакций / подавления данных в
+%% корпусе PURSUE. Дополняет verdict_distribution.mmd с другой стороны: тот
+%% показывает ЭФФЕКТ на вердикты, этот — МЕХАНИЗМЫ.
+flowchart TB
+    PURSUE["<b>PURSUE Release 01 — 161 records</b><br/>70 ⬛ REDACTED claims (4.6%)<br/>+ 24 🟧 ANALYTICAL FLAG (1.6%)"]
+
+    subgraph PATTERN1["Pattern 1 — Witness identity (USPER) / Идентичность свидетеля"]
+        P1_AFFECT["FBI 302s + DoW slide decks<br/>'USPER1..USPER7' convention<br/>FBI redaction prefix indicates<br/>federal employee status"]
+        P1_REC["FBI-USPER-302<br/>FBI-ELLIPSE-Sr3/Sr4/Sr5<br/>DOW-WESTERN-US-2023 (7 USPER)"]
+        P1_REC_R["<b>Recoverable:</b> No<br/>(intentional standing redaction)<br/><b>Восстанавливается:</b> нет"]
+    end
+
+    subgraph PATTERN2["Pattern 2 — Page 1 missing (Sr4 + Sr5) / Страница 1 отсутствует"]
+        P2_AFFECT["FBI-ELLIPSE only<br/>Systematic, not random<br/>Page 1 of 2 withheld for both<br/>corroborating witnesses"]
+        P2_REC["FBI-ELLIPSE-Sr4 (page 2 only)<br/>FBI-ELLIPSE-Sr5 (page 2 only)<br/>Sr3 = full 2 of 2 released"]
+        P2_REC_R["<b>Recoverable:</b> Future tranche / FOIA<br/>Possibly contains:<br/>'materialized from bright light'<br/>entry phenomenology"]
+    end
+
+    subgraph PATTERN3["Pattern 3 — Location coordinates / Координаты местоположения"]
+        P3_AFFECT["DoW MISREP D-series<br/>Structured lat/long fields redacted;<br/>only broad AOR envelope preserved<br/>Some basing in narrative survives"]
+        P3_REC["DOW-D3..D75 (modern military)<br/>CENTCOM AOR retained;<br/>specific basing OMAM, OJMS, LGLR<br/>only narratively"]
+        P3_REC_R["<b>Recoverable:</b> No<br/>(operational-security standing redaction)"]
+    end
+
+    subgraph PATTERN4["Pattern 4 — AARO metadata mislabel / Несогласованность AARO"]
+        P4_AFFECT["AARO portal-side metadata<br/>cataloging defect — content does NOT<br/>match the labeled MISREP companion<br/>Tagged 🟧 ANALYTICAL FLAG"]
+        P4_REC["DOW-PR28 labeled D7, matches D25<br/>DOW-PR29 labeled D8, matches D27<br/>(documented portal cataloging defect)"]
+        P4_REC_R["<b>Recoverable:</b> Trivially<br/>(metadata-vs-content reconciliation;<br/>portal lacks reconciliation gate)"]
+    end
+
+    subgraph PATTERN5["Pattern 5 — Sensor data not provided / Сенсорные данные не предоставлены"]
+        P5_AFFECT["MISREP boilerplate:<br/>'sensor data not provided'<br/>'imagery not provided'<br/>structured field populated<br/>but no attachment delivered"]
+        P5_REC["Most D-series MISREPs<br/>FBI-ELLIPSE site sensors<br/>(range cameras, radar, RF, IR, LiDAR)<br/>— all silent in release"]
+        P5_REC_R["<b>Recoverable:</b> Unknown<br/>(unclear if data exists or was<br/>never collected)"]
+    end
+
+    subgraph PATTERN6["Pattern 6 — Missing PDFs (DOS cluster) / Пропущенные PDF (DOS)"]
+        P6_AFFECT["57% missing-PDF rate in DOS cluster<br/>(4 of 7 cables)<br/>Mechanism: download script failed<br/>on shared-prefix slug collisions"]
+        P6_REC["DOS-1952-MEMO (slug collision)<br/>DOS-TBI-2001 (timeout?)<br/>DOS-MEX-2003 (timeout?)<br/>DOS-TKM-2004 (timeout?)"]
+        P6_REC_R["<b>Recoverable:</b> Yes<br/>(re-download paths in<br/>catalog/irrelevant_sources.md §7)"]
+    end
+
+    subgraph PATTERN7["Pattern 7 — Corrupted PDF / Повреждённый PDF"]
+        P7_AFFECT["Corrupted at SOURCE<br/>'/Pages tree contains no /Kids array'<br/>Identical failure across<br/>qpdf / gs / pikepdf / pdf2image"]
+        P7_REC["DOW-FOO-1944<br/>(only foo-fighters / 415 NFS / SHAEF<br/>1944–1945 record in entire release)"]
+        P7_REC_R["<b>Recoverable:</b> Maybe<br/>(web.archive.org or<br/>future re-download)"]
+    end
+
+    PURSUE --> PATTERN1
+    PURSUE --> PATTERN2
+    PURSUE --> PATTERN3
+    PURSUE --> PATTERN4
+    PURSUE --> PATTERN5
+    PURSUE --> PATTERN6
+    PURSUE --> PATTERN7
+
+    classDef root fill:#fff,stroke:#000,stroke-width:2.5px,color:#000
+    classDef intent fill:#ffcdd2,stroke:#b71c1c,color:#000
+    classDef sys fill:#fff3e0,stroke:#e65100,color:#000
+    classDef ops fill:#fbe9e7,stroke:#bf360c,color:#000
+    classDef meta fill:#fff8e1,stroke:#f57f17,color:#000
+    classDef sensor fill:#e1f5fe,stroke:#01579b,color:#000
+    classDef gap fill:#f5f5f5,stroke:#424242,stroke-dasharray: 5 3,color:#000
+    classDef corrupt fill:#fce4ec,stroke:#880e4f,color:#000
+    classDef yes fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef no fill:#ffcdd2,stroke:#b71c1c,color:#000
+    classDef maybe fill:#fff9c4,stroke:#f57f17,color:#000
+
+    class PURSUE root
+    class P1_AFFECT,P1_REC intent
+    class P2_AFFECT,P2_REC sys
+    class P3_AFFECT,P3_REC ops
+    class P4_AFFECT,P4_REC meta
+    class P5_AFFECT,P5_REC sensor
+    class P6_AFFECT,P6_REC gap
+    class P7_AFFECT,P7_REC corrupt
+    class P2_REC_R,P6_REC_R yes
+    class P1_REC_R,P3_REC_R no
+    class P4_REC_R,P5_REC_R,P7_REC_R maybe
+
+    %% Source / Источник: MASTER §8.1–§8.6, catalog/irrelevant_sources.md
+    %% PURSUE archive · ASRP v2.1

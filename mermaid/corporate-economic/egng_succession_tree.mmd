@@ -1,0 +1,31 @@
+flowchart LR
+    classDef anchor fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef ma fill:#bfdbfe,stroke:#1e3a8a,stroke-width:2px,color:#000
+    classDef event fill:#fecaca,stroke:#7f1d1d,stroke-width:2px,color:#000
+    classDef successor fill:#bbf7d0,stroke:#14532d,stroke-width:3px,color:#000
+
+    EGNG["🏢 EG&G Inc. (1947)<br/>Edgerton • Germeshausen • Grier<br/>NTS instrumentation prime<br/>Подрядчик приборного обеспечения NTS"]:::anchor
+    SP["🛬 EG&G Special Projects<br/>(Las Vegas, 1980s–1990s)<br/>NTS airfield + 'ranch' logistics<br/>Lazar's named employer-of-record<br/>Названный работодатель Лазара"]:::anchor
+    URS["🏢 URS Corporation (2002)<br/>acquires EG&G technical-services<br/>покупка EG&G technical-services"]:::ma
+    AECOM["🏢 AECOM (2014)<br/>acquires URS<br/>поглощение URS"]:::ma
+    AMTM["🏢 Amentum (2020)<br/>spinoff of AECOM Mgmt Services<br/>spinoff Management Services"]:::successor
+    JCMS["🏢 Jacobs CMS (2024)<br/>Critical Mission Solutions<br/>merger into Amentum<br/>слияние с Amentum"]:::ma
+    AMTMNYSE["📈 NYSE: AMTM (2024)<br/>post-merger listing<br/>посткорпоративный листинг"]:::successor
+
+    EV1989["📺 KLAS-TV 1989<br/>Lazar names EG&G<br/>Лазар называет EG&G"]:::event
+    EV2002["📰 2002 acquisition<br/>EG&G ceases standalone<br/>EG&G перестаёт быть самостоятельной"]:::event
+    EV2014["📰 2014 acquisition<br/>URS → AECOM"]:::event
+    EV2020["📰 2020 spinoff<br/>AECOM MS → Amentum"]:::event
+    EV2024["📰 2024 merger + listing<br/>Amentum + Jacobs CMS<br/>NYSE: AMTM"]:::event
+
+    EGNG --> SP
+    SP -.-> EV1989
+    EGNG --> EV2002
+    EV2002 --> URS
+    URS --> EV2014
+    EV2014 --> AECOM
+    AECOM --> EV2020
+    EV2020 --> AMTM
+    AMTM --> EV2024
+    JCMS --> EV2024
+    EV2024 --> AMTMNYSE

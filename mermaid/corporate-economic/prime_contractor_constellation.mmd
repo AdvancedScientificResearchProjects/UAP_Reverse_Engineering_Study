@@ -1,0 +1,48 @@
+flowchart TB
+    classDef engineering fill:#bfdbfe,stroke:#1e3a8a,stroke-width:3px,color:#000
+    classDef services fill:#bbf7d0,stroke:#14532d,stroke-width:2px,color:#000
+    classDef anchor fill:#fde68a,stroke:#92400e,stroke-width:3px,color:#000
+    classDef lab fill:#e9d5ff,stroke:#5b21b6,stroke-width:2px,color:#000
+
+    subgraph ENG["⚙️ Engineering primes / Инженерные prime"]
+        LMT["Lockheed Martin (LMT)<br/>Skunk Works"]:::engineering
+        BA["Boeing (BA)<br/>Phantom Works"]:::engineering
+        RTX["RTX Corp (RTX)<br/>sensors / radar"]:::engineering
+        NOC["Northrop Grumman (NOC)<br/>B-2 / B-21"]:::engineering
+    end
+
+    subgraph SVC["🛠 Services prime ring / Сервисное кольцо"]
+        AMTM["Amentum (AMTM)<br/>EG&G successor<br/>преемник EG&G"]:::anchor
+        LDOS["Leidos (LDOS)<br/>ex-SAIC + LM IS&GS"]:::services
+        SAIC["SAIC<br/>(post-2013 split)"]:::services
+        JCS["Jacobs Solutions<br/>(post-CMS-spinoff)"]:::services
+        PSN["Parsons<br/>infrastructure"]:::services
+        BAH["Booz Allen Hamilton<br/>analytics"]:::services
+        BTL["Battelle<br/>research consortium"]:::services
+        BNI["Bechtel National<br/>construction prime"]:::services
+    end
+
+    subgraph LABS["🏢 DoE national labs / Национальные лаборатории DOE"]
+        LANL["LANL (Triad LLC)"]:::lab
+        LLNL["LLNL (LLNS LLC)"]:::lab
+        SNL["SNL (NTESS LLC)"]:::lab
+        Y12["Y-12 / Pantex (CNS LLC)"]:::lab
+        NNSS["NNSS (MSTS LLC)"]:::lab
+    end
+
+    AMTM -- "Triad LLC member<br/>член Triad" --> LANL
+    BTL -- "Triad LLC member" --> LANL
+    BNI -- "LLNS member" --> LLNL
+    AMTM -- "LLNS member<br/>член LLNS" --> LLNL
+    BTL -- "LLNS member" --> LLNL
+    BNI -- "CNS member" --> Y12
+    LDOS -- "CNS member" --> Y12
+    JCS -- "MSTS member" --> NNSS
+
+    LMT -- "historical operator<br/>исторический оператор" --> SNL
+    NOC -- "Pantex partner" --> Y12
+
+    LMT -- "engineering supplier<br/>поставщик" --> AMTM
+    BA -- "engineering supplier" --> AMTM
+    RTX -- "sensor / radar supplier" --> AMTM
+    NOC -- "engineering supplier" --> AMTM

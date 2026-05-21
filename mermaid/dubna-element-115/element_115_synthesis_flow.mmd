@@ -1,0 +1,56 @@
+flowchart LR
+    classDef input fill:#e3f2fd,stroke:#0d47a1,color:#000
+    classDef usa fill:#ffebee,stroke:#c62828,stroke-width:3px,color:#000
+    classDef ru fill:#e3f2fd,stroke:#1565c0,stroke-width:3px,color:#000
+    classDef process fill:#fff9c4,stroke:#f57f17,color:#000
+    classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,color:#000
+    classDef decay fill:#f3e5f5,stroke:#6a1b9a,color:#000
+
+    DOE["🇺🇸 DOE reactor<br/>processing legacy<br/>переработка DOE"]:::usa
+    LLNL["🇺🇸 LLNL<br/>Lawrence Livermore"]:::usa
+    AM["🎯 ²⁴³Am target<br/>мишень америций-243<br/>CRITICAL COMPONENT<br/>КРИТИЧЕСКИЙ КОМПОНЕНТ"]:::usa
+
+    RU["🇷🇺 JINR Dubna<br/>ОИЯИ Дубна"]:::ru
+    CA["⚛ ⁴⁸Ca beam<br/>пучок кальций-48"]:::ru
+    CYC["🌀 U-400 cyclotron<br/>циклотрон У-400"]:::ru
+
+    RX["⚡ Nuclear reaction<br/>Ядерная реакция<br/>²⁴³Am + ⁴⁸Ca → ²⁹¹⁻ˣ Mc + x·n"]:::process
+
+    MC["✨ Element 115<br/>4 atoms observed<br/>4 атома наблюдалось<br/>isotopes ²⁸⁷Mc / ²⁸⁸Mc"]:::output
+
+    subgraph DECAY[α-decay chain / Цепочка α-распада]
+        direction LR
+        D1["Mc → Nh<br/>Z=115 → Z=113"]:::decay
+        D2["Nh → Rg<br/>Z=113 → Z=111"]:::decay
+        D3["Rg → Mt<br/>Z=111 → Z=109"]:::decay
+        D4["Mt → Bh<br/>Z=109 → Z=107"]:::decay
+        D5["Bh → Db<br/>Z=107 → Z=105<br/>dubnium / дубний"]:::decay
+        D6["Db → SF<br/>spontaneous fission<br/>спонтанное деление"]:::decay
+    end
+
+    RADIO["🧪 Radiochemistry / Радиохимия<br/>Dubnium chemical ID<br/>химическая идентификация дубния<br/>Russia + USA joint work<br/>совместная работа"]:::process
+
+    PAPER["📄 Phys. Rev. C 69, 021601(R)<br/>2 Feb 2004<br/>Oganessian et al.<br/>JINR + LLNL co-authorship"]:::output
+
+    DOE --> LLNL
+    LLNL ==>|ships target<br/>отправляет мишень| AM
+    AM ==> RX
+    RU --> CA
+    RU --> CYC
+    CA ==> RX
+    CYC ==> RX
+    RX ==> MC
+    MC --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+    D4 --> D5
+    D5 --> D6
+    D5 --> RADIO
+    RADIO ==> PAPER
+    MC ==> PAPER
+
+    linkStyle 1 stroke:#c62828,stroke-width:5px
+    linkStyle 2 stroke:#c62828,stroke-width:4px
+    linkStyle 5 stroke:#1565c0,stroke-width:4px
+    linkStyle 6 stroke:#1565c0,stroke-width:4px

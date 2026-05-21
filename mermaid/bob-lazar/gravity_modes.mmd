@@ -1,0 +1,36 @@
+---
+title: "Gravity Amplifier Configurations / Конфигурации гравитационных усилителей"
+---
+flowchart LR
+    subgraph OMICRON["OMICRON mode / Омикрон-режим (hover)"]
+        direction TB
+        O_CRAFT["Sport Model disc<br/>52 ft 9 in"]
+        O_A1["Amp 1 — balanced"]
+        O_A2["Amp 2 — balanced"]
+        O_A3["Amp 3 — balanced"]
+        O_A1 --- O_CRAFT
+        O_A2 --- O_CRAFT
+        O_A3 --- O_CRAFT
+        O_NOTE["3 amplifiers balanced<br/>3 усилителя в балансе<br/>stationary hover / зависание<br/>low-altitude maneuver / маневр"]
+        O_CRAFT --- O_NOTE
+    end
+
+    subgraph DELTA["DELTA mode / Дельта-режим (long-distance)"]
+        direction TB
+        D_CRAFT["Sport Model — tilted 45°<br/>Наклон 45°"]
+        D_A1["Amp 1 — FOCUSED forward/down"]
+        D_A2["Amp 2 — idle"]
+        D_A3["Amp 3 — idle"]
+        D_A1 ==> D_CRAFT
+        D_A2 -.- D_CRAFT
+        D_A3 -.- D_CRAFT
+        D_NOTE["1 amplifier focused / 1 сфокусирован<br/>Craft tilts ~45° forward<br/>visible in C2C-03 photos<br/>long-distance travel / дальний полёт"]
+        D_CRAFT --- D_NOTE
+    end
+
+    OMICRON -.->|transition / переход| DELTA
+
+    classDef omicron fill:#e1f5fe,stroke:#01579b,color:#000
+    classDef delta fill:#fff3e0,stroke:#e65100,color:#000
+    class O_CRAFT,O_A1,O_A2,O_A3,O_NOTE omicron
+    class D_CRAFT,D_A1,D_A2,D_A3,D_NOTE delta

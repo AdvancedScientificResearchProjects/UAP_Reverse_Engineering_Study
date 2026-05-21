@@ -1,0 +1,42 @@
+flowchart TB
+    classDef cardillo fill:#fff8e1,stroke:#f57f17,stroke-width:3px,color:#000
+    classDef pillar fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef out fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef link fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
+
+    CAR["👤 Robert Cardillo<br/>ex-NGA director (2014–2019)<br/>экс-директор NGA"]:::cardillo
+
+    GAB["📊 Gabriella Rev A<br/>analytical framework<br/>аналитическая рамка"]:::pillar
+
+    CAR -->|publishes via LinkedIn<br/>публикует в LinkedIn| GAB
+
+    P1["🧮 Multifactor analytics<br/>Мультифакторная аналитика"]:::pillar
+    P2["🗂 Cluster analysis<br/>Кластерный анализ"]:::pillar
+    P3["🔎 Anomaly detection<br/>Поиск аномалий"]:::pillar
+    P4["🎲 Scenario modelling<br/>Сценарное моделирование"]:::pillar
+
+    GAB --> P1
+    GAB --> P2
+    GAB --> P3
+    GAB --> P4
+
+    INPUT["📥 Input: 11 deaths/disappearances<br/>at LANL/JPL/MIT/AFRL/Caltech<br/>+ DoE-stewarded sites"]:::out
+    OUTPUT["📤 Output: hypothesis space<br/>not single-cause attribution<br/>пространство гипотез"]:::out
+
+    P1 --> OUTPUT
+    P2 --> OUTPUT
+    P3 --> OUTPUT
+    P4 --> OUTPUT
+
+    INPUT --> P1
+    INPUT --> P2
+    INPUT --> P3
+    INPUT --> P4
+
+    DENIS["👤 Denis Banchenko (ASRP)<br/>posts UAP-RE Study link<br/>в комментарии Cardillo"]:::link
+    POSTURE["⚠ Cardillo posture:<br/>NOT claiming conspiracy<br/>NOT claiming aliens<br/>builds hypothesis field"]:::out
+    NOTE["⚠ Engagement signal:<br/>liked Denis's comment<br/>did NOT respond directly"]:::link
+
+    DENIS -.->|comment | GAB
+    GAB --> POSTURE
+    GAB --> NOTE

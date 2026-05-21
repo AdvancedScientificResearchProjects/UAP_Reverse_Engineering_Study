@@ -1,0 +1,59 @@
+graph LR
+    classDef person fill:#fde68a,stroke:#92400e,stroke-width:2px,color:#000
+    classDef institution fill:#bfdbfe,stroke:#1e3a8a,stroke-width:2px,color:#000
+    classDef cluster fill:#bbf7d0,stroke:#14532d,stroke-width:3px,color:#000
+    classDef labop fill:#e9d5ff,stroke:#581c87,stroke-width:2px,color:#000
+
+    FBI11["📂 FBI 11-cluster<br/>scientists (Track 6)<br/>учёные кластера 11"]:::cluster
+
+    P_HASS["👤 Hassen-Tores"]:::person
+    P_CASS["👤 Cassias"]:::person
+    P_CHAV["👤 Chavez"]:::person
+    P_GARC["👤 Garcia"]:::person
+    P_LOUR["👤 Loureiro"]:::person
+    P_ESKR["👤 Eskridge"]:::person
+    P_OTHER["👤 (5 other<br/>cluster members)"]:::person
+
+    LANL["🏢 LANL<br/>(Triad LLC consortium)"]:::institution
+    KCNSC["🏢 KCNSC (Kansas City<br/>National Security Campus)"]:::institution
+    SANDIA["🏢 Sandia National Labs<br/>(NTESS LLC)"]:::institution
+    NNSS["🏢 NNSS<br/>(MSTS LLC)"]:::institution
+    AEROJET["🏢 Aerojet Rocketdyne"]:::institution
+    JPL["🏢 NASA JPL"]:::institution
+    MITPSFC["🏢 MIT PSFC"]:::institution
+    IES["🏢 Institute for Exotic<br/>Sciences (Alabama)"]:::institution
+
+    BECHTEL["🏢 Bechtel National<br/>(operator)"]:::labop
+    HONFMT["🏢 Honeywell FM&T<br/>(operator)"]:::labop
+    AMTM["🏢 Amentum<br/>(consortium member)"]:::labop
+    JACOBS["🏢 Jacobs Solutions<br/>(consortium member)"]:::labop
+
+    TRACK7["📦 Track 7<br/>corporate constellation<br/>корпоративное созвездие"]:::cluster
+
+    FBI11 --> P_HASS
+    FBI11 --> P_CASS
+    FBI11 --> P_CHAV
+    FBI11 --> P_GARC
+    FBI11 --> P_LOUR
+    FBI11 --> P_ESKR
+    FBI11 --> P_OTHER
+
+    P_HASS --> AEROJET
+    P_HASS --> JPL
+    P_CASS --> LANL
+    P_CHAV --> LANL
+    P_GARC --> KCNSC
+    P_LOUR --> MITPSFC
+    P_ESKR --> IES
+
+    LANL --> BECHTEL
+    KCNSC --> HONFMT
+    SANDIA --> HONFMT
+    NNSS --> JACOBS
+    NNSS --> AMTM
+
+    BECHTEL --> TRACK7
+    HONFMT --> TRACK7
+    AMTM --> TRACK7
+    JACOBS --> TRACK7
+    AEROJET --> TRACK7

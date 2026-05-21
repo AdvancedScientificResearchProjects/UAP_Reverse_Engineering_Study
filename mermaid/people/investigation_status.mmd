@@ -1,0 +1,33 @@
+flowchart TB
+    classDef bucket fill:#e3f2fd,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef disap fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef killed fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+    classDef died fill:#e1bee7,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef found fill:#d7ccc8,stroke:#3e2723,stroke-width:2px,color:#000
+
+    ROOT["🔍 11 cases / 11 кейсов<br/>FBI consolidated 19 Apr 2026<br/>ФБР консолидировало"]:::bucket
+
+    DISAP["🟡 Disappeared, no body<br/>Исчезли, тело не найдено<br/><br/>5 cases / кейсов"]:::disap
+    KILLED["🔴 Killed, suspect named<br/>Убиты, подозреваемый известен<br/><br/>2 cases / кейса"]:::killed
+    DIED["🟣 Died — unclear cause<br/>Умерли — причина неясна<br/><br/>3 cases / кейса"]:::died
+    FOUND["⚫ Found dead, no violence<br/>Найдены, без признаков насилия<br/><br/>1 case / кейс"]:::found
+
+    ROOT --> DISAP
+    ROOT --> KILLED
+    ROOT --> DIED
+    ROOT --> FOUND
+
+    DISAP --> D1["Anthony Chavez (LANL, 05.2025)"]:::disap
+    DISAP --> D2["Melisia Cassias (LANL, 06.2025)<br/>both phones factory-reset"]:::disap
+    DISAP --> D3["Monica Hassen-Tores (JPL, 2025)<br/>vanished on hike"]:::disap
+    DISAP --> D4["Stephen Garcia (KCNSC, 2025)"]:::disap
+    DISAP --> D5["William McCasland (AFRL, 02.2026)<br/>ex-major-general, took revolver"]:::disap
+
+    KILLED --> K1["Nuno Loureiro (MIT, 12.2025)<br/>head of Plasma & Fusion"]:::killed
+    KILLED --> K2["Karl Grillmar (Caltech, 02.2026)<br/>shot at home, suspect known"]:::killed
+
+    DIED --> X1["Frank Maiwald (JPL)"]:::died
+    DIED --> X2["Michael Higgs (JPL)"]:::died
+    DIED --> X3["Amy Eskridge (IFES, 2022)"]:::died
+
+    FOUND --> F1["Jason Thomas (Novarti, MA)<br/>body in lake"]:::found

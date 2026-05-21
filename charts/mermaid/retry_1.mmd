@@ -1,0 +1,17 @@
+%% Source: README.md section "Session Blinding Sequence / Схема ослепления сеанса"
+%% Inlined originally; replaced by charts/mermaid/retry_1.png in commit 5d5b7f1 (2026-04-14)
+%% Recovered from git: git show 5d5b7f1^:README.md
+sequenceDiagram
+    participant M as Moderator / Модератор
+    participant V as Vladislav / Владислав
+    participant E as Ekaterina / Екатерина
+    participant T as Tatyana / Татьяна
+
+    M->>V: Prompt first / Запрос первым
+    V-->>M: Raw response / Ответ
+    M->>E: Prompt after Vladislav / Запрос после Владислава
+    Note right of E: Heard Vladislav / Слышала Владислава
+    E-->>M: Response / Ответ
+    M->>T: Prompt after both / Запрос после обоих
+    Note right of T: Heard both / Слышала оба ответа
+    T-->>M: Response / Ответ

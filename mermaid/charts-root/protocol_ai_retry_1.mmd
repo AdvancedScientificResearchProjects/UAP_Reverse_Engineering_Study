@@ -1,0 +1,9 @@
+%% Source: experiments/protocol_ai.md section "3D RECONSTRUCTION / 3D РЕКОНСТРУКЦИЯ" → "Decision Logic / Логика Выбора"
+%% Inlined originally; replaced by charts/mermaid/protocol_ai_retry_1.png in commit 5d5b7f1 (2026-04-14)
+%% Recovered from git: git show 5d5b7f1^:experiments/protocol_ai.md
+flowchart TB
+    A[Input imagery count<br/>Количество входных изображений] --> B{Single image?<br/>Одно изображение?}
+    B -->|Yes / Да| C[Depth Anything 3<br/>Относительная глубина]
+    B -->|No / Нет| D{Overlapping views?<br/>Перекрывающиеся виды?}
+    D -->|Yes / Да| E[VGGT or MUSt3R<br/>Плотная 3D-реконструкция]
+    D -->|No / Нет| F[Depth Anything 3 per image<br/>DA3 для каждого изображения]

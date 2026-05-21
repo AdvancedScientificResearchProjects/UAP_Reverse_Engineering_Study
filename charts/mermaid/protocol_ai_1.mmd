@@ -1,0 +1,16 @@
+%% Source: experiments/protocol_ai.md section "ANALYSIS PIPELINE / КОНВЕЙЕР АНАЛИЗА"
+%% Inlined originally; replaced by charts/mermaid/protocol_ai_1.png in commit 5d5b7f1 (2026-04-14)
+%% Recovered from git: git show 5d5b7f1^:experiments/protocol_ai.md
+flowchart TB
+    A[Input imagery<br/>Входные изображения] --> B[Grounding DINO v1<br/>Детекция объекта в открытом словаре]
+    B --> C[SAM 3 target · SAM 2 fallback<br/>Сегментация по концептам]
+    C --> D[DINOv3 target · DINOv2 fallback<br/>Извлечение визуальных признаков]
+    C --> E[SigLIP2 SO400M<br/>Text-image retrieval<br/>Текстово-визуальный поиск]
+    D --> F[Material hypothesis<br/>Гипотеза о материале]
+    D --> G[Anomaly detection<br/>Обнаружение аномалий]
+    E --> H[Open-vocab comparison<br/>Сравнение в открытом словаре]
+    C --> I[3D reconstruction<br/>3D-реконструкция]
+    F --> J[Cross-pipeline synthesis<br/>Межконвейерный синтез]
+    G --> J
+    H --> J
+    I --> J

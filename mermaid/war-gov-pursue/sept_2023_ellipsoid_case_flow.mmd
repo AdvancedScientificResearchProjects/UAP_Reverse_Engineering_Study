@@ -1,0 +1,94 @@
+---
+title: "September 2023 bronze ellipsoid case — released vs withheld / Бронзовый эллипсоид сент 2023 — опубликовано vs скрыто"
+---
+%% EN: Visualizes §6.3 of MASTER — the ≥3-witness FBI ELLIPSE Sept 2023 case at
+%% an undisclosed US test site. Shows witness-coverage asymmetry: Sr3 = full
+%% 2-page narrative, Sr4 + Sr5 = continuation page only (page 1 of each
+%% systematically withheld). The FBI Lab AI-composite SKETCH-2023 (production
+%% date 2024-04-30) carries the "materialized out of bright light" entry
+%% phenomenology that is NOT in the released Sr3 narrative — most parsimonious
+%% reading: anchor is on Sr5's missing page 1.
+%% RU: §6.3 MASTER — кейс эллипсоида с ≥3 свидетелями. Стр.1 у Sr4/Sr5
+%% систематически отсутствует. SKETCH-2023 содержит фразу о «материализации
+%% из света», которой нет в Sr3 — вероятный источник: пропавшая стр.1 Sr5.
+flowchart TB
+    subgraph CONTEXT["Context — Sept 2023 / Контекст — сентябрь 2023"]
+        SITE["<b>Undisclosed US test site</b><br/>Закрытый испытательный полигон США<br/>Restricted airspace<br/>(administratively restricted by Sr3 lead witness)"]
+        GATE["Gate-malfunction event<br/>RFID/fob: opened on 4th try<br/>after 3 partial failures<br/><i>Сбой ворот непосредственно перед наблюдением</i>"]
+        CONVOY["3-vehicle convoy<br/>Колонна из 3 машин<br/><i>Sr3=vehicle 1 lead<br/>Sr4=vehicle 2 contractor<br/>Sr5=vehicle 3</i>"]
+    end
+
+    subgraph WITNESSES["Witness FD-302s released by FBI / FD-302 опубликованные ФБР"]
+        direction LR
+        SR3["<b>FBI-ELLIPSE-Sr3</b><br/>Lead witness — ~15 yrs at facility<br/>Ведущий свидетель — ~15 лет на объекте<br/><b>2 of 2 pages released</b><br/>Полный двухстраничный narrative<br/><i>verbatim morphology, color, motion,<br/>silence, instant disappearance,<br/>no EM interference</i>"]
+        SR4["<b>FBI-ELLIPSE-Sr4</b><br/>Contractor — vehicle 2<br/>Контрактник — машина 2<br/><b>page 2 only — page 1 WITHHELD</b><br/>Только стр.2 — стр.1 СКРЫТА<br/><i>independent EM-null confirmation,<br/>delayed psychological aftereffects</i>"]
+        SR5["<b>FBI-ELLIPSE-Sr5</b><br/>Third witness — vehicle 3<br/>Третий свидетель — машина 3<br/><b>page 2 only — page 1 WITHHELD</b><br/>Только стр.2 — стр.1 СКРЫТА<br/><i>single substantive sentence:<br/>'bright light over horizon'<br/>'might have been a meteor'</i>"]
+    end
+
+    subgraph PHENOM["Verified phenomenology (from Sr3) / Подтверждённая феноменология (Sr3)"]
+        direction TB
+        PH_M["Morphology: ellipsoid<br/>'cigar shaped' (verbatim)<br/>Морфология: эллипсоид"]
+        PH_C["Colour: <b>metallic bronze</b><br/>Цвет: металлический бронзовый"]
+        PH_S["Size: 130–195 ft<br/>(2–3 Blackhawks nose-to-tail)<br/>Размер: 130–195 футов"]
+        PH_L["'Intense diamond white light'<br/>with ring on east end<br/>'Алмазно-белый свет' с кольцом"]
+        PH_SOUND["Completely silent<br/>during 5–10 sec observation<br/>Полное безмолвие"]
+        PH_EXIT["<b>Instant disappearance</b><br/>no acceleration phase<br/>Мгновенное исчезновение"]
+        PH_EM["<b>NO EM interference</b><br/>(Sr3 + independent Sr4 confirm)<br/>Никаких ЭМ-помех"]
+    end
+
+    subgraph SKETCH["FBI Lab AI composite — produced 2024-04-30 / Композит лаборатории ФБР"]
+        SK["<b>FBI-ELLIPSE-SKETCH-2023</b><br/>FBI Laboratory composite<br/>superimposed on actual site photo<br/>Композит на реальном фото площадки<br/><i>filename date 2024-04-30 = production,<br/>NOT incident date</i>"]
+        SK_SIZE["130–195 ft size range<br/>= formalisation of Sr3 verbal estimate<br/>(NOT independent measurement)<br/>≠ радар, сенсор, фотограмметрия"]
+        SK_ENTRY["<b>'Materialized out of a bright light'</b><br/>'Материализовался из яркого света'<br/><i>NOT in extracted Sr3 narrative</i><br/><i>Likely source: Sr5's withheld page 1</i>"]
+    end
+
+    subgraph WITHHELD["Withheld / not released / Скрыто / не опубликовано"]
+        direction TB
+        W_PAGE1["Sr4 + Sr5 page 1 narratives<br/>(systematic withholding pattern)<br/>(systemic, not random redaction)"]
+        W_FIRST["First-sighting time, position,<br/>identifying details, entry framing<br/>Время, позиция, идентификаторы"]
+        W_SENSOR["Test-site sensor data<br/>(range cameras, radar, RF spectrum,<br/>IR sensors, possibly LiDAR)<br/>Данные сенсоров полигона<br/><b>None referenced in release</b>"]
+        W_PHOTOS["No witness photos / video<br/>(none taken — 5–10 sec window)<br/>Никаких фото свидетелей"]
+    end
+
+    subgraph AARO["AARO classification / Классификация AARO"]
+        TIER["<b>'Among the most compelling within<br/>AARO's current holdings'</b><br/>«Среди самых убедительных<br/>в текущем фонде AARO»<br/><i>witness-credibility-anchored,<br/>NOT mechanism-evidence-anchored</i>"]
+    end
+
+    SITE --> GATE
+    GATE --> CONVOY
+    CONVOY --> SR3
+    CONVOY --> SR4
+    CONVOY --> SR5
+    SR3 --> PHENOM
+    SR4 -.->|page 2 only| PH_EM
+    SR5 -.->|page 2 only| SK_ENTRY
+    SR3 --> SK
+    SR4 -.-> SK
+    SR5 -.-> SK
+    SK --> SK_SIZE
+    SK --> SK_ENTRY
+    SR4 -.-> W_PAGE1
+    SR5 -.-> W_PAGE1
+    W_PAGE1 --> W_FIRST
+    SITE -.-> W_SENSOR
+    PHENOM --> TIER
+    SK --> TIER
+
+    classDef context fill:#e3f2fd,stroke:#0d47a1,color:#000
+    classDef witness fill:#fff8e1,stroke:#f57f17,color:#000
+    classDef witholdW fill:#ffcdd2,stroke:#b71c1c,stroke-width:2px,color:#000
+    classDef phenom fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef sketch fill:#d1c4e9,stroke:#311b92,color:#000
+    classDef withheld fill:#f5f5f5,stroke:#424242,stroke-dasharray: 5 3,color:#000
+    classDef tier fill:#ffe0b2,stroke:#e65100,stroke-width:2px,color:#000
+
+    class SITE,GATE,CONVOY context
+    class SR3 witness
+    class SR4,SR5 witholdW
+    class PH_M,PH_C,PH_S,PH_L,PH_SOUND,PH_EXIT,PH_EM phenom
+    class SK,SK_SIZE,SK_ENTRY sketch
+    class W_PAGE1,W_FIRST,W_SENSOR,W_PHOTOS withheld
+    class TIER tier
+
+    %% Source / Источник: MASTER §6.3, FBI-ELLIPSE-Sr3/Sr4/Sr5/SKETCH-2023
+    %% PURSUE archive · ASRP v2.1

@@ -1,0 +1,26 @@
+---
+title: "Методология испытаний / Trial Methodology (1988-2001)"
+---
+graph TD
+    ROACH["Cockroaches / Тараканы<br/>1988-1989<br/>(initial bio-tests)"]
+    MICE["Mice / Мыши<br/>1989-1993<br/>sync-break deaths<br/>гибель из-за разрыва синхронизации<br/>FIX: never open chamber during run<br/>ИСПР: камеру не открывать во время цикла<br/>Mouse #7 survived / Мышь №7 выжила"]
+    CAT["Cat Пломбир / Кот Пломбир<br/>2001<br/>refused to enter / отказался войти"]
+    DOG["Dog Луноход / Собака Луноход<br/>2001<br/>108 min run / 108 мин цикл"]
+    KONOV["Human: Konov / Человек: Конов<br/>2001-08-26<br/>30 min, t/t₀ = -3 %<br/>first human trial / первое испытание на человеке"]
+    VOLS["9 volunteers / 9 добровольцев<br/>Фокеев · Гавриченко · Курков<br/>Лоренц · Кулешова · Головина<br/>Чернобров · Конов"]
+
+    ROACH --> MICE
+    MICE --> CAT
+    CAT --> DOG
+    DOG --> KONOV
+    KONOV --> VOLS
+
+    classDef insect fill:#fff9c4,stroke:#f57f17,color:#000
+    classDef rodent fill:#ffe0b2,stroke:#e65100,color:#000
+    classDef mammal fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef human  fill:#bbdefb,stroke:#0d47a1,color:#000
+
+    class ROACH insect
+    class MICE rodent
+    class CAT,DOG mammal
+    class KONOV,VOLS human

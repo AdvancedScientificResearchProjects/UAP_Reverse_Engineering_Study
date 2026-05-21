@@ -1,0 +1,41 @@
+---
+title: "S-4 Facility Layout (per Lazar) / План объекта S-4 (по описанию Лазара)"
+---
+flowchart TB
+    subgraph NEVADA["Nevada Test & Training Range / Невадский полигон"]
+        direction TB
+        GROOM["GROOM LAKE / Озеро Грум<br/>(Area 51 main base)<br/>northern reference / северный ориентир"]
+        ROAD["Access road<br/>(1941 Dept of Interior map — S4DOC-26)<br/>Дорога доступа"]
+        subgraph S4SITE["S-4 SITE — 15 miles south of Groom<br/>S-4 — 15 миль южнее Грум"]
+            direction TB
+            HILL["Papoose Mountain hillside<br/>Склон горы Папуз"]
+            subgraph BAYS["9 Hangar Bays / 9 ангарных отсеков"]
+                direction LR
+                B1["Bay 1"]:::bay
+                B2["Bay 2"]:::bay
+                B3["Bay 3"]:::bay
+                B4["Bay 4"]:::bay
+                B5["Bay 5<br/>Sport Model"]:::bay
+                B6["Bay 6"]:::bay
+                B7["Bay 7"]:::bay
+                B8["Bay 8"]:::bay
+                B9["Bay 9"]:::bay
+            end
+            DOORS["Sloped doors / Наклонные двери<br/>30° (BL18) / 60° (LT-91)<br/>— discrepancy / расхождение<br/>Jan 2020 Cessna photo:<br/>rectangular shapes visible"]
+            PLAYA["Papoose Lake dry bed<br/>Сухое дно озера Папуз<br/>(in front of bays / перед отсеками)"]
+            HILL --> BAYS
+            BAYS --> DOORS
+            DOORS --> PLAYA
+        end
+        FLIGHT["Test flight path →<br/>eastward into open desert<br/>Траектория испытаний —<br/>на восток в открытую пустыню<br/>(Wednesday nights / по средам ночью)"]
+        GROOM --> ROAD
+        ROAD --> S4SITE
+        PLAYA ==>|lift-off / взлёт| FLIGHT
+    end
+
+    classDef bay fill:#cfd8dc,stroke:#37474f,color:#000
+    style GROOM fill:#ffecb3,stroke:#ff6f00,color:#000
+    style S4SITE fill:#c5e1a5,stroke:#33691e,color:#000
+    style DOORS fill:#ffcdd2,stroke:#b71c1c,color:#000
+    style PLAYA fill:#b3e5fc,stroke:#01579b,color:#000
+    style FLIGHT fill:#d1c4e9,stroke:#311b92,color:#000

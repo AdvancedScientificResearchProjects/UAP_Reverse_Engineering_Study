@@ -1,0 +1,17 @@
+---
+title: "PURSUE Release 01 — verdict-marker distribution across per-document claim tables"
+---
+%% EN: Counts produced via:
+%%   grep -ohE '✅ CORROBORATED|⚠ PARTIAL|❌ EXPLAINED|⬜ UNRESOLVED|⬛ REDACTED|🟧' \
+%%     analysis/per-document/*.md | sort | uniq -c
+%% Run on 158 per-document cards (one per release-unique source code, dedup of the
+%% 161 catalog rows). Total markers = 1522.
+%% Convention: see catalog/source_codes.md §"Verdict markers (legend)".
+%% RU: Распределение вердиктов по таблицам Key claims в 158 per-document карточках.
+pie showData title PURSUE archive verdict-marker distribution (per-document claim tables, n=1522)
+    "✅ CORROBORATED" : 1136
+    "⚠ PARTIAL" : 161
+    "⬜ UNRESOLVED" : 108
+    "⬛ REDACTED" : 70
+    "🟧 ANALYTICAL FLAG" : 24
+    "❌ EXPLAINED" : 23

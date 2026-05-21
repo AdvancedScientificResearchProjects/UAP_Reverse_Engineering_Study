@@ -1,0 +1,41 @@
+---
+title: Element 115 Machining Pipeline / Конвейер обработки элемента 115
+---
+flowchart TD
+    A["Raw Element 115 stock<br/><i>Сырьё элемента 115</i><br/>(form unclear — small chunks)<br/>(форма не уточнена — мелкие куски)<br/><b>Total possessed: ~500 lb (1989)</b><br/><i>Всего в наличии: ~500 фунтов (1989)</i>"]
+    B["Half-dollar sized thin disks<br/><i>Тонкие диски размером с полдоллара</i><br/>BG-89, LT-91, LK19"]
+    C["Stacked disks fused together<br/>→ solid cylinder<br/><i>Диски складируются и сплавляются</i><br/>→ сплошной цилиндр<br/><b>NEW in BL18</b>"]
+    D["Cylinder machined → Cone<br/><i>Цилиндр обрабатывается → конус</i><br/>Rachel-93, BL18"]
+    E["Cone sliced along long axis<br/>→ triangular wedge / pie slice<br/><i>Конус разрезается по оси</i><br/>→ треугольный клин"]
+    F["Reactor fuel wedge<br/><i>Топливный клин реактора</i><br/><b>223 g per reactor charge</b><br/><i>223 г на зарядку реактора</i><br/>Copper-colored (reddish-brown)<br/><i>Медного цвета (красно-бурый)</i>"]
+
+    G["Aerogel-packed transport<br/><i>Транспорт в упаковке из аэрогеля</i><br/>SiO₂, ~98% air<br/><i>SiO₂, ~98% воздуха</i><br/>Cutout for 115 in aerogel<br/><i>Вырез под 115 в аэрогеле</i><br/>Enclosed in lead case<br/><i>Внутри свинцовый кейс</i><br/><b>NEW in S4DOC-26</b>"]
+
+    H["Off-site code name:<br/>LA-1000<br/><i>Офсайтовое кодовое имя: LA-1000</i><br/>Cover story: 'advanced armor'<br/><i>Легенда: «продвинутая броня»</i><br/>BL18, S4DOC-26"]
+
+    I["Reactor insertion<br/><i>Установка в реактор</i><br/>Wedge consumed per charge<br/><i>Клин расходуется за цикл</i><br/>20–30 yr lifetime per charge<br/><i>Срок службы: 20–30 лет</i>"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> I
+    H -.cover story / легенда.-> G
+    H -.cover story / легенда.-> A
+
+    classDef raw      fill:#f2f2f2,stroke:#000,stroke-width:1.5px,color:#000
+    classDef process  fill:#ffffff,stroke:#000,stroke-width:1.5px,color:#000
+    classDef fuel     fill:#d9d9d9,stroke:#000,stroke-width:2px,color:#000
+    classDef transport fill:#ffffff,stroke:#000,stroke-width:1.5px,stroke-dasharray: 5 3,color:#000
+    classDef cover    fill:#fafafa,stroke:#555,stroke-width:1px,color:#333
+
+    class A raw
+    class B,C,D,E process
+    class F fuel
+    class G,I transport
+    class H cover
+
+    %% Source / Источник: Rachel-93, BL18, S4DOC-26, BG-89, LT-91, LK19, JRE2479
+    %% Bob Lazar archive · ASRP v2.1 · §1.3, §1.4

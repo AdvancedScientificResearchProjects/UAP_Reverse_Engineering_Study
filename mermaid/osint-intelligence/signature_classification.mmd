@@ -1,0 +1,23 @@
+flowchart TB
+    classDef root fill:#fff3e0,stroke:#e65100,stroke-width:3px,color:#000
+    classDef stable fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef trans fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
+    classDef self fill:#e1bee7,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef anom fill:#ffcdd2,stroke:#b71c1c,stroke-width:3px,color:#000
+
+    R["🔬 Observed signature<br/>Наблюдаемая сигнатура"]:::root
+
+    T1["✅ Type 1<br/>Stable nonlinearity<br/>Стабильная нелинейность"]:::stable
+    T2["⚠ Type 2<br/>Transient regime<br/>Переходный режим"]:::trans
+    T3["🌀 Type 3<br/>Self-organization<br/>Самоорганизация"]:::self
+    T4["❗ Type 4<br/>Anomalous (model-defying)<br/>Аномальная (вне модели)"]:::anom
+
+    R --> T1
+    R --> T2
+    R --> T3
+    R --> T4
+
+    T1 --> T1F["• repeatable<br/>• predictable form<br/>• broadband spectrum<br/>• threshold known<br/>повторяемо · предсказуемо"]:::stable
+    T2 --> T2F["• partly chaotic<br/>• parameter-sensitive<br/>• drift visible<br/>частично хаотично"]:::trans
+    T3 --> T3F["• structures emerge<br/>• patterns repeat<br/>• memory in system<br/>появляются структуры · паттерны<br/>повторяются"]:::self
+    T4 --> T4F["• reproducible YET<br/>• does not fit existing model<br/>• narrow spectral lines<br/>• multi-channel desync<br/>воспроизводимо НО не<br/>описывается стандартной моделью"]:::anom

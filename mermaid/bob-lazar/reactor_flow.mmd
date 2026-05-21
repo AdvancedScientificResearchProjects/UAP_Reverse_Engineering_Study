@@ -1,0 +1,39 @@
+---
+title: "Antimatter Reactor Flow / Схема антиматериального реактора"
+---
+flowchart TB
+    subgraph FUEL["Fuel / Топливо"]
+        E115["Element 115 / Элемент 115<br/>(stable isotope wedge, 223g)"]
+    end
+
+    subgraph REACTOR["Reactor Sphere / Реакторная сфера"]
+        PROTON["Proton injection<br/>Инжекция протона"]
+        E116["115 + p⁺ → 116<br/>(unstable / нестабильный)"]
+        ANTI["116 decays →<br/>anti-hydrogen emitted<br/>антиводород"]
+        ANN["Matter + Antimatter<br/>annihilation / аннигиляция<br/>→ gamma radiation"]
+        THERM["Thermionic conversion<br/>Термоэмиссионное преобразование<br/>→ 100% efficient (claim)"]
+    end
+
+    subgraph OUTPUT["Outputs / Выходы"]
+        ELEC["Electricity / Электричество<br/>→ to Gravity Amplifiers"]
+        GWAVE["Gravity-A wave<br/>Гравитационная волна A<br/>7.46 Hz, 1 μm bandwidth"]
+    end
+
+    AMP["3 Gravity Amplifiers<br/>3 гравитационных усилителя"]
+
+    E115 --> PROTON
+    PROTON --> E116
+    E116 --> ANTI
+    ANTI --> ANN
+    ANN --> THERM
+    THERM --> ELEC
+    REACTOR -.->|side emission<br/>побочное излучение| GWAVE
+    ELEC --> AMP
+    GWAVE --> AMP
+
+    classDef fuel fill:#ffe0b2,stroke:#e65100,color:#000
+    classDef reactor fill:#c8e6c9,stroke:#1b5e20,color:#000
+    classDef output fill:#bbdefb,stroke:#0d47a1,color:#000
+    class E115 fuel
+    class PROTON,E116,ANTI,ANN,THERM reactor
+    class ELEC,GWAVE,AMP output
