@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR051
+TITLE: DOW-UAP-PR051, "Syrian UAP instant acceleration"
+DVIDS_ID: 1007707
+SOURCE_FILE: video_2605_DOD_111719715_DOD_111719715.mp4
+DURATION_SEC: 302
+TRANSCRIBED_AT: 2026-05-23T11:55:19Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 301.93437785599997
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  70.52 ->   71.14] you
+[ 100.52 ->  101.14] you
+[ 130.52 ->  131.14] you
+[ 146.04 ->  146.66] you
+[ 176.04 ->  176.66] you
+[ 206.04 ->  206.66] you
+[ 221.57 ->  222.19] you
+[ 251.57 ->  252.19] you
+[ 281.57 ->  282.19] you

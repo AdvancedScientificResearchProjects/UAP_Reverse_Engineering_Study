@@ -1,0 +1,23 @@
+CODE: DOW-UAP-PR054
+TITLE: DOW-UAP-PR054, "Spherical UAP Erratic movement [CALLSIGN] (Mission) 2022"
+DVIDS_ID: 1007711
+SOURCE_FILE: video_2605_DOD_111719726_DOD_111719726.mp4
+DURATION_SEC: 237
+TRANSCRIBED_AT: 2026-05-23T11:55:17Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 237.036
+
+--- FULL TEXT ---
+you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  90.00 ->   90.62] you
+[ 120.00 ->  114.22] you you
+[ 143.60 ->  144.22] you
+[ 173.60 ->  174.22] you
+[ 203.60 ->  204.22] you
+[ 233.60 ->  234.22] you

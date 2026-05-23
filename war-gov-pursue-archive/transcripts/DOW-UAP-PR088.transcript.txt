@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR088
+TITLE: DOW-UAP-PR088, "31 AUG [CALLSIGN] [CALLSIGN] Observes UAP"
+DVIDS_ID: 1007800
+SOURCE_FILE: video_2605_DOD_111720843_DOD_111720843.mp4
+DURATION_SEC: 298
+TRANSCRIBED_AT: 2026-05-23T11:55:59Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 298.655002368
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.70 ->   70.32] you
+[  99.70 ->  100.32] you
+[ 129.70 ->  130.32] you
+[ 144.40 ->  145.02] you
+[ 174.40 ->  175.02] you
+[ 204.40 ->  205.02] you
+[ 219.10 ->  219.72] you
+[ 249.10 ->  249.72] you
+[ 279.10 ->  279.72] you

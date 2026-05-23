@@ -9160,18 +9160,59 @@ The 50-unique-DVIDS-asset R02 video cluster doubles the PR-series scope of the P
 - **CONUS military 2017–2024**: Eglin AFB (PR070), Tyndall AFB USCG (PR065, PR066), Lake Huron F-16C shootdown 2023 (PR071), Kabul AFSOC 2017 (PR064)
 - **Other / EUCOM-AFRICOM-southerly platforms**: 5–10 videos with CALLSIGN-redacted platform/mission identifiers
 
-The PR050–PR099 cluster is **per-record card-deferred** (template-low-content; pending v0.2.1 batch generation). The aggregate analytic claim chain is captured in the topical synthesis [`region-centcom-2013-2026.md`](topical/region-centcom-2013-2026.md) (extended) and a planned R02 video-cluster topical synthesis.
+All 51 PR050–PR099 records and all 7 NASA D008–D014 audio records now have per-document analytical cards in `analysis/per-document/` (R01-bar quality, 70–100 lines bilingual, 9-row claims table each). The aggregate analytic claim chain is captured in two topical syntheses:
+- [`r02-dow-pr-050-099-cluster.md`](topical/r02-dow-pr-050-099-cluster.md) — 239-line synthesis of the full R02 PR video cluster
+- [`r02-nasa-mercury-apollo-audio-1961-1972.md`](topical/r02-nasa-mercury-apollo-audio-1961-1972.md) — 158-line synthesis of the 7 NASA Mercury–Apollo audio records (1961–1972)
 
 ### §13.1 Operationally significant individual R02 videos / Операционно значимые отдельные видео R02
 
 | Code | Significance | Verdict |
 |---|---|---|
-| `DOW-UAP-PR071` | "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]" — referring to the publicly-acknowledged Lake Huron shootdown of 12 February 2023 | ✅ CORROBORATED |
-| `DOW-UAP-PR064` | "AFSOC Kabul UAP Jul 2017" — pre-withdrawal Kabul-area incident, otherwise unreported | ⚠ PARTIAL |
-| `DOW-UAP-PR065` + `PR066` | USCG C-144 Tyndall AFB UAP tic-tac IR hot 24 April 2024 — Coast Guard fixed-wing IR observation | ⚠ PARTIAL |
-| `DOW-UAP-PR072` | "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan" — extends ASRP Soviet-archive cross-reference into 2022 | ✅ CORROBORATED |
-| `DOW-UAP-PR057a` + `PR057b` | Shared DVIDS asset 1007720 — "Spherical UAP in clouds" + "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM" — same source asset surfacing in two distinct INDOPACOM record contexts | ⚠ PARTIAL on segmentation rationale |
-| `DOW-UAP-PR068` | "IIR 1 666 S0151 23/Video Footage of Unidentified Aerial Phenomenon (UAP) ..." — IIR-formatted INTREP video record | ✅ CORROBORATED |
+| `DOW-UAP-PR071` | "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]" — referring to the publicly-acknowledged Lake Huron shootdown of 12 February 2023. **The only kinetic engagement record in the entire PURSUE corpus** (R01+R02). Independently corroborated by Biden White House remarks 16 Feb 2023, NORTHCOM/NORAD briefings, GEN VanHerck; AIM-9X identification is public-record. | ✅ CORROBORATED |
+| `DOW-UAP-PR064` | "AFSOC Kabul UAP Jul 2017" — pre-withdrawal Kabul-area incident, otherwise unreported in public record. AFSOC platform = MC-130/CV-22/AC-130 class. | ⚠ PARTIAL |
+| `DOW-UAP-PR065` + `PR066` | USCG HC-144A Ocean Sentry, Tyndall AFB UAP "TIC TAC" IR hot, 24 April 2024 — **first U.S. Coast Guard-attributed records in the PURSUE corpus**. Uploader invokes USS Nimitz 2004 "TIC TAC" morphology; AARO declines, retreating to "area of contrast". PR066 has the strongest single phenomenological signal in the visible R02 PR-cluster: AARO's explicit "sensor pans to the left, but is unable to track" — rare admission that target angular velocity exceeded AN/AAS-52 Star SAFIRE III gimbal slew rate. | ⚠ PARTIAL |
+| `DOW-UAP-PR072` | "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan" — **only Soviet-bloc geography record in R02**, only record with explicit "digitally altered before upload" disclosure, only "ADMINISTRATIVE REVISION" prefix. Karaganda area ~600 km north of Sary Shagan (cf. CIA-UAP-D001). | ✅ CORROBORATED |
+| `DOW-UAP-PR057a` + `PR057b` | Shared DVIDS asset 1007720 (byte-identical, sha256 `902e1a4d…`, 32,239,151 bytes) catalogued as two records because two uploaders independently titled the same classified-network file differently. AARO's own description preserves the geographic inconsistency: prose says Yellow Sea, PR057b title says East China Sea. | ⚠ PARTIAL on segmentation rationale; ✅ on AARO-acknowledged provenance |
+| `DOW-UAP-PR060`–`PR063` | Four-clip 2021/04/12 single-encounter cluster — the only four-clip same-encounter release in R02. Internal asymmetry: PR061 detection-and-loss bottom-loaded, PR062 longest sustained track + only "color + IR" modality, PR063 top-loaded with active-voice operator track-abandonment, PR060 "obj 2" implying at least two distinct tracked objects. Upload-timing split (PR062+PR063 May 2024, PR060+PR061 June 2024) suggests two-batch ingest. | ⚠ PARTIAL |
+| `DOW-UAP-PR077` + `PR078` | Same date (2 Nov 2020), same dual-CALLSIGN, two distinct DVIDS assets (1007809 / 1007812) of identical 298 s duration, prose-identical AARO timelines + AARO's explicit "not duplicates" comment. Most parsimonious read: dual-platform IR confirmation pair. Structurally distinct from PR057a/b shared-DVIDS pattern. | ✅ CORROBORATED |
+| `DOW-UAP-PR088` + `PR089` | Sequential-DVIDS pair, same date (31 Aug 2020), identical 4:58 durations, joint ~10-minute multi-target IR encounter. Strong candidate MISREP pair with R01 `DOW-D42` (Range Fouler, 31 Aug 2020 Arabian Gulf, 482 ATKS, "Other Shape + Apparent Propulsion", 3 contacts). | ✅ CORROBORATED |
+| `DOW-UAP-PR090` | 24 Aug 2020 — strongest exact-date PR-to-MISREP candidate in R02: matches R01 `DOW-D56` uniquely (HSM-73 MH-60R Seahawk, 3 small air contacts, North Arabian Sea, 00:04:30Z Night). Would be the first Navy-MISREP-to-PR pair in PURSUE if confirmed. | 🟧 ANALYTICAL FLAG |
+| `DOW-UAP-PR099` | "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z" — **internal AARO metadata inconsistency**: title field says 25SEP19, description paragraph quotes 23SEP19. AARO data-integrity anomaly preserved across release. | ⚠ PARTIAL |
+| `DOW-UAP-PR068` | "IIR 1 666 S0151 23/Video Footage of UAP" — IIR-formatted INTREP video record | ✅ CORROBORATED |
+
+### §13.2 R02 PR-cluster cross-cutting findings / Сквозные находки по PR-кластеру R02
+
+From the topical synthesis ([`r02-dow-pr-050-099-cluster.md`](topical/r02-dow-pr-050-099-cluster.md)):
+
+1. **CENTCOM dominance with new institutional pathways**: ~36 of 51 records are CENTCOM (Persian Gulf, Arabian Sea, Iraq, Syria, Iran). R02 opens four pathways absent from R01: USCG (PR065/PR066), AFRICOM (PR081+PR082 micro-cluster), Soviet-bloc (PR072), and NORTHCOM (PR071 + PR086 East Coast).
+2. **August–November 2020 sustained CENTCOM cluster**: ~13 records over ~15 weeks (21 Aug → 2 Nov 2020), chaining PR091 → PR090 → PR088+PR089 → PR087 → PR085 → PR084 → PR083 → PR080 → PR079 → PR077+PR078. Overlaps temporally with R01 MISREP cohort of the same window — **suggesting R01 and R02 are decomposed cuts (MISREP-side / video-side) of a single underlying operational dataset**.
+3. **AARO lexical pre-emption pattern** (PR051 + PR054 specifically): AARO procedurally classifies records as "Unresolved" while its descriptive lexicon already pre-empts the uploader's anomalous framing ("sensor stops tracking, **causing** rapid exit"; "alterations **significantly influence** apparent performance characteristics"). Emerging editorial signal.
+4. **Five segmentation patterns documented in R02**: shared-DVIDS single-asset (PR057a/b); dual-platform IR confirmation (PR077+PR078); sequential-DVIDS same-encounter (PR088+PR089); distinct-DVIDS identical-title (PR093+PR095); four-clip single-encounter (PR060-063).
+5. **Same-month upload anomaly**: PR088–PR091 uploaded August 2020, not the typical June 2024 of the rest of R02 — distinct contemporaneous reporting workflow vs. retroactive declassification.
+6. **Provenance compromise (PR072 only)**: PR072 is the only R02 record AARO acknowledges as "digitally altered before upload" — applied to the only Soviet-bloc geography. Trust degradation isolated.
+
+### §13.3 NASA Mercury–Apollo audio cluster (D008–D014) / §13.3 Кластер NASA Mercury–Apollo аудио
+
+7 audio excerpts spanning 11 years (21 Jul 1961 → 7 Dec 1972). The cluster **extends the R01 NASA spaceflight topical 4.5 years backward to 1961**:
+
+| Code | Mission | Pilot | Date | UAP-relevant content |
+|---|---|---|---|---|
+| `NASA-UAP-D014` | Mercury-Redstone 4 / Liberty Bell 7 | Grissom | 21 Jul 1961 | Thinnest UAP-relevance — dye-pack recovery audio, ~26s. Negative-control baseline for AARO curation rubric. |
+| `NASA-UAP-D013` | Mercury Atlas 7 / Aurora 7 | Carpenter | 24 May 1962 | "Snowflakes…some faster than spacecraft" — programmatic Glenn-fireflies follow-up |
+| `NASA-UAP-D012` | Mercury Atlas 8 / Sigma 7 | Schirra | 3 Oct 1962 | "Lathe shavings" morphology observation + unresolved burst-of-light |
+| `NASA-UAP-D010`+`D011` | Mercury Atlas 9 / Faith 7 | Cooper | 15 May 1963 | Cooper sunrise + beacon-deployment "fireflies"; D010 contains explicit Glenn-reference moment ("John's fireflies"). Paired segments (180s + 494s). |
+| `NASA-UAP-D008` | Apollo 12 medical debriefing | Conrad/Bean/Gordon | 1969 | **Whisper-verified content**: crew describes cosmic-ray-induced phosphenes ("you can get discharge across your eye from gamma rays… the first night out, bing, bing… the horizontal streets… went from right to left no matter which eye it was in"). Established phosphene closure — radiation-safety signal NASA later catalogued. |
+| `NASA-UAP-D009` | Apollo 17 S-IVB particle field | Cernan/Schmitt/Evans | 7 Dec 1972 | Crew self-resolved as paint/ice from S-IVB |
+
+**Mercury "fireflies" lineage** is fully closed across both releases: Glenn's original MA-6 (Feb 1962, R01) → Carpenter MA-7 (R02) → Schirra MA-8 (R02) → Cooper MA-9 (R02). The R02 Glenn-reference moment in D010 ("John's fireflies") is the explicit narrative-continuity anchor across the R01/R02 boundary.
+
+### §13.4 Whisper transcript findings (v0.2.1) / §13.4 Находки из Whisper-транскриптов
+
+All 57 unique R02 audio/video files transcribed via Groq Whisper-large-v3 (model `whisper-large-v3`), output in `transcripts/{CODE}.transcript.txt`. Total audio: 3 h 38 min.
+
+- **NASA Mercury–Apollo audio (D008–D014)**: substantive content; all 7 transcripts contain analyzable astronaut voice content matching the historical record (Cooper "fireflies", Carpenter "snowflakes", Conrad/Bean phosphene description, etc.)
+- **DOW PR050–PR099 IR sensor videos (51 records)**: **essentially silent**. Transcripts contain only Whisper's well-known "you" artifact at ~30s intervals. This is the actual audio state — DOW IR-sensor videos are sensor-feed-only with no operator commentary tracks. Not a transcription failure.
+- Per-document cards do not require re-enrichment with PR-video transcripts (the transcripts confirm what the AARO-metastub-derived cards already document: the videos are sensor feeds without audio narration). NASA audio cards COULD be enriched with verbatim quotes in a future v0.2.2 pass.
 
 ---
 

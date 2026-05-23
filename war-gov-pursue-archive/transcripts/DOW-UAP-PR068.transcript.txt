@@ -1,0 +1,17 @@
+CODE: DOW-UAP-PR068
+TITLE: DOW-UAP-PR068, "IIR 1 666 S0151 23/Video Footage of Unidentified Aerial Phenomenon (UAP) captured by fifth generation aircraft on 20 Jan 23"
+DVIDS_ID: 1007780
+SOURCE_FILE: video_2605_DOD_111720698_DOD_111720698.mp4
+DURATION_SEC: 63
+TRANSCRIBED_AT: 2026-05-23T11:55:50Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 63.02799872
+
+--- FULL TEXT ---
+you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you

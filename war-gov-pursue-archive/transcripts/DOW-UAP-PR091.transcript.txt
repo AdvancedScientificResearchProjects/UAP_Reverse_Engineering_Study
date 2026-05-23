@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR091
+TITLE: DOW-UAP-PR091, "21 AUG [CALLSIGN] Observes UAP in Persian Gulf"
+DVIDS_ID: 1007716
+SOURCE_FILE: video_2605_DOD_111719739_DOD_111719739.mp4
+DURATION_SEC: 288
+TRANSCRIBED_AT: 2026-05-23T11:57:41Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 288.54900032
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  67.17 ->   67.79] you
+[  97.17 ->   97.79] you
+[ 127.17 ->  127.79] you
+[ 139.35 ->  139.97] you
+[ 169.35 ->  169.97] you
+[ 199.35 ->  199.97] you
+[ 211.52 ->  212.14] you
+[ 241.52 ->  242.14] you
+[ 271.52 ->  272.14] you

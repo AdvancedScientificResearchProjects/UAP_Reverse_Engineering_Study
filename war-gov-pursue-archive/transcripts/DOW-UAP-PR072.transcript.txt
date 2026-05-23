@@ -1,0 +1,15 @@
+CODE: DOW-UAP-PR072
+TITLE: DOW-UAP-PR072, "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan - UAP in the vicinity of Karaganda International Airport"
+DVIDS_ID: 1007788
+SOURCE_FILE: video_2605_DOD_111720752_DOD_111720752.mp4
+DURATION_SEC: 17
+TRANSCRIBED_AT: 2026-05-23T11:55:35Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 17.225312256
+
+--- FULL TEXT ---
+Thanks for watching!
+
+--- SEGMENTS ---
+[   0.00 ->   13.56] Thanks for watching!

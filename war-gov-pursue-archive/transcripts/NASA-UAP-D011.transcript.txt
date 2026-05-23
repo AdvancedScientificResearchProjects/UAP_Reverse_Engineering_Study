@@ -1,0 +1,67 @@
+CODE: NASA-UAP-D011
+TITLE: NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+DVIDS_ID: 1007876
+SOURCE_FILE: video_2605_DOD_111721737_DOD_111721737.mp4
+DURATION_SEC: 494
+TRANSCRIBED_AT: 2026-05-23T11:57:53Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 494.08037836799997
+
+--- FULL TEXT ---
+And I'm beginning to get the brilliant blue of sun rising in the east. Bright blue band underneath all this haze layer. I can see the haze layer. And the bright band of light demarcation coming underneath it. Quite distinctive. That is a faint... ...paint to it. That is where there are clouds, apparently. Roger, Hawaii. Face 7, reading you loud and clear. Roger, Hawaii, face 7, reading you loud and clear. Roger, understand. Roger, I'm just small in forward, 180 degree, approaching sunrise, over. Roger. These small luminescent particles drift away from you, small and forward. In this light they appear brilliant white without seeing it all in them. They appear to move on out, curve around back towards the flight path. Down here I don't think. Roger, you haven't seen the beacon at this time. Negative, I still haven't seen the beacon. Sure. There was considerable noise though as if something were departing. Again 7 There was considerable noise as the little doors sounded like the little doors blowing open so I assume the beacon has departed Roger understand TM looks real good on the ground. Roger. Okay, you confirm TV control switch to off. Roger, TV control is off. We had a slight decrease in the pull links on DC current. Would you give us a readout? Roger. DC current. Roger. Main bus is 24. Isolated 28 and a half. 554, isolated 28 and a half. Roger. I got it. I'm planning to shortly here, though. All right. Your information system blast control. All right. I'm planning to shortly here, though. All right For your information systems last computations on fuel at Hawaii gave you 88 auto 98 manual which is somewhat better than you indicating on board Roger, on board, I'm indicating 9-6 and 1-0-2. Oh boy, what a beautiful shot of Florida. Roger, looks good from here once and all too. Roger, the whole state is clear. I can see just about off. There's been a beautiful view coming over Florida. Thank you. Thank you. Thank you I got here on manual proportional control. I got here on manual proportional control. I'm at last daylight going in the dark. I've Now on 180 yawn. I got here on manual proportional control. I'm at last daylight going into dark. Have been looking for the flashing beacons. 50518 now. 28 I'm sorry, not 18. It's light inside. It is below me. It's quite a brownish, reddish-brown and considerable altitude above the ground. Now I might fire a pitch-down thruster. I get a shower of these of these little fireflies. It is flushing now. It is the light. It's quite bright, quite discernible. One, two, three, four, five, six, seven, right. There's to be about ten to twelve miles away. I'm keeping it directly in the window. At the order of a second maximum I'm going to tell you to star now.
+
+--- SEGMENTS ---
+[   0.00 ->    4.52] And I'm beginning to get the brilliant blue of sun rising in the east.
+[   5.50 ->    9.72] Bright blue band underneath all this haze layer.
+[  11.16 ->   12.84] I can see the haze layer.
+[  14.84 ->   19.04] And the bright band of light demarcation coming underneath it.
+[  20.76 ->   22.16] Quite distinctive.
+[  30.00 ->   37.00] That is a faint...
+[  39.00 ->   46.00] ...paint to it. That is where there are clouds, apparently.
+[  46.00 ->   53.00] Roger, Hawaii. Face 7, reading you loud and clear.
+[  60.00 ->   65.00] Roger, Hawaii, face 7, reading you loud and clear.
+[  65.00 ->   67.00] Roger, understand.
+[  67.00 ->   74.00] Roger, I'm just small in forward, 180 degree, approaching sunrise, over.
+[  74.00 ->   76.00] Roger.
+[  76.00 ->   83.00] These small luminescent particles drift away from you, small and forward.
+[  90.00 ->   95.00] In this light they appear brilliant white without seeing it all in them. They appear
+[  95.00 ->  102.00] to move on out, curve around back towards the flight path. Down here I don't think.
+[ 102.00 ->  105.00] Roger, you haven't seen the beacon at this time.
+[ 105.00 ->  108.00] Negative, I still haven't seen the beacon.
+[ 108.00 ->  109.00] Sure.
+[ 114.00 ->  118.00] There was considerable noise though as if something were departing.
+[ 118.00 ->  128.55] Again 7 There was considerable noise as the little doors sounded like the little doors blowing open so I assume the beacon has departed Roger understand
+[ 134.15 ->  136.55] TM looks real good on the ground.
+[ 136.55 ->  137.55] Roger.
+[ 148.55 ->  155.55] Okay, you confirm TV control switch to off.
+[ 171.55 ->  176.55] Roger, TV control is off.
+[ 178.55 ->  185.55] We had a slight decrease in the pull links on DC current. Would you give us a readout?
+[ 191.55 ->  198.55] Roger. DC current. Roger. Main bus is 24. Isolated 28 and a half.
+[ 198.55 ->  203.55] 554, isolated 28 and a half.
+[ 203.55 ->  204.55] Roger.
+[ 204.55 ->  211.55] I got it.
+[ 211.55 ->  218.55] I'm planning to shortly here, though.
+[ 218.55 ->  221.55] All right.
+[ 221.55 ->  226.55] Your information system blast control.
+[ 226.55 ->  229.55] All right.
+[ 229.55 ->  236.55] I'm planning to shortly here, though.
+[ 236.55 ->  251.10] All right For your information systems last computations on fuel at Hawaii gave you 88 auto 98 manual which is somewhat better than you indicating on board
+[ 253.34 ->  257.42] Roger, on board, I'm indicating 9-6 and 1-0-2.
+[ 272.10 ->  277.10] Oh boy, what a beautiful shot of Florida.
+[ 277.10 ->  282.10] Roger, looks good from here once and all too.
+[ 282.10 ->  287.10] Roger, the whole state is clear. I can see just about
+[ 287.10 ->  292.10] off. There's been a beautiful view coming over Florida.
+[ 302.10 ->  332.08] Thank you.
+[ 332.10 ->  362.08] Thank you.
+[ 362.10 ->  395.64] Thank you
+[ 395.66 ->  402.66] I got here on manual proportional control.
+[ 402.66 ->  409.66] I got here on manual proportional control. I'm at last daylight going in the dark. I've
+[ 409.66 ->  416.66] Now on 180 yawn. I got here on manual proportional control. I'm at last daylight going into dark.
+[ 426.34 ->  433.34] Have been looking for the flashing beacons. 50518 now. 28 I'm sorry, not 18.
+[ 433.34 ->  440.34] It's light inside. It is below me. It's quite a brownish, reddish-brown and considerable
+[ 449.96 ->  456.96] altitude above the ground. Now I might fire a pitch-down thruster. I get a shower of these
+[ 456.96 ->  463.96] of these little fireflies. It is flushing now. It is the light. It's quite bright, quite
+[ 464.56 ->  471.56] discernible. One, two, three, four, five, six, seven, right. There's to be about ten
+[ 477.34 ->  484.34] to twelve miles away. I'm keeping it directly in the window. At the order of a second maximum
+[ 486.96 ->  488.96] I'm going to tell you to star now.

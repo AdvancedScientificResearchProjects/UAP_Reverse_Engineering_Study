@@ -1,0 +1,32 @@
+CODE: NASA-UAP-D013
+TITLE: NASA-UAP-D013, Mercury Atlas 7, May 24, 1962 
+DVIDS_ID: 1007879
+SOURCE_FILE: video_2605_DOD_111721758_DOD_111721758.mp4
+DURATION_SEC: 108
+TRANSCRIBED_AT: 2026-05-23T11:58:00Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 108.78799872
+
+--- FULL TEXT ---
+I have the more of the white particles in view below the capsule. They appear to be traveling exactly my speed. There is one drifting off. Uh, it's going faster than I am, as a matter of fact. Roger. Understand. I haven't seen the great numbers of these particles, but I've seen a few of them. Their motion is random. They look exactly like snowflakes to me. Roger. Have you tried to return... Negative. Let me get within scanner limits first. Say again. I must adjust my attitude to within scanner limits first. Roger. There were some more of those, uh, little particles. They definitely looked like snowflakes this time. Uh, roger. I understand your particles look like definite snowflakes. Uh, however, it's ... Mr. Ryan? Uh, roger.
+
+--- SEGMENTS ---
+[   0.00 ->    8.00] I have the more of the white particles in view below the capsule.
+[   8.00 ->   18.00] They appear to be traveling exactly my speed. There is one drifting off.
+[  18.00 ->   24.00] Uh, it's going faster than I am, as a matter of fact.
+[  24.00 ->   28.00] Roger. Understand.
+[  28.00 ->   34.32] I haven't seen the great numbers of these particles, but I've seen a few of them.
+[  34.70 ->   35.98] Their motion is random.
+[  37.00 ->   39.82] They look exactly like snowflakes to me.
+[  42.54 ->   45.98] Roger. Have you tried to return...
+[  45.98 ->   49.98] Negative. Let me get within scanner limits first.
+[  52.22 ->   53.22] Say again.
+[  53.22 ->   58.98] I must adjust my attitude to within scanner limits first.
+[  59.78 ->   60.38] Roger.
+[  83.22 ->   90.22] There were some more of those, uh, little particles. They definitely looked like snowflakes
+[  97.10 ->   98.10] this time.
+[  98.10 ->  105.10] Uh, roger. I understand your particles look like definite snowflakes. Uh, however, it's
+[ 105.40 ->  106.40] ...
+[ 106.40 ->  107.40] Mr. Ryan?
+[ 107.40 ->  107.90] Uh, roger.

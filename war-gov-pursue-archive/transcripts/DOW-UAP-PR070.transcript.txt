@@ -1,0 +1,16 @@
+CODE: DOW-UAP-PR070
+TITLE: DOW-UAP-PR070, "IIR 1 655 S0301 23/Eglin AFB Aircrew Observed Unidentified Aerial Phenomena (UAP) on 13 Feb 23"
+DVIDS_ID: 1007783
+SOURCE_FILE: video_2605_DOD_111720720_DOD_111720720.mp4
+DURATION_SEC: 30
+TRANSCRIBED_AT: 2026-05-23T11:55:25Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 30.068000768
+
+--- FULL TEXT ---
+you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you

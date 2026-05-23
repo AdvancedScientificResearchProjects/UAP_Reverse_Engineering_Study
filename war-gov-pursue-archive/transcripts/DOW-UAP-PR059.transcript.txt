@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR059
+TITLE: DOW-UAP-PR059, "NAG UAP 1 Jun 20"
+DVIDS_ID: 1007727
+SOURCE_FILE: video_2605_DOD_111719809_DOD_111719809.mp4
+DURATION_SEC: 291
+TRANSCRIBED_AT: 2026-05-23T11:55:20Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 290.959689344
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  67.77 ->   68.39] you
+[  97.77 ->   98.39] you
+[ 127.77 ->  128.39] you
+[ 140.55 ->  141.17] you
+[ 170.55 ->  171.17] you
+[ 200.55 ->  201.17] you
+[ 213.32 ->  213.94] you
+[ 243.32 ->  243.94] you
+[ 273.32 ->  273.94] you

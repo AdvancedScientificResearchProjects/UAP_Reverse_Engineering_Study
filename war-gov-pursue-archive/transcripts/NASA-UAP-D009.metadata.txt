@@ -1,0 +1,16 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D009 ===
+DVIDS ID: video:1007872
+Title: NASA-UAP-D009, Apollo 17 Audio Excerpt, December 7, 1972
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 275
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721698/DOD_111721698.mp4 (1920x1080, 261032899 bytes)
+
+=== Description (AARO/AAS) ===
+During the eleventh and final crewed mission in the Apollo program, Apollo 17 Commander Gene Cernan, Lunar Module Pilot Harrison Schmitt, and Command Module Pilot Ronald Evans report seeing small lights outside the Apollo spacecraft during transit to the moon. 
+The crew describe bright “particles” or “fragments” as being “jagged,” “angular,” and drifting near the Apollo spacecraft and the separated Saturn S-IVB stage. The Apollo 17 crew speculate that paint chips or ice chips are likely the source of these lights and note that they “twinkle” and move away from the Saturn S-IVB stage.
+
+=== End of stub ===

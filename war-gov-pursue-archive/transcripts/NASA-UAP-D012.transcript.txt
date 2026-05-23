@@ -1,0 +1,38 @@
+CODE: NASA-UAP-D012
+TITLE: NASA-UAP-D012, Mercury Atlas 8 Audio Excerpt, October 3, 1962
+DVIDS_ID: 1007877
+SOURCE_FILE: video_2605_DOD_111721747_DOD_111721747.mp4
+DURATION_SEC: 211
+TRANSCRIBED_AT: 2026-05-23T11:58:05Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 211.08168524799999
+
+--- FULL TEXT ---
+I have some pretty stars in sight. And also I have the little white objects that seem to come from the capsule itself and drift off. And if they are a yaw check, it's fantastic. I suspect that the star I see is Arcturus. They're very interesting. It is neither. It is one of the white objects. So I have two stars, they're standing quite still. The white object actually looked like it came toward me. But it wasn't. You can actually see the particle there, going off, as John described it as a lathe shaving. It's a very good description of it. My rates are now just about zero at all three axes. I still have light in the periscope, of course. I'm looking straight up. And yet, at this point, this is where my attitude is. When I get on the couch here, I really can't pick it too well. Yeah, I'm just about inverted at this point. And that my nose is above the horizon As a result I notice that these particles keep tending aft on me relative to me at any time Periscope is blocking out rather rapidly at sunset. It's almost blocked out completely at this point and is really not usable. Okay, there's a real burst of light in the window, and I really like that. I don't know what it is. At this point I should be coming up on a sunset. Five hours and 15 minutes. The periscope is dark. I must be just getting a last look at the horizon, yet I'm not down on it.
+
+--- SEGMENTS ---
+[   0.00 ->    4.00] I have some pretty stars in sight.
+[   4.00 ->   15.00] And also I have the little white objects that seem to come from the capsule itself and drift off.
+[  15.00 ->   19.00] And if they are a yaw check, it's fantastic.
+[  19.00 ->   24.00] I suspect that the star I see is Arcturus.
+[  24.00 ->   28.00] They're very interesting.
+[  28.00 ->   35.00] It is neither. It is one of the white objects.
+[  35.00 ->   46.00] So I have two stars, they're standing quite still. The white object actually looked like it came toward me. But it wasn't.
+[  46.00 ->   53.00] You can actually see the particle there, going off, as John described it as a lathe shaving.
+[  57.00 ->   64.00] It's a very good description of it. My rates are now just about zero at all three axes.
+[  76.00 ->   82.78] I still have light in the periscope, of course.
+[  82.86 ->   84.72] I'm looking straight up.
+[  84.72 ->   90.46] And yet, at this point, this is where my attitude is.
+[  92.26 ->   96.02] When I get on the couch here, I really can't pick it too well.
+[  96.14 ->   99.74] Yeah, I'm just about inverted at this point.
+[  99.74 ->  119.61] And that my nose is above the horizon As a result I notice that these particles keep tending aft on me relative to me at any time
+[ 130.61 ->  134.61] Periscope is blocking out rather rapidly at sunset.
+[ 140.61 ->  144.61] It's almost blocked out completely at this point and is really not usable.
+[ 160.61 ->  190.59] Okay, there's a real burst of light in the window, and I really like that.
+[ 190.59 ->  192.83] I don't know what it is.
+[ 192.83 ->  195.27] At this point I should be coming up on a sunset.
+[ 196.27 ->  198.07] Five hours and 15 minutes.
+[ 200.79 ->  202.77] The periscope is dark.
+[ 202.77 ->  205.63] I must be just getting a last look at the horizon,
+[ 205.63 ->  206.97] yet I'm not down on it.

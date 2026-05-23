@@ -1,0 +1,106 @@
+CODE: NASA-UAP-D008
+TITLE: NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969
+DVIDS_ID: 1007870
+SOURCE_FILE: video_2605_DOD_111721693_DOD_111721693.mp4
+DURATION_SEC: 470
+TRANSCRIBED_AT: 2026-05-23T11:55:22Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 469.903685248
+
+--- FULL TEXT ---
+Listen, we read this paragraph in here about these, quote, coronal discharges that you guys were seeing, and that completely stops us. Tell us how this came about and who talked to you about it and what you saw. Somebody reported on one of the earlier flights that some guy up like at the letters, There's paperwork somewhere, they shifted down to me, and they gave about two things, one was radio noises, which could be discharges from someplace in space, and the other one were, I thought it was about Neosplice, he said, the airport is seeing flashes from a spacecraft. They saw it with their eyes closed. No, no, they noticed them when they were awake at night, the spacecraft was dark, and they thought they were in a spacecraft. But whoever this guy was said, no, that's a perfectly known phenomena. You can get discharge across your eye from gamma rays or something. So you add up 100 things, would we close our eyes and face the moon, you know, when we were orbiting it because it would be more, you'd get less discharge just facing the moon and away from it. You don't have to be anywhere near the moon or anywhere. The first night out, bing, bing. And if you keep your eyes closed and your eyes down there and it's dark and you think about it, what happens is you can turn your eyes and you can see down at it. One eye. It's not a discharge that you see in both eyes. You really see it with one eye or the other eye. And you can see what kind it is. We had two kinds. I guess the particle either strikes the eyeball perpendicular or it's discharged parallel. and we get either a flag like that or we get a street and I for some reason got a more with my left eye than my right eye but I could tell which eye it was when I was concentrating on it I trying to tell you the reason you did it is because his where he slept was always on the left side of the spacecraft. And that's why I kept whistling across there, and I caught all the right ones in my eye. Yeah. I was perfectly symmetrical. I was split down. They should have protected you, Dick. They should have picked them all up. I remember their conversation about it. up and you know penetrating the spacecraft what peter described is the exact phenomenon all three of us you see a light you know just a flag out there or sometimes it'd be a street and i saw him in both eyes neither eye and uh i can't remember if there was one that was more predominant than the other but i agree with you is the phenomenon that you're not seeing with both that it's not something external, that it's something that's inside of you. Inside of you, yeah. Coming across you is that one. Apparently they know that. Apparently it's a completely known phenomenon. Well, we've been looking for cosmic rays, you know, cosmic ray strikes, and heavy particles, heavy nuclei that go through. You know, we started at Clearback and Mercury taking photographs of the retina to see if you could see streaks across the retina and stuff. We never could find any in there. and so we stopped that up early in the world by the end of the site your eye is plus a fancy healer on your body and if it doing anything you never going to see it by the time you get a guy back you never going to see it as if you photographed it right after the park over the line well probably what what it doing anyway is probably hitting just a single cell and uh yeah that's all it has to do particularly make this flash you know you hit a single cell i saw a red knife i was looking at the mdc a handrail up above and one ride right along i don't know where it went here you know right straight along that handrail for about that that's just i just got to be looking at that and i'm just almost seeing the wheel that's right you just lie there you close your eyes what a bell i see you want to be open one eye and you have to already see it you didn't believe it it hurt let me ask you one more question about heart oh here distribution of these or did they seem to be fairly horizontal? Okay, were these things random or did they all seem to be in one direction? Like, were they always horizontal or were they at random? They could be at any kind of angle. The streets I saw were horizontal. I was going to say that's interesting. It seemed to me I had the impression that they were always roughly in the same place and might were horizontal The horizontal streets were always if I knew where I was looking it always seemed like the horizontal streets were a little bit above the center And it always seemed to me it went from right to left No matter which eye it was in The the were more towards the center and it would be just like a pinpoint of light would close again Like somebody was flashing a light at you. That's right. Generally not too big a light at you. It wasn't still very small. Yeah. Yeah. Yeah. It's a... that about the same for both of you is that the same reaction you had dick and al the way he described it but about the same they seem to appear about the same place I can't remember I just don't remember him being down on the lower part of the tunnel. Well I think, you see Dick's telling you about Peter with his eyes open and other things that he's centered his eye on, the lights on the instrument panel. Well I used to notice them the most when I was down there in that sleeping bag, it was pitch black down there in the hole and wouldn't make any difference whether my eyes were open or closed. lay there for, if you kill time that way, say for a half an hour, and either open them or close them and wait, and sure enough, after a while, you'd get one. And then I'd sit there for a while and say, okay, there's a left eye or the right eye. It'd take you a while to sort it out. But you could usually figure out which eye it was in. Now you know what to do when you're supposed to be sleeping on it. Yeah. There was a comment that...
+
+--- SEGMENTS ---
+[   0.00 ->    6.48] Listen, we read this paragraph in here about these, quote,
+[   6.62 ->   12.10] coronal discharges that you guys were seeing, and that completely stops us.
+[  12.10 ->   19.20] Tell us how this came about and who talked to you about it and what you saw.
+[  19.32 ->   26.52] Somebody reported on one of the earlier flights that some guy up like at the letters,
+[  26.52 ->   31.02] There's paperwork somewhere, they shifted down to me, and they gave about two things,
+[  31.02 ->   36.02] one was radio noises, which could be discharges from someplace in space,
+[  36.02 ->   39.52] and the other one were, I thought it was about Neosplice, he said,
+[  39.52 ->   42.52] the airport is seeing flashes from a spacecraft.
+[  42.52 ->   44.52] They saw it with their eyes closed.
+[  44.52 ->   50.52] No, no, they noticed them when they were awake at night, the spacecraft was dark,
+[  50.52 ->   52.52] and they thought they were in a spacecraft.
+[  52.52 ->   60.52] But whoever this guy was said, no, that's a perfectly known phenomena. You can get discharge across your eye from gamma rays or something.
+[  60.52 ->   73.52] So you add up 100 things, would we close our eyes and face the moon, you know, when we were orbiting it because it would be more, you'd get less discharge just facing the moon and away from it.
+[  73.52 ->   76.08] You don't have to be anywhere near the moon or anywhere.
+[  76.24 ->   78.14] The first night out, bing, bing.
+[  78.98 ->   84.46] And if you keep your eyes closed and your eyes down there and it's dark and you think about it,
+[  84.66 ->   88.00] what happens is you can turn your eyes and you can see down at it.
+[  88.08 ->   88.72] One eye.
+[  89.04 ->   91.18] It's not a discharge that you see in both eyes.
+[  91.26 ->   93.56] You really see it with one eye or the other eye.
+[  94.14 ->   95.54] And you can see what kind it is.
+[  95.64 ->   96.56] We had two kinds.
+[  97.40 ->  103.06] I guess the particle either strikes the eyeball perpendicular or it's discharged parallel.
+[ 103.06 ->  125.29] and we get either a flag like that or we get a street and I for some reason got a more with my left eye than my right eye but I could tell which eye it was when I was concentrating on it I trying to tell you the reason you did it is because his where he slept
+[ 125.39 ->  127.15] was always on the left side of the spacecraft.
+[ 128.29 ->  131.69] And that's why I kept whistling across there, and I caught all the right ones in my eye.
+[ 132.31 ->  132.49] Yeah.
+[ 134.83 ->  137.43] I was perfectly symmetrical. I was split down.
+[ 142.51 ->  144.17] They should have protected you, Dick.
+[ 144.23 ->  146.19] They should have picked them all up.
+[ 146.19 ->  171.45] I remember their conversation about it.
+[ 172.51 ->  179.95] up and you know penetrating the spacecraft what peter described is the exact phenomenon all three
+[ 179.95 ->  187.87] of us you see a light you know just a flag out there or sometimes it'd be a street and i saw
+[ 187.87 ->  193.15] him in both eyes neither eye and uh i can't remember if there was one that was more predominant
+[ 193.15 ->  197.71] than the other but i agree with you is the phenomenon that you're not seeing with both
+[ 197.71 ->  199.29] that it's not something external,
+[ 199.47 ->  201.13] that it's something that's inside of you.
+[ 201.13 ->  202.45] Inside of you, yeah.
+[ 202.65 ->  204.01] Coming across you is that one.
+[ 204.53 ->  205.75] Apparently they know that.
+[ 205.95 ->  208.73] Apparently it's a completely known phenomenon.
+[ 209.01 ->  212.27] Well, we've been looking for cosmic rays,
+[ 212.43 ->  213.83] you know, cosmic ray strikes,
+[ 214.33 ->  218.29] and heavy particles, heavy nuclei that go through.
+[ 218.39 ->  219.91] You know, we started at Clearback and Mercury
+[ 219.91 ->  222.21] taking photographs of the retina
+[ 222.21 ->  224.49] to see if you could see streaks across the retina and stuff.
+[ 224.55 ->  226.17] We never could find any in there.
+[ 226.17 ->  243.92] and so we stopped that up early in the world by the end of the site your eye is plus a fancy healer on your body and if it doing anything you never going to see it by the time you get a guy back you never going to see it as if you photographed it right after the park over the line well probably what what it doing
+[ 243.92 ->  249.54] anyway is probably hitting just a single cell and uh yeah that's all it has to do particularly
+[ 249.54 ->  255.48] make this flash you know you hit a single cell i saw a red knife i was looking at the mdc a
+[ 255.48 ->  260.84] handrail up above and one ride right along i don't know where it went here you know right
+[ 260.84 ->  266.92] straight along that handrail for about that that's just i just got to be looking at that and i'm
+[ 266.92 ->  271.88] just almost seeing the wheel that's right you just lie there you close your eyes what a bell
+[ 271.88 ->  278.28] i see you want to be open one eye and you have to already see it you didn't believe it it hurt
+[ 278.28 ->  308.10] let me ask you one more question about heart oh here
+[ 308.10 ->  309.94] distribution of these
+[ 309.94 ->  312.72] or did they seem to be
+[ 312.72 ->  313.92] fairly horizontal?
+[ 314.50 ->  316.56] Okay, were these
+[ 316.56 ->  318.32] things random
+[ 318.32 ->  320.94] or did they all seem to be
+[ 320.94 ->  322.86] in one direction? Like, were they always horizontal
+[ 322.86 ->  324.84] or were they at random? They could be at any
+[ 324.84 ->  325.62] kind of angle.
+[ 325.92 ->  327.72] The streets I saw were
+[ 327.72 ->  330.58] horizontal. I was going to say
+[ 330.58 ->  333.00] that's interesting. It seemed to me
+[ 333.00 ->  335.02] I had the impression that they were always
+[ 335.02 ->  337.00] roughly in the same place and might
+[ 337.00 ->  361.85] were horizontal The horizontal streets were always if I knew where I was looking it always seemed like the horizontal streets were a little bit above the center And it always seemed to me it went from right to left No matter which eye it was in The the were more towards the center and it would be just like a pinpoint of light would close again
+[ 362.65 ->  364.79] Like somebody was flashing a light at you.
+[ 365.95 ->  366.69] That's right.
+[ 367.91 ->  369.67] Generally not too big a light at you.
+[ 369.83 ->  371.63] It wasn't still very small.
+[ 371.63 ->  371.81] Yeah.
+[ 371.81 ->  372.09] Yeah.
+[ 372.29 ->  372.55] Yeah.
+[ 372.75 ->  374.21] It's a...
+[ 374.21 ->  387.33] that about the same for both of you is that the same reaction you had dick and al the way he
+[ 387.33 ->  402.73] described it but about the same they seem to appear about the same place
+[ 402.73 ->  418.73] I can't remember
+[ 418.73 ->  423.13] I just don't remember him being down on the lower part of the tunnel.
+[ 423.13 ->  434.73] Well I think, you see Dick's telling you about Peter with his eyes open and other things that he's centered his eye on, the lights on the instrument panel.
+[ 434.73 ->  442.73] Well I used to notice them the most when I was down there in that sleeping bag, it was pitch black down there in the hole and wouldn't make any difference whether my eyes were open or closed.
+[ 442.73 ->  448.49] lay there for, if you kill time that way, say for a half an hour, and either open them
+[ 448.49 ->  453.17] or close them and wait, and sure enough, after a while, you'd get one. And then I'd sit there
+[ 453.17 ->  456.35] for a while and say, okay, there's a left eye or the right eye. It'd take you a while
+[ 456.35 ->  462.09] to sort it out. But you could usually figure out which eye it was in. Now you know what
+[ 462.09 ->  463.89] to do when you're supposed to be sleeping on it.
+[ 463.89 ->  464.19] Yeah.
+[ 468.03 ->  469.63] There was a comment that...

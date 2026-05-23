@@ -1,0 +1,15 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D014 ===
+DVIDS ID: video:1007878
+Title: NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 26
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721755/DOD_111721755.mp4 (1920x1080, 33839454 bytes)
+
+=== Description (AARO/AAS) ===
+During the recovery of the fourth launch and second crewed spaceflight of Project Mercury, Mercury-Redstone 4 (MR-4) Liberty Bell 7, the recovery team discusses a dye pack in the water that did not activate.
+
+=== End of stub ===

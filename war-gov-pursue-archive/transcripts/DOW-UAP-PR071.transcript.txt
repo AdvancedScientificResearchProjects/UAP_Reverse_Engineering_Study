@@ -1,0 +1,16 @@
+CODE: DOW-UAP-PR071
+TITLE: DOW-UAP-PR071, "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [Weapon System], 12 Feb 2023"
+DVIDS_ID: 1007784
+SOURCE_FILE: video_2605_DOD_111720731_DOD_111720731.mp4
+DURATION_SEC: 46
+TRANSCRIBED_AT: 2026-05-23T11:56:57Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 46.729314304
+
+--- FULL TEXT ---
+you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you

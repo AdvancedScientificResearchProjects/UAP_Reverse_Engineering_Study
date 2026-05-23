@@ -1,0 +1,28 @@
+CODE: NASA-UAP-D010
+TITLE: NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+DVIDS_ID: 1007874
+SOURCE_FILE: video_2605_DOD_111721711_DOD_111721711.mp4
+DURATION_SEC: 180
+TRANSCRIBED_AT: 2026-05-23T11:56:28Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 180.82169088
+
+--- FULL TEXT ---
+And now at one hour at this time, I now have one hour and 21 minutes, and I am observing John's fireflies drifting away from me. I can observe them sort of be departing from the spacecraft and drifting out to the ridge. I can see some of them. A considerable distance out to the rear. Sun is coming up behind me. I'm beginning to get the glow on the clouds. Fireflies appear to be white. Very whitish with almost a green like rail fireflies. Thank you Clouds on the Earth below are changing color are getting quite light Thank you. I am now on the day side. The sun is not yet quite up and I am observing stars. The earth is light below me. The sun is still behind me. The sky looks dark above me, and I can see stars very distinctly.
+
+--- SEGMENTS ---
+[   0.00 ->   10.32] And now at one hour at this time, I now have one hour and 21 minutes, and I am observing
+[  10.32 ->   17.68] John's fireflies drifting away from me.
+[  17.68 ->   29.96] I can observe them sort of be departing from the spacecraft and drifting out to the ridge.
+[  29.96 ->   33.96] I can see some of them.
+[  33.96 ->   37.96] A considerable distance out to the rear.
+[  45.96 ->   49.96] Sun is coming up behind me.
+[  49.96 ->   53.96] I'm beginning to get the glow on the clouds.
+[  59.96 ->   66.96] Fireflies appear to be white. Very whitish with almost a green like rail fireflies.
+[  89.96 ->  112.48] Thank you Clouds on the Earth below are changing color are getting quite light
+[ 112.48 ->  142.46] Thank you.
+[ 142.48 ->  162.24] I am now on the day side.
+[ 162.24 ->  167.84] The sun is not yet quite up and I am observing stars.
+[ 167.84 ->  170.24] The earth is light below me.
+[ 170.24 ->  178.36] The sun is still behind me. The sky looks dark above me, and I can see stars very distinctly.

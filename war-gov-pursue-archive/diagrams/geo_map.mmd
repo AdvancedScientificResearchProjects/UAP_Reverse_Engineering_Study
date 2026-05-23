@@ -1,18 +1,22 @@
 ---
-title: "PURSUE Release 01 — geographic clustering by AOR / region"
+title: "PURSUE Releases 01+02 — geographic clustering by AOR / region"
 ---
-%% EN: Records grouped by AOR / region per catalog/documents.md "Location" column.
-%% CENTCOM dominates (~60 records); FBI Western US is the second cluster.
-%% Historical Soviet/post-Soviet, European, LATAM and Pacific theatres are sparse.
-%% Source codes per catalog/source_codes.md.
-%% RU: Распределение 161 записи по AOR / региональным кластерам.
+%% EN: Records grouped by AOR / region per catalog/documents.md + documents-r02.md
+%% "Location" column. CENTCOM dominates (~100+ records cumulative); R02 added a large
+%% NORTHCOM presence (Lake Huron shoot-down, Tyndall USCG, F/A-18 FLIR, East-Coast
+%% Dec 2019, Columbus OH), Kazakhstan Karaganda (PR072), East China / Yellow Sea
+%% expansion (PR057a/b, PR075), AFSOC Kabul AFG (PR064), Pajarito/Sandia/LANL NM
+%% (DOW-D017 + DOE-D002 + DOE-D003), PANTEX TX (DOE-D001), Sary Shagan USSR
+%% (CIA-D001) and Mercury launch/recovery footprints (NASA-D010..D014).
+%% RU: Распределение 225 кумулятивных записей по AOR / региональным кластерам.
 graph TD
-    PURSUE[PURSUE Release 01<br/>161 records<br/>war.gov/UFO 2026-05-08]
+    PURSUE[PURSUE Releases 01+02<br/>225 records cumulative<br/>R01 161 2026-05-08 + R02 64 2026-05-22]
 
     PURSUE --> CENTCOM
     PURSUE --> EUCOM
     PURSUE --> AFRICOM
     PURSUE --> INDOPACOM
+    PURSUE --> NORTHCOM
     PURSUE --> CONUS
     PURSUE --> EUROPE_HIST[Europe historical]
     PURSUE --> LATAM
@@ -21,40 +25,56 @@ graph TD
     PURSUE --> CIV[Civilian / Foreign]
 
     subgraph CENTCOM [CENTCOM AOR — modern military core]
-        AG[Arabian Gulf<br/>D3 D4 D6 D7 D38 D42 D60 D61 D65<br/>D23 PR39]
+        AG[Arabian Gulf / Persian Gulf<br/>R01: D3 D4 D6 D7 D38 D42 D60 D61 D65 D23 PR39<br/>R02: PR091 PR098 PR093 PR095 + multiple CENTCOM PR050-099]
         AS[Arabian Sea<br/>D44 D56]
         SOH[Strait of Hormuz<br/>D62 D63]
         GOA[Gulf of Aden<br/>D57 D75]
         GOO[Gulf of Oman<br/>D27 PR29 mislabel]
-        IRAN[Iran<br/>D64]
+        IRAN[Iran<br/>D64 + PR050 26 Aug 2022 4-UAP formation R02]
         IRAQ[Iraq<br/>D10 D12 D18 D20 D28 PR21 PR23 PR20]
-        SYRIA[Syria<br/>D14 D16 D19 D32 D55 D74<br/>PR22 PR31 PR32 PR33]
+        SYRIA[Syria<br/>D14 D16 D19 D32 D55 D74 PR22 PR31 PR32 PR33<br/>R02: PR051 Syrian instant-acceleration]
         UAE[UAE<br/>D23 D27 PR26 PR27 PR29]
-        ME_UNK[Middle East unspecified<br/>PR19 PR36 PR37 PR40 PR41 PR42 PR44 PR45 PR38]
+        AFG[Afghanistan Kabul<br/>R02: PR064 AFSOC Jul 2017<br/>R02: PR055 Spherical UAP over AFG 23 Nov 2020]
+        ME_UNK[Middle East unspecified<br/>R01: PR19 PR36 PR37 PR40 PR41 PR42 PR44 PR45 PR38<br/>R02 bulk CENTCOM: PR052 PR056 PR059 PR060 PR061 PR062 PR063 PR074 PR076 PR077 PR078 PR079 PR080 PR083 PR084 PR085 PR087 PR088 PR089 PR090 PR092 PR094 PR096 PR097 PR099]
     end
 
     subgraph EUCOM [EUCOM AOR]
         GR[Greece / Aegean Sea<br/>D33 D35 PR34 PR35<br/>D25 PR28 mislabel]
         MED[Mediterranean Sea<br/>D5 D8 D54]
+        EUCOM_R02[R02: PR054 Spherical UAP erratic 2022]
     end
 
     subgraph AFRICOM [AFRICOM AOR]
         DJB[Djibouti<br/>D8 mission report 2025<br/>PR43]
+        AFR_R02[R02: PR081 PR082 18-16 Oct 2020]
     end
 
     subgraph INDOPACOM [INDOPACOM AOR]
-        ECS[East China Sea<br/>PR46]
-        IPC[INDOPACOM unspecified<br/>D50 D51 PR47 PR48]
+        ECS[East China Sea / Yellow Sea<br/>R01: PR46<br/>R02: PR057a PR057b 05 Jan 2023, PR075 09 Jun 2021]
+        IPC[INDOPACOM unspecified<br/>R01: D50 D51 PR47 PR48<br/>R02: PR058]
         PNG[Papua New Guinea Wewak<br/>DOS-PNG-1985]
     end
 
-    subgraph CONUS [CONUS — FBI Western US + historical]
-        WUS[Western US 2023-2025<br/>DOW-WESTERN-US-2023<br/>FBI-ELLIPSE SKETCH+Sr3/4/5<br/>FBI-IR-A01..A08<br/>FBI-IR-B01..B24<br/>FBI-USPER-302]
+    subgraph NORTHCOM [NORTHCOM AOR — R02 new cluster]
+        LH[Lake Huron MI<br/>R02: PR071 F-16C ANG shoot-down 12 Feb 2023]
+        TYN[Tyndall AFB FL<br/>R02: PR065 PR066 USCG C-144 TIC-TAC IR 24 Apr 2024]
+        EGL[Eglin AFB FL<br/>R02: PR070 13 Feb 2023 aircrew obs]
+        COL[Columbus OH<br/>R02: PR073 vicinity UAP cluster 2022]
+        EAST[East Coast<br/>R02: PR086 Dec 2019, PR068 5th-gen aircraft Jan 2023, PR069 F/A-18 FLIR]
+    end
+
+    subgraph CONUS [CONUS — FBI Western US + historical + DOE/DOW physical sites]
+        WUS[Western US 2023-2025<br/>R01: DOW-WESTERN-US-2023, FBI-ELLIPSE SKETCH+Sr3/4/5<br/>R01: FBI-IR-A01..A08, FBI-IR-B01..B24, FBI-USPER-302<br/>R02: ODNI-UAP-D001 USPER orange-orb 2025 helicopter]
+        SAND[Sandia/Kirtland AFB NM 1948-1950<br/>R02: DOW-UAP-D017 Green Fireballs + Project Twinkle]
+        LANL[Los Alamos NM 1970s<br/>R02: DOE-UAP-D002 James Tuck correspondence]
+        PAJ[Pajarito Mtn NM 1986<br/>R02: DOE-UAP-D003 Astronomers invitation 20 May]
+        PNX[Pantex TX<br/>R02: DOE-UAP-D001 Enhanced PANTEX Imagery]
         OAK[Oak Ridge AEC 1950<br/>FBI-62HQ-S05]
         DET[Detroit MI 1958<br/>FBI-100-DE-18221]
         VBG[Vandenberg AFB 1958-2000<br/>DOW-D49]
         AAFR[Air Force Report 1996<br/>DOW-D48]
         SOC[Socorro NM 1964<br/>FBI-62HQ-Sr438]
+        HOU[Houston TX MSC 1969<br/>R02: NASA-UAP-D008 Apollo 12 medical debrief]
     end
 
     subgraph EUROPE_HIST [Europe historical]
@@ -72,14 +92,18 @@ graph TD
     subgraph SOVIET [Soviet / post-Soviet]
         AZ[Azerbaijan 1955<br/>DOW-1955-AZERBAIJAN]
         KAZ[Kazakhstan 1994 Tajik Air B747SP<br/>DOS-KAZ-1994]
+        KAR[Kazakhstan Karaganda 2022<br/>R02: DOW-UAP-PR072 IIR 1777 J0032 22]
+        SS[Sary Shagan Weapons Range USSR 1973<br/>R02: CIA-UAP-D001 IIR 20 Dec]
         TBI[Tbilisi Georgia 2001<br/>DOS-TBI-2001 gap card]
         TKM[Turkmenistan 2004 Ashgabat<br/>DOS-TKM-2004 gap card]
     end
 
-    subgraph SPACE [Earth orbit / Moon]
+    subgraph SPACE [Earth orbit / Moon / Cislunar]
+        MER[Low Earth Orbit Mercury 1961-1963<br/>R02: NASA-UAP-D010 D011 D012 D013 D014<br/>MR-4 Grissom, MA-7 Carpenter, MA-8 Schirra, MA-9 Cooper]
         LEO[Low Earth Orbit Gemini 7 1965<br/>NASA-D3 NASA-GEMINI-AUDIO]
-        APOLLO[Apollo 11/12/17 1969-1972<br/>NASA-D1 D2 D4 D5 D6<br/>NASA-VM1..VM6]
+        APOLLO[Apollo 11/12/17 1969-1972<br/>R01: NASA-D1 D2 D4 D5 D6, NASA-VM1..VM6<br/>R02: NASA-D008 A12 medical, NASA-D009 A17 audio cislunar]
         SKY[Skylab 1973<br/>NASA-D7]
+        ATL[North Atlantic Ocean MR-4 recovery 1961<br/>R02: NASA-UAP-D014]
     end
 
     subgraph CIV [Civilian / Foreign]
@@ -88,14 +112,16 @@ graph TD
 
     classDef centcom fill:#fbe6c8,stroke:#b87333,stroke-width:1px
     classDef conus fill:#cfe6ff,stroke:#1f4e8a,stroke-width:1px
+    classDef northcom fill:#bce4d8,stroke:#1f7a5a,stroke-width:1px
     classDef europe fill:#e6e6c8,stroke:#7a6b2e,stroke-width:1px
     classDef soviet fill:#f5cccc,stroke:#a64141,stroke-width:1px
     classDef space fill:#e2dafd,stroke:#5b4ad0,stroke-width:1px
     classDef civ fill:#ddd,stroke:#666,stroke-width:1px
 
-    class AG,AS,SOH,GOA,GOO,IRAN,IRAQ,SYRIA,UAE,ME_UNK centcom
-    class WUS,OAK,DET,VBG,AAFR,SOC conus
+    class AG,AS,SOH,GOA,GOO,IRAN,IRAQ,SYRIA,UAE,AFG,ME_UNK centcom
+    class WUS,SAND,LANL,PAJ,PNX,OAK,DET,VBG,AAFR,SOC,HOU conus
+    class LH,TYN,EGL,COL,EAST northcom
     class HOL,SWE,GER,GER58 europe
-    class AZ,KAZ,TBI,TKM soviet
-    class LEO,APOLLO,SKY space
+    class AZ,KAZ,KAR,SS,TBI,TKM soviet
+    class MER,LEO,APOLLO,SKY,ATL space
     class COMETA civ

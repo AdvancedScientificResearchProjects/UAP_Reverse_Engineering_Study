@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR094
+TITLE: DOW-UAP-PR094, "[CALLSIGN] (Mission) - HD 2020-02-13"
+DVIDS_ID: 1007722
+SOURCE_FILE: video_2605_DOD_111719799_DOD_111719799.mp4
+DURATION_SEC: 299
+TRANSCRIBED_AT: 2026-05-23T11:57:27Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 299.6149952
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.94 ->   70.56] you
+[  99.94 ->  100.56] you
+[ 129.94 ->  130.56] you
+[ 144.88 ->  145.50] you
+[ 174.88 ->  175.50] you
+[ 204.88 ->  205.50] you
+[ 219.82 ->  220.44] you
+[ 249.82 ->  250.44] you
+[ 279.82 ->  280.44] you

@@ -1,0 +1,26 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR053 ===
+DVIDS ID: video:1007709
+Title: DOW-UAP-PR053, "Cigar Shaped or Fast Sherical UAP clip 15 OCT 22"
+Date Published: 2026-05-22T07:30:20-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 21
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719723/DOD_111719723.mp4 (1920x1080, 2765075 bytes)
+
+=== Description (AARO/AAS) ===
+On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is, “Cigar Shaped or Fast Spherical UAP clip 15 OCT 22,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in October 2022. A user uploaded this video to a classified network in June 2024.
+
+Video Duration: 00:00:21
+Video Description: This media was digitally altered prior to its upload to a classified network, and is presented as received.
+
+00:01-00:04: An area of contrast transits the sensor field-of-view from left to right. 
+00:06-00:14: The video replays at a slower speed.
+00:15-00:21: The video replays again at an even slower speed.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+=== End of stub ===

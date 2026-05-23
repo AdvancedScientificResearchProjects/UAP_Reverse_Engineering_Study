@@ -1,0 +1,21 @@
+CODE: NASA-UAP-D014
+TITLE: NASA-UAP-D014, Mercury-Redstone 4, July 21, 1961 
+DVIDS_ID: 1007878
+SOURCE_FILE: video_2605_DOD_111721755_DOD_111721755.mp4
+DURATION_SEC: 26
+TRANSCRIBED_AT: 2026-05-23T11:57:59Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 26.84
+
+--- FULL TEXT ---
+This is a minor crash. Well, there's a house on the line in the water. It's about 150 degrees. The NSA people suspected to be die-marking the dis-activation. It's about 3 quarters of a mile out. Something has to lift out. We'll take a guess on it.
+
+--- SEGMENTS ---
+[   0.00 ->    2.00] This is a minor crash.
+[   2.00 ->    6.00] Well, there's a house on the line in the water.
+[   6.00 ->   10.00] It's about 150 degrees.
+[  10.00 ->   14.00] The NSA people suspected to be die-marking the dis-activation.
+[  14.00 ->   18.00] It's about 3 quarters of a mile out.
+[  18.00 ->   22.00] Something has to lift out.
+[  22.00 ->   26.00] We'll take a guess on it.

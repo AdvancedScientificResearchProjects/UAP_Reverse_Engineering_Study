@@ -1,0 +1,50 @@
+CODE: DOW-UAP-PR098
+TITLE: DOW-UAP-PR098, "UFOs in formation over Persian Gulf?"
+DVIDS_ID: 1007737
+SOURCE_FILE: video_2605_DOD_111719833_DOD_111719833.mp4
+DURATION_SEC: 1056
+TRANSCRIBED_AT: 2026-05-23T11:57:37Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 1056.165006463
+
+--- FULL TEXT ---
+you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  90.00 ->   90.62] you
+[ 120.00 ->  120.62] you
+[ 150.00 ->  150.62] you
+[ 180.00 ->  180.62] you
+[ 210.00 ->  210.62] you
+[ 240.00 ->  240.62] you
+[ 259.08 ->  259.70] you
+[ 289.08 ->  289.70] you
+[ 319.08 ->  319.70] you
+[ 349.08 ->  349.70] you
+[ 379.08 ->  379.70] you
+[ 409.08 ->  409.70] you
+[ 439.08 ->  439.70] you
+[ 469.08 ->  469.70] you
+[ 499.08 ->  499.70] you
+[ 529.08 ->  523.78] you you
+[ 553.16 ->  553.78] you
+[ 583.16 ->  583.78] you
+[ 613.16 ->  613.78] you
+[ 643.16 ->  643.78] you
+[ 673.16 ->  673.78] you
+[ 703.16 ->  703.78] you
+[ 733.16 ->  733.78] you
+[ 763.16 ->  763.78] you
+[ 793.16 ->  787.85] you you
+[ 817.23 ->  817.85] you
+[ 847.23 ->  847.85] you
+[ 877.23 ->  877.85] you
+[ 907.23 ->  907.85] you
+[ 937.23 ->  937.85] you
+[ 967.23 ->  967.85] you
+[ 997.23 ->  997.85] you
+[1027.23 -> 1027.85] you

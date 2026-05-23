@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR080
+TITLE: DOW-UAP-PR080, "20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP"
+DVIDS_ID: 1007803
+SOURCE_FILE: video_2605_DOD_111720856_DOD_111720856.mp4
+DURATION_SEC: 294
+TRANSCRIBED_AT: 2026-05-23T11:56:58Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 294.223686272
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  68.59 ->   69.21] you
+[  98.59 ->   99.21] you
+[ 128.59 ->  129.21] you
+[ 142.18 ->  142.80] you
+[ 172.18 ->  172.80] you
+[ 202.18 ->  202.80] you
+[ 215.77 ->  216.39] you
+[ 245.77 ->  246.39] you
+[ 275.77 ->  276.39] you

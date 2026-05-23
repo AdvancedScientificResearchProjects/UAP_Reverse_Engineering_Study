@@ -1,0 +1,17 @@
+CODE: DOW-UAP-PR073
+TITLE: DOW-UAP-PR073, IIR 1 655 S0053 23/Several Unidentified Aerial Phenomenon Encountered In The Vicinity of Columbus OH"
+DVIDS_ID: 1007790
+SOURCE_FILE: video_2605_DOD_111720765_DOD_111720765.mp4
+DURATION_SEC: 88
+TRANSCRIBED_AT: 2026-05-23T11:55:28Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 88.521310208
+
+--- FULL TEXT ---
+you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you

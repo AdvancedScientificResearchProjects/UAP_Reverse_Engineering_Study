@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR092
+TITLE: DOW-UAP-PR092, "08 AUG 2020 [CALLSIGN] [CALLSIGN] UAP observation"
+DVIDS_ID: 1007715
+SOURCE_FILE: video_2605_DOD_111719736_DOD_111719736.mp4
+DURATION_SEC: 292
+TRANSCRIBED_AT: 2026-05-23T11:57:16Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 292.672373248
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  68.20 ->   68.82] you
+[  98.20 ->   98.82] you
+[ 128.20 ->  128.82] you
+[ 141.40 ->  142.02] you
+[ 171.40 ->  172.02] you
+[ 201.40 ->  202.02] you
+[ 214.60 ->  215.22] you
+[ 244.60 ->  245.22] you
+[ 274.60 ->  275.22] you

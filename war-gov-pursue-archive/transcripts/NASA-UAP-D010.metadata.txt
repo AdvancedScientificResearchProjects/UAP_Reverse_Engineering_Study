@@ -1,0 +1,15 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D010 ===
+DVIDS ID: video:1007874
+Title: NASA-UAP-D010, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 180
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721711/DOD_111721711.mp4 (1920x1080, 164893498 bytes)
+
+=== Description (AARO/AAS) ===
+Approximately one hour and 41 minutes into the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. notes that he sees “John’s fireflies,” referring to John Glenn’s term from the Mercury-Atlas 6 mission. NASA later determined that the “fireflies” are attributable to frozen condensation separating from the spacecraft body. The white, green-hued appearance of this phenomenon results from sunlight reflecting off frozen condensation.
+
+=== End of stub ===

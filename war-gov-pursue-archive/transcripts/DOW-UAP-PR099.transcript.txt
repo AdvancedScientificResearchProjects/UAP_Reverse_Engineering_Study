@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR099
+TITLE: DOW-UAP-PR099, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z"
+DVIDS_ID: 1007738
+SOURCE_FILE: video_2605_DOD_111719835_DOD_111719835.mp4
+DURATION_SEC: 291
+TRANSCRIBED_AT: 2026-05-23T11:56:17Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 291.2583712
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  67.85 ->   68.47] you
+[  97.85 ->   98.47] you
+[ 127.85 ->  128.47] you
+[ 140.69 ->  141.31] you
+[ 170.69 ->  171.31] you
+[ 200.69 ->  201.31] you
+[ 213.54 ->  214.16] you
+[ 243.54 ->  244.16] you
+[ 273.54 ->  274.16] you

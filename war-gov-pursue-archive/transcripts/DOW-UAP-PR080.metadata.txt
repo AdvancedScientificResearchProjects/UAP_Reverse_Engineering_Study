@@ -1,0 +1,30 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR080 ===
+DVIDS ID: video:1007803
+Title: DOW-UAP-PR080, "20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP
+Date Published: 2026-05-22T07:30:50-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 294
+Keywords: UAP, UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720856/DOD_111720856-1920x1080-9000k.mp4 (1920x1080, 117912243 bytes)
+
+=== Description (AARO/AAS) ===
+"On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is, “20 October 2020 [CALLSIGN] [CALLSIGN] Observes UAP,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2020. A user uploaded this video to a classified network in October 2020.
+
+Video Duration: 00:04:54
+Video Description:
+01:17-01:21: An area of contrast enters the sensor field-of-view from the top right of the screen. The sensor pans toward the object, then pans away. 
+02:45-02:46: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen.
+03:12-03:13: An area of contrast transits the sensor field-of-view from the top right quarter to the bottom left quarter, after which the sensor changes modes and attempts to track the area of contrast.
+03:20-03:21: An area of contrast transits the sensor field-of-view from the top right quarter to the bottom left quarter, after which the sensor changes modes and attempts to track the area of contrast.
+03:35-03:36: An area of contrast transits the sensor field-of-view across the bottom right quarter, after which the sensor attempts to track the area of contrast.
+03:40-03:41: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen, after which the sensor attempts to track the area of contrast.
+04:02-04:03: An area of contrast transits the sensor field-of-view across the bottom right quarter to the bottom middle edge of the screen, after which the sensor attempts to track the area of contrast.
+04:22-04:23: An area of contrast transits the sensor field-of-view across the bottom left quarter.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+=== End of stub ===

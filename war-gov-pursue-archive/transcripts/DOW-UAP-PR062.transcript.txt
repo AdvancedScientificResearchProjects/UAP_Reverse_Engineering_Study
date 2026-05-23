@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR062
+TITLE: DOW-UAP-PR062, "Spherical UAP [CALLSIGN] 2021/04/12 vid 1"
+DVIDS_ID: 1007739
+SOURCE_FILE: video_2605_DOD_111719847_DOD_111719847.mp4
+DURATION_SEC: 289
+TRANSCRIBED_AT: 2026-05-23T11:55:24Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 289.423681152
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  67.39 ->   68.01] you
+[  97.39 ->   98.01] you
+[ 127.39 ->  128.01] you
+[ 139.78 ->  140.40] you
+[ 169.78 ->  170.40] you
+[ 199.78 ->  200.40] you
+[ 212.17 ->  212.79] you
+[ 242.17 ->  242.79] you
+[ 272.17 ->  272.79] you

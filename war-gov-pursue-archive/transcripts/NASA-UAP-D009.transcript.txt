@@ -1,0 +1,57 @@
+CODE: NASA-UAP-D009
+TITLE: NASA-UAP-D009, Apollo 17 Audio Excerpt, December 7, 1972
+DVIDS_ID: 1007872
+SOURCE_FILE: video_2605_DOD_111721698_DOD_111721698.mp4
+DURATION_SEC: 275
+TRANSCRIBED_AT: 2026-05-23T11:56:19Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 275.760994688
+
+--- FULL TEXT ---
+A few very bright particles or fragments or something that go drifting by as we maneuver. Roger, understand. Yeah, there's a whole bunch of big ones on my window down there. Just bright. Looks like the Fourth of July outruns with them. Yeah, nice. See some of them in shape. They're very jagged, angular, fragmentous, or tumbling. Roger. They look like fluid of some sort? Not to me. They look like pieces of something. Roger. They're very bright. Jack, we'd like Omni, Charlie. Thank you Hjulet RECORDING Bob for the most part these fragments are not are tumbling at a very slow rate I tried a couple pictures of them uh at different settings You may get an idea of what at least the patterns look like Roger, I gotcha. Where are all the errors on these fragments? Do you think they can figure out what they might be? Well, you know, I don't know. There are a number of possibilities. If you had some kind of a... I got the impression maybe they were curved a little bit, as if they might be off the side of the S-4B. That's a wild guess. Okay, RCS, logic is... Ice chunks, possibly, maybe there's paint coming off of it. Right, I noticed on one trip up the elevator last week, one of the flags, I thought it was in the S-2, but it might be on the S-4, looked like it was peeling, maybe that's what you got. And the S-4B maneuver is complete. One minute. OK, we'll set the o'clock. OK, and the maneuver complete, the fragment field is essentially static, except for very slight tumbling within the fragment. Roger, copy that. Every once in a while a fragment of considerably higher velocity than the others goes across my window but that very rare Right there Hey that that field of view I saw on my window You see it now? Yeah. And Bob, at least there's no apparent relative motion between fragments. I do understand. I'll take two pictures about a minute apart if I can, and it'll be frame 70. Okay, frame 70. And Bob, this is Geno. My impression is that they are flat, flake-like particles, some maybe six inches across. And although there's no relative motion between the two, most of them seem to be twinkling. And I think for the most part they're all moving away from us.
+
+--- SEGMENTS ---
+[   0.00 ->    7.60] A few very bright particles or fragments or something that go drifting by as we maneuver.
+[   9.52 ->   10.38] Roger, understand.
+[  14.46 ->   16.74] Yeah, there's a whole bunch of big ones on my window down there.
+[  17.00 ->   20.40] Just bright. Looks like the Fourth of July outruns with them.
+[  20.40 ->   30.48] Yeah, nice. See some of them in shape. They're very jagged, angular, fragmentous, or tumbling.
+[  32.48 ->   33.90] Roger. They look like fluid of some sort?
+[  35.52 ->   37.80] Not to me. They look like pieces of something.
+[  40.20 ->   40.64] Roger.
+[  41.44 ->   42.46] They're very bright.
+[  42.96 ->   44.14] Jack, we'd like Omni, Charlie.
+[  50.40 ->   65.97] Thank you Hjulet
+[  93.97 ->   96.97] RECORDING
+[ 123.97 ->  145.66] Bob for the most part these fragments are not are tumbling at a very slow rate I tried a couple pictures of them uh at different settings You may get an idea of what at least the patterns look like
+[ 146.80 ->  149.00] Roger, I gotcha. Where are all the errors on these fragments?
+[ 149.20 ->  151.06] Do you think they can figure out what they might be?
+[ 152.08 ->  155.38] Well, you know, I don't know. There are a number of possibilities.
+[ 155.72 ->  157.68] If you had some kind of a...
+[ 157.68 ->  160.08] I got the impression maybe they were curved a little bit,
+[ 160.08 ->  165.08] as if they might be off the side of the S-4B.
+[ 165.90 ->  167.40] That's a wild guess.
+[ 167.40 ->  169.18] Okay, RCS, logic is...
+[ 169.18 ->  170.90] Ice chunks, possibly,
+[ 170.90 ->  173.18] maybe there's paint coming off of it.
+[ 173.18 ->  176.08] Right, I noticed on one trip up the elevator last week,
+[ 176.08 ->  178.00] one of the flags, I thought it was in the S-2,
+[ 178.00 ->  178.92] but it might be on the S-4,
+[ 178.92 ->  181.32] looked like it was peeling, maybe that's what you got.
+[ 183.64 ->  185.50] And the S-4B maneuver is complete.
+[ 185.50 ->  186.34] One minute.
+[ 186.34 ->  189.34] OK, we'll set the o'clock.
+[ 189.34 ->  196.34] OK, and the maneuver complete, the fragment field is essentially static, except for very
+[ 196.34 ->  198.34] slight tumbling within the fragment.
+[ 198.34 ->  200.34] Roger, copy that.
+[ 200.34 ->  221.91] Every once in a while a fragment of considerably higher velocity than the others goes across my window but that very rare Right there Hey that that field of view I saw on my window
+[ 221.91 ->  224.91] You see it now?
+[ 224.91 ->  225.91] Yeah.
+[ 225.91 ->  232.91] And Bob, at least there's no apparent relative motion between fragments.
+[ 234.91 ->  237.91] I do understand.
+[ 237.91 ->  246.91] I'll take two pictures about a minute apart if I can, and it'll be frame 70.
+[ 246.91 ->  251.91] Okay, frame 70.
+[ 251.91 ->  258.91] And Bob, this is Geno. My impression is that they are flat, flake-like particles, some
+[ 260.91 ->  267.91] maybe six inches across. And although there's no relative motion between the two, most of
+[ 268.91 ->  275.91] them seem to be twinkling. And I think for the most part they're all moving away from us.

@@ -1,0 +1,38 @@
+CODE: DOW-UAP-PR058
+TITLE: DOW-UAP-PR058, "[CALLSIGN] (Mission) UAP"
+DVIDS_ID: 1007723
+SOURCE_FILE: video_2605_DOD_111719800_DOD_111719800.mp4
+DURATION_SEC: 648
+TRANSCRIBED_AT: 2026-05-23T11:55:25Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 648.164
+
+--- FULL TEXT ---
+you you you you you you you you you you you you you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  90.00 ->   90.62] you
+[ 120.00 ->  120.62] you
+[ 150.00 ->  150.62] you
+[ 157.08 ->  157.70] you
+[ 187.08 ->  187.70] you
+[ 217.08 ->  217.70] you
+[ 247.08 ->  247.70] you
+[ 277.08 ->  277.70] you
+[ 307.08 ->  307.70] you
+[ 319.16 ->  319.78] you
+[ 349.16 ->  349.78] you
+[ 379.16 ->  379.78] you
+[ 409.16 ->  409.78] you
+[ 439.16 ->  439.78] you
+[ 469.16 ->  469.78] you
+[ 481.23 ->  481.85] you
+[ 511.23 ->  511.85] you
+[ 541.23 ->  541.85] you
+[ 571.23 ->  571.85] you
+[ 601.23 ->  601.85] you
+[ 631.23 ->  631.85] you

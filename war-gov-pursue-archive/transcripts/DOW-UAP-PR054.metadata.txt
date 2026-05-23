@@ -1,0 +1,25 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR054 ===
+DVIDS ID: video:1007711
+Title: DOW-UAP-PR054, "Spherical UAP Erratic movement [CALLSIGN] (Mission) 2022"
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 237
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719726/DOD_111719726-1920x1080-9000k.mp4 (1920x1080, 135254226 bytes)
+
+=== Description (AARO/AAS) ===
+On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is “Spherical UAP Erratic movement [CALLSIGN](Mission) 2022,” is likely derived from an infrared sensor aboard a U.S. military platform operating in the United States European Command area of responsibility in August 2022. A user uploaded this video to a classified network in June 2024.
+
+Video Duration: 00:03:57
+Video Description: This media was digitally altered prior to its upload to a classified network, and is presented as received. 
+
+00:00-00:45: The video features an area of contrast generally within the center the frame. The sensor pans to track the area of contrast. Digital alterations to the video footage significantly influence the area of contrast’s apparent performance characteristics.
+00:46-03:57: The video appears to cut, refocusing on an area of contrast generally within the center of the frame. The area of contrast intermittently passes in and out of frame as the sensor pans to track it.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+=== End of stub ===

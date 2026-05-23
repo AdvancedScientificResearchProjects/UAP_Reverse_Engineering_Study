@@ -407,6 +407,11 @@ exec(Path(__file__).parent.joinpath("fragments/agentH_gershtein.py").read_text(e
 # ════════════════════════════════════════════════════════════════════════════
 exec(Path(__file__).parent.joinpath("fragments/agentI_war_gov_pursue.py").read_text(encoding="utf-8"))
 
+# ════════════════════════════════════════════════════════════════════════════
+# 9b. AGENT I — Track 11 PURSUE Release 02 extension (war.gov 2026-05-22)
+# ════════════════════════════════════════════════════════════════════════════
+exec(Path(__file__).parent.joinpath("fragments/agentI_war_gov_pursue_r02.py").read_text(encoding="utf-8"))
+
 
 # ════════════════════════════════════════════════════════════════════════════
 # 10. CROSS-ARCHIVE BRIDGES — connections that span sub-agent outputs

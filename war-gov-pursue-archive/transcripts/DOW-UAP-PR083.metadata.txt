@@ -1,0 +1,27 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR083 ===
+DVIDS ID: video:1007808
+Title: DOW-UAP-PR083, "7 October 2020 [CALLSIGN] observes UAP
+Date Published: 2026-05-22T07:30:15-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 274
+Keywords: UAP, UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720883/DOD_111720883-1920x1080-9000k.mp4 (1920x1080, 92448164 bytes)
+
+=== Description (AARO/AAS) ===
+"On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is, “7 October 2020 [CALLSIGN] observes UAP,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in October 2020. A user uploaded this video to a classified network in October 2020.
+Video Duration: 00:04:34
+Video Description:
+00:09-00:25: An area of contrast enters the right side of the sensor field-of-view. The sensor pans to track the area of contrast, keeping it generally within the center of the frame.
+00:26-03:20: The sensor cycles its zoom level multiple times, panning to track the area of contrast.
+03:21-04:08: The sensor cycles modalities and zoom levels multiple times to focus on a faint area of contrast.
+04:09: The area of contrast loses distinctiveness against the background.
+04:10-04:26: No content.
+04:27-04:34: An area of contrast appears on the right side of the sensor field-of-view, and the sensor pans to bring the area of contrast to the center of the display.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+=== End of stub ===

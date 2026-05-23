@@ -1,0 +1,23 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR062 ===
+DVIDS ID: video:1007739
+Title: DOW-UAP-PR062, "Spherical UAP [CALLSIGN] 2021/04/12 vid 1"
+Date Published: 2026-05-22T07:30:54-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 289
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719847/DOD_111719847-1920x1080-9000k.mp4 (1920x1080, 261675266 bytes)
+
+=== Description (AARO/AAS) ===
+On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is, “Spherical UAP [CALLSIGN] 2021/04/12 vid 1,” is likely derived from a color and infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2021. A user uploaded this video to a classified network in May 2024.
+
+Video Duration: 00:04:49
+Video Description:
+00:00-04:49: The sensor pans and cycles zoom levels to track an area of contrast, keeping it generally within the center of the sensor field-of-view.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+=== End of stub ===

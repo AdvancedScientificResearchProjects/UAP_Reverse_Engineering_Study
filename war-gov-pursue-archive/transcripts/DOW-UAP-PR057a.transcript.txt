@@ -1,0 +1,17 @@
+CODE: DOW-UAP-PR057a
+TITLE: DOW-UAP-PR057a, "Spherical UAP in clouds"
+DVIDS_ID: 1007720
+SOURCE_FILE: video_2605_DOD_111719752_DOD_111719752.mp4
+DURATION_SEC: 70
+TRANSCRIBED_AT: 2026-05-23T11:55:18Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 70.921314304
+
+--- FULL TEXT ---
+you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you

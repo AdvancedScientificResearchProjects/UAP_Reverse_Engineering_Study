@@ -1,0 +1,23 @@
+CODE: DOW-UAP-PR079
+TITLE: DOW-UAP-PR079, "29 October 2020 [CALLSIGN] (Mission) observes 3 fast moving UAP's"
+DVIDS_ID: 1007816
+SOURCE_FILE: video_2605_DOD_111720899_DOD_111720899.mp4
+DURATION_SEC: 240
+TRANSCRIBED_AT: 2026-05-23T11:55:52Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 240.42399999999998
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   55.76] you you
+[  85.14 ->   85.76] you
+[ 115.14 ->  115.90] you you
+[ 145.28 ->  145.90] you
+[ 175.28 ->  176.03] you you
+[ 205.41 ->  206.03] you
+[ 235.41 ->  236.03] you

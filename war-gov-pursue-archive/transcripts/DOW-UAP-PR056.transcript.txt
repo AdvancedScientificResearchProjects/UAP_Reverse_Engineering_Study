@@ -1,0 +1,22 @@
+CODE: DOW-UAP-PR056
+TITLE: DOW-UAP-PR056, "Spherical UAP pulsing over water [CALLSIGN]"
+DVIDS_ID: 1007718
+SOURCE_FILE: video_2605_DOD_111719741_DOD_111719741.mp4
+DURATION_SEC: 212
+TRANSCRIBED_AT: 2026-05-23T11:55:16Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 211.974
+
+--- FULL TEXT ---
+you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  90.00 ->   90.62] you
+[ 101.04 ->  101.66] you
+[ 131.04 ->  131.66] you
+[ 161.04 ->  161.66] you
+[ 191.04 ->  191.66] you

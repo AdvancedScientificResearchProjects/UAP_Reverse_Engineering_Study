@@ -73,3 +73,4 @@ war-gov-pursue-archive/diagrams/.puppeteer-config.json
 war-gov-pursue-archive/.venv-svg2png/
 # war-gov-pursue archive: local QA notes (not for public archive)
 war-gov-pursue-archive/analysis/QA_REVIEW.md
+war-gov-pursue-archive/analysis/QA_REVIEW_R02.md

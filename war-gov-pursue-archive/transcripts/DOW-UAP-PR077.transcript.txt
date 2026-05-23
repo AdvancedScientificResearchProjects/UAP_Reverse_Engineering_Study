@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR077
+TITLE: DOW-UAP-PR077, "2 November 2020 [CALLSIGN] [CALLSIGN] Observes and tracks UAP 1 of 2"
+DVIDS_ID: 1007809
+SOURCE_FILE: video_2605_DOD_111720884_DOD_111720884.mp4
+DURATION_SEC: 298
+TRANSCRIBED_AT: 2026-05-23T11:56:56Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 298.746374272
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.72 ->   70.34] you
+[  99.72 ->  100.34] you
+[ 129.72 ->  130.34] you
+[ 144.44 ->  145.06] you
+[ 174.44 ->  175.06] you
+[ 204.44 ->  205.06] you
+[ 219.15 ->  219.77] you
+[ 249.15 ->  249.77] you
+[ 279.15 ->  279.77] you

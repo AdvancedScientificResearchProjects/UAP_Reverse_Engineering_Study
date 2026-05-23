@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR082
+TITLE: DOW-UAP-PR082, "16 OCT 2020 [CALLSIGN] views UAP"
+DVIDS_ID: 1007807
+SOURCE_FILE: video_2605_DOD_111720861_DOD_111720861.mp4
+DURATION_SEC: 297
+TRANSCRIBED_AT: 2026-05-23T11:56:01Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 296.950999808
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.27 ->   69.89] you
+[  99.27 ->   99.89] you
+[ 129.27 ->  129.89] you
+[ 143.54 ->  144.16] you
+[ 173.54 ->  174.16] you
+[ 203.54 ->  204.16] you
+[ 217.80 ->  218.42] you
+[ 247.80 ->  248.42] you
+[ 277.80 ->  278.42] you

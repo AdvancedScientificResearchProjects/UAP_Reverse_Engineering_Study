@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR087
+TITLE: DOW-UAP-PR087, "05 September 2020 [CALLSIGN] UAP"
+DVIDS_ID: 1007799
+SOURCE_FILE: video_2605_DOD_111720830_DOD_111720830.mp4
+DURATION_SEC: 294
+TRANSCRIBED_AT: 2026-05-23T11:57:09Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 293.85500544
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  68.50 ->   69.12] you
+[  98.50 ->   99.12] you
+[ 128.50 ->  129.12] you
+[ 142.00 ->  142.62] you
+[ 172.00 ->  172.62] you
+[ 202.00 ->  202.62] you
+[ 215.50 ->  216.12] you
+[ 245.50 ->  246.12] you
+[ 275.50 ->  276.12] you

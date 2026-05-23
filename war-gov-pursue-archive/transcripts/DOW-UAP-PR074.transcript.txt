@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR074
+TITLE: DOW-UAP-PR074, "[CALLSIGN] (Mission)HD_20220613"
+DVIDS_ID: 1007791
+SOURCE_FILE: video_2605_DOD_111720775_DOD_111720775.mp4
+DURATION_SEC: 285
+TRANSCRIBED_AT: 2026-05-23T11:55:34Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 285.553001856
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  66.42 ->   67.04] you
+[  96.42 ->   97.04] you
+[ 126.42 ->  127.04] you
+[ 137.84 ->  138.46] you
+[ 167.84 ->  168.46] you
+[ 197.84 ->  198.46] you
+[ 209.25 ->  209.87] you
+[ 239.25 ->  239.87] you
+[ 269.25 ->  269.87] you

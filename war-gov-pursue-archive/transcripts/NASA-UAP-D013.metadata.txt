@@ -1,0 +1,15 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D013 ===
+DVIDS ID: video:1007879
+Title: NASA-UAP-D013, Mercury Atlas 7, May 24, 1962
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 108
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721758/DOD_111721758.mp4 (1920x1080, 81701232 bytes)
+
+=== Description (AARO/AAS) ===
+During the fourth crewed spaceflight and second orbital flight of Project Mercury, Mercury-Atlas 7 (MA-7), Aurora 7 pilot Scott Carpenter describes white particles in view that appear to move at “random” and “look exactly like snowflakes.” He describes these phenomena as reflective, and that some seemed to move faster than the Aurora 7 spacecraft.
+
+=== End of stub ===

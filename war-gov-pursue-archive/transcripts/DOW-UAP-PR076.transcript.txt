@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR076
+TITLE: DOW-UAP-PR076, "03 January 2021 [CALLSIGN] (Mission) observes UAP"
+DVIDS_ID: 1007804
+SOURCE_FILE: video_2605_DOD_111720857_DOD_111720857.mp4
+DURATION_SEC: 297
+TRANSCRIBED_AT: 2026-05-23T11:56:56Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 297.225687296
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.34 ->   69.96] you
+[  99.34 ->   99.96] you
+[ 129.34 ->  129.96] you
+[ 143.68 ->  144.30] you
+[ 173.68 ->  174.30] you
+[ 203.68 ->  204.30] you
+[ 218.02 ->  218.64] you
+[ 248.02 ->  248.64] you
+[ 278.02 ->  278.64] you

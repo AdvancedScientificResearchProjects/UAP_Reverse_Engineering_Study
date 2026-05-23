@@ -5930,6 +5930,518 @@
       "tags": [
         "hypothesis"
       ]
+    },
+    {
+      "id": "cluster-pursue-release-02",
+      "label": "PURSUE Release 02 (Track 11, R02)",
+      "type": "cluster",
+      "icon": "🎯",
+      "labelRu": "PURSUE Релиз 02 (Трек 11, R02)",
+      "descriptionRu": "PURSUE Релиз 02 Министерства войны США (DoW) от 22 мая 2026 — 64 рассекреченные записи по НАЯ, опубликованные через 14 дней после R01. Нулевое пересечение кодов источников с R01 (77 кодов R01 ∩ 64 кода R02 = ∅). Состав: 6 новых PDF + 7 аудио NASA + 51 видеозапись DOW PR050-PR099. Расширяет набор ведомств PURSUE с 4 (DoW/FBI/NASA/State) до 7 различных контрибьюторов плюс координирующее ведомство ODNI — первый вклад в PURSUE от ЦРУ, DOE и ODNI. Совокупный объём R01+R02 достигает 225 записей. Ключевой институциональный сигнал: DOE снимает историческое категорическое исключение тремя записями, привязанными к ядерно-оружейному комплексу Нью-Мексико (Pantex, ЛАНЛ, астрономы при ЛАНЛ).",
+      "description": "The 2026-05-22 Department of War (DoW) PURSUE Release 02 — 64 declassified UAP records published 14 days after R01. Zero source-code overlap with R01 (77 R01 codes ∩ 64 R02 codes = ∅). Composition: 6 new PDFs + 7 NASA audio + 51 DOW PR050-PR099 video records. Expands the PURSUE agency-set from 4 (DoW/FBI/NASA/State) to 7 distinct contributing agencies plus ODNI coordinating body — first-ever PURSUE contribution from CIA, DOE, and ODNI. Combined R01+R02 corpus reaches 225 records. Key institutional signal: DOE breaks its historical categorical-exclusion posture with 3 records anchored in the New Mexico nuclear-weapons complex (Pantex, LANL, LANL-embedded astronomers).",
+      "source": "war-gov-pursue-archive/manifest_r02.json",
+      "tags": [
+        "cluster"
+      ]
+    },
+    {
+      "id": "inst-cia-pursue",
+      "label": "Central Intelligence Agency (PURSUE contributor)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Центральное разведывательное управление (контрибьютор PURSUE)",
+      "descriptionRu": "ЦРУ — первое появление в PURSUE через R02 CIA-UAP-D001: HUMINT-дебрифинг (ноябрь 1972 – ноябрь 1973) бывшего советского гражданина с описанием полигона Сары-Шаган, встроенный с одним явным «неопознанным аэрокосмическим явлением» в обычный разведывательный отчёт о ABM/SAM/лазерных исследованиях. Описание самого НАЯ — ⬛ REDACTED, а окружающий HUMINT-каркас — ✅ структурно CORROBORATED.",
+      "description": "CIA — first appearance in PURSUE via R02 CIA-UAP-D001: a HUMINT debriefing (Nov 1972 – Nov 1973) of a former Soviet citizen describing Sary Shagan Weapons Testing Range, embedded with one explicit 'unidentified aerial phenomenon' inside an otherwise conventional ABM/SAM/laser-research intelligence report. UAP body detail is REDACTED while the surrounding HUMINT scaffold is structurally CORROBORATED.",
+      "source": "war-gov-pursue-archive/analysis/per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-doe-pursue",
+      "label": "Department of Energy (PURSUE contributor — first DOE contribution)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Министерство энергетики США (DOE, контрибьютор PURSUE — первый вклад DOE)",
+      "descriptionRu": "DOE — первое появление в PURSUE через R02 (3 записи: DOE-D001 инцидент с радаром Pantex, DOE-D002 переписка Тука 1976, DOE-D003 астрономы Pajarito 1986). Исторически DOE отказывалось рассекречивать UFO/UAP-материалы по категорическим исключениям, связанным с контролем ядерно-оружейной информации; R02 — первый релиз PURSUE с материалом DOE — три записи, все привязанные к ядерно-оружейному комплексу Нью-Мексико. Проверяемое изменение институциональной позиции ведомства, контролирующего самый чувствительный UAP-смежный корпус (Hanford, Oak Ridge, Sandia, ЛАНЛ, NTS, Pantex). Отличается от anchor-узла 'inst-doe', который представляет более широкую позицию первого читателя DOE по ASRP-репозиторию.",
+      "description": "DOE — first appearance in PURSUE via R02 (3 records: DOE-D001 Pantex radar incident, DOE-D002 Tuck correspondence 1976, DOE-D003 Pajarito Astronomers 1986). Historically DOE has declined to release UFO/UAP-related material under categorical exclusions tied to nuclear-weapons-information control; R02 is the first PURSUE release in which DOE contributes material — three records, all anchored in the New Mexico nuclear-weapons complex. This is a verifiable institutional posture change at the agency that controls the most sensitive UAP-adjacent corpus (Hanford, Oak Ridge, Sandia, LANL, NTS, Pantex). Note: distinct PURSUE-namespaced node from the anchor 'inst-doe' (which represents the broader DOE first-reader posture on the ASRP repo).",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-odni-pursue",
+      "label": "ODNI (PURSUE contributor)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "ODNI (контрибьютор PURSUE)",
+      "descriptionRu": "Офис директора национальной разведки — первое появление в PURSUE через R02 ODNI-UAP-D001: повествование от первого лица USPER от старшего сотрудника USIC о встрече с вертолётом на полигоне испытаний оружия США в конце 2025. Явно спарено в метаданных CSV war.gov с R01 FBI Photo A001-A008 + B001-B024 + USPER Statement (32 записи R01). Этот единичный PdfPair — «самая важная перекрёстная связь R01↔R02» согласно MASTER claims document.",
+      "description": "Office of the Director of National Intelligence — first appearance in PURSUE via R02 ODNI-UAP-D001: USPER first-person narrative by a senior USIC officer of a helicopter encounter at a U.S. weapons test range in late 2025. Explicitly paired in the war.gov CSV metadata with R01 FBI Photo A001-A008 + B001-B024 + USPER Statement (32 R01 records). This single PdfPair is 'the single most consequential R01↔R02 cross-link' per the MASTER claims document.",
+      "source": "war-gov-pursue-archive/analysis/per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-sandia",
+      "label": "Sandia National Laboratories",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Национальные лаборатории Сандия",
+      "descriptionRu": "Национальная лаборатория DOE, Альбукерке, штат Нью-Мексико. Упоминается в R02 дважды: (1) как поставщик улучшения изображения для инцидента с радарной башней наблюдения Pantex (DOE-D001), и (2) как географическое местоположение «База Сандия / Авиабаза Киртланд / 17-й район OSI 1948-1950» для компиляции зелёных фаерболлов DOW-D017. Оперативная программа Базы Сандия 1948-1950 структурно спарена с меморандумом ФБР 62-HQ-Sr164 Cabell #4 (фев. 1949) — то же временное окно реакции, две федеральные точки входа.",
+      "description": "DOE national laboratory, Albuquerque NM. Invoked twice in R02: (1) as image-enhancement provider for the Pantex Ground Surveillance Radar Tower incident (DOE-D001), and (2) as the geographic locus 'Sandia Base / Kirtland AFB / 17th OSI District 1948-1950' for the DOW-D017 Green Fireballs compilation. The 1948-1950 Sandia Base operational programme is structurally paired with the FBI 62-HQ-Sr164 Cabell Memorandum #4 (Feb 1949) — same response window, two federal entry points (FBI custodianship of the Cabell Memo vs. OSI custodianship of the Sandia operational record).",
+      "location": "Albuquerque, New Mexico, USA",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-pantex",
+      "label": "Pantex Plant (TX)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Завод Pantex (Техас)",
+      "descriptionRu": "Завод DOE-NNSA по сборке и разборке ядерного оружия, около Амарилло, штат Техас. Эксплуатируется Consolidated Nuclear Security LLC (CNS) для DOE-NNSA. Место инцидента DOE-D001: радарная башня наземного наблюдения фиксирует неопознанный объект; Сандия выполняет улучшение изображения. Описание объекта ⬛ REDACTED под UCNI (Unclassified Controlled Nuclear Information), а процессная цепочка (захват радаром → улучшение Сандии → архивирование) ✅ CORROBORATED. CNS как оператор Pantex также является целью корпоративного наложения Трека 7 для маппинга линии EG&G → Amentum.",
+      "description": "DOE-NNSA nuclear-weapons assembly and disassembly facility, near Amarillo Texas. Operated by Consolidated Nuclear Security LLC (CNS) for DOE-NNSA. Site of the DOE-D001 incident: Ground Surveillance Radar Tower captures an unidentified object; Sandia performs image enhancement. Object description is ⬛ REDACTED under UCNI (Unclassified Controlled Nuclear Information) while the process chain (radar capture → Sandia enhancement → archival) is ✅ CORROBORATED. CNS as Pantex operator is also a Track 7 corporate-overlay target relevant to the EG&G → Amentum lineage mapping.",
+      "location": "Carson County, Texas, USA",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOE-UAP-D001_PANTEX-RADAR.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-pajarito-astronomers",
+      "label": "Pajarito Astronomers (LANL-embedded amateur astronomy club)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Pajarito Astronomers (любительский астроклуб при ЛАНЛ)",
+      "descriptionRu": "Любительский астрономический клуб при ЛАНЛ. Принимал д-ра Джона Уоррена (ЛАНЛ, дивизия AT-6) с лекцией «Почему учёный должен интересоваться НЛО?» 29 мая 1986 в Fuller Lodge, Лос-Аламос. Документирует институциональное вовлечение ЛАНЛ в UAP-тематику именно в десятилетие, охватываемое нарративом Лазара (1986 vs заявленный Лазаром период S-4 1988-89) — предоставляя критический контекст для заявлений Лазара, не подтверждая и не опровергая их.",
+      "description": "LANL-embedded amateur astronomy club. Hosted Dr John Warren (LANL AT-6 division) for talk 'Why Should a Scientist be Concerned about UFO's?' on 29 May 1986 at Fuller Lodge, Los Alamos. Documents institutional UAP engagement at LANL during precisely the decade the Bob Lazar narrative covers (1986 vs Lazar's claimed 1988-89 S-4 tenure) — providing critical contextual reading material for Lazar's claims without corroborating or refuting them.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-17th-osi",
+      "label": "17th OSI District (1948-1950)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "17-й район OSI (1948-1950)",
+      "descriptionRu": "17-й район Управления специальных расследований ВВС (Авиабаза Киртланд / База Сандия, Альбукерке, штат Нью-Мексико) — оперативный хранитель компиляции UAP-наблюдений 1948-1950, выпущенной как DOW-D017. Классифицировал наблюдения по трём районным категориям (зелёные фаерболлы / диски / прочее), консультировался с д-ром Линкольном Лапазом и управлял технической программой отбора проб ударов в Сокорро с 24 июля 1949. Документальная запись 17-го района OSI — методологический предок современного OSINT-конвейера валидации.",
+      "description": "Air Force Office of Special Investigations 17th District (Kirtland AFB / Sandia Base, Albuquerque NM) — the operational custodian of the 1948-1950 UAP sighting compilation released as DOW-D017. Classified sightings into three District categories (green-fireball / disc / misc), consulted Dr Lincoln LaPaz, and operated a technical impactment-sampling programme at Socorro from 24 July 1949. The 17th OSI District documentary record is a methodological ancestor of the modern OSINT validation pipeline.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-uscg",
+      "label": "U.S. Coast Guard (PURSUE contributor via DOW)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "Береговая охрана США (контрибьютор PURSUE через DOW)",
+      "descriptionRu": "Береговая охрана США — первое появление в PURSUE через R02 DOW-PR065 + DOW-PR066: ИК-наблюдение «tic-tac IR hot» НАЯ с самолёта C-144 USCG на Авиабазе Тиндалл 24 апреля 2024. Распространено под знаменем ведомства DOW внутри PR050-PR099, а не как отдельная линия USCG.",
+      "description": "USCG — first appearance in PURSUE via R02 DOW-PR065 + DOW-PR066: USCG C-144 fixed-wing IR observation of a 'tic-tac IR hot' UAP at Tyndall AFB on 24 April 2024. Distributed under the DOW agency banner inside PR050-PR099, not as a separate USCG agency lane.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "inst-norad",
+      "label": "NORAD (PURSUE contextual)",
+      "type": "institution",
+      "icon": "🏛️",
+      "labelRu": "NORAD (контекст PURSUE)",
+      "descriptionRu": "Командование воздушно-космической обороны Северной Америки — контекстная институция для R02 DOW-PR071 (сбитие F-16C Национальной гвардии ВВС над озером Гурон 12 февраля 2023). NORAD был оперативной командной инстанцией для публично подтверждённой последовательности сбития; видеозапись PR071 — внутриведомственный сырой-актив DoW, парный публичному пресс-циклу NORAD.",
+      "description": "North American Aerospace Defense Command — contextual institution for R02 DOW-PR071 (USAF ANG F-16C Lake Huron shootdown of 12 February 2023). NORAD was the operational command authority for the publicly-acknowledged shootdown sequence; the PR071 video record is the DoW-internal raw-asset counterpart to the public NORAD press cycle.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "institution"
+      ]
+    },
+    {
+      "id": "person-lincoln-lapaz",
+      "label": "Dr Lincoln LaPaz (consultant, 1948-1950)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Д-р Линкольн Лапаз (консультант, 1948-1950)",
+      "descriptionRu": "Метеоритолог Университета Нью-Мексико (Институт метеоритики). Консультант 17-го района OSI по программе зелёных фаерболлов Сандии 1948-1950. Двигал ожидание отбора проб ударов (восстановление метеоритного происхождения подтвердило бы его дисциплину); программное невосстановление — само по себе документальный сигнал. Назван в DOW-D017.",
+      "description": "University of New Mexico meteoriticist (Institute of Meteoritics). Consulting expert to the 17th OSI District for the Sandia Green Fireballs 1948-1950 programme. Drove the impactment-sampling expectation (a meteoritic-origin recovery would have validated his discipline); programmatic non-recovery is itself a documentary signal. Named in DOW-D017.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-james-tuck",
+      "label": "Dr James L. Tuck (LANL senior physicist)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Д-р Джеймс Л. Так (старший физик ЛАНЛ)",
+      "descriptionRu": "Ветеран Манхэттенского проекта и старший физик ЛАНЛ. Субъект DOE-D002 (переписка 1976): запросил рецепт симуляции атомной бомбы для изучения крупных атмосферных вихрей, описанных в Condon Report; корреспондент ссылается на шаровую молнию, McCampbell UFOLOGY (1976) и работы Эйнштейна по единой теории поля. Документирует институциональное UAP-смежное вовлечение ЛАНЛ в 1976, на десятилетие раньше лекции Уоррена при астрономах Pajarito (1986).",
+      "description": "Manhattan Project veteran and senior LANL physicist. Subject of DOE-D002 (1976 correspondence): requested a simulated-atomic-bomb recipe to study large atmospheric vortices reported in the Condon Report; correspondent links to ball lightning, McCampbell UFOLOGY (1976), and Einstein unified-field-theory work. Documents institutional LANL UAP-adjacent engagement in 1976, one decade before the Pajarito Astronomers Warren talk (1986).",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-john-warren",
+      "label": "Dr John Warren (LANL AT-6 division)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Д-р Джон Уоррен (ЛАНЛ, дивизия AT-6)",
+      "descriptionRu": "Физик ЛАНЛ в дивизии AT-6. Спикер лекции при астрономах Pajarito «Почему учёный должен интересоваться НЛО?» 29 мая 1986 в Fuller Lodge, Лос-Аламос. Документирует институциональное UAP-вовлечение ЛАНЛ в десятилетие пребывания Лазара (1986 vs заявленная Лазаром работа на S-4 в 1988-89). Назван в DOE-D003.",
+      "description": "LANL physicist in the AT-6 division. Speaker at the Pajarito Astronomers talk 'Why Should a Scientist be Concerned about UFO's?' on 29 May 1986 at Fuller Lodge, Los Alamos. Documents institutional LANL UAP-engagement during the Lazar-tenure decade (1986 vs Lazar's claimed 1988-89 S-4 work). Named in DOE-D003.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-gordon-cooper",
+      "label": "Gordon Cooper (Mercury MA-9, 1963)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Гордон Купер (Mercury MA-9, 1963)",
+      "descriptionRu": "Астронавт NASA по программе Mercury. Пилот Mercury-Atlas 9 (MA-9, 1963). Субъект одного из семи аудиофрагментов NASA в R02: голосовая запись «светлячков» с MA-9.",
+      "description": "NASA Mercury astronaut. Pilot of Mercury-Atlas 9 (MA-9, 1963). Subject of one of the seven R02 NASA audio excerpts: the MA-9 'fireflies' verbal record.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-scott-carpenter",
+      "label": "Scott Carpenter (Mercury MA-7)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Скотт Карпентер (Mercury MA-7)",
+      "descriptionRu": "Астронавт NASA по программе Mercury. Пилот Mercury-Atlas 7 (MA-7). Назван в аудиокорпусе Mercury/Apollo NASA R02.",
+      "description": "NASA Mercury astronaut. Pilot of Mercury-Atlas 7 (MA-7). Named in the R02 NASA Mercury/Apollo audio corpus.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-walter-schirra",
+      "label": "Walter Schirra (Mercury MA-8)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Уолтер Ширра (Mercury MA-8)",
+      "descriptionRu": "Астронавт NASA по программе Mercury. Пилот Mercury-Atlas 8 (MA-8). Назван в аудиокорпусе Mercury/Apollo NASA R02.",
+      "description": "NASA Mercury astronaut. Pilot of Mercury-Atlas 8 (MA-8). Named in the R02 NASA Mercury/Apollo audio corpus.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-virgil-grissom",
+      "label": "Virgil 'Gus' Grissom (Mercury MR-4)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Вирджил «Гас» Гриссом (Mercury MR-4)",
+      "descriptionRu": "Астронавт NASA по программе Mercury. Пилот Mercury-Redstone 4 (MR-4 / Liberty Bell 7). Назван в аудиокорпусе Mercury/Apollo NASA R02.",
+      "description": "NASA Mercury astronaut. Pilot of Mercury-Redstone 4 (MR-4 / Liberty Bell 7). Named in the R02 NASA Mercury/Apollo audio corpus.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-charles-conrad",
+      "label": "Charles 'Pete' Conrad (Apollo 12, 1969)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Чарльз «Пит» Конрад (Apollo 12, 1969)",
+      "descriptionRu": "Астронавт NASA по программе Apollo. Командир Apollo 12 (ноябрь 1969). Назван в аудиокорпусе NASA R02 вместе с LMP Apollo 12 Аланом Бином.",
+      "description": "NASA Apollo astronaut. Commander of Apollo 12 (November 1969). Named in the R02 NASA audio corpus together with Apollo-12 LMP Alan Bean.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-alan-bean",
+      "label": "Alan Bean (Apollo 12 LMP, 1969)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Алан Бин (Apollo 12 LMP, 1969)",
+      "descriptionRu": "Астронавт NASA по программе Apollo. Пилот лунного модуля Apollo 12 (ноябрь 1969). Назван в аудиокорпусе NASA R02 вместе с командиром Apollo 12 Чарльзом Конрадом.",
+      "description": "NASA Apollo astronaut. Lunar Module Pilot of Apollo 12 (November 1969). Named in the R02 NASA audio corpus together with Apollo-12 commander Charles Conrad.",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-gene-cernan",
+      "label": "Eugene 'Gene' Cernan (Apollo 17 CDR, 1972)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Юджин «Джин» Сернан (Apollo 17 CDR, 1972)",
+      "descriptionRu": "Астронавт NASA по программе Apollo. Командир Apollo 17 (декабрь 1972) — последняя лунная посадка Apollo. Назван в аудиокорпусе NASA R02 вместе с LMP Apollo 17 Гаррисоном Шмиттом. Цель кросс-связи: фотография активного расследования VM6 (R01 ev-vm6-apollo17).",
+      "description": "NASA Apollo astronaut. Commander of Apollo 17 (December 1972) — the last Apollo lunar landing. Named in the R02 NASA audio corpus together with Apollo-17 LMP Harrison Schmitt. Cross-link target: VM6 active-investigation photograph (R01 ev-vm6-apollo17).",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "person-harrison-schmitt",
+      "label": "Harrison 'Jack' Schmitt (Apollo 17 LMP, 1972)",
+      "type": "person · external",
+      "icon": "👥",
+      "labelRu": "Гаррисон «Джек» Шмитт (Apollo 17 LMP, 1972)",
+      "descriptionRu": "Астронавт-геолог NASA по программе Apollo. Пилот лунного модуля Apollo 17 (декабрь 1972). Назван в аудиокорпусе NASA R02 вместе с командиром Apollo 17 Джином Сернаном. Цель кросс-связи: фотография активного расследования VM6 (R01 ev-vm6-apollo17).",
+      "description": "NASA Apollo astronaut and geologist. Lunar Module Pilot of Apollo 17 (December 1972). Named in the R02 NASA audio corpus together with Apollo-17 commander Gene Cernan. Cross-link target: VM6 active-investigation photograph (R01 ev-vm6-apollo17).",
+      "tags": [
+        "person · external"
+      ]
+    },
+    {
+      "id": "ev-sandia-green-fireballs-1948-1950",
+      "label": "Sandia Base / Kirtland 17th-OSI Green Fireballs 1948-1950 (DOW-D017)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Зелёные фаерболлы Базы Сандия / Киртланд 17-й район OSI 1948-1950 (DOW-D017)",
+      "descriptionRu": "Компиляция UAP-наблюдений Базы Сандия / Авиабазы Киртланд / 17-го района OSI 1948-1950. Классифицирована по трём районным категориям (зелёные фаерболлы / диски / прочее). Д-р Линкольн Лапаз — консультант-эксперт. Техническая программа отбора проб ударов в Сокорро с 24 июля 1949. Кросс-корреляция Camp Hood, Техас. Ссылка на Starvation Peak Incident. Вердикт: ✅ CORROBORATED. Структурно спарено с меморандумом ФБР 62-HQ-Sr164 Cabell #4 (фев. 1949): то же окно реакции, две федеральные точки входа — ФБР как хранитель меморандума Cabell (форменная сторона таксономии) vs OSI как хранитель Сандийской записи (оперативная реализация).",
+      "date": "1948-1950",
+      "description": "Sandia Base / Kirtland AFB / 17th OSI District 1948-1950 compilation of UAP sightings. Classified in three District categories (green-fireball / disc / miscellaneous). Dr Lincoln LaPaz consulting expert. Technical impactment-sampling programme at Socorro from 24 July 1949 onward. Camp Hood TX cross-correlation. Starvation Peak Incident reference. Verdict: ✅ CORROBORATED. Structurally paired with the FBI 62-HQ-Sr164 Cabell Memorandum #4 (Feb 1949): same response window, two federal entry points — FBI custodianship of the Cabell Memo (form-side taxonomy) vs OSI custodianship of the Sandia record (operational implementation).",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-socorro-impactment-1949",
+      "label": "17th-OSI Socorro impactment-sampling programme (24 July 1949 →)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Программа отбора проб ударов 17-го района OSI в Сокорро (24 июля 1949 →)",
+      "descriptionRu": "Техническая программа отбора проб ударов в Сокорро, штат Нью-Мексико, начата 24 июля 1949 в рамках расследования зелёных фаерболлов 17-го района OSI. Двигалась гипотезой метеоритного происхождения Линкольна Лапаза: физическое восстановление подтвердило бы его дисциплину. Программное невосстановление — само по себе документальный сигнал экзотической гипотезы источника, которую оперативная запись не смогла закрыть. Отличается (и предшествует) якорю физических следов в Сокорро 1964 в FBI Sr438.",
+      "date": "1949-07-24",
+      "description": "Technical impactment-sampling programme at Socorro NM begun 24 July 1949 under the 17th OSI District green-fireball investigation. Driven by Lincoln LaPaz's meteoritic-origin hypothesis: physical recovery would have validated his discipline. Programmatic non-recovery is itself a documentary signal of an exotic-source hypothesis the operational record could not close. Distinct from (and earlier than) the 1964 Socorro physical-trace anchor in FBI Sr438.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-pantex-radar-incident",
+      "label": "Pantex Ground Surveillance Radar Tower UAP capture (DOE-D001)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Захват НАЯ радарной башней наземного наблюдения Pantex (DOE-D001)",
+      "descriptionRu": "Радарная башня наземного наблюдения Pantex (объект DOE-NNSA по сборке ядерного оружия, Техас) фиксирует неопознанный объект. Сандия выполняет улучшение изображения. Вердикт: ⬛ REDACTED для описания объекта (UCNI — неклассифицированная контролируемая ядерная информация); ✅ CORROBORATED для процессной цепочки (захват радаром → улучшение Сандии → архивное хранение → релиз). Первый вклад DOE в PURSUE наряду с DOE-D002 и DOE-D003.",
+      "description": "Pantex (DOE-NNSA nuclear-weapons assembly facility, TX) Ground Surveillance Radar Tower captures unidentified object. Sandia performs image enhancement. Verdict: ⬛ REDACTED on object description (UCNI — Unclassified Controlled Nuclear Information); ✅ CORROBORATED on the process chain (radar capture → Sandia enhancement → archival custody → release). First DOE PURSUE contribution alongside DOE-D002 and DOE-D003.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOE-UAP-D001_PANTEX-RADAR.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-tuck-correspondence-1976",
+      "label": "James Tuck atmospheric-vortex correspondence (1976, DOE-D002)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Переписка Джеймса Така об атмосферных вихрях (1976, DOE-D002)",
+      "descriptionRu": "Джеймс Л. Так (ветеран Манхэттенского проекта, старший физик ЛАНЛ) запрашивает рецепт симуляции атомной бомбы для изучения крупных атмосферных вихрей, описанных в Condon Report. Корреспондент ссылается на шаровую молнию, McCampbell UFOLOGY (1976) и работы Эйнштейна по единой теории поля. Вердикт: ✅ CORROBORATED. Та же концептуальная генеалогия, что и дискурс о двигательной установке на 115-м элементе — цель кросс-связи для смежного архива dubna-element-115-analysis.",
+      "date": "1976",
+      "description": "James L. Tuck (Manhattan Project veteran, senior LANL physicist) requests simulated-atomic-bomb recipe to study large atmospheric vortices reported in the Condon Report. Correspondent links to ball lightning, McCampbell UFOLOGY (1976), and Einstein unified-field-theory work. Verdict: ✅ CORROBORATED. Same conceptual genealogy as element-115 propulsion-physics discourse — cross-link target for dubna-element-115-analysis sibling archive.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-pajarito-astronomers-warren-1986",
+      "label": "Pajarito Astronomers Warren talk (29 May 1986, DOE-D003)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Лекция Уоррена для астрономов Pajarito (29 мая 1986, DOE-D003)",
+      "descriptionRu": "Астрономы Pajarito (любительский астроклуб при ЛАНЛ) принимают д-ра Джона Уоррена (ЛАНЛ, AT-6) с лекцией «Почему учёный должен интересоваться НЛО?» 29 мая 1986 в Fuller Lodge, Лос-Аламос. Вердикт: ✅ CORROBORATED. Документирует институциональное UAP-вовлечение ЛАНЛ в десятилетие, пересекающееся с нарративом Лазара — предоставляет контекстный материал для заявлений Лазара, не подтверждая и не опровергая их.",
+      "date": "1986-05-29",
+      "description": "Pajarito Astronomers (LANL-embedded amateur astronomy club) hosts Dr John Warren (LANL AT-6) for talk 'Why Should a Scientist be Concerned about UFO's?' on 29 May 1986 at Fuller Lodge, Los Alamos. Verdict: ✅ CORROBORATED. Documents institutional LANL UAP engagement during the decade overlapping the Lazar narrative — providing contextual reading material for Lazar's claims without corroborating or refuting them.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-sary-shagan-cia-hum-1973",
+      "label": "CIA HUMINT debriefing — Sary Shagan 1972-1973 (CIA-D001)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "HUMINT-дебрифинг ЦРУ — Сары-Шаган 1972-1973 (CIA-D001)",
+      "descriptionRu": "HUMINT-дебрифинг ЦРУ (ноябрь 1972 – ноябрь 1973) бывшего советского гражданина с описанием полигона Сары-Шаган. В остальном обычный разведотчёт о исследованиях ABM/SAM/лазеров с одним встроенным «неопознанным аэрокосмическим явлением». Вердикт: ✅ структурно CORROBORATED по HUMINT-каркасу; ⬛ REDACTED по описанию НАЯ. Первый в истории вклад ЦРУ в PURSUE. Прямая параллель разведсообщества США к корпусу полевых расследований Черноброва в СССР.",
+      "date": "1972-11/1973-11",
+      "description": "CIA HUMINT debriefing (Nov 1972 – Nov 1973) of former Soviet citizen describing Sary Shagan Weapons Testing Range. Otherwise conventional ABM/SAM/laser-research intelligence report containing one embedded 'unidentified aerial phenomenon'. Verdict: ✅ structurally CORROBORATED on HUMINT scaffold; ⬛ REDACTED on UAP body detail. First-ever CIA PURSUE contribution. Direct U.S.-side intelligence parallel to Chernobrov's USSR-side field-investigation corpus.",
+      "source": "war-gov-pursue-archive/analysis/per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-usper-orange-orb-2025",
+      "label": "USPER orange-orb helicopter encounter late 2025 (ODNI-D001)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Встреча USPER с оранжевыми сферами с вертолёта в конце 2025 (ODNI-D001)",
+      "descriptionRu": "Повествование от первого лица USPER (гражданин США) от старшего сотрудника USIC: встреча с вертолётом на полигоне испытаний оружия США в конце 2025. FLIR-«сверхгорячий» сближающийся объект, разделяющийся на два; «бесчисленные оранжевые сферы, роящиеся» на фоне горы; сферы в «Т»-формации на высоте 700 футов последовательно вспыхивают/тускнеют; те же сферы затем «преследуют» истребители на высоте ~23 000 футов AGL. Вердикт: ✅ CORROBORATED на уровне нарративных свидетельств; ⬛ REDACTED по личности свидетеля по политике USPER. Явно PdfPairs с R01 FBI Photo A001-A008 + B001-B024 + R01 USPER Statement (32 записи R01) — самая важная перекрёстная связь R01↔R02.",
+      "date": "2025",
+      "description": "USPER (US Person) first-person narrative by senior USIC officer: helicopter encounter at a U.S. weapons test range in late 2025. FLIR 'super-hot' closing object split-into-two; 'countless orange orbs swarming' at mountain backdrop; 'T'-formation orbs at 700 ft hover sequentially flaring/dimming; same orbs subsequently 'chasing' fighter jets at ~23,000 ft AGL. Verdict: ✅ CORROBORATED at narrative-evidence tier; ⬛ REDACTED on witness identity by USPER policy. Explicitly PdfPairs with R01 FBI Photo A001-A008 + B001-B024 + R01 USPER Statement (32 R01 records) — the single most consequential R01↔R02 cross-link.",
+      "source": "war-gov-pursue-archive/analysis/per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-lake-huron-shootdown-2023",
+      "label": "F-16C Lake Huron UAP shootdown 12 February 2023 (PR071)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Сбитие НАЯ F-16C над озером Гурон 12 февраля 2023 (PR071)",
+      "descriptionRu": "DOW-UAP-PR071: «F-16C ANG ВВС США (позывной [CALLSIGN]) сбивает НАЯ над озером Гурон с [CALLSIGN]» — внутриведомственный сырой-актив DoW, парный публично подтверждённому сбитию над озером Гурон 12 февраля 2023. Контекст оперативного командования NORAD. Вердикт: ✅ CORROBORATED.",
+      "date": "2023-02-12",
+      "description": "DOW-UAP-PR071: 'USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]' — DoW-internal raw-asset counterpart to the publicly-acknowledged Lake Huron shootdown of 12 February 2023. NORAD operational command context. Verdict: ✅ CORROBORATED.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-kazakhstan-pr072-2022",
+      "label": "Kazakhstan IIR Administrative Revision 2022 (PR072)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Административная ревизия IIR Казахстан 2022 (PR072)",
+      "descriptionRu": "DOW-UAP-PR072: «АДМИНИСТРАТИВНАЯ РЕВИЗИЯ: IIR 1777 J0032 22 Казахстан» — расширяет кросс-ссылку ASRP на советский архив до 2022. Вердикт: ✅ CORROBORATED. Кросс-архивный мост к корпусу полевых расследований СССР chernobrov-archive и к существующей R01 кабельной телеграмме Казахстан 1994 (Tajik Air B747SP FL410).",
+      "date": "2022",
+      "description": "DOW-UAP-PR072: 'ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan' — extends ASRP Soviet-archive cross-reference into 2022. Verdict: ✅ CORROBORATED. Cross-archive bridge to chernobrov-archive Soviet-territory corpus and to the existing R01 Kazakhstan 1994 cable (Tajik Air B747SP FL410).",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-tyndall-uscg-2024",
+      "label": "USCG C-144 Tyndall AFB tic-tac IR 24 April 2024 (PR065+PR066)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "USCG C-144 Тиндалл «тик-так» ИК 24 апреля 2024 (PR065+PR066)",
+      "descriptionRu": "DOW-UAP-PR065 + DOW-UAP-PR066: ИК-наблюдение «tic-tac IR hot» НАЯ с самолёта C-144 USCG на Авиабазе Тиндалл 24 апреля 2024. Первое появление USCG в PURSUE (распространено под знаменем ведомства DOW). Вердикт: ⚠ PARTIAL.",
+      "date": "2024-04-24",
+      "description": "DOW-UAP-PR065 + DOW-UAP-PR066: USCG C-144 fixed-wing IR observation of a 'tic-tac IR hot' UAP at Tyndall AFB on 24 April 2024. First USCG appearance in PURSUE (distributed under the DOW agency banner). Verdict: ⚠ PARTIAL.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-kabul-afsoc-2017",
+      "label": "AFSOC Kabul UAP July 2017 (PR064)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "AFSOC Кабул НАЯ июль 2017 (PR064)",
+      "descriptionRu": "DOW-UAP-PR064: «AFSOC Кабул НАЯ июль 2017» — инцидент в районе Кабула до вывода войск, в остальном не задокументированный в публичных источниках. Вердикт: ⚠ PARTIAL.",
+      "date": "2017-07",
+      "description": "DOW-UAP-PR064: 'AFSOC Kabul UAP Jul 2017' — pre-withdrawal Kabul-area incident, otherwise unreported in the public record. Verdict: ⚠ PARTIAL.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13.1",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-2021-04-12-cluster",
+      "label": "PR050-PR099 CENTCOM cluster 2021-04-12 segmentation",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Кластер CENTCOM 2021-04-12 в сегментации PR050-PR099",
+      "descriptionRu": "Один из мультивидео-кластеров CENTCOM по датам, проявляющихся в корпусе R02 PR050-PR099 (сегментировано по нескольким активам). Сигнал оперативного темпа уровня даты для паттерна доминирования AOR CENTCOM 2020-2024 (≥25 из 50 видео R02 в AOR CENTCOM).",
+      "date": "2021-04-12",
+      "description": "One of the multi-video CENTCOM date-clusters surfacing in the R02 PR050-PR099 corpus (segmented across multiple assets). Date-level operational tempo signal for the CENTCOM AOR 2020-2024 dominance pattern (≥25 of 50 R02 videos in CENTCOM AOR).",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-aug-oct-2020-centcom-cluster",
+      "label": "PR050-PR099 CENTCOM cluster Aug-Oct 2020",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Кластер CENTCOM PR050-PR099 август-октябрь 2020",
+      "descriptionRu": "Концентрация в AOR CENTCOM август-октябрь 2020 в видеокорпусе R02 PR050-PR099 (Иран / Сирия / Ирак / Персидский залив / Аравийское море / Оманский залив). Операционно значимый кластер по темпу.",
+      "date": "2020-08/2020-10",
+      "description": "The August-October 2020 CENTCOM AOR concentration in the R02 PR050-PR099 video corpus (Iran / Syria / Iraq / Persian Gulf / Arabian Sea / Gulf of Oman). Operationally-significant tempo cluster.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§13",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "ev-ma9-fireflies-1963",
+      "label": "Mercury MA-9 'fireflies' verbal record (Cooper, 1963)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Голосовая запись «светлячков» с MA-9 (Купер, 1963)",
+      "descriptionRu": "Голосовая запись Mercury-Atlas 9 (MA-9, 1963) наблюдения «светлячков» Гордона Купера — один из семи аудиофрагментов Mercury/Apollo NASA в R02. Продолжает паттерн NASA-кластера пилотируемых полётов R01 (Gemini 7, Apollo 11/12/17, Skylab) назад в эпоху Mercury.",
+      "date": "1963",
+      "description": "Mercury-Atlas 9 (MA-9, 1963) verbal record of Gordon Cooper's 'fireflies' observation — one of the seven R02 NASA Mercury/Apollo audio excerpts. Continues the R01 NASA spaceflight-cluster pattern (Gemini 7, Apollo 11/12/17, Skylab) backward into Mercury.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§12.1",
+      "tags": [
+        "event"
+      ]
+    },
+    {
+      "id": "hyp-cabell-sandia-1949-pair",
+      "label": "DOW-D017 Sandia 1948-1950 is the operational arm of FBI-62HQ-Sr164 Cabell Memo (Feb 1949)",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "DOW-D017 Сандия 1948-1950 — оперативное плечо меморандума ФБР 62-HQ-Sr164 Cabell (фев. 1949)",
+      "descriptionRu": "Компендиум Базы Сандия / 17-го района OSI 1948-1950 (DOW-D017) — оперативная реализация меморандума ФБР 62-HQ-Sr164 Cabell #4 (февраль 1949). Две записи образуют пару реакции в 1949 через две федеральные точки входа: ФБР как хранитель меморандума Cabell (форменная сторона таксономии двигательных установок, сохраняющаяся 75 лет в современных полях MISREP AARO) vs OSI как хранитель оперативной Сандийской записи (техническая программа отбора проб ударов в Сокорро под Лапазом). Сильнейшее единичное новое R02→R01 структурное спаривание, установленное в §14.1 MASTER claims doc.",
+      "description": "The Sandia Base / 17th OSI District 1948-1950 compendium (DOW-D017) is the operational implementation of the FBI 62-HQ-Sr164 Cabell Memorandum #4 (February 1949). The two records form a response-pair in 1949 across two federal entry points: FBI custodianship of the Cabell Memo (form-side propulsion taxonomy that persisted 75 years into modern AARO MISREP fields) vs OSI custodianship of the Sandia operational record (technical impactment-sampling programme at Socorro under Lincoln LaPaz). Strongest single new R02→R01 structural pairing established by §14.1 of MASTER claims doc.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§14.1",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-doe-categorical-exclusion-broken",
+      "label": "R02 is the first PURSUE release in which DOE breaks its categorical-exclusion posture",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "R02 — первый релиз PURSUE, в котором DOE снимает категорическое исключение",
+      "descriptionRu": "DOE исторически отказывалось рассекречивать UFO/UAP-материалы по категорическим исключениям, привязанным к контролю ядерно-оружейной информации. R02 — первый релиз PURSUE с материалом DOE — три записи (DOE-D001 Pantex, DOE-D002 Так, DOE-D003 Pajarito), все привязанные к ядерно-оружейному комплексу Нью-Мексико. Проверяемое изменение институциональной позиции ведомства, контролирующего самый чувствительный UAP-смежный корпус (Hanford, Oak Ridge, Sandia, ЛАНЛ, NTS, Pantex). Задокументировано в §12.4 MASTER claims doc.",
+      "description": "The U.S. Department of Energy has historically declined to release UFO/UAP-related material under categorical exclusions tied to nuclear-weapons-information control. R02 is the first PURSUE release in which DOE contributes material — three records (DOE-D001 Pantex, DOE-D002 Tuck, DOE-D003 Pajarito), all anchored in the New Mexico nuclear-weapons complex. This is a verifiable institutional posture change at the agency that controls the most sensitive UAP-adjacent corpus (Hanford, Oak Ridge, Sandia, LANL, NTS, Pantex). Documented in §12.4 of MASTER claims doc.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§12.4",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "hyp-odni-fbi-photo-pairing",
+      "label": "ODNI-D001 USPER orange-orb 2025 is the explicit eyewitness narrative for R01 FBI Western US 2025 IR-photo corpus",
+      "type": "hypothesis",
+      "icon": "🧬",
+      "labelRu": "ODNI-D001 USPER оранжевые сферы 2025 — явное свидетельское повествование для R01 ИК-фотокорпуса ФБР Западные США 2025",
+      "descriptionRu": "Запись ODNI R02 явно PdfPairs в метаданных CSV war.gov с R01 FBI Photo A001-A008 + B001-B024 + USPER Statement (32 записи R01). Это делает ODNI-D001 свидетельским повествованием для R01 ИК-фотокластера ФБР Западные США 2025. Согласно §14.1 MASTER claims doc: «самая важная перекрёстная связь R01↔R02». Материальное следствие: R01 ИК-фотокорпус больше не является отдельной визуальной записью; теперь у него есть нарратив старшего сотрудника USIC, прикреплённый через PdfPair.",
+      "description": "The ODNI R02 record explicitly PdfPairs in the war.gov CSV metadata with R01 FBI Photo A001-A008 + B001-B024 + USPER Statement (32 R01 records). This makes ODNI-D001 the eyewitness narrative for the R01 FBI Western US 2025 IR-photo cluster. Per §14.1 of MASTER claims doc: 'This is the single most consequential R01↔R02 cross-link.' Material implication: the R01 IR-photo corpus is no longer a stand-alone visual record; it now has a senior-USIC-officer narrative attached via PdfPair.",
+      "source": "war-gov-pursue-archive/analysis/MASTER_pursue_claims.md#§14.1",
+      "tags": [
+        "hypothesis"
+      ]
+    },
+    {
+      "id": "ev-fbi-62hq-sr164-cabell-memo-1949",
+      "label": "FBI 62-HQ-Sr164 Cabell Memorandum #4 (Feb 1949)",
+      "type": "event",
+      "icon": "📅",
+      "labelRu": "Меморандум ФБР 62-HQ-Sr164 Cabell #4 (фев. 1949)",
+      "descriptionRu": "Меморандум Cabell #4, дело ФБР 62-HQ-83894 серийный 164, февраль 1949. Форменно-сторонний документ стандартизации таксономии двигательных установок, чьи подкатегории (винт/реактивный, ротор, колеблющийся профиль / эффект Katzmayr, видимый выхлоп) сохранялись 75 лет в современных полях «UAP Propulsion Means» MISREP AARO (обычно «UNK»). Якорь гипотезы hyp-pursue-cabell-form-stagnation (R01) и теперь структурно спарен с оперативной записью R02 DOW-D017 Базы Сандия 1948-1950.",
+      "date": "1949-02",
+      "description": "Cabell Memorandum #4, FBI Case 62-HQ-83894 Serial 164, February 1949. The form-side propulsion-taxonomy standardisation document whose sub-categories (propeller/jet, rotor, oscillating airfoil/Katzmayr effect, visible exhaust) persisted 75 years into the modern AARO MISREP 'UAP Propulsion Means' fields (typically 'UNK'). Anchor for the hyp-pursue-cabell-form-stagnation hypothesis (R01) and now structurally paired with the R02 DOW-D017 Sandia Base 1948-1950 operational record.",
+      "source": "war-gov-pursue-archive/analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md",
+      "tags": [
+        "event"
+      ]
     }
   ],
   "connections": [
@@ -10270,6 +10782,528 @@
       "from": "ev-sept-2023-ellipsoid",
       "to": "pj-uap",
       "type": "active-investigation (PURSUE)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sary-shagan-cia-hum-1973",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-lake-huron-shootdown-2023",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-kazakhstan-pr072-2022",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tyndall-uscg-2024",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-kabul-afsoc-2017",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-2021-04-12-cluster",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-aug-oct-2020-centcom-cluster",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-ma9-fireflies-1963",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-socorro-impactment-1949",
+      "to": "cluster-pursue-release-02",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-cia-pursue",
+      "to": "cluster-pursue-release-02",
+      "type": "publishes",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-doe-pursue",
+      "to": "cluster-pursue-release-02",
+      "type": "publishes",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-odni-pursue",
+      "to": "cluster-pursue-release-02",
+      "type": "publishes",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-dow",
+      "to": "cluster-pursue-release-02",
+      "type": "publishes",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-nasa-pursue",
+      "to": "cluster-pursue-release-02",
+      "type": "publishes",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-aaro-pursue",
+      "to": "cluster-pursue-release-02",
+      "type": "operational-lead-of",
+      "direction": "directed"
+    },
+    {
+      "from": "cluster-pursue-release-02",
+      "to": "pj-uap",
+      "type": "investigated-by (Track 11)",
+      "direction": "directed"
+    },
+    {
+      "from": "cluster-pursue-release-02",
+      "to": "cluster-pursue-release-01",
+      "type": "supersedes (additive, no source-code overlap)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-lincoln-lapaz",
+      "to": "ev-sandia-green-fireballs-1948-1950",
+      "type": "member-of (consultant)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-lincoln-lapaz",
+      "to": "ev-socorro-impactment-1949",
+      "type": "member-of (driving hypothesis)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-james-tuck",
+      "to": "inst-lanl",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-james-tuck",
+      "to": "ev-tuck-correspondence-1976",
+      "type": "member-of (principal correspondent)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-john-warren",
+      "to": "inst-lanl",
+      "type": "member-of (AT-6 division)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-john-warren",
+      "to": "ev-pajarito-astronomers-warren-1986",
+      "type": "member-of (speaker)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-gordon-cooper",
+      "to": "ev-ma9-fireflies-1963",
+      "type": "member-of (pilot)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-gordon-cooper",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-scott-carpenter",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-walter-schirra",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-virgil-grissom",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-charles-conrad",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-alan-bean",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-gene-cernan",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-harrison-schmitt",
+      "to": "inst-nasa-pursue",
+      "type": "member-of",
+      "direction": "directed"
+    },
+    {
+      "from": "person-gene-cernan",
+      "to": "ev-vm6-apollo17",
+      "type": "related-to (Apollo 17 crew)",
+      "direction": "directed"
+    },
+    {
+      "from": "person-harrison-schmitt",
+      "to": "ev-vm6-apollo17",
+      "type": "related-to (Apollo 17 crew)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-pajarito-astronomers",
+      "to": "inst-lanl",
+      "type": "member-of (embedded amateur club)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-lanl",
+      "to": "inst-doe-pursue",
+      "type": "member-of (DOE national laboratory)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-sandia",
+      "to": "inst-doe-pursue",
+      "type": "member-of (DOE national laboratory)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-pantex",
+      "to": "inst-doe-pursue",
+      "type": "member-of (operated by CNS LLC for DOE-NNSA)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-17th-osi",
+      "to": "inst-dow",
+      "type": "member-of (AFOSI district under DoW lineage)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-uscg",
+      "to": "inst-dow",
+      "type": "related-to (R02 distribution under DOW banner)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "inst-pantex",
+      "type": "related-to (incident site)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "inst-sandia",
+      "type": "related-to (image-enhancement provider)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "inst-sandia",
+      "type": "related-to (geographic locus)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "inst-17th-osi",
+      "type": "related-to (operational custodian)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "inst-pajarito-astronomers",
+      "type": "related-to (host)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "inst-lanl",
+      "type": "related-to (institutional locus)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "inst-lanl",
+      "type": "related-to (Tuck affiliation)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sary-shagan-cia-hum-1973",
+      "to": "inst-cia-pursue",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "inst-doe-pursue",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "inst-doe-pursue",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "inst-doe-pursue",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "inst-dow",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "inst-odni-pursue",
+      "type": "archived-by",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-lake-huron-shootdown-2023",
+      "to": "inst-norad",
+      "type": "related-to (operational command authority)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tyndall-uscg-2024",
+      "to": "inst-uscg",
+      "type": "related-to (USCG C-144 platform)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "ev-fbi-62hq-sr164-cabell-memo-1949",
+      "type": "paired-with (operational implementation)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-fbi-62hq-sr164-cabell-memo-1949",
+      "to": "src-fbi-62hq-master",
+      "type": "member-of (Serial 164 of master file)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "inst-fbi",
+      "type": "paired-with (PdfPair: FBI Photo A001-A008 + B001-B024 + USPER Statement)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "src-fbi-62hq-master",
+      "type": "paired-with (R01 FBI Western US IR-photo corpus)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-lake-huron-shootdown-2023",
+      "to": "ev-western-us-2023",
+      "type": "related-to (federal LE / military active-investigation cluster)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-kazakhstan-pr072-2022",
+      "to": "p-chernobrov",
+      "type": "related-to (Soviet-territory cross-archive bridge)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sary-shagan-cia-hum-1973",
+      "to": "p-chernobrov",
+      "type": "related-to (US-side intel parallel to Chernobrov USSR-side)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "phen-mc115",
+      "type": "related-to (atomic-physics conceptual genealogy)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "p-lazar",
+      "type": "related-to (institutional LANL UAP engagement during Lazar-tenure decade)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "p-lazar",
+      "type": "related-to (LANL UAP-adjacent engagement decade earlier than Lazar S-4 claim)",
+      "direction": "undirected"
+    },
+    {
+      "from": "inst-pantex",
+      "to": "cluster-track7-corporate",
+      "type": "related-to (CNS LLC corporate-overlay target)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-17th-osi",
+      "to": "meth-validation-pipeline",
+      "type": "related-to (documentary methodological ancestor)",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-cabell-sandia-1949-pair",
+      "to": "cluster-pursue-release-02",
+      "type": "synthesizes-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-doe-categorical-exclusion-broken",
+      "to": "cluster-pursue-release-02",
+      "type": "synthesizes-from",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-odni-fbi-photo-pairing",
+      "to": "cluster-pursue-release-02",
+      "type": "synthesizes-from",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "hyp-cabell-sandia-1949-pair",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-fbi-62hq-sr164-cabell-memo-1949",
+      "to": "hyp-cabell-sandia-1949-pair",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "hyp-cabell-sandia-1949-pair",
+      "to": "hyp-pursue-cabell-form-stagnation",
+      "type": "supports (R02 extends the 75-year stagnation thesis)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "hyp-doe-categorical-exclusion-broken",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "hyp-doe-categorical-exclusion-broken",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pajarito-astronomers-warren-1986",
+      "to": "hyp-doe-categorical-exclusion-broken",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-doe-pursue",
+      "to": "hyp-doe-categorical-exclusion-broken",
+      "type": "anchors (subject institution)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "hyp-odni-fbi-photo-pairing",
+      "type": "anchors",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-odni-pursue",
+      "to": "hyp-odni-fbi-photo-pairing",
+      "type": "anchors (subject institution)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "pj-uap",
+      "type": "active-investigation (PURSUE R02)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "pj-uap",
+      "type": "active-investigation (PURSUE R02)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "pj-uap",
+      "type": "active-investigation (PURSUE R02)",
       "direction": "directed"
     },
     {

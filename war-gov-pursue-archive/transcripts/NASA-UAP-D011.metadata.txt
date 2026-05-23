@@ -1,0 +1,15 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D011 ===
+DVIDS ID: video:1007876
+Title: NASA-UAP-D011, Mercury Atlas 9 Audio Excerpt, May 15, 1963
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 494
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721737/DOD_111721737.mp4 (1920x1080, 416226493 bytes)
+
+=== Description (AARO/AAS) ===
+During the final and longest flight of Project Mercury, Mercury-Atlas 9 mission (MA-9) Faith 7 Pilot L. Gordon Cooper Jr. describes the brilliant blue of sunrise beneath the haze layer of the Earth’s atmosphere. As he approaches sunrise, he describes small, luminous, brilliant white particles drifting away from the spacecraft. Cooper describes observing “fireflies” after deploying beacons, which are spherical mission-related equipment with xenon strobe lights.
+
+=== End of stub ===

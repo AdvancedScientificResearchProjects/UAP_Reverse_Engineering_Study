@@ -1,0 +1,16 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D008 ===
+DVIDS ID: video:1007870
+Title: NASA-UAP-D008, Apollo 12 Medical Debriefing - Tape 12, 1969
+Date Published: 2026-05-22T07:30:20-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 470
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721693/DOD_111721693.mp4 (1920x1080, 157246201 bytes)
+
+=== Description (AARO/AAS) ===
+During a medical debriefing of the crew of the Apollo 12 mission, Commander Charles “Pete” Conrad, Command Module Pilot Richard “Dick” F. Gordon, and Lunar Module Pilot Alan L. Bean describe their observations of instances of light flashes or “streaks of lights.” The astronauts each reported that these experiences occurred in the dark as they tried to sleep.
+The NASA medical team considered whether similar phenomena reported by Apollo 11 Lunar Module Pilot Buzz Aldrin had been attributable to exposure of the retina by cosmic rays. NASA later determined that the phenomena reported by the Apollo 12 flight crew were internal to the astronauts’ vision rather than external light sources.
+
+=== End of stub ===

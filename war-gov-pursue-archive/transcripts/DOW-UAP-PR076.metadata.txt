@@ -1,0 +1,26 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR076 ===
+DVIDS ID: video:1007804
+Title: DOW-UAP-PR076, "03 January 2021 [CALLSIGN] (Mission) observes UAP"
+Date Published: 2026-05-22T07:30:50-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 297
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111720857/DOD_111720857-1920x1080-9000k.mp4 (1920x1080, 159669058 bytes)
+
+=== Description (AARO/AAS) ===
+On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is “03 January 2021 [CALLSIGN] (Mission) observes UAP,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in January 2021. A user uploaded this video to a classified network in January 2021.
+
+Video Duration: 00:04:57
+Video Description:
+00:00-01:51: No content.
+01:52-02:48: An area of contrast becomes visible near the center of the top half of the frame. The sensor pans to track the area of contrast, keeping it generally within the center of the field-of-view.
+02:49-02:55: The sensor zooms in. The area of contrast exits the frame in the bottom left of the display.
+02:55-04:57: No content.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance.
+
+=== End of stub ===

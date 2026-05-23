@@ -1,0 +1,15 @@
+=== AARO/DVIDS Metadata Stub for NASA-UAP-D012 ===
+DVIDS ID: video:1007877
+Title: NASA-UAP-D012, Mercury Atlas 8 Audio Excerpt, October 3, 1962
+Date Published: 2026-05-22T07:30:21-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 211
+Keywords: UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111721747/DOD_111721747.mp4 (1920x1080, 214071982 bytes)
+
+=== Description (AARO/AAS) ===
+During the Mercury Atlas 8 mission, Sigma 7 pilot Walter M. “Wally” Schirra Jr. describes observing “little white objects that tend to come from the capsule itself and drift off.” Schirra later also refers to those objects as “particles” and “lathe shavings.” Schirra also describes seeing a burst of light in the window, whose source he cannot identify. He speculates that his observation corresponds with the moment the sun passes below the horizon during sunset.
+
+=== End of stub ===

@@ -1,0 +1,29 @@
+=== AARO/DVIDS Metadata Stub for DOW-UAP-PR097 ===
+DVIDS ID: video:1007728
+Title: DOW-UAP-PR097, "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z"
+Date Published: 2026-05-22T07:30:36-04:00
+Date Recorded: 
+Location: {'city': '', 'state': '', 'country': 'Undisclosed Location', 'country_abbreviation': 'UL'}
+Unit: All Domain Anomaly Resolution Office
+Duration: 299
+Keywords: UAP, UAPVIDEOS, AAR052226
+Highest-res file: https://d34w7g4gy10iej.cloudfront.net/video/2605/DOD_111719813/DOD_111719813-1920x1080-9000k.mp4 (1920x1080, 184748241 bytes)
+
+=== Description (AARO/AAS) ===
+"On March 6, 2026, eight members of the U.S. House of Representatives requested access to 51 potentially UAP-related records allegedly held by the Department of War and the Intelligence Community. The All-domain Anomaly Resolution Office (AARO) identified a collection of responsive materials held on a classified network. Many of these materials lack a substantiated chain-of-custody.
+
+AARO assesses that this video, whose uploader-defined title is, “Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 2135Z,” is likely derived from an infrared sensor aboard a U.S. military platform operating within the United States Central Command area of responsibility in 2019. A user uploaded this video to a classified network in October 2019.
+
+Video Duration: 00:04:59
+Video Description:
+00:00-00:33: No Content.
+00:34-00:36: An area of contrast enters the sensor field-of-view at the bottom of the screen.
+00:37-00:44: The sensor rotates clockwise and corrects slightly counterclockwise to center the area of contrast in the frame.
+00:37-01:37: The sensor cycles through several contrast and zoom levels while tracking the area of contrast.
+01:38-02:10: At a higher magnification level, the area of contrast appears as a several areas grouped together in the center of the field-of-view.
+02:11-03:06: The sensor changes contrast settings several times, causing the screen to flash black and white. The sensor continues to track the areas of contrast.
+03:07-04:59: No content.
+
+This video description is provided for informational purposes only. Readers should not interpret any part of this description as reflecting an analytical judgment, investigative conclusion, or factual determination regarding the described event’s validity, nature, or significance."
+
+=== End of stub ===

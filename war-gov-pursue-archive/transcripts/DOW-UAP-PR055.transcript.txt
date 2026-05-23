@@ -1,0 +1,16 @@
+CODE: DOW-UAP-PR055
+TITLE: DOW-UAP-PR055, "Spherical UAP over AFG in and out of clouds 23 Nov 2020" 
+DVIDS_ID: 1007713
+SOURCE_FILE: video_2605_DOD_111719732_DOD_111719732.mp4
+DURATION_SEC: 47
+TRANSCRIBED_AT: 2026-05-23T11:56:08Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 47.241314304
+
+--- FULL TEXT ---
+you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you

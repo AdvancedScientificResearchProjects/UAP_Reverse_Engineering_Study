@@ -1,0 +1,33 @@
+CODE: DOW-UAP-PR052
+TITLE: DOW-UAP-PR052, "UAP USO Formation [CALLSIGN] (Mission)"
+DVIDS_ID: 1007708
+SOURCE_FILE: video_2605_DOD_111719718_DOD_111719718.mp4
+DURATION_SEC: 495
+TRANSCRIBED_AT: 2026-05-23T11:55:18Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 495.38500032
+
+--- FULL TEXT ---
+you you you you you you you you you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  90.00 ->   90.62] you
+[ 120.00 ->  119.50] you you
+[ 148.88 ->  149.50] you
+[ 178.88 ->  179.50] you
+[ 208.88 ->  209.50] you
+[ 238.88 ->  239.50] you
+[ 242.76 ->  243.38] you
+[ 272.76 ->  273.38] you
+[ 302.76 ->  303.38] you
+[ 332.76 ->  333.38] you
+[ 362.76 ->  363.38] you
+[ 366.65 ->  367.27] you
+[ 396.65 ->  397.27] you
+[ 426.65 ->  427.27] you
+[ 456.65 ->  457.27] you
+[ 486.65 ->  487.27] you

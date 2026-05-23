@@ -1,0 +1,25 @@
+CODE: DOW-UAP-PR084
+TITLE: DOW-UAP-PR084, "17 Sept 2020 [CALLSIGN] observes UAP"
+DVIDS_ID: 1007810
+SOURCE_FILE: video_2605_DOD_111720886_DOD_111720886.mp4
+DURATION_SEC: 253
+TRANSCRIBED_AT: 2026-05-23T11:57:02Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 253.680999808
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   59.07] you you
+[  88.45 ->   89.07] you
+[ 118.45 ->  119.07] you
+[ 121.90 ->  122.52] you
+[ 151.90 ->  152.52] you
+[ 181.90 ->  182.52] you
+[ 185.35 ->  185.97] you
+[ 215.35 ->  215.97] you
+[ 245.35 ->  245.97] you

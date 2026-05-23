@@ -1,0 +1,26 @@
+CODE: DOW-UAP-PR090
+TITLE: DOW-UAP-PR090, "24 AUG 2020 [CALLSIGN] (Mission) Observes UAP"
+DVIDS_ID: 1007719
+SOURCE_FILE: video_2605_DOD_111719746_DOD_111719746.mp4
+DURATION_SEC: 298
+TRANSCRIBED_AT: 2026-05-23T11:59:19Z
+MODEL: whisper-large-v3 (Groq)
+LANGUAGE: English
+AUDIO_DURATION_SEC: 297.856380416
+
+--- FULL TEXT ---
+you you you you you you you you you you you you
+
+--- SEGMENTS ---
+[   0.00 ->    0.62] you
+[  30.00 ->   30.62] you
+[  60.00 ->   60.62] you
+[  69.50 ->   70.12] you
+[  99.50 ->  100.12] you
+[ 129.50 ->  130.12] you
+[ 143.99 ->  144.61] you
+[ 173.99 ->  174.61] you
+[ 203.99 ->  204.61] you
+[ 218.49 ->  219.11] you
+[ 248.49 ->  249.11] you
+[ 278.49 ->  279.11] you
