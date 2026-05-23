@@ -1,10 +1,13 @@
-# MASTER claims — PURSUE Release 01 (war.gov 2026-05-08)
+# MASTER claims — PURSUE Release 01 + Release 02 (war.gov 2026-05-08 and 2026-05-22)
 
-**Scope:** PURSUE Release 01 (2026-05-08), 161 records (121 PDF + 28 mp4 + 14 jpg) from DoW / FBI / NASA / Department of State
+**Scope:**
+- PURSUE Release 01 (2026-05-08), 161 records (121 PDF + 28 mp4 + 14 jpg) from DoW / FBI / NASA / Department of State — §§ 0–11
+- PURSUE Release 02 (2026-05-22), 64 records (6 PDF + 7 audio + 51 video) from DoW / **CIA** / **DOE** / **ODNI** / NASA — §§ 12–14
+- **Combined: 225 records, 0 source-code overlap between releases**
 **Source archive:** `war-gov-pursue-archive/`
 **Bilingual policy:** EN-primary; RU synopsis in §0.RU
 **Verdict markers:** ✅ CORROBORATED / ⚠ PARTIAL / ❌ EXPLAINED / ⬜ UNRESOLVED / ⬛ REDACTED / 🟧 ANALYTICAL FLAG (see `catalog/source_codes.md` for the dual-meaning convention of 🟧)
-**Cross-archive policy:** No claim imports from sibling archives (bob-lazar, chernobrov, gershtein, dubna). Cross-references in §10 are pointers only — they do not transfer verdicts.
+**Cross-archive policy:** No claim imports from sibling archives (bob-lazar, chernobrov, gershtein, dubna). Cross-references in §10 + §14 are pointers only — they do not transfer verdicts.
 
 ---
 
@@ -9099,5 +9102,102 @@ Records where the war.gov portal serves identical content at multiple URL-encode
 **Summary.** 4 sha256-identical duplicate groups (5 extra files), plus the 3-record metadata-side normalization gap (resolved without loss). Net unique files in `raw/pdf/`: 121 - 5 = **116 unique PDFs by content** out of the 121 catalog entries. The duplication is upstream of this archive (war.gov portal-side artifact) and does not affect analytical conclusions; the canonical-vs-duplicate decisions are documented in `catalog/irrelevant_sources.md` §2 for downstream tooling.
 
 **RU: Сводка.** 4 sha256-идентичные дубликатные группы (5 дополнительных файлов), плюс 3-записный пробел нормализации со стороны метаданных (разрешён без потери). Чистые уникальные файлы в `raw/pdf/`: 121 - 5 = **116 уникальных PDF по содержимому** из 121 каталог-записи. Дублирование происходит вверх по течению от этого архива (артефакт со стороны портала war.gov) и не влияет на аналитические выводы; канонические-vs-дубликат решения задокументированы в `catalog/irrelevant_sources.md` §2 для нисходящего инструментария.
+
+---
+
+## §12 Release 02 ingestion summary (2026-05-22) / §12 Сводка приёма Релиза 02
+
+PURSUE Release 02 was published by the U.S. Department of War on **2026-05-22**, 14 days after Release 01. The release adds **64 records** to the corpus with **zero source-code overlap** to R01 (verified via 77 R01 codes ∩ 64 R02 codes = ∅). The corpus combined total reaches **225 records across two releases**.
+
+**RU:** PURSUE Release 02 опубликован Министерством Войны США **2026-05-22**, через 14 дней после Release 01. Релиз добавляет **64 записи** в корпус с **нулевым пересечением кодов источников** с R01 (проверено через 77 кодов R01 ∩ 64 кода R02 = ∅). Совокупный объём корпуса достигает **225 записей в двух релизах**.
+
+### §12.1 R02 composition / Состав R02
+
+| Type | Count | Distribution mechanism |
+|---|---|---|
+| PDF documents | 6 | `release_02_document_bundle.zip` (67 MB) — direct download |
+| Audio excerpts (NASA Mercury/Apollo) | 7 | DVIDS-hosted, distributed via video bundle |
+| Video (DOW unresolved/pending reports) | 51 | DVIDS-hosted, distributed via `uap052226.zip` (5.6 GB) |
+| **Total records** | **64** | (50 unique DVIDS video assets + 1 shared by PR057a/b, plus 7 audio = 57 unique media files) |
+
+### §12.2 R02 agency breakdown / Распределение R02 по ведомствам
+
+| Agency | R02 records | First time in PURSUE? |
+|---|---|---|
+| Department of War (DOW) | 52 | No (continues R01 PR-series + adds D017) |
+| NASA | 7 | No (continues R01 NASA spaceflight cluster) |
+| Department of Energy (DOE) | 3 | **YES — first DOE records** |
+| Central Intelligence Agency (CIA) | 1 | **YES — first CIA record** |
+| Office of the Director of National Intelligence (ODNI) | 1 | **YES — first ODNI record** |
+
+R02 thus expands the PURSUE agency-set from 4 (DoW/FBI/NASA/State in R01) to **7 distinct contributing agencies**, plus the coordinating ODNI body.
+
+### §12.3 Six new R02 PDFs — verdict-bearing claim summary / Шесть новых PDF R02 — резюме claim с вердиктами
+
+| Code | Headline finding | Verdict |
+|---|---|---|
+| [`CIA-UAP-D001`](per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md) | CIA HUMINT debriefing (Nov 1972 – Nov 1973) of former Soviet citizen describing Sary Shagan Weapons Testing Range; embedded "one unidentified aerial phenomenon" in an otherwise conventional ABM/SAM/laser-research intelligence report | ✅ structurally CORROBORATED; ⬛ REDACTED on the UAP body detail |
+| [`DOE-UAP-D001`](per-document/DOE-UAP-D001_PANTEX-RADAR.md) | Pantex (nuclear-weapons assembly facility, TX) Ground Surveillance Radar Tower captures unidentified object; Sandia performs image enhancement | ⬛ REDACTED on object description (UCNI); ✅ on process chain |
+| [`DOE-UAP-D002`](per-document/DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md) | James L. Tuck (Manhattan Project veteran, senior LANL physicist) requests simulated-atomic-bomb recipe to study large atmospheric vortices reported in Condon Report; correspondent links to ball lightning, McCampbell *UFOLOGY* (1976), Einstein unified-field-theory work | ✅ CORROBORATED |
+| [`DOE-UAP-D003`](per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md) | Pajarito Astronomers (LANL-embedded amateur astronomy club) hosts Dr John Warren (LANL AT-6) for talk "Why Should a Scientist be Concerned about UFO's?" on 29 May 1986 at Fuller Lodge | ✅ CORROBORATED |
+| [`DOW-UAP-D017`](per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md) | Sandia Base / Kirtland AFB / 17th OSI District 1948–1950 compilation of UAP sightings, classified in 3 District categories (green-fireball / disc / misc); includes Dr Lincoln LaPaz consulting; technical impactment-sampling programme at Socorro 24 July 1949 and after; Camp Hood TX cross-correlation; Starvation Peak Incident reference | ✅ CORROBORATED |
+| [`ODNI-UAP-D001`](per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md) | USPER first-person narrative by senior USIC officer: helicopter encounter at U.S. weapons test range in late 2025; FLIR "super-hot" closing object split-into-two; "countless orange orbs swarming" at mountain backdrop; "T"-formation orbs at 700 ft hover sequentially flaring/dimming; same orbs subsequently "chasing" fighter jets at ~23,000 ft AGL; PAIRS with R01 FBI Photo A001–A008 + B001–B024 (32 records) + R01 USPER Statement | ✅ CORROBORATED at narrative-evidence tier; ⬛ REDACTED on witness identity by USPER policy |
+
+### §12.4 Key institutional signal — DOE breaks categorical exclusion / Ключевой институциональный сигнал — DOE снимает категорическое исключение
+
+The U.S. Department of Energy has historically declined to release UFO/UAP-related material under categorical exclusions tied to nuclear-weapons-information control. **R02 is the first PURSUE release in which DOE contributes material — three records, all anchored in the New Mexico nuclear-weapons complex.** This is a verifiable institutional posture change at the agency that controls the most sensitive UAP-adjacent corpus (Hanford, Oak Ridge, Sandia, LANL, NTS, Pantex). See [`analysis/topical/r02-nm-nuclear-complex-1948-1986.md`](topical/r02-nm-nuclear-complex-1948-1986.md) for the detailed synthesis.
+
+**RU:** DOE исторически отказывалось рассекречивать UFO/UAP-материалы под категорическими исключениями, привязанными к контролю ядерно-оружейной информации. **R02 — первый релиз PURSUE, в котором DOE предоставляет материал — три записи, все привязанные к ядерно-оружейному комплексу Нью-Мексико.** Это проверяемое изменение институциональной позиции ведомства, контролирующего самый чувствительный UAP-смежный корпус (Hanford, Oak Ridge, Sandia, LANL, NTS, Pantex). См. [`analysis/topical/r02-nm-nuclear-complex-1948-1986.md`](topical/r02-nm-nuclear-complex-1948-1986.md).
+
+---
+
+## §13 R02 video corpus expansion (DOW PR050–PR099) / §13 Расширение видеокорпуса R02 (DOW PR050–PR099)
+
+The 50-unique-DVIDS-asset R02 video cluster doubles the PR-series scope of the PURSUE corpus (R01 had PR19–PR49 = 31 videos; R02 adds PR050–PR099 = 50 unique + 1 segmented). Geographic and temporal distribution per CSV metadata:
+
+- **CENTCOM 2020–2024** (predominant): Iran, Syria, Iraq, Persian Gulf, Arabian Sea, Gulf of Oman — at least 25+ videos
+- **INDOPACOM 2020–2023**: East China Sea (PR057b, PR075), other Pacific platforms — at least 4–5 videos
+- **CONUS military 2017–2024**: Eglin AFB (PR070), Tyndall AFB USCG (PR065, PR066), Lake Huron F-16C shootdown 2023 (PR071), Kabul AFSOC 2017 (PR064)
+- **Other / EUCOM-AFRICOM-southerly platforms**: 5–10 videos with CALLSIGN-redacted platform/mission identifiers
+
+The PR050–PR099 cluster is **per-record card-deferred** (template-low-content; pending v0.2.1 batch generation). The aggregate analytic claim chain is captured in the topical synthesis [`region-centcom-2013-2026.md`](topical/region-centcom-2013-2026.md) (extended) and a planned R02 video-cluster topical synthesis.
+
+### §13.1 Operationally significant individual R02 videos / Операционно значимые отдельные видео R02
+
+| Code | Significance | Verdict |
+|---|---|---|
+| `DOW-UAP-PR071` | "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]" — referring to the publicly-acknowledged Lake Huron shootdown of 12 February 2023 | ✅ CORROBORATED |
+| `DOW-UAP-PR064` | "AFSOC Kabul UAP Jul 2017" — pre-withdrawal Kabul-area incident, otherwise unreported | ⚠ PARTIAL |
+| `DOW-UAP-PR065` + `PR066` | USCG C-144 Tyndall AFB UAP tic-tac IR hot 24 April 2024 — Coast Guard fixed-wing IR observation | ⚠ PARTIAL |
+| `DOW-UAP-PR072` | "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan" — extends ASRP Soviet-archive cross-reference into 2022 | ✅ CORROBORATED |
+| `DOW-UAP-PR057a` + `PR057b` | Shared DVIDS asset 1007720 — "Spherical UAP in clouds" + "[Platform] Observes UAP in East China Sea 05 JAN 2023 INDOPACOM" — same source asset surfacing in two distinct INDOPACOM record contexts | ⚠ PARTIAL on segmentation rationale |
+| `DOW-UAP-PR068` | "IIR 1 666 S0151 23/Video Footage of Unidentified Aerial Phenomenon (UAP) ..." — IIR-formatted INTREP video record | ✅ CORROBORATED |
+
+---
+
+## §14 Cross-archive references for R02 / §14 Перекрёстные ссылки для R02
+
+### §14.1 R02 → R01 internal cross-references / §14.1 Внутренние перекрёстные ссылки R02 → R01
+
+Two highly significant R02 → R01 linkages are explicit in the war.gov CSV metadata:
+
+1. **`ODNI-UAP-D001` ↔ `FBI Photo A001`–`A008` + `B001`–`B024` + `USPER Statement about UAP Sighting`** (R01, 32 records). The ODNI R02 record is the *eyewitness narrative* for the R01 FBI Western US 2025 IR-photo corpus. See `ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md` for the full pairing detail and analytic implications. **This is the single most consequential R01↔R02 cross-link.**
+2. **`DOW-UAP-D017` (R02 Sandia 1948–1950) ↔ `FBI-62HQ-Sr164` (R01 Cabell Memorandum #4, Feb 1949)**. The Sandia compendium is the *operational arm* of the Cabell propulsion-taxonomy framework. The two records are response-pair in 1949 across two federal entry points (FBI custodianship of the Cabell Memo vs. OSI custodianship of the Sandia operational record).
+
+### §14.2 R02 → sibling ASRP archives / §14.2 R02 → смежные архивы ASRP
+
+Linkages from R02 records to other ASRP archives (NO claim importation; pointers only):
+
+- **`bob-lazar-archive/`** — Lazar's narrative places him at LANL/S-4 in the 1980s. R02 `DOE-UAP-D003` (1986 Pajarito talk by LANL physicist) and `DOE-UAP-D002` (1976 Tuck correspondence on UFO-adjacent atmospheric vortices) document **institutional UAP engagement at LANL during precisely the decade Lazar's narrative covers**, providing critical contextual reading material for Lazar's claims (without corroborating or refuting them).
+- **`dubna-element-115-analysis/`** — `DOE-UAP-D002` Tuck correspondence references atomic-bomb simulations, atmospheric vortices, ball lightning, and unified field theory — same conceptual genealogy as element-115 propulsion-physics discourse. `CIA-UAP-D001` (Soviet Sary Shagan 1973) is geographically and institutionally adjacent to the JINR/Dubna corpus.
+- **`chernobrov-archive/`** — `CIA-UAP-D001` is the direct U.S.-side intelligence parallel to Chernobrov's USSR-side field-investigation corpus; both centre on Soviet weapons-testing geography and overlapping decades.
+- **`gershtein-archive/`** — `CIA-UAP-D001` Soviet-source HUMINT methodology parallels Gershteyn's compilation methodology of post-Soviet anomalous-phenomena reports.
+- **`people-analysis/` (Track 6, scientists-11)** — R02 introduces LANL/Sandia/Pantex (NM nuclear-weapons complex) as documented UAP-engagement institutions, extending the institutional-cluster map established by the modern scientists-11 corpus backward by 50–75 years.
+- **`osint-intelligence-analysis/`** — the 17th OSI District's 1948–1950 sighting-classification regime in `DOW-UAP-D017` is a documentary ancestor of the modern OSINT validation pipeline; methodology comparison opportunity.
+- **`corporate-economic-analysis/` (Track 7)** — Consolidated Nuclear Security LLC (CNS, the Pantex operator named in `DOE-UAP-D001`) and Triad National Security LLC (LANL operator) are corporate-overlay targets relevant to Track 7's EG&G → Amentum lineage mapping.
+
+### §14.3 R02 cross-archive synthesis update / §14.3 Обновление кросс-архивного синтеза R02
+
+`analysis/cross-archive-synthesis.md` Theme 4 (US federal disclosure lineage) has been updated to include the R02 datum about DOE breaking its categorical-exclusion posture; Theme 4 cross-link table has been extended with R02 records. See the cross-archive document for the full revised synthesis.
 
 ---

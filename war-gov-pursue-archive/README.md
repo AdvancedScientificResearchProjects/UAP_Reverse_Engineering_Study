@@ -1,12 +1,26 @@
-# PURSUE Declassification Archive (war.gov, Release 01) / Архив рассекречивания PURSUE (war.gov, Релиз 01)
+# PURSUE Declassification Archive (war.gov, Releases 01 + 02) / Архив рассекречивания PURSUE (war.gov, Релизы 01 + 02)
 
-A research archive of the **2026-05-08 Department of War (DoW) PURSUE Release 01** — 161 declassified UAP records from DoW, FBI, NASA, and the Department of State, made public via [https://www.war.gov/UFO/](https://www.war.gov/UFO/) under the **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**.
+A research archive of the **Department of War (DoW) PURSUE** programme:
+- **Release 01** (2026-05-08) — 161 records from DoW / FBI / NASA / State Department
+- **Release 02** (2026-05-22) — 64 records from DoW / **CIA** / **DOE** / **ODNI** / NASA (three new contributing agencies)
+- **Combined: 225 records, 7 contributing agencies, 0 source-code overlap between releases**
 
-Исследовательский архив **первой транши PURSUE от Министерства войны США (Department of War, DoW)**, опубликованной 8 мая 2026 года: 161 рассекреченная запись по НЛО / НАЯ от DoW, ФБР, NASA и Госдепартамента, обнародованная на [https://www.war.gov/UFO/](https://www.war.gov/UFO/) в рамках программы **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**.
+Made public via [https://www.war.gov/UFO/](https://www.war.gov/UFO/) under the **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**.
 
-**EN:** 121 PDFs + 28 mp4 videos + 14 jpg images, 158 per-document analytical cards, 7 topical syntheses, MASTER claims document (6362 lines, EN-primary with RU synopsis), and a QA review certifying citation fidelity, cross-link integrity, and 100% record coverage across the corpus.
+Исследовательский архив программы **PURSUE Министерства войны США (Department of War, DoW)**:
+- **Релиз 01** (2026-05-08) — 161 запись от DoW / ФБР / NASA / Госдеп
+- **Релиз 02** (2026-05-22) — 64 записи от DoW / **ЦРУ** / **DOE** / **ODNI** / NASA (три новых вкладывающих ведомства)
+- **Совокупно: 225 записей, 7 вкладывающих ведомств, 0 пересечений кодов источников между релизами**
 
-**RU:** 121 PDF + 28 mp4-видео + 14 jpg-изображений, 158 аналитических карточек по документам, 7 тематических синтезов, MASTER-документ заявлений (6362 строки, основной язык EN с русским синопсисом), QA-обзор с подтверждением цитатной верности, целостности перекрёстных ссылок и 100% покрытия корпуса.
+Обнародовано на [https://www.war.gov/UFO/](https://www.war.gov/UFO/) в рамках программы **Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)**.
+
+**EN R01:** 121 PDFs + 28 mp4 videos + 14 jpg images, 158 per-document analytical cards, 7 topical syntheses, MASTER claims document (EN-primary with RU synopsis), QA review certifying citation fidelity, cross-link integrity, and 100% record coverage.
+
+**EN R02:** 6 PDFs + 7 NASA audio excerpts + 51 DOW videos (50 unique DVIDS assets), 6 new per-document cards (Sandia Green-Fireballs 1948–1950, CIA Sary-Shagan USSR 1973, Pantex radar, James Tuck LANL correspondence, Pajarito Astronomers 1986, ODNI USPER orange-orb narrative). MASTER extended (§§12–14). New topical: NM nuclear-weapons complex 1948–1986. ODNI-UAP-D001 explicitly pairs with 32 R01 FBI Western US IR-photo records via the official PdfPair field — providing the eyewitness narrative for that R01 cluster. See [`CHANGELOG.md`](CHANGELOG.md) v0.2.0.
+
+**RU R01:** 121 PDF + 28 mp4-видео + 14 jpg, 158 аналитических карточек, 7 тематических синтезов, MASTER (основной EN, русский синопсис), QA-обзор с 100% покрытием.
+
+**RU R02:** 6 PDF + 7 NASA-аудио + 51 DOW-видео (50 уникальных DVIDS), 6 новых карточек (Sandia Зелёные фаерболы 1948–1950, ЦРУ Сары-Шаган СССР 1973, Pantex радар, Так LANL, Pajarito Astronomers 1986, ODNI USPER нарратив оранжевых сфер). MASTER расширен (§§12–14). Новый тематический: ядерно-оружейный комплекс Нью-Мексико 1948–1986. ODNI-UAP-D001 явно связан с 32 R01 ИК-фото FBI Western US через официальное поле PdfPair. См. [`CHANGELOG.md`](CHANGELOG.md) v0.2.0.
 
 ![Timeline of PURSUE Release 01 records 1944–2026 / Хронология записей PURSUE Релиз 01 1944–2026](diagrams/rendered/timeline.png)
 

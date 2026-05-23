@@ -1,4 +1,4 @@
-# PURSUE Release 01 — Source Code Registry / Реестр кодов источников PURSUE Релиз 01
+# PURSUE Release 01 + Release 02 — Source Code Registry / Реестр кодов источников PURSUE Релиз 01 + Релиз 02
 
 Stable identifiers for cross-referencing PURSUE records in `analysis/per-document/`, `analysis/topical/`, `analysis/MASTER_pursue_claims.md`, and `graph/fragments/agentI_war_gov_pursue.py`.
 
@@ -126,7 +126,69 @@ PR-series 19–49. Mostly IR sensor B-roll videos (DVIDS-hosted) with some compa
 
 ---
 
-## Verdict markers (legend) / Метки вердиктов (легенда)
+# Release 02 — Source Code Additions (2026-05-22) / Дополнения кодов источников Релиз 02
+
+64 new records, 0 overlap with Release 01. Two new agencies (CIA, DOE) and one new coordinating body (ODNI) appear in the PURSUE corpus for the first time.
+
+**RU:** 64 новые записи, 0 пересечений с Release 01. В корпусе PURSUE впервые появляются два новых ведомства (CIA, DOE) и один координирующий орган (ODNI).
+
+## CIA (Central Intelligence Agency) — 1 record / 1 запись
+
+| Code / Код | Title (excerpt) / Название (фрагмент) | Date / Дата | Card |
+|------|-----------------|------|-------|
+| `CIA-UAP-D001` | Intelligence Information Report, USSR — Sary Shagan Weapons Testing Range / Информационный доклад ЦРУ по СССР — полигон Сары-Шаган | DOI Nov 1972 – Nov 1973 | [`CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md`](../analysis/per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md) |
+
+## DOE (Department of Energy) — 3 records / 3 записи
+
+| Code / Код | Title (excerpt) / Название (фрагмент) | Date / Дата | Card |
+|------|-----------------|------|-------|
+| `DOE-UAP-D001` | Enhanced PANTEX Imagery — Ground Surveillance Radar Tower / Улучшенные изображения PANTEX — башня наземного радара | — | [`DOE-UAP-D001_PANTEX-RADAR.md`](../analysis/per-document/DOE-UAP-D001_PANTEX-RADAR.md) |
+| `DOE-UAP-D002` | James L. Tuck Correspondence (LANL, ball-lightning / Condon Report) / Корреспонденция Джеймса Така | 1970s | [`DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md`](../analysis/per-document/DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md) |
+| `DOE-UAP-D003` | Pajarito Astronomers Invitation — Dr John Warren (AT-6) talk / Pajarito Astronomers — доклад Джона Уоррена | May 1986 | [`DOE-UAP-D003_PAJARITO-ASTRONOMERS.md`](../analysis/per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md) |
+
+## ODNI (Office of the Director of National Intelligence) — 1 record / 1 запись
+
+| Code / Код | Title (excerpt) / Название (фрагмент) | Date / Дата | Card |
+|------|-----------------|------|-------|
+| `ODNI-UAP-D001` | USPER Narrative, Senior USIC Official — helicopter orange-orb encounter / USPER нарратив, старший офицер разведсообщества — встреча с оранжевыми сферами | Late 2025 | [`ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md`](../analysis/per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md) |
+
+**Pairing / Связи (official PdfPair field):** ODNI-UAP-D001 pairs with Release 01 records `FBI Photo A001`–`A008` and `FBI Photo B001`–`B024` (32 IR-photo records) plus `USPER Statement about UAP Sighting` — providing the eyewitness narrative for the R01 Western US 2025 FBI IR-photo corpus. / ODNI-UAP-D001 связан с записями Release 01 `FBI Photo A001`–`A008` и `FBI Photo B001`–`B024` (32 ИК-фото) и с `USPER Statement about UAP Sighting` — это нарратив очевидца для корпуса ИК-фотографий FBI Western US 2025 из R01.
+
+## DoW R02 additions / Дополнения DoW в R02 — 52 records / 52 записи
+
+### `DOW-UAP-D017` — single document / единственный документ
+
+| Code / Код | Title (excerpt) / Название (фрагмент) | Date / Дата | Card |
+|------|-----------------|------|-------|
+| `DOW-UAP-D017` | UAP Reported at Sandia Base, 1948–1950 — Green-Fireball corpus / НЛО на Sandia Base, 1948–1950 — корпус «зелёных фаерболов» | 1948–1950 | [`DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md`](../analysis/per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md) |
+
+### `DOW-UAP-PR050`–`PR099` — continuation of unresolved/pending UAP reports (videos) / продолжение нерешённых отчётов НАЯ (видео)
+
+51 video records (50 unique DVIDS assets — `PR057a` and `PR057b` share the same source asset 1007720, segmented at the record level). All hosted on DVIDS, distributed via the war.gov video bundle `uap052226.zip` (5.6 GB). / 51 видеозапись (50 уникальных DVIDS-активов — `PR057a` и `PR057b` ссылаются на один и тот же исходный актив 1007720, сегментирование на уровне записи). Все размещены на DVIDS, распространяются через видео-bundle war.gov `uap052226.zip` (5.6 ГБ).
+
+DVIDS ID range: `1007706`–`1007816`. CALLSIGN-redacted military encounters predominantly from CENTCOM (Iran, Syria, Iraq, Persian Gulf, Arabian Sea) and INDOPACOM (East China Sea), plus FBI Photo B-paired sightings, Eglin AFB, Tyndall AFB USCG, Lake Huron F-16C shootdown (2023), Kabul AFSOC (2017). / Диапазон DVIDS ID: `1007706`–`1007816`. Военные наблюдения с редактированным позывным, преимущественно CENTCOM (Иран, Сирия, Ирак, Персидский залив, Аравийское море) и INDOPACOM (Восточно-Китайское море), плюс наблюдения парные с FBI Photo B, Eglin AFB, Tyndall AFB USCG, сбитие F-16C над озером Гурон (2023), Кабул AFSOC (2017).
+
+See [`catalog/documents-r02.md`](documents-r02.md) for the full chronological R02 record table. / См. полную хронологическую таблицу R02 в [`catalog/documents-r02.md`](documents-r02.md).
+
+## NASA R02 additions / Дополнения NASA в R02 — 7 records / 7 записей
+
+`NASA-UAP-D008`–`D014` continue the NASA debriefing audio series begun in Release 01 (which used `D1`–`D7` + `VM1`–`VM6`). All 7 R02 NASA records are **audio excerpts** (`AUD` type), distributed via the DVIDS-hosted video bundle. / `NASA-UAP-D008`–`D014` продолжают серию аудиозаписей инструктажей NASA, начатую в Release 01 (использовала `D1`–`D7` + `VM1`–`VM6`). Все 7 NASA-записей R02 — **аудиофрагменты** (тип `AUD`), распространяются через DVIDS видео-bundle.
+
+| Code / Код | Mission / Миссия | Date / Дата |
+|------|----------|------|
+| `NASA-UAP-D008` | Apollo 12 Medical Debriefing, Tape 12 | 1969 |
+| `NASA-UAP-D009` | Apollo 17 Audio Excerpt | Dec 7, 1972 |
+| `NASA-UAP-D010` | Mercury Atlas 9 Audio Excerpt | May 15, 1963 |
+| `NASA-UAP-D011` | Mercury Atlas 9 Audio Excerpt | May 15, 1963 |
+| `NASA-UAP-D012` | Mercury Atlas 8 Audio Excerpt | Oct 3, 1962 |
+| `NASA-UAP-D013` | Mercury Atlas 7 Audio Excerpt | May 24, 1962 |
+| `NASA-UAP-D014` | Mercury-Redstone 4 Audio Excerpt | Jul 21, 1961 |
+
+These cover the Mercury–Apollo spaceflight programmes (1961–1972). The two duplicate Mercury Atlas 9 entries (`D010` + `D011`) may be different segments of the same May 15, 1963 mission audio; verification via DVIDS metadata pending. / Покрывают пилотируемые программы Mercury–Apollo (1961–1972). Два дубликата Mercury Atlas 9 (`D010` + `D011`) могут быть разными сегментами одного и того же аудио миссии 15 мая 1963; проверка через DVIDS-метаданные ожидается.
+
+---
+
+
 
 Used in `Key claims` tables across `analysis/per-document/*.md` / Используются в таблицах `Key claims` в `analysis/per-document/*.md`:
 
