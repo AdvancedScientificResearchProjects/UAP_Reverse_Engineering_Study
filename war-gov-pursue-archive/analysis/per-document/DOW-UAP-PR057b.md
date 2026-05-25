@@ -47,7 +47,7 @@ The geographic disagreement between the two titles (Yellow Sea per AARO prose / 
 ## Cross-references / Перекрёстные ссылки
 
 **Within PURSUE corpus / В корпусе PURSUE:**
-- **`DOW-UAP-PR057a`** — **shared-asset duplicate** (same DVIDS 1007720, same SHA256, alternate uploader title "Spherical UAP in clouds"; see Notes) / **дубль с общим активом** (тот же DVIDS 1007720, тот же SHA256, альтернативный заголовок «Спherical UAP in clouds»; см. Замечания)
+- **`DOW-UAP-PR057a`** — **shared-asset duplicate** (same DVIDS 1007720, same SHA256, alternate uploader title "Spherical UAP in clouds"; see Notes) / **дубль с общим активом** (тот же DVIDS 1007720, тот же SHA256, альтернативный заголовок «Spherical UAP in clouds»; см. Замечания)
 - `DOW-UAP-PR055`, `DOW-UAP-PR056` — adjacent R02 "Spherical UAP" uploader-titled clips (compare to PR057b's mission-report-style title) / соседние «Spherical UAP» по заголовку загрузчика клипы R02 (сравните с заголовком PR057b в стиле рапорта о миссии)
 - `DOW-UAP-PR058` — adjacent INDOPACOM R02 PR (also CALLSIGN-redacted in title); INDOPACOM cluster sibling / соседний PR R02 INDOPACOM (также с редактированным CALLSIGN в заголовке); сиблинг кластера INDOPACOM
 - R01 INDOPACOM PRs (East China Sea / South China Sea adjacents): see [`region-indopacom-2020-2026.md`](../topical/region-indopacom-2020-2026.md) — PR057a/b should be folded in as a paired shared-asset case study with explicit geographic-discrepancy treatment / см. PR057a/b должны быть включены как парный кейс с общим активом с явной обработкой географического расхождения

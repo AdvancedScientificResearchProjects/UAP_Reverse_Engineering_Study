@@ -8,7 +8,7 @@
 - **Incident date / Дата инцидента:** Period of Information (DOI) November 1972 – November 1973 / Период информации (DOI) ноябрь 1972 – ноябрь 1973
 - **Distribution date / Дата распространения:** 15 December [1973], report number FIR-K-311/01638-77 / 15 декабря [1973], номер отчёта FIR-K-311/01638-77
 - **Location / Местоположение:** Sary Shagan Weapons Testing Range (Kazakh SSR, USSR), specifically Site 4 (warhead checkout area), V/Ch 03080 (regional HQ), V/Ch 03142 (warhead checkout unit) / Полигон Сары-Шаган (Казахская ССР, СССР), в частности Площадка 4 (зона проверки боеголовок), В/Ч 03080 (региональный штаб), В/Ч 03142 (узел проверки боеголовок)
-- **Document kind / Тип документа:** PDF, single-source CIA "Intelligence Information Report" (NOT FINALLY EVALUATED INTELLIGENCE) — 6.0 KB transcript / PDF, односоставный «Информационный разведдоклад» ЦРУ (НЕ ОКОНЧАТЕЛЬНО ОЦЕНЁННАЯ РАЗВЕДКА) — транскрипт 6.0 КБ
+- **Document kind / Тип документа:** PDF, single-source CIA "Intelligence Information Report" (NOT FINALLY EVALUATED INTELLIGENCE) — 6.0 KB transcript / PDF, одноисточниковый «Информационный разведдоклад» ЦРУ (НЕ ОКОНЧАТЕЛЬНО ОЦЕНЁННАЯ РАЗВЕДКА) — транскрипт 6.0 КБ
 - **Classification at issuance / Гриф при выпуске:** CONFIDENTIAL — WARNING NOTICE: SENSITIVE INTELLIGENCE SOURCES AND METHODS INVOLVED / CONFIDENTIAL — ПРЕДУПРЕЖДЕНИЕ: ЗАДЕЙСТВОВАНЫ ЧУВСТВИТЕЛЬНЫЕ РАЗВЕДЫВАТЕЛЬНЫЕ ИСТОЧНИКИ И МЕТОДЫ
 - **Source profile / Профиль источника:** Former Soviet citizen who served at Sary Shagan; acquired in Germany / Бывший советский гражданин, служивший на Сары-Шагане; получен в Германии
 - **Slug / Slug:** `CIA-UAP-D001_Intelligence_Information_Report_USSR_1973`
