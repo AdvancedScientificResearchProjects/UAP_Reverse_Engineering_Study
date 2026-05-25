@@ -1,17 +1,21 @@
 ---
-title: "PURSUE Release 01 — verdict-marker distribution across per-document claim tables"
+title: "PURSUE Releases 01+02 — verdict-marker distribution across per-document claim tables"
 ---
 %% EN: Counts produced via:
 %%   grep -ohE '✅ CORROBORATED|⚠ PARTIAL|❌ EXPLAINED|⬜ UNRESOLVED|⬛ REDACTED|🟧' \
 %%     analysis/per-document/*.md | sort | uniq -c
-%% Run on 158 per-document cards (one per release-unique source code, dedup of the
-%% 161 catalog rows). Total markers = 1522.
+%% Run on 222 per-document cards (158 R01 + 64 R02), one per release-unique source code.
+%% Total markers cumulative = 2118 (R01 1522 + R02 596).
+%% R02 added 64 cards: 356 ✅ + 83 ⚠ + 30 ⬜ + 17 ⬛ + 99 🟧 + 8 ❌ — notable
+%% spike in 🟧 ANALYTICAL FLAG (R01 24 → R01+R02 123, +99) driven by the analyst-
+%% inference-heavy ODNI USPER card, the long Sandia transcript, and the PR050-099
+%% unresolved-video corpus.
 %% Convention: see catalog/source_codes.md §"Verdict markers (legend)".
-%% RU: Распределение вердиктов по таблицам Key claims в 158 per-document карточках.
-pie showData title PURSUE archive verdict-marker distribution (per-document claim tables, n=1522)
-    "✅ CORROBORATED" : 1136
-    "⚠ PARTIAL" : 161
-    "⬜ UNRESOLVED" : 108
-    "⬛ REDACTED" : 70
-    "🟧 ANALYTICAL FLAG" : 24
-    "❌ EXPLAINED" : 23
+%% RU: Распределение вердиктов по таблицам Key claims в 222 per-document карточках (R01+R02).
+pie showData title PURSUE archive verdict-marker distribution (per-document claim tables, R01+R02, n=2118)
+    "✅ CORROBORATED" : 1492
+    "⚠ PARTIAL" : 246
+    "⬜ UNRESOLVED" : 138
+    "🟧 ANALYTICAL FLAG" : 123
+    "⬛ REDACTED" : 88
+    "❌ EXPLAINED" : 31

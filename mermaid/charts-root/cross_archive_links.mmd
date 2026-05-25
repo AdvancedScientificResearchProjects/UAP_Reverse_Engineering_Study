@@ -1,8 +1,12 @@
+%% Cross-archive links — Lazar + Chernobrov + Dubna + PURSUE (R01+R02) + Gershtein
+%% Themes 1-5: Element 115, Time/space-time, Soviet aerospace, US federal disclosure, Plasma phenomena
+%% Updated 2026-05-23 (R02 ingestion + Theme 5)
 graph TB
     classDef lazar fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
     classDef cherno fill:#fff8e1,stroke:#f57f17,stroke-width:2px,color:#000
     classDef dubna fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
     classDef pursue fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef gershtein fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
     classDef theme fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#000
 
     subgraph L[Lazar archive / Архив Лазара]
@@ -28,18 +32,31 @@ graph TB
         D5["Moscovium 2016<br/>(IUPAC name)<br/>Московий 2016<br/>(имя ИЮПАК)"]:::dubna
     end
 
-    subgraph P[PURSUE archive / Архив PURSUE]
+    subgraph P[PURSUE archive R01 + R02 / Архив PURSUE R01 + R02]
         P1["PURSUE Release 01<br/>(war.gov 2026-05-08)<br/>PURSUE Релиз 01<br/>(war.gov 8 мая 2026)"]:::pursue
         P2["FBI 62-HQ-83894 +<br/>1949 Cabell Memo #4<br/>(propulsion taxonomy)<br/>ФБР 62-HQ-83894 +<br/>Cabell 1949 (форменная таксономия)"]:::pursue
         P3["DOW-1948-NL-INTEL +<br/>1963 EOP/NASC memo<br/>(ETH question lineage)<br/>DOW-1948-NL-INTEL +<br/>EOP/NASC 1963 (линия ETH)"]:::pursue
         P4["DOS cables 1985 / 1994<br/>(PNG / Tajik Air B747SP)<br/>Кабели Госдепа 1985 / 1994<br/>(PNG / Tajik Air B747SP)"]:::pursue
         P5["COMETA 1999<br/>(MHD propulsion endorsement)<br/>COMETA 1999<br/>(поддержка МГД)"]:::pursue
+        P6["DOW-UAP-D017 Sandia Green Fireballs 1948-1950<br/>(LaPaz impactment programme)<br/>Sandia зелёные фаерболы 1948-1950<br/>(программа LaPaz)"]:::pursue
+        P7["ODNI-UAP-D001 USPER orange-orb 2025<br/>(paired with FBI Photo A001-A008+B001-B024 R01)<br/>USPER оранжевые сферы 2025<br/>(парен с FBI Photo A001-A008+B001-B024 R01)"]:::pursue
+        P8["CIA-UAP-D001 USSR Sary-Shagan 1973<br/>(first CIA record in PURSUE)<br/>ЦРУ СССР Сары-Шаган 1973<br/>(первая запись ЦРУ)"]:::pursue
+        P9["DOE NM nuclear-complex cluster<br/>(D001 Pantex + D002 Tuck 1976 + D003 Pajarito 1986)<br/>Кластер DOE ядерно-оружейного комплекса NM<br/>(первый вклад DOE в PURSUE)"]:::pursue
+    end
+
+    subgraph G[Gershtein archive / Архив Герштейна]
+        G1["Mikhail Gershtein<br/>(62 interviews)<br/>Михаил Герштейн<br/>(62 интервью)"]:::gershtein
+        G2["Setka-AN / Setka-MO programs<br/>(Soviet UFO research orgs)<br/>Программы «Сетка-АН» / «Сетка-МО»<br/>(советские УФО-структуры)"]:::gershtein
+        G3["Kapustin Yar General Sopkov<br/>(green-ellipsoid weapons-range sighting)<br/>Капустин Яр генерал Сопков<br/>(зелёный эллипсоид над полигоном)"]:::gershtein
+        G4["Project CONDIGN translation<br/>(UK MoD plasma framework)<br/>Перевод проекта CONDIGN<br/>(плазменный фреймворк UK MoD)"]:::gershtein
+        G5["Soviet ball-lightning literature<br/>(Kapitsa-era, Pravda Severa 1972,<br/>Tekhnika Molodyozhi 1982)<br/>Советская литература по<br/>шаровой молнии"]:::gershtein
     end
 
     T1["Theme 1<br/>Element 115 / Moscovium<br/>Тема 1<br/>Элемент 115 / Московий"]:::theme
     T2["Theme 2<br/>Time / space-time<br/>Тема 2<br/>Время / пространство-время"]:::theme
     T3["Theme 3<br/>Soviet aerospace lineage<br/>Тема 3<br/>Советская аэрокосмическая линия"]:::theme
     T4["Theme 4<br/>US federal disclosure lineage<br/>Тема 4<br/>Линия федерального раскрытия США"]:::theme
+    T5["Theme 5<br/>Plasma phenomena US-UK-Soviet<br/>Тема 5<br/>Плазменные явления США-Великобритания-СССР"]:::theme
 
     L1 ==> L2
     L1 ==> L3
@@ -71,6 +88,10 @@ graph TB
     P1 ==> P3
     P1 ==> P4
     P1 ==> P5
+    P1 ==> P6
+    P1 ==> P7
+    P1 ==> P8
+    P1 ==> P9
 
     P2 -.->|"propulsion-form link<br/>форменная связь"| T1
     P5 -.->|"MHD propulsion link<br/>связь МГД"| T1
@@ -78,7 +99,28 @@ graph TB
     P4 -.->|"diplomatic-cable link<br/>дипломатически-кабельная связь"| T3
     P1 -.->|"federal-disclosure anchor<br/>якорь федерального раскрытия"| T4
 
+    P6 -.->|"plasma anchor<br/>плазменный якорь"| T5
+    P9 -.->|"plasma anchor<br/>плазменный якорь"| T5
+    P7 -.->|"federal-disclosure anchor<br/>якорь федерального раскрытия"| T4
+    P8 -.->|"Soviet-bloc HUMINT<br/>советская HUMINT-разведка"| T3
+    P6 -.->|"propulsion-form taxonomy<br/>форменная таксономия пропульсии"| T1
+
+    G1 ==> G2
+    G1 ==> G3
+    G1 ==> G4
+    G1 ==> G5
+
+    G4 -.->|"plasma anchor (UK)<br/>плазменный якорь (UK)"| T5
+    G5 -.->|"plasma anchor (Soviet)<br/>плазменный якорь (СССР)"| T5
+    G3 -.->|"Soviet weapons-range parallel<br/>советский полигон параллель"| T3
+    G2 -.->|"Soviet aerospace lineage<br/>советская аэрокосмическая линия"| T3
+
     L3 -.->|"shared propulsion topic<br/>общая тема двигателя"| P5
+    P6 -.->|"NM nuclear-complex anchor<br/>якорь NM ядерного комплекса"| L2
+    P7 -.->|"orb morphology parallel<br/>морфологический параллель сфер"| L3
+    P8 -.->|"Soviet weapons-range parallel<br/>советский полигон параллель"| C3
+    P8 -.->|"Soviet-bloc HUMINT<br/>советская HUMINT-разведка"| G3
+    P9 -.->|"LANL physicist UAP discourse<br/>дискурс LANL по UAP"| L3
 
     linkStyle 0 stroke:#c2185b,stroke-width:3px
     linkStyle 1 stroke:#c2185b,stroke-width:3px
