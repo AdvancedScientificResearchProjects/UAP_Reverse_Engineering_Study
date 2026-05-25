@@ -9113,35 +9113,37 @@ PURSUE Release 02 was published by the U.S. Department of War on **2026-05-22**,
 
 ### §12.1 R02 composition / Состав R02
 
-| Type | Count | Distribution mechanism |
+| Type / Тип | Count / Кол-во | Distribution mechanism / Механизм распространения |
 |---|---|---|
-| PDF documents | 6 | `release_02_document_bundle.zip` (67 MB) — direct download |
-| Audio excerpts (NASA Mercury/Apollo) | 7 | DVIDS-hosted, distributed via video bundle |
-| Video (DOW unresolved/pending reports) | 51 | DVIDS-hosted, distributed via `uap052226.zip` (5.6 GB) |
-| **Total records** | **64** | (50 unique DVIDS video assets + 1 shared by PR057a/b, plus 7 audio = 57 unique media files) |
+| PDF documents<br/>**RU:** PDF-документы | 6 | `release_02_document_bundle.zip` (67 MB) — direct download / прямая загрузка |
+| Audio excerpts (NASA Mercury/Apollo)<br/>**RU:** Аудиовыборки (NASA Mercury/Apollo) | 7 | DVIDS-hosted, distributed via video bundle / на хостинге DVIDS, распространяется через видео-bundle |
+| Video (DOW unresolved/pending reports)<br/>**RU:** Видео (отчёты DOW «нерешённые/ожидающие») | 51 | DVIDS-hosted, distributed via `uap052226.zip` (5.6 GB) / на хостинге DVIDS, через `uap052226.zip` (5,6 ГБ) |
+| **Total records / Всего записей** | **64** | (50 unique DVIDS video assets + 1 shared by PR057a/b, plus 7 audio = 57 unique media files) / (50 уникальных DVIDS-видеоактивов + 1 общий для PR057a/b, плюс 7 аудио = 57 уникальных медиафайлов) |
 
 ### §12.2 R02 agency breakdown / Распределение R02 по ведомствам
 
-| Agency | R02 records | First time in PURSUE? |
+| Agency / Ведомство | R02 records / Записи R02 | First time in PURSUE? / Впервые в PURSUE? |
 |---|---|---|
-| Department of War (DOW) | 52 | No (continues R01 PR-series + adds D017) |
-| NASA | 7 | No (continues R01 NASA spaceflight cluster) |
-| Department of Energy (DOE) | 3 | **YES — first DOE records** |
-| Central Intelligence Agency (CIA) | 1 | **YES — first CIA record** |
-| Office of the Director of National Intelligence (ODNI) | 1 | **YES — first ODNI record** |
+| Department of War (DOW)<br/>**RU:** Министерство войны (DOW) | 52 | No (continues R01 PR-series + adds D017)<br/>**RU:** Нет (продолжает PR-серию R01 + добавляет D017) |
+| NASA | 7 | No (continues R01 NASA spaceflight cluster)<br/>**RU:** Нет (продолжает NASA-кластер пилотируемых полётов R01) |
+| Department of Energy (DOE)<br/>**RU:** Министерство энергетики (DOE) | 3 | **YES — first DOE records**<br/>**RU:** **ДА — первые записи DOE** |
+| Central Intelligence Agency (CIA)<br/>**RU:** Центральное разведывательное управление (CIA) | 1 | **YES — first CIA record**<br/>**RU:** **ДА — первая запись CIA** |
+| Office of the Director of National Intelligence (ODNI)<br/>**RU:** Офис директора национальной разведки (ODNI) | 1 | **YES — first ODNI record**<br/>**RU:** **ДА — первая запись ODNI** |
 
 R02 thus expands the PURSUE agency-set from 4 (DoW/FBI/NASA/State in R01) to **7 distinct contributing agencies**, plus the coordinating ODNI body.
 
+**RU:** R02 таким образом расширяет набор ведомств PURSUE с 4 (DoW/FBI/NASA/State в R01) до **7 различных вносящих ведомств**, плюс координирующий орган ODNI.
+
 ### §12.3 Six new R02 PDFs — verdict-bearing claim summary / Шесть новых PDF R02 — резюме claim с вердиктами
 
-| Code | Headline finding | Verdict |
+| Code / Код | Headline finding / Главная находка | Verdict / Вердикт |
 |---|---|---|
-| [`CIA-UAP-D001`](per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md) | CIA HUMINT debriefing (Nov 1972 – Nov 1973) of former Soviet citizen describing Sary Shagan Weapons Testing Range; embedded "one unidentified aerial phenomenon" in an otherwise conventional ABM/SAM/laser-research intelligence report | ✅ structurally CORROBORATED; ⬛ REDACTED on the UAP body detail |
-| [`DOE-UAP-D001`](per-document/DOE-UAP-D001_PANTEX-RADAR.md) | Pantex (nuclear-weapons assembly facility, TX) Ground Surveillance Radar Tower captures unidentified object; Sandia performs image enhancement | ⬛ REDACTED on object description (UCNI); ✅ on process chain |
-| [`DOE-UAP-D002`](per-document/DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md) | James L. Tuck (Manhattan Project veteran, senior LANL physicist) requests simulated-atomic-bomb recipe to study large atmospheric vortices reported in Condon Report; correspondent links to ball lightning, McCampbell *UFOLOGY* (1976), Einstein unified-field-theory work | ✅ CORROBORATED |
-| [`DOE-UAP-D003`](per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md) | Pajarito Astronomers (LANL-embedded amateur astronomy club) hosts Dr John Warren (LANL AT-6) for talk "Why Should a Scientist be Concerned about UFO's?" on 29 May 1986 at Fuller Lodge | ✅ CORROBORATED |
-| [`DOW-UAP-D017`](per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md) | Sandia Base / Kirtland AFB / 17th OSI District 1948–1950 compilation of UAP sightings, classified in 3 District categories (green-fireball / disc / misc); includes Dr Lincoln LaPaz consulting; technical impactment-sampling programme at Socorro 24 July 1949 and after; Camp Hood TX cross-correlation; Starvation Peak Incident reference | ✅ CORROBORATED |
-| [`ODNI-UAP-D001`](per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md) | USPER first-person narrative by senior USIC officer: helicopter encounter at U.S. weapons test range in late 2025; FLIR "super-hot" closing object split-into-two; "countless orange orbs swarming" at mountain backdrop; "T"-formation orbs at 700 ft hover sequentially flaring/dimming; same orbs subsequently "chasing" fighter jets at ~23,000 ft AGL; PAIRS with R01 FBI Photo A001–A008 + B001–B024 (32 records) + R01 USPER Statement | ✅ CORROBORATED at narrative-evidence tier; ⬛ REDACTED on witness identity by USPER policy |
+| [`CIA-UAP-D001`](per-document/CIA-UAP-D001_USSR-SARY-SHAGAN-1973.md) | CIA HUMINT debriefing (Nov 1972 – Nov 1973) of former Soviet citizen describing Sary Shagan Weapons Testing Range; embedded "one unidentified aerial phenomenon" in an otherwise conventional ABM/SAM/laser-research intelligence report<br/>**RU:** HUMINT-дебрифинг ЦРУ (ноя 1972 – ноя 1973) бывшего советского гражданина, описывающего полигон Сары-Шаган; встроенное «одно неопознанное воздушное явление» внутри в остальном конвенциональный разведотчёт о ПРО/ЗРК/лазерных исследованиях | ✅ structurally CORROBORATED; ⬛ REDACTED on the UAP body detail |
+| [`DOE-UAP-D001`](per-document/DOE-UAP-D001_PANTEX-RADAR.md) | Pantex (nuclear-weapons assembly facility, TX) Ground Surveillance Radar Tower captures unidentified object; Sandia performs image enhancement<br/>**RU:** Башня наземного радара слежения Pantex (объект сборки ядерных боеприпасов, TX) захватывает неопознанный объект; Sandia выполняет усиление изображения | ⬛ REDACTED on object description (UCNI); ✅ on process chain |
+| [`DOE-UAP-D002`](per-document/DOE-UAP-D002_JAMES-TUCK-CORRESPONDENCE.md) | James L. Tuck (Manhattan Project veteran, senior LANL physicist) requests simulated-atomic-bomb recipe to study large atmospheric vortices reported in Condon Report; correspondent links to ball lightning, McCampbell *UFOLOGY* (1976), Einstein unified-field-theory work<br/>**RU:** Джеймс Так (ветеран Манхэттенского проекта, старший физик LANL) запрашивает рецепт симуляции атомного взрыва для изучения больших атмосферных вихрей, описанных в Condon Report; корреспондент связывает с шаровой молнией, *UFOLOGY* МакКэмпбелла (1976), работой Эйнштейна по единой теории поля | ✅ CORROBORATED |
+| [`DOE-UAP-D003`](per-document/DOE-UAP-D003_PAJARITO-ASTRONOMERS.md) | Pajarito Astronomers (LANL-embedded amateur astronomy club) hosts Dr John Warren (LANL AT-6) for talk "Why Should a Scientist be Concerned about UFO's?" on 29 May 1986 at Fuller Lodge<br/>**RU:** Pajarito Astronomers (любительский астроклуб внутри LANL) принимает д-ра Джона Уоррена (LANL AT-6) с докладом «Почему учёный должен интересоваться НЛО?» 29 мая 1986 в Fuller Lodge | ✅ CORROBORATED |
+| [`DOW-UAP-D017`](per-document/DOW-UAP-D017_SANDIA-GREEN-FIREBALLS.md) | Sandia Base / Kirtland AFB / 17th OSI District 1948–1950 compilation of UAP sightings, classified in 3 District categories (green-fireball / disc / misc); includes Dr Lincoln LaPaz consulting; technical impactment-sampling programme at Socorro 24 July 1949 and after; Camp Hood TX cross-correlation; Starvation Peak Incident reference<br/>**RU:** Sandia Base / Kirtland AFB / 17-й округ OSI 1948–1950 — сборка отчётов о наблюдениях UAP, классифицированных по 3 окружным категориям (зелёный фаербол / диск / разное); включает консультации д-ра Линкольна ЛаПаса; техническая impactment-программа выборки в Сокорро 24 июля 1949 и далее; кросс-корреляция с Camp Hood TX; ссылка на инцидент Starvation Peak | ✅ CORROBORATED |
+| [`ODNI-UAP-D001`](per-document/ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md) | USPER first-person narrative by senior USIC officer: helicopter encounter at U.S. weapons test range in late 2025; FLIR "super-hot" closing object split-into-two; "countless orange orbs swarming" at mountain backdrop; "T"-formation orbs at 700 ft hover sequentially flaring/dimming; same orbs subsequently "chasing" fighter jets at ~23,000 ft AGL; PAIRS with R01 FBI Photo A001–A008 + B001–B024 (32 records) + R01 USPER Statement<br/>**RU:** USPER-нарратив от первого лица старшего офицера USIC: вертолётная встреча на американском полигоне испытания оружия в конце 2025; «сверх-горячий» сближающийся объект в FLIR, разделившийся на два; «бесчисленные оранжевые сферы роящиеся» на фоне горы; «T»-формация сфер на зависании 700 футов последовательно вспыхивающие/затухающие; те же сферы затем «преследующие» истребители на ~23 000 футов AGL; ПАРАМ R01 FBI Photo A001–A008 + B001–B024 (32 записи) + USPER-заявление R01 | ✅ CORROBORATED at narrative-evidence tier; ⬛ REDACTED on witness identity by USPER policy |
 
 ### §12.4 Key institutional signal — DOE breaks categorical exclusion / Ключевой институциональный сигнал — DOE снимает категорическое исключение
 
@@ -9166,53 +9168,82 @@ All 51 PR050–PR099 records and all 7 NASA D008–D014 audio records now have p
 
 ### §13.1 Operationally significant individual R02 videos / Операционно значимые отдельные видео R02
 
-| Code | Significance | Verdict |
+| Code / Код | Significance / Значимость | Verdict / Вердикт |
 |---|---|---|
-| `DOW-UAP-PR071` | "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]" — referring to the publicly-acknowledged Lake Huron shootdown of 12 February 2023. **The only kinetic engagement record in the entire PURSUE corpus** (R01+R02). Independently corroborated by Biden White House remarks 16 Feb 2023, NORTHCOM/NORAD briefings, GEN VanHerck; AIM-9X identification is public-record. | ✅ CORROBORATED |
-| `DOW-UAP-PR064` | "AFSOC Kabul UAP Jul 2017" — pre-withdrawal Kabul-area incident, otherwise unreported in public record. AFSOC platform = MC-130/CV-22/AC-130 class. | ⚠ PARTIAL |
-| `DOW-UAP-PR065` + `PR066` | USCG HC-144A Ocean Sentry, Tyndall AFB UAP "TIC TAC" IR hot, 24 April 2024 — **first U.S. Coast Guard-attributed records in the PURSUE corpus**. Uploader invokes USS Nimitz 2004 "TIC TAC" morphology; AARO declines, retreating to "area of contrast". PR066 has the strongest single phenomenological signal in the visible R02 PR-cluster: AARO's explicit "sensor pans to the left, but is unable to track" — rare admission that target angular velocity exceeded AN/AAS-52 Star SAFIRE III gimbal slew rate. | ⚠ PARTIAL |
-| `DOW-UAP-PR072` | "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan" — **only Soviet-bloc geography record in R02**, only record with explicit "digitally altered before upload" disclosure, only "ADMINISTRATIVE REVISION" prefix. Karaganda area ~600 km north of Sary Shagan (cf. CIA-UAP-D001). | ✅ CORROBORATED |
-| `DOW-UAP-PR057a` + `PR057b` | Shared DVIDS asset 1007720 (byte-identical, sha256 `902e1a4d…`, 32,239,151 bytes) catalogued as two records because two uploaders independently titled the same classified-network file differently. AARO's own description preserves the geographic inconsistency: prose says Yellow Sea, PR057b title says East China Sea. | ⚠ PARTIAL on segmentation rationale; ✅ on AARO-acknowledged provenance |
-| `DOW-UAP-PR060`–`PR063` | Four-clip 2021/04/12 single-encounter cluster — the only four-clip same-encounter release in R02. Internal asymmetry: PR061 detection-and-loss bottom-loaded, PR062 longest sustained track + only "color + IR" modality, PR063 top-loaded with active-voice operator track-abandonment, PR060 "obj 2" implying at least two distinct tracked objects. Upload-timing split (PR062+PR063 May 2024, PR060+PR061 June 2024) suggests two-batch ingest. | ⚠ PARTIAL |
-| `DOW-UAP-PR077` + `PR078` | Same date (2 Nov 2020), same dual-CALLSIGN, two distinct DVIDS assets (1007809 / 1007812) of identical 298 s duration, prose-identical AARO timelines + AARO's explicit "not duplicates" comment. Most parsimonious read: dual-platform IR confirmation pair. Structurally distinct from PR057a/b shared-DVIDS pattern. | ✅ CORROBORATED |
-| `DOW-UAP-PR088` + `PR089` | Sequential-DVIDS pair, same date (31 Aug 2020), identical 4:58 durations, joint ~10-minute multi-target IR encounter. Strong candidate MISREP pair with R01 `DOW-D42` (Range Fouler, 31 Aug 2020 Arabian Gulf, 482 ATKS, "Other Shape + Apparent Propulsion", 3 contacts). | ✅ CORROBORATED |
-| `DOW-UAP-PR090` | 24 Aug 2020 — strongest exact-date PR-to-MISREP candidate in R02: matches R01 `DOW-D56` uniquely (HSM-73 MH-60R Seahawk, 3 small air contacts, North Arabian Sea, 00:04:30Z Night). Would be the first Navy-MISREP-to-PR pair in PURSUE if confirmed. | 🟧 ANALYTICAL FLAG |
-| `DOW-UAP-PR099` | "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z" — **internal AARO metadata inconsistency**: title field says 25SEP19, description paragraph quotes 23SEP19. AARO data-integrity anomaly preserved across release. | ⚠ PARTIAL |
-| `DOW-UAP-PR068` | "IIR 1 666 S0151 23/Video Footage of UAP" — IIR-formatted INTREP video record | ✅ CORROBORATED |
+| `DOW-UAP-PR071` | "USAF ANG F-16C (callsign [CALLSIGN]) Shoots Down UAP over Lake Huron with [CALLSIGN]" — referring to the publicly-acknowledged Lake Huron shootdown of 12 February 2023. **The only kinetic engagement record in the entire PURSUE corpus** (R01+R02). Independently corroborated by Biden White House remarks 16 Feb 2023, NORTHCOM/NORAD briefings, GEN VanHerck; AIM-9X identification is public-record.<br/>**RU:** «USAF ANG F-16C (callsign [CALLSIGN]) сбивает UAP над Lake Huron с [CALLSIGN]» — относится к публично признанному сбитию над Lake Huron 12 февраля 2023. **Единственная запись кинетического поражения во всём корпусе PURSUE** (R01+R02). Независимо подтверждено замечаниями Белого Дома Байдена 16 фев 2023, брифингами NORTHCOM/NORAD, GEN VanHerck; идентификация AIM-9X — публичный факт. | ✅ CORROBORATED |
+| `DOW-UAP-PR064` | "AFSOC Kabul UAP Jul 2017" — pre-withdrawal Kabul-area incident, otherwise unreported in public record. AFSOC platform = MC-130/CV-22/AC-130 class.<br/>**RU:** «AFSOC Кабул UAP июл 2017» — инцидент в Кабульском регионе до вывода войск, в остальном не зафиксированный в публичной хронике. Платформа AFSOC = класс MC-130/CV-22/AC-130. | ⚠ PARTIAL |
+| `DOW-UAP-PR065` + `PR066` | USCG HC-144A Ocean Sentry, Tyndall AFB UAP "TIC TAC" IR hot, 24 April 2024 — **first U.S. Coast Guard-attributed records in the PURSUE corpus**. Uploader invokes USS Nimitz 2004 "TIC TAC" morphology; AARO declines, retreating to "area of contrast". PR066 has the strongest single phenomenological signal in the visible R02 PR-cluster: AARO's explicit "sensor pans to the left, but is unable to track" — rare admission that target angular velocity exceeded AN/AAS-52 Star SAFIRE III gimbal slew rate.<br/>**RU:** USCG HC-144A Ocean Sentry, Tyndall AFB UAP «TIC TAC» горячий в ИК, 24 апреля 2024 — **первые записи в корпусе PURSUE, приписанные Береговой охране США**. Загрузчик ссылается на морфологию «TIC TAC» USS Nimitz 2004; AARO отказывается, отступая к «area of contrast». PR066 содержит сильнейший единичный феноменологический сигнал в видимой части PR-кластера R02: явное AARO «сенсор панорамирует влево, но не способен сопровождать» — редкое признание, что угловая скорость цели превысила скорость поворота гимбала AN/AAS-52 Star SAFIRE III. | ⚠ PARTIAL |
+| `DOW-UAP-PR072` | "ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan" — **only Soviet-bloc geography record in R02**, only record with explicit "digitally altered before upload" disclosure, only "ADMINISTRATIVE REVISION" prefix. Karaganda area ~600 km north of Sary Shagan (cf. CIA-UAP-D001).<br/>**RU:** «ADMINISTRATIVE REVISION: IIR 1777 J0032 22 Kazakhstan» — **единственная запись с географией советского блока в R02**, единственная запись с явным раскрытием «цифровая обработка перед загрузкой», единственный префикс «ADMINISTRATIVE REVISION». Регион Караганды ~600 км к северу от Сары-Шагана (ср. CIA-UAP-D001). | ✅ CORROBORATED |
+| `DOW-UAP-PR057a` + `PR057b` | Shared DVIDS asset 1007720 (byte-identical, sha256 `902e1a4d…`, 32,239,151 bytes) catalogued as two records because two uploaders independently titled the same classified-network file differently. AARO's own description preserves the geographic inconsistency: prose says Yellow Sea, PR057b title says East China Sea.<br/>**RU:** Общий DVIDS-актив 1007720 (байтово-идентичный, sha256 `902e1a4d…`, 32 239 151 байт) каталогизирован как две записи, потому что два загрузчика независимо озаглавили один и тот же файл закрытой сети по-разному. Само описание AARO сохраняет географическое несоответствие: проза говорит «Жёлтое море», заголовок PR057b — «Восточно-Китайское море». | ⚠ PARTIAL on segmentation rationale; ✅ on AARO-acknowledged provenance |
+| `DOW-UAP-PR060`–`PR063` | Four-clip 2021/04/12 single-encounter cluster — the only four-clip same-encounter release in R02. Internal asymmetry: PR061 detection-and-loss bottom-loaded, PR062 longest sustained track + only "color + IR" modality, PR063 top-loaded with active-voice operator track-abandonment, PR060 "obj 2" implying at least two distinct tracked objects. Upload-timing split (PR062+PR063 May 2024, PR060+PR061 June 2024) suggests two-batch ingest.<br/>**RU:** Четырёхклиповый одно-событийный кластер 12.04.2021 — единственный four-clip же-событие релиз в R02. Внутренняя асимметрия: PR061 — обнаружение-и-потеря в нижней части, PR062 — самый длительный устойчивый трек + единственная модальность «цвет + ИК», PR063 — top-loaded с активно-голосовым отказом оператора от трека, PR060 — «obj 2», подразумевающее как минимум два различных отслеживаемых объекта. Временной сплит загрузки (PR062+PR063 май 2024, PR060+PR061 июнь 2024) предполагает двух-партийный ингест. | ⚠ PARTIAL |
+| `DOW-UAP-PR077` + `PR078` | Same date (2 Nov 2020), same dual-CALLSIGN, two distinct DVIDS assets (1007809 / 1007812) of identical 298 s duration, prose-identical AARO timelines + AARO's explicit "not duplicates" comment. Most parsimonious read: dual-platform IR confirmation pair. Structurally distinct from PR057a/b shared-DVIDS pattern.<br/>**RU:** Одна дата (2 ноя 2020), один и тот же dual-CALLSIGN, два различных DVIDS-актива (1007809 / 1007812) идентичной длительности 298 с, прозо-идентичные хронологии AARO + явный комментарий AARO «не дубликаты». Наиболее парсимоничное прочтение: пара двух-платформенного ИК-подтверждения. Структурно отличается от паттерна PR057a/b с общим DVIDS. | ✅ CORROBORATED |
+| `DOW-UAP-PR088` + `PR089` | Sequential-DVIDS pair, same date (31 Aug 2020), identical 4:58 durations, joint ~10-minute multi-target IR encounter. Strong candidate MISREP pair with R01 `DOW-D42` (Range Fouler, 31 Aug 2020 Arabian Gulf, 482 ATKS, "Other Shape + Apparent Propulsion", 3 contacts).<br/>**RU:** Последовательно-DVIDS пара, одна дата (31 авг 2020), идентичные длительности 4:58, совместная ~10-минутная мульти-целевая ИК-встреча. Сильный кандидат-пара с MISREP R01 `DOW-D42` (Range Fouler, 31 авг 2020 Аравийский залив, 482 ATKS, «другая форма + кажущаяся пропульсия», 3 контакта). | ✅ CORROBORATED |
+| `DOW-UAP-PR090` | 24 Aug 2020 — strongest exact-date PR-to-MISREP candidate in R02: matches R01 `DOW-D56` uniquely (HSM-73 MH-60R Seahawk, 3 small air contacts, North Arabian Sea, 00:04:30Z Night). Would be the first Navy-MISREP-to-PR pair in PURSUE if confirmed.<br/>**RU:** 24 авг 2020 — сильнейший кандидат точно-датного PR-к-MISREP в R02: уникально совпадает с R01 `DOW-D56` (HSM-73 MH-60R Seahawk, 3 малых воздушных контакта, Северное Аравийское море, 00:04:30Z Ночь). Стало бы первой Navy-MISREP-to-PR парой в PURSUE при подтверждении. | 🟧 ANALYTICAL FLAG |
+| `DOW-UAP-PR099` | "Hi-Res: [CALLSIGN] Observes UAP on 25SEP19 at 1715Z" — **internal AARO metadata inconsistency**: title field says 25SEP19, description paragraph quotes 23SEP19. AARO data-integrity anomaly preserved across release.<br/>**RU:** «Hi-Res: [CALLSIGN] наблюдает UAP 25SEP19 в 1715Z» — **внутренняя несогласованность метаданных AARO**: поле заголовка говорит 25SEP19, абзац описания цитирует 23SEP19. Аномалия целостности данных AARO сохранена в релизе. | ⚠ PARTIAL |
+| `DOW-UAP-PR068` | "IIR 1 666 S0151 23/Video Footage of UAP" — IIR-formatted INTREP video record<br/>**RU:** «IIR 1 666 S0151 23/Видеоматериал UAP» — видеозапись INTREP в формате IIR | ✅ CORROBORATED |
 
 ### §13.2 R02 PR-cluster cross-cutting findings / Сквозные находки по PR-кластеру R02
 
 From the topical synthesis ([`r02-dow-pr-050-099-cluster.md`](topical/r02-dow-pr-050-099-cluster.md)):
 
 1. **CENTCOM dominance with new institutional pathways**: ~36 of 51 records are CENTCOM (Persian Gulf, Arabian Sea, Iraq, Syria, Iran). R02 opens four pathways absent from R01: USCG (PR065/PR066), AFRICOM (PR081+PR082 micro-cluster), Soviet-bloc (PR072), and NORTHCOM (PR071 + PR086 East Coast).
+
+   **RU:** **Доминирование CENTCOM с новыми институциональными каналами**: ~36 из 51 записей — CENTCOM (Персидский залив, Аравийское море, Ирак, Сирия, Иран). R02 открывает четыре канала, отсутствовавших в R01: USCG (PR065/PR066), AFRICOM (микрокластер PR081+PR082), советский блок (PR072) и NORTHCOM (PR071 + PR086 Восточное побережье).
+
 2. **August–November 2020 sustained CENTCOM cluster**: ~13 records over ~15 weeks (21 Aug → 2 Nov 2020), chaining PR091 → PR090 → PR088+PR089 → PR087 → PR085 → PR084 → PR083 → PR080 → PR079 → PR077+PR078. Overlaps temporally with R01 MISREP cohort of the same window — **suggesting R01 and R02 are decomposed cuts (MISREP-side / video-side) of a single underlying operational dataset**.
+
+   **RU:** **Непрерывный CENTCOM-кластер авг.–ноя. 2020**: ~13 записей за ~15 недель (21 авг → 2 ноя 2020), цепочка PR091 → PR090 → PR088+PR089 → PR087 → PR085 → PR084 → PR083 → PR080 → PR079 → PR077+PR078. Перекрывается по времени с MISREP-кохортой R01 того же окна — **что предполагает, что R01 и R02 — декомпозированные срезы (MISREP-сторона / видео-сторона) единого операционного набора**.
+
 3. **AARO lexical pre-emption pattern** (PR051 + PR054 specifically): AARO procedurally classifies records as "Unresolved" while its descriptive lexicon already pre-empts the uploader's anomalous framing ("sensor stops tracking, **causing** rapid exit"; "alterations **significantly influence** apparent performance characteristics"). Emerging editorial signal.
+
+   **RU:** **Паттерн лексического упреждения AARO** (конкретно PR051 + PR054): AARO процедурно классифицирует записи как «Нерешённые», в то время как её описательная лексика уже упреждает аномальный фрейминг загрузчика («сенсор прекращает сопровождение, **вызывая** быстрый уход»; «правки **значительно влияют** на кажущиеся характеристики производительности»). Растущий редакторский сигнал.
+
 4. **Five segmentation patterns documented in R02**: shared-DVIDS single-asset (PR057a/b); dual-platform IR confirmation (PR077+PR078); sequential-DVIDS same-encounter (PR088+PR089); distinct-DVIDS identical-title (PR093+PR095); four-clip single-encounter (PR060-063).
+
+   **RU:** **Пять паттернов сегментации, задокументированных в R02**: общий DVIDS — единый актив (PR057a/b); двух-платформенное ИК-подтверждение (PR077+PR078); последовательно-DVIDS же-событие (PR088+PR089); различные DVIDS, идентичные заголовки (PR093+PR095); четырёхклиповое одно-событие (PR060–063).
+
 5. **Same-month upload anomaly**: PR088–PR091 uploaded August 2020, not the typical June 2024 of the rest of R02 — distinct contemporaneous reporting workflow vs. retroactive declassification.
+
+   **RU:** **Аномалия загрузки в тот же месяц**: PR088–PR091 загружены в августе 2020, не в типичном для остального R02 июне 2024 — отдельный современный рабочий процесс отчётности vs. ретроактивная рассекречка.
+
 6. **Provenance compromise (PR072 only)**: PR072 is the only R02 record AARO acknowledges as "digitally altered before upload" — applied to the only Soviet-bloc geography. Trust degradation isolated.
+
+   **RU:** **Провенансный компромисс (только PR072)**: PR072 — единственная R02-запись, которую AARO признаёт «цифрово обработанной перед загрузкой» — применено к единственной географии советского блока. Деградация доверия изолирована.
 
 ### §13.3 NASA Mercury–Apollo audio cluster (D008–D014) / §13.3 Кластер NASA Mercury–Apollo аудио
 
 7 audio excerpts spanning 11 years (21 Jul 1961 → 7 Dec 1972). The cluster **extends the R01 NASA spaceflight topical 4.5 years backward to 1961**:
 
-| Code | Mission | Pilot | Date | UAP-relevant content |
+| Code / Код | Mission / Миссия | Pilot / Пилот | Date / Дата | UAP-relevant content / UAP-релевантное содержание |
 |---|---|---|---|---|
-| `NASA-UAP-D014` | Mercury-Redstone 4 / Liberty Bell 7 | Grissom | 21 Jul 1961 | Thinnest UAP-relevance — dye-pack recovery audio, ~26s. Negative-control baseline for AARO curation rubric. |
-| `NASA-UAP-D013` | Mercury Atlas 7 / Aurora 7 | Carpenter | 24 May 1962 | "Snowflakes…some faster than spacecraft" — programmatic Glenn-fireflies follow-up |
-| `NASA-UAP-D012` | Mercury Atlas 8 / Sigma 7 | Schirra | 3 Oct 1962 | "Lathe shavings" morphology observation + unresolved burst-of-light |
-| `NASA-UAP-D010`+`D011` | Mercury Atlas 9 / Faith 7 | Cooper | 15 May 1963 | Cooper sunrise + beacon-deployment "fireflies"; D010 contains explicit Glenn-reference moment ("John's fireflies"). Paired segments (180s + 494s). |
-| `NASA-UAP-D008` | Apollo 12 medical debriefing | Conrad/Bean/Gordon | 1969 | **Whisper-verified content**: crew describes cosmic-ray-induced phosphenes ("you can get discharge across your eye from gamma rays… the first night out, bing, bing… the horizontal streets… went from right to left no matter which eye it was in"). Established phosphene closure — radiation-safety signal NASA later catalogued. |
-| `NASA-UAP-D009` | Apollo 17 S-IVB particle field | Cernan/Schmitt/Evans | 7 Dec 1972 | Crew self-resolved as paint/ice from S-IVB |
+| `NASA-UAP-D014` | Mercury-Redstone 4 / Liberty Bell 7 | Grissom | 21 Jul 1961 | Thinnest UAP-relevance — dye-pack recovery audio, ~26s. Negative-control baseline for AARO curation rubric.<br/>**RU:** Тончайшая UAP-релевантность — аудио пакета красителя при спасении, ~26 с. Негативно-контрольная база для рубрики курации AARO. |
+| `NASA-UAP-D013` | Mercury Atlas 7 / Aurora 7 | Carpenter | 24 May 1962 | "Snowflakes…some faster than spacecraft" — programmatic Glenn-fireflies follow-up<br/>**RU:** «Снежинки…некоторые быстрее аппарата» — программное последование Glenn-светлячкам |
+| `NASA-UAP-D012` | Mercury Atlas 8 / Sigma 7 | Schirra | 3 Oct 1962 | "Lathe shavings" morphology observation + unresolved burst-of-light<br/>**RU:** Наблюдение морфологии «стружка токарного станка» + нерешённая вспышка света |
+| `NASA-UAP-D010`+`D011` | Mercury Atlas 9 / Faith 7 | Cooper | 15 May 1963 | Cooper sunrise + beacon-deployment "fireflies"; D010 contains explicit Glenn-reference moment ("John's fireflies"). Paired segments (180s + 494s).<br/>**RU:** Cooper — рассвет + развёртывание маяков «светлячки»; D010 содержит явный Glenn-референсный момент («John's fireflies»). Парные сегменты (180 с + 494 с). |
+| `NASA-UAP-D008` | Apollo 12 medical debriefing | Conrad/Bean/Gordon | 1969 | **Whisper-verified content**: crew describes cosmic-ray-induced phosphenes ("you can get discharge across your eye from gamma rays… the first night out, bing, bing… the horizontal streets… went from right to left no matter which eye it was in"). Established phosphene closure — radiation-safety signal NASA later catalogued.<br/>**RU:** **Содержание, верифицированное Whisper**: экипаж описывает фосфены, индуцированные космическими лучами («можно получить разряд через глаз от гамма-лучей… первая ночь, бинг, бинг… горизонтальные улицы… шли справа налево независимо от того, в каком это глазе»). Установленное фосфеновое закрытие — сигнал радиационной безопасности, который NASA позже каталогизировала. |
+| `NASA-UAP-D009` | Apollo 17 S-IVB particle field | Cernan/Schmitt/Evans | 7 Dec 1972 | Crew self-resolved as paint/ice from S-IVB<br/>**RU:** Экипаж самостоятельно разрешил как краска/лёд от S-IVB |
 
 **Mercury "fireflies" lineage** is fully closed across both releases: Glenn's original MA-6 (Feb 1962, R01) → Carpenter MA-7 (R02) → Schirra MA-8 (R02) → Cooper MA-9 (R02). The R02 Glenn-reference moment in D010 ("John's fireflies") is the explicit narrative-continuity anchor across the R01/R02 boundary.
+
+**RU:** **Линия Mercury «светлячков»** полностью замкнута через оба релиза: оригинал MA-6 Glenn (фев 1962, R01) → Carpenter MA-7 (R02) → Schirra MA-8 (R02) → Cooper MA-9 (R02). R02-момент отсылки к Glenn в D010 («John's fireflies») — явный якорь нарративной непрерывности через границу R01/R02.
 
 ### §13.4 Whisper transcript findings (v0.2.1) / §13.4 Находки из Whisper-транскриптов
 
 All 57 unique R02 audio/video files transcribed via Groq Whisper-large-v3 (model `whisper-large-v3`), output in `transcripts/{CODE}.transcript.txt`. Total audio: 3 h 38 min.
 
+**RU:** Все 57 уникальных R02 аудио/видео-файлов транскрибированы через Groq Whisper-large-v3 (модель `whisper-large-v3`), вывод в `transcripts/{CODE}.transcript.txt`. Суммарное аудио: 3 ч 38 мин.
+
 - **NASA Mercury–Apollo audio (D008–D014)**: substantive content; all 7 transcripts contain analyzable astronaut voice content matching the historical record (Cooper "fireflies", Carpenter "snowflakes", Conrad/Bean phosphene description, etc.)
+
+  **RU:** **Аудио NASA Mercury–Apollo (D008–D014)**: содержательный материал; все 7 транскриптов содержат анализируемое голосовое содержание астронавтов, соответствующее историческим записям (Cooper «светлячки», Carpenter «снежинки», Conrad/Bean описание фосфенов и т. д.).
+
 - **DOW PR050–PR099 IR sensor videos (51 records)**: **essentially silent**. Transcripts contain only Whisper's well-known "you" artifact at ~30s intervals. This is the actual audio state — DOW IR-sensor videos are sensor-feed-only with no operator commentary tracks. Not a transcription failure.
+
+  **RU:** **Видеозаписи ИК-сенсоров DOW PR050–PR099 (51 запись)**: **по сути беззвучны**. Транскрипты содержат только хорошо известный артефакт Whisper «you» с интервалом ~30 с. Это и есть реальное состояние аудио — видео ИК-сенсоров DOW — только-сенсорный поток без треков комментариев оператора. Это не сбой транскрипции.
+
 - Per-document cards do not require re-enrichment with PR-video transcripts (the transcripts confirm what the AARO-metastub-derived cards already document: the videos are sensor feeds without audio narration). NASA audio cards COULD be enriched with verbatim quotes in a future v0.2.2 pass.
+
+  **RU:** По-документные карточки не требуют переобогащения PR-видео-транскриптами (транскрипты подтверждают то, что карточки, производные от мета-стубов AARO, уже документируют: видео — сенсорные потоки без аудио-нарратива). NASA-аудио-карточки МОГУТ быть обогащены дословными цитатами в будущем v0.2.2-проходе.
 
 ---
 
@@ -9222,23 +9253,54 @@ All 57 unique R02 audio/video files transcribed via Groq Whisper-large-v3 (model
 
 Two highly significant R02 → R01 linkages are explicit in the war.gov CSV metadata:
 
+**RU:** Две высокозначимые R02 → R01 связи явно присутствуют в CSV-метаданных war.gov:
+
 1. **`ODNI-UAP-D001` ↔ `FBI Photo A001`–`A008` + `B001`–`B024` + `USPER Statement about UAP Sighting`** (R01, 32 records). The ODNI R02 record is the *eyewitness narrative* for the R01 FBI Western US 2025 IR-photo corpus. See `ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md` for the full pairing detail and analytic implications. **This is the single most consequential R01↔R02 cross-link.**
+
+   **RU:** **`ODNI-UAP-D001` ↔ `FBI Photo A001`–`A008` + `B001`–`B024` + `USPER Statement about UAP Sighting`** (R01, 32 записи). R02-запись ODNI — это *очевидческий нарратив* для R01-корпуса FBI ИК-фотографий Запада США 2025. См. `ODNI-UAP-D001_USPER-ORANGE-ORBS-2025.md` для полной детализации пары и аналитических следствий. **Это единичная самая консеквентная R01↔R02 кросс-связь.**
+
 2. **`DOW-UAP-D017` (R02 Sandia 1948–1950) ↔ `FBI-62HQ-Sr164` (R01 Cabell Memorandum #4, Feb 1949)**. The Sandia compendium is the *operational arm* of the Cabell propulsion-taxonomy framework. The two records are response-pair in 1949 across two federal entry points (FBI custodianship of the Cabell Memo vs. OSI custodianship of the Sandia operational record).
+
+   **RU:** **`DOW-UAP-D017` (R02 Sandia 1948–1950) ↔ `FBI-62HQ-Sr164` (R01 Меморандум Кабелла #4, фев 1949)**. Sandia-сборка — *операционная рука* кабелловской рамки таксономии двигательных установок. Две записи — пара отклика в 1949 году через две федеральные точки входа (хранение меморандума Кабелла в FBI vs. хранение операционной Sandia-записи в OSI).
 
 ### §14.2 R02 → sibling ASRP archives / §14.2 R02 → смежные архивы ASRP
 
 Linkages from R02 records to other ASRP archives (NO claim importation; pointers only):
 
+**RU:** Связи от R02-записей к другим ASRP-архивам (БЕЗ импортирования утверждений; только указатели):
+
 - **`bob-lazar-archive/`** — Lazar's narrative places him at LANL/S-4 in the 1980s. R02 `DOE-UAP-D003` (1986 Pajarito talk by LANL physicist) and `DOE-UAP-D002` (1976 Tuck correspondence on UFO-adjacent atmospheric vortices) document **institutional UAP engagement at LANL during precisely the decade Lazar's narrative covers**, providing critical contextual reading material for Lazar's claims (without corroborating or refuting them).
+
+  **RU:** **`bob-lazar-archive/`** — нарратив Лазара помещает его в LANL/S-4 в 1980-е. R02 `DOE-UAP-D003` (доклад Pajarito 1986 года физика LANL) и `DOE-UAP-D002` (корреспонденция Така 1976 года по UFO-смежным атмосферным вихрям) документируют **институциональную UAP-вовлечённость в LANL ровно в то десятилетие, которое покрывает нарратив Лазара**, предоставляя критический контекстуальный читательский материал для претензий Лазара (без их подтверждения или опровержения).
+
 - **`dubna-element-115-analysis/`** — `DOE-UAP-D002` Tuck correspondence references atomic-bomb simulations, atmospheric vortices, ball lightning, and unified field theory — same conceptual genealogy as element-115 propulsion-physics discourse. `CIA-UAP-D001` (Soviet Sary Shagan 1973) is geographically and institutionally adjacent to the JINR/Dubna corpus.
+
+  **RU:** **`dubna-element-115-analysis/`** — корреспонденция Така в `DOE-UAP-D002` ссылается на симуляции атомных взрывов, атмосферные вихри, шаровую молнию и единую теорию поля — та же концептуальная генеалогия, что и дискурс физики двигательных установок на элементе-115. `CIA-UAP-D001` (советский Сары-Шаган 1973) географически и институционально смежен с корпусом JINR/Дубна.
+
 - **`chernobrov-archive/`** — `CIA-UAP-D001` is the direct U.S.-side intelligence parallel to Chernobrov's USSR-side field-investigation corpus; both centre on Soviet weapons-testing geography and overlapping decades.
+
+  **RU:** **`chernobrov-archive/`** — `CIA-UAP-D001` — прямой американо-сторонний разведпараллель к советско-стороннему корпусу полевых расследований Чернобрового; оба центрируются на советской географии испытаний оружия и перекрывающихся десятилетиях.
+
 - **`gershtein-archive/`** — `CIA-UAP-D001` Soviet-source HUMINT methodology parallels Gershteyn's compilation methodology of post-Soviet anomalous-phenomena reports.
+
+  **RU:** **`gershtein-archive/`** — HUMINT-методология `CIA-UAP-D001` из советского источника параллельна компиляционной методологии Герштейна по пост-советским отчётам об аномальных явлениях.
+
 - **`people-analysis/` (Track 6, scientists-11)** — R02 introduces LANL/Sandia/Pantex (NM nuclear-weapons complex) as documented UAP-engagement institutions, extending the institutional-cluster map established by the modern scientists-11 corpus backward by 50–75 years.
+
+  **RU:** **`people-analysis/` (Track 6, scientists-11)** — R02 вводит LANL/Sandia/Pantex (ядерно-оружейный комплекс Нью-Мексико) как документированные UAP-вовлечённые институции, продлевая институционально-кластерную карту, установленную современным корпусом scientists-11, назад на 50–75 лет.
+
 - **`osint-intelligence-analysis/`** — the 17th OSI District's 1948–1950 sighting-classification regime in `DOW-UAP-D017` is a documentary ancestor of the modern OSINT validation pipeline; methodology comparison opportunity.
+
+  **RU:** **`osint-intelligence-analysis/`** — режим классификации наблюдений 17-го округа OSI 1948–1950 в `DOW-UAP-D017` — документальный предок современного OSINT-валидационного конвейера; возможность сравнения методологий.
+
 - **`corporate-economic-analysis/` (Track 7)** — Consolidated Nuclear Security LLC (CNS, the Pantex operator named in `DOE-UAP-D001`) and Triad National Security LLC (LANL operator) are corporate-overlay targets relevant to Track 7's EG&G → Amentum lineage mapping.
+
+  **RU:** **`corporate-economic-analysis/` (Track 7)** — Consolidated Nuclear Security LLC (CNS, оператор Pantex, названный в `DOE-UAP-D001`) и Triad National Security LLC (оператор LANL) — корпоративно-наложенные цели, релевантные для картографии родословной EG&G → Amentum в Track 7.
 
 ### §14.3 R02 cross-archive synthesis update / §14.3 Обновление кросс-архивного синтеза R02
 
 `analysis/cross-archive-synthesis.md` Theme 4 (US federal disclosure lineage) has been updated to include the R02 datum about DOE breaking its categorical-exclusion posture; Theme 4 cross-link table has been extended with R02 records. See the cross-archive document for the full revised synthesis.
+
+**RU:** `analysis/cross-archive-synthesis.md` Тема 4 (родословная американского федерального раскрытия) обновлена для включения R02-датума о том, что DOE сломало свою позицию категорического исключения; таблица кросс-связей Темы 4 расширена R02-записями. См. кросс-архивный документ для полного пересмотренного синтеза.
 
 ---

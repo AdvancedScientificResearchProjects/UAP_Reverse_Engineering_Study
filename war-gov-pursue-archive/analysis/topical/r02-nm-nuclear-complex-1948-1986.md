@@ -39,15 +39,15 @@
 
 ## Cross-cluster claims / Кросс-кластерные утверждения
 
-| # | Claim | Verdict | Sources |
+| # | Claim / Утверждение | Verdict / Вердикт | Sources / Источники |
 |---|---|---|---|
-| 1 | The U.S. nuclear-weapons complex (Sandia/Kirtland/LANL/Pantex) has documented UAP institutional engagement spanning 1948–2025 (78 years) | ✅ CORROBORATED | `DOW-UAP-D017` + `DOE-UAP-D002` + `DOE-UAP-D003` + `DOE-UAP-D001` |
-| 2 | UAP intelligence collection at Sandia Base in 1949 used a categorisation system identical in structure to AARO's 2026 verdict framework (three rubrics, mutually exclusive) | ⚠ PARTIAL | `DOW-UAP-D017` lines ~963 + cross-ref to AARO MISREP form (R01 corpus) |
-| 3 | Senior LANL physicists (Tuck 1976, Warren 1986) were actively engaged with UAP-adjacent research topics — atmospheric vortices, ball lightning, unified field theory, propulsion physics — in non-classified venues, inside LANL community | ✅ CORROBORATED | `DOE-UAP-D002` + `DOE-UAP-D003` |
-| 4 | DOE has contributed UAP records to PURSUE for the first time, breaking a multi-decade categorical-exclusion pattern | ✅ CORROBORATED | R02 release act itself |
-| 5 | The 1949 Sandia compendium is the *operational implementation* parallel to the simultaneously-issued Cabell Memorandum #4 propulsion taxonomy (R01) | ⚠ PARTIAL → ✅ CORROBORATED if Cabell Memo's distribution list included Sandia | requires Cabell Memo distribution-list review (R01 cross-ref) |
-| 6 | Image-enhancement on UAP records flows through Sandia: 1949 (LaPaz impactment analysis) and modern Pantex incident both rely on Sandia analytic processing | ✅ CORROBORATED | `DOW-UAP-D017` page 6 markers + `DOE-UAP-D001` page-6 marker |
-| 7 | The geographic concentration of UAP activity in the Albuquerque–Socorro–Los Alamos corridor is documented at every decade from the 1940s to the 1980s in this cluster, plus a modern Pantex/TX extension | ✅ CORROBORATED | all four records |
+| 1 | The U.S. nuclear-weapons complex (Sandia/Kirtland/LANL/Pantex) has documented UAP institutional engagement spanning 1948–2025 (78 years)<br/>**RU:** Ядерно-оружейный комплекс США (Sandia/Kirtland/LANL/Pantex) имеет документированную институциональную вовлечённость в UAP протяжённостью 1948–2025 (78 лет) | ✅ CORROBORATED | `DOW-UAP-D017` + `DOE-UAP-D002` + `DOE-UAP-D003` + `DOE-UAP-D001` |
+| 2 | UAP intelligence collection at Sandia Base in 1949 used a categorisation system identical in structure to AARO's 2026 verdict framework (three rubrics, mutually exclusive)<br/>**RU:** Разведсбор по UAP на Sandia Base в 1949 году использовал систему категоризации, структурно идентичную рубрике вердиктов AARO 2026 года (три взаимоисключающих рубрики) | ⚠ PARTIAL | `DOW-UAP-D017` lines ~963 + cross-ref to AARO MISREP form (R01 corpus) |
+| 3 | Senior LANL physicists (Tuck 1976, Warren 1986) were actively engaged with UAP-adjacent research topics — atmospheric vortices, ball lightning, unified field theory, propulsion physics — in non-classified venues, inside LANL community<br/>**RU:** Старшие физики LANL (Так 1976, Уоррен 1986) активно занимались UAP-смежными исследованиями — атмосферные вихри, шаровая молния, единая теория поля, физика двигательных установок — в неклассифицированных площадках внутри LANL community | ✅ CORROBORATED | `DOE-UAP-D002` + `DOE-UAP-D003` |
+| 4 | DOE has contributed UAP records to PURSUE for the first time, breaking a multi-decade categorical-exclusion pattern<br/>**RU:** DOE впервые предоставило UAP-записи в PURSUE, разрушив многодесятилетний паттерн категорического исключения | ✅ CORROBORATED | R02 release act itself |
+| 5 | The 1949 Sandia compendium is the *operational implementation* parallel to the simultaneously-issued Cabell Memorandum #4 propulsion taxonomy (R01)<br/>**RU:** Sandia-сборка 1949 года — это *операционная имплементация*, параллельная одновременно выпущенной таксономии двигательных установок Меморандума Кабелла #4 (R01) | ⚠ PARTIAL → ✅ CORROBORATED if Cabell Memo's distribution list included Sandia | requires Cabell Memo distribution-list review (R01 cross-ref) |
+| 6 | Image-enhancement on UAP records flows through Sandia: 1949 (LaPaz impactment analysis) and modern Pantex incident both rely on Sandia analytic processing<br/>**RU:** Усиление изображений в UAP-записях идёт через Sandia: 1949 (impactment-анализ ЛаПаса) и современный инцидент Pantex оба опираются на аналитическую обработку Sandia | ✅ CORROBORATED | `DOW-UAP-D017` page 6 markers + `DOE-UAP-D001` page-6 marker |
+| 7 | The geographic concentration of UAP activity in the Albuquerque–Socorro–Los Alamos corridor is documented at every decade from the 1940s to the 1980s in this cluster, plus a modern Pantex/TX extension<br/>**RU:** Географическая концентрация UAP-активности в коридоре Альбукерке–Сокорро–Лос-Аламос документирована в этом кластере для каждого десятилетия с 1940-х до 1980-х, плюс современное продление до Pantex/TX | ✅ CORROBORATED | all four records |
 
 ## Cross-archive linkages / Связи с другими архивами
 
@@ -60,15 +60,43 @@
 ## Open questions / Открытые вопросы
 
 1. Does the corpus include the **full Project Twinkle** material (USAF Cambridge Research Lab investigation of green fireballs 1949–1951), or only the OSI/Sandia parallel? Project Twinkle's final report was destroyed; D017 may contain Twinkle-adjacent material.
+
+   **RU:** Включает ли корпус **полный материал Project Twinkle** (расследование зелёных фаерболов лабораторией USAF Cambridge Research Lab 1949–1951), или только параллельный OSI/Sandia-трек? Финальный отчёт Project Twinkle был уничтожен; D017 может содержать материал, смежный с Twinkle.
+
 2. The 1986 Pajarito talk by Dr John Warren — was there an internal LANL parallel briefing in a Q-cleared venue?
+
+   **RU:** Доклад Pajarito 1986 года д-ра Джона Уоррена — был ли параллельный внутренний брифинг LANL в Q-cleared помещении?
+
 3. Pantex modern incident (D001) — date, object description, FAA correlation, perimeter-sensor multi-modality verification?
+
+   **RU:** Современный инцидент Pantex (D001) — дата, описание объекта, корреляция с FAA, мульти-модальная верификация периметровыми датчиками?
+
 4. What is the **complete distribution list** of the Sandia compendium (D017)? AEC, FBI, OSI, DoD, NSC, CIA were plausible recipients in 1948–1950.
+
+   **RU:** Каков **полный список рассылки** Sandia-сборки (D017)? AEC, FBI, OSI, DoD, NSC, CIA — правдоподобные получатели в 1948–1950.
+
 5. Was the **impactment-programme** ever published or shared with academic labs? Harrison Brown's *Journal of Geology* 1948 paper (cited in D017) suggests a public scientific frame.
+
+   **RU:** Была ли **impactment-программа** когда-либо опубликована или поделена с академическими лабораториями? Статья Гаррисона Брауна в *Journal of Geology* 1948 (цитируется в D017) предполагает публичную научную рамку.
+
 6. Where is the **AEC's 1948–1950 internal correspondence** that paralleled this Sandia compendium? Likely held by DOE History office.
+
+   **RU:** Где **внутренняя корреспонденция AEC 1948–1950**, которая шла параллельно этой Sandia-сборке? Вероятно, хранится в DOE History office.
 
 ## Notes / Замечания
 
 - This synthesis treats four records as a coherent cluster despite ~38 years between extreme dates; the unifying invariant is the **institutional locus** (NM nuclear weapons complex) and the **continuous UAP engagement pattern**, not a single causal narrative.
+
+  **RU:** Этот синтез рассматривает четыре записи как когерентный кластер несмотря на ~38 лет между крайними датами; объединяющий инвариант — **институциональный локус** (ядерно-оружейный комплекс Нью-Мексико) и **непрерывный паттерн UAP-вовлечённости**, а не единая причинная нарратива.
+
 - The cluster significantly enriches the Track 11 (PURSUE) corpus's coverage of **pre-1968 historical foundations**, complementing the R01 historical block (foo-fighters 1944, AMC memos 1947, FBI 62-HQ-83894 1947–1968).
+
+  **RU:** Кластер существенно обогащает покрытие **до-1968 исторических оснований** в корпусе Track 11 (PURSUE), дополняя исторический блок R01 (foo-fighters 1944, AMC-меморандумы 1947, FBI 62-HQ-83894 1947–1968).
+
 - The cluster connects most strongly to the R02 `CIA-UAP-D001` (Soviet Sary-Shagan 1973): both records embed UAP observation inside an *infrastructure-security* intelligence frame.
+
+  **RU:** Кластер сильнее всего связан с R02 `CIA-UAP-D001` (советский Сары-Шаган 1973): обе записи встраивают UAP-наблюдение в разведывательную рамку *инфраструктурной безопасности*.
+
 - Future analysis should compare this NM nuclear-complex cluster with the **Hanford Site (WA)** and **Oak Ridge (TN)** nuclear-complex sites — both of which produced UAP-related records during the same 1948–1950 wave per Section 5 of `FBI-62HQ-83894` (R01 `FBI-62HQ-S5`).
+
+  **RU:** Будущий анализ должен сравнить этот кластер NM-ядерного-комплекса с площадками **Hanford Site (WA)** и **Oak Ridge (TN)** — обе из которых произвели UAP-связанные записи в ту же волну 1948–1950 согласно Разделу 5 `FBI-62HQ-83894` (R01 `FBI-62HQ-S5`).

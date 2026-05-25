@@ -105,17 +105,17 @@ This makes the combined R01+R02 NASA UAP corpus a **13-year continuous record** 
 
 ## Cross-cluster claims / Кросс-кластерные утверждения
 
-| # | Claim | Verdict | Sources |
+| # | Claim / Утверждение | Verdict / Вердикт | Sources / Источники |
 |---|---|---|---|
-| 1 | The R02 audio cluster D008–D014 spans 11 years (Jul 1961 – Dec 1972) across 5 distinct NASA crewed missions (MR-4, MA-7, MA-8, MA-9, Apollo 12, Apollo 17), with total audio runtime ~29.4 min | ✅ CORROBORATED | metadata of all 7 cards |
-| 2 | The Mercury "fireflies" lineage runs MA-6 (Glenn, not in PURSUE) → MA-7 (D013) → MA-8 (D012) → MA-9 (D010+D011) with explicit verbal terminology inheritance ("John's fireflies" callback in D010) and programmatic follow-up tasking (Aurora 7 → Glenn investigation) | ✅ CORROBORATED | D010 claim 4 + D013 claim 7 |
-| 3 | D008 (Apollo 12 medical) closes the in-cabin light-flash phenomenon as cosmic-ray phosphenes — same explanation later operationally confirmed by ALFMED on Apollo 16/17 (cf. R01 `NASA-D6`) | ❌ EXPLAINED | D008 claim 6 |
-| 4 | D009 (Apollo 17 in-flight) self-resolves the S-IVB particle-field observation as paint/ice chips via the crew's own real-time speculation | ❌ EXPLAINED | D009 claim 6 |
-| 5 | D010 + D011 are two AARO-coded segments of a single MA-9 mission's audio bundle, suggesting an AARO release-pipeline soft cap (~500 s) per asset; D008 at 470 s clusters near the same ceiling | ⚠ PARTIAL | duration metadata across cluster |
-| 6 | Carpenter's MA-7 claim that "some particles seemed to move faster than the Aurora 7 spacecraft itself" is the only Mercury-era claim that, if verified, would rule out co-orbital condensation attribution | ⚠ PARTIAL | D013 claim 5 |
-| 7 | Schirra's MA-8 "burst of light in the window" (D012) is the lone unresolved residual in the Mercury cluster — his own tentative sunset-terminator hypothesis is offered without confirmation | ⬜ UNRESOLVED | D012 claim 6 |
-| 8 | D014 (MR-4 recovery dye-pack audio) is the cluster's **negative-control case** — its inclusion despite the absence of UAP-phenomenology content probes AARO's curation threshold | 🟧 META-ANALYTIC | D014 claim 8 + open question 2 |
-| 9 | Glenn's MA-6 (Feb 1962) is missing from the cluster despite being the founding "fireflies" observation, suggesting AARO is not the original-holder for Glenn's voice loop or that AARO prioritised previously-undersurfaced material | ⚠ PARTIAL | absence-pattern analysis |
+| 1 | The R02 audio cluster D008–D014 spans 11 years (Jul 1961 – Dec 1972) across 5 distinct NASA crewed missions (MR-4, MA-7, MA-8, MA-9, Apollo 12, Apollo 17), with total audio runtime ~29.4 min<br/>**RU:** Аудиокластер R02 D008–D014 охватывает 11 лет (июл 1961 – дек 1972) по 5 различным пилотируемым миссиям NASA (MR-4, MA-7, MA-8, MA-9, Apollo 12, Apollo 17), с суммарным аудио ~29,4 мин | ✅ CORROBORATED | metadata of all 7 cards |
+| 2 | The Mercury "fireflies" lineage runs MA-6 (Glenn, not in PURSUE) → MA-7 (D013) → MA-8 (D012) → MA-9 (D010+D011) with explicit verbal terminology inheritance ("John's fireflies" callback in D010) and programmatic follow-up tasking (Aurora 7 → Glenn investigation)<br/>**RU:** Линия Mercury «светлячков» идёт MA-6 (Glenn, отсутствует в PURSUE) → MA-7 (D013) → MA-8 (D012) → MA-9 (D010+D011) с явным наследованием вербальной терминологии (отсылка «John's fireflies» в D010) и программной задачей последования (Aurora 7 → расследование Glenn) | ✅ CORROBORATED | D010 claim 4 + D013 claim 7 |
+| 3 | D008 (Apollo 12 medical) closes the in-cabin light-flash phenomenon as cosmic-ray phosphenes — same explanation later operationally confirmed by ALFMED on Apollo 16/17 (cf. R01 `NASA-D6`)<br/>**RU:** D008 (медицинский Apollo 12) закрывает феномен внутрикабинных вспышек света как фосфены от космических лучей — то же объяснение позже операционно подтверждено ALFMED на Apollo 16/17 (ср. R01 `NASA-D6`) | ❌ EXPLAINED | D008 claim 6 |
+| 4 | D009 (Apollo 17 in-flight) self-resolves the S-IVB particle-field observation as paint/ice chips via the crew's own real-time speculation<br/>**RU:** D009 (бортовой Apollo 17) самостоятельно разрешает наблюдение поля частиц вокруг S-IVB как краску/лёд через собственные реал-тайм-предположения экипажа | ❌ EXPLAINED | D009 claim 6 |
+| 5 | D010 + D011 are two AARO-coded segments of a single MA-9 mission's audio bundle, suggesting an AARO release-pipeline soft cap (~500 s) per asset; D008 at 470 s clusters near the same ceiling<br/>**RU:** D010 + D011 — два сегмента, кодированных AARO, из единого аудио-набора миссии MA-9, что предполагает мягкий потолок релизного конвейера AARO (~500 с) на актив; D008 на 470 с группируется рядом с тем же потолком | ⚠ PARTIAL | duration metadata across cluster |
+| 6 | Carpenter's MA-7 claim that "some particles seemed to move faster than the Aurora 7 spacecraft itself" is the only Mercury-era claim that, if verified, would rule out co-orbital condensation attribution<br/>**RU:** Утверждение Carpenter в MA-7 о том, что «некоторые частицы казались движущимися быстрее самого аппарата Aurora 7» — единственное Mercury-эра утверждение, которое, если бы подтвердилось, исключило бы атрибуцию ко-орбитальной конденсации | ⚠ PARTIAL | D013 claim 5 |
+| 7 | Schirra's MA-8 "burst of light in the window" (D012) is the lone unresolved residual in the Mercury cluster — his own tentative sunset-terminator hypothesis is offered without confirmation<br/>**RU:** «Вспышка света в окне» Schirra в MA-8 (D012) — единственный нерешённый остаток в кластере Mercury — его собственная предварительная гипотеза терминатора заката предложена без подтверждения | ⬜ UNRESOLVED | D012 claim 6 |
+| 8 | D014 (MR-4 recovery dye-pack audio) is the cluster's **negative-control case** — its inclusion despite the absence of UAP-phenomenology content probes AARO's curation threshold<br/>**RU:** D014 (аудио пакета красителя при спасении MR-4) — **негативно-контрольный случай** кластера — его включение несмотря на отсутствие UAP-феноменологического содержания зондирует порог курации AARO | 🟧 META-ANALYTIC | D014 claim 8 + open question 2 |
+| 9 | Glenn's MA-6 (Feb 1962) is missing from the cluster despite being the founding "fireflies" observation, suggesting AARO is not the original-holder for Glenn's voice loop or that AARO prioritised previously-undersurfaced material<br/>**RU:** MA-6 Glenn (фев 1962) отсутствует в кластере несмотря на то, что является учредительным наблюдением «светлячков», что предполагает: AARO не является исходным держателем голосовой петли Glenn, либо AARO приоритизировала ранее не всплывавший материал | ⚠ PARTIAL | absence-pattern analysis |
 
 ## Cross-archive linkages / Связи с другими архивами
 
@@ -123,8 +123,16 @@ This makes the combined R01+R02 NASA UAP corpus a **13-year continuous record** 
   - D008 (Apollo 12 medical) ↔ R01 `NASA-D1` (Apollo 12 voice transcript), `NASA-VM1`–`VM5` (Apollo 12 images), `NASA-D4` (Apollo 11 Aldrin founding flash account), `NASA-D6` (Apollo 17 Schmitt flash debrief), `NASA-D7` (Skylab flashes + SAA)
   - D009 (Apollo 17 in-flight) ↔ R01 `NASA-D2` (Apollo 17 voice transcript Block 1, S-IVB particle field), `NASA-D5`/`D6` (Apollo 17 debriefs), `NASA-VM6` (Apollo 17 triangular formation — active DoW case)
   - D010–D013 (Mercury fireflies) ↔ R01 `NASA-GEMINI-AUDIO` / `NASA-D3` (Gemini 7 trillions-of-particles booster field) — same spacecraft-shed-particle phenomenology family
+
+  **RU:** **Кластер R01 NASA:** этот R02-кластер явно спроектирован, чтобы расширить R01-тематику назад до 1961 года, и предоставляет аудио-канальных компаньонов нескольким R01-записям. Карта кросс-связей: D008 (медицинский Apollo 12) ↔ R01 `NASA-D1`/`VM1–VM5`/`D4`/`D6`/`D7`; D009 (бортовой Apollo 17) ↔ R01 `NASA-D2`/`D5`/`D6`/`VM6`; D010–D013 (Mercury-светлячки) ↔ R01 `NASA-GEMINI-AUDIO`/`NASA-D3` — то же семейство феноменологии «частиц, сброшенных аппаратом».
+
 - **`osint-intelligence-analysis`:** Validation pipeline relevance is high — the cluster includes the rare templates for: (a) directed-corroboration investigation framework (Aurora 7 → Glenn follow-up, D013), (b) crew-self-attributed deployed-hardware (D011 beacons), (c) crew-self-attributed spacecraft-shed (D012, D009), and (d) negative-control AARO curation probe (D014). All four are useful methodology templates beyond the NASA corpus.
+
+  **RU:** **`osint-intelligence-analysis`:** Релевантность для валидационного конвейера высокая — кластер включает редкие шаблоны для: (a) направленной коррборационной расследовательской рамки (Aurora 7 → следование Glenn, D013), (b) приписанного экипажем развёрнутого оборудования (маяки D011), (c) приписанного экипажем shed-материала аппарата (D012, D009), и (d) негативно-контрольного зонда курации AARO (D014). Все четыре — полезные методологические шаблоны за пределами NASA-корпуса.
+
 - **`bob-lazar-archive`:** Tangentially relevant only — Lazar's S-4 claims are independent of Mercury/Apollo-era phenomenology. No substantive overlap.
+
+  **RU:** **`bob-lazar-archive`:** Лишь тангенциально релевантно — претензии Лазара по S-4 независимы от феноменологии эпохи Mercury/Apollo. Существенного пересечения нет.
 
 ## Open questions / Открытые вопросы
 
@@ -151,8 +159,25 @@ This makes the combined R01+R02 NASA UAP corpus a **13-year continuous record** 
 ## Notes / Замечания
 
 - This synthesis is **explicitly the R02 backward extension** of [`era-1965-1974-nasa-spaceflight.md`](era-1965-1974-nasa-spaceflight.md). The decision to write a separate companion file rather than modify the R01 topical was made for cleaner provenance and easier diff review; future analysts wanting the full NASA-UAP picture should read both files together.
+
+  **RU:** Этот синтез — **явно R02-обратное расширение** [`era-1965-1974-nasa-spaceflight.md`](era-1965-1974-nasa-spaceflight.md). Решение написать отдельный компаньон-файл вместо модификации R01-тематики принято для более чистого провенанса и более лёгкого ревью диффа; будущие аналитики, желающие полной NASA-UAP-картины, должны читать оба файла вместе.
+
 - The R02 D-series numbering is **publication-order, not mission-chronology**: D014 is the earliest mission (1961) but the highest-numbered code; D008 is mid-cluster by date (1969) but the lowest-numbered code. This mismatch is purely an AARO release-bookkeeping artifact.
+
+  **RU:** Нумерация R02 D-серии — **порядок публикации, а не хронология миссий**: D014 — самая ранняя миссия (1961), но наивысший по номеру код; D008 — середина кластера по дате (1969), но наименьший по номеру код. Это рассогласование — чисто артефакт релизной бухгалтерии AARO.
+
 - Schirra is the cross-cluster anchor: he is the only person to fly Mercury, Gemini, and Apollo missions, and is the only PURSUE-relevant pilot appearing in both the R02 Mercury "fireflies/lathe-shavings" cluster (D012) and the R01 Gemini operational window (Gemini 6A, the spacecraft explicitly **eliminated** as bogey candidate per R01 `NASA-D3` claim 12).
+
+  **RU:** Schirra — кросс-кластерный якорь: единственный человек, летавший в миссиях Mercury, Gemini и Apollo, и единственный PURSUE-релевантный пилот, появляющийся как в R02-Mercury-кластере «светлячки/стружка» (D012), так и в R01-Gemini операционном окне (Gemini 6A, аппарат, явно **исключённый** как кандидат-bogey согласно R01 `NASA-D3` claim 12).
+
 - Bean is the second cross-program anchor: Apollo 12 (D008 + R01 `NASA-D1`) and Skylab 3 (R01 `NASA-D7`) — the only PURSUE-relevant astronaut to appear in both Apollo and Skylab phosphene records.
+
+  **RU:** Bean — второй кросс-программный якорь: Apollo 12 (D008 + R01 `NASA-D1`) и Skylab 3 (R01 `NASA-D7`) — единственный PURSUE-релевантный астронавт, появляющийся как в Apollo, так и в Skylab фосфеновых записях.
+
 - Grissom (D014) is the only Mercury Seven astronaut to die on duty (Apollo 1 fire, Jan 27, 1967); his MR-4 is his only completed spaceflight in the PURSUE corpus.
+
+  **RU:** Grissom (D014) — единственный астронавт «Mercury Seven», погибший при исполнении (пожар Apollo 1, 27 янв 1967); его MR-4 — единственный завершённый космический полёт в корпусе PURSUE.
+
 - The 1,764 s of audio in this cluster represents the **largest single batch of NASA pilot voice-channel material in the PURSUE corpus to date**. With Whisper v0.2.1 transcripts in hand, the cluster becomes the analytically richest NASA block in the release.
+
+  **RU:** 1764 с аудио в этом кластере представляют **крупнейшую единичную партию голос-канального материала пилотов NASA в корпусе PURSUE на сегодня**. С Whisper v0.2.1-транскриптами в руках кластер становится аналитически богатейшим NASA-блоком в релизе.
