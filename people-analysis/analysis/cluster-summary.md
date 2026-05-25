@@ -48,6 +48,10 @@ Cross-cutting view of the eleven scientist cases now consolidated under FBI inve
 
 **RU:** Два кластера доминируют в институциональном срезе: **JPL (3)** и **Лос-Аламос (2)**. Остальные распределены по одному учреждению на кейс, но множество аффилиаций в целом однородно — ядерные, двигательные, плазменные, астрофизические объекты и объекты, выпускающие компоненты вооружений высшего класса. Это уже заметная особенность: в одиннадцати нет, например, ни одного представителя чистой математики или несмежных направлений наук о жизни.
 
+**EN: R02 update (PURSUE 2026-05-22).** The R02 NM nuclear-weapons-complex cluster (DOE-UAP-D001 Pantex modern + DOE-UAP-D002 James Tuck LANL 1976 + DOE-UAP-D003 Pajarito Astronomers LANL 1986 + DOW-UAP-D017 Sandia Green Fireballs 1948–1950) extends the institutional UAP-engagement timeline 49 years backward on the same `inst-lanl` / `inst-sandia` institutions that carry the 2025 cluster disappearances of Melisia Cassias and Anthony Chavez. The continuous documented timeline now spans 1948 → 2025 (78 years) at the New Mexico nuclear-weapons complex. See [`../../war-gov-pursue-archive/analysis/topical/r02-nm-nuclear-complex-1948-1986.md`](../../war-gov-pursue-archive/analysis/topical/r02-nm-nuclear-complex-1948-1986.md).
+
+**RU: Обновление R02 (PURSUE 2026-05-22).** Кластер ядерно-оружейного комплекса Нью-Мексико из R02 (DOE-UAP-D001 Пантекс современный + DOE-UAP-D002 Джеймс Так LANL 1976 + DOE-UAP-D003 Pajarito Astronomers LANL 1986 + DOW-UAP-D017 Sandia Green Fireballs 1948–1950) продлевает институциональную хронологию UAP-вовлечённости на 49 лет назад по тем же институтам `inst-lanl` / `inst-sandia`, которые несут исчезновения 2025 г. в кластере — Мелисия Кассиас и Энтони Чавес. Непрерывная задокументированная хронология теперь охватывает 1948 → 2025 (78 лет) в нью-мексиканском ядерно-оружейном комплексе. См. [`../../war-gov-pursue-archive/analysis/topical/r02-nm-nuclear-complex-1948-1986.md`](../../war-gov-pursue-archive/analysis/topical/r02-nm-nuclear-complex-1948-1986.md).
+
 ---
 
 ## Time pattern / Временной паттерн

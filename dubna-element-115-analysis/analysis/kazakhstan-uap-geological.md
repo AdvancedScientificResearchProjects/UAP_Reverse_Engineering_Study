@@ -48,6 +48,10 @@
 | 4 | 1973 CIA report on a Kazakhstan UFO incident. / Отчёт ЦРУ 1973 года об инциденте с НЛО в Казахстане. | CIA.gov declassified document |
 | 5 | The Kapustin Yar range extends into the territory of the former Kazakh SSR; its "Russia's Area 51" framing in Western press applies to both sides of the border. / Полигон Капустин Яр уходит на территорию бывшей Казахской ССР; западная пресса применяет к нему формулировку «русская Зона 51» по обе стороны границы. | Western press; primary-source geolocation |
 
+**EN: R02 update (2026-05-22).** The 2022 IIR `DOW-UAP-PR072` (Karaganda area, see [`../war-gov-pursue-archive/analysis/per-document/DOW-UAP-PR072.md`](../../war-gov-pursue-archive/analysis/per-document/DOW-UAP-PR072.md)) extends the Kazakhstan UAP corpus into the 2020s. R02 PR072 carries provenance flags "ADMINISTRATIVE REVISION" and "digitally altered before upload" — caution applies to direct cross-archive equivalence with earlier non-flagged Kazakhstan field reports.
+
+**RU: Обновление R02 (2026-05-22).** IIR `DOW-UAP-PR072` 2022 г. (район Караганды, см. [`../war-gov-pursue-archive/analysis/per-document/DOW-UAP-PR072.md`](../../war-gov-pursue-archive/analysis/per-document/DOW-UAP-PR072.md)) расширяет казахстанский UAP-корпус в 2020-е. R02 PR072 несёт провенансные флаги «ADMINISTRATIVE REVISION» и «digitally altered before upload» — осторожность применима к прямой межархивной эквивалентности с более ранними неотмеченными казахстанскими полевыми отчётами.
+
 ---
 
 ## 4. What the public record does NOT support / Чего публичный архив НЕ подтверждает

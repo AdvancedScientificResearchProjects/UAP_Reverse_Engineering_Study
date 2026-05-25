@@ -424,3 +424,28 @@ C("inst-odni-pursue", "hyp-odni-fbi-photo-pairing", "anchors (subject institutio
 C("ev-usper-orange-orb-2025", "pj-uap", "active-investigation (PURSUE R02)", direction="directed")
 C("ev-pantex-radar-incident", "pj-uap", "active-investigation (PURSUE R02)", direction="directed")
 C("ev-sandia-green-fireballs-1948-1950", "pj-uap", "active-investigation (PURSUE R02)", direction="directed")
+
+# ----- Cross-archive edges to sibling archive entities -----------------
+# Group 1 — Sandia / Pantex → scientists-11 cluster (Track 6)
+C("inst-sandia", "cluster-fbi-11", "member-of (NM nuclear-complex UAP-engagement institution, shared with Track 6 scientists-11 cluster)", direction="directed")
+C("inst-pantex", "cluster-fbi-11", "related-to (DOE NNSA modern UAP record, CNS LLC corporate-overlay relevance)", direction="directed")
+
+# Group 2 — ODNI USPER orange-orb 2025 → sibling-archive person nodes
+C("ev-usper-orange-orb-2025", "p-lazar", "related-to (orb-morphology and US-weapons-test-range geographic-class parallel, 4 decades apart; navigational pointer only)", direction="undirected")
+C("ev-usper-orange-orb-2025", "p-gershtein", "related-to (Soviet 'fiery flowers' and orb-formation morphology parallel; gershtein-archive plasma-phenomena methodological cross-reference)", direction="undirected")
+
+# Group 3 — LLNL → DOE PURSUE
+C("inst-llnl", "inst-doe-pursue", "member-of (DOE national laboratory, JINR-Dubna element-115 synthesis collaborator)", direction="directed")
+
+# Group 4 — Soviet nuclear-complex parallel (Chernobrov)
+C("ev-sandia-green-fireballs-1948-1950", "phen-cb-three-star-ufo", "structurally-parallels (US-Soviet nuclear-weapons-complex UAP encounter pattern; Sandia 1948-50 ↔ Arzamas-16/VNIIEF vanishing 2001)", direction="undirected")
+C("ev-pantex-radar-incident", "phen-cb-three-star-ufo", "structurally-parallels (nuclear-weapons-complex UAP encounter)", direction="undirected")
+C("ev-kazakhstan-pr072-2022", "src-cb-b-hron03", "related-to (Soviet-era Kazakhstan UAP corpus parallel: 1956 watch-stop, 1979 humanoid, 1992 Karaganda physical-trace spheres; R02 PR072 carries 'ADMINISTRATIVE REVISION' + 'digitally altered' provenance flags that the Chernobrov cases do not)", direction="undirected")
+
+# Group 5 — Mercury-Apollo cosmonaut suppression parallel (Chernobrov B-EUFO §10.7)
+C("ev-ma9-fireflies-1963", "src-cb-b-eufo", "structurally-parallels (crewed-spaceflight crew anomalous observations with documented organizational suppression; B-EUFO §10.7 ФСС MIR cosmonaut subjective-time compression)", direction="undirected")
+
+# Group 6 — Plasma phenomena cluster (Theme 5)
+# Edge 10 SKIPPED: phen-cb-time-anomaly description references only time-rate shifts and Lovondatr-measured deviations,
+# no plasma-class observations are mentioned. Per task constraint, this edge is omitted.
+C("ev-tuck-correspondence-1976", "src-cb-b-eufo", "methodological-parallel (Soviet ball-lightning research literature parallel; Tuck 1976 LANL atmospheric-vortex + Condon Report ↔ Kapitsa-era Pravda Severa 1972 + Tekhnika Molodyozhi 1982 №4 per Gershtein INT-SHAROVYE-MOLNII-1)", direction="undirected")

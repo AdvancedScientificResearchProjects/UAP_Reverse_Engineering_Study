@@ -11307,6 +11307,66 @@
       "direction": "directed"
     },
     {
+      "from": "inst-sandia",
+      "to": "cluster-fbi-11",
+      "type": "member-of (NM nuclear-complex UAP-engagement institution, shared with Track 6 scientists-11 cluster)",
+      "direction": "directed"
+    },
+    {
+      "from": "inst-pantex",
+      "to": "cluster-fbi-11",
+      "type": "related-to (DOE NNSA modern UAP record, CNS LLC corporate-overlay relevance)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "p-lazar",
+      "type": "related-to (orb-morphology and US-weapons-test-range geographic-class parallel, 4 decades apart; navigational pointer only)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-usper-orange-orb-2025",
+      "to": "p-gershtein",
+      "type": "related-to (Soviet 'fiery flowers' and orb-formation morphology parallel; gershtein-archive plasma-phenomena methodological cross-reference)",
+      "direction": "undirected"
+    },
+    {
+      "from": "inst-llnl",
+      "to": "inst-doe-pursue",
+      "type": "member-of (DOE national laboratory, JINR-Dubna element-115 synthesis collaborator)",
+      "direction": "directed"
+    },
+    {
+      "from": "ev-sandia-green-fireballs-1948-1950",
+      "to": "phen-cb-three-star-ufo",
+      "type": "structurally-parallels (US-Soviet nuclear-weapons-complex UAP encounter pattern; Sandia 1948-50 ↔ Arzamas-16/VNIIEF vanishing 2001)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-pantex-radar-incident",
+      "to": "phen-cb-three-star-ufo",
+      "type": "structurally-parallels (nuclear-weapons-complex UAP encounter)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-kazakhstan-pr072-2022",
+      "to": "src-cb-b-hron03",
+      "type": "related-to (Soviet-era Kazakhstan UAP corpus parallel: 1956 watch-stop, 1979 humanoid, 1992 Karaganda physical-trace spheres; R02 PR072 carries 'ADMINISTRATIVE REVISION' + 'digitally altered' provenance flags that the Chernobrov cases do not)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-ma9-fireflies-1963",
+      "to": "src-cb-b-eufo",
+      "type": "structurally-parallels (crewed-spaceflight crew anomalous observations with documented organizational suppression; B-EUFO §10.7 ФСС MIR cosmonaut subjective-time compression)",
+      "direction": "undirected"
+    },
+    {
+      "from": "ev-tuck-correspondence-1976",
+      "to": "src-cb-b-eufo",
+      "type": "methodological-parallel (Soviet ball-lightning research literature parallel; Tuck 1976 LANL atmospheric-vortex + Condon Report ↔ Kapitsa-era Pravda Severa 1972 + Tekhnika Molodyozhi 1982 №4 per Gershtein INT-SHAROVYE-MOLNII-1)",
+      "direction": "undirected"
+    },
+    {
       "from": "phen-mc115",
       "to": "hyp-lazar-s4",
       "type": "central-claim-of",
