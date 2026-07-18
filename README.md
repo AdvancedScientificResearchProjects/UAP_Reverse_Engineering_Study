@@ -644,7 +644,7 @@ This research operates at the boundary of known science, experimental methodolog
 
 **Last Updated / Последнее обновление:** July 2026
 **Version / Версия:** 3.0 (Hub structure / Структура хаба)
-**Status / Статус:** ACTIVE / АКТИВЕН — findings preliminary and subject to validation / результаты предварительные и подлежат валидации
+**Status / Статус:** ACTIVE / АКТИВЕН
 
 ---
 
