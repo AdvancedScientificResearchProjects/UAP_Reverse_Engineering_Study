@@ -14,8 +14,12 @@
 
 **Organization / Организация:** Advanced Scientific Research Projects (ASRP)
 
+**Part of Advanced Scientific Research Projects (ASRP) Ecosystem**
+**Часть экосистемы ASRP**
+
 [![ASRP](https://img.shields.io/badge/ASRP-Research-blue)](https://github.com/AdvancedScientificResearchProjects)
-[![Language](https://img.shields.io/badge/Language-EN%2F%2FRU-brightgreen)]()
+[![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)]()
+![Status](https://img.shields.io/badge/Status-Active%2FPreliminary-yellow)
 [![Mode](https://img.shields.io/badge/Mode-Hub-informational)]()
 
 </div>
@@ -545,6 +549,24 @@ UAP_Reverse_Engineering_Study/
 
 ---
 
+## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
+
+**No patent filing yet — this study is exploratory.** ASRP's UAP reverse-engineering research is an open, exploratory program (multi-pipeline artifact analysis, archival corpora, OSINT methodology, public-source consolidation) and is **not** tied to any Kazpatent filing. The patents that appear elsewhere in this repository figure only as **research data**, never as this study's intellectual property:
+
+- **Track 7** inventories **11 external inventors' patents** as a public-source analytical corpus about the defense-prime constellation — these are third-party patents being *studied*, not ASRP filings.
+- The **Patent Portfolio** table below lists **sibling ASRP studies'** patents (Fractal Biomedical System, ASRP.art, ASRP.drift, GFS) as ecosystem references — none of them is the IP basis for this UAP study.
+
+| Patent / Патент | Application / Заявка | Link / Ссылка |
+|-------------------|-------------------------|------------------|
+| _None yet — exploratory research / Пока нет — поисковое исследование_ | — | — |
+
+**Патентной заявки пока нет — исследование поисковое.** Исследование ASRP по реверс-инжинирингу UAP — открытая поисковая программа (мульти-конвейерный анализ артефакта, архивные корпусы, OSINT-методология, консолидация на публичных источниках) и **не** привязана ни к какой заявке в Казпатенте. Патенты, упомянутые в этом репозитории, фигурируют только как **исследовательские данные**, а не как интеллектуальная собственность данного исследования:
+
+- **Трек 7** инвентаризирует **патенты 11 внешних изобретателей** как публично-источниковый аналитический корпус о созвездии prime-подрядчиков — это сторонние патенты, которые *изучаются*, а не заявки ASRP.
+- Таблица **Патентного портфеля** ниже перечисляет патенты **родственных исследований ASRP** (Фрактальная биомедицинская система, ASRP.art, ASRP.drift, ГСП) как ссылки экосистемы — ни один из них не является ИС-базой данного UAP-исследования.
+
+---
+
 ## ASRP ECOSYSTEM / ЭКОСИСТЕМА ASRP
 
 <div align="center">
@@ -620,8 +642,9 @@ This research operates at the boundary of known science, experimental methodolog
 
 ---
 
+**Last Updated / Последнее обновление:** July 2026
 **Version / Версия:** 3.0 (Hub structure / Структура хаба)
-**Status / Статус:** ACTIVE / АКТИВЕН
+**Status / Статус:** ACTIVE / АКТИВЕН — findings preliminary and subject to validation / результаты предварительные и подлежат валидации
 
 ---
 
@@ -635,4 +658,4 @@ This research operates at the boundary of known science, experimental methodolog
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Research Tracks / Треки](#research-tracks--исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1--трек-1--artifact-investigation-uap-frag-001--исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2--трек-2--bob-lazar-archive--архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3--трек-3--vadim-chernobrov-archive--архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4--трек-4--dubna--element-115--дубна--элемент-115) · [Track 5 — OSINT](#track-5--трек-5--osint--intelligence-analysis--osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6--трек-6--people-analysis--анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7--трек-7--corporate--economic-analysis--корпоративный--экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез) · [Track 10 — Gershtein](#track-10--трек-10--gershtein-archive--архив-герштейна) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#corporate-contact--корпоративные-контакты) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
+[Overview / Обзор](#overview--обзор) · [Research Tracks / Треки](#research-tracks--исследовательские-треки) · [Track 1 — Artifact / Артефакт](#track-1--трек-1--artifact-investigation-uap-frag-001--исследование-артефакта-uap-frag-001) · [Track 2 — Lazar / Лазар](#track-2--трек-2--bob-lazar-archive--архив-боба-лазара) · [Track 3 — Chernobrov / Чернобров](#track-3--трек-3--vadim-chernobrov-archive--архив-вадима-черноброва) · [Track 4 — Dubna / Дубна](#track-4--трек-4--dubna--element-115--дубна--элемент-115) · [Track 5 — OSINT](#track-5--трек-5--osint--intelligence-analysis--osint-и-разведывательный-анализ) · [Track 6 — People / Люди](#track-6--трек-6--people-analysis--анализ-людей) · [Track 7 — Corporate / Корпоративный](#track-7--трек-7--corporate--economic-analysis--корпоративный--экономический-анализ) · [Track 8 — Synthesis / Синтез](#track-8--трек-8--cross-archive-synthesis--кросс-архивный-синтез) · [Track 9 — Publications / Публикации](#track-9--трек-9--uap-scientific-publications-corpus--корпус-научных-публикаций-по-uap) · [Track 10 — Gershtein / Герштейн](#track-10--трек-10--gershtein-archive--архив-герштейна) · [Track 11 — PURSUE](#track-11--трек-11--pursue-declassification--рассекречивание-pursue) · [Team / Команда](#research-team--исследовательская-команда) · [Structure / Структура](#structure--структура) · [Pipelines / Конвейеры](#research-pipelines--исследовательские-конвейеры) · [Security / Безопасность](#security--безопасность) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#corporate-contact--корпоративные-контакты) · [Disclaimer / Отказ](#disclaimer--отказ-от-ответственности)
